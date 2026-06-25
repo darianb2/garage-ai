@@ -131,7 +131,7 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 ### 5.3 Polish
 - [x] Add favicon (amber wrench SVG)
 - [x] Add meta tags for SEO and social sharing (per-car og:title + description overrides)
-- [ ] Write a real README.md (project overview, run instructions, architecture)
+- [x] Write a real README.md (overview, features, run instructions, architecture, deploy)
 - [ ] Add a "suggest a car" form (sends to a log or email)
 - [ ] Google Analytics or simple hit counter
 
@@ -160,8 +160,8 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 5 — Production Deployment (5.1 done; 5.3 favicon+meta done)
-**Next task:** Write a real README.md — overview, architecture, run instructions (CLI + web), deploy steps.
+**Current active phase:** Phase 5 — Production Deployment (5.1 done; favicon/meta/README done)
+**Next task:** Add a "suggest a car" form — POST endpoint that logs suggestions to a file, plus a small form on the homepage (Phase 5.3).
 NOTE: 5.2 deploy (git push to GitHub + Railway) needs the user's credentials — blocked until the
 user is available. Everything else in Phase 5 can be finished now, leaving deploy as the last manual step.
 
