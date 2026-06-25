@@ -5,6 +5,8 @@
 ```
 garage-ai/
 ├── main.py              # CLI app — car data + lookup logic
+│                        #   funcs: display_car(), find_matches(), list_cars()
+│                        #   features: startup listing, case-insensitive + partial search
 ├── MASTERPLAN.md        # Roadmap, phases, task checklist
 ├── INDEX.md             # This file
 ├── README.md            # Project overview

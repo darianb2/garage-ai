@@ -608,14 +608,9 @@ cars = {
     },
 }
 
-choice = input("What car are you researching? ")
-car = cars.get(choice)
-
-if car is None:
-    print("I don't have data on that car yet.")
-else:
+def display_car(name, car):
     print(f"\n{'=' * 40}")
-    print(f"  {choice}")
+    print(f"  {name}")
     print(f"{'=' * 40}")
     print(f"  Engine:       {car['engine']}")
     print(f"  Horsepower:   {car['horsepower']} hp")
@@ -642,3 +637,35 @@ else:
     print(f"\n  Popular Mods:")
     for mod in car["popular_mods"]:
         print(f"    - {mod}")
+
+
+def find_matches(query, cars):
+    """Return matching car names: exact (case-insensitive) wins, else substring matches."""
+    q = query.strip().lower()
+    if not q:
+        return []
+    for name in cars:
+        if name.lower() == q:
+            return [name]
+    return [name for name in cars if q in name.lower()]
+
+
+def list_cars(cars):
+    print(f"\nI have data on {len(cars)} cars:")
+    for name in cars:
+        print(f"  - {name}")
+
+
+list_cars(cars)
+choice = input("\nWhat car are you researching? (type a name, or part of one) ")
+matches = find_matches(choice, cars)
+
+if not matches:
+    print(f"\nI don't have data on '{choice.strip()}' yet.")
+elif len(matches) == 1:
+    display_car(matches[0], cars[matches[0]])
+else:
+    print(f"\nFound {len(matches)} matches for '{choice.strip()}':")
+    for name in matches:
+        print(f"  - {name}")
+    print("\nType the full name to see full details on one.")
