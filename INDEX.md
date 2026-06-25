@@ -8,8 +8,10 @@ garage-ai/
 │                        #   routes: / (homepage), /car/<name> (detail),
 │                        #           /api/cars, /api/car/<name>, /api/search
 ├── templates/
-│   ├── index.html       # homepage — search bar + live-filtered car grid
-│   └── car.html         # detail page — all 16 fields + generations/issues/tips/mods
+│   ├── index.html       # homepage — Tailwind dark theme, search + responsive card grid
+│   └── car.html         # detail page — all 16 fields (Tailwind restyle pending in 4.3)
+├── static/
+│   └── custom.css       # small overrides layered on Tailwind (CDN)
 ├── requirements.txt     # Python deps (Flask)
 ├── main.py              # CLI app — lookup/display/compare/filter logic (loads data via loader)
 │                        #   funcs: display_car(), find_matches(), list_cars(),

@@ -1,0 +1,4 @@
+/* Custom overrides layered on top of Tailwind (loaded via CDN). */
+html {
+  scroll-behavior: smooth;
+}

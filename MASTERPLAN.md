@@ -91,13 +91,13 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 ## Phase 4 — Frontend (HTML + CSS + Tailwind)
 
 ### 4.1 Setup Tailwind
-- [ ] Add Tailwind CSS via CDN (no build step needed initially)
-- [ ] Create `static/` directory for CSS and assets
+- [x] Add Tailwind CSS via CDN (no build step needed initially)
+- [x] Create `static/` directory for CSS and assets (static/custom.css)
 
 ### 4.2 Homepage
-- [ ] Search bar (large, centered)
-- [ ] Grid of car cards showing name + horsepower
-- [ ] Mobile responsive layout
+- [x] Search bar (large)
+- [x] Grid of car cards showing name + horsepower (dark theme, amber accents)
+- [x] Mobile responsive layout (1 / 2 / 3 columns)
 
 ### 4.3 Car Detail Page
 - [ ] Hero section: car name, engine, hp, torque, 0-60
@@ -158,8 +158,8 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 4 — Frontend (Tailwind) — Phase 3 COMPLETE
-**Next task:** Add Tailwind CSS via CDN + create static/ dir; begin restyling templates (Phase 4.1)
+**Current active phase:** Phase 4 — Frontend (Tailwind) — 4.1 + homepage done
+**Next task:** Restyle car.html detail page with the dark theme — hero section, sectioned layout, oil card (Phase 4.3)
 
 > Run the web app: `./.venv/bin/python app.py` → http://localhost:5000
 
