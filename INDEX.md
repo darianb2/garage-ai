@@ -6,9 +6,10 @@
 garage-ai/
 ├── main.py              # CLI app — car data + lookup logic
 │                        #   funcs: display_car(), find_matches(), list_cars(),
-│                        #          parse_comparison(), compare_cars(), resolve_one()
+│                        #          parse_comparison(), compare_cars(), resolve_one(),
+│                        #          parse_filter(), show_filter()
 │                        #   features: startup listing, case-insensitive + partial search,
-│                        #             'A vs B' side-by-side comparison
+│                        #             'A vs B' comparison, drivetrain/hp filtering
 ├── MASTERPLAN.md        # Roadmap, phases, task checklist
 ├── INDEX.md             # This file
 ├── README.md            # Project overview
@@ -62,7 +63,7 @@ garage-ai/
 
 | Phase | Focus | Status |
 |---|---|---|
-| 1 | CLI expansion — more cars, more data | 🔄 In Progress |
+| 1 | CLI expansion — more cars, more data | ✅ Complete |
 | 2 | Data architecture — JSON files + loader | ⬜ Not Started |
 | 3 | Flask web backend + API | ⬜ Not Started |
 | 4 | Frontend — HTML/CSS/Tailwind | ⬜ Not Started |

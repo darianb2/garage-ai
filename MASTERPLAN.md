@@ -11,7 +11,7 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 1 — CLI Expansion (Python) ✅ In Progress
+## Phase 1 — CLI Expansion (Python) ✅ COMPLETE
 
 ### 1.1 Data Depth
 - [x] Core specs (engine, hp, torque, drivetrain, transmission, 0-60)
@@ -48,7 +48,7 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 - [x] Case-insensitive search (type "civic si" not "Honda Civic Si")
 - [x] Partial name matching (type "q50" to see all Q50 variants)
 - [x] Compare two cars side-by-side
-- [ ] Filter by drivetrain, price range, or horsepower
+- [x] Filter by drivetrain, price range, or horsepower (drivetrain + hp done; price needs an MSRP field — deferred)
 
 ---
 
@@ -157,8 +157,8 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 1 — CLI Expansion (1.1 + 1.2 done; 1.3 nearly done)
-**Next task:** Add filtering by drivetrain / horsepower (last item of Phase 1.3)
+**Current active phase:** Phase 2 — Data Architecture (Phase 1 COMPLETE)
+**Next task:** Move each car from main.py into data/cars/*.json + write loader.py (Phase 2.1)
 
 ---
 

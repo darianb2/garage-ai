@@ -704,15 +704,62 @@ def resolve_one(query, cars):
     return None
 
 
+def parse_filter(query):
+    """Return ('drivetrain', VALUE) or ('hp', op, number), else None."""
+    q = re.sub(r"^filter\s+", "", query.strip().lower())
+    if q in ("fwd", "rwd", "awd"):
+        return ("drivetrain", q.upper())
+    m = re.search(r"(>=|<=|>|<)\s*(\d+)", q)
+    if m:
+        return ("hp", m.group(1), int(m.group(2)))
+    m = re.search(r"(\d+)\s*\+", q)
+    if m:
+        return ("hp", ">=", int(m.group(1)))
+    m = re.search(r"\bover\s+(\d+)", q)
+    if m:
+        return ("hp", ">", int(m.group(1)))
+    m = re.search(r"\bunder\s+(\d+)", q)
+    if m:
+        return ("hp", "<", int(m.group(1)))
+    return None
+
+
+def show_filter(spec, cars):
+    if spec[0] == "drivetrain":
+        target = spec[1]
+        results = [(n, cars[n]["drivetrain"]) for n in cars if target in cars[n]["drivetrain"].upper()]
+        print(f"\nCars with {target} drivetrain ({len(results)}):")
+        for name, dt in results:
+            print(f"  - {name}  ({dt})")
+    else:
+        op, num = spec[1], spec[2]
+        ops = {">": lambda a, b: a > b, "<": lambda a, b: a < b,
+               ">=": lambda a, b: a >= b, "<=": lambda a, b: a <= b}
+        cmp = ops[op]
+        results = sorted(
+            [(n, cars[n]["horsepower"]) for n in cars if cmp(cars[n]["horsepower"], num)],
+            key=lambda x: -x[1],
+        )
+        print(f"\nCars with horsepower {op} {num} ({len(results)}):")
+        for name, hp in results:
+            print(f"  - {name}  ({hp} hp)")
+    if not results:
+        print("  (no cars match)")
+
+
 list_cars(cars)
-choice = input("\nWhat car are you researching? (a name, part of one, or 'A vs B' to compare) ")
+choice = input("\nWhat car are you researching? (a name, 'A vs B', or a filter like 'awd' / 'over 400 hp') ")
 
 comparison = parse_comparison(choice)
+filter_spec = None if comparison else parse_filter(choice)
+
 if comparison:
     n1 = resolve_one(comparison[0], cars)
     n2 = resolve_one(comparison[1], cars)
     if n1 and n2:
         compare_cars(n1, cars[n1], n2, cars[n2])
+elif filter_spec:
+    show_filter(filter_spec, cars)
 else:
     matches = find_matches(choice, cars)
     if not matches:
