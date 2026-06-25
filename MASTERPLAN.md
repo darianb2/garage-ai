@@ -41,7 +41,7 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 - [x] Mazda MX-5 Miata (NA, NB, NC, ND)
 - [x] Toyota Supra (A90)
 - [x] Volkswagen Golf GTI (Mk7, Mk8)
-- [ ] Chevrolet Camaro SS
+- [x] Chevrolet Camaro SS
 
 ### 1.3 CLI UX
 - [ ] List all available cars on startup
@@ -157,8 +157,8 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 1 — CLI Expansion (1.1 Data Depth complete; 1.2 More Cars next)
-**Next task:** Add Chevrolet Camaro SS with full data (final car in Phase 1.2)
+**Current active phase:** Phase 1 — CLI Expansion (1.1 + 1.2 complete; 1.3 CLI UX next)
+**Next task:** List all available cars on startup (first item of Phase 1.3 CLI UX)
 
 ---
 

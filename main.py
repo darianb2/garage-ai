@@ -568,6 +568,44 @@ cars = {
             "Use VW 504.00 oil and shorten the LongLife interval to 5-7.5k",
         ],
     },
+    "Chevrolet Camaro SS": {
+        "engine": "6.2L V8 (LT1)",
+        "horsepower": 455,
+        "torque": "455 lb-ft",
+        "drivetrain": "RWD",
+        "transmission": "6-speed manual / 8-10-speed automatic",
+        "0_to_60": "4.0 sec",
+        "fuel_economy": "16 city / 24 hwy mpg",
+        "curb_weight": "3,685 lbs",
+        "reliability": "7/10 — strong LT1 V8, but auto cars' AFM lifters and early 8-speed shudder are real risks",
+        "cost_to_own": "Insurance: High (V8 muscle) · Maintenance ~$585/yr",
+        "popular_mods": [
+            "Cold air intake + long-tube headers + tune (LT1 responds well NA)",
+            "Supercharger (Magnuson / Whipple) for 600+ whp",
+            "Catback / axleback exhaust",
+            "1LE-style suspension, lowering springs, sway bars",
+            "Drag radials / sticky tires; AFM-delete tune on autos",
+        ],
+        "oil_type": "0W-40 full synthetic (dexos)",
+        "oil_interval": "Every 7,500 miles (5,000 for track/spirited use)",
+        "generations": {
+            "1st–4th Gen (1967–2002)": "Classic muscle era through the LS1 fourth gen. Discontinued in 2002.",
+            "5th Gen (2010–2015)": "Revival on a heavy platform. SS ran the 6.2L L99/LS3 (426hp). Retro styling, strong sales.",
+            "6th Gen (2016–2024)": "Alpha platform (shared with Cadillac ATS). SS uses the C7-derived 6.2L LT1, 455hp — lighter and far sharper handling. Discontinued after 2024.",
+        },
+        "common_issues": [
+            "AFM lifter failure / oil consumption on automatic SS (manual cars omit AFM and avoid it)",
+            "8-speed automatic shudder / rough shifts (2016-2018)",
+            "Poor outward visibility — high beltline, small windows",
+            "Cramped rear seat and tiny trunk",
+        ],
+        "maintenance_tips": [
+            "Auto SS: consider an AFM-delete tune to dodge the lifter weak point",
+            "Use dexos 0W-40 and don't stretch oil intervals",
+            "Budget for tires and brakes with spirited driving",
+            "Track use: add cooling and upgrade brake fluid",
+        ],
+    },
 }
 
 choice = input("What car are you researching? ")

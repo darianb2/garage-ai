@@ -31,6 +31,7 @@ garage-ai/
 | Mazda MX-5 Miata | 2.0L Skyactiv I4 | 181 | RWD | 4 (NA→ND) |
 | Toyota GR Supra | 3.0L turbo I6 (B58) | 382 | RWD | 4 (A40→A90) |
 | Volkswagen Golf GTI | 2.0L turbo I4 (EA888) | 241 | FWD | 5 (Mk1→Mk8) |
+| Chevrolet Camaro SS | 6.2L V8 (LT1) | 455 | RWD | 6 (1967→2024) |
 
 ## Data Fields Per Car
 
