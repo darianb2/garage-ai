@@ -11,6 +11,7 @@ Endpoints:
 """
 
 import os
+import threading
 from datetime import datetime, timezone
 
 from flask import Flask, jsonify, redirect, render_template, request, url_for
@@ -21,8 +22,24 @@ from search import find_matches
 app = Flask(__name__)
 cars = load_cars()
 
-# Runtime-only log (gitignored; ephemeral on hosts like Railway/Heroku).
+# Runtime-only files (gitignored; ephemeral on hosts like Railway/Heroku).
 SUGGESTIONS_FILE = os.path.join(os.path.dirname(__file__), "data", "suggestions.log")
+HITS_FILE = os.path.join(os.path.dirname(__file__), "data", "hits.txt")
+_hits_lock = threading.Lock()
+
+
+def record_hit():
+    """Increment and return the homepage visit count (thread-safe within a worker)."""
+    with _hits_lock:
+        try:
+            with open(HITS_FILE) as f:
+                count = int(f.read().strip() or 0)
+        except (FileNotFoundError, ValueError):
+            count = 0
+        count += 1
+        with open(HITS_FILE, "w") as f:
+            f.write(str(count))
+        return count
 
 
 def summary(name):
@@ -41,6 +58,7 @@ def index():
         "index.html",
         cars=[summary(name) for name in cars],
         thanks=request.args.get("thanks"),
+        hits=record_hit(),
     )
 
 

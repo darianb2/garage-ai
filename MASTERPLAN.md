@@ -122,18 +122,28 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 - [x] Add `runtime.txt` (python-3.12.3)
 - [x] Move any secrets to `.env` — N/A (app has no secrets); verified gunicorn serves all routes
 
-### 5.2 Deploy
+### 5.2 Deploy  ← ONLY REMAINING WORK (needs the user's credentials)
 - [ ] Push to GitHub
 - [ ] Deploy to Railway.app (free tier, easiest for Flask)
 - [ ] Set up custom domain (optional)
 - [ ] Verify mobile experience
+
+**Manual deploy steps (run by the user):**
+```bash
+# 1. Create the GitHub repo + push (needs auth — gh login or a token)
+gh repo create garage-ai --public --source=. --remote=origin --push
+# (or) git remote add origin https://github.com/<you>/garage-ai && git push -u origin master
+
+# 2. Deploy on Railway: New Project → Deploy from GitHub repo → pick garage-ai.
+#    Railway auto-detects Procfile + runtime.txt + requirements.txt. No env vars needed.
+```
 
 ### 5.3 Polish
 - [x] Add favicon (amber wrench SVG)
 - [x] Add meta tags for SEO and social sharing (per-car og:title + description overrides)
 - [x] Write a real README.md (overview, features, run instructions, architecture, deploy)
 - [x] Add a "suggest a car" form (POST /suggest → data/suggestions.log; thank-you banner)
-- [ ] Google Analytics or simple hit counter
+- [x] Simple hit counter (file-backed, thread-safe; shown in homepage footer)
 
 ---
 
@@ -160,10 +170,10 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 5 — Production Deployment (5.1 done; favicon/meta/README/suggest done)
-**Next task:** Add a simple hit counter (last autonomous polish item) — then ONLY 5.2 deploy remains (needs the user).
-NOTE: 5.2 deploy (git push to GitHub + Railway) needs the user's credentials — blocked until the
-user is available. Everything else in Phase 5 can be finished now, leaving deploy as the last manual step.
+**Current active phase:** Phase 5 — Production Deployment
+**Status:** ALL AUTONOMOUS WORK COMPLETE. Phases 1–4 done; Phase 5 prep (5.1) + polish (5.3) done.
+The only remaining task is **5.2 deploy** (GitHub push + Railway), which needs the user's credentials —
+see the manual deploy steps above. The autonomous loop has been stopped at this hand-off point.
 
 > Run the web app: `./.venv/bin/python app.py` → http://localhost:5000
 
