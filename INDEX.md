@@ -11,6 +11,7 @@ garage-ai/
 │                        #   features: startup listing, case-insensitive + partial search,
 │                        #             'A vs B' comparison, drivetrain/hp filtering
 ├── loader.py            # load_cars() — reads data/cars/*.json into an ordered dict
+├── validator.py         # schema/type validation; run standalone or at startup
 ├── data/
 │   └── cars/            # one NN-slug.json per car (16 files; NN preserves order)
 ├── MASTERPLAN.md        # Roadmap, phases, task checklist

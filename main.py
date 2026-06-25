@@ -1,10 +1,17 @@
 import re
 
 from loader import load_cars
+from validator import validate_cars
 
 print("Welcome to Garage AI")
 
 cars = load_cars()
+_problems = validate_cars(cars)
+if _problems:
+    print("\n⚠ Data validation warnings:")
+    for _name, _errs in _problems.items():
+        for _err in _errs:
+            print(f"  - {_name}: {_err}")
 
 
 def display_car(name, car):

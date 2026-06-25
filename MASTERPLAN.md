@@ -61,8 +61,8 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 - [x] Update `main.py` to use the loader instead of hardcoded dict (760 → 170 lines)
 
 ### 2.2 Data Validation
-- [ ] Write a schema validator that checks each car JSON has required fields
-- [ ] Run validator on startup and warn if any car is missing data
+- [x] Write a schema validator that checks each car JSON has required fields
+- [x] Run validator on startup and warn if any car is missing data
 - [ ] Add a `scripts/add_car.py` helper to guide adding new cars
 
 ---
@@ -157,8 +157,8 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 2 — Data Architecture (2.1 complete; 2.2 validation next)
-**Next task:** Write a schema validator (validator.py) that checks each car JSON has all required fields; run on startup (Phase 2.2)
+**Current active phase:** Phase 2 — Data Architecture (2.1 done; 2.2 nearly done)
+**Next task:** Add scripts/add_car.py helper that prompts for each field and writes a valid car JSON (Phase 2.2, last item)
 
 ---
 
