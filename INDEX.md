@@ -24,6 +24,7 @@ garage-ai/
 | Infiniti Q50 3.7 | 3.7L V6 | 328 | RWD/AWD | 2 (2014–2015) |
 | Infiniti Q50 3.0t | 3.0L TT V6 | 300 | RWD/AWD | 3 (2016–2024) |
 | Infiniti Q50 Red Sport 400 | 3.0L TT V6 | 400 | RWD/AWD | 3 (2016–2024) |
+| Nissan 370Z | 3.7L V6 | 332 | RWD | 3 (Z33→RZ34 lineage) |
 
 ## Data Fields Per Car
 
