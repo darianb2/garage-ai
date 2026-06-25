@@ -36,7 +36,7 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 - [x] Infiniti Q50 Red Sport 400
 - [x] Nissan 370Z
 - [x] BMW M3 (E46, E90, F80, G80)
-- [ ] Dodge Charger R/T / Scat Pack
+- [x] Dodge Charger R/T / Scat Pack
 - [ ] Honda Civic Type R (FK8, FL5)
 - [ ] Mazda MX-5 Miata (NA, NB, NC, ND)
 - [ ] Toyota Supra (A90)
@@ -158,7 +158,7 @@ When a scheduled agent wakes up, it should:
 7. Stop — one task per run, keep changes focused
 
 **Current active phase:** Phase 1 — CLI Expansion (1.1 Data Depth complete; 1.2 More Cars next)
-**Next task:** Add Dodge Charger R/T & Scat Pack with full data
+**Next task:** Add Honda Civic Type R (FK8, FL5) with full data
 
 ---
 

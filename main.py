@@ -373,6 +373,44 @@ cars = {
             "Inspect E46 rear subframe for cracks at the chassis mounts",
         ],
     },
+    "Dodge Charger R/T / Scat Pack": {
+        "engine": "6.4L 392 HEMI V8 (Scat Pack) / 5.7L HEMI V8 (R/T)",
+        "horsepower": 485,
+        "torque": "475 lb-ft (Scat Pack) / 395 lb-ft (R/T)",
+        "drivetrain": "RWD",
+        "transmission": "8-speed automatic",
+        "0_to_60": "4.3 sec (Scat Pack) / 5.5 sec (R/T)",
+        "fuel_economy": "15 city / 24 hwy mpg (Scat Pack)",
+        "curb_weight": "4,360 lbs (Scat Pack)",
+        "reliability": "7/10 — simple, robust HEMI V8s, but the MDS lifter tick can escalate to cam damage",
+        "cost_to_own": "Insurance: High (V8 muscle) · Maintenance ~$650/yr (premium fuel, thirsty)",
+        "popular_mods": [
+            "Cold air intake + 87/93-octane PCM tune (DiabloSport / HP Tuners)",
+            "Long-tube headers + catback exhaust",
+            "Supercharger (Whipple / ProCharger) for big power",
+            "Lowering springs, sway bars, drag radials",
+            "Upgraded lifters/cam or MDS delete on a rebuild",
+        ],
+        "oil_type": "5W-20 (5.7) / 0W-40 (6.4) full synthetic",
+        "oil_interval": "Every 5,000-6,000 miles (don't stretch — sludge starves the MDS lifters)",
+        "generations": {
+            "LX (2006–2010)": "Modern Charger revived as a 4-door muscle sedan. SRT8 ran a 6.1L HEMI. RWD or AWD.",
+            "LD (2011–2023)": "Refreshed platform. R/T (5.7), Scat Pack (6.4/392), SRT Hellcat (6.2 supercharged, 707-717hp). The last of the HEMI Chargers.",
+            "LB Daytona (2024–present)": "All-new — electric Charger Daytona plus twin-turbo inline-6 'Hurricane' SIXPACK versions replacing the HEMI. Now offered as a 2-door and 4-door.",
+        },
+        "common_issues": [
+            "HEMI MDS lifter tick → collapsed lifters and camshaft damage if ignored",
+            "Exhaust manifold bolt breakage (exhaust tick on cold start)",
+            "Thirsty — real-world fuel economy is low",
+            "Heavy curb weight blunts agility versus lighter rivals",
+        ],
+        "maintenance_tips": [
+            "Change oil every 5-6k with the correct spec to keep MDS oil passages clean",
+            "Address any lifter tick immediately before it wipes the camshaft",
+            "Inspect/replace exhaust manifold bolts if you hear a cold-start tick",
+            "Run premium fuel in the 392/Scat Pack",
+        ],
+    },
 }
 
 choice = input("What car are you researching? ")
