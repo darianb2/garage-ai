@@ -38,6 +38,7 @@ garage-ai/
 | `fuel_economy` | EPA city/highway mpg |
 | `curb_weight` | Curb weight in lbs |
 | `reliability` | Reliability score (1-10) with reasoning |
+| `cost_to_own` | Insurance tier + estimated annual maintenance cost |
 | `oil_type` | Recommended oil spec |
 | `oil_interval` | Recommended oil change interval |
 | `generations` | Dict of gen name → description |

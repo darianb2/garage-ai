@@ -11,6 +11,7 @@ cars = {
         "fuel_economy": "27 city / 37 hwy mpg",
         "curb_weight": "3,012 lbs",
         "reliability": "8/10 — bulletproof Honda drivetrain; watch 10th-gen oil dilution",
+        "cost_to_own": "Insurance: Moderate-High (turbo compact, young-driver target) · Maintenance ~$400/yr",
         "popular_mods": [
             "Hondata FlashPro ECU tune (+50-70 whp — the single biggest gain)",
             "Cold air intake + upgraded front-mount intercooler",
@@ -50,6 +51,7 @@ cars = {
         "fuel_economy": "19 city / 26 hwy mpg",
         "curb_weight": "3,320 lbs",
         "reliability": "7/10 — rugged boxer/AWD; CVT and older EJ head gaskets are weak points",
+        "cost_to_own": "Insurance: High (rally reputation, high theft/claim rates) · Maintenance ~$680/yr",
         "popular_mods": [
             "Cobb Accessport ECU tune (E85 flex-fuel popular)",
             "Catless/high-flow downpipe, intake, top-mount intercooler",
@@ -87,6 +89,7 @@ cars = {
         "fuel_economy": "23 city / 32 hwy mpg",
         "curb_weight": "3,527 lbs",
         "reliability": "6/10 — fast and refined, but carbon buildup and German upkeep costs add up",
+        "cost_to_own": "Insurance: High (luxury performance, costly parts) · Maintenance ~$950/yr (Audi avg ~$987)",
         "popular_mods": [
             "APR or Unitronic Stage 1-2 ECU tune (330-370+ hp)",
             "Intake, upgraded intercooler, downpipe",
@@ -123,6 +126,7 @@ cars = {
         "fuel_economy": "15 city / 24 hwy mpg",
         "curb_weight": "3,705 lbs",
         "reliability": "7/10 — robust Coyote V8; hard launches and track use stress the drivetrain",
+        "cost_to_own": "Insurance: Very High (V8 muscle, ~$2,655/yr avg) · Maintenance ~$710/yr",
         "popular_mods": [
             "Supercharger (Roush/Whipple/Procharger) — the big power move, 700+ hp",
             "Cold air intake + ECU tune",
@@ -159,6 +163,7 @@ cars = {
         "fuel_economy": "20 city / 27 hwy mpg (manual)",
         "curb_weight": "2,811 lbs",
         "reliability": "8/10 — simple, light, naturally aspirated; few chronic issues",
+        "cost_to_own": "Insurance: Moderate-High (sports coupe, but cheap & low-power) · Maintenance ~$755/yr",
         "popular_mods": [
             "Forced induction (HKS turbo / supercharger kits, 300+ hp) — main power path",
             "Cold air intake, catback exhaust, Tomei header",
@@ -194,6 +199,7 @@ cars = {
         "fuel_economy": "20 city / 29 hwy mpg (RWD)",
         "curb_weight": "3,574 lbs",
         "reliability": "7/10 — durable VQ V6; watch oil consumption and warping brake rotors",
+        "cost_to_own": "Insurance: Moderate (luxury sedan) · Maintenance ~$650/yr",
         "popular_mods": [
             "Uprev or Ecutek ECU tune",
             "Cold air intake, headers, catback exhaust (modest NA gains)",
@@ -228,6 +234,7 @@ cars = {
         "fuel_economy": "20 city / 29 hwy mpg (RWD)",
         "curb_weight": "3,820 lbs",
         "reliability": "6/10 — strong engine, but turbo complexity and wastegate rattle at mileage",
+        "cost_to_own": "Insurance: Moderate-High (turbo luxury sedan) · Maintenance ~$700/yr (premium fuel)",
         "popular_mods": [
             "Ecutek tune or JB4 piggyback (+40-100 whp → 350-400 whp)",
             "Catless downpipes, cold air intakes, upgraded intercoolers (FBO ~440-475 whp)",
@@ -263,6 +270,7 @@ cars = {
         "fuel_economy": "20 city / 26 hwy mpg (RWD)",
         "curb_weight": "3,890 lbs",
         "reliability": "6/10 — same VR30 under more stress; DAS steering quirks knock points off",
+        "cost_to_own": "Insurance: High (400hp luxury sport sedan) · Maintenance ~$750/yr (premium fuel, perf brakes/tires)",
         "popular_mods": [
             "Ecutek/JB4 tune (430+ whp with tune alone on the high-output VR30)",
             "Full bolt-ons (downpipes/intakes/intercoolers) ~475 whp",
@@ -308,6 +316,7 @@ else:
     print(f"  Fuel Economy: {car['fuel_economy']}")
     print(f"  Curb Weight:  {car['curb_weight']}")
     print(f"  Reliability:  {car['reliability']}")
+    print(f"  Cost to Own:  {car['cost_to_own']}")
     print(f"\n  Oil Type:     {car['oil_type']}")
     print(f"  Oil Interval: {car['oil_interval']}")
     print(f"\n  Generation History:")
