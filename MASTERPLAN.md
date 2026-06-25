@@ -67,7 +67,7 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 3 — Flask Web Backend
+## Phase 3 — Flask Web Backend ✅ COMPLETE
 
 ### 3.1 Setup
 - [x] Install Flask (`pip install flask`) — in `.venv` (env is externally-managed)
@@ -75,16 +75,16 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 - [x] Create `requirements.txt` (Flask==3.1.3)
 
 ### 3.2 API Endpoints
-- [ ] `GET /` — serve the frontend homepage (currently returns JSON info; becomes HTML in 3.3)
+- [x] `GET /` — serves index.html homepage; `GET /car/<name>` serves the detail page
 - [x] `GET /api/cars` — list of car summaries (name, engine, hp, drivetrain)
 - [x] `GET /api/car/<name>` — full data for one car (exact, case-insensitive; 404 if none)
 - [x] `GET /api/search?q=<query>` — fuzzy search → list of summaries
 - Note: matching logic extracted to shared `search.py` (used by CLI + API)
 
 ### 3.3 Templates
-- [ ] Create `templates/` directory
-- [ ] `templates/index.html` — homepage with search bar
-- [ ] `templates/car.html` — full car detail page
+- [x] Create `templates/` directory
+- [x] `templates/index.html` — homepage: search bar + live-filtered car grid
+- [x] `templates/car.html` — full car detail page (all 16 fields + lists)
 
 ---
 
@@ -158,8 +158,10 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 3 — Flask Web Backend (3.1 + API endpoints done; 3.3 templates next)
-**Next task:** Create templates/index.html (homepage with search bar + car grid) and wire GET / to render it (Phase 3.3)
+**Current active phase:** Phase 4 — Frontend (Tailwind) — Phase 3 COMPLETE
+**Next task:** Add Tailwind CSS via CDN + create static/ dir; begin restyling templates (Phase 4.1)
+
+> Run the web app: `./.venv/bin/python app.py` → http://localhost:5000
 
 > Run the server with `./.venv/bin/python app.py` (Flask lives in .venv)
 

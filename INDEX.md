@@ -5,6 +5,11 @@
 ```
 garage-ai/
 ├── app.py               # Flask web backend (loads data via loader); run from .venv
+│                        #   routes: / (homepage), /car/<name> (detail),
+│                        #           /api/cars, /api/car/<name>, /api/search
+├── templates/
+│   ├── index.html       # homepage — search bar + live-filtered car grid
+│   └── car.html         # detail page — all 16 fields + generations/issues/tips/mods
 ├── requirements.txt     # Python deps (Flask)
 ├── main.py              # CLI app — lookup/display/compare/filter logic (loads data via loader)
 │                        #   funcs: display_car(), find_matches(), list_cars(),
@@ -74,7 +79,7 @@ garage-ai/
 |---|---|---|
 | 1 | CLI expansion — more cars, more data | ✅ Complete |
 | 2 | Data architecture — JSON files + loader | ✅ Complete |
-| 3 | Flask web backend + API | ⬜ Not Started |
+| 3 | Flask web backend + API | ✅ Complete |
 | 4 | Frontend — HTML/CSS/Tailwind | ⬜ Not Started |
 | 5 | Production deployment | ⬜ Not Started |
 

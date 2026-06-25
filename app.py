@@ -10,7 +10,7 @@ Endpoints:
   GET /api/search?q=...  fuzzy search → list of summaries
 """
 
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, render_template, request
 
 from loader import load_cars
 from search import find_matches
@@ -31,7 +31,16 @@ def summary(name):
 
 @app.route("/")
 def index():
-    return jsonify({"app": "Garage AI", "car_count": len(cars)})
+    return render_template("index.html", cars=[summary(name) for name in cars])
+
+
+@app.route("/car/<path:name>")
+def car_page(name):
+    target = name.strip().lower()
+    for car_name in cars:
+        if car_name.lower() == target:
+            return render_template("car.html", name=car_name, car=cars[car_name])
+    return ("Car not found", 404)
 
 
 @app.route("/api/cars")
