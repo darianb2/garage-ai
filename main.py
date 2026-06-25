@@ -1,6 +1,7 @@
 import re
 
 from loader import load_cars
+from search import find_matches
 from validator import validate_cars
 
 print("Welcome to Garage AI")
@@ -43,17 +44,6 @@ def display_car(name, car):
     print(f"\n  Popular Mods:")
     for mod in car["popular_mods"]:
         print(f"    - {mod}")
-
-
-def find_matches(query, cars):
-    """Return matching car names: exact (case-insensitive) wins, else substring matches."""
-    q = query.strip().lower()
-    if not q:
-        return []
-    for name in cars:
-        if name.lower() == q:
-            return [name]
-    return [name for name in cars if q in name.lower()]
 
 
 def list_cars(cars):

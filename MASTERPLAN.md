@@ -75,10 +75,11 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 - [x] Create `requirements.txt` (Flask==3.1.3)
 
 ### 3.2 API Endpoints
-- [ ] `GET /` — serve the frontend homepage
-- [ ] `GET /api/cars` — return list of all car names
-- [ ] `GET /api/car/<name>` — return full data for one car
-- [ ] `GET /api/search?q=<query>` — fuzzy search across all cars
+- [ ] `GET /` — serve the frontend homepage (currently returns JSON info; becomes HTML in 3.3)
+- [x] `GET /api/cars` — list of car summaries (name, engine, hp, drivetrain)
+- [x] `GET /api/car/<name>` — full data for one car (exact, case-insensitive; 404 if none)
+- [x] `GET /api/search?q=<query>` — fuzzy search → list of summaries
+- Note: matching logic extracted to shared `search.py` (used by CLI + API)
 
 ### 3.3 Templates
 - [ ] Create `templates/` directory
@@ -157,8 +158,8 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 3 — Flask Web Backend (3.1 done; 3.2 API endpoints next)
-**Next task:** Add API endpoints to app.py: GET /api/cars, GET /api/car/<name>, GET /api/search?q= (Phase 3.2)
+**Current active phase:** Phase 3 — Flask Web Backend (3.1 + API endpoints done; 3.3 templates next)
+**Next task:** Create templates/index.html (homepage with search bar + car grid) and wire GET / to render it (Phase 3.3)
 
 > Run the server with `./.venv/bin/python app.py` (Flask lives in .venv)
 

@@ -13,6 +13,7 @@ garage-ai/
 │                        #   features: startup listing, case-insensitive + partial search,
 │                        #             'A vs B' comparison, drivetrain/hp filtering
 ├── loader.py            # load_cars() — reads data/cars/*.json into an ordered dict
+├── search.py            # find_matches() — shared name matching (CLI + API)
 ├── validator.py         # schema/type validation; run standalone or at startup
 ├── scripts/
 │   └── add_car.py       # interactive prompt → validated, numbered car JSON
