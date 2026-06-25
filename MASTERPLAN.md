@@ -70,9 +70,9 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 ## Phase 3 — Flask Web Backend
 
 ### 3.1 Setup
-- [ ] Install Flask (`pip install flask`)
-- [ ] Create `app.py` as the Flask entry point
-- [ ] Create `requirements.txt`
+- [x] Install Flask (`pip install flask`) — in `.venv` (env is externally-managed)
+- [x] Create `app.py` as the Flask entry point
+- [x] Create `requirements.txt` (Flask==3.1.3)
 
 ### 3.2 API Endpoints
 - [ ] `GET /` — serve the frontend homepage
@@ -157,8 +157,10 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 3 — Flask Web Backend (Phase 2 COMPLETE)
-**Next task:** Install Flask, create app.py entry point + requirements.txt (Phase 3.1)
+**Current active phase:** Phase 3 — Flask Web Backend (3.1 done; 3.2 API endpoints next)
+**Next task:** Add API endpoints to app.py: GET /api/cars, GET /api/car/<name>, GET /api/search?q= (Phase 3.2)
+
+> Run the server with `./.venv/bin/python app.py` (Flask lives in .venv)
 
 ---
 

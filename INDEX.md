@@ -4,6 +4,8 @@
 
 ```
 garage-ai/
+├── app.py               # Flask web backend (loads data via loader); run from .venv
+├── requirements.txt     # Python deps (Flask)
 ├── main.py              # CLI app — lookup/display/compare/filter logic (loads data via loader)
 │                        #   funcs: display_car(), find_matches(), list_cars(),
 │                        #          parse_comparison(), compare_cars(), resolve_one(),
