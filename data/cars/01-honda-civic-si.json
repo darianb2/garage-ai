@@ -1,0 +1,41 @@
+{
+  "name": "Honda Civic Si",
+  "engine": "1.5L turbo I4",
+  "horsepower": 200,
+  "torque": "192 lb-ft",
+  "drivetrain": "FWD",
+  "transmission": "6-speed manual",
+  "0_to_60": "6.7 sec",
+  "fuel_economy": "27 city / 37 hwy mpg",
+  "curb_weight": "3,012 lbs",
+  "reliability": "8/10 — bulletproof Honda drivetrain; watch 10th-gen oil dilution",
+  "cost_to_own": "Insurance: Moderate-High (turbo compact, young-driver target) · Maintenance ~$400/yr",
+  "popular_mods": [
+    "Hondata FlashPro ECU tune (+50-70 whp — the single biggest gain)",
+    "Cold air intake + upgraded front-mount intercooler",
+    "Catback exhaust + downpipe",
+    "Lowering springs or coilovers + rear sway bar",
+    "Summer performance tires — the chassis can use more grip than stock"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Every 5,000-7,500 miles",
+  "generations": {
+    "5th Gen EG (1992–1995)": "125hp D16Z6 VTEC — first Civic Si with VTEC, double-wishbone suspension all around.",
+    "6th Gen EK (1996–2000)": "160hp B16A2 — cult classic coupe (EM1). Last gen with front double-wishbone. Highly sought after.",
+    "7th Gen EP/EM (2002–2005)": "160hp K20A3 — EP3 hatchback in Europe, EM2 coupe in North America. Dropped double-wishbone up front.",
+    "8th Gen FG (2006–2011)": "197hp K20Z3 — high-revving VTEC, 6-speed manual, limited-slip diff. First Si sedan debuted in 2007.",
+    "9th Gen FB (2012–2015)": "201hp K24Z7 — largest engine in Si history, 2.4L naturally aspirated, limited-slip diff, 31mpg highway.",
+    "10th Gen FC/FK (2017–2021)": "205hp 1.5L turbo (L15B7) — returned to turbo power, broader torque band, known for oil dilution in cold climates.",
+    "11th Gen FE1 (2022–present)": "200hp 1.5L turbo — slight power drop but torque peaks earlier (below 2,000 rpm). Better daily driveability."
+  },
+  "common_issues": [
+    "Oil dilution (fuel mixing into oil in cold climates) — affects 10th gen most",
+    "AC compressor failure",
+    "Infotainment freezing"
+  ],
+  "maintenance_tips": [
+    "Check oil level frequently on 10th gen due to known dilution issue",
+    "Use Honda-approved 0W-20 synthetic",
+    "Inspect brake pads — sport driving wears them faster"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Subaru WRX",
+  "engine": "2.4L turbo H4 (FA24F)",
+  "horsepower": 271,
+  "torque": "258 lb-ft",
+  "drivetrain": "AWD",
+  "transmission": "6-speed manual / CVT",
+  "0_to_60": "5.5 sec",
+  "fuel_economy": "19 city / 26 hwy mpg",
+  "curb_weight": "3,320 lbs",
+  "reliability": "7/10 — rugged boxer/AWD; CVT and older EJ head gaskets are weak points",
+  "cost_to_own": "Insurance: High (rally reputation, high theft/claim rates) · Maintenance ~$680/yr",
+  "popular_mods": [
+    "Cobb Accessport ECU tune (E85 flex-fuel popular)",
+    "Catless/high-flow downpipe, intake, top-mount intercooler",
+    "Catback exhaust",
+    "Coilovers or lowering springs + front/rear sway bars",
+    "Note: FA24 is knock-sensitive — use a conservative, well-proven tune"
+  ],
+  "oil_type": "5W-30 full synthetic",
+  "oil_interval": "Every 6,000 miles",
+  "generations": {
+    "1st Gen GC/GF (1992–2000)": "JDM only initially. 237hp EJ20T boxer turbo. Became a rally legend with Prodrive WRC campaigns.",
+    "2nd Gen GD/GG (2002–2007)": "First gen sold in the US. 227hp EJ205. Three face styles: bugeye (2002–03), blobeye (2004–05), hawkeye (2006–07).",
+    "3rd Gen GE/GH (2008–2014)": "265hp EJ255. Wider body option. Last generation to use the iconic EJ engine family.",
+    "4th Gen VA (2015–2021)": "268hp FA20F — switched to direct-injection FA-series engine. First WRX as its own standalone model (not Impreza WRX).",
+    "5th Gen VB (2022–present)": "271hp FA24F — grew to 2.4L. CVT added alongside manual. Dropped hatchback body, polarizing choice among fans."
+  },
+  "common_issues": [
+    "Head gasket failure (older EJ engines — less common on FA24)",
+    "CVT reliability concerns at high mileage",
+    "Turbo heatsoaking on track use"
+  ],
+  "maintenance_tips": [
+    "Change oil every 6k miles — turbos punish extended intervals",
+    "Let engine warm up before pushing hard",
+    "Inspect intercooler hoses for cracks at 60k+"
+  ]
+}

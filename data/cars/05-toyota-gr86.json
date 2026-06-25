@@ -1,0 +1,37 @@
+{
+  "name": "Toyota GR86",
+  "engine": "2.4L flat-4 (FA24)",
+  "horsepower": 228,
+  "torque": "184 lb-ft",
+  "drivetrain": "RWD",
+  "transmission": "6-speed manual / 6-speed auto",
+  "0_to_60": "6.1 sec",
+  "fuel_economy": "20 city / 27 hwy mpg (manual)",
+  "curb_weight": "2,811 lbs",
+  "reliability": "8/10 — simple, light, naturally aspirated; few chronic issues",
+  "cost_to_own": "Insurance: Moderate-High (sports coupe, but cheap & low-power) · Maintenance ~$755/yr",
+  "popular_mods": [
+    "Forced induction (HKS turbo / supercharger kits, 300+ hp) — main power path",
+    "Cold air intake, catback exhaust, Tomei header",
+    "ECU tune (modest NA gains — power isn't this car's strength)",
+    "Coilovers, sway bars, chassis bracing, sticky tires — transforms the car",
+    "Big brake kit for track use"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Every 6,000 miles",
+  "generations": {
+    "1st Gen ZN6 — Scion FR-S (2012–2016)": "200hp 2.0L FA20 flat-4. Co-developed with Subaru (sold as BRZ). Scion branding in the US until the brand was killed in 2016.",
+    "1st Gen ZN6 — Toyota 86 (2017–2020)": "205hp after revised gear ratios and minor tune update. Rebranded Toyota 86 after Scion was discontinued.",
+    "2nd Gen ZN8 — Toyota GR86 (2022–present)": "228hp 2.4L FA24 — 18% more power, 11% more torque. Subaru Global Platform adds 50% more torsional rigidity. Nearly a full second quicker to 60."
+  },
+  "common_issues": [
+    "Low torque at low RPM — power lives above 4,500 rpm (1st gen especially)",
+    "Clutch wear if slipping on spirited launches",
+    "Infotainment lag (minor)"
+  ],
+  "maintenance_tips": [
+    "Let revs climb before shifting — engine rewards high RPM",
+    "Brake fluid degrades quickly on track — flush every season",
+    "Tires wear fast under spirited driving — check pressure often"
+  ]
+}

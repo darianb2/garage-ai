@@ -55,10 +55,10 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 ## Phase 2 — Data Architecture
 
 ### 2.1 Separate Data from Code
-- [ ] Move all car data from main.py into individual JSON files (one per car)
-- [ ] Create `data/` directory with one `.json` file per car
-- [ ] Write `loader.py` that reads all JSON files dynamically
-- [ ] Update `main.py` to use the loader instead of hardcoded dict
+- [x] Move all car data from main.py into individual JSON files (one per car)
+- [x] Create `data/` directory with one `.json` file per car
+- [x] Write `loader.py` that reads all JSON files dynamically
+- [x] Update `main.py` to use the loader instead of hardcoded dict (760 → 170 lines)
 
 ### 2.2 Data Validation
 - [ ] Write a schema validator that checks each car JSON has required fields
@@ -115,7 +115,7 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 ## Phase 5 — Production Deployment
 
 ### 5.1 Prep
-- [ ] Create `.gitignore` (venv, __pycache__, .env)
+- [x] Create `.gitignore` (venv, __pycache__, .env) — done early in Phase 2
 - [ ] Add `Procfile` for Heroku/Railway
 - [ ] Add `runtime.txt` specifying Python version
 - [ ] Move any secrets to `.env`
@@ -157,8 +157,8 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 2 — Data Architecture (Phase 1 COMPLETE)
-**Next task:** Move each car from main.py into data/cars/*.json + write loader.py (Phase 2.1)
+**Current active phase:** Phase 2 — Data Architecture (2.1 complete; 2.2 validation next)
+**Next task:** Write a schema validator (validator.py) that checks each car JSON has all required fields; run on startup (Phase 2.2)
 
 ---
 

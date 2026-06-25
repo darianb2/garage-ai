@@ -1,0 +1,38 @@
+{
+  "name": "Ford Mustang GT",
+  "engine": "5.0L V8 (Coyote)",
+  "horsepower": 460,
+  "torque": "420 lb-ft",
+  "drivetrain": "RWD",
+  "transmission": "6-speed manual / 10-speed auto",
+  "0_to_60": "4.3 sec",
+  "fuel_economy": "15 city / 24 hwy mpg",
+  "curb_weight": "3,705 lbs",
+  "reliability": "7/10 — robust Coyote V8; hard launches and track use stress the drivetrain",
+  "cost_to_own": "Insurance: Very High (V8 muscle, ~$2,655/yr avg) · Maintenance ~$710/yr",
+  "popular_mods": [
+    "Supercharger (Roush/Whipple/Procharger) — the big power move, 700+ hp",
+    "Cold air intake + ECU tune",
+    "Long-tube headers + catback exhaust",
+    "Lowering springs/coilovers + subframe bushings",
+    "Sticky tires to tame wheel hop on launches"
+  ],
+  "oil_type": "5W-50 full synthetic",
+  "oil_interval": "Every 7,500 miles (normal) / 5,000 miles (track use)",
+  "generations": {
+    "4th Gen SN95 (1994–2004)": "215hp 5.0L pushrod V8 at launch, swapped to 4.6L modular OHC V8 in 1996 (260hp). 'New Edge' facelift in 1999.",
+    "5th Gen S197 (2005–2014)": "300hp 4.6L V8 (2005–2010). Major upgrade in 2011 with 5.0L Coyote DOHC producing 412hp. First Mustang on its own platform.",
+    "6th Gen S550 (2015–2023)": "435hp at launch, bumped to 460hp in 2018. First Mustang with independent rear suspension. Available worldwide for the first time.",
+    "7th Gen S650 (2024–present)": "480–486hp Coyote V8 (with active exhaust). New dual-throttle intake. Most powerful stock GT ever built."
+  },
+  "common_issues": [
+    "IRS half-shaft failure under hard launches (S550+)",
+    "Transmission fluid overheating on track (10-speed auto)",
+    "Wheel hop with manual on stock tires"
+  ],
+  "maintenance_tips": [
+    "Upgrade diff and transmission fluid to racing spec if tracking",
+    "Check rear axle half-shafts if launching hard regularly",
+    "Coolant overflow tank cracks over time — inspect at 50k+"
+  ]
+}

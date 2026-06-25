@@ -1,0 +1,36 @@
+{
+  "name": "Infiniti Q50 3.7",
+  "engine": "3.7L V6 (VQ37VHR)",
+  "horsepower": 328,
+  "torque": "269 lb-ft",
+  "drivetrain": "RWD / AWD",
+  "transmission": "7-speed automatic",
+  "0_to_60": "5.3 sec (RWD)",
+  "fuel_economy": "20 city / 29 hwy mpg (RWD)",
+  "curb_weight": "3,574 lbs",
+  "reliability": "7/10 — durable VQ V6; watch oil consumption and warping brake rotors",
+  "cost_to_own": "Insurance: Moderate (luxury sedan) · Maintenance ~$650/yr",
+  "popular_mods": [
+    "Uprev or Ecutek ECU tune",
+    "Cold air intake, headers, catback exhaust (modest NA gains)",
+    "Plenum spacer / underdrive pulley",
+    "Coilovers + sway bars",
+    "Note: naturally aspirated — gains are modest vs the turbo VR30 cars"
+  ],
+  "oil_type": "5W-30 full synthetic (Nissan Ester oil recommended)",
+  "oil_interval": "Every 5,000-6,000 miles",
+  "generations": {
+    "2014 (Launch)": "Debuted at 2013 NAIAS. Replaced the G37. Introduced Direct Adaptive Steering (steer-by-wire). 3.7L VQ37VHR and Hybrid (354hp) available.",
+    "2015": "Final year of the 3.7L engine. Minor refinements. Last chance to get the naturally aspirated V6 in the Q50."
+  },
+  "common_issues": [
+    "Valve train noise — often quieted with Nissan ester oil",
+    "Rear timing cover gasket leak (oil pressure stresses paper gasket)",
+    "Oil consumption from worn valve seals or piston rings at high mileage"
+  ],
+  "maintenance_tips": [
+    "Use Nissan genuine ester oil to reduce valve train noise",
+    "Inspect rear timing cover for oil seepage at 60k+ miles",
+    "Check oil level every fill-up — engine can consume oil silently"
+  ]
+}

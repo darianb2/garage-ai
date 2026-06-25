@@ -1,0 +1,38 @@
+{
+  "name": "Audi S3",
+  "engine": "2.0L turbo I4 (EA888)",
+  "horsepower": 306,
+  "torque": "295 lb-ft",
+  "drivetrain": "AWD (Quattro)",
+  "transmission": "7-speed dual-clutch (S tronic)",
+  "0_to_60": "4.4 sec",
+  "fuel_economy": "23 city / 32 hwy mpg",
+  "curb_weight": "3,527 lbs",
+  "reliability": "6/10 — fast and refined, but carbon buildup and German upkeep costs add up",
+  "cost_to_own": "Insurance: High (luxury performance, costly parts) · Maintenance ~$950/yr (Audi avg ~$987)",
+  "popular_mods": [
+    "APR or Unitronic Stage 1-2 ECU tune (330-370+ hp)",
+    "Intake, upgraded intercooler, downpipe",
+    "DSG/TCU transmission tune for faster, firmer shifts",
+    "IS38 turbo upgrade for big-power builds",
+    "Coilovers + sway bars"
+  ],
+  "oil_type": "5W-40 full synthetic (VW 502.00 spec)",
+  "oil_interval": "Every 10,000 miles (Audi LongLife) — recommend 5,000 for longevity",
+  "generations": {
+    "1st Gen 8L (1999–2003)": "210–225hp 1.8T inline-4. Facelift in 2002. The S3 that started it all — compact, Quattro AWD, surprisingly quick.",
+    "2nd Gen 8P (2006–2012)": "261hp 2.0T FSI. Available in 3-door and 5-door. 0–62 in 5.7 sec. Electronically limited to 155mph.",
+    "3rd Gen 8V (2013–2020)": "300hp at launch, bumped to 310hp in 2016 facelift. Sharper styling. Available as sedan (2014+) and convertible.",
+    "4th Gen 8Y (2020–present)": "306hp 2.0T. Aggressive new look with widened fenders ('Quattro Blisters'). Shift-by-wire shifter replaces traditional gear selector."
+  },
+  "common_issues": [
+    "Carbon buildup on intake valves (direct injection) — all generations",
+    "DSG shudder at low speeds when cold",
+    "Water pump and thermostat failure (60-90k miles)"
+  ],
+  "maintenance_tips": [
+    "Walnut blast intake valves every 40-60k miles",
+    "Use only VW 502.00 approved oil — non-spec oil voids warranty",
+    "Replace water pump and thermostat proactively at 80k"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "BMW M3",
+  "engine": "3.0L twin-turbo I6 (S58)",
+  "horsepower": 503,
+  "torque": "479 lb-ft (G80 Competition)",
+  "drivetrain": "RWD / AWD (xDrive)",
+  "transmission": "6-speed manual / 8-speed auto",
+  "0_to_60": "3.4 sec (Competition xDrive)",
+  "fuel_economy": "16 city / 23 hwy mpg",
+  "curb_weight": "3,900 lbs",
+  "reliability": "6/10 — thrilling but high-strung; every generation has a signature expensive failure",
+  "cost_to_own": "Insurance: Very High (high-performance luxury) · Maintenance ~$1,300/yr",
+  "popular_mods": [
+    "ECU tune — huge gains on turbo S55/S58 (500+ whp easily achievable)",
+    "Downpipes, intake, charge pipe, upgraded intercooler (S55/S58)",
+    "NA cars (S54/S65): headers + tune, or supercharger for big power",
+    "Coilovers, sway bars, big brake kit",
+    "Preventive crank hub fix (F80) / rod bearing refresh (E46/E90)"
+  ],
+  "oil_type": "10W-60 (S54/S65) / 0W-30 (S55/S58) full synthetic",
+  "oil_interval": "Every 5,000-7,500 miles (BMW's 10k+ interval is too long for these engines)",
+  "generations": {
+    "E46 (2000–2006)": "3.2L S54 inline-6, 333hp, 8,000rpm redline. A high point of the breed. 6-speed manual or clunky SMG. Watch rod bearings and rear subframe cracking.",
+    "E90/E92/E93 (2008–2013)": "4.0L S65 V8, 414hp, 8,400rpm redline — the only V8 M3. Sedan/coupe/vert. Rod bearings and throttle actuators are the weak spots.",
+    "F80 (2014–2018)": "3.0L S55 twin-turbo inline-6, 425hp (Competition 444hp). First turbo M3 — torque leapt to 406 lb-ft. Infamous crank hub slip.",
+    "G80 (2021–present)": "3.0L S58 twin-turbo inline-6, 473hp / 503hp Competition. Added xDrive AWD. Controversial oversized grille. Manual still offered on base RWD."
+  },
+  "common_issues": [
+    "Rod bearing failure (E46 S54, E90 S65) — factory clearances too tight; preventive replacement advised",
+    "Rear subframe mounting points crack (E46)",
+    "Crank hub slipping (F80 S55) — secured by a single friction bolt",
+    "Throttle actuator failure (E90 S65)"
+  ],
+  "maintenance_tips": [
+    "Budget for preventive rod bearing replacement on E46/E90",
+    "Install a crank hub fix on F80 before tuning for higher power",
+    "Shorten oil intervals well below BMW's recommendation",
+    "Inspect E46 rear subframe for cracks at the chassis mounts"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Infiniti Q50 3.0t",
+  "engine": "3.0L twin-turbo V6 (VR30DDTT)",
+  "horsepower": 300,
+  "torque": "295 lb-ft",
+  "drivetrain": "RWD / AWD",
+  "transmission": "7-speed automatic",
+  "0_to_60": "5.1 sec",
+  "fuel_economy": "20 city / 29 hwy mpg (RWD)",
+  "curb_weight": "3,820 lbs",
+  "reliability": "6/10 — strong engine, but turbo complexity and wastegate rattle at mileage",
+  "cost_to_own": "Insurance: Moderate-High (turbo luxury sedan) · Maintenance ~$700/yr (premium fuel)",
+  "popular_mods": [
+    "Ecutek tune or JB4 piggyback (+40-100 whp → 350-400 whp)",
+    "Catless downpipes, cold air intakes, upgraded intercoolers (FBO ~440-475 whp)",
+    "E85 flex fuel + upgraded HPFP/LPFP (500+ whp on stock turbos)",
+    "Coilovers + sway bars",
+    "Huge tuning headroom — one of the best bang-for-buck platforms out there"
+  ],
+  "oil_type": "5W-30 or 5W-40 full synthetic",
+  "oil_interval": "Every 5,000 miles (recommended — do not stretch intervals on a turbo)",
+  "generations": {
+    "2016–2017 (VR30 Introduction)": "3.7L replaced by 3.0L twin-turbo VR30DDTT. 300hp and 400hp (Red Sport) variants introduced. 2nd-gen Direct Adaptive Steering.",
+    "2018–2023 (Refresh)": "Visual refresh unveiled at 2017 Geneva Motor Show. Improved interior quality, clearer trim levels, added driver-assistance tech. Base 2.0T four-cylinder added.",
+    "2024 (Final Year)": "Infiniti announced discontinuation in August 2024. Last model year for US and Canada after 11 years. Slow sales ended the run."
+  },
+  "common_issues": [
+    "Wastegate rattle — pivot point wears inside turbo housing",
+    "Valve body issues and rear differential bushing wear at high mileage",
+    "Oil consumption if intervals are extended"
+  ],
+  "maintenance_tips": [
+    "Do not extend oil changes past 5,000 miles — turbos are oil-dependent",
+    "Change transmission fluid every 30-40k miles (Infiniti says lifetime — ignore that)",
+    "Monitor coolant level — turbocharged engines are harder on cooling systems"
+  ]
+}

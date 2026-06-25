@@ -1,0 +1,37 @@
+{
+  "name": "Infiniti Q50 Red Sport 400",
+  "engine": "3.0L twin-turbo V6 (VR30DDTT — high output)",
+  "horsepower": 400,
+  "torque": "350 lb-ft",
+  "drivetrain": "RWD / AWD",
+  "transmission": "7-speed automatic",
+  "0_to_60": "4.5 sec",
+  "fuel_economy": "20 city / 26 hwy mpg (RWD)",
+  "curb_weight": "3,890 lbs",
+  "reliability": "6/10 — same VR30 under more stress; DAS steering quirks knock points off",
+  "cost_to_own": "Insurance: High (400hp luxury sport sedan) · Maintenance ~$750/yr (premium fuel, perf brakes/tires)",
+  "popular_mods": [
+    "Ecutek/JB4 tune (430+ whp with tune alone on the high-output VR30)",
+    "Full bolt-ons (downpipes/intakes/intercoolers) ~475 whp",
+    "E85 + fuel system upgrades = 500-525 whp on stock turbos",
+    "Coilovers, sway bars, big brake kit",
+    "Best starting point in the Q50 range for a serious power build"
+  ],
+  "oil_type": "5W-30 or 5W-40 full synthetic",
+  "oil_interval": "Every 5,000 miles",
+  "generations": {
+    "2016–2017 (Launch)": "Introduced alongside the 3.0t. 400hp from same VR30DDTT block with higher boost. Standard steer-by-wire DAS — controversial among enthusiasts.",
+    "2018–2023 (Refresh)": "Same refresh as the 3.0t. More aggressive Red Sport-specific styling cues and Brembo brakes. Interior quality improved significantly.",
+    "2024 (Final Year)": "Last production year. Discontinued alongside full Q50 lineup. Used copies remain one of the best performance sedan values on the used market."
+  },
+  "common_issues": [
+    "Steer-by-wire (DAS) feels numb — no road feedback at low speeds",
+    "Wastegate rattle (same as 3.0t — turbo housing wear)",
+    "Firm suspension transmits road harshness into the cabin"
+  ],
+  "maintenance_tips": [
+    "Same engine as 3.0t — follow same strict 5k oil change interval",
+    "DAS system can be replaced with a conventional rack if preferred",
+    "Inspect turbo boost hoses for cracks — high output puts more stress on them"
+  ]
+}

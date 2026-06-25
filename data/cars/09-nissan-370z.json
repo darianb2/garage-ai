@@ -1,0 +1,39 @@
+{
+  "name": "Nissan 370Z",
+  "engine": "3.7L V6 (VQ37VHR)",
+  "horsepower": 332,
+  "torque": "270 lb-ft",
+  "drivetrain": "RWD",
+  "transmission": "6-speed manual (SynchroRev Match) / 7-speed auto",
+  "0_to_60": "5.1 sec",
+  "fuel_economy": "18 city / 26 hwy mpg",
+  "curb_weight": "3,463 lbs",
+  "reliability": "7/10 — strong VQ engine, but the clutch slave cylinder failure is a real black mark",
+  "cost_to_own": "Insurance: Moderate-High (sports coupe) · Maintenance ~$550/yr",
+  "popular_mods": [
+    "Intake, high-flow cats / test pipes, catback exhaust",
+    "Uprev or Ecutek ECU tune (modest NA gains)",
+    "Forced induction (turbo/supercharger kits) for serious power",
+    "Coilovers, sway bars, big brake kit",
+    "Nismo suspension and aero parts"
+  ],
+  "oil_type": "5W-30 full synthetic (Nissan Ester oil recommended)",
+  "oil_interval": "Every 5,000 miles (3,750 under hard/track use)",
+  "generations": {
+    "350Z (Z33, 2003–2008)": "Predecessor. 3.5L VQ35 V6 (287–306hp). The car that revived the Z nameplate in the US.",
+    "370Z (Z34, 2009–2020)": "3.7L VQ37VHR, 332hp. World's first manual with SynchroRev Match. Long 12-year run with minimal changes. Nismo trim made 350hp.",
+    "Nissan Z (RZ34, 2023–present)": "Successor. 3.0L twin-turbo VR30DDTT, 400hp (shared with Q50 Red Sport). Dropped the displacement-based name."
+  },
+  "common_issues": [
+    "Concentric slave cylinder (CSC) failure — cheap plastic part, requires transmission removal ($1,500-$3,500)",
+    "Oil consumption (shared VQ trait) at higher mileage",
+    "Rear tire wear from aggressive factory camber",
+    "Notchy 2nd-gear synchro when cold"
+  ],
+  "maintenance_tips": [
+    "Replace the plastic CSC with an aftermarket metal unit proactively",
+    "Use Nissan ester oil and check level regularly",
+    "Get an alignment to slow rear tire wear",
+    "Let the gearbox warm up before hard 2nd-gear shifts"
+  ]
+}

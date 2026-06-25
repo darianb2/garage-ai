@@ -1,0 +1,40 @@
+{
+  "name": "Honda Civic Type R",
+  "engine": "2.0L turbo I4 (K20C1)",
+  "horsepower": 315,
+  "torque": "310 lb-ft (FL5)",
+  "drivetrain": "FWD",
+  "transmission": "6-speed manual (only)",
+  "0_to_60": "4.9 sec",
+  "fuel_economy": "22 city / 28 hwy mpg",
+  "curb_weight": "3,150 lbs",
+  "reliability": "8/10 — robust K20C turbo and Honda bones; track abuse exposes gearbox and cooling limits",
+  "cost_to_own": "Insurance: High (performance hatch, theft target, dealer markups) · Maintenance ~$450/yr",
+  "popular_mods": [
+    "Hondata FlashPro tune (+40-60 whp)",
+    "Intake, downpipe, catback exhaust, upgraded front-mount intercooler",
+    "Big brake pads + high-temp fluid for track days",
+    "Lightweight wheels + R-compound tires",
+    "Reinforced 3rd/4th gears for heavily tracked cars"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Every 5,000-6,000 miles (sooner with track use)",
+  "generations": {
+    "EK9 / EP3 / FD2 (1997–2010)": "JDM/Euro icons (B16B, K20A) — naturally aspirated, high-revving legends. Never sold new in the US.",
+    "FK2 (2015–2017)": "First turbocharged Type R, 306hp K20C1. Europe and Japan only.",
+    "FK8 (2017–2021)": "First US-market CTR. 306hp, set the FWD Nürburgring lap record. Bold boy-racer styling. Watch fuel pump and 3rd/4th gear on tracked cars.",
+    "FL5 (2023–present)": "315hp, 15% stiffer chassis, more mature looks. Reclaimed the FWD 'Ring record. Widely called the best-driving CTR yet."
+  },
+  "common_issues": [
+    "FK8 in-tank fuel pump failure (recalled) — rev-match/emissions codes",
+    "3rd/4th gear failure on heavily tracked FK8s (reinforced gears available)",
+    "Track overheating → limp mode (notably FL5)",
+    "Clutch wear if driven hard; rev-hang on upshifts (both gens)"
+  ],
+  "maintenance_tips": [
+    "Confirm the FK8 fuel pump recall was completed on used examples",
+    "Track use: add oil/diff cooling and monitor temps to avoid limp mode",
+    "Upgrade brake fluid and pads before track days",
+    "Check oil for dilution in cold climates (shared K-series turbo trait)"
+  ]
+}
