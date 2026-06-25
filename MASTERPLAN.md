@@ -118,9 +118,9 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ### 5.1 Prep
 - [x] Create `.gitignore` (venv, __pycache__, .env) — done early in Phase 2
-- [ ] Add `Procfile` for Heroku/Railway
-- [ ] Add `runtime.txt` specifying Python version
-- [ ] Move any secrets to `.env`
+- [x] Add `Procfile` (`web: gunicorn app:app --bind 0.0.0.0:$PORT`) + gunicorn in requirements
+- [x] Add `runtime.txt` (python-3.12.3)
+- [x] Move any secrets to `.env` — N/A (app has no secrets); verified gunicorn serves all routes
 
 ### 5.2 Deploy
 - [ ] Push to GitHub
@@ -159,9 +159,10 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 5 — Production Deployment (Phase 4 COMPLETE)
-**Next task:** Phase 5.1 prep — create Procfile + runtime.txt; add gunicorn to requirements (deploy files).
-NOTE: the actual `git push` to GitHub and Railway deploy (5.2) need the user's credentials — those steps are blocked until the user is available, but all prep files can be built now.
+**Current active phase:** Phase 5 — Production Deployment (5.1 prep done)
+**Next task:** Phase 5.3 polish — favicon, SEO/social meta tags, real README (all doable autonomously).
+NOTE: 5.2 deploy (git push to GitHub + Railway) needs the user's credentials — blocked until the
+user is available. Everything else in Phase 5 can be finished now, leaving deploy as the last manual step.
 
 > Run the web app: `./.venv/bin/python app.py` → http://localhost:5000
 
