@@ -1,3 +1,5 @@
+import re
+
 print("Welcome to Garage AI")
 
 cars = {
@@ -656,16 +658,69 @@ def list_cars(cars):
         print(f"  - {name}")
 
 
-list_cars(cars)
-choice = input("\nWhat car are you researching? (type a name, or part of one) ")
-matches = find_matches(choice, cars)
+def parse_comparison(query):
+    """Split 'A vs B' / 'A versus B' / 'A, B' into two parts; return None if not a comparison."""
+    parts = re.split(r"\s+vs\.?\s+|\s+versus\s+|\s*,\s*", query.strip(), flags=re.IGNORECASE)
+    parts = [p for p in parts if p]
+    return parts if len(parts) == 2 else None
 
-if not matches:
-    print(f"\nI don't have data on '{choice.strip()}' yet.")
-elif len(matches) == 1:
-    display_car(matches[0], cars[matches[0]])
+
+def compare_cars(name1, car1, name2, car2):
+    print(f"\n{'=' * 50}")
+    print(f"  {name1}  vs  {name2}")
+    print(f"{'=' * 50}")
+    fields = [
+        ("Engine", "engine"),
+        ("Horsepower", "horsepower"),
+        ("Torque", "torque"),
+        ("Drivetrain", "drivetrain"),
+        ("Transmission", "transmission"),
+        ("0-60 mph", "0_to_60"),
+        ("Fuel Economy", "fuel_economy"),
+        ("Curb Weight", "curb_weight"),
+        ("Reliability", "reliability"),
+        ("Cost to Own", "cost_to_own"),
+        ("Oil Type", "oil_type"),
+    ]
+    pad = max(len(name1), len(name2))
+    for label, key in fields:
+        v1, v2 = car1[key], car2[key]
+        if key == "horsepower":
+            v1, v2 = f"{v1} hp", f"{v2} hp"
+        print(f"\n  {label}:")
+        print(f"    {name1:<{pad}}  {v1}")
+        print(f"    {name2:<{pad}}  {v2}")
+
+
+def resolve_one(query, cars):
+    """Resolve a query to a single car name, or print why it couldn't and return None."""
+    matches = find_matches(query, cars)
+    if len(matches) == 1:
+        return matches[0]
+    if not matches:
+        print(f"\nNo match for '{query.strip()}'.")
+    else:
+        print(f"\n'{query.strip()}' is ambiguous: {', '.join(matches)}")
+    return None
+
+
+list_cars(cars)
+choice = input("\nWhat car are you researching? (a name, part of one, or 'A vs B' to compare) ")
+
+comparison = parse_comparison(choice)
+if comparison:
+    n1 = resolve_one(comparison[0], cars)
+    n2 = resolve_one(comparison[1], cars)
+    if n1 and n2:
+        compare_cars(n1, cars[n1], n2, cars[n2])
 else:
-    print(f"\nFound {len(matches)} matches for '{choice.strip()}':")
-    for name in matches:
-        print(f"  - {name}")
-    print("\nType the full name to see full details on one.")
+    matches = find_matches(choice, cars)
+    if not matches:
+        print(f"\nI don't have data on '{choice.strip()}' yet.")
+    elif len(matches) == 1:
+        display_car(matches[0], cars[matches[0]])
+    else:
+        print(f"\nFound {len(matches)} matches for '{choice.strip()}':")
+        for name in matches:
+            print(f"  - {name}")
+        print("\nType the full name to see full details on one.")

@@ -47,7 +47,7 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 - [x] List all available cars on startup
 - [x] Case-insensitive search (type "civic si" not "Honda Civic Si")
 - [x] Partial name matching (type "q50" to see all Q50 variants)
-- [ ] Compare two cars side-by-side
+- [x] Compare two cars side-by-side
 - [ ] Filter by drivetrain, price range, or horsepower
 
 ---
@@ -157,8 +157,8 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 1 — CLI Expansion (1.1 + 1.2 done; 1.3 core search done)
-**Next task:** Add side-by-side comparison of two cars (Phase 1.3)
+**Current active phase:** Phase 1 — CLI Expansion (1.1 + 1.2 done; 1.3 nearly done)
+**Next task:** Add filtering by drivetrain / horsepower (last item of Phase 1.3)
 
 ---
 
