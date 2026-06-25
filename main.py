@@ -11,6 +11,13 @@ cars = {
         "fuel_economy": "27 city / 37 hwy mpg",
         "curb_weight": "3,012 lbs",
         "reliability": "8/10 — bulletproof Honda drivetrain; watch 10th-gen oil dilution",
+        "popular_mods": [
+            "Hondata FlashPro ECU tune (+50-70 whp — the single biggest gain)",
+            "Cold air intake + upgraded front-mount intercooler",
+            "Catback exhaust + downpipe",
+            "Lowering springs or coilovers + rear sway bar",
+            "Summer performance tires — the chassis can use more grip than stock",
+        ],
         "oil_type": "0W-20 full synthetic",
         "oil_interval": "Every 5,000-7,500 miles",
         "generations": {
@@ -43,6 +50,13 @@ cars = {
         "fuel_economy": "19 city / 26 hwy mpg",
         "curb_weight": "3,320 lbs",
         "reliability": "7/10 — rugged boxer/AWD; CVT and older EJ head gaskets are weak points",
+        "popular_mods": [
+            "Cobb Accessport ECU tune (E85 flex-fuel popular)",
+            "Catless/high-flow downpipe, intake, top-mount intercooler",
+            "Catback exhaust",
+            "Coilovers or lowering springs + front/rear sway bars",
+            "Note: FA24 is knock-sensitive — use a conservative, well-proven tune",
+        ],
         "oil_type": "5W-30 full synthetic",
         "oil_interval": "Every 6,000 miles",
         "generations": {
@@ -73,6 +87,13 @@ cars = {
         "fuel_economy": "23 city / 32 hwy mpg",
         "curb_weight": "3,527 lbs",
         "reliability": "6/10 — fast and refined, but carbon buildup and German upkeep costs add up",
+        "popular_mods": [
+            "APR or Unitronic Stage 1-2 ECU tune (330-370+ hp)",
+            "Intake, upgraded intercooler, downpipe",
+            "DSG/TCU transmission tune for faster, firmer shifts",
+            "IS38 turbo upgrade for big-power builds",
+            "Coilovers + sway bars",
+        ],
         "oil_type": "5W-40 full synthetic (VW 502.00 spec)",
         "oil_interval": "Every 10,000 miles (Audi LongLife) — recommend 5,000 for longevity",
         "generations": {
@@ -102,6 +123,13 @@ cars = {
         "fuel_economy": "15 city / 24 hwy mpg",
         "curb_weight": "3,705 lbs",
         "reliability": "7/10 — robust Coyote V8; hard launches and track use stress the drivetrain",
+        "popular_mods": [
+            "Supercharger (Roush/Whipple/Procharger) — the big power move, 700+ hp",
+            "Cold air intake + ECU tune",
+            "Long-tube headers + catback exhaust",
+            "Lowering springs/coilovers + subframe bushings",
+            "Sticky tires to tame wheel hop on launches",
+        ],
         "oil_type": "5W-50 full synthetic",
         "oil_interval": "Every 7,500 miles (normal) / 5,000 miles (track use)",
         "generations": {
@@ -131,6 +159,13 @@ cars = {
         "fuel_economy": "20 city / 27 hwy mpg (manual)",
         "curb_weight": "2,811 lbs",
         "reliability": "8/10 — simple, light, naturally aspirated; few chronic issues",
+        "popular_mods": [
+            "Forced induction (HKS turbo / supercharger kits, 300+ hp) — main power path",
+            "Cold air intake, catback exhaust, Tomei header",
+            "ECU tune (modest NA gains — power isn't this car's strength)",
+            "Coilovers, sway bars, chassis bracing, sticky tires — transforms the car",
+            "Big brake kit for track use",
+        ],
         "oil_type": "0W-20 full synthetic",
         "oil_interval": "Every 6,000 miles",
         "generations": {
@@ -159,6 +194,13 @@ cars = {
         "fuel_economy": "20 city / 29 hwy mpg (RWD)",
         "curb_weight": "3,574 lbs",
         "reliability": "7/10 — durable VQ V6; watch oil consumption and warping brake rotors",
+        "popular_mods": [
+            "Uprev or Ecutek ECU tune",
+            "Cold air intake, headers, catback exhaust (modest NA gains)",
+            "Plenum spacer / underdrive pulley",
+            "Coilovers + sway bars",
+            "Note: naturally aspirated — gains are modest vs the turbo VR30 cars",
+        ],
         "oil_type": "5W-30 full synthetic (Nissan Ester oil recommended)",
         "oil_interval": "Every 5,000-6,000 miles",
         "generations": {
@@ -186,6 +228,13 @@ cars = {
         "fuel_economy": "20 city / 29 hwy mpg (RWD)",
         "curb_weight": "3,820 lbs",
         "reliability": "6/10 — strong engine, but turbo complexity and wastegate rattle at mileage",
+        "popular_mods": [
+            "Ecutek tune or JB4 piggyback (+40-100 whp → 350-400 whp)",
+            "Catless downpipes, cold air intakes, upgraded intercoolers (FBO ~440-475 whp)",
+            "E85 flex fuel + upgraded HPFP/LPFP (500+ whp on stock turbos)",
+            "Coilovers + sway bars",
+            "Huge tuning headroom — one of the best bang-for-buck platforms out there",
+        ],
         "oil_type": "5W-30 or 5W-40 full synthetic",
         "oil_interval": "Every 5,000 miles (recommended — do not stretch intervals on a turbo)",
         "generations": {
@@ -214,6 +263,13 @@ cars = {
         "fuel_economy": "20 city / 26 hwy mpg (RWD)",
         "curb_weight": "3,890 lbs",
         "reliability": "6/10 — same VR30 under more stress; DAS steering quirks knock points off",
+        "popular_mods": [
+            "Ecutek/JB4 tune (430+ whp with tune alone on the high-output VR30)",
+            "Full bolt-ons (downpipes/intakes/intercoolers) ~475 whp",
+            "E85 + fuel system upgrades = 500-525 whp on stock turbos",
+            "Coilovers, sway bars, big brake kit",
+            "Best starting point in the Q50 range for a serious power build",
+        ],
         "oil_type": "5W-30 or 5W-40 full synthetic",
         "oil_interval": "Every 5,000 miles",
         "generations": {
@@ -264,3 +320,6 @@ else:
     print(f"\n  Maintenance Tips:")
     for tip in car["maintenance_tips"]:
         print(f"    - {tip}")
+    print(f"\n  Popular Mods:")
+    for mod in car["popular_mods"]:
+        print(f"    - {mod}")

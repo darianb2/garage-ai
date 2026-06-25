@@ -22,7 +22,7 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 - [x] Fuel economy (city/hwy mpg)
 - [x] Curb weight
 - [x] Reliability score (1-10 with reasoning)
-- [ ] Common modifications (bolt-ons, tunes, suspension)
+- [x] Common modifications (bolt-ons, tunes, suspension)
 - [ ] Estimated cost to own (insurance tier, maintenance cost per year)
 
 ### 1.2 More Cars
@@ -158,7 +158,7 @@ When a scheduled agent wakes up, it should:
 7. Stop — one task per run, keep changes focused
 
 **Current active phase:** Phase 1 — CLI Expansion
-**Next task:** Add common modifications (bolt-ons, tunes, suspension) to all existing cars
+**Next task:** Add estimated cost to own (insurance tier, maintenance cost/yr) to all existing cars
 
 ---
 

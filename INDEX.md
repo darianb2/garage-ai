@@ -43,6 +43,7 @@ garage-ai/
 | `generations` | Dict of gen name → description |
 | `common_issues` | List of known problems |
 | `maintenance_tips` | List of maintenance advice |
+| `popular_mods` | List of common modifications and tuning paths |
 
 ## Roadmap Summary
 
