@@ -88,7 +88,7 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 4 — Frontend (HTML + CSS + Tailwind)
+## Phase 4 — Frontend (HTML + CSS + Tailwind) ✅ COMPLETE
 
 ### 4.1 Setup Tailwind
 - [x] Add Tailwind CSS via CDN (no build step needed initially)
@@ -107,10 +107,10 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 - [ ] Compare button (stretch goal — CLI has compare; web compare deferred)
 
 ### 4.4 Design System
-- [ ] Dark theme (garage / mechanical feel)
-- [ ] Typography: clean sans-serif (Inter or similar)
-- [ ] Color palette: dark background, amber/orange accents
-- [ ] Icons for drivetrain, transmission type
+- [x] Dark theme (garage / mechanical feel) — shared via base.html
+- [x] Typography: Inter (Google Fonts) wired through Tailwind font-sans
+- [x] Color palette: dark zinc background, amber accents
+- [x] Icons for drivetrain (wheel) + transmission (gear) — inline SVG
 
 ---
 
@@ -159,8 +159,9 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 4 — Frontend (Tailwind) — 4.1/4.2/4.3 done
-**Next task:** Finalize design system (Phase 4.4) — add Inter font, drivetrain/transmission icons; then Phase 4 is complete
+**Current active phase:** Phase 5 — Production Deployment (Phase 4 COMPLETE)
+**Next task:** Phase 5.1 prep — create Procfile + runtime.txt; add gunicorn to requirements (deploy files).
+NOTE: the actual `git push` to GitHub and Railway deploy (5.2) need the user's credentials — those steps are blocked until the user is available, but all prep files can be built now.
 
 > Run the web app: `./.venv/bin/python app.py` → http://localhost:5000
 

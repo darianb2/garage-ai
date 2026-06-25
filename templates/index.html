@@ -1,59 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Garage AI — Your Pocket Mechanic</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="{{ url_for('static', filename='custom.css') }}">
-</head>
-<body class="bg-zinc-900 text-zinc-100 min-h-screen">
-  <div class="max-w-6xl mx-auto px-4 py-8">
-    <header class="mb-6">
-      <h1 class="text-3xl font-bold tracking-tight">
-        <span class="text-amber-500">Garage</span> AI
-      </h1>
-      <p class="text-zinc-400 mt-1">Your pocket mechanic — data on {{ cars|length }} cars.</p>
-    </header>
+{% extends "base.html" %}
+{% block title %}Garage AI — Your Pocket Mechanic{% endblock %}
+{% block content %}
+{% set wheel %}<svg class="w-3.5 h-3.5 inline -mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg>{% endset %}
+<div class="max-w-6xl mx-auto px-4 py-8">
+  <header class="mb-6">
+    <h1 class="text-3xl font-bold tracking-tight">
+      <span class="text-amber-500">Garage</span> AI
+    </h1>
+    <p class="text-zinc-400 mt-1">Your pocket mechanic — data on {{ cars|length }} cars.</p>
+  </header>
 
-    <input id="search" type="text" autofocus
-      placeholder="Search cars… (e.g. q50, civic, mustang)"
-      class="w-full max-w-md mb-8 px-4 py-3 rounded-lg bg-zinc-800 border border-zinc-700
-             text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-amber-500
-             focus:ring-1 focus:ring-amber-500">
+  <input id="search" type="text" autofocus
+    placeholder="Search cars… (e.g. q50, civic, mustang)"
+    class="w-full max-w-md mb-8 px-4 py-3 rounded-lg bg-zinc-800 border border-zinc-700
+           text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-amber-500
+           focus:ring-1 focus:ring-amber-500">
 
-    <div id="grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-      {% for car in cars %}
-      <a href="{{ url_for('car_page', name=car.name) }}" data-name="{{ car.name|lower }}"
-        class="card block p-5 rounded-xl bg-zinc-800 border border-zinc-700
-               hover:border-amber-500 hover:-translate-y-0.5 transition">
-        <h2 class="text-lg font-semibold mb-1">{{ car.name }}</h2>
-        <p class="text-sm text-zinc-400">{{ car.engine }}</p>
-        <p class="text-sm mt-2">
-          <span class="text-amber-500 font-bold">{{ car.horsepower }} hp</span>
-          <span class="text-zinc-600">&middot;</span>
-          <span class="text-zinc-300">{{ car.drivetrain }}</span>
-        </p>
-      </a>
-      {% endfor %}
-    </div>
-    <p id="empty" class="hidden text-zinc-500 mt-6">No cars match your search.</p>
+  <div id="grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    {% for car in cars %}
+    <a href="{{ url_for('car_page', name=car.name) }}" data-name="{{ car.name|lower }}"
+      class="card block p-5 rounded-xl bg-zinc-800 border border-zinc-700
+             hover:border-amber-500 hover:-translate-y-0.5 transition">
+      <h2 class="text-lg font-semibold mb-1">{{ car.name }}</h2>
+      <p class="text-sm text-zinc-400">{{ car.engine }}</p>
+      <p class="text-sm mt-2">
+        <span class="text-amber-500 font-bold">{{ car.horsepower }} hp</span>
+        <span class="text-zinc-600">&middot;</span>
+        <span class="text-zinc-300">{{ wheel }} {{ car.drivetrain }}</span>
+      </p>
+    </a>
+    {% endfor %}
   </div>
+  <p id="empty" class="hidden text-zinc-500 mt-6">No cars match your search.</p>
+</div>
 
-  <script>
-    const search = document.getElementById('search');
-    const cards = [...document.querySelectorAll('.card')];
-    const empty = document.getElementById('empty');
-    search.addEventListener('input', () => {
-      const q = search.value.trim().toLowerCase();
-      let shown = 0;
-      cards.forEach(c => {
-        const match = c.dataset.name.includes(q);
-        c.classList.toggle('hidden', !match);
-        if (match) shown++;
-      });
-      empty.classList.toggle('hidden', shown !== 0);
+<script>
+  const search = document.getElementById('search');
+  const cards = [...document.querySelectorAll('.card')];
+  const empty = document.getElementById('empty');
+  search.addEventListener('input', () => {
+    const q = search.value.trim().toLowerCase();
+    let shown = 0;
+    cards.forEach(c => {
+      const match = c.dataset.name.includes(q);
+      c.classList.toggle('hidden', !match);
+      if (match) shown++;
     });
-  </script>
-</body>
-</html>
+    empty.classList.toggle('hidden', shown !== 0);
+  });
+</script>
+{% endblock %}

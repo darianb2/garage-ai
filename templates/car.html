@@ -1,78 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ name }} — Garage AI</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="{{ url_for('static', filename='custom.css') }}">
-</head>
-<body class="bg-zinc-900 text-zinc-100 min-h-screen">
-  <div class="max-w-4xl mx-auto px-4 py-8">
-    <a href="{{ url_for('index') }}" class="text-amber-500 hover:text-amber-400 text-sm">&larr; All cars</a>
+{% extends "base.html" %}
+{% block title %}{{ name }} — Garage AI{% endblock %}
+{% block content %}
+{% set wheel %}<svg class="w-3.5 h-3.5 inline -mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg>{% endset %}
+{% set gear %}<svg class="w-3.5 h-3.5 inline -mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/></svg>{% endset %}
+<div class="max-w-4xl mx-auto px-4 py-8">
+  <a href="{{ url_for('index') }}" class="text-amber-500 hover:text-amber-400 text-sm">&larr; All cars</a>
 
-    <header class="mt-3 mb-8">
-      <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">{{ name }}</h1>
-      <p class="text-zinc-400 mt-1">{{ car.engine }}</p>
-      <p class="mt-4">
-        <span class="text-4xl font-bold text-amber-500">{{ car.horsepower }}</span>
-        <span class="text-zinc-400">hp</span>
-      </p>
-    </header>
+  <header class="mt-3 mb-8">
+    <h1 class="text-3xl sm:text-4xl font-bold tracking-tight">{{ name }}</h1>
+    <p class="text-zinc-400 mt-1">{{ car.engine }}</p>
+    <p class="mt-4">
+      <span class="text-4xl font-bold text-amber-500">{{ car.horsepower }}</span>
+      <span class="text-zinc-400">hp</span>
+    </p>
+  </header>
 
-    {% set specs = [
-      ('Torque', car.torque), ('0-60 mph', car['0_to_60']),
-      ('Drivetrain', car.drivetrain), ('Transmission', car.transmission),
-      ('Fuel Economy', car.fuel_economy), ('Curb Weight', car.curb_weight),
-      ('Reliability', car.reliability), ('Cost to Own', car.cost_to_own)
-    ] %}
-    <section class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 mb-8">
-      {% for label, value in specs %}
-      <div class="border-b border-zinc-800 pb-2">
-        <div class="text-xs text-zinc-500 uppercase tracking-wide">{{ label }}</div>
-        <div class="text-zinc-100">{{ value }}</div>
+  {% set specs = [
+    ('Torque', car.torque, ''), ('0-60 mph', car['0_to_60'], ''),
+    ('Drivetrain', car.drivetrain, wheel), ('Transmission', car.transmission, gear),
+    ('Fuel Economy', car.fuel_economy, ''), ('Curb Weight', car.curb_weight, ''),
+    ('Reliability', car.reliability, ''), ('Cost to Own', car.cost_to_own, '')
+  ] %}
+  <section class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3 mb-8">
+    {% for label, value, icon in specs %}
+    <div class="border-b border-zinc-800 pb-2">
+      <div class="text-xs text-zinc-500 uppercase tracking-wide flex items-center gap-1">
+        {{ icon }}{{ label }}
+      </div>
+      <div class="text-zinc-100">{{ value }}</div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section class="bg-zinc-800 border-l-4 border-amber-500 rounded-r-lg p-4 mb-8">
+    <h3 class="text-sm font-semibold text-amber-500 uppercase tracking-wide mb-2">Oil</h3>
+    <p><span class="text-zinc-400">Type:</span> {{ car.oil_type }}</p>
+    <p><span class="text-zinc-400">Interval:</span> {{ car.oil_interval }}</p>
+  </section>
+
+  <section class="mb-8">
+    <h3 class="text-lg font-semibold mb-3 text-amber-500">Generation History</h3>
+    <div class="space-y-3">
+      {% for label, notes in car.generations.items() %}
+      <div class="bg-zinc-800 rounded-lg p-4 border border-zinc-700">
+        <div class="font-semibold">{{ label }}</div>
+        <div class="text-sm text-zinc-300 mt-1">{{ notes }}</div>
       </div>
       {% endfor %}
-    </section>
-
-    <section class="bg-zinc-800 border-l-4 border-amber-500 rounded-r-lg p-4 mb-8">
-      <h3 class="text-sm font-semibold text-amber-500 uppercase tracking-wide mb-2">Oil</h3>
-      <p><span class="text-zinc-400">Type:</span> {{ car.oil_type }}</p>
-      <p><span class="text-zinc-400">Interval:</span> {{ car.oil_interval }}</p>
-    </section>
-
-    <section class="mb-8">
-      <h3 class="text-lg font-semibold mb-3 text-amber-500">Generation History</h3>
-      <div class="space-y-3">
-        {% for label, notes in car.generations.items() %}
-        <div class="bg-zinc-800 rounded-lg p-4 border border-zinc-700">
-          <div class="font-semibold">{{ label }}</div>
-          <div class="text-sm text-zinc-300 mt-1">{{ notes }}</div>
-        </div>
-        {% endfor %}
-      </div>
-    </section>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-      <section>
-        <h3 class="text-lg font-semibold mb-2 text-amber-500">Common Issues</h3>
-        <ul class="list-disc list-inside space-y-1 text-zinc-300 text-sm">
-          {% for issue in car.common_issues %}<li>{{ issue }}</li>{% endfor %}
-        </ul>
-      </section>
-      <section>
-        <h3 class="text-lg font-semibold mb-2 text-amber-500">Maintenance Tips</h3>
-        <ul class="list-disc list-inside space-y-1 text-zinc-300 text-sm">
-          {% for tip in car.maintenance_tips %}<li>{{ tip }}</li>{% endfor %}
-        </ul>
-      </section>
-      <section class="md:col-span-2">
-        <h3 class="text-lg font-semibold mb-2 text-amber-500">Popular Mods</h3>
-        <ul class="list-disc list-inside space-y-1 text-zinc-300 text-sm">
-          {% for mod in car.popular_mods %}<li>{{ mod }}</li>{% endfor %}
-        </ul>
-      </section>
     </div>
+  </section>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <section>
+      <h3 class="text-lg font-semibold mb-2 text-amber-500">Common Issues</h3>
+      <ul class="list-disc list-inside space-y-1 text-zinc-300 text-sm">
+        {% for issue in car.common_issues %}<li>{{ issue }}</li>{% endfor %}
+      </ul>
+    </section>
+    <section>
+      <h3 class="text-lg font-semibold mb-2 text-amber-500">Maintenance Tips</h3>
+      <ul class="list-disc list-inside space-y-1 text-zinc-300 text-sm">
+        {% for tip in car.maintenance_tips %}<li>{{ tip }}</li>{% endfor %}
+      </ul>
+    </section>
+    <section class="md:col-span-2">
+      <h3 class="text-lg font-semibold mb-2 text-amber-500">Popular Mods</h3>
+      <ul class="list-disc list-inside space-y-1 text-zinc-300 text-sm">
+        {% for mod in car.popular_mods %}<li>{{ mod }}</li>{% endfor %}
+      </ul>
+    </section>
   </div>
-</body>
-</html>
+</div>
+{% endblock %}

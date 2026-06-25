@@ -8,6 +8,7 @@ garage-ai/
 │                        #   routes: / (homepage), /car/<name> (detail),
 │                        #           /api/cars, /api/car/<name>, /api/search
 ├── templates/
+│   ├── base.html        # shared shell — Tailwind CDN, Inter font, dark theme
 │   ├── index.html       # homepage — Tailwind dark theme, search + responsive card grid
 │   └── car.html         # detail page — Tailwind dark theme: hero, specs grid, oil card, sections
 ├── static/
@@ -82,7 +83,7 @@ garage-ai/
 | 1 | CLI expansion — more cars, more data | ✅ Complete |
 | 2 | Data architecture — JSON files + loader | ✅ Complete |
 | 3 | Flask web backend + API | ✅ Complete |
-| 4 | Frontend — HTML/CSS/Tailwind | ⬜ Not Started |
+| 4 | Frontend — HTML/CSS/Tailwind | ✅ Complete |
 | 5 | Production deployment | ⬜ Not Started |
 
 See `MASTERPLAN.md` for full task checklist.
