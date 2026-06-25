@@ -4,6 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% block title %}Garage AI{% endblock %}</title>
+  <meta name="description" content="{% block meta_description %}Garage AI — a pocket mechanic with specs, generation history, common issues, maintenance tips, and mods for enthusiast cars.{% endblock %}">
+  <meta name="theme-color" content="#18181b">
+  <meta property="og:title" content="{% block og_title %}Garage AI — Your Pocket Mechanic{% endblock %}">
+  <meta property="og:description" content="Specs, reliability, maintenance, and mods for 16 enthusiast cars.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="{{ url_for('static', filename='favicon.svg') }}" type="image/svg+xml">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {

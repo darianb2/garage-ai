@@ -14,7 +14,8 @@ garage-ai/
 │   ├── index.html       # homepage — Tailwind dark theme, search + responsive card grid
 │   └── car.html         # detail page — Tailwind dark theme: hero, specs grid, oil card, sections
 ├── static/
-│   └── custom.css       # small overrides layered on Tailwind (CDN)
+│   ├── custom.css       # small overrides layered on Tailwind (CDN)
+│   └── favicon.svg      # amber wrench icon
 ├── requirements.txt     # Python deps (Flask)
 ├── main.py              # CLI app — lookup/display/compare/filter logic (loads data via loader)
 │                        #   funcs: display_car(), find_matches(), list_cars(),
