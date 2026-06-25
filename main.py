@@ -528,6 +528,46 @@ cars = {
             "Huge tuning headroom, but upgrade fueling before chasing big power",
         ],
     },
+    "Volkswagen Golf GTI": {
+        "engine": "2.0L turbo I4 (EA888)",
+        "horsepower": 241,
+        "torque": "273 lb-ft (Mk8)",
+        "drivetrain": "FWD",
+        "transmission": "6-speed manual / 7-speed DSG",
+        "0_to_60": "5.6 sec",
+        "fuel_economy": "24 city / 33 hwy mpg",
+        "curb_weight": "3,150 lbs",
+        "reliability": "7/10 — EA888 is strong and long-lived, but water pump, carbon buildup, and DSG service are watch items",
+        "cost_to_own": "Insurance: Moderate (practical hot hatch) · Maintenance ~$630/yr (VW parts/labor)",
+        "popular_mods": [
+            "APR / Unitronic / Cobb Stage 1 ECU tune (290-300+ hp)",
+            "Intake, downpipe, upgraded intercooler",
+            "DSG/transmission tune for faster shifts",
+            "Lowering springs or coilovers + rear sway bar (tames understeer/torque steer)",
+            "Walnut blasting as preventive maintenance",
+        ],
+        "oil_type": "0W-20 / 5W-40 full synthetic (VW 504.00 spec)",
+        "oil_interval": "Every 5,000-7,500 miles (don't follow VW's 10k LongLife interval)",
+        "generations": {
+            "Mk1 (1976–1983)": "The original GTI — it invented the hot hatch.",
+            "Mk5 (2006–2009)": "Return to form after the soft Mk3/Mk4 era. 2.0T FSI.",
+            "Mk6 (2010–2014)": "Refined Mk5 on the same platform. 2.0T, widely loved.",
+            "Mk7 (2015–2021)": "EA888 Gen3, 210→228hp (US). Often called the GTI sweet spot — sharp chassis, available manual, analog feel.",
+            "Mk8 (2022–present)": "241hp EA888 evo4. Quicker but controversial touch-capacitive controls and laggy infotainment. Manual dropped after 2024 in the US.",
+        },
+        "common_issues": [
+            "Plastic water pump / thermostat housing cracks and leaks (~50k miles)",
+            "Carbon buildup on intake valves (direct injection)",
+            "DSG mechatronic/clutch wear if fluid isn't serviced",
+            "Mk8 buggy infotainment and frustrating touch controls",
+        ],
+        "maintenance_tips": [
+            "Walnut-blast intake valves every 40-60k miles",
+            "Replace the plastic water pump/thermostat proactively around 60-80k",
+            "Service the DSG fluid every ~40k miles",
+            "Use VW 504.00 oil and shorten the LongLife interval to 5-7.5k",
+        ],
+    },
 }
 
 choice = input("What car are you researching? ")

@@ -40,7 +40,7 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 - [x] Honda Civic Type R (FK8, FL5)
 - [x] Mazda MX-5 Miata (NA, NB, NC, ND)
 - [x] Toyota Supra (A90)
-- [ ] Volkswagen Golf GTI (Mk7, Mk8)
+- [x] Volkswagen Golf GTI (Mk7, Mk8)
 - [ ] Chevrolet Camaro SS
 
 ### 1.3 CLI UX
@@ -158,7 +158,7 @@ When a scheduled agent wakes up, it should:
 7. Stop — one task per run, keep changes focused
 
 **Current active phase:** Phase 1 — CLI Expansion (1.1 Data Depth complete; 1.2 More Cars next)
-**Next task:** Add Volkswagen Golf GTI (Mk7, Mk8) with full data
+**Next task:** Add Chevrolet Camaro SS with full data (final car in Phase 1.2)
 
 ---
 
