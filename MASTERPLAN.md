@@ -52,7 +52,7 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 
 ---
 
-## Phase 2 — Data Architecture
+## Phase 2 — Data Architecture ✅ COMPLETE
 
 ### 2.1 Separate Data from Code
 - [x] Move all car data from main.py into individual JSON files (one per car)
@@ -63,7 +63,7 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 ### 2.2 Data Validation
 - [x] Write a schema validator that checks each car JSON has required fields
 - [x] Run validator on startup and warn if any car is missing data
-- [ ] Add a `scripts/add_car.py` helper to guide adding new cars
+- [x] Add a `scripts/add_car.py` helper to guide adding new cars
 
 ---
 
@@ -157,8 +157,8 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 2 — Data Architecture (2.1 done; 2.2 nearly done)
-**Next task:** Add scripts/add_car.py helper that prompts for each field and writes a valid car JSON (Phase 2.2, last item)
+**Current active phase:** Phase 3 — Flask Web Backend (Phase 2 COMPLETE)
+**Next task:** Install Flask, create app.py entry point + requirements.txt (Phase 3.1)
 
 ---
 

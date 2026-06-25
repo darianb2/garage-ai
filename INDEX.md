@@ -12,6 +12,8 @@ garage-ai/
 │                        #             'A vs B' comparison, drivetrain/hp filtering
 ├── loader.py            # load_cars() — reads data/cars/*.json into an ordered dict
 ├── validator.py         # schema/type validation; run standalone or at startup
+├── scripts/
+│   └── add_car.py       # interactive prompt → validated, numbered car JSON
 ├── data/
 │   └── cars/            # one NN-slug.json per car (16 files; NN preserves order)
 ├── MASTERPLAN.md        # Roadmap, phases, task checklist
@@ -68,7 +70,7 @@ garage-ai/
 | Phase | Focus | Status |
 |---|---|---|
 | 1 | CLI expansion — more cars, more data | ✅ Complete |
-| 2 | Data architecture — JSON files + loader | ⬜ Not Started |
+| 2 | Data architecture — JSON files + loader | ✅ Complete |
 | 3 | Flask web backend + API | ⬜ Not Started |
 | 4 | Frontend — HTML/CSS/Tailwind | ⬜ Not Started |
 | 5 | Production deployment | ⬜ Not Started |
