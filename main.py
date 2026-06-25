@@ -450,6 +450,45 @@ cars = {
             "Check oil for dilution in cold climates (shared K-series turbo trait)",
         ],
     },
+    "Mazda MX-5 Miata": {
+        "engine": "2.0L Skyactiv I4 (ND)",
+        "horsepower": 181,
+        "torque": "151 lb-ft (ND)",
+        "drivetrain": "RWD",
+        "transmission": "6-speed manual / 6-speed auto",
+        "0_to_60": "5.7 sec",
+        "fuel_economy": "26 city / 34 hwy mpg",
+        "curb_weight": "2,345 lbs",
+        "reliability": "9/10 — engines are nearly impossible to kill; rust on older cars is the real enemy",
+        "cost_to_own": "Insurance: Low-Moderate (cheap, low-power 2-seater) · Maintenance ~$430/yr",
+        "popular_mods": [
+            "Coilovers, sway bars, fresh bushings — the soul of Miata modding",
+            "Lightweight wheels + sticky 200-treadwear tires",
+            "Header, intake, catback exhaust (modest NA power gains)",
+            "Forced induction (turbo/supercharger kits) for real power",
+            "Hardtop + roll bar for track duty",
+        ],
+        "oil_type": "0W-20 (ND) / 5W-30 (older) full synthetic",
+        "oil_interval": "Every 5,000-7,500 miles",
+        "generations": {
+            "NA (1990–1997)": "1.6L (116hp) then 1.8L (128hp). ~2,100 lbs, pop-up headlights, near 50:50 balance. The original that defined the modern roadster.",
+            "NB (1999–2005)": "1.8L, up to 142hp. Fixed headlights, 6-speed available. Still belt-driven (replace every 60k).",
+            "NC (2006–2015)": "2.0L MZR, 170hp. Larger and ~2,480 lbs. Power retractable hardtop (PRHT) offered. Early '06 cars had rod-bearing engine failures.",
+            "ND (2016–present)": "2.0L Skyactiv, 155hp early → 181hp (2019+). Back to ~2,340 lbs lightweight ethos. RF retractable fastback option.",
+        },
+        "common_issues": [
+            "Rust on rocker panels and fender arches (NA/NB worst; NC improved)",
+            "Cooling system plastic parts crack → coolant leaks (NA/NB)",
+            "Early 2006 NC rod-bearing / engine failures",
+            "Soft top and window seals wear with age",
+        ],
+        "maintenance_tips": [
+            "Inspect rockers, arches, and frame rails for rust before buying older cars",
+            "NA/NB: replace the timing belt every 60k miles (NC/ND use a maintenance-free chain)",
+            "Refresh cooling-system plastics on NA/NB to prevent leaks",
+            "Keep up with oil changes — these engines last forever if maintained",
+        ],
+    },
 }
 
 choice = input("What car are you researching? ")
