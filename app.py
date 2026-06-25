@@ -10,13 +10,19 @@ Endpoints:
   GET /api/search?q=...  fuzzy search → list of summaries
 """
 
-from flask import Flask, jsonify, render_template, request
+import os
+from datetime import datetime, timezone
+
+from flask import Flask, jsonify, redirect, render_template, request, url_for
 
 from loader import load_cars
 from search import find_matches
 
 app = Flask(__name__)
 cars = load_cars()
+
+# Runtime-only log (gitignored; ephemeral on hosts like Railway/Heroku).
+SUGGESTIONS_FILE = os.path.join(os.path.dirname(__file__), "data", "suggestions.log")
 
 
 def summary(name):
@@ -31,7 +37,22 @@ def summary(name):
 
 @app.route("/")
 def index():
-    return render_template("index.html", cars=[summary(name) for name in cars])
+    return render_template(
+        "index.html",
+        cars=[summary(name) for name in cars],
+        thanks=request.args.get("thanks"),
+    )
+
+
+@app.route("/suggest", methods=["POST"])
+def suggest():
+    name = request.form.get("car", "").strip()
+    if name:
+        ts = datetime.now(timezone.utc).isoformat(timespec="seconds")
+        with open(SUGGESTIONS_FILE, "a", encoding="utf-8") as f:
+            f.write(f"{ts}\t{name}\n")
+        return redirect(url_for("index", thanks=name))
+    return redirect(url_for("index"))
 
 
 @app.route("/car/<path:name>")

@@ -7,7 +7,7 @@ garage-ai/
 ├── Procfile             # web: gunicorn app:app --bind 0.0.0.0:$PORT
 ├── runtime.txt          # python-3.12.3 (deploy target)
 ├── app.py               # Flask web backend (loads data via loader); run from .venv
-│                        #   routes: / (homepage), /car/<name> (detail),
+│                        #   routes: / (homepage), /car/<name> (detail), /suggest (POST),
 │                        #           /api/cars, /api/car/<name>, /api/search
 ├── templates/
 │   ├── base.html        # shared shell — Tailwind CDN, Inter font, dark theme

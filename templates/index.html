@@ -10,6 +10,12 @@
     <p class="text-zinc-400 mt-1">Your pocket mechanic — data on {{ cars|length }} cars.</p>
   </header>
 
+  {% if thanks %}
+  <div class="mb-4 px-4 py-3 rounded-lg bg-amber-500/10 border border-amber-500 text-amber-300">
+    Thanks for suggesting <span class="font-semibold">{{ thanks }}</span> — added to the request list.
+  </div>
+  {% endif %}
+
   <input id="search" type="text" autofocus
     placeholder="Search cars… (e.g. q50, civic, mustang)"
     class="w-full max-w-md mb-8 px-4 py-3 rounded-lg bg-zinc-800 border border-zinc-700
@@ -32,6 +38,19 @@
     {% endfor %}
   </div>
   <p id="empty" class="hidden text-zinc-500 mt-6">No cars match your search.</p>
+
+  <section class="mt-10 pt-6 border-t border-zinc-800">
+    <h3 class="text-sm font-semibold text-zinc-300 mb-2">Don't see your car?</h3>
+    <form action="{{ url_for('suggest') }}" method="post" class="flex gap-2 max-w-md">
+      <input type="text" name="car" required placeholder="Suggest a car…"
+        class="flex-1 px-3 py-2 rounded-lg bg-zinc-800 border border-zinc-700 text-zinc-100
+               placeholder-zinc-500 focus:outline-none focus:border-amber-500">
+      <button type="submit"
+        class="px-4 py-2 rounded-lg bg-amber-500 text-zinc-900 font-semibold hover:bg-amber-400">
+        Suggest
+      </button>
+    </form>
+  </section>
 </div>
 
 <script>

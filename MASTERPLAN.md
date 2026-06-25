@@ -132,7 +132,7 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 - [x] Add favicon (amber wrench SVG)
 - [x] Add meta tags for SEO and social sharing (per-car og:title + description overrides)
 - [x] Write a real README.md (overview, features, run instructions, architecture, deploy)
-- [ ] Add a "suggest a car" form (sends to a log or email)
+- [x] Add a "suggest a car" form (POST /suggest → data/suggestions.log; thank-you banner)
 - [ ] Google Analytics or simple hit counter
 
 ---
@@ -160,8 +160,8 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 5 — Production Deployment (5.1 done; favicon/meta/README done)
-**Next task:** Add a "suggest a car" form — POST endpoint that logs suggestions to a file, plus a small form on the homepage (Phase 5.3).
+**Current active phase:** Phase 5 — Production Deployment (5.1 done; favicon/meta/README/suggest done)
+**Next task:** Add a simple hit counter (last autonomous polish item) — then ONLY 5.2 deploy remains (needs the user).
 NOTE: 5.2 deploy (git push to GitHub + Railway) needs the user's credentials — blocked until the
 user is available. Everything else in Phase 5 can be finished now, leaving deploy as the last manual step.
 
