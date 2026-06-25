@@ -9,7 +9,7 @@ garage-ai/
 │                        #           /api/cars, /api/car/<name>, /api/search
 ├── templates/
 │   ├── index.html       # homepage — Tailwind dark theme, search + responsive card grid
-│   └── car.html         # detail page — all 16 fields (Tailwind restyle pending in 4.3)
+│   └── car.html         # detail page — Tailwind dark theme: hero, specs grid, oil card, sections
 ├── static/
 │   └── custom.css       # small overrides layered on Tailwind (CDN)
 ├── requirements.txt     # Python deps (Flask)

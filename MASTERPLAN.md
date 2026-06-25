@@ -100,10 +100,11 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 - [x] Mobile responsive layout (1 / 2 / 3 columns)
 
 ### 4.3 Car Detail Page
-- [ ] Hero section: car name, engine, hp, torque, 0-60
-- [ ] Accordion sections: Generation History, Common Issues, Maintenance Tips
-- [ ] Oil info card
-- [ ] Compare button (stretch goal)
+- [x] Hero section: car name, engine, big amber hp (torque/0-60 in specs grid)
+- [x] Sections: Generation History, Common Issues, Maintenance Tips, Popular Mods
+      (always-visible sections — cleaner to scan than accordions for this content)
+- [x] Oil info card (amber left-border highlight)
+- [ ] Compare button (stretch goal — CLI has compare; web compare deferred)
 
 ### 4.4 Design System
 - [ ] Dark theme (garage / mechanical feel)
@@ -158,8 +159,8 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 4 — Frontend (Tailwind) — 4.1 + homepage done
-**Next task:** Restyle car.html detail page with the dark theme — hero section, sectioned layout, oil card (Phase 4.3)
+**Current active phase:** Phase 4 — Frontend (Tailwind) — 4.1/4.2/4.3 done
+**Next task:** Finalize design system (Phase 4.4) — add Inter font, drivetrain/transmission icons; then Phase 4 is complete
 
 > Run the web app: `./.venv/bin/python app.py` → http://localhost:5000
 
