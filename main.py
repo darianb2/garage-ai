@@ -489,6 +489,45 @@ cars = {
             "Keep up with oil changes — these engines last forever if maintained",
         ],
     },
+    "Toyota GR Supra": {
+        "engine": "3.0L turbo I6 (B58, BMW-sourced)",
+        "horsepower": 382,
+        "torque": "368 lb-ft",
+        "drivetrain": "RWD",
+        "transmission": "8-speed auto / 6-speed manual (2023+)",
+        "0_to_60": "3.9 sec",
+        "fuel_economy": "22 city / 30 hwy mpg",
+        "curb_weight": "3,300 lbs (3,400 manual)",
+        "reliability": "8/10 — B58 is among BMW's toughest modern engines; some early oil consumption, but Toyota-like in practice",
+        "cost_to_own": "Insurance: High (380hp sports coupe) · Maintenance ~$900/yr (BMW mechanicals, Toyota service network)",
+        "popular_mods": [
+            "ECU tune (JB4 piggyback or MHD/bootmod3 flash) — 450-500+ whp potential",
+            "Downpipe, intake, charge pipe, upgraded intercooler",
+            "E85 for big power on the stock turbo (500+ whp)",
+            "Coilovers, sway bars, big brake kit",
+            "Bigger turbo for 600+ whp builds",
+        ],
+        "oil_type": "0W-20 full synthetic (BMW LL-spec)",
+        "oil_interval": "Every 5,000-7,500 miles (BMW's 10k+ interval is too long)",
+        "generations": {
+            "A40/A60 (1978–1986)": "Celica Supra — the inline-six GT origins of the nameplate.",
+            "A70 (1986–1993)": "First standalone Supra. Turbo 7M-GTE inline-six.",
+            "A80 (1993–2002)": "Legendary 2JZ-GTE twin-turbo — 320hp stock, 1,000hp+ capable. The car that built the Supra legend.",
+            "A90/A91 (2020–present)": "Revived after 17 years. BMW-derived B58 3.0 inline-six (335→382hp) and B48 2.0. Co-developed with BMW (Z4 sibling), built by Magna Steyr. Manual added 2023; Final Edition up to 429hp.",
+        },
+        "common_issues": [
+            "Early-year oil consumption (piston rings) with occasional limp mode",
+            "Highway-speed steering shudder (usually wheel balance/alignment)",
+            "Wind buffeting with windows down (cheap deflector fix)",
+            "It's BMW underneath — electronics, interior, and engine are BMW-sourced",
+        ],
+        "maintenance_tips": [
+            "Shorten oil intervals below BMW's 10k recommendation",
+            "Use BMW LL-spec oil — the B58 is particular",
+            "Balance and align wheels to cure highway steering shudder",
+            "Huge tuning headroom, but upgrade fueling before chasing big power",
+        ],
+    },
 }
 
 choice = input("What car are you researching? ")
