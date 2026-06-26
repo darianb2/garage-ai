@@ -1,48 +1,60 @@
 {% extends "base.html" %}
 {% block title %}Garage AI — Your Pocket Mechanic{% endblock %}
 {% block content %}
-{% set wheel %}<svg class="w-3.5 h-3.5 inline -mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg>{% endset %}
-<div class="max-w-6xl mx-auto px-4 py-8">
-  <header class="mb-6">
-    <h1 class="text-3xl font-bold tracking-tight">
+<div class="max-w-3xl mx-auto px-4 py-12">
+
+  <header class="text-center mb-8">
+    <h1 class="text-4xl sm:text-5xl font-bold tracking-tight">
       <span class="text-amber-500">Garage</span> AI
     </h1>
-    <p class="text-zinc-400 mt-1">Your pocket mechanic — data on {{ cars|length }} cars.</p>
+    <p class="text-zinc-400 mt-3 max-w-xl mx-auto">
+      Search a car to pull up everything we have on it — full specs, generation
+      history, common issues, maintenance, and the stuff spec sheets leave out.
+    </p>
   </header>
 
   {% if thanks %}
-  <div class="mb-4 px-4 py-3 rounded-lg bg-amber-500/10 border border-amber-500 text-amber-300">
+  <div class="mb-6 px-4 py-3 rounded-lg bg-amber-500/10 border border-amber-500 text-amber-300 text-center">
     Thanks for suggesting <span class="font-semibold">{{ thanks }}</span> — added to the request list.
   </div>
   {% endif %}
 
-  <input id="search" type="text" autofocus
-    placeholder="Search cars… (e.g. q50, civic, mustang)"
-    class="w-full max-w-md mb-8 px-4 py-3 rounded-lg bg-zinc-800 border border-zinc-700
-           text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-amber-500
-           focus:ring-1 focus:ring-amber-500">
+  <!-- Central search: the main hub. Typing here pulls up matching cars live. -->
+  <div class="relative">
+    <input id="search" type="text" autofocus autocomplete="off"
+      placeholder="Search a car — try 'Civic Si', 'Q50', or 'M3'..."
+      class="w-full px-5 py-4 text-lg rounded-xl bg-zinc-800 border border-zinc-700
+             text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-amber-500
+             focus:ring-1 focus:ring-amber-500">
+    <p class="text-xs text-zinc-500 mt-2 text-center">
+      Tip: type a partial name like 'q50' to see every trim.
+    </p>
 
-  <div id="grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-    {% for car in cars %}
-    <a href="{{ url_for('car_page', name=car.name) }}" data-name="{{ car.name|lower }}"
-      class="card block p-5 rounded-xl bg-zinc-800 border border-zinc-700
-             hover:border-amber-500 hover:-translate-y-0.5 transition">
-      <h2 class="text-lg font-semibold mb-1">{{ car.name }}</h2>
-      <p class="text-sm text-zinc-400">{{ car.engine }}</p>
-      <p class="text-sm mt-2">
-        <span class="text-amber-500 font-bold">{{ car.horsepower }} hp</span>
-        <span class="text-zinc-600">&middot;</span>
-        <span class="text-zinc-300">{{ wheel }} {{ car.drivetrain }}</span>
-      </p>
-    </a>
-    {% endfor %}
+    <!-- Live results get filled in here by the script below. -->
+    <div id="results" class="mt-4 space-y-2"></div>
+    <p id="noresults" class="hidden text-zinc-500 text-center mt-4">
+      No cars match that yet — scroll down to suggest it.
+    </p>
   </div>
-  <p id="empty" class="hidden text-zinc-500 mt-6">No cars match your search.</p>
 
-  <section class="mt-10 pt-6 border-t border-zinc-800">
-    <h3 class="text-sm font-semibold text-zinc-300 mb-2">Don't see your car?</h3>
-    <form action="{{ url_for('suggest') }}" method="post" class="flex gap-2 max-w-md">
-      <input type="text" name="car" required placeholder="Suggest a car…"
+  <!-- Browse-all list: shown when the search box is empty, hidden while searching. -->
+  <section id="browse" class="mt-8">
+    <p class="text-sm text-zinc-500 mb-3 text-center">Or browse all {{ cars|length }} cars</p>
+    <div class="flex flex-wrap justify-center gap-2">
+      {% for car in cars %}
+      <a href="{{ url_for('car_page', name=car.name) }}"
+        class="px-3 py-1.5 rounded-full text-sm bg-zinc-800 border border-zinc-700
+               text-zinc-300 hover:border-amber-500 hover:text-amber-400 transition">
+        {{ car.name }}
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="mt-12 pt-6 border-t border-zinc-800">
+    <h3 class="text-sm font-semibold text-zinc-300 mb-2 text-center">Don't see your car?</h3>
+    <form action="{{ url_for('suggest') }}" method="post" class="flex gap-2 max-w-md mx-auto">
+      <input type="text" name="car" required placeholder="Suggest a car..."
         class="flex-1 px-3 py-2 rounded-lg bg-zinc-800 border border-zinc-700 text-zinc-100
                placeholder-zinc-500 focus:outline-none focus:border-amber-500">
       <button type="submit"
@@ -52,24 +64,69 @@
     </form>
   </section>
 
-  <footer class="mt-10 pt-6 border-t border-zinc-800 text-xs text-zinc-600">
-    Garage AI · {{ hits }} visit{{ '' if hits == 1 else 's' }}
+  <footer class="mt-10 pt-6 border-t border-zinc-800 text-xs text-zinc-600 text-center">
+    Garage AI &middot; {{ hits }} visit{{ '' if hits == 1 else 's' }}
   </footer>
 </div>
 
 <script>
   const search = document.getElementById('search');
-  const cards = [...document.querySelectorAll('.card')];
-  const empty = document.getElementById('empty');
+  const results = document.getElementById('results');
+  const noResults = document.getElementById('noresults');
+  const browse = document.getElementById('browse');
+
+  // Build one clickable result row from a car summary returned by /api/search.
+  function row(car) {
+    const a = document.createElement('a');
+    a.href = '/car/' + encodeURIComponent(car.name);
+    a.className = 'flex items-center justify-between gap-4 p-4 rounded-xl bg-zinc-800 ' +
+                  'border border-zinc-700 hover:border-amber-500 transition';
+    a.innerHTML =
+      '<span class="min-w-0">' +
+        '<span class="block font-semibold truncate">' + car.name + '</span>' +
+        '<span class="block text-sm text-zinc-400 truncate">' + car.engine + '</span>' +
+      '</span>' +
+      '<span class="shrink-0 text-sm text-right">' +
+        '<span class="text-amber-500 font-bold">' + car.horsepower + ' hp</span>' +
+        '<span class="text-zinc-600"> &middot; </span>' +
+        '<span class="text-zinc-300">' + car.drivetrain + '</span>' +
+      '</span>';
+    return a;
+  }
+
+  let lastQuery = '';
+
+  async function runSearch(q) {
+    // Empty box -> show the browse list, hide live results.
+    if (!q) {
+      results.innerHTML = '';
+      noResults.classList.add('hidden');
+      browse.classList.remove('hidden');
+      return;
+    }
+    browse.classList.add('hidden');
+    const res = await fetch('/api/search?q=' + encodeURIComponent(q));
+    const cars = await res.json();
+    if (q !== lastQuery) return;  // a newer keystroke already fired; ignore this stale result
+    results.innerHTML = '';
+    cars.forEach(c => results.appendChild(row(c)));
+    noResults.classList.toggle('hidden', cars.length !== 0);
+  }
+
+  // Debounce so we don't hit the server on every single keystroke.
+  let timer;
   search.addEventListener('input', () => {
-    const q = search.value.trim().toLowerCase();
-    let shown = 0;
-    cards.forEach(c => {
-      const match = c.dataset.name.includes(q);
-      c.classList.toggle('hidden', !match);
-      if (match) shown++;
-    });
-    empty.classList.toggle('hidden', shown !== 0);
+    lastQuery = search.value.trim();
+    clearTimeout(timer);
+    timer = setTimeout(() => runSearch(lastQuery), 120);
+  });
+
+  // Enter jumps straight to the top result.
+  search.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      const first = results.querySelector('a');
+      if (first) window.location.href = first.href;
+    }
   });
 </script>
 {% endblock %}

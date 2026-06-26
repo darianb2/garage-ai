@@ -152,7 +152,7 @@ Verified live: `/`, `/api/cars` (16 cars), `/car/<name>`, `/api/search`, 404 pat
 Goal: an in-app assistant that gives the enthusiast-owner wisdom Google scatters
 across forums — grounded on each car's verified JSON, synthesized by Claude.
 
-### 6.1 v1 — per-car assistant (BUILT, paused before going live)
+### 6.1 v1 — per-car assistant — LIVE (shipped)
 - [x] `POST /api/ask/<car>` endpoint: grounded prompt (`_car_facts` + `SYSTEM_TEMPLATE`),
       Claude `claude-opus-4-8` via the official `anthropic` SDK
 - [x] Key-gated: no `ANTHROPIC_API_KEY` → returns a stub, so the UI works with no cost
@@ -160,13 +160,13 @@ across forums — grounded on each car's verified JSON, synthesized by Claude.
       (What breaks? / Before you buy / Should I mod it? / 5-year cost / Right for me?)
       + freeform box + `fetch()` JS
 - [x] First guardrail: 500-char question cap
-- [~] Add `ANTHROPIC_API_KEY` — LOCAL verified: real `claude-opus-4-8` answers tested
-      end-to-end (grounded, good tone, ~2-3¢/answer). Still TODO: Render env var.
+- [x] Add `ANTHROPIC_API_KEY` — set locally (export) AND on Render (service env var).
+      Verified real `claude-opus-4-8` answers end-to-end, local and live (~2-3¢/answer).
 - [x] Add per-IP rate limiting BEFORE the key goes live on the public URL (cost abuse)
       — `rate_limit_error()` in app.py: 10/IP/hour + 300/day global ceiling, in-memory
       (single gunicorn worker on free tier), reads X-Forwarded-For; returns 429
 - [x] Raise max_tokens 1024 → 2048 (1024 truncated the longer "checklist" answers)
-- [ ] Decide: ship stub to Render now, or wait until key + rate limit are in
+- [x] Decided + shipped: real assistant live on Render (rate-limited), not stub
 
 ### 6.2 v2 ideas (later)
 - [ ] Live web search (server-side `web_search` tool) for current pricing / recalls
@@ -199,12 +199,23 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 6 — AI Research Assistant (IN PROGRESS)
-**Status:** Phases 1–5 SHIPPED; app live at https://garage-ai-34hw.onrender.com.
-Phase 6.1 v1 assistant is BUILT and committed but runs in stub mode (no API key),
-and is NOT yet pushed/deployed. To resume: add `ANTHROPIC_API_KEY` + a rate limit,
-then push to deploy. Also added the Honda Accord V6 (17 cars total).
+**Current active phase:** Phase 6 — AI Research Assistant (6.1 SHIPPED; iterating on homepage)
+**Status:** Phases 1–5 and 6.1 SHIPPED. App live at https://garage-ai-34hw.onrender.com
+with the "Ask Garage AI" assistant answering for real (`claude-opus-4-8`), rate-limited
+(10/IP/hour + 300/day global). 17 cars (incl. Honda Accord V6).
 Repo: https://github.com/darianb2/garage-ai.
+
+**RESUME HERE (work in progress — saved on disk, NOT committed or deployed):**
+- Homepage redesigned into a search hub: removed the car-tile grid; one central search
+  box with live results from `/api/search` (a partial query like "q50" returns all
+  trims); a browse-all list of the 17 car names shows when the box is empty. Only file
+  changed: `templates/index.html`. The car detail page (`car.html`) is unchanged.
+- The user is iterating and has more homepage ideas before committing. Planned later:
+  add per-car data fields (trims, wheel size, price options) to each car's JSON and
+  surface them on the detail page.
+- Workflow: keep a tight local-preview loop; do NOT commit or push until the user says so.
+- To preview: `./.venv/bin/python app.py` then http://localhost:5000 (API key only
+  needed for the per-car "Ask" panel, not the homepage).
 
 > Run the web app: `./.venv/bin/python app.py` → http://localhost:5000
 
