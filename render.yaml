@@ -1,0 +1,14 @@
+# Render Blueprint — deploys the Garage AI Flask app on the free web-service tier.
+# Docs: https://render.com/docs/blueprint-spec
+# Render ignores runtime.txt (a Heroku/Railway convention), so the Python
+# version is pinned here via the PYTHON_VERSION env var instead.
+services:
+  - type: web
+    name: garage-ai
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.3
