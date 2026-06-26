@@ -17,6 +17,75 @@
     </p>
   </header>
 
+  <section class="mb-8" id="ask">
+    <div class="bg-zinc-800/60 border border-zinc-700 rounded-xl p-5">
+      <h2 class="text-lg font-semibold text-amber-500 flex items-center gap-2">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 1 .9 4.3l5.4 5.4a2 2 0 0 1-2.8 2.8l-5.4-5.4a4 4 0 0 1-5.2-5.4l2.6 2.6 2-2-2.6-2.6a4 4 0 0 1 5.1.3z"/></svg>
+        Ask Garage AI about the {{ name }}
+      </h2>
+      <p class="text-sm text-zinc-400 mt-1">The stuff spec sites won't tell you — what breaks, what to check before buying, what it's really like to own.</p>
+
+      <div class="flex flex-wrap gap-2 mt-4" id="ask-chips">
+        {% for label, prompt in insights %}
+        <button type="button" data-prompt="{{ prompt }}"
+          class="text-xs sm:text-sm px-3 py-1.5 rounded-full border border-zinc-600 bg-zinc-700 text-zinc-200 hover:bg-amber-500 hover:text-zinc-900 hover:border-amber-500 transition">{{ label }}</button>
+        {% endfor %}
+      </div>
+
+      <form id="ask-form" class="mt-4 flex gap-2">
+        <input id="ask-input" type="text" maxlength="500" autocomplete="off"
+          placeholder="Ask anything about the {{ name }}…"
+          class="flex-1 bg-zinc-900 border border-zinc-600 rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-amber-500">
+        <button type="submit" id="ask-submit"
+          class="px-4 py-2 rounded-lg bg-amber-500 text-zinc-900 font-semibold text-sm hover:bg-amber-400 disabled:opacity-50">Ask</button>
+      </form>
+
+      <div id="ask-answer" class="mt-4 hidden text-sm text-zinc-200 whitespace-pre-wrap leading-relaxed"></div>
+    </div>
+  </section>
+
+  <script>
+    (function () {
+      const endpoint = "{{ url_for('api_ask', name=name) }}";
+      const form = document.getElementById('ask-form');
+      const input = document.getElementById('ask-input');
+      const submit = document.getElementById('ask-submit');
+      const answer = document.getElementById('ask-answer');
+
+      async function ask(question) {
+        question = (question || '').trim();
+        if (!question) return;
+        submit.disabled = true;
+        answer.classList.remove('hidden');
+        answer.textContent = 'Thinking…';
+        try {
+          const res = await fetch(endpoint, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ question })
+          });
+          const data = await res.json();
+          answer.textContent = data.answer || data.error || 'No response.';
+        } catch (e) {
+          answer.textContent = 'Network error — please try again.';
+        } finally {
+          submit.disabled = false;
+        }
+      }
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        ask(input.value);
+      });
+      document.getElementById('ask-chips').addEventListener('click', function (e) {
+        const btn = e.target.closest('button[data-prompt]');
+        if (!btn) return;
+        input.value = btn.dataset.prompt;
+        ask(btn.dataset.prompt);
+      });
+    })();
+  </script>
+
   {% set specs = [
     ('Torque', car.torque, ''), ('0-60 mph', car['0_to_60'], ''),
     ('Drivetrain', car.drivetrain, wheel), ('Transmission', car.transmission, gear),

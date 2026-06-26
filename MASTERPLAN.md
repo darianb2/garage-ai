@@ -147,6 +147,31 @@ Verified live: `/`, `/api/cars` (16 cars), `/car/<name>`, `/api/search`, 404 pat
 
 ---
 
+## Phase 6 — AI Research Assistant ("Ask about this car") — IN PROGRESS
+
+Goal: an in-app assistant that gives the enthusiast-owner wisdom Google scatters
+across forums — grounded on each car's verified JSON, synthesized by Claude.
+
+### 6.1 v1 — per-car assistant (BUILT, paused before going live)
+- [x] `POST /api/ask/<car>` endpoint: grounded prompt (`_car_facts` + `SYSTEM_TEMPLATE`),
+      Claude `claude-opus-4-8` via the official `anthropic` SDK
+- [x] Key-gated: no `ANTHROPIC_API_KEY` → returns a stub, so the UI works with no cost
+- [x] Frontend on `car.html`: "Ask Garage AI" panel — one-tap insight chips
+      (What breaks? / Before you buy / Should I mod it? / 5-year cost / Right for me?)
+      + freeform box + `fetch()` JS
+- [x] First guardrail: 500-char question cap
+- [ ] Add `ANTHROPIC_API_KEY` (local `.env` + Render env var) to make answers real
+- [ ] Add per-IP rate limiting BEFORE the key goes live on the public URL (cost abuse)
+- [ ] Decide: ship stub to Render now, or wait until key + rate limit are in
+
+### 6.2 v2 ideas (later)
+- [ ] Live web search (server-side `web_search` tool) for current pricing / recalls
+- [ ] Global homepage chat (answer/compare across any car)
+- [ ] Stream responses (SSE) instead of wait-then-render
+- [ ] Fix the write-only suggestions log (retrievable suggestions — a web-dev lesson)
+
+---
+
 ## Index of Files
 
 | File | Purpose |
@@ -170,11 +195,12 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 5 — Production Deployment — COMPLETE
-**Status:** SHIPPED. Phases 1–5 all done. App is live at
-https://garage-ai-34hw.onrender.com (Render free tier, deployed from the
-`render.yaml` blueprint). Repo: https://github.com/darianb2/garage-ai.
-Only optional follow-ups remain (custom domain; commit-author cleanup).
+**Current active phase:** Phase 6 — AI Research Assistant (IN PROGRESS)
+**Status:** Phases 1–5 SHIPPED; app live at https://garage-ai-34hw.onrender.com.
+Phase 6.1 v1 assistant is BUILT and committed but runs in stub mode (no API key),
+and is NOT yet pushed/deployed. To resume: add `ANTHROPIC_API_KEY` + a rate limit,
+then push to deploy. Also added the Honda Accord V6 (17 cars total).
+Repo: https://github.com/darianb2/garage-ai.
 
 > Run the web app: `./.venv/bin/python app.py` → http://localhost:5000
 

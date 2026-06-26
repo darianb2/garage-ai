@@ -1,0 +1,39 @@
+{
+  "name": "Honda Accord V6",
+  "engine": "3.5L SOHC i-VTEC V6 (J35Y6) with VCM",
+  "horsepower": 278,
+  "torque": "252 lb-ft",
+  "drivetrain": "FWD",
+  "transmission": "6-speed automatic (sedan) / 6-speed manual (coupe)",
+  "0_to_60": "~5.7 sec (coupe 6MT) / ~6.1 sec (sedan)",
+  "fuel_economy": "21 city / 34 hwy mpg (sedan V6)",
+  "curb_weight": "~3,471 lbs (sedan EX-L V6)",
+  "reliability": "9/10 — the J35 V6 is famously durable; the main asterisk is VCM-related oil consumption and motor-mount wear",
+  "cost_to_own": "Insurance: Low (family sedan, low theft/claim profile) · Maintenance ~$450/yr",
+  "popular_mods": [
+    "VCM disabler (VCMuzzler II / S-VCM controller) — the #1 'mod'; keeps all 6 cylinders active to cut oil burn and motor-mount wear",
+    "Cat-back exhaust for a deeper V6 note",
+    "Short-ram or cold-air intake",
+    "Lowering springs (Eibach Pro-Kit) + wider wheels/tires",
+    "Coupe V6 6MT is the enthusiast pick — shares J-series DNA with a deep tuning/swap community"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Every 7,500 miles (or per the Maintenance Minder)",
+  "generations": {
+    "9th Gen (2013–2017)": "The last V6 Accord. 278hp J35Y6 'Earth Dreams' direct-injected V6 in EX-L/Touring sedans and the EX-L/Touring coupe (6-speed manual available on the coupe). 2016 was the mid-cycle refresh: restyled front end, LED headlights, Apple CarPlay/Android Auto, and available Honda Sensing safety tech.",
+    "V6 discontinued after 2017": "The 10th-gen Accord (2018+) dropped the V6 entirely for turbocharged 4-cylinders, making the 2016–2017 V6 a sought-after 'last of its kind' for buyers who want a naturally-aspirated six."
+  },
+  "common_issues": [
+    "VCM (Variable Cylinder Management): cylinder deactivation can drive elevated oil consumption, spark-plug fouling, and premature engine/motor-mount wear (the rear mount especially)",
+    "Idle vibration as motor mounts age (often VCM-aggravated)",
+    "Direct-injection intake-valve carbon buildup at high mileage (milder than on turbo DI engines)",
+    "Early-build infotainment lag/quirks on some units"
+  ],
+  "maintenance_tips": [
+    "Run 0W-20 synthetic and don't stretch intervals — VCM engines are sensitive to oil level, so check it between changes",
+    "Many owners fit a VCM disabler to reduce oil burn and motor-mount wear",
+    "Service the 6-speed automatic with genuine Honda ATF DW-1 every ~30–50k miles",
+    "Inspect motor mounts if you notice new idle vibration",
+    "Iridium spark plugs around 100k miles"
+  ]
+}
