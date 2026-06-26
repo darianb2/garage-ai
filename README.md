@@ -4,6 +4,9 @@ A **pocket mechanic** — a researched database of enthusiast cars with full spe
 generation history, common issues, maintenance tips, oil specs, cost-to-own, and
 popular mods. Runs as both a command-line tool and a web app.
 
+**Live:** <https://garage-ai-34hw.onrender.com>
+(free tier — the first visit after a while may take a few seconds to wake up)
+
 ## Purpose
 I am learning Python, Linux, Git, AI and softtware engineering by building an AI
 that helps people reseach and compare new and used cars.
@@ -55,10 +58,15 @@ python3 validator.py           # confirm all cars pass the schema
 | `templates/` | `base.html`, `index.html`, `car.html` (Tailwind, dark theme) |
 
 ## Deploying
-`Procfile` and `runtime.txt` are set up for Railway / Heroku using gunicorn:
+Deployed on [Render](https://render.com) from `render.yaml` (free web-service tier).
+Render reads the blueprint, installs `requirements.txt`, and runs the same gunicorn
+command the `Procfile` uses:
 ```bash
 gunicorn app:app --bind 0.0.0.0:$PORT
 ```
+Render ignores `runtime.txt`, so the Python version is pinned via the
+`PYTHON_VERSION` env var in `render.yaml`. (`Procfile` + `runtime.txt` remain for
+Railway / Heroku compatibility.)
 
 ## Learning Log
 

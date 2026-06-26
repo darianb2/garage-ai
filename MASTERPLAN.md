@@ -122,21 +122,21 @@ Each task is marked: `[ ]` not started · `[~]` in progress · `[x]` complete
 - [x] Add `runtime.txt` (python-3.12.3)
 - [x] Move any secrets to `.env` — N/A (app has no secrets); verified gunicorn serves all routes
 
-### 5.2 Deploy  ← ONLY REMAINING WORK (needs the user's credentials)
-- [ ] Push to GitHub
-- [ ] Deploy to Railway.app (free tier, easiest for Flask)
-- [ ] Set up custom domain (optional)
-- [ ] Verify mobile experience
+### 5.2 Deploy  — COMPLETE; live at https://garage-ai-34hw.onrender.com
+- [x] Push to GitHub — https://github.com/darianb2/garage-ai (public)
+- [x] Deploy to Render (free web-service tier, via `render.yaml` blueprint)
+- [ ] Set up custom domain (optional — not needed)
+- [x] Verify mobile experience — `viewport` meta present; all routes 200 on live host
 
-**Manual deploy steps (run by the user):**
+**How it was deployed:**
 ```bash
-# 1. Create the GitHub repo + push (needs auth — gh login or a token)
+# 1. GitHub repo + push (gh CLI, browser auth)
 gh repo create garage-ai --public --source=. --remote=origin --push
-# (or) git remote add origin https://github.com/<you>/garage-ai && git push -u origin master
 
-# 2. Deploy on Railway: New Project → Deploy from GitHub repo → pick garage-ai.
-#    Railway auto-detects Procfile + runtime.txt + requirements.txt. No env vars needed.
+# 2. Render: New + → Blueprint → connect GitHub → pick garage-ai (branch: master).
+#    Render reads render.yaml, installs requirements.txt, runs gunicorn. Free plan.
 ```
+Verified live: `/`, `/api/cars` (16 cars), `/car/<name>`, `/api/search`, 404 path — all pass.
 
 ### 5.3 Polish
 - [x] Add favicon (amber wrench SVG)
@@ -170,10 +170,11 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 5 — Production Deployment
-**Status:** ALL AUTONOMOUS WORK COMPLETE. Phases 1–4 done; Phase 5 prep (5.1) + polish (5.3) done.
-The only remaining task is **5.2 deploy** (GitHub push + Railway), which needs the user's credentials —
-see the manual deploy steps above. The autonomous loop has been stopped at this hand-off point.
+**Current active phase:** Phase 5 — Production Deployment — COMPLETE
+**Status:** SHIPPED. Phases 1–5 all done. App is live at
+https://garage-ai-34hw.onrender.com (Render free tier, deployed from the
+`render.yaml` blueprint). Repo: https://github.com/darianb2/garage-ai.
+Only optional follow-ups remain (custom domain; commit-author cleanup).
 
 > Run the web app: `./.venv/bin/python app.py` → http://localhost:5000
 
