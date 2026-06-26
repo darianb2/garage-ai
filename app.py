@@ -18,6 +18,7 @@ from datetime import date, datetime, timezone
 from flask import Flask, jsonify, redirect, render_template, request, url_for
 
 from loader import load_cars
+from nhtsa import get_recalls
 from search import find_matches
 
 app = Flask(__name__)
@@ -251,6 +252,29 @@ def api_car(name):
 def api_search():
     query = request.args.get("q", "")
     return jsonify([summary(name) for name in find_matches(query, cars)])
+
+
+# --- Recall lookup (live NHTSA data) ---------------------------------------
+# First piece of the "data engine": instead of curated facts, pull recalls from
+# a real automotive API at request time. Free, no key — works for any US car.
+@app.route("/recalls")
+def recalls_page():
+    return render_template("recalls.html")
+
+
+@app.route("/api/recalls")
+def api_recalls():
+    make = request.args.get("make", "").strip()
+    model = request.args.get("model", "").strip()
+    year = request.args.get("year", "").strip()
+    if not (make and model and year):
+        return jsonify({"error": "Enter make, model, and year."}), 400
+    try:
+        recalls = get_recalls(make, model, year)
+    except Exception as exc:  # network/HTTP trouble — surface a friendly message
+        app.logger.exception("Recall lookup failed for %s %s %s", make, model, year)
+        return jsonify({"error": f"Could not reach the recall service: {exc}"}), 502
+    return jsonify({"make": make, "model": model, "year": year, "recalls": recalls})
 
 
 if __name__ == "__main__":

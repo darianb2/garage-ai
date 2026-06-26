@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% block title %}Recall Lookup — Garage AI{% endblock %}
+{% block content %}
+<div class="max-w-3xl mx-auto px-4 py-10">
+
+  <header class="mb-6">
+    <a href="{{ url_for('index') }}" class="text-sm text-zinc-400 hover:text-amber-400">&larr; Garage AI</a>
+    <h1 class="text-3xl font-bold tracking-tight mt-2">Recall Lookup</h1>
+    <p class="text-zinc-400 mt-1">
+      Live recall data from NHTSA (the US auto-safety regulator) — free, and it works
+      for almost any US-market car, not just the ones in our garage.
+    </p>
+  </header>
+
+  <form id="recall-form" class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-6">
+    <input id="make" placeholder="Make (e.g. Honda)" autocomplete="off"
+      class="px-3 py-2 rounded-lg bg-zinc-800 border border-zinc-700 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-amber-500">
+    <input id="model" placeholder="Model (e.g. Civic)" autocomplete="off"
+      class="px-3 py-2 rounded-lg bg-zinc-800 border border-zinc-700 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-amber-500">
+    <input id="year" placeholder="Year (e.g. 2022)" inputmode="numeric" autocomplete="off"
+      class="px-3 py-2 rounded-lg bg-zinc-800 border border-zinc-700 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-amber-500">
+    <button type="submit" id="recall-submit"
+      class="px-4 py-2 rounded-lg bg-amber-500 text-zinc-900 font-semibold hover:bg-amber-400 disabled:opacity-50">
+      Check
+    </button>
+  </form>
+
+  <div id="recall-status" class="hidden text-zinc-300 text-sm mb-4"></div>
+  <div id="recall-results" class="space-y-3"></div>
+</div>
+
+<script>
+  const form = document.getElementById('recall-form');
+  const submit = document.getElementById('recall-submit');
+  const statusEl = document.getElementById('recall-status');
+  const results = document.getElementById('recall-results');
+
+  function setStatus(msg) {
+    if (!msg) { statusEl.classList.add('hidden'); statusEl.textContent = ''; return; }
+    statusEl.classList.remove('hidden');
+    statusEl.textContent = msg;
+  }
+
+  // Escape text from the API before putting it in HTML (safe habit, even for
+  // trusted sources): turns < > & " ' into harmless character entities.
+  function esc(s) {
+    return (s == null ? '' : String(s)).replace(/[&<>"']/g, c => (
+      { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+    ));
+  }
+
+  // Build one card for a single recall.
+  function card(recall) {
+    const el = document.createElement('div');
+    el.className = 'p-4 rounded-xl bg-zinc-800 border border-zinc-700';
+
+    let badge = '';
+    if (recall.park_it) {
+      badge = '<span class="ml-2 align-middle text-xs px-2 py-0.5 rounded-full bg-red-500/15 text-red-300 border border-red-500/40">PARK IT — stop driving</span>';
+    } else if (recall.park_outside) {
+      badge = '<span class="ml-2 align-middle text-xs px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/40">Park outside</span>';
+    }
+
+    el.innerHTML =
+      '<div class="font-semibold text-amber-500">' + esc(recall.component || 'Recall') + badge + '</div>' +
+      (recall.summary ? '<p class="text-sm text-zinc-300 mt-2">' + esc(recall.summary) + '</p>' : '') +
+      (recall.consequence ? '<p class="text-sm text-zinc-400 mt-2"><span class="text-zinc-500">Risk:</span> ' + esc(recall.consequence) + '</p>' : '') +
+      (recall.remedy ? '<p class="text-sm text-zinc-400 mt-2"><span class="text-zinc-500">Fix:</span> ' + esc(recall.remedy) + '</p>' : '') +
+      '<p class="text-xs text-zinc-600 mt-2">NHTSA ' + esc(recall.campaign || '') +
+        (recall.reported ? ' &middot; reported ' + esc(recall.reported) : '') + '</p>';
+    return el;
+  }
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const make = document.getElementById('make').value.trim();
+    const model = document.getElementById('model').value.trim();
+    const year = document.getElementById('year').value.trim();
+    if (!make || !model || !year) { setStatus('Enter make, model, and year.'); return; }
+
+    submit.disabled = true;
+    results.innerHTML = '';
+    setStatus('Checking recalls...');
+    try {
+      const params = new URLSearchParams({ make, model, year });
+      const res = await fetch('/api/recalls?' + params.toString());
+      const data = await res.json();
+      if (data.error) { setStatus(data.error); return; }
+      const recalls = data.recalls || [];
+      if (recalls.length === 0) {
+        setStatus('No open recalls found for that vehicle. If you expected some, double-check the make, model, and year spelling.');
+        return;
+      }
+      setStatus(recalls.length + ' recall(s) for ' + year + ' ' + make + ' ' + model + ':');
+      recalls.forEach(r => results.appendChild(card(r)));
+    } catch (err) {
+      setStatus('Something went wrong reaching the recall service. Please try again.');
+    } finally {
+      submit.disabled = false;
+    }
+  });
+</script>
+{% endblock %}
