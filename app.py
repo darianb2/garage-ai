@@ -12,7 +12,8 @@ Endpoints:
 
 import os
 import threading
-from datetime import datetime, timezone
+import time
+from datetime import date, datetime, timezone
 
 from flask import Flask, jsonify, redirect, render_template, request, url_for
 
@@ -27,6 +28,10 @@ cars = load_cars()
 # real-world owner wisdom spec sites scatter across forums. Single Messages API
 # call (not an agent) — the simplest, cheapest tier that fits.
 ASK_MODEL = "claude-opus-4-8"
+# Enough headroom for the longest answers (the "checklist" insight prompts run
+# ~1k+ tokens); 1024 truncated them mid-sentence. Still a small non-streaming
+# request, and the per-IP / daily rate limits bound total spend.
+ASK_MAX_TOKENS = 2048
 MAX_QUESTION_CHARS = 500
 
 # One-tap "insight" prompts shown as chips on each car page. Centralised here so
@@ -95,11 +100,53 @@ def answer_question(name, car, question):
     client = anthropic.Anthropic()
     message = client.messages.create(
         model=ASK_MODEL,
-        max_tokens=1024,
+        max_tokens=ASK_MAX_TOKENS,
         system=SYSTEM_TEMPLATE.format(facts=_car_facts(name, car)),
         messages=[{"role": "user", "content": question}],
     )
     return "".join(block.text for block in message.content if block.type == "text")
+
+# --- rate limiting for the Ask endpoint ------------------------------------
+# Once a real key is set, each /api/ask call costs money — and the app is on a
+# public URL, so anyone could spam it. Two cheap, in-memory guards (per worker;
+# fine because the free Render dyno runs a single gunicorn worker — bump these
+# if you ever scale to multiple workers, since each keeps its own counters):
+#   - per visitor: a handful of questions per rolling hour
+#   - global:      a daily ceiling so one busy day can't run up a surprise bill
+ASK_PER_IP_PER_HOUR = 10
+ASK_GLOBAL_PER_DAY = 300
+
+_ask_lock = threading.Lock()
+_ask_hits = {}  # ip -> list of request timestamps within the last hour
+_ask_day = {"date": None, "count": 0}
+
+
+def _client_ip():
+    """Best-effort caller IP. Render (like most PaaS) sits behind a proxy, so the
+    real client is the first hop in X-Forwarded-For, not request.remote_addr."""
+    forwarded = request.headers.get("X-Forwarded-For", "")
+    return forwarded.split(",")[0].strip() if forwarded else (request.remote_addr or "?")
+
+
+def rate_limit_error():
+    """Reserve one slot for this caller. Returns a friendly message if they (or
+    the app as a whole) are over the limit, else None and the slot is counted."""
+    now = time.time()
+    today = date.today().isoformat()
+    ip = _client_ip()
+    with _ask_lock:
+        if _ask_day["date"] != today:  # new day → reset the global counter
+            _ask_day["date"], _ask_day["count"] = today, 0
+        if _ask_day["count"] >= ASK_GLOBAL_PER_DAY:
+            return "Garage AI has hit its daily limit — please try again tomorrow."
+        recent = [t for t in _ask_hits.get(ip, []) if now - t < 3600]
+        if len(recent) >= ASK_PER_IP_PER_HOUR:
+            return ("You've asked a lot in the last hour — give it a few minutes "
+                    "and try again.")
+        recent.append(now)
+        _ask_hits[ip] = recent
+        _ask_day["count"] += 1
+    return None
 
 # Runtime-only files (gitignored; ephemeral on hosts like Railway/Heroku).
 SUGGESTIONS_FILE = os.path.join(os.path.dirname(__file__), "data", "suggestions.log")
@@ -174,6 +221,9 @@ def api_ask(name):
             if len(question) > MAX_QUESTION_CHARS:
                 return jsonify({"error": "That question is a bit long — keep it under "
                                 f"{MAX_QUESTION_CHARS} characters."}), 400
+            limited = rate_limit_error()
+            if limited:
+                return jsonify({"error": limited}), 429
             try:
                 answer = answer_question(car_name, cars[car_name], question)
             except Exception as exc:  # surface a friendly message, log the detail

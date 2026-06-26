@@ -160,8 +160,12 @@ across forums — grounded on each car's verified JSON, synthesized by Claude.
       (What breaks? / Before you buy / Should I mod it? / 5-year cost / Right for me?)
       + freeform box + `fetch()` JS
 - [x] First guardrail: 500-char question cap
-- [ ] Add `ANTHROPIC_API_KEY` (local `.env` + Render env var) to make answers real
-- [ ] Add per-IP rate limiting BEFORE the key goes live on the public URL (cost abuse)
+- [~] Add `ANTHROPIC_API_KEY` — LOCAL verified: real `claude-opus-4-8` answers tested
+      end-to-end (grounded, good tone, ~2-3¢/answer). Still TODO: Render env var.
+- [x] Add per-IP rate limiting BEFORE the key goes live on the public URL (cost abuse)
+      — `rate_limit_error()` in app.py: 10/IP/hour + 300/day global ceiling, in-memory
+      (single gunicorn worker on free tier), reads X-Forwarded-For; returns 429
+- [x] Raise max_tokens 1024 → 2048 (1024 truncated the longer "checklist" answers)
 - [ ] Decide: ship stub to Render now, or wait until key + rate limit are in
 
 ### 6.2 v2 ideas (later)
