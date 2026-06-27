@@ -6,3 +6,5 @@ venv/
 .env
 data/suggestions.log
 data/hits.txt
+frontend/node_modules/
+frontend/dist/
