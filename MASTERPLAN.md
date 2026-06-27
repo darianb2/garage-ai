@@ -1,7 +1,14 @@
 # Garage AI — Master Plan
 
-> Pocket mechanic app. Deep per-car data, generation history, common issues, maintenance tips.
+> Interactive vehicle research & exploration engine. Search any brand/model/trim, then
+> EXPLORE it: a live data profile + an interactive 3D model + a clickable mechanical
+> breakdown of its major systems. The data engine (NHTSA + specs) is the backbone.
 > Goal: ship a production web app anyone can use from their phone.
+>
+> PIVOT (2026-06-27): reframed from "a browsable database of cars" to "a search engine +
+> 3D explorer." This pulls the original brief's Phase 2 (3D viewer) and Phase 3
+> (mechanical breakdown) forward into the CORE product. Strategy: perfect 4 cars
+> end-to-end, then scale the same template. See Phase 8.
 
 ---
 
@@ -176,6 +183,117 @@ across forums — grounded on each car's verified JSON, synthesized by Claude.
 
 ---
 
+## Phase 7 — Data Engine (live API profiles) — IN PROGRESS
+
+The North Star: stop relying on hand-curated facts; assemble each car's profile
+on demand from real automotive APIs (AI as the orchestration layer). Start with
+the FREE half (NHTSA) before paying for a commercial specs API. The 17 curated
+JSON cars stay as the specs source until that paid API lands.
+
+### 7.1 Free NHTSA profile engine (BUILT, local)
+- [x] `nhtsa.py`: add `get_complaints()` + `get_safety_ratings()` (NCAP two-step)
+- [x] `car_profile.py`: `build_profile(make, model, year, specs=None)` — fans out
+      to recalls + complaints + safety, derives "common issues" from complaint
+      components and a reliability proxy (raw NHTSA volume, clearly caveated),
+      merges optional curated JSON specs. Source-agnostic output shape.
+- [x] `app.py`: `GET /api/profile` (any car) + `GET /profile` page; matches our
+      curated trims by make+model so known cars show specs + links to detail pages
+- [x] `templates/profile.html`: assembled profile (specs / reliability / safety /
+      what-breaks / recalls / complaints), matches dark-amber design system
+- [x] Homepage "Research any car" link so /profile is reachable (not an orphan)
+- [ ] Decide what to do with the older `/recalls` page (fold into /profile?)
+- [ ] Push + deploy to Render
+
+### 7.2 Enthusiast catalog (breadth) — IN PROGRESS
+- [x] `scripts/build_catalog.py` -> `data/catalog.json`: lightweight entries
+      (make/model/year/generation/body/note) for popular enthusiast cars. Only
+      reliable facts; NO hand-written specs. Easy to grow toward 500 in batches.
+- [x] `loader.load_catalog()` + `GET /catalog` browsable, searchable page; each
+      card links to `/profile?make=&model=&year=` and auto-runs the engine
+- [x] Homepage links to the catalog
+- [x] First batch: 126 cars (JDM / German / American / hot hatch / classics)
+- [ ] Grow the catalog toward ~500 in further batches (add tuples + rerun script)
+- [ ] Known limit: curated-specs match is make+model substring, so a catalog
+      entry can pull specs from a different generation of the same model
+      (e.g. A80 Supra shows GR Supra specs). Make it generation-aware later.
+
+### 7.3 Flagship depth (rich 16-field icons) — TODO
+- [ ] Pick a shortlist of true icons; research REAL specs in verified batches
+      (web search, not memory) and add as full data/cars/*.json entries
+
+### 7.4 Next (paid specs + smarter resolve)
+- [ ] AI resolver: parse vague input ("2016 q50 red sport") -> make/model/year/trim
+- [ ] Commercial specs API (CarAPI free tier first) for trims/hp/wheel-tire sizes
+- [ ] Replace curated-JSON specs merge with live specs; keep JSON as verified cache
+
+---
+
+## Phase 8 — PIVOT: Interactive Vehicle Explorer (NEW DIRECTION) — PLANNING
+
+Reframe: Garage AI is a SEARCH ENGINE for vehicles, not a list of cars. Search by
+brand/model/trim, then EXPLORE the vehicle across three linked layers: data profile,
+interactive 3D model, and a clickable mechanical breakdown of its major systems. The
+Phase 7 data engine is the backbone that feeds all three.
+
+Strategy: PERFECT 4 launch cars end-to-end, then scale the same template behind the
+126-car catalog. This supersedes the old "grow the catalog / flagship depth" framing
+(7.2/7.3); that data work continues only as the spec layer these 4 cars consume.
+
+### 8.0 Decisions — stack + cars LOCKED 2026-06-27
+- [x] Frontend stack — LOCKED: React + Vite + react-three-fiber + Tailwind; Flask STAYS
+      the JSON data API. Introduced incrementally as a 3D "island" (strangler-fig),
+      not a big-bang rewrite.
+- [x] The 4 launch cars — LOCKED: Mazda MX-5 Miata (ND), Toyota Supra Mk4 (A80),
+      BMW M3 (E46), Nissan GT-R (R35).
+- [ ] 3D model sourcing — REC (default unless changed): licensed/free glTF/GLB models
+      (web-standard format that loads in R3F). Per-model budget TBD.
+- [ ] Mechanical-breakdown depth — REC (default unless changed): v1 = major systems with
+      clickable hotspots mapped to engine data, NOT a full disassemblable teardown.
+
+### 8.1 New information architecture / UX
+- [x] Scaffold `frontend/` (Vite + React + react-three-fiber + Tailwind) — DONE
+      2026-06-27. Node v24.18.0 LTS installed to ~/.local (no sudo). vite.config.js
+      proxies /api -> Flask :5000. Minimal R3F scene (rotating placeholder + OrbitControls)
+      + header that probes /api/cars. `npm run build` passes; dev server + proxy
+      verified (fetched 17 cars through the proxy).
+      NOTE: this adds a Node build step to deploy — the Render config will change.
+- [x] Search-first landing page (DONE 2026-06-27): `Landing.jsx` — hero search filters
+      the 126-car catalog live + a free-form "research any car" fallback. New JSON
+      endpoint `GET /api/catalog` added to Flask for it.
+- [x] "Vehicle Hub" replaces the static car detail page (DONE 2026-06-27):
+      `VehicleHub.jsx` with three tabs — Overview (`ProfilePanel`), 3D Model
+      (`Viewer3D` placeholder), Mechanical Breakdown (`BreakdownPanel`). Fetches
+      `/api/profile` with loading/error states.
+- [x] Carry the dark/amber design system; redesign for an APP (DONE): Inter font,
+      sticky nav, `ui.jsx` atoms (Card/Badge/SectionTitle/Spinner). `npm run build`
+      passes; landing + hub verified live through the proxy.
+- [ ] Autocomplete / vague-input disambiguation on search (deferred)
+- [ ] URL routing / deep links (react-router) — deferred; state-based nav for now
+- NOTE: `BreakdownPanel` already ships a v1 of Phase 8.4 — major systems bound to
+  live complaint/recall data (the layer future 3D hotspots will surface).
+
+### 8.2 Data spine for the 4 cars
+- [ ] Lock the 4; assemble full profiles (specs + reliability + recalls/complaints/safety)
+      Note: real specs for RX-7 FD, S2000, Supra Mk4 already researched (web-verified)
+- [ ] Define a per-car "systems map" schema (engine, drivetrain, suspension, brakes,
+      electrical...) so 3D hotspots can bind to data
+
+### 8.3 Interactive 3D viewer
+- [ ] Integrate Three.js / react-three-fiber; load a glTF model; orbit / zoom / rotate
+- [ ] Works on mobile + desktop; graceful loading state + still-image fallback
+- [ ] (Later) configurator: wheels / colors
+
+### 8.4 Mechanical breakdown
+- [ ] Clickable hotspots/markers on the model for each major system
+- [ ] Each hotspot opens that system's info + its real complaint/recall data from the engine
+- [ ] (Later) deeper per-component views per the brief's Phase 3
+
+### 8.5 Perfect, then scale
+- [ ] Polish the 4 cars to "showcase" quality (accuracy, performance, feel)
+- [ ] Generalize the template so any catalog car can flow into the same experience
+
+---
+
 ## Index of Files
 
 | File | Purpose |
@@ -199,12 +317,14 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 6 — AI Research Assistant (IN PROGRESS)
-**Status:** Phases 1–5 SHIPPED; app live at https://garage-ai-34hw.onrender.com.
-Phase 6.1 v1 assistant is BUILT and committed but runs in stub mode (no API key),
-and is NOT yet pushed/deployed. To resume: add `ANTHROPIC_API_KEY` + a rate limit,
-then push to deploy. Also added the Honda Accord V6 (17 cars total).
-Repo: https://github.com/darianb2/garage-ai.
+**Current active phase:** Phase 8 — PIVOT: Interactive Vehicle Explorer (PLANNING)
+**Status:** Phases 1–5 SHIPPED (live at https://garage-ai-34hw.onrender.com). Phase 6
+AI assistant BUILT (stub mode, not deployed). Phase 7 data engine BUILT locally
+(profile engine + 126-car catalog) — this is the BACKBONE the pivot feeds on.
+Phase 8 reframes the product into a search-engine + 3D explorer. Stack + 4 cars LOCKED
+(2026-06-27): React + Vite + react-three-fiber, Flask stays the API; cars = Miata ND /
+Supra Mk4 / M3 E46 / GT-R R35. Next step: scaffold the `frontend/` app, then build the
+Vehicle Hub. Repo: https://github.com/darianb2/garage-ai.
 
 > Run the web app: `./.venv/bin/python app.py` → http://localhost:5000
 
