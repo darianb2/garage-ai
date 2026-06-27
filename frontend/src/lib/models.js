@@ -14,14 +14,18 @@ export const MODELS = {
   // Toyota Supra Mk4 / A80 — by temich, CC-BY-NC-4.0 (NonCommercial: test only).
   "toyota-supra-a80-mk4": { url: "/models/toyota-supra-a80-mk4.glb", rotation: [0, Math.PI, 0] },
 
-  // DEMO ONLY: CC0 "ToyCar" (Khronos) standing in to prove the loader — NOT real
-  // cars. Replace each with a real model + a registry line above, then delete.
+  // 2023 Honda Civic Type R (FL5) — by Ddiaz Design, CC-BY-NC-SA-4.0 (NonCommercial:
+  // test only). Meshopt + WebP optimized (18.8MB glTF -> 2.8MB GLB). Model's length
+  // is along Z with the nose at +Z; rotate +90° about Y so the nose faces +X (toward
+  // the camera), matching the procedural car and the Supra.
+  "honda-civic-type-r-fl5": { url: "/models/honda-civic-type-r-fl5.glb", rotation: [0, Math.PI / 2, 0] },
+
+  // DEMO ONLY: CC0 "ToyCar" (Khronos) standing in to prove the loader — NOT a real
+  // car. Replace with a real model + a registry line above, then delete.
   "toyota-gr-supra": { url: "/models/demo-car.glb", demo: true },
-  "honda-civic-type-r": { url: "/models/demo-car.glb", demo: true },
 
   // --- Add more real models (drop file in public/models/, then add a line) ---
   // "toyota-gr-supra-a90":    { url: "/models/toyota-gr-supra-a90.glb" },
-  // "honda-civic-type-r-fl5": { url: "/models/honda-civic-type-r-fl5.glb" },
 };
 
 const kebab = (s) =>
