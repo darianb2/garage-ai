@@ -1,0 +1,1010 @@
+[
+  {
+    "make": "Toyota",
+    "model": "Supra",
+    "year": 1997,
+    "generation": "A80 (Mk4)",
+    "body": "Coupe",
+    "note": "2JZ-GTE inline-six tuner legend"
+  },
+  {
+    "make": "Toyota",
+    "model": "Supra",
+    "year": 1989,
+    "generation": "A70 (Mk3)",
+    "body": "Coupe",
+    "note": "Turbo 7M-GTE grand tourer"
+  },
+  {
+    "make": "Toyota",
+    "model": "GR Supra",
+    "year": 2021,
+    "generation": "A90",
+    "body": "Coupe",
+    "note": "Reborn on BMW B58 power"
+  },
+  {
+    "make": "Toyota",
+    "model": "GR86",
+    "year": 2022,
+    "generation": "ZN8",
+    "body": "Coupe",
+    "note": "Rev-happy boxer, perfect balance"
+  },
+  {
+    "make": "Toyota",
+    "model": "GR Corolla",
+    "year": 2023,
+    "generation": "E210",
+    "body": "Hatch",
+    "note": "Three-cylinder rally hatch"
+  },
+  {
+    "make": "Toyota",
+    "model": "MR2",
+    "year": 1993,
+    "generation": "SW20",
+    "body": "Coupe",
+    "note": "Mid-engine turbo wedge"
+  },
+  {
+    "make": "Toyota",
+    "model": "MR2 Spyder",
+    "year": 2002,
+    "generation": "ZZW30",
+    "body": "Roadster",
+    "note": "Lightweight mid-engine roadster"
+  },
+  {
+    "make": "Toyota",
+    "model": "Celica",
+    "year": 1994,
+    "generation": "GT-Four ST205",
+    "body": "Coupe",
+    "note": "Turbo AWD rally homologation"
+  },
+  {
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 1985,
+    "generation": "AE86",
+    "body": "Coupe",
+    "note": "Drift icon, 4A-GE"
+  },
+  {
+    "make": "Scion",
+    "model": "FR-S",
+    "year": 2013,
+    "generation": "ZN6",
+    "body": "Coupe",
+    "note": "The original 86 in the US"
+  },
+  {
+    "make": "Lexus",
+    "model": "IS300",
+    "year": 2003,
+    "generation": "XE10",
+    "body": "Sedan",
+    "note": "2JZ sedan, manual available"
+  },
+  {
+    "make": "Lexus",
+    "model": "IS F",
+    "year": 2010,
+    "generation": "XE20",
+    "body": "Sedan",
+    "note": "5.0 V8 sleeper sedan"
+  },
+  {
+    "make": "Lexus",
+    "model": "LFA",
+    "year": 2011,
+    "generation": "LFA",
+    "body": "Coupe",
+    "note": "Screaming 4.8 V10 halo car"
+  },
+  {
+    "make": "Lexus",
+    "model": "RC F",
+    "year": 2016,
+    "generation": "XC10",
+    "body": "Coupe",
+    "note": "Naturally aspirated V8 coupe"
+  },
+  {
+    "make": "Nissan",
+    "model": "GT-R",
+    "year": 2017,
+    "generation": "R35",
+    "body": "Coupe",
+    "note": "Twin-turbo VR38 giant-killer"
+  },
+  {
+    "make": "Nissan",
+    "model": "Skyline GT-R",
+    "year": 1999,
+    "generation": "R34",
+    "body": "Coupe",
+    "note": "RB26 legend, import icon"
+  },
+  {
+    "make": "Nissan",
+    "model": "Skyline GT-R",
+    "year": 1993,
+    "generation": "R32",
+    "body": "Coupe",
+    "note": "Godzilla, AWD RB26"
+  },
+  {
+    "make": "Nissan",
+    "model": "240SX",
+    "year": 1991,
+    "generation": "S13",
+    "body": "Coupe",
+    "note": "Drift staple, SR swap favorite"
+  },
+  {
+    "make": "Nissan",
+    "model": "240SX",
+    "year": 1997,
+    "generation": "S14",
+    "body": "Coupe",
+    "note": "Later drift-build staple"
+  },
+  {
+    "make": "Nissan",
+    "model": "300ZX",
+    "year": 1994,
+    "generation": "Z32",
+    "body": "Coupe",
+    "note": "Twin-turbo VG30DETT GT"
+  },
+  {
+    "make": "Nissan",
+    "model": "350Z",
+    "year": 2005,
+    "generation": "Z33",
+    "body": "Coupe",
+    "note": "VQ35 affordable RWD coupe"
+  },
+  {
+    "make": "Nissan",
+    "model": "370Z",
+    "year": 2015,
+    "generation": "Z34",
+    "body": "Coupe",
+    "note": "VQ37 raw analog coupe"
+  },
+  {
+    "make": "Nissan",
+    "model": "Z",
+    "year": 2023,
+    "generation": "RZ34",
+    "body": "Coupe",
+    "note": "Twin-turbo VR30 revival"
+  },
+  {
+    "make": "Nissan",
+    "model": "Sentra",
+    "year": 2005,
+    "generation": "SE-R Spec V",
+    "body": "Sedan",
+    "note": "QR25 budget sport sedan"
+  },
+  {
+    "make": "Infiniti",
+    "model": "G35",
+    "year": 2005,
+    "generation": "V35",
+    "body": "Coupe",
+    "note": "VQ35 RWD enthusiast bargain"
+  },
+  {
+    "make": "Infiniti",
+    "model": "G37",
+    "year": 2010,
+    "generation": "V36",
+    "body": "Coupe",
+    "note": "VQ37 sharper sport coupe"
+  },
+  {
+    "make": "Infiniti",
+    "model": "Q60",
+    "year": 2017,
+    "generation": "V37",
+    "body": "Coupe",
+    "note": "VR30 twin-turbo grand tourer"
+  },
+  {
+    "make": "Mazda",
+    "model": "RX-7",
+    "year": 1993,
+    "generation": "FD",
+    "body": "Coupe",
+    "note": "Sequential-turbo 13B rotary"
+  },
+  {
+    "make": "Mazda",
+    "model": "RX-7",
+    "year": 1991,
+    "generation": "FC",
+    "body": "Coupe",
+    "note": "Turbo rotary, 80s icon"
+  },
+  {
+    "make": "Mazda",
+    "model": "RX-8",
+    "year": 2005,
+    "generation": "SE3P",
+    "body": "Coupe",
+    "note": "Renesis rotary, suicide doors"
+  },
+  {
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "year": 1994,
+    "generation": "NA",
+    "body": "Roadster",
+    "note": "The roadster that saved roadsters"
+  },
+  {
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "year": 2001,
+    "generation": "NB",
+    "body": "Roadster",
+    "note": "Refined second-gen Miata"
+  },
+  {
+    "make": "Mazda",
+    "model": "MX-5 Miata",
+    "year": 2008,
+    "generation": "NC",
+    "body": "Roadster",
+    "note": "Bigger, available PRHT"
+  },
+  {
+    "make": "Mazdaspeed",
+    "model": "Mazdaspeed3",
+    "year": 2010,
+    "generation": "BL",
+    "body": "Hatch",
+    "note": "Torque-steering turbo hatch"
+  },
+  {
+    "make": "Mazdaspeed",
+    "model": "Mazdaspeed6",
+    "year": 2006,
+    "generation": "GG",
+    "body": "Sedan",
+    "note": "AWD turbo sport sedan"
+  },
+  {
+    "make": "Honda",
+    "model": "S2000",
+    "year": 2004,
+    "generation": "AP1/AP2",
+    "body": "Roadster",
+    "note": "9k-rpm F20C/F22C roadster"
+  },
+  {
+    "make": "Honda",
+    "model": "NSX",
+    "year": 1995,
+    "generation": "NA1",
+    "body": "Coupe",
+    "note": "Senna-honed mid-engine VTEC"
+  },
+  {
+    "make": "Acura",
+    "model": "NSX",
+    "year": 2017,
+    "generation": "NC1",
+    "body": "Coupe",
+    "note": "Twin-turbo hybrid supercar"
+  },
+  {
+    "make": "Honda",
+    "model": "Prelude",
+    "year": 1999,
+    "generation": "BB6",
+    "body": "Coupe",
+    "note": "VTEC coupe with ATTS"
+  },
+  {
+    "make": "Honda",
+    "model": "CRX",
+    "year": 1988,
+    "generation": "EF",
+    "body": "Hatch",
+    "note": "Featherweight VTEC tuner base"
+  },
+  {
+    "make": "Acura",
+    "model": "Integra Type R",
+    "year": 1998,
+    "generation": "DC2",
+    "body": "Coupe",
+    "note": "B18C5, FWD benchmark"
+  },
+  {
+    "make": "Acura",
+    "model": "RSX Type S",
+    "year": 2005,
+    "generation": "DC5",
+    "body": "Coupe",
+    "note": "K20 high-revving coupe"
+  },
+  {
+    "make": "Acura",
+    "model": "Integra",
+    "year": 2023,
+    "generation": "DE4",
+    "body": "Hatch",
+    "note": "Modern Type S revival"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic Type R",
+    "year": 2023,
+    "generation": "FL5",
+    "body": "Hatch",
+    "note": "FWD lap-record hatch"
+  },
+  {
+    "make": "Subaru",
+    "model": "WRX STI",
+    "year": 2015,
+    "generation": "VA",
+    "body": "Sedan",
+    "note": "EJ257 rally-bred AWD turbo"
+  },
+  {
+    "make": "Subaru",
+    "model": "BRZ",
+    "year": 2022,
+    "generation": "ZD8",
+    "body": "Coupe",
+    "note": "Boxer twin to the GR86"
+  },
+  {
+    "make": "Subaru",
+    "model": "Legacy",
+    "year": 2007,
+    "generation": "GT spec.B",
+    "body": "Sedan",
+    "note": "Sleeper turbo wagon/sedan"
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Lancer",
+    "year": 2006,
+    "generation": "Evolution IX",
+    "body": "Sedan",
+    "note": "4G63 rally homologation"
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Lancer",
+    "year": 2010,
+    "generation": "Evolution X",
+    "body": "Sedan",
+    "note": "4B11T final Evo"
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "3000GT",
+    "year": 1994,
+    "generation": "VR-4",
+    "body": "Coupe",
+    "note": "Twin-turbo AWD tech flagship"
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Eclipse",
+    "year": 1997,
+    "generation": "GSX 2G",
+    "body": "Coupe",
+    "note": "4G63 turbo AWD DSM"
+  },
+  {
+    "make": "BMW",
+    "model": "M3",
+    "year": 1990,
+    "generation": "E30",
+    "body": "Coupe",
+    "note": "S14 motorsport homologation"
+  },
+  {
+    "make": "BMW",
+    "model": "M3",
+    "year": 1997,
+    "generation": "E36",
+    "body": "Coupe",
+    "note": "Inline-six everyday M car"
+  },
+  {
+    "make": "BMW",
+    "model": "M3",
+    "year": 2003,
+    "generation": "E46",
+    "body": "Coupe",
+    "note": "S54, the enthusiast benchmark"
+  },
+  {
+    "make": "BMW",
+    "model": "M3",
+    "year": 2010,
+    "generation": "E92",
+    "body": "Coupe",
+    "note": "S65 V8 high-revving M3"
+  },
+  {
+    "make": "BMW",
+    "model": "M2",
+    "year": 2018,
+    "generation": "F87",
+    "body": "Coupe",
+    "note": "Compact rear-drive enthusiast M"
+  },
+  {
+    "make": "BMW",
+    "model": "M4",
+    "year": 2015,
+    "generation": "F82",
+    "body": "Coupe",
+    "note": "S55 twin-turbo coupe"
+  },
+  {
+    "make": "BMW",
+    "model": "M5",
+    "year": 2002,
+    "generation": "E39",
+    "body": "Sedan",
+    "note": "S62 V8 super-sedan icon"
+  },
+  {
+    "make": "BMW",
+    "model": "M5",
+    "year": 2007,
+    "generation": "E60",
+    "body": "Sedan",
+    "note": "S85 V10 F1-inspired sedan"
+  },
+  {
+    "make": "BMW",
+    "model": "1 Series M",
+    "year": 2011,
+    "generation": "E82",
+    "body": "Coupe",
+    "note": "N54 cult classic 1M"
+  },
+  {
+    "make": "BMW",
+    "model": "335i",
+    "year": 2010,
+    "generation": "E92",
+    "body": "Coupe",
+    "note": "N54 tuner-favorite twin-turbo"
+  },
+  {
+    "make": "BMW",
+    "model": "Z4 M",
+    "year": 2008,
+    "generation": "E86",
+    "body": "Coupe",
+    "note": "S54 clownshoe coupe"
+  },
+  {
+    "make": "Audi",
+    "model": "RS4",
+    "year": 2007,
+    "generation": "B7",
+    "body": "Sedan",
+    "note": "4.2 V8 quattro super-sedan"
+  },
+  {
+    "make": "Audi",
+    "model": "S4",
+    "year": 2001,
+    "generation": "B5",
+    "body": "Sedan",
+    "note": "2.7 biturbo tuner favorite"
+  },
+  {
+    "make": "Audi",
+    "model": "TT RS",
+    "year": 2018,
+    "generation": "8S",
+    "body": "Coupe",
+    "note": "Five-cylinder turbo coupe"
+  },
+  {
+    "make": "Audi",
+    "model": "R8",
+    "year": 2010,
+    "generation": "Type 42",
+    "body": "Coupe",
+    "note": "V8/V10 everyday supercar"
+  },
+  {
+    "make": "Audi",
+    "model": "RS3",
+    "year": 2018,
+    "generation": "8V",
+    "body": "Sedan",
+    "note": "Warbling five-cylinder sedan"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "C63 AMG",
+    "year": 2010,
+    "generation": "W204",
+    "body": "Sedan",
+    "note": "6.2 M156 V8 super-sedan"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "190E",
+    "year": 1990,
+    "generation": "2.5-16 Cosworth",
+    "body": "Sedan",
+    "note": "Cosworth-built DTM homologation"
+  },
+  {
+    "make": "Mercedes-Benz",
+    "model": "AMG GT",
+    "year": 2017,
+    "generation": "C190",
+    "body": "Coupe",
+    "note": "Front-mid V8 GT"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Golf R",
+    "year": 2018,
+    "generation": "Mk7",
+    "body": "Hatch",
+    "note": "AWD turbo everyday rocket"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Golf GTI",
+    "year": 2012,
+    "generation": "Mk6",
+    "body": "Hatch",
+    "note": "The benchmark hot hatch"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "year": 2014,
+    "generation": "GLI Mk6",
+    "body": "Sedan",
+    "note": "GTI in sedan form"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Corrado",
+    "year": 1992,
+    "generation": "VR6",
+    "body": "Coupe",
+    "note": "VR6 cult-classic coupe"
+  },
+  {
+    "make": "Porsche",
+    "model": "911",
+    "year": 2007,
+    "generation": "997 Carrera",
+    "body": "Coupe",
+    "note": "Flat-six everyday icon"
+  },
+  {
+    "make": "Porsche",
+    "model": "911",
+    "year": 2021,
+    "generation": "992 Carrera",
+    "body": "Coupe",
+    "note": "Modern turbo flat-six 911"
+  },
+  {
+    "make": "Porsche",
+    "model": "911 GT3",
+    "year": 2018,
+    "generation": "991.2",
+    "body": "Coupe",
+    "note": "NA 4.0 track weapon"
+  },
+  {
+    "make": "Porsche",
+    "model": "Cayman",
+    "year": 2014,
+    "generation": "981",
+    "body": "Coupe",
+    "note": "Mid-engine driver's coupe"
+  },
+  {
+    "make": "Porsche",
+    "model": "Cayman GT4",
+    "year": 2020,
+    "generation": "982",
+    "body": "Coupe",
+    "note": "NA flat-six mid-engine GT4"
+  },
+  {
+    "make": "Porsche",
+    "model": "Boxster",
+    "year": 2013,
+    "generation": "981",
+    "body": "Roadster",
+    "note": "Mid-engine flat-six roadster"
+  },
+  {
+    "make": "Porsche",
+    "model": "944",
+    "year": 1988,
+    "generation": "944 Turbo",
+    "body": "Coupe",
+    "note": "Transaxle-balanced 80s Porsche"
+  },
+  {
+    "make": "Ford",
+    "model": "Mustang",
+    "year": 2016,
+    "generation": "Shelby GT350",
+    "body": "Coupe",
+    "note": "Flat-plane Voodoo V8"
+  },
+  {
+    "make": "Ford",
+    "model": "Mustang",
+    "year": 2020,
+    "generation": "Shelby GT500",
+    "body": "Coupe",
+    "note": "Supercharged Predator V8"
+  },
+  {
+    "make": "Ford",
+    "model": "Mustang",
+    "year": 1990,
+    "generation": "Fox-body GT",
+    "body": "Coupe",
+    "note": "5.0 pushrod drag staple"
+  },
+  {
+    "make": "Ford",
+    "model": "Mustang SVT Cobra",
+    "year": 2003,
+    "generation": "Terminator",
+    "body": "Coupe",
+    "note": "Supercharged 'Terminator' legend"
+  },
+  {
+    "make": "Ford",
+    "model": "Focus RS",
+    "year": 2017,
+    "generation": "Mk3",
+    "body": "Hatch",
+    "note": "AWD drift-mode hot hatch"
+  },
+  {
+    "make": "Ford",
+    "model": "Focus ST",
+    "year": 2015,
+    "generation": "Mk3",
+    "body": "Hatch",
+    "note": "Torquey turbo daily hatch"
+  },
+  {
+    "make": "Ford",
+    "model": "Fiesta ST",
+    "year": 2016,
+    "generation": "Mk7",
+    "body": "Hatch",
+    "note": "Tiny tossable turbo hatch"
+  },
+  {
+    "make": "Ford",
+    "model": "GT",
+    "year": 2006,
+    "generation": "Mk1",
+    "body": "Coupe",
+    "note": "Supercharged modular V8 supercar"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "year": 2016,
+    "generation": "C7 Stingray",
+    "body": "Coupe",
+    "note": "LT1 small-block sports car"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "year": 2008,
+    "generation": "C6 Z06",
+    "body": "Coupe",
+    "note": "LS7 7.0 track Corvette"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "year": 2020,
+    "generation": "C8 Stingray",
+    "body": "Coupe",
+    "note": "First mid-engine Corvette"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "year": 2002,
+    "generation": "C5 Z06",
+    "body": "Coupe",
+    "note": "LS6 affordable performance icon"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Camaro",
+    "year": 2018,
+    "generation": "ZL1",
+    "body": "Coupe",
+    "note": "Supercharged LT4 track muscle"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cobalt SS",
+    "year": 2008,
+    "generation": "Supercharged/Turbo",
+    "body": "Coupe",
+    "note": "Surprise GM sport compact"
+  },
+  {
+    "make": "Cadillac",
+    "model": "CTS-V",
+    "year": 2009,
+    "generation": "Gen 2",
+    "body": "Sedan",
+    "note": "Supercharged LSA super-sedan"
+  },
+  {
+    "make": "Cadillac",
+    "model": "ATS-V",
+    "year": 2016,
+    "generation": "Gen 1",
+    "body": "Coupe",
+    "note": "Twin-turbo V6 M4 rival"
+  },
+  {
+    "make": "Pontiac",
+    "model": "GTO",
+    "year": 2006,
+    "generation": "Holden-based",
+    "body": "Coupe",
+    "note": "LS2 sleeper muscle coupe"
+  },
+  {
+    "make": "Pontiac",
+    "model": "Firebird",
+    "year": 2002,
+    "generation": "Trans Am WS6",
+    "body": "Coupe",
+    "note": "LS1 fourth-gen F-body"
+  },
+  {
+    "make": "Pontiac",
+    "model": "Solstice",
+    "year": 2007,
+    "generation": "GXP",
+    "body": "Roadster",
+    "note": "Turbo Ecotec roadster"
+  },
+  {
+    "make": "Dodge",
+    "model": "Challenger",
+    "year": 2016,
+    "generation": "Hellcat",
+    "body": "Coupe",
+    "note": "Supercharged 6.2 Hellcat V8"
+  },
+  {
+    "make": "Dodge",
+    "model": "Challenger",
+    "year": 2015,
+    "generation": "R/T Scat Pack",
+    "body": "Coupe",
+    "note": "392 naturally aspirated Hemi"
+  },
+  {
+    "make": "Dodge",
+    "model": "Viper",
+    "year": 2003,
+    "generation": "ZB Gen 3",
+    "body": "Coupe",
+    "note": "8.3 V10 raw American exotic"
+  },
+  {
+    "make": "Dodge",
+    "model": "Viper",
+    "year": 2017,
+    "generation": "Gen 5 ACR",
+    "body": "Coupe",
+    "note": "8.4 V10 track-record ACR"
+  },
+  {
+    "make": "Dodge",
+    "model": "Neon",
+    "year": 2004,
+    "generation": "SRT-4",
+    "body": "Sedan",
+    "note": "Turbo budget sport compact"
+  },
+  {
+    "make": "Chrysler",
+    "model": "300",
+    "year": 2008,
+    "generation": "300C SRT8",
+    "body": "Sedan",
+    "note": "6.1 Hemi full-size muscle"
+  },
+  {
+    "make": "Mini",
+    "model": "Cooper",
+    "year": 2015,
+    "generation": "S F56",
+    "body": "Hatch",
+    "note": "Turbo go-kart hatch"
+  },
+  {
+    "make": "Mini",
+    "model": "Cooper",
+    "year": 2018,
+    "generation": "JCW F56",
+    "body": "Hatch",
+    "note": "Hottest factory Mini"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Veloster N",
+    "year": 2019,
+    "generation": "JS",
+    "body": "Hatch",
+    "note": "Corner-carving Korean hot hatch"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Elantra N",
+    "year": 2022,
+    "generation": "CN7",
+    "body": "Sedan",
+    "note": "Track-ready sport sedan"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Genesis Coupe",
+    "year": 2013,
+    "generation": "BK",
+    "body": "Coupe",
+    "note": "Affordable turbo/V6 RWD coupe"
+  },
+  {
+    "make": "Kia",
+    "model": "Stinger",
+    "year": 2018,
+    "generation": "GT CK",
+    "body": "Sedan",
+    "note": "Twin-turbo V6 fastback GT"
+  },
+  {
+    "make": "Genesis",
+    "model": "G70",
+    "year": 2019,
+    "generation": "IK",
+    "body": "Sedan",
+    "note": "3.3T sport sedan sleeper"
+  },
+  {
+    "make": "Lotus",
+    "model": "Elise",
+    "year": 2005,
+    "generation": "S2",
+    "body": "Roadster",
+    "note": "Featherweight mid-engine purity"
+  },
+  {
+    "make": "Lotus",
+    "model": "Exige",
+    "year": 2006,
+    "generation": "S2",
+    "body": "Coupe",
+    "note": "Hardtop track-focused Elise"
+  },
+  {
+    "make": "Lotus",
+    "model": "Evora",
+    "year": 2017,
+    "generation": "400/410",
+    "body": "Coupe",
+    "note": "Supercharged 2+2 mid-engine"
+  },
+  {
+    "make": "Alfa Romeo",
+    "model": "4C",
+    "year": 2015,
+    "generation": "960",
+    "body": "Coupe",
+    "note": "Carbon-tub turbo featherweight"
+  },
+  {
+    "make": "Alfa Romeo",
+    "model": "Giulia",
+    "year": 2017,
+    "generation": "Quadrifoglio",
+    "body": "Sedan",
+    "note": "Ferrari-derived twin-turbo V6"
+  },
+  {
+    "make": "Jaguar",
+    "model": "F-Type",
+    "year": 2016,
+    "generation": "R",
+    "body": "Coupe",
+    "note": "Supercharged V8 British GT"
+  },
+  {
+    "make": "Nissan",
+    "model": "Pulsar",
+    "year": 1991,
+    "generation": "GTI-R",
+    "body": "Hatch",
+    "note": "Homologation AWD turbo pocket rocket"
+  },
+  {
+    "make": "Datsun",
+    "model": "240Z",
+    "year": 1972,
+    "generation": "S30",
+    "body": "Coupe",
+    "note": "L24 long-hood Z origin"
+  },
+  {
+    "make": "BMW",
+    "model": "2002",
+    "year": 1972,
+    "generation": "tii",
+    "body": "Coupe",
+    "note": "The car that made BMW"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Chevelle",
+    "year": 1970,
+    "generation": "SS 454",
+    "body": "Coupe",
+    "note": "Big-block muscle pinnacle"
+  },
+  {
+    "make": "Plymouth",
+    "model": "Barracuda",
+    "year": 1970,
+    "generation": "'Cuda",
+    "body": "Coupe",
+    "note": "Hemi E-body muscle icon"
+  },
+  {
+    "make": "Ford",
+    "model": "Mustang",
+    "year": 1969,
+    "generation": "Boss 302",
+    "body": "Coupe",
+    "note": "Trans-Am homologation classic"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Beetle",
+    "year": 1968,
+    "generation": "Type 1",
+    "body": "Coupe",
+    "note": "Air-cooled tuning canvas"
+  }
+]

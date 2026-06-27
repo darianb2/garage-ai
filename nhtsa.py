@@ -17,6 +17,8 @@ import urllib.parse
 import urllib.request
 
 RECALLS_URL = "https://api.nhtsa.gov/recalls/recallsByVehicle"
+COMPLAINTS_URL = "https://api.nhtsa.gov/complaints/complaintsByVehicle"
+SAFETY_BASE = "https://api.nhtsa.gov/SafetyRatings"
 TIMEOUT_SECONDS = 10
 
 
@@ -57,6 +59,69 @@ def get_recalls(make, model, year):
             "reported": item.get("ReportReceivedDate"),
         })
     return recalls
+
+
+def get_complaints(make, model, year):
+    """Return consumer complaints for a make/model/year as a list of dicts.
+
+    Each complaint has: components (what the owner says failed), summary,
+    crash/fire flags, injuries, deaths, and the date filed. Returns an empty
+    list when NHTSA has nothing (or doesn't recognize the vehicle).
+    """
+    query = urllib.parse.urlencode({"make": make, "model": model, "modelYear": year})
+    try:
+        data = _get_json(f"{COMPLAINTS_URL}?{query}")
+    except urllib.error.HTTPError as err:
+        if err.code == 400:  # unrecognized vehicle -> treat as "no data"
+            return []
+        raise
+    complaints = []
+    for item in data.get("results", []):
+        complaints.append({
+            "components": item.get("components"),
+            "summary": item.get("summary"),
+            "crash": item.get("crash", False),
+            "fire": item.get("fire", False),
+            "injuries": item.get("numberOfInjuries", 0),
+            "deaths": item.get("numberOfDeaths", 0),
+            "filed": item.get("dateComplaintFiled"),
+        })
+    return complaints
+
+
+def get_safety_ratings(make, model, year):
+    """Return NHTSA (NCAP) crash-test ratings for a make/model/year, or None.
+
+    NCAP is a two-step API: first look up the vehicle id(s) for the
+    year/make/model, then fetch the ratings for the first one. Ratings come back
+    as strings like "5" (stars) or "Not Rated"; we turn the latter into None.
+    Returns None when NHTSA has no crash-test entry for the vehicle.
+    """
+    path = (f"{SAFETY_BASE}/modelyear/{urllib.parse.quote(str(year))}"
+            f"/make/{urllib.parse.quote(make)}/model/{urllib.parse.quote(model)}")
+    try:
+        index = _get_json(path)
+    except urllib.error.HTTPError as err:
+        if err.code in (400, 404):
+            return None
+        raise
+    results = index.get("Results", [])
+    if not results:
+        return None
+    vehicle_id = results[0].get("VehicleId")
+    detail = _get_json(f"{SAFETY_BASE}/VehicleId/{vehicle_id}")
+    rating = (detail.get("Results") or [{}])[0]
+
+    def clean(value):
+        return value if value and value != "Not Rated" else None
+
+    return {
+        "description": rating.get("VehicleDescription"),
+        "overall": clean(rating.get("OverallRating")),
+        "front": clean(rating.get("OverallFrontCrashRating")),
+        "side": clean(rating.get("OverallSideCrashRating")),
+        "rollover": clean(rating.get("RolloverRating")),
+    }
 
 
 if __name__ == "__main__":

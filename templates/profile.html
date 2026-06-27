@@ -1,0 +1,241 @@
+{% extends "base.html" %}
+{% block title %}Car Research — Garage AI{% endblock %}
+{% block content %}
+<div class="max-w-3xl mx-auto px-4 py-10">
+
+  <header class="mb-6">
+    <a href="{{ url_for('index') }}" class="text-sm text-zinc-400 hover:text-amber-400">&larr; Garage AI</a>
+    <h1 class="text-3xl font-bold tracking-tight mt-2">Research any car</h1>
+    <p class="text-zinc-400 mt-1">
+      Type any US-market car and Garage AI assembles one profile from free public
+      data: open recalls, what owners actually complain about, a reliability
+      signal, and crash-test ratings. Where we have hand-built detail, we add it.
+    </p>
+  </header>
+
+  <form id="profile-form" class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-6">
+    <input id="make" placeholder="Make (e.g. Infiniti)" autocomplete="off"
+      class="px-3 py-2 rounded-lg bg-zinc-800 border border-zinc-700 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-amber-500">
+    <input id="model" placeholder="Model (e.g. Q50)" autocomplete="off"
+      class="px-3 py-2 rounded-lg bg-zinc-800 border border-zinc-700 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-amber-500">
+    <input id="year" placeholder="Year (e.g. 2016)" inputmode="numeric" autocomplete="off"
+      class="px-3 py-2 rounded-lg bg-zinc-800 border border-zinc-700 text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-amber-500">
+    <button type="submit" id="profile-submit"
+      class="px-4 py-2 rounded-lg bg-amber-500 text-zinc-900 font-semibold hover:bg-amber-400 disabled:opacity-50">
+      Research
+    </button>
+  </form>
+
+  <div id="profile-status" class="hidden text-zinc-300 text-sm mb-4"></div>
+  <div id="profile-results" class="space-y-5"></div>
+</div>
+
+<script>
+  const form = document.getElementById('profile-form');
+  const submit = document.getElementById('profile-submit');
+  const statusEl = document.getElementById('profile-status');
+  const results = document.getElementById('profile-results');
+
+  function setStatus(msg) {
+    if (!msg) { statusEl.classList.add('hidden'); statusEl.textContent = ''; return; }
+    statusEl.classList.remove('hidden');
+    statusEl.textContent = msg;
+  }
+
+  // Escape API text before putting it in HTML (safe habit, even for trusted
+  // sources): turns < > & " ' into harmless character entities.
+  function esc(s) {
+    return (s == null ? '' : String(s)).replace(/[&<>"']/g, c => (
+      { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+    ));
+  }
+
+  // A titled panel that wraps a section's inner HTML.
+  function section(title, innerHTML, accent) {
+    const el = document.createElement('section');
+    el.className = 'p-5 rounded-xl bg-zinc-800 border border-zinc-700';
+    el.innerHTML =
+      '<h2 class="text-xs font-semibold uppercase tracking-wide mb-3 ' +
+        (accent || 'text-amber-500') + '">' + esc(title) + '</h2>' + innerHTML;
+    return el;
+  }
+
+  // --- Curated specs (from our hand-built JSON, when we have the car) -------
+  function specsCard(data) {
+    const s = data.specs;
+    if (!s) return null;
+    const rows = [
+      ['Engine', s.engine], ['Horsepower', s.horsepower != null ? s.horsepower + ' hp' : null],
+      ['Drivetrain', s.drivetrain], ['Transmission', s.transmission],
+      ['0-60', s['0_to_60']], ['Curb weight', s.curb_weight],
+    ].filter(r => r[1]);
+    let html = '<div class="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">';
+    rows.forEach(r => {
+      html += '<div class="text-zinc-500">' + esc(r[0]) + '</div>' +
+              '<div class="text-zinc-200">' + esc(r[1]) + '</div>';
+    });
+    html += '</div>';
+    if (s.reliability) {
+      html += '<p class="text-sm text-amber-300/90 mt-3"><span class="text-zinc-500">Our take:</span> ' +
+              esc(s.reliability) + '</p>';
+    }
+    // Link to the full hand-built page(s) we already have.
+    const trims = data.curated_trims || [];
+    if (trims.length) {
+      html += '<p class="text-sm mt-3 text-zinc-400">Full detail in our garage: ' +
+        trims.map(name =>
+          '<a class="text-amber-400 hover:underline" href="/car/' + encodeURIComponent(name) + '">' +
+          esc(name) + '</a>'
+        ).join(' &middot; ') + '</p>';
+    }
+    return section('Specs (from our garage)', html);
+  }
+
+  // --- Reliability signal (free proxy from NHTSA report volume) -------------
+  function reliabilityCard(data) {
+    const r = data.reliability;
+    if (!r) return null;
+    const html =
+      '<p class="text-lg font-semibold text-zinc-100">' + esc(r.label) + '</p>' +
+      '<div class="flex gap-4 text-sm text-zinc-300 mt-2">' +
+        '<span><span class="text-amber-500 font-bold">' + r.recalls + '</span> recalls</span>' +
+        '<span><span class="text-amber-500 font-bold">' + r.complaints + '</span> complaints</span>' +
+        '<span><span class="text-amber-500 font-bold">' + r.serious + '</span> involving crash/fire/injury</span>' +
+      '</div>' +
+      '<p class="text-xs text-zinc-500 mt-3">' + esc(r.caveat) + '</p>';
+    return section('Reliability signal', html);
+  }
+
+  // --- Crash-test ratings (NHTSA NCAP) -------------------------------------
+  function safetyCard(data) {
+    const s = data.safety;
+    if (!s) return null;
+    const stars = (v) => v ? esc(v) + (/^[0-9]$/.test(v) ? ' / 5 stars' : '') : 'Not rated';
+    const rows = [['Overall', s.overall], ['Front crash', s.front],
+                  ['Side crash', s.side], ['Rollover', s.rollover]];
+    let html = '<div class="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">';
+    rows.forEach(r => {
+      html += '<div class="text-zinc-500">' + esc(r[0]) + '</div>' +
+              '<div class="text-zinc-200">' + stars(r[1]) + '</div>';
+    });
+    html += '</div>';
+    if (s.description) html += '<p class="text-xs text-zinc-600 mt-2">' + esc(s.description) + '</p>';
+    return section('Crash-test ratings', html);
+  }
+
+  // --- Common issues (derived from complaint patterns) ---------------------
+  function issuesCard(data) {
+    const items = data.common_issues || [];
+    if (!items.length) return null;
+    const max = items[0][1] || 1;
+    let html = '<p class="text-sm text-zinc-400 mb-3">What owners report most often ' +
+               '(by complaint volume):</p><div class="space-y-2">';
+    items.forEach(([name, count]) => {
+      const pct = Math.round((count / max) * 100);
+      html +=
+        '<div>' +
+          '<div class="flex justify-between text-sm"><span class="text-zinc-200">' + esc(name) +
+            '</span><span class="text-zinc-500">' + count + '</span></div>' +
+          '<div class="h-1.5 rounded bg-zinc-700 mt-1"><div class="h-1.5 rounded bg-amber-500" style="width:' + pct + '%"></div></div>' +
+        '</div>';
+    });
+    html += '</div>';
+    return section('What tends to break', html);
+  }
+
+  // --- Recalls -------------------------------------------------------------
+  function recallsCard(data) {
+    const recalls = data.recalls || [];
+    if (!recalls.length) {
+      return section('Open recalls', '<p class="text-sm text-zinc-400">None on file with NHTSA.</p>');
+    }
+    let html = '<div class="space-y-3">';
+    recalls.forEach(r => {
+      let badge = '';
+      if (r.park_it) badge = '<span class="ml-2 text-xs px-2 py-0.5 rounded-full bg-red-500/15 text-red-300 border border-red-500/40">PARK IT</span>';
+      else if (r.park_outside) badge = '<span class="ml-2 text-xs px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/40">Park outside</span>';
+      html +=
+        '<div class="border-l-2 border-zinc-600 pl-3">' +
+          '<div class="text-sm font-semibold text-zinc-100">' + esc(r.component || 'Recall') + badge + '</div>' +
+          (r.summary ? '<p class="text-sm text-zinc-400 mt-1">' + esc(r.summary) + '</p>' : '') +
+          '<p class="text-xs text-zinc-600 mt-1">NHTSA ' + esc(r.campaign || '') +
+            (r.reported ? ' &middot; reported ' + esc(r.reported) : '') + '</p>' +
+        '</div>';
+    });
+    html += '</div>';
+    return section('Open recalls (' + recalls.length + ')', html, 'text-red-400');
+  }
+
+  // --- Recent complaints (a sample) ----------------------------------------
+  function complaintsCard(data) {
+    const list = data.complaints || [];
+    if (!list.length) return null;
+    let html = '<div class="space-y-3">';
+    list.forEach(c => {
+      const flags = [];
+      if (c.crash) flags.push('crash');
+      if (c.fire) flags.push('fire');
+      if (c.injuries) flags.push(c.injuries + ' injured');
+      const flagHtml = flags.length
+        ? '<span class="ml-2 text-xs text-red-300">(' + esc(flags.join(', ')) + ')</span>' : '';
+      html +=
+        '<div class="border-l-2 border-zinc-700 pl-3">' +
+          '<div class="text-xs text-zinc-500">' + esc(c.components || 'Complaint') + flagHtml + '</div>' +
+          (c.summary ? '<p class="text-sm text-zinc-400 mt-1">' + esc(c.summary) + '</p>' : '') +
+        '</div>';
+    });
+    html += '</div>';
+    const more = data.complaints_count > list.length
+      ? '<p class="text-xs text-zinc-600 mt-3">Showing ' + list.length + ' of ' +
+        data.complaints_count + ' complaints on file.</p>' : '';
+    return section('Recent complaints', html + more);
+  }
+
+  function render(data) {
+    results.innerHTML = '';
+    [specsCard, reliabilityCard, safetyCard, issuesCard, recallsCard, complaintsCard]
+      .forEach(fn => { const el = fn(data); if (el) results.appendChild(el); });
+  }
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const make = document.getElementById('make').value.trim();
+    const model = document.getElementById('model').value.trim();
+    const year = document.getElementById('year').value.trim();
+    if (!make || !model || !year) { setStatus('Enter make, model, and year.'); return; }
+
+    submit.disabled = true;
+    results.innerHTML = '';
+    setStatus('Researching ' + year + ' ' + make + ' ' + model + '...');
+    try {
+      const params = new URLSearchParams({ make, model, year });
+      const res = await fetch('/api/profile?' + params.toString());
+      const data = await res.json();
+      if (data.error) { setStatus(data.error); return; }
+      const empty = !data.recalls.length && !data.complaints_count && !data.safety && !data.specs;
+      if (empty) {
+        setStatus('No data found for that vehicle. Double-check the make, model, and year spelling.');
+        return;
+      }
+      setStatus('Profile for ' + year + ' ' + make + ' ' + model + ':');
+      render(data);
+    } catch (err) {
+      setStatus('Something went wrong reaching the data service. Please try again.');
+    } finally {
+      submit.disabled = false;
+    }
+  });
+
+  // Arrive from a catalog link (/profile?make=&model=&year=)? Prefill + auto-run.
+  (function () {
+    const p = new URLSearchParams(location.search);
+    const make = p.get('make'), model = p.get('model'), year = p.get('year');
+    if (make && model && year) {
+      document.getElementById('make').value = make;
+      document.getElementById('model').value = model;
+      document.getElementById('year').value = year;
+      form.requestSubmit ? form.requestSubmit() : form.dispatchEvent(new Event('submit'));
+    }
+  })();
+</script>
+{% endblock %}

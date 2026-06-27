@@ -17,12 +17,14 @@ from datetime import date, datetime, timezone
 
 from flask import Flask, jsonify, redirect, render_template, request, url_for
 
-from loader import load_cars
+from car_profile import build_profile
+from loader import load_cars, load_catalog
 from nhtsa import get_recalls
 from search import find_matches
 
 app = Flask(__name__)
 cars = load_cars()
+catalog = load_catalog()
 
 # --- AI research assistant ("Ask about this car") --------------------------
 # Grounded Q&A: the car's verified JSON is the factual backbone; Claude adds the
@@ -275,6 +277,59 @@ def api_recalls():
         app.logger.exception("Recall lookup failed for %s %s %s", make, model, year)
         return jsonify({"error": f"Could not reach the recall service: {exc}"}), 502
     return jsonify({"make": make, "model": model, "year": year, "recalls": recalls})
+
+
+# --- Car profile (the data engine) -----------------------------------------
+# Builds one assembled profile for ANY car from free NHTSA data, and merges in
+# our hand-curated JSON specs when we happen to have that car. This is the first
+# route that follows the North Star: "build the car on demand" instead of
+# "look it up in our fixed list of 17."
+def _curated_for(make, model):
+    """Names of cars in our garage matching this make+model (best-effort).
+
+    Until we add a commercial specs API, the hand-curated JSON is our spec
+    source. Match by substring so "Infiniti" + "Q50" finds all our Q50 trims.
+    """
+    mk, md = make.lower(), model.lower()
+    return [name for name in cars if mk in name.lower() and md in name.lower()]
+
+
+@app.route("/catalog")
+def catalog_page():
+    # Breadth layer: hundreds of popular enthusiast cars. Each links into the
+    # profile engine, which fills in the live data on demand.
+    return render_template("catalog.html", catalog=catalog)
+
+
+@app.route("/api/catalog")
+def api_catalog():
+    # JSON catalog for the React frontend's search-first landing page.
+    return jsonify(catalog)
+
+
+@app.route("/profile")
+def profile_page():
+    return render_template("profile.html")
+
+
+@app.route("/api/profile")
+def api_profile():
+    make = request.args.get("make", "").strip()
+    model = request.args.get("model", "").strip()
+    year = request.args.get("year", "").strip()
+    if not (make and model and year):
+        return jsonify({"error": "Enter make, model, and year."}), 400
+    matches = _curated_for(make, model)
+    specs = cars[matches[0]] if matches else None
+    try:
+        profile = build_profile(make, model, year, specs=specs)
+    except Exception as exc:  # network/HTTP trouble — surface a friendly message
+        app.logger.exception("Profile build failed for %s %s %s", make, model, year)
+        return jsonify({"error": f"Could not reach the data service: {exc}"}), 502
+    # Tell the page which curated trims we have full detail pages for.
+    profile["curated_trims"] = matches
+    profile["specs_name"] = matches[0] if matches else None
+    return jsonify(profile)
 
 
 if __name__ == "__main__":

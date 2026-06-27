@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}Car Catalog — Garage AI{% endblock %}
+{% block content %}
+<div class="max-w-6xl mx-auto px-4 py-8">
+
+  <header class="mb-6">
+    <a href="{{ url_for('index') }}" class="text-sm text-zinc-400 hover:text-amber-400">&larr; Garage AI</a>
+    <h1 class="text-3xl font-bold tracking-tight mt-2">Enthusiast Catalog</h1>
+    <p class="text-zinc-400 mt-1">
+      {{ catalog|length }} popular enthusiast cars. Pick one and Garage AI pulls its
+      live profile - recalls, complaints, and safety - on demand.
+    </p>
+  </header>
+
+  <input id="search" type="text" autofocus
+    placeholder="Filter… (e.g. supra, miata, m3, rotary)"
+    class="w-full max-w-md mb-8 px-4 py-3 rounded-lg bg-zinc-800 border border-zinc-700
+           text-zinc-100 placeholder-zinc-500 focus:outline-none focus:border-amber-500
+           focus:ring-1 focus:ring-amber-500">
+
+  <div id="grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    {% for c in catalog %}
+    <a class="card block p-4 rounded-xl bg-zinc-800 border border-zinc-700
+              hover:border-amber-500 hover:-translate-y-0.5 transition"
+       data-search="{{ (c.make ~ ' ' ~ c.model ~ ' ' ~ c.generation ~ ' ' ~ c.body ~ ' ' ~ c.note)|lower }}"
+       href="{{ url_for('profile_page') }}?make={{ c.make|urlencode }}&model={{ c.model|urlencode }}&year={{ c.year }}">
+      <div class="flex items-baseline justify-between gap-2">
+        <h2 class="font-semibold text-zinc-100">{{ c.make }} {{ c.model }}</h2>
+        <span class="text-xs text-zinc-500 shrink-0">{{ c.body }}</span>
+      </div>
+      <p class="text-sm text-amber-500/90 mt-0.5">{{ c.generation }}</p>
+      <p class="text-sm text-zinc-400 mt-1">{{ c.note }}</p>
+    </a>
+    {% endfor %}
+  </div>
+  <p id="empty" class="hidden text-zinc-500 mt-6">No cars match your filter.</p>
+</div>
+
+<script>
+  const search = document.getElementById('search');
+  const cards = [...document.querySelectorAll('.card')];
+  const empty = document.getElementById('empty');
+  search.addEventListener('input', () => {
+    const q = search.value.trim().toLowerCase();
+    let shown = 0;
+    cards.forEach(c => {
+      const match = c.dataset.search.includes(q);
+      c.classList.toggle('hidden', !match);
+      if (match) shown++;
+    });
+    empty.classList.toggle('hidden', shown !== 0);
+  });
+</script>
+{% endblock %}
