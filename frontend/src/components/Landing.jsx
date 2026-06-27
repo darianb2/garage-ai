@@ -2,6 +2,10 @@ import { useEffect, useMemo, useState } from "react";
 import { getCatalog } from "../lib/api";
 import { Card, Spinner } from "./ui";
 
+// Models we collapse into a single expandable tile because we carry many
+// generations of them. Everything else stays one tile per generation.
+const GROUPED = new Set(["Honda Civic Si"]);
+
 // Search-first landing: a big search that filters the enthusiast catalog, plus a
 // fallback "research any car" form for vehicles not in the catalog. Selecting a
 // car hands a { make, model, year, ... } up to App, which opens the Vehicle Hub.
@@ -9,6 +13,8 @@ export default function Landing({ onSelect }) {
   const [catalog, setCatalog] = useState(null);
   const [query, setQuery] = useState("");
   const [free, setFree] = useState({ make: "", model: "", year: "" });
+  // Which grouped model tile is expanded (keyed by "make model"), or null.
+  const [openGroup, setOpenGroup] = useState(null);
 
   useEffect(() => {
     getCatalog()
@@ -26,6 +32,29 @@ export default function Landing({ onSelect }) {
         .includes(q),
     );
   }, [catalog, query]);
+
+  // Turn the flat results into tiles: grouped models collapse into one
+  // expandable tile (inserted where their first generation appears, so grid
+  // order is preserved); every other vehicle is its own tile.
+  const tiles = useMemo(() => {
+    const out = [];
+    const groups = new Map();
+    for (const c of results) {
+      const key = `${c.make} ${c.model}`;
+      if (GROUPED.has(key)) {
+        let g = groups.get(key);
+        if (!g) {
+          g = { type: "group", key, make: c.make, model: c.model, items: [] };
+          groups.set(key, g);
+          out.push(g);
+        }
+        g.items.push(c);
+      } else {
+        out.push({ type: "car", car: c });
+      }
+    }
+    return out;
+  }, [results]);
 
   const submitFree = (e) => {
     e.preventDefault();
@@ -89,23 +118,93 @@ export default function Landing({ onSelect }) {
         <>
           <p className="mb-3 text-sm text-zinc-500">{results.length} vehicles</p>
           <div className="grid grid-cols-1 gap-4 pb-16 sm:grid-cols-2 lg:grid-cols-3">
-            {results.map((c, i) => (
-              <button key={i} onClick={() => onSelect(c)} className="text-left">
-                <Card className="h-full p-4 transition hover:-translate-y-0.5 hover:border-amber-500">
-                  <div className="flex items-baseline justify-between gap-2">
-                    <h2 className="font-semibold text-zinc-100">
-                      {c.make} {c.model}
-                    </h2>
-                    <span className="shrink-0 text-xs text-zinc-500">{c.body}</span>
-                  </div>
-                  <p className="mt-0.5 text-sm text-amber-500/90">{c.generation}</p>
-                  <p className="mt-1 text-sm text-zinc-400">{c.note}</p>
-                </Card>
-              </button>
-            ))}
+            {tiles.map((t, i) =>
+              t.type === "car" ? (
+                <button key={i} onClick={() => onSelect(t.car)} className="text-left">
+                  <Card className="h-full p-4 transition hover:-translate-y-0.5 hover:border-amber-500">
+                    <div className="flex items-baseline justify-between gap-2">
+                      <h2 className="font-semibold text-zinc-100">
+                        {t.car.make} {t.car.model}
+                      </h2>
+                      <span className="shrink-0 text-xs text-zinc-500">{t.car.body}</span>
+                    </div>
+                    <p className="mt-0.5 text-sm text-amber-500/90">{t.car.generation}</p>
+                    <p className="mt-1 text-sm text-zinc-400">{t.car.note}</p>
+                  </Card>
+                </button>
+              ) : (
+                <GroupTile
+                  key={i}
+                  group={t}
+                  open={openGroup === t.key}
+                  onToggle={() => setOpenGroup(openGroup === t.key ? null : t.key)}
+                  onSelect={onSelect}
+                />
+              ),
+            )}
           </div>
         </>
       )}
+    </div>
+  );
+}
+
+// A collapsed model tile that expands to list its generations. Collapsed, it
+// reads like a normal card; expanded, it spans the row and each generation is a
+// tappable card that opens that specific vehicle in the Hub.
+function GroupTile({ group, open, onToggle, onSelect }) {
+  const { make, model, items } = group;
+  const count = items.length;
+  return (
+    <div className={open ? "sm:col-span-2 lg:col-span-3" : ""}>
+      <Card className="h-full p-4 transition hover:border-amber-500">
+        <button
+          onClick={onToggle}
+          className="flex w-full items-center justify-between gap-2 text-left"
+        >
+          <div>
+            <h2 className="font-semibold text-zinc-100">
+              {make} {model}
+            </h2>
+            <p className="mt-0.5 text-sm text-amber-500/90">
+              {count} generation{count === 1 ? "" : "s"}
+            </p>
+            <p className="mt-1 text-sm text-zinc-400">
+              {items[0].generation} → {items[count - 1].generation}
+            </p>
+          </div>
+          <svg
+            viewBox="0 0 20 20"
+            className={`h-4 w-4 shrink-0 text-zinc-500 transition-transform ${open ? "rotate-180" : ""}`}
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+          >
+            <path d="M5 8l5 5 5-5" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </button>
+
+        {open && (
+          <ul className="mt-3 grid gap-2 border-t border-zinc-800 pt-3 sm:grid-cols-2 lg:grid-cols-3">
+            {items.map((g, j) => (
+              <li key={j}>
+                <button
+                  onClick={() => onSelect(g)}
+                  className="h-full w-full rounded-lg border border-zinc-800 p-3 text-left transition hover:-translate-y-0.5 hover:border-amber-500"
+                >
+                  <div className="flex items-baseline justify-between gap-2">
+                    <span className="text-sm font-medium text-amber-500/90">
+                      {g.generation}
+                    </span>
+                    <span className="shrink-0 text-xs text-zinc-500">{g.body}</span>
+                  </div>
+                  <p className="mt-1 text-sm text-zinc-400">{g.note}</p>
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+      </Card>
     </div>
   );
 }
