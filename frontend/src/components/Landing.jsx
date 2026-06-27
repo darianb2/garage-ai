@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { getCatalog } from "../lib/api";
-import { Card, Spinner } from "./ui";
+import { Card, Spinner, SectionTitle } from "./ui";
 
 // Models we collapse into a single expandable tile because we carry many
 // generations of them. Everything else stays one tile per generation.
@@ -55,6 +55,25 @@ export default function Landing({ onSelect }) {
     }
     return out;
   }, [results]);
+
+  // Group the tiles by brand (make), with brands A→Z and each brand's tiles
+  // sorted alphabetically by model (then generation) so everything is ordered.
+  const brands = useMemo(() => {
+    const label = (t) =>
+      t.type === "car" ? `${t.car.model} ${t.car.generation}` : t.model;
+    const byMake = new Map();
+    for (const t of tiles) {
+      const make = t.type === "car" ? t.car.make : t.make;
+      if (!byMake.has(make)) byMake.set(make, []);
+      byMake.get(make).push(t);
+    }
+    return [...byMake.entries()]
+      .map(([name, ts]) => ({
+        name,
+        tiles: ts.sort((a, b) => label(a).localeCompare(label(b))),
+      }))
+      .sort((a, b) => a.name.localeCompare(b.name));
+  }, [tiles]);
 
   const submitFree = (e) => {
     e.preventDefault();
@@ -114,34 +133,45 @@ export default function Landing({ onSelect }) {
 
       {!catalog ? (
         <Spinner label="Loading catalog…" />
+      ) : brands.length === 0 ? (
+        <p className="pb-16 text-zinc-400">No vehicles match your search.</p>
       ) : (
         <>
-          <p className="mb-3 text-sm text-zinc-500">{results.length} vehicles</p>
-          <div className="grid grid-cols-1 gap-4 pb-16 sm:grid-cols-2 lg:grid-cols-3">
-            {tiles.map((t, i) =>
-              t.type === "car" ? (
-                <button key={i} onClick={() => onSelect(t.car)} className="text-left">
-                  <Card className="h-full p-4 transition hover:-translate-y-0.5 hover:border-amber-500">
-                    <div className="flex items-baseline justify-between gap-2">
-                      <h2 className="font-semibold text-zinc-100">
-                        {t.car.make} {t.car.model}
-                      </h2>
-                      <span className="shrink-0 text-xs text-zinc-500">{t.car.body}</span>
-                    </div>
-                    <p className="mt-0.5 text-sm text-amber-500/90">{t.car.generation}</p>
-                    <p className="mt-1 text-sm text-zinc-400">{t.car.note}</p>
-                  </Card>
-                </button>
-              ) : (
-                <GroupTile
-                  key={i}
-                  group={t}
-                  open={openGroup === t.key}
-                  onToggle={() => setOpenGroup(openGroup === t.key ? null : t.key)}
-                  onSelect={onSelect}
-                />
-              ),
-            )}
+          <p className="mb-6 text-sm text-zinc-500">{results.length} vehicles</p>
+          <div className="space-y-10 pb-16">
+            {brands.map((brand) => (
+              <section key={brand.name}>
+                <SectionTitle>{brand.name}</SectionTitle>
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                  {brand.tiles.map((t) =>
+                    t.type === "car" ? (
+                      <button
+                        key={`${t.car.model}-${t.car.generation}-${t.car.year}`}
+                        onClick={() => onSelect(t.car)}
+                        className="text-left"
+                      >
+                        <Card className="h-full p-4 transition hover:-translate-y-0.5 hover:border-amber-500">
+                          <div className="flex items-baseline justify-between gap-2">
+                            <h2 className="font-semibold text-zinc-100">{t.car.model}</h2>
+                            <span className="shrink-0 text-xs text-zinc-500">{t.car.body}</span>
+                          </div>
+                          <p className="mt-0.5 text-sm text-amber-500/90">{t.car.generation}</p>
+                          <p className="mt-1 text-sm text-zinc-400">{t.car.note}</p>
+                        </Card>
+                      </button>
+                    ) : (
+                      <GroupTile
+                        key={t.key}
+                        group={t}
+                        open={openGroup === t.key}
+                        onToggle={() => setOpenGroup(openGroup === t.key ? null : t.key)}
+                        onSelect={onSelect}
+                      />
+                    ),
+                  )}
+                </div>
+              </section>
+            ))}
           </div>
         </>
       )}
@@ -153,7 +183,7 @@ export default function Landing({ onSelect }) {
 // reads like a normal card; expanded, it spans the row and each generation is a
 // tappable card that opens that specific vehicle in the Hub.
 function GroupTile({ group, open, onToggle, onSelect }) {
-  const { make, model, items } = group;
+  const { model, items } = group;
   const count = items.length;
   return (
     <div className={open ? "sm:col-span-2 lg:col-span-3" : ""}>
@@ -163,9 +193,7 @@ function GroupTile({ group, open, onToggle, onSelect }) {
           className="flex w-full items-center justify-between gap-2 text-left"
         >
           <div>
-            <h2 className="font-semibold text-zinc-100">
-              {make} {model}
-            </h2>
+            <h2 className="font-semibold text-zinc-100">{model}</h2>
             <p className="mt-0.5 text-sm text-amber-500/90">
               {count} generation{count === 1 ? "" : "s"}
             </p>
