@@ -75,6 +75,16 @@ CARS = [
     ("Acura", "RSX Type S", 2005, "DC5", "Coupe", "K20 high-revving coupe"),
     ("Acura", "Integra", 2023, "DE4", "Hatch", "Modern Type S revival"),
     ("Honda", "Civic Type R", 2023, "FL5", "Hatch", "FWD lap-record hatch"),
+    ("Honda", "Civic Si", 1994, "5th Gen EG", "Hatch", "D16Z6, first VTEC Si"),
+    ("Honda", "Civic Si", 1999, "6th Gen EM1", "Coupe", "B16A2, cult EM1 coupe"),
+    ("Honda", "Civic Si", 2003, "7th Gen EP3", "Hatch", "K20A3, first i-VTEC Si"),
+    ("Honda", "Civic Si", 2007, "8th Gen FG2", "Coupe", "K20Z3, helical LSD"),
+    ("Honda", "Civic Si", 2008, "8th Gen FA5", "Sedan", "K20Z3, four-door Si"),
+    ("Honda", "Civic Si", 2014, "9th Gen FG4", "Coupe", "K24Z7 2.4L, last NA Si"),
+    ("Honda", "Civic Si", 2013, "9th Gen FB6", "Sedan", "K24Z7 2.4L NA, four-door"),
+    ("Honda", "Civic Si", 2018, "10th Gen FC3", "Coupe", "L15B7 turbo, last Si coupe"),
+    ("Honda", "Civic Si", 2019, "10th Gen FC1", "Sedan", "L15B7 turbo return"),
+    ("Honda", "Civic Si", 2022, "11th Gen FE1", "Sedan", "L15CA turbo, low-rpm torque"),
 
     # --- Japanese: Subaru / Mitsubishi ---
     ("Subaru", "WRX STI", 2015, "VA", "Sedan", "EJ257 rally-bred AWD turbo"),

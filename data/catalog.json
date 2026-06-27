@@ -352,6 +352,86 @@
     "note": "FWD lap-record hatch"
   },
   {
+    "make": "Honda",
+    "model": "Civic Si",
+    "year": 1994,
+    "generation": "5th Gen EG",
+    "body": "Hatch",
+    "note": "D16Z6, first VTEC Si"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic Si",
+    "year": 1999,
+    "generation": "6th Gen EM1",
+    "body": "Coupe",
+    "note": "B16A2, cult EM1 coupe"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic Si",
+    "year": 2003,
+    "generation": "7th Gen EP3",
+    "body": "Hatch",
+    "note": "K20A3, first i-VTEC Si"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic Si",
+    "year": 2007,
+    "generation": "8th Gen FG2",
+    "body": "Coupe",
+    "note": "K20Z3, helical LSD"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic Si",
+    "year": 2008,
+    "generation": "8th Gen FA5",
+    "body": "Sedan",
+    "note": "K20Z3, four-door Si"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic Si",
+    "year": 2014,
+    "generation": "9th Gen FG4",
+    "body": "Coupe",
+    "note": "K24Z7 2.4L, last NA Si"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic Si",
+    "year": 2013,
+    "generation": "9th Gen FB6",
+    "body": "Sedan",
+    "note": "K24Z7 2.4L NA, four-door"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic Si",
+    "year": 2018,
+    "generation": "10th Gen FC3",
+    "body": "Coupe",
+    "note": "L15B7 turbo, last Si coupe"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic Si",
+    "year": 2019,
+    "generation": "10th Gen FC1",
+    "body": "Sedan",
+    "note": "L15B7 turbo return"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic Si",
+    "year": 2022,
+    "generation": "11th Gen FE1",
+    "body": "Sedan",
+    "note": "L15CA turbo, low-rpm torque"
+  },
+  {
     "make": "Subaru",
     "model": "WRX STI",
     "year": 2015,
