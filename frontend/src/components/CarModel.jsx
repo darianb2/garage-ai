@@ -69,8 +69,15 @@ function ProceduralBody() {
 // scale (+ position / rotation) for fine control.
 function GLTFCar({ model }) {
   const { scene } = useGLTF(model.url);
-  // Clone so we never mutate the shared cached scene.
-  const object = useMemo(() => scene.clone(true), [scene]);
+  const rot = model.rotation ?? [0, 0, 0];
+  // Clone (so we never mutate the cached scene) and bake in the registry rotation,
+  // so the auto-fit measures + centers the car in its FINAL orientation.
+  const object = useMemo(() => {
+    const o = scene.clone(true);
+    o.rotation.set(rot[0], rot[1], rot[2]);
+    o.updateMatrixWorld(true);
+    return o;
+  }, [scene, rot[0], rot[1], rot[2]]);
   const fit = useMemo(() => {
     if (model.scale != null) {
       return { scale: model.scale, position: model.position ?? [0, 0, 0] };
@@ -85,14 +92,7 @@ function GLTFCar({ model }) {
     return { scale: s, position: [-center.x * s, -box.min.y * s, -center.z * s] };
   }, [object, model]);
 
-  return (
-    <primitive
-      object={object}
-      scale={fit.scale}
-      rotation={model.rotation ?? [0, 0, 0]}
-      position={fit.position}
-    />
-  );
+  return <primitive object={object} scale={fit.scale} position={fit.position} />;
 }
 
 // If a model fails to load (bad file, 404, decode error), fall back to the

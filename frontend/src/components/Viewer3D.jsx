@@ -28,16 +28,21 @@ export default function Viewer3D({ systems = null, selected = null, onSelect = (
   if (!supported) return <Fallback />;
 
   return (
-    <Canvas shadows camera={{ position: [4.5, 2.5, 5], fov: 45 }} onPointerMissed={() => onSelect(null)}>
-      <color attach="background" args={["#0a0a0b"]} />
-      <ambientLight intensity={0.5} />
-      <directionalLight position={[5, 8, 5]} intensity={1.3} castShadow />
-      <directionalLight position={[-6, 4, -4]} intensity={0.4} color="#f59e0b" />
+    <Canvas
+      shadows
+      camera={{ position: [4.6, 1.5, 1.9], fov: 45 }}
+      onPointerMissed={() => onSelect(null)}
+    >
+      {/* Solid grey studio background, set at the WebGL level. */}
+      <color attach="background" args={["#52525b"]} />
+      <ambientLight intensity={0.85} />
+      <directionalLight position={[5, 8, 5]} intensity={1.2} castShadow />
+      <directionalLight position={[-6, 4, -4]} intensity={0.35} color="#f59e0b" />
       {/* Spin while data is loading (no systems yet); settle + show hotspots once loaded. */}
       <CarModel spin={!systems} systems={systems} selected={selected} onSelect={onSelect} model={model} />
-      <ContactShadows position={[0, 0, 0]} opacity={0.5} scale={12} blur={2.4} far={4} />
-      <gridHelper args={[24, 24, "#3f3f46", "#1f1f23"]} position={[0, -0.001, 0]} />
-      <OrbitControls enablePan={false} minDistance={3} maxDistance={12} />
+      <ContactShadows position={[0, 0, 0]} opacity={0.6} scale={7} blur={2.5} far={2.5} />
+      <gridHelper args={[24, 24, "#8b8b92", "#52525b"]} position={[0, -0.001, 0]} />
+      <OrbitControls enablePan={false} target={[0, 0.45, 0]} minDistance={2.5} maxDistance={12} />
     </Canvas>
   );
 }

@@ -286,7 +286,10 @@ Strategy: PERFECT 4 launch cars end-to-end, then scale the same template behind 
       useGLTF + Suspense + error-boundary fallback to the procedural car. Adding a
       model = drop public/models/<slug>.glb + one registry line. 3D tab shows the
       expected slug as a hint. public/models/README.md documents the convention.
-- [ ] Source real models (Supra, Civic first) + tune per-model scale/orientation
+- [~] Source real models (Supra, Civic first) + tune per-model scale/orientation
+      — Supra Mk4 A80 IN (temich, CC-BY-NC, TEST ONLY; optimized 13.6MB->4.9MB GLB
+      via gltf-transform; rotation-aware auto-fit grounds + centers it). Viewer polish:
+      grey studio background, side framing, contact-shadow grounding. Civic next.
 - [ ] (Later) configurator: wheels / colors
 
 ### 8.4 Mechanical breakdown

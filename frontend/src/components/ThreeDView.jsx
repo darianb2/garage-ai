@@ -15,11 +15,11 @@ export default function ThreeDView({ profile, vehicle }) {
   const slug = primarySlug(vehicle);
 
   return (
-    <div className="relative h-[70vh] overflow-hidden rounded-xl border border-zinc-800">
+    <div className="relative h-[70vh] overflow-hidden rounded-xl border border-zinc-800 bg-zinc-700">
       <Viewer3D systems={systems} selected={selected} onSelect={setSelected} model={model} />
 
       {/* hints (top-left) */}
-      <div className="pointer-events-none absolute left-3 top-3 space-y-1 text-xs">
+      <div className="pointer-events-none absolute left-3 top-3 space-y-1 rounded-md bg-zinc-950/40 px-2 py-1 text-xs">
         <p className="text-zinc-500">
           {systems ? "Click a marker on the car to inspect a system" : "Loading data…"}
         </p>

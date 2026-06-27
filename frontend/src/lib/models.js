@@ -10,19 +10,18 @@
 // The slug is resolved from the vehicle, trying the generation-specific key
 // first, then make+model. See primarySlug() for the exact name to use.
 export const MODELS = {
-  // DEMO ONLY: a CC0 public-domain car (Khronos "ToyCar", by Guido Odendahl &
-  // Eric Chadwick) standing in to prove the loader works. It is NOT an accurate
-  // Supra/Civic. Delete these three lines once real per-car models are in.
-  "toyota-supra": { url: "/models/demo-car.glb", demo: true },
+  // --- Real models (CC-licensed; attributions in public/models/CREDITS.md) ---
+  // Toyota Supra Mk4 / A80 — by temich, CC-BY-NC-4.0 (NonCommercial: test only).
+  "toyota-supra-a80-mk4": { url: "/models/toyota-supra-a80-mk4.glb", rotation: [0, Math.PI, 0] },
+
+  // DEMO ONLY: CC0 "ToyCar" (Khronos) standing in to prove the loader — NOT real
+  // cars. Replace each with a real model + a registry line above, then delete.
   "toyota-gr-supra": { url: "/models/demo-car.glb", demo: true },
   "honda-civic-type-r": { url: "/models/demo-car.glb", demo: true },
 
-  // --- Toyota Supra (add files, then uncomment) ---
-  // "toyota-supra-a80-mk4": { url: "/models/toyota-supra-a80-mk4.glb", scale: 1, rotation: [0, 0, 0], position: [0, 0, 0] },
-  // "toyota-gr-supra-a90":  { url: "/models/toyota-gr-supra-a90.glb" },
-  // --- Honda Civic ---
+  // --- Add more real models (drop file in public/models/, then add a line) ---
+  // "toyota-gr-supra-a90":    { url: "/models/toyota-gr-supra-a90.glb" },
   // "honda-civic-type-r-fl5": { url: "/models/honda-civic-type-r-fl5.glb" },
-  // "honda-civic-si":         { url: "/models/honda-civic-si.glb" },
 };
 
 const kebab = (s) =>
