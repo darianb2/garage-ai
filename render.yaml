@@ -2,6 +2,11 @@
 # Docs: https://render.com/docs/blueprint-spec
 # Render ignores runtime.txt (a Heroku/Railway convention), so the Python
 # version is pinned here via the PYTHON_VERSION env var instead.
+#
+# The React frontend is PRE-BUILT locally and committed (frontend/dist), because
+# Render's Python runtime has no Node to run `npm run build`. Flask serves that
+# build. After changing the frontend, run `cd frontend && npm run build` and
+# commit the updated dist before pushing.
 services:
   - type: web
     name: garage-ai

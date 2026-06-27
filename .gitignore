@@ -7,5 +7,8 @@ venv/
 data/suggestions.log
 data/hits.txt
 frontend/node_modules/
-frontend/dist/
-frontend/public/models/*.glb
+# The built frontend (frontend/dist) IS committed because Render's Python runtime
+# has no Node to build it; dist/models is excluded in frontend/.gitignore since
+# Flask serves models from frontend/public/models instead.
+# Real 3D models are committed so they deploy; the demo stand-in is not.
+frontend/public/models/demo-car.glb

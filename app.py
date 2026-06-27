@@ -15,7 +15,17 @@ import threading
 import time
 from datetime import date, datetime, timezone
 
-from flask import Flask, jsonify, redirect, render_template, request, url_for
+from flask import (
+    Flask,
+    abort,
+    jsonify,
+    redirect,
+    render_template,
+    request,
+    send_file,
+    send_from_directory,
+    url_for,
+)
 
 from car_profile import build_profile
 from loader import load_cars, load_catalog
@@ -25,6 +35,15 @@ from search import find_matches
 app = Flask(__name__)
 cars = load_cars()
 catalog = load_catalog()
+
+# --- Serving the built React frontend --------------------------------------
+# Render's Python runtime has no Node, so the frontend is built locally
+# (`npm run build`) and the resulting frontend/dist is committed. Flask serves
+# that build as the site; /api/* stays dynamic. 3D models are large, so they
+# live in frontend/public/models (committed once) and are served from there
+# rather than duplicated into dist.
+DIST_DIR = os.path.join(os.path.dirname(__file__), "frontend", "dist")
+MODELS_DIR = os.path.join(os.path.dirname(__file__), "frontend", "public", "models")
 
 # --- AI research assistant ("Ask about this car") --------------------------
 # Grounded Q&A: the car's verified JSON is the factual backbone; Claude adds the
@@ -181,14 +200,23 @@ def summary(name):
     }
 
 
-@app.route("/")
-def index():
+def _spa_index():
+    """The built React shell, or the legacy Jinja homepage when there's no
+    build present (e.g. local dev, where Vite serves the app on :5173)."""
+    built = os.path.join(DIST_DIR, "index.html")
+    if os.path.exists(built):
+        return send_file(built)
     return render_template(
         "index.html",
         cars=[summary(name) for name in cars],
         thanks=request.args.get("thanks"),
         hits=record_hit(),
     )
+
+
+@app.route("/")
+def index():
+    return _spa_index()
 
 
 @app.route("/suggest", methods=["POST"])
@@ -330,6 +358,26 @@ def api_profile():
     profile["curated_trims"] = matches
     profile["specs_name"] = matches[0] if matches else None
     return jsonify(profile)
+
+
+@app.route("/models/<path:filename>")
+def model_file(filename):
+    # 3D models (committed in frontend/public/models), served as-is.
+    return send_from_directory(MODELS_DIR, filename)
+
+
+@app.route("/<path:path>")
+def spa_catch_all(path):
+    # Serve a real built file (hashed JS/CSS, favicon, etc.) when it exists;
+    # otherwise hand back the SPA shell so client routes / refreshes work.
+    # Explicit routes (/api/*, /catalog, /car/<name>, …) are matched first by
+    # Werkzeug; we still 404 unknown /api paths instead of returning HTML.
+    if path.startswith("api/"):
+        abort(404)
+    candidate = os.path.join(DIST_DIR, path)
+    if os.path.isfile(candidate):
+        return send_from_directory(DIST_DIR, path)
+    return _spa_index()
 
 
 if __name__ == "__main__":

@@ -8,7 +8,9 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
+# dist IS committed (Render's Python runtime can't build it), except the heavy
+# 3D models, which Flask serves from public/models instead — see root .gitignore.
+dist/models/
 dist-ssr
 *.local
 
