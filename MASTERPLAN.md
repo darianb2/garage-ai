@@ -279,14 +279,22 @@ Strategy: PERFECT 4 launch cars end-to-end, then scale the same template behind 
       electrical...) so 3D hotspots can bind to data
 
 ### 8.3 Interactive 3D viewer
-- [ ] Integrate Three.js / react-three-fiber; load a glTF model; orbit / zoom / rotate
-- [ ] Works on mobile + desktop; graceful loading state + still-image fallback
+- [x] Integrate Three.js / react-three-fiber; orbit / zoom / rotate (DONE 2026-06-27)
+- [x] Procedural low-poly sports car (CarModel.jsx) as a stand-in + contact shadow
+- [x] Graceful WebGL-unavailable fallback (Viewer3D.jsx + lib/webgl.js)
+- [x] glTF/GLB loader wired (DONE 2026-06-27): lib/models.js registry + CarModel
+      useGLTF + Suspense + error-boundary fallback to the procedural car. Adding a
+      model = drop public/models/<slug>.glb + one registry line. 3D tab shows the
+      expected slug as a hint. public/models/README.md documents the convention.
+- [ ] Source real models (Supra, Civic first) + tune per-model scale/orientation
 - [ ] (Later) configurator: wheels / colors
 
 ### 8.4 Mechanical breakdown
-- [ ] Clickable hotspots/markers on the model for each major system
-- [ ] Each hotspot opens that system's info + its real complaint/recall data from the engine
+- [x] Clickable hotspots/markers on the model for each major system (DONE 2026-06-27)
+- [x] Each hotspot opens that system's info + its real complaint/recall data from the engine
+- [x] Shared system map (lib/systems.js) drives BOTH the 3D hotspots and the list view
 - [ ] (Later) deeper per-component views per the brief's Phase 3
+- [ ] Tie hotspots to real model geometry once a glTF model replaces the procedural car
 
 ### 8.5 Perfect, then scale
 - [ ] Polish the 4 cars to "showcase" quality (accuracy, performance, feel)

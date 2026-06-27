@@ -1,23 +1,8 @@
-import { useRef, useState } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
+import { useState } from "react";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls, ContactShadows } from "@react-three/drei";
 import { hasWebGL } from "../lib/webgl";
-
-// Placeholder "vehicle": a slowly rotating shape standing in for the real glTF
-// car model we'll load per launch car (Miata / Supra / M3 / GT-R). Proves the
-// R3F render loop + controls; the real models replace this in Phase 8.3.
-function Placeholder() {
-  const mesh = useRef();
-  useFrame((_, delta) => {
-    if (mesh.current) mesh.current.rotation.y += delta * 0.4;
-  });
-  return (
-    <mesh ref={mesh}>
-      <boxGeometry args={[2, 0.6, 1]} />
-      <meshStandardMaterial color="#f59e0b" metalness={0.6} roughness={0.3} />
-    </mesh>
-  );
-}
+import CarModel from "./CarModel";
 
 // Shown when the browser can't start WebGL — so the tab explains itself instead
 // of rendering a blank, broken canvas.
@@ -37,18 +22,21 @@ function Fallback() {
   );
 }
 
-export default function Viewer3D() {
+export default function Viewer3D({ systems = null, selected = null, onSelect = () => {}, model = null }) {
   // Check once on mount; if WebGL is unavailable, never mount the Canvas.
   const [supported] = useState(hasWebGL);
   if (!supported) return <Fallback />;
 
   return (
-    <Canvas camera={{ position: [4, 2.5, 4], fov: 45 }}>
+    <Canvas shadows camera={{ position: [4.5, 2.5, 5], fov: 45 }} onPointerMissed={() => onSelect(null)}>
       <color attach="background" args={["#0a0a0b"]} />
-      <ambientLight intensity={0.4} />
-      <directionalLight position={[5, 8, 5]} intensity={1.2} />
-      <Placeholder />
-      <gridHelper args={[20, 20, "#3f3f46", "#27272a"]} position={[0, -0.4, 0]} />
+      <ambientLight intensity={0.5} />
+      <directionalLight position={[5, 8, 5]} intensity={1.3} castShadow />
+      <directionalLight position={[-6, 4, -4]} intensity={0.4} color="#f59e0b" />
+      {/* Spin while data is loading (no systems yet); settle + show hotspots once loaded. */}
+      <CarModel spin={!systems} systems={systems} selected={selected} onSelect={onSelect} model={model} />
+      <ContactShadows position={[0, 0, 0]} opacity={0.5} scale={12} blur={2.4} far={4} />
+      <gridHelper args={[24, 24, "#3f3f46", "#1f1f23"]} position={[0, -0.001, 0]} />
       <OrbitControls enablePan={false} minDistance={3} maxDistance={12} />
     </Canvas>
   );

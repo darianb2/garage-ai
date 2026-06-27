@@ -1,35 +1,10 @@
 import { Card, Badge } from "../ui";
+import { computeSystems } from "../../lib/systems";
 
-// Major vehicle systems. Each binds to live NHTSA data by matching the component
-// names in complaints + recalls. This is the data layer the future interactive
-// 3D hotspots will surface when you click a part of the model (Phase 8.4).
-const SYSTEMS = [
-  { label: "Engine", match: ["engine", "powertrain", "power train"] },
-  { label: "Drivetrain", match: ["transmission", "driveline", "driveshaft", "drive shaft", "clutch", "axle"] },
-  { label: "Suspension & Steering", match: ["suspension", "steering"] },
-  { label: "Brakes", match: ["brake"] },
-  { label: "Electrical", match: ["electrical", "battery", "wiring", "lighting"] },
-  { label: "Fuel System", match: ["fuel"] },
-  { label: "Airbags & Restraints", match: ["air bag", "airbag", "seat belt", "restraint", "occupant"] },
-  { label: "Body & Exterior", match: ["body", "structure", "exterior", "latch", "door", "wheel", "tire"] },
-];
-
-function hits(name, keys) {
-  const n = (name || "").toLowerCase();
-  return keys.some((k) => n.includes(k));
-}
-
+// The list view of the mechanical breakdown. Shares system definitions + data
+// binding with the interactive 3D hotspots (lib/systems.js).
 export default function BreakdownPanel({ profile }) {
-  const issues = profile.common_issues || []; // [[componentName, count], ...]
-  const recalls = profile.recalls || [];
-
-  const systems = SYSTEMS.map((sys) => {
-    const issueCount = issues
-      .filter(([name]) => hits(name, sys.match))
-      .reduce((sum, [, count]) => sum + count, 0);
-    const sysRecalls = recalls.filter((r) => hits(r.component, sys.match));
-    return { ...sys, issueCount, recalls: sysRecalls };
-  });
+  const systems = computeSystems(profile);
   const max = Math.max(1, ...systems.map((s) => s.issueCount));
 
   return (
@@ -39,7 +14,7 @@ export default function BreakdownPanel({ profile }) {
           Each major system is bound to live NHTSA data for this car — owner-complaint
           volume and open recalls.{" "}
           <span className="text-zinc-500">
-            Interactive 3D hotspots on the model come next; this is the data they'll surface.
+            The 3D Model tab shows the same data as clickable hotspots on the car.
           </span>
         </p>
       </Card>

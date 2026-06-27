@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getProfile } from "../lib/api";
 import { Badge, Spinner } from "./ui";
-import Viewer3D from "./Viewer3D";
+import ThreeDView from "./ThreeDView";
 import ProfilePanel from "./panels/ProfilePanel";
 import BreakdownPanel from "./panels/BreakdownPanel";
 
@@ -64,9 +64,7 @@ export default function VehicleHub({ vehicle, onBack }) {
 
       <div className="py-6">
         {tab === "3d" ? (
-          <div className="h-[70vh] overflow-hidden rounded-xl border border-zinc-800">
-            <Viewer3D />
-          </div>
+          <ThreeDView profile={profile} vehicle={vehicle} />
         ) : error ? (
           <p className="text-red-300">{error}</p>
         ) : !profile ? (
