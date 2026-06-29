@@ -126,6 +126,7 @@ function Recalls({ profile }) {
 
 function Complaints({ profile }) {
   const list = profile.complaints || [];
+  const issues = profile.common_issues || [];
   if (!list.length) return null;
   return (
     <Card className="p-5">
@@ -138,7 +139,26 @@ function Complaints({ profile }) {
         </p>
       )}
 
-      {/* Raw owner narratives are long and numerous, so keep them opt-in. */}
+      {/* Grouped by the system owners blamed, with counts — the structured view. */}
+      {issues.length > 0 && (
+        <div className="mb-4">
+          <div className="mb-2 text-xs uppercase tracking-wide text-zinc-500">
+            Most-reported systems
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {issues.map(([component, count]) => (
+              <span
+                key={component}
+                className="rounded-full border border-zinc-700 bg-zinc-800/60 px-3 py-1 text-xs text-zinc-300"
+              >
+                {component} · {count} {count === 1 ? "report" : "reports"}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Full owner narratives are long and numerous, so keep them opt-in. */}
       <details className="group">
         <summary className="cursor-pointer text-xs text-zinc-500 hover:text-amber-500">
           Read individual reports

@@ -11,6 +11,7 @@ a richer specs API later, the routes and templates that read a profile won't
 have to change.
 """
 
+import re
 from collections import Counter
 
 from nhtsa import get_complaints, get_recalls, get_safety_ratings
@@ -20,6 +21,40 @@ from nhtsa import get_complaints, get_recalls, get_safety_ratings
 # complaint list, not these trimmed samples.
 SAMPLE_COMPLAINTS = 8
 TOP_ISSUES = 6
+
+# NHTSA stores owner narratives in ALL CAPS with erratic spacing, which reads as
+# broken/shouting. We display them in sentence case instead. These short, common
+# automotive/road acronyms are restored to uppercase so "abs"/"mph" don't look
+# wrong after lowercasing.
+_ACRONYMS = {
+    "abs", "ac", "awd", "rwd", "fwd", "4wd", "dot", "ecu", "esc", "vsc", "tpms",
+    "mph", "rpm", "psi", "suv", "gps", "led", "usb", "vin", "pcm", "tsb", "eps",
+}
+
+
+def _sentence_case(text):
+    """Turn an ALL-CAPS NHTSA narrative into readable sentence case.
+
+    Collapses runs of whitespace, lowercases, then re-capitalizes the start of
+    each sentence, the pronoun "I", and a few common acronyms. Not perfect (other
+    proper nouns are lost), but far more readable than the raw shouting capitals.
+    """
+    if not text:
+        return text
+    text = re.sub(r"\s+", " ", text).strip().lower()
+    text = re.sub(r"(^|[.!?]\s+)([a-z])", lambda m: m.group(1) + m.group(2).upper(), text)
+    text = re.sub(r"\bi\b", "I", text)
+    text = re.sub(r"\b[a-zA-Z]+\b",
+                  lambda m: m.group(0).upper() if m.group(0).lower() in _ACRONYMS else m.group(0),
+                  text)
+    return text
+
+
+def _clean_components(text):
+    """'STEERING,VEHICLE SPEED CONTROL' -> 'Steering, Vehicle Speed Control'."""
+    if not text:
+        return text
+    return ", ".join(p.strip().title() for p in text.split(",") if p.strip())
 
 
 def _common_issues(complaints, limit=TOP_ISSUES):
@@ -84,6 +119,15 @@ def build_profile(make, model, year, specs=None):
         safety = get_safety_ratings(make, model, year)
     except Exception:
         safety = None  # secondary signal - never let it break the profile
+    # Clean the sample narratives for display: sentence-case the shouting capitals
+    # and tidy the comma-separated component string. The full list is still used
+    # for counts/derivations above; only these displayed samples are cleaned.
+    samples = [
+        {**c,
+         "components": _clean_components(c.get("components")),
+         "summary": _sentence_case(c.get("summary"))}
+        for c in complaints[:SAMPLE_COMPLAINTS]
+    ]
     return {
         "make": make,
         "model": model,
@@ -91,8 +135,8 @@ def build_profile(make, model, year, specs=None):
         "specs": specs,
         "recalls": recalls,
         "complaints_count": len(complaints),
-        "complaints": complaints[:SAMPLE_COMPLAINTS],  # sample for display
-        "common_issues": _common_issues(complaints),   # derived from full list
+        "complaints": samples,                          # cleaned sample for display
+        "common_issues": _common_issues(complaints),    # derived from full list
         "reliability": _reliability_signal(recalls, complaints),
         "safety": safety,
     }
