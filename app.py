@@ -418,6 +418,8 @@ CURATED_SPEC_BINDINGS = {
     ("toyota", "gr supra"):    [(2020, 9999, "Toyota GR Supra")],     # A90/A91
     ("toyota", "supra"):       [(1993, 2002, "Toyota Supra Mk4 (A80)")],  # A80 (1989 A70 stays unbound)
     ("nissan", "370z"):        [(2009, 2020, "Nissan 370Z")],         # Z34
+    ("nissan", "gt-r"):        [(2007, 9999, "Nissan GT-R (R35)")],   # R35 (Skyline GT-R R32/R34 stay unbound)
+    ("bmw", "m3"):             [(2000, 2006, "BMW M3 (E46)")],        # E46 (E30/E36/E92 stay unbound)
     # MX-5 ND: 2016-18 (ND1) made 155hp; the curated file carries the 181hp ND2
     # figure (2019+). Bound for the whole ND run but flagged for review.
     ("mazda", "mx-5 miata"):   [(2016, 9999, "Mazda MX-5 Miata")],    # ND

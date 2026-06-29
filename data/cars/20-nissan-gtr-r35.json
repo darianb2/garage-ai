@@ -1,0 +1,41 @@
+{
+  "name": "Nissan GT-R (R35)",
+  "engine": "3.8L twin-turbo V6 (VR38DETT), each engine hand-assembled by one Takumi builder",
+  "horsepower": 565,
+  "torque": "467 lb-ft",
+  "drivetrain": "AWD (ATTESA E-TS, rear-mounted transaxle)",
+  "transmission": "6-speed dual-clutch (GR6) rear transaxle",
+  "0_to_60": "~2.9 sec",
+  "fuel_economy": "16 city / 22 hwy mpg",
+  "curb_weight": "~3,930 lbs",
+  "reliability": "8/10 mechanically - the hand-built VR38 is genuinely stout and the R35 is far more dependable than its supercar pace suggests. The catch is running cost, not fragility: the dual-clutch transaxle, tires, and brakes are exotic-car expensive to maintain.",
+  "cost_to_own": "Insurance: Very High · Maintenance is the real story - specialist service, ~$1,000+ transaxle/fluid jobs, tires often $1,500+ a set. Budget like an exotic, not a sports coupe.",
+  "popular_mods": [
+    "ECU tune (e.g. Cobb) - large, safe gains on the stock turbos",
+    "Downpipes and exhaust to free up the VR38",
+    "Upgraded turbos for 700-1,000+ whp on built cars",
+    "Transmission/clutch upgrades to hold the added torque",
+    "E85 and upgraded fueling for big-power builds"
+  ],
+  "oil_type": "0W-40 full synthetic (Nissan GT-R spec)",
+  "oil_interval": "Every 3,000-5,000 miles (sooner with track use)",
+  "generations": {
+    "R32 Skyline GT-R (1989-1994)": "Twin-turbo RB26DETT, AWD - 'Godzilla,' the car that built the legend in touring-car racing.",
+    "R33 Skyline GT-R (1995-1998)": "Refined, heavier evolution of the RB26 formula.",
+    "R34 Skyline GT-R (1999-2002)": "The icon: RB26 inline-six, AWD, import-legend status.",
+    "R35 GT-R (2007-present)": "This car. Dropped the Skyline name. Hand-built VR38DETT 3.8L twin-turbo V6 (480->565 hp over the years; NISMO 600 hp), dual-clutch transaxle, AWD. The everyday giant-killer."
+  },
+  "common_issues": [
+    "Dual-clutch transaxle wear on hard-launched or early (2009-2010) cars",
+    "Tire, brake, and consumable costs are very high",
+    "Bellhousing/clutch concerns on abused launch-control cars",
+    "Generally few inherent faults when serviced on schedule - cost, not reliability, is the risk"
+  ],
+  "maintenance_tips": [
+    "Service the dual-clutch transaxle fluid on schedule - skipping it is how transmissions die",
+    "Use the specified 0W-40 and keep oil intervals short with any track use",
+    "Budget for tires and brakes like an exotic",
+    "Go easy on launch control on early cars; later boxes are tougher",
+    "Use a GT-R specialist who knows the VR38 and GR6"
+  ]
+}

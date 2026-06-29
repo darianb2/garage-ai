@@ -1,0 +1,44 @@
+{
+  "name": "BMW M3 (E46)",
+  "engine": "3.2L naturally aspirated I6 (S54B32), 8,000 rpm redline",
+  "horsepower": 333,
+  "torque": "262 lb-ft",
+  "drivetrain": "RWD",
+  "transmission": "6-speed manual (Getrag 420G) / 6-speed SMG II automated manual",
+  "0_to_60": "~4.8 sec",
+  "fuel_economy": "16 city / 23 hwy mpg",
+  "curb_weight": "~3,415 lbs",
+  "reliability": "7/10 - the S54 is one of the all-time-great naturally aspirated inline-sixes and the chassis is fundamentally sound, but two known failures define ownership: rod bearings and rear subframe cracking. Address those and an E46 M3 is dependable; ignore them and it bites.",
+  "cost_to_own": "Insurance: High (appreciating modern classic) · Maintenance ~$1,500/yr - budget for a preventive rod-bearing job and a subframe inspection on top of routine service.",
+  "popular_mods": [
+    "Headers + tune - the classic NA wake-up for the S54",
+    "Preventive rod-bearing replacement (do it before chasing power)",
+    "Coilovers, sway bars, and a big brake kit",
+    "Supercharger kit for a big jump in power",
+    "Subframe reinforcement plates at the chassis mounts"
+  ],
+  "oil_type": "10W-60 full synthetic (BMW M-spec; the S54 requires it)",
+  "oil_interval": "Every 5,000-7,500 miles",
+  "generations": {
+    "E30 (1986-1991)": "The original M3. 2.3L S14 four-cylinder homologation special, built for touring-car racing.",
+    "E36 (1992-1999)": "3.0/3.2L inline-six. US cars got a detuned engine versus Europe; still a sweet-handling coupe.",
+    "E46 (2000-2006)": "This car. 3.2L S54 inline-six, 333 hp, 8,000 rpm redline - a high point of the breed. 6-speed manual or the clunky SMG. Watch rod bearings and rear subframe cracking.",
+    "E90/E92/E93 (2008-2013)": "4.0L S65 V8, 414 hp, 8,400 rpm - the only V8 M3. Rod bearings and throttle actuators are the weak spots.",
+    "F80 (2014-2018)": "3.0L S55 twin-turbo inline-six. First turbo M3; infamous crank-hub slip.",
+    "G80 (2021-present)": "3.0L S58 twin-turbo inline-six, up to 503 hp, optional xDrive AWD."
+  },
+  "common_issues": [
+    "Rod bearing wear (S54 factory clearances are tight) - preventive replacement is the accepted fix",
+    "Rear subframe mounting points crack where they meet the chassis",
+    "VANOS wear - rattle, rough idle, lost low-end response",
+    "SMG hydraulic pump and actuator failures on SMG cars",
+    "Aging plastic cooling-system parts (expansion tank, water pump)"
+  ],
+  "maintenance_tips": [
+    "Budget for a preventive rod-bearing replacement and inspect bearings for wear",
+    "Inspect the rear subframe mounts for cracks; reinforce if needed",
+    "Rebuild or refresh VANOS if you hear the telltale rattle",
+    "Use the specified 10W-60 and don't stretch oil intervals",
+    "Replace cooling-system components proactively before they strand you"
+  ]
+}
