@@ -1,0 +1,41 @@
+{
+  "name": "Toyota Supra Mk4 (A80)",
+  "engine": "3.0L twin-turbo I6 (2JZ-GTE, sequential turbos; NA cars use the 2JZ-GE)",
+  "horsepower": 320,
+  "torque": "315 lb-ft (US); JDM rated 276 hp under the gentleman's agreement",
+  "drivetrain": "RWD",
+  "transmission": "6-speed manual (Getrag V160) / 4-speed automatic",
+  "0_to_60": "~4.6 sec (turbo, 6-speed)",
+  "fuel_economy": "17 city / 23 hwy mpg (EPA, period)",
+  "curb_weight": "~3,400 lbs (turbo)",
+  "reliability": "9/10 - the 2JZ-GTE is one of the most overbuilt engines ever sold: closed-deck iron block and forged crank that shrug off 600-800 whp on stock internals once fueling and turbos are sorted. The car is robust; the real risks are age and abuse, not the engineering.",
+  "cost_to_own": "Insurance: collector/agreed-value territory · Mechanicals are stout but parts are increasingly scarce and pricey, and clean unmodified examples have appreciated hard (often $80k-$150k+).",
+  "popular_mods": [
+    "Boost + fueling (injectors, fuel pump, standalone ECU) - big gains on the stock 2JZ-GTE bottom end",
+    "Single-turbo conversion - the classic path past the sequential setup to 600+ whp",
+    "Forged internals only when chasing very high power; stock bottom end handles a lot first",
+    "Coilovers, sway bars, big brake kit to match the added power",
+    "Upgraded clutch/transmission to hold torque on built cars"
+  ],
+  "oil_type": "5W-30 full synthetic",
+  "oil_interval": "Every 3,000-5,000 miles",
+  "generations": {
+    "A40/A60 (1978-1986)": "Celica Supra - the inline-six GT origins of the nameplate.",
+    "A70 (1986-1993)": "First standalone Supra. Turbo 7M-GTE inline-six.",
+    "A80 (1993-2002)": "This car. Legendary 2JZ-GTE twin-turbo (320 hp US / 276 hp JDM), 1,000 hp+ capable on built fueling. US-market turbo sold 1993-1998; the NA 2JZ-GE made 220 hp. The car that built the Supra legend.",
+    "A90/A91 (2020-present)": "Revived after 17 years on BMW B58 power (335->382 hp). Co-developed with BMW, built by Magna Steyr."
+  },
+  "common_issues": [
+    "Targa-top seals harden with age - wind noise, rattles, and water leaks",
+    "Rust on neglected cars (rear hatch, wheel arches, battery tray)",
+    "Many were heavily modified and hard-driven - history and a compression/leakdown check matter more than the odometer",
+    "Aging factory electronics, gauges, and R12 air conditioning"
+  ],
+  "maintenance_tips": [
+    "Buy on documented condition and service history, not just mileage - so many were modified",
+    "Compression and leakdown test before purchase; the 2JZ is tough but abuse still shows",
+    "Stay on top of targa seals and treat any rust early",
+    "Don't over-boost the stock sequential turbos - upgrade fueling before chasing power",
+    "Use quality fluids on schedule; overbuilt doesn't mean maintenance-free"
+  ]
+}
