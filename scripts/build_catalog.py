@@ -62,6 +62,7 @@ CARS = [
     ("Mazda", "MX-5 Miata", 1994, "NA", "Roadster", "The roadster that saved roadsters"),
     ("Mazda", "MX-5 Miata", 2001, "NB", "Roadster", "Refined second-gen Miata"),
     ("Mazda", "MX-5 Miata", 2008, "NC", "Roadster", "Bigger, available PRHT"),
+    ("Mazda", "MX-5 Miata", 2016, "ND", "Roadster", "Back-to-basics lightweight Skyactiv roadster"),
     ("Mazdaspeed", "Mazdaspeed3", 2010, "BL", "Hatch", "Torque-steering turbo hatch"),
     ("Mazdaspeed", "Mazdaspeed6", 2006, "GG", "Sedan", "AWD turbo sport sedan"),
 
