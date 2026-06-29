@@ -68,10 +68,10 @@ export default function ThreeDView({ profile, vehicle }) {
           </div>
           <div className="mt-1 flex flex-wrap gap-4 text-sm text-zinc-300">
             <span>
-              <b className="text-amber-500">{sel.issueCount}</b> owner complaints
+              <b className="text-amber-500">{sel.issueCount}</b> owner complaint{sel.issueCount === 1 ? "" : "s"}
             </span>
             <span>
-              <b className="text-amber-500">{sel.recalls.length}</b> recalls
+              <b className="text-amber-500">{sel.recalls.length}</b> recall{sel.recalls.length === 1 ? "" : "s"}
             </span>
           </div>
           {sel.recalls.slice(0, 2).map((r, i) => (

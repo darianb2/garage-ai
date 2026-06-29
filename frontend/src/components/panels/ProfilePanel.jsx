@@ -54,10 +54,10 @@ function Reliability({ profile }) {
       <p className="text-lg font-semibold">{r.label}</p>
       <div className="mt-2 flex flex-wrap gap-4 text-sm text-zinc-300">
         <span>
-          <b className="text-amber-500">{r.recalls}</b> recalls
+          <b className="text-amber-500">{r.recalls}</b> recall{r.recalls === 1 ? "" : "s"}
         </span>
         <span>
-          <b className="text-amber-500">{r.complaints}</b> complaints
+          <b className="text-amber-500">{r.complaints}</b> complaint{r.complaints === 1 ? "" : "s"}
         </span>
         <span>
           <b className="text-amber-500">{r.serious}</b> crash/fire/injury
