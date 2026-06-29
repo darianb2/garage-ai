@@ -396,14 +396,48 @@ def api_recalls():
 # our hand-curated JSON specs when we happen to have that car. This is the first
 # route that follows the North Star: "build the car on demand" instead of
 # "look it up in our fixed list of 17."
-def _curated_for(make, model):
-    """Names of cars in our garage matching this make+model (best-effort).
+# Which curated spec file applies to which catalog generation. Each hand-curated
+# JSON in data/cars/ documents ONE specific generation — its top-level specs
+# (engine, hp, transmission) are that generation's. So a curated file may only be
+# shown for the years that generation covers. The old make+model-substring match
+# ignored the year and pasted, e.g., the A90 GR Supra's 382hp B58 specs onto the
+# 1997 A80 (2JZ-GTE) page, and even cross-matched "GT" -> the Ford GT supercar.
+#
+# Each entry: (make, model) -> list of (year_min, year_max, curated_name), matched
+# exactly (case-insensitive) against the catalog's own make/model/year. A car gets
+# curated specs only when its year falls in a bound generation's range; everything
+# else resolves to no specs, so the page shows live NHTSA data rather than another
+# generation's numbers. Add a binding here only when a curated file's specs are
+# verified for that exact generation. Generations we don't yet have specs for
+# (older M3s/Miatas/Civic Si, the Mk6 GTI, the Shelbys, the 2023 Z, ...) stay
+# unbound on purpose — see the Task 1 review list in notes/.
+CURATED_SPEC_BINDINGS = {
+    ("honda", "civic si"):     [(2022, 9999, "Honda Civic Si")],      # 11th-gen FE1
+    ("honda", "civic type r"): [(2023, 9999, "Honda Civic Type R")],  # FL5
+    ("toyota", "gr86"):        [(2022, 9999, "Toyota GR86")],         # 2nd-gen ZN8
+    ("toyota", "gr supra"):    [(2020, 9999, "Toyota GR Supra")],     # A90/A91
+    ("nissan", "370z"):        [(2009, 2020, "Nissan 370Z")],         # Z34
+    # MX-5 ND: 2016-18 (ND1) made 155hp; the curated file carries the 181hp ND2
+    # figure (2019+). Bound for the whole ND run but flagged for review.
+    ("mazda", "mx-5 miata"):   [(2016, 9999, "Mazda MX-5 Miata")],    # ND
+}
 
-    Until we add a commercial specs API, the hand-curated JSON is our spec
-    source. Match by substring so "Infiniti" + "Q50" finds all our Q50 trims.
+
+def _curated_for(make, model, year):
+    """Curated spec file name(s) whose generation matches this exact car.
+
+    Our hand-curated JSON documents one generation each, so we bind specs by
+    (make, model, year-range) via CURATED_SPEC_BINDINGS instead of a loose
+    make+model match. Returns [] when we have no curated specs for that
+    generation, so the profile falls back to live NHTSA data instead of showing
+    another generation's numbers.
     """
-    mk, md = make.lower(), model.lower()
-    return [name for name in cars if mk in name.lower() and md in name.lower()]
+    try:
+        y = int(str(year)[:4])
+    except (TypeError, ValueError):
+        return []
+    bindings = CURATED_SPEC_BINDINGS.get((make.strip().lower(), model.strip().lower()), [])
+    return [name for (lo, hi, name) in bindings if lo <= y <= hi and name in cars]
 
 
 @app.route("/catalog")
@@ -431,7 +465,7 @@ def api_profile():
     year = request.args.get("year", "").strip()
     if not (make and model and year):
         return jsonify({"error": "Enter make, model, and year."}), 400
-    matches = _curated_for(make, model)
+    matches = _curated_for(make, model, year)
     specs = cars[matches[0]] if matches else None
     try:
         profile = build_profile(make, model, year, specs=specs)
