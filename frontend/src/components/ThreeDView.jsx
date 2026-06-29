@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Viewer3D from "./Viewer3D";
 import { computeSystems } from "../lib/systems";
-import { modelFor, primarySlug } from "../lib/models";
+import { modelFor } from "../lib/models";
 import { Badge } from "./ui";
 
 // The 3D Model tab: the car (real glTF when we have one, else the procedural
@@ -12,24 +12,23 @@ export default function ThreeDView({ profile, vehicle }) {
   const systems = profile ? computeSystems(profile) : null;
   const sel = systems?.find((s) => s.key === selected) || null;
   const model = modelFor(vehicle);
-  const slug = primarySlug(vehicle);
 
   return (
     <div className="relative h-[70vh] overflow-hidden rounded-xl border border-zinc-800 bg-zinc-700">
       <Viewer3D systems={systems} selected={selected} onSelect={setSelected} model={model} />
 
-      {/* hints (top-left) */}
+      {/* hint (top-left). A real model needs no label; only call out the cases
+          where what's shown isn't the actual car. */}
       <div className="pointer-events-none absolute left-3 top-3 space-y-1 rounded-md bg-zinc-950/40 px-2 py-1 text-xs">
         <p className="text-zinc-500">
           {systems ? "Click a marker on the car to inspect a system" : "Loading data…"}
         </p>
-        <p className={model ? (model.demo ? "text-amber-400" : "text-emerald-400") : "text-zinc-600"}>
-          {model
-            ? model.demo
-              ? "demo model · generic stand-in, not the real car"
-              : "real 3D model"
-            : `placeholder car · add models/${slug || "<car>"}.glb`}
-        </p>
+        {model?.demo && (
+          <p className="text-amber-400">Demo model · generic stand-in, not the actual car</p>
+        )}
+        {!model && (
+          <p className="text-zinc-600">Stylized placeholder · no 3D model yet</p>
+        )}
       </div>
 
       {/* system list (top-right) */}
