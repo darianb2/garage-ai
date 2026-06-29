@@ -130,31 +130,42 @@ function Complaints({ profile }) {
   return (
     <Card className="p-5">
       <SectionTitle>Recent complaints</SectionTitle>
-      <div className="space-y-3">
-        {list.map((c, i) => {
-          const flags = [
-            c.crash && "crash",
-            c.fire && "fire",
-            c.injuries && `${c.injuries} injured`,
-          ].filter(Boolean);
-          return (
-            <div key={i} className="border-l-2 border-zinc-800 pl-3">
-              <div className="text-xs text-zinc-500">
-                {c.components || "Complaint"}
-                {flags.length > 0 && (
-                  <span className="ml-1 text-red-300">({flags.join(", ")})</span>
-                )}
-              </div>
-              {c.summary && <p className="mt-1 text-sm text-zinc-400">{c.summary}</p>}
-            </div>
-          );
-        })}
-      </div>
-      {profile.complaints_count > list.length && (
-        <p className="mt-3 text-xs text-zinc-600">
-          Showing {list.length} of {profile.complaints_count} on file.
+
+      {/* Garage AI's digest of the raw NHTSA narratives — the headline takeaway. */}
+      {profile.complaints_summary && (
+        <p className="mb-4 border-l-2 border-amber-500/70 pl-3 text-sm leading-relaxed text-zinc-300">
+          {profile.complaints_summary}
         </p>
       )}
+
+      {/* Raw owner narratives are long and numerous, so keep them opt-in. */}
+      <details className="group">
+        <summary className="cursor-pointer text-xs text-zinc-500 hover:text-amber-500">
+          Read individual reports
+          {profile.complaints_count > list.length &&
+            ` — ${list.length} of ${profile.complaints_count} on file`}
+        </summary>
+        <div className="mt-3 space-y-3">
+          {list.map((c, i) => {
+            const flags = [
+              c.crash && "crash",
+              c.fire && "fire",
+              c.injuries && `${c.injuries} injured`,
+            ].filter(Boolean);
+            return (
+              <div key={i} className="border-l-2 border-zinc-800 pl-3">
+                <div className="text-xs text-zinc-500">
+                  {c.components || "Complaint"}
+                  {flags.length > 0 && (
+                    <span className="ml-1 text-red-300">({flags.join(", ")})</span>
+                  )}
+                </div>
+                {c.summary && <p className="mt-1 text-sm text-zinc-400">{c.summary}</p>}
+              </div>
+            );
+          })}
+        </div>
+      </details>
     </Card>
   );
 }

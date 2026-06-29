@@ -128,6 +128,90 @@ def answer_question(name, car, question):
     )
     return "".join(block.text for block in message.content if block.type == "text")
 
+# --- complaint summariser ("Recent complaints" digest) ---------------------
+# NHTSA complaint summaries are raw owner narratives — up to ~2,400 characters
+# each, and there can be hundreds. Rather than dump a wall of them, we ask Claude
+# to read the live data and write one short, honest paragraph: what owners
+# actually report and how often. Grounded only in the data we already pulled, so
+# it can't invent issues. Summaries are cached per vehicle (complaints don't
+# change minute to minute), which keeps this to roughly one model call per car.
+SUMMARY_MAX_TOKENS = 512  # a few sentences of plain prose, nothing more
+
+SUMMARY_SYSTEM = (
+    "You are Garage AI. Using only the NHTSA complaint data below, write 2-4 "
+    "sentences of plain prose summarising what owners of this exact vehicle "
+    "actually report. Lead with the most common problems and roughly how often "
+    "they come up, then flag anything safety-critical (crashes, fires, injuries). "
+    "Be specific and honest: do not invent issues that aren't in the data, and "
+    "don't imply the car is dangerous when the reports are few or minor. No "
+    "markdown, no bullet points, no emoji.\n\nCOMPLAINT DATA:\n{facts}"
+)
+
+_summary_cache = {}  # (make, model, year) -> summary string (per worker, like the rate limiter)
+_summary_lock = threading.Lock()
+
+
+def _complaint_facts(profile):
+    """Flatten the complaint signal we already have into a plain-text block to
+    ground the model: total volume, the grouped top components (from the full
+    list), and a handful of real narratives for texture."""
+    lines = [f"Total complaints on file: {profile['complaints_count']}"]
+    issues = profile.get("common_issues") or []
+    if issues:
+        lines.append("Most-blamed components (by complaint volume):")
+        lines.extend(f"- {component}: {count}" for component, count in issues)
+    samples = profile.get("complaints") or []
+    if samples:
+        lines.append("\nSample owner narratives:")
+        for c in samples:
+            flags = [f for f in ("crash" if c.get("crash") else "",
+                                 "fire" if c.get("fire") else "",
+                                 f"{c['injuries']} injured" if c.get("injuries") else "") if f]
+            tag = f" [{', '.join(flags)}]" if flags else ""
+            text = (c.get("summary") or "").strip().replace("\n", " ")
+            lines.append(f"- ({c.get('components') or 'unknown'}){tag} {text[:280]}")
+    return "\n".join(lines)
+
+
+def _stub_summary(profile):
+    """Shown when no ANTHROPIC_API_KEY is set, so the UI works with no cost."""
+    issues = profile.get("common_issues") or []
+    if issues:
+        top = ", ".join(f"{component.lower()} ({count})" for component, count in issues[:3])
+        return (f"(Demo mode) Owners most often report problems with {top}. With an "
+                f"API key set, Garage AI reads the {profile['complaints_count']} "
+                "complaints on file and writes a short, honest summary here.")
+    return ("(Demo mode) With an API key set, Garage AI summarises the owner "
+            "complaints into a short, honest readout here.")
+
+
+def summarize_complaints(make, model, year, profile):
+    """One short paragraph digesting the live complaints, or None when there are
+    none. Cached per vehicle; falls back to a stub without an API key."""
+    if not profile.get("complaints"):
+        return None
+    key = (make.lower(), model.lower(), str(year))
+    with _summary_lock:
+        if key in _summary_cache:
+            return _summary_cache[key]
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        summary = _stub_summary(profile)
+    else:
+        import anthropic
+
+        client = anthropic.Anthropic()
+        message = client.messages.create(
+            model=ASK_MODEL,
+            max_tokens=SUMMARY_MAX_TOKENS,
+            system=SUMMARY_SYSTEM.format(facts=_complaint_facts(profile)),
+            messages=[{"role": "user",
+                       "content": f"Summarise the owner complaints for the {year} {make} {model}."}],
+        )
+        summary = "".join(b.text for b in message.content if b.type == "text").strip()
+    with _summary_lock:
+        _summary_cache[key] = summary
+    return summary
+
 # --- rate limiting for the Ask endpoint ------------------------------------
 # Once a real key is set, each /api/ask call costs money — and the app is on a
 # public URL, so anyone could spam it. Two cheap, in-memory guards (per worker;
@@ -357,6 +441,13 @@ def api_profile():
     # Tell the page which curated trims we have full detail pages for.
     profile["curated_trims"] = matches
     profile["specs_name"] = matches[0] if matches else None
+    # Digest the raw complaint narratives into one short readout. Best-effort:
+    # if the model call fails, the page still shows the recalls/complaints below.
+    try:
+        profile["complaints_summary"] = summarize_complaints(make, model, year, profile)
+    except Exception:
+        app.logger.exception("Complaint summary failed for %s %s %s", make, model, year)
+        profile["complaints_summary"] = None
     return jsonify(profile)
 
 
