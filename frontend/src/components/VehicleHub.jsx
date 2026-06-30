@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getProfile } from "../lib/api";
 import { Badge, Spinner } from "./ui";
+import CarImage from "./CarImage";
 import ThreeDView from "./ThreeDView";
 import ProfilePanel from "./panels/ProfilePanel";
 import BreakdownPanel from "./panels/BreakdownPanel";
@@ -39,7 +40,9 @@ export default function VehicleHub({ vehicle, onBack }) {
         ← All vehicles
       </button>
 
-      <div className="mt-3 flex flex-wrap items-baseline gap-3">
+      <CarImage vehicle={vehicle} variant="hero" className="mt-3" />
+
+      <div className="mt-4 flex flex-wrap items-baseline gap-3">
         <h1 className="text-3xl font-bold tracking-tight">{title}</h1>
         {vehicle.generation && <Badge tone="amber">{vehicle.generation}</Badge>}
         {vehicle.body && <Badge>{vehicle.body}</Badge>}

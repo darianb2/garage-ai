@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { getCatalog } from "../lib/api";
 import { Card, Spinner, SectionTitle } from "./ui";
+import CarImage from "./CarImage";
 
 // Models we collapse into a single expandable tile because we carry many
 // generations of them. Everything else stays one tile per generation.
@@ -151,6 +152,7 @@ export default function Landing({ onSelect }) {
                         className="text-left"
                       >
                         <Card className="h-full p-4 transition hover:-translate-y-0.5 hover:border-amber-500">
+                          <CarImage vehicle={t.car} variant="tile" className="mb-3" />
                           <div className="flex items-baseline justify-between gap-2">
                             <h2 className="font-semibold text-zinc-100">{t.car.model}</h2>
                             <span className="shrink-0 text-xs text-zinc-500">{t.car.body}</span>
@@ -188,6 +190,7 @@ function GroupTile({ group, open, onToggle, onSelect }) {
   return (
     <div className={open ? "sm:col-span-2 lg:col-span-3" : ""}>
       <Card className="h-full p-4 transition hover:border-amber-500">
+        <CarImage vehicle={items[0]} variant="tile" className="mb-3" />
         <button
           onClick={onToggle}
           className="flex w-full items-center justify-between gap-2 text-left"
