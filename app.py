@@ -11,6 +11,7 @@ Endpoints:
 """
 
 import os
+import re
 import threading
 import time
 from datetime import date, datetime, timezone
@@ -346,6 +347,195 @@ def api_ask(name):
                 return jsonify({"error": f"The assistant hit an error: {exc}"}), 502
             return jsonify({"answer": answer})
     return jsonify({"error": f"No car named '{name}'"}), 404
+
+
+# --- Homepage AI answer layer (Task 6) -------------------------------------
+# The homepage search bar accepts a QUESTION about a car ("is the Mk4 Supra
+# reliable?"), not just a model name. We identify which catalog car the question
+# is about, build that car's profile (the same data the Vehicle Hub shows), and
+# answer with ONE grounded Claude call; the frontend renders the answer on top of
+# that car's page. Grounded only in our curated specs + free NHTSA data, so it
+# explains our data instead of inventing facts — and when the data can't answer,
+# it says so (the trigger for Task 7's web-search tool, which is NOT built here).
+ANSWER_SYSTEM = (
+    "You are Garage AI, answering a visitor's question about ONE specific car shown "
+    "on its page. Answer using ONLY the verified data below - our curated specs plus "
+    "free NHTSA recall and complaint data. Be the honest, knowledgeable enthusiast "
+    "friend: direct, specific, and concise (a few short paragraphs or plain hyphen "
+    "bullets). If the data below does not cover what was asked, say so plainly and "
+    "point to what the data DOES show, rather than guessing or inventing facts. Do not "
+    "use markdown bold, headers, or emoji.\n\nVERIFIED DATA:\n{facts}"
+)
+
+
+def _profile_facts(profile):
+    """Flatten an assembled profile (curated specs + live NHTSA) into a plain-text
+    block to ground the answer - only what we actually have, so the model can't
+    speak past our data. The profile analogue of _car_facts()."""
+    lines = [f"Vehicle: {profile['year']} {profile['make']} {profile['model']}"]
+    specs = profile.get("specs")
+    if specs:
+        lines.append("\nCurated specs (from our garage):")
+        for key in ("engine", "horsepower", "torque", "drivetrain", "transmission",
+                    "0_to_60", "fuel_economy", "curb_weight", "reliability",
+                    "cost_to_own", "oil_type", "oil_interval"):
+            if specs.get(key):
+                lines.append(f"- {key.replace('_', ' ').title()}: {specs[key]}")
+        for key in ("generations", "common_issues", "maintenance_tips", "popular_mods"):
+            value = specs.get(key)
+            if not value:
+                continue
+            lines.append(f"\n{key.replace('_', ' ').title()}:")
+            items = value.values() if isinstance(value, dict) else value
+            lines.extend(f"- {item}" for item in items)
+    else:
+        lines.append("\n(No curated spec sheet for this exact car - answer from the "
+                     "NHTSA data below, and say specs aren't on file if asked for them.)")
+    rel = profile.get("reliability") or {}
+    lines.append(
+        f"\nNHTSA reliability signal: {rel.get('label', 'n/a')} - "
+        f"{rel.get('recalls', 0)} recalls, {rel.get('complaints', 0)} complaints, "
+        f"{rel.get('serious', 0)} involving a crash, fire, or injury. {rel.get('caveat', '')}"
+    )
+    recalls = profile.get("recalls") or []
+    if recalls:
+        lines.append(f"\nRecalls ({len(recalls)}):")
+        for r in recalls[:8]:
+            text = (r.get("summary") or "").strip().replace("\n", " ")
+            lines.append(f"- {r.get('component') or 'unknown'}: {text[:200]}")
+    issues = profile.get("common_issues") or []
+    if issues:
+        lines.append("\nMost-reported components (by complaint volume):")
+        lines.extend(f"- {component}: {count}" for component, count in issues)
+    samples = profile.get("complaints") or []
+    if samples:
+        lines.append("\nSample owner complaint narratives:")
+        for c in samples[:6]:
+            text = (c.get("summary") or "").strip().replace("\n", " ")
+            lines.append(f"- ({c.get('components') or 'unknown'}) {text[:280]}")
+    return "\n".join(lines)
+
+
+def _identify_vehicle(question):
+    """Best-guess the catalog car a free-text question is about, or None.
+
+    Scores every catalog entry by how well the question's words overlap its model,
+    generation/chassis code, and note. The model must appear for a car to be a
+    candidate (so we never resolve on the make alone); a generation token ("mk4",
+    "e46") or an explicit year then disambiguates between generations of the same
+    model. Ties go to the more specific (longer) model name. Returns None when
+    nothing matches, so the caller can ask the visitor to name a car rather than
+    answering about one we only guessed at.
+    """
+    squash = lambda s: re.sub(r"[^a-z0-9]+", "", (s or "").lower())
+    words = lambda s: [w for w in re.split(r"[^a-z0-9]+", (s or "").lower()) if len(w) >= 2]
+    q_words = set(words(question))
+    q_squash = squash(question)
+    q_year = re.search(r"\b(19|20)\d{2}\b", question)
+    best, best_key = None, (0, 0)
+    for entry in catalog:
+        model_sq = squash(entry["model"])
+        model_words = words(entry["model"])
+        distinctive = [w for w in model_words if len(w) >= 5]  # "miata", "supra"
+        # A single-word model that's a common English word ("F-Type" -> "type",
+        # "IS F" -> "is") would match far too much, so a one-word model only counts
+        # if it's distinctive or appears whole; multi-word models match on all words.
+        if model_sq and model_sq in q_squash:          # whole model, e.g. "gtr", "mx5miata"
+            score = 5
+        elif (len(model_words) >= 2 or (model_words and model_words[0] in distinctive)) \
+                and all(w in q_words for w in model_words):
+            score = 4
+        elif any(w in q_words for w in distinctive):    # a distinctive single word
+            score = 3
+        else:
+            continue
+        for w in words(entry["generation"]):  # chassis codes: a80, mk4, e46, fl5, nd
+            if w in q_words:
+                score += 3
+        for w in words(entry.get("note")):
+            if w in q_words:
+                score += 1
+        if q_year and str(entry["year"]) == q_year.group(0):
+            score += 4
+        key = (score, len(model_sq))  # ties -> the longer, more specific model wins
+        if key > best_key:
+            best, best_key = entry, key
+    return best
+
+
+def _answer_sources(profile):
+    """Which data backed the answer, for the 'Based on:' line shown under it."""
+    sources = []
+    if profile.get("specs"):
+        sources.append("Our curated specs")
+    if profile.get("recalls") or profile.get("complaints_count"):
+        sources.append("NHTSA recalls & complaints")
+    return sources
+
+
+def _stub_answer_for(vehicle, question):
+    """Returned when no ANTHROPIC_API_KEY is set, so the homepage works at no cost."""
+    name = f"{vehicle['year']} {vehicle['make']} {vehicle['model']}"
+    return (
+        f"(Demo mode) You asked about the {name}: “{question}”\n\n"
+        "With an Anthropic API key set, Garage AI reads this car's curated specs and "
+        "live NHTSA data and answers here - grounded in that data, never invented."
+    )
+
+
+def answer_about_vehicle(vehicle, profile, question):
+    """One grounded Claude answer about a specific car. Stub without an API key."""
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        return _stub_answer_for(vehicle, question)
+    import anthropic
+
+    client = anthropic.Anthropic()
+    message = client.messages.create(
+        model=ASK_MODEL,
+        max_tokens=ASK_MAX_TOKENS,
+        system=ANSWER_SYSTEM.format(facts=_profile_facts(profile)),
+        messages=[{"role": "user", "content": question}],
+    )
+    return "".join(block.text for block in message.content if block.type == "text").strip()
+
+
+@app.route("/api/answer", methods=["POST"])
+def api_answer():
+    question = (request.get_json(silent=True) or {}).get("question", "").strip()
+    if not question:
+        return jsonify({"error": "Ask a question first."}), 400
+    if len(question) > MAX_QUESTION_CHARS:
+        return jsonify({"error": "That question is a bit long - keep it under "
+                        f"{MAX_QUESTION_CHARS} characters."}), 400
+    vehicle = _identify_vehicle(question)
+    if not vehicle:
+        # No car to ground on -> ask for one instead of guessing (never fabricate).
+        return jsonify({
+            "vehicle": None,
+            "answer": "I answer questions about a specific car in the garage. Name the "
+                      "car and I'll dig in - for example “is the Mk4 Supra reliable?” "
+                      "or “what tends to break on the E46 M3?”",
+            "sources": [],
+            "question": question,
+        })
+    limited = rate_limit_error()  # only a real, answerable question spends the budget
+    if limited:
+        return jsonify({"error": limited}), 429
+    make, model, year = vehicle["make"], vehicle["model"], str(vehicle["year"])
+    matches = _curated_for(make, model, year)
+    specs = cars[matches[0]] if matches else None
+    try:
+        profile = build_profile(make, model, year, specs=specs)
+        answer = answer_about_vehicle(vehicle, profile, question)
+    except Exception as exc:  # surface a friendly message, log the detail
+        app.logger.exception("Answer failed for %s", vehicle)
+        return jsonify({"error": f"The assistant hit an error: {exc}"}), 502
+    return jsonify({
+        "vehicle": vehicle,
+        "answer": answer,
+        "sources": _answer_sources(profile),
+        "question": question,
+    })
 
 
 @app.route("/api/cars")

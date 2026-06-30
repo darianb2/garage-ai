@@ -14,8 +14,10 @@ const TABS = [
 
 // The Vehicle Hub: one car, three linked layers (profile / 3D / breakdown), all
 // fed by the data engine. `vehicle` carries { make, model, year, generation?,
-// body?, note? } from a catalog card or the free-form research form.
-export default function VehicleHub({ vehicle, onBack }) {
+// body?, note? } from a catalog card or the free-form research form. `answer`
+// (optional) is the homepage AI reply { answer, sources, question } that brought
+// the visitor here; when present it's shown on top of the car (Task 6).
+export default function VehicleHub({ vehicle, answer, onBack }) {
   const [tab, setTab] = useState("profile");
   const [profile, setProfile] = useState(null);
   const [error, setError] = useState(null);
@@ -39,6 +41,8 @@ export default function VehicleHub({ vehicle, onBack }) {
       <button onClick={onBack} className="text-sm text-zinc-400 hover:text-amber-400">
         ← All vehicles
       </button>
+
+      {answer && <AnswerCard data={answer} />}
 
       <CarImage vehicle={vehicle} variant="hero" className="mt-3" />
 
@@ -79,5 +83,26 @@ export default function VehicleHub({ vehicle, onBack }) {
         )}
       </div>
     </div>
+  );
+}
+
+// The homepage AI answer, shown on top of the car the question was about. Echoes
+// the question, the grounded answer (line breaks preserved), and a "Based on:"
+// source line so it's clear the answer comes from our data + NHTSA, not thin air.
+function AnswerCard({ data }) {
+  const { question, answer, sources } = data;
+  return (
+    <section className="mt-4 rounded-xl border border-amber-500/30 bg-amber-500/5 p-5">
+      <div className="text-xs font-semibold uppercase tracking-widest text-amber-500">
+        Garage AI
+      </div>
+      {question && <p className="mt-1 text-sm italic text-zinc-400">“{question}”</p>}
+      <div className="mt-3 whitespace-pre-line leading-relaxed text-zinc-100">{answer}</div>
+      {sources?.length > 0 && (
+        <p className="mt-4 border-t border-amber-500/10 pt-3 text-xs text-zinc-500">
+          Based on: {sources.join(" · ")}
+        </p>
+      )}
+    </section>
   );
 }
