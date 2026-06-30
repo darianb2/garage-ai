@@ -31,3 +31,19 @@ export async function askAnswer(question) {
   if (!res.ok || data.error) throw new Error(data.error || "The assistant hit an error.");
   return data;
 }
+
+// Compare two or three cars (Task 8). The side-by-side spec table is built
+// client-side from each car's profile; this returns only the OPTIONAL AI layer —
+// a short "key differences" readout grounded in the same curated specs + NHTSA
+// data. `vehicles` is an array of { make, model, year }. Resolves to
+// { summary, sources }.
+export async function compareCars(vehicles) {
+  const res = await fetch("/api/compare", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ vehicles }),
+  });
+  const data = await res.json();
+  if (!res.ok || data.error) throw new Error(data.error || "Could not compare these cars.");
+  return data;
+}

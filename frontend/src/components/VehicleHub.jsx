@@ -17,7 +17,7 @@ const TABS = [
 // body?, note? } from a catalog card or the free-form research form. `answer`
 // (optional) is the homepage AI reply { answer, sources, question } that brought
 // the visitor here; when present it's shown on top of the car (Task 6).
-export default function VehicleHub({ vehicle, answer, onBack }) {
+export default function VehicleHub({ vehicle, answer, onBack, onCompare, inCompare }) {
   const [tab, setTab] = useState("profile");
   const [profile, setProfile] = useState(null);
   const [error, setError] = useState(null);
@@ -50,6 +50,19 @@ export default function VehicleHub({ vehicle, answer, onBack }) {
         <h1 className="text-3xl font-bold tracking-tight">{title}</h1>
         {vehicle.generation && <Badge tone="amber">{vehicle.generation}</Badge>}
         {vehicle.body && <Badge>{vehicle.body}</Badge>}
+        {onCompare && (
+          <button
+            onClick={() => onCompare(vehicle)}
+            disabled={inCompare}
+            className={`ml-auto self-center rounded-lg border px-3 py-1.5 text-sm font-medium ${
+              inCompare
+                ? "cursor-default border-zinc-800 text-zinc-500"
+                : "border-amber-500/50 text-amber-400 hover:bg-amber-500 hover:text-zinc-900"
+            }`}
+          >
+            {inCompare ? "✓ In compare" : "+ Compare"}
+          </button>
+        )}
       </div>
       {vehicle.note && <p className="mt-1 text-zinc-400">{vehicle.note}</p>}
 

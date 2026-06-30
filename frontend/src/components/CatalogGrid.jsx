@@ -8,7 +8,7 @@ import CarImage from "./CarImage";
 // Civic Si, Corvette, Supra, ...) reads as a single entry instead of flooding
 // the grid. Lifted out of Landing (Task 6) so the homepage stays a bare search
 // bar and the grid can be reused by the Browse-all and results views.
-export default function CatalogGrid({ cars, onSelect }) {
+export default function CatalogGrid({ cars, onSelect, onCompare, inCompare }) {
   const [openGroup, setOpenGroup] = useState(null);
 
   // Turn the flat list into tiles: any model that appears more than once
@@ -77,21 +77,25 @@ export default function CatalogGrid({ cars, onSelect }) {
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {brand.tiles.map((t) =>
               t.type === "car" ? (
-                <button
+                <div
                   key={`${t.car.model}-${t.car.generation}-${t.car.year}`}
-                  onClick={() => onSelect(t.car)}
-                  className="text-left"
+                  className="relative"
                 >
-                  <Card className="h-full p-4 transition hover:-translate-y-0.5 hover:border-amber-500">
-                    <CarImage vehicle={t.car} variant="tile" className="mb-3" />
-                    <div className="flex items-baseline justify-between gap-2">
-                      <h2 className="font-semibold text-zinc-100">{t.car.model}</h2>
-                      <span className="shrink-0 text-xs text-zinc-500">{t.car.body}</span>
-                    </div>
-                    <p className="mt-0.5 text-sm text-amber-500/90">{t.car.generation}</p>
-                    <p className="mt-1 text-sm text-zinc-400">{t.car.note}</p>
-                  </Card>
-                </button>
+                  <button onClick={() => onSelect(t.car)} className="block w-full text-left">
+                    <Card className="h-full p-4 transition hover:-translate-y-0.5 hover:border-amber-500">
+                      <CarImage vehicle={t.car} variant="tile" className="mb-3" />
+                      <div className="flex items-baseline justify-between gap-2">
+                        <h2 className="font-semibold text-zinc-100">{t.car.model}</h2>
+                        <span className="shrink-0 text-xs text-zinc-500">{t.car.body}</span>
+                      </div>
+                      <p className="mt-0.5 text-sm text-amber-500/90">{t.car.generation}</p>
+                      <p className="mt-1 text-sm text-zinc-400">{t.car.note}</p>
+                    </Card>
+                  </button>
+                  {onCompare && (
+                    <CompareToggle car={t.car} onCompare={onCompare} inCompare={inCompare} />
+                  )}
+                </div>
               ) : (
                 <GroupTile
                   key={t.key}
@@ -99,6 +103,8 @@ export default function CatalogGrid({ cars, onSelect }) {
                   open={openGroup === t.key}
                   onToggle={() => setOpenGroup(openGroup === t.key ? null : t.key)}
                   onSelect={onSelect}
+                  onCompare={onCompare}
+                  inCompare={inCompare}
                 />
               ),
             )}
@@ -112,7 +118,7 @@ export default function CatalogGrid({ cars, onSelect }) {
 // A collapsed model tile that expands to list its generations. Collapsed, it
 // reads like a normal card; expanded, it spans the row and each generation is a
 // tappable card that opens that specific vehicle in the Hub.
-function GroupTile({ group, open, onToggle, onSelect }) {
+function GroupTile({ group, open, onToggle, onSelect, onCompare, inCompare }) {
   const { model, items } = group;
   const count = items.length;
   return (
@@ -146,11 +152,11 @@ function GroupTile({ group, open, onToggle, onSelect }) {
         {open && (
           <ul className="mt-3 grid gap-2 border-t border-zinc-800 pt-3 sm:grid-cols-2 lg:grid-cols-3">
             {items.map((g, j) => (
-              <li key={j}>
-                <button
-                  onClick={() => onSelect(g)}
-                  className="h-full w-full rounded-lg border border-zinc-800 p-3 text-left transition hover:-translate-y-0.5 hover:border-amber-500"
-                >
+              <li
+                key={j}
+                className="flex h-full flex-col rounded-lg border border-zinc-800 p-3 transition hover:border-amber-500"
+              >
+                <button onClick={() => onSelect(g)} className="block flex-1 text-left">
                   <div className="flex items-baseline justify-between gap-2">
                     <span className="text-sm font-medium text-amber-500/90">
                       {g.generation}
@@ -159,11 +165,46 @@ function GroupTile({ group, open, onToggle, onSelect }) {
                   </div>
                   <p className="mt-1 text-sm text-zinc-400">{g.note}</p>
                 </button>
+                {onCompare && (
+                  <button
+                    onClick={() => onCompare(g)}
+                    disabled={inCompare?.(g)}
+                    className={`mt-2 self-start text-xs font-medium ${
+                      inCompare?.(g)
+                        ? "cursor-default text-zinc-500"
+                        : "text-amber-400/80 hover:text-amber-300"
+                    }`}
+                  >
+                    {inCompare?.(g) ? "✓ In compare" : "+ Compare"}
+                  </button>
+                )}
               </li>
             ))}
           </ul>
         )}
       </Card>
     </div>
+  );
+}
+
+// The small "+ Compare" control overlaid on a car tile. Sits top-left (the 3D
+// badge owns the top-right) and stops the click from also opening the car.
+function CompareToggle({ car, onCompare, inCompare }) {
+  const active = inCompare?.(car);
+  return (
+    <button
+      onClick={(e) => {
+        e.stopPropagation();
+        onCompare(car);
+      }}
+      disabled={active}
+      className={`absolute left-2 top-2 z-10 rounded-md px-1.5 py-0.5 text-[10px] font-bold ${
+        active
+          ? "bg-zinc-700 text-zinc-200"
+          : "bg-zinc-950/80 text-amber-300 hover:bg-amber-500 hover:text-zinc-900"
+      }`}
+    >
+      {active ? "✓ Compare" : "+ Compare"}
+    </button>
   );
 }

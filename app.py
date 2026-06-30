@@ -582,6 +582,109 @@ def api_answer():
     })
 
 
+# --- Compare view (Task 8) -------------------------------------------------
+# Two or three cars, side by side. The frontend builds the aligned spec table
+# itself from each car's /api/profile data (fast and free), so this endpoint only
+# adds the OPTIONAL AI layer: a short, grounded readout of how the cars differ.
+# Grounded in exactly the same curated specs + NHTSA data each profile is built
+# from (via _profile_facts), so it can't compare on invented numbers. No web
+# search here — a comparison is about the cars we already hold.
+COMPARE_MAX_CARS = 3
+COMPARE_MAX_TOKENS = 700
+
+COMPARE_SYSTEM = (
+    "You are Garage AI, helping an enthusiast choose between the specific cars shown "
+    "side by side. Using ONLY the verified data for each car below, write a short, "
+    "honest comparison: lead with the single biggest difference, then how they differ "
+    "on performance, drivetrain feel, reliability and recalls, and running costs where "
+    "the data shows it. Finish with a one-line 'who each is for'. Be specific and "
+    "concise (a few short paragraphs or plain hyphen bullets). Do not invent numbers "
+    "the data doesn't give, and don't declare a winner the data doesn't support. Note "
+    "honestly when a car has no curated spec sheet on file. No markdown bold, headers, "
+    "or emoji.\n\nVERIFIED DATA:\n{facts}"
+)
+
+_compare_cache = {}  # frozenset of (make, model, year) -> summary (per worker)
+_compare_lock = threading.Lock()
+
+
+def _compare_facts(profiles):
+    """Each car's grounding block, labelled and separated, so the model lines the
+    cars up like for like."""
+    return "\n\n".join(
+        f"=== CAR {i + 1}: {p['year']} {p['make']} {p['model']} ===\n{_profile_facts(p)}"
+        for i, p in enumerate(profiles)
+    )
+
+
+def _stub_compare(profiles):
+    """Shown when no ANTHROPIC_API_KEY is set, so the compare view works at no cost."""
+    names = ", ".join(f"{p['year']} {p['make']} {p['model']}" for p in profiles)
+    return (
+        f"(Demo mode) Comparing {names}. With an Anthropic API key set, Garage AI reads "
+        "each car's curated specs and live NHTSA data and writes a short, honest "
+        "breakdown of the key differences here — grounded in that data, never invented."
+    )
+
+
+def compare_vehicles(profiles):
+    """A short grounded readout of how the compared cars differ. Cached by the set
+    of cars (order-independent); falls back to a stub without an API key."""
+    key = frozenset((p["make"].lower(), p["model"].lower(), str(p["year"])) for p in profiles)
+    with _compare_lock:
+        if key in _compare_cache:
+            return _compare_cache[key]
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        summary = _stub_compare(profiles)
+    else:
+        import anthropic
+
+        client = anthropic.Anthropic()
+        names = " vs. ".join(f"{p['year']} {p['make']} {p['model']}" for p in profiles)
+        message = client.messages.create(
+            model=ASK_MODEL,
+            max_tokens=COMPARE_MAX_TOKENS,
+            system=COMPARE_SYSTEM.format(facts=_compare_facts(profiles)),
+            messages=[{"role": "user", "content": f"Compare these cars: {names}."}],
+        )
+        summary = "".join(b.text for b in message.content if b.type == "text").strip()
+    with _compare_lock:
+        _compare_cache[key] = summary
+    return summary
+
+
+@app.route("/api/compare", methods=["POST"])
+def api_compare():
+    vehicles = (request.get_json(silent=True) or {}).get("vehicles") or []
+    picked = []
+    for v in vehicles[:COMPARE_MAX_CARS]:
+        make = str(v.get("make", "")).strip()
+        model = str(v.get("model", "")).strip()
+        year = str(v.get("year", "")).strip()
+        if make and model and year:
+            picked.append({"make": make, "model": model, "year": year})
+    if len(picked) < 2:
+        return jsonify({"error": "Pick at least two cars to compare."}), 400
+    limited = rate_limit_error()  # the AI summary is the only billed part
+    if limited:
+        return jsonify({"error": limited}), 429
+    try:
+        profiles = []
+        for v in picked:
+            matches = _curated_for(v["make"], v["model"], v["year"])
+            specs = cars[matches[0]] if matches else None
+            profiles.append(build_profile(v["make"], v["model"], v["year"], specs=specs))
+        summary = compare_vehicles(profiles)
+    except Exception as exc:  # surface a friendly message, log the detail
+        app.logger.exception("Compare failed for %s", picked)
+        return jsonify({"error": f"The assistant hit an error: {exc}"}), 502
+    sources = []
+    if any(p.get("specs") for p in profiles):
+        sources.append("Our curated specs")
+    sources.append("NHTSA recalls & complaints")
+    return jsonify({"summary": summary, "sources": sources})
+
+
 @app.route("/api/cars")
 def api_cars():
     return jsonify([summary(name) for name in cars])
