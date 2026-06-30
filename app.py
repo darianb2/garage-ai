@@ -349,23 +349,36 @@ def api_ask(name):
     return jsonify({"error": f"No car named '{name}'"}), 404
 
 
-# --- Homepage AI answer layer (Task 6) -------------------------------------
+# --- Homepage AI answer layer (Tasks 6 + 7) --------------------------------
 # The homepage search bar accepts a QUESTION about a car ("is the Mk4 Supra
 # reliable?"), not just a model name. We identify which catalog car the question
 # is about, build that car's profile (the same data the Vehicle Hub shows), and
-# answer with ONE grounded Claude call; the frontend renders the answer on top of
-# that car's page. Grounded only in our curated specs + free NHTSA data, so it
-# explains our data instead of inventing facts — and when the data can't answer,
-# it says so (the trigger for Task 7's web-search tool, which is NOT built here).
+# answer it. The answer is grounded first in our curated specs + free NHTSA data
+# (Tier 1, always in front of the model below); Task 7 adds a web search tool
+# (Tier 2) the model can reach for ONLY when our data can't answer. Trusted
+# sources win conflicts, and every answer reports which sources it used. The loop
+# is built so a paid car-data API later is just one more tools[] entry (Tier 3).
 ANSWER_SYSTEM = (
     "You are Garage AI, answering a visitor's question about ONE specific car shown "
-    "on its page. Answer using ONLY the verified data below - our curated specs plus "
-    "free NHTSA recall and complaint data. Be the honest, knowledgeable enthusiast "
-    "friend: direct, specific, and concise (a few short paragraphs or plain hyphen "
-    "bullets). If the data below does not cover what was asked, say so plainly and "
-    "point to what the data DOES show, rather than guessing or inventing facts. Do not "
-    "use markdown bold, headers, or emoji.\n\nVERIFIED DATA:\n{facts}"
+    "on its page. Be the honest, knowledgeable enthusiast friend: direct, specific, "
+    "and concise (a few short paragraphs or plain hyphen bullets).\n\n"
+    "Use your sources in this priority order:\n"
+    "1. The VERIFIED DATA below (our curated specs + free NHTSA recall/complaint "
+    "data). Always answer from this when it covers the question.\n"
+    "2. The web_search tool, ONLY for what the verified data does not cover (e.g. "
+    "pricing, road-test impressions, a specific TSB). Do not search for something "
+    "the data below already answers.\n"
+    "When sources disagree, trust the verified data over the open web - web results "
+    "can be wrong or low quality. If neither the data nor a search gives a confident "
+    "answer, say so plainly rather than guessing or inventing facts. Do not use "
+    "markdown bold, headers, or emoji.\n\nVERIFIED DATA:\n{facts}"
 )
+
+# Anthropic's server-side web search tool (Tier 2). Capped so one question can't
+# run up many billed searches; trusted-source preference lives in ANSWER_SYSTEM.
+WEB_SEARCH_TOOL = {"type": "web_search_20260209", "name": "web_search", "max_uses": 4}
+# Safety bound on pause_turn continuations (the server tool pausing mid-turn).
+MAX_ANSWER_TURNS = 6
 
 
 def _profile_facts(profile):
@@ -483,20 +496,48 @@ def _stub_answer_for(vehicle, question):
     )
 
 
+def _used_web_search(message):
+    """True if the model actually reached for web search this turn, so we can list
+    it as a source. web_search is server-side, so its use shows up as
+    server_tool_use / web_search_tool_result blocks in the response content."""
+    return any(
+        getattr(b, "type", None) in ("server_tool_use", "web_search_tool_result")
+        for b in message.content
+    )
+
+
 def answer_about_vehicle(vehicle, profile, question):
-    """One grounded Claude answer about a specific car. Stub without an API key."""
+    """Answer about a specific car, grounded first in our data + NHTSA and escalating
+    to a web search only for what that data can't cover (Task 7). Returns
+    (answer_text, used_web). Stub - no web, no cost - without an API key."""
     if not os.environ.get("ANTHROPIC_API_KEY"):
-        return _stub_answer_for(vehicle, question)
+        return _stub_answer_for(vehicle, question), False
     import anthropic
 
     client = anthropic.Anthropic()
-    message = client.messages.create(
-        model=ASK_MODEL,
-        max_tokens=ASK_MAX_TOKENS,
-        system=ANSWER_SYSTEM.format(facts=_profile_facts(profile)),
-        messages=[{"role": "user", "content": question}],
-    )
-    return "".join(block.text for block in message.content if block.type == "text").strip()
+    system = ANSWER_SYSTEM.format(facts=_profile_facts(profile))
+    messages = [{"role": "user", "content": question}]
+    used_web = False
+    # Tool-use loop. web_search is server-side, so the only continuation we handle
+    # is pause_turn (Anthropic ran a search and paused mid-turn) - re-send the
+    # accumulated turn to let it finish; no client-side tool to execute. A future
+    # client-side Tier-3 tool (paid car-data API) slots in here: add it to tools[],
+    # and on stop_reason == "tool_use" run it and append a tool_result before looping.
+    message = None
+    for _ in range(MAX_ANSWER_TURNS):
+        message = client.messages.create(
+            model=ASK_MODEL,
+            max_tokens=ASK_MAX_TOKENS,
+            system=system,
+            tools=[WEB_SEARCH_TOOL],
+            messages=messages,
+        )
+        used_web = used_web or _used_web_search(message)
+        if message.stop_reason != "pause_turn":
+            break
+        messages.append({"role": "assistant", "content": message.content})
+    answer = "".join(b.text for b in message.content if b.type == "text").strip()
+    return answer, used_web
 
 
 @app.route("/api/answer", methods=["POST"])
@@ -526,14 +567,17 @@ def api_answer():
     specs = cars[matches[0]] if matches else None
     try:
         profile = build_profile(make, model, year, specs=specs)
-        answer = answer_about_vehicle(vehicle, profile, question)
+        answer, used_web = answer_about_vehicle(vehicle, profile, question)
     except Exception as exc:  # surface a friendly message, log the detail
         app.logger.exception("Answer failed for %s", vehicle)
         return jsonify({"error": f"The assistant hit an error: {exc}"}), 502
+    sources = _answer_sources(profile)
+    if used_web:
+        sources.append("Web search")
     return jsonify({
         "vehicle": vehicle,
         "answer": answer,
-        "sources": _answer_sources(profile),
+        "sources": sources,
         "question": question,
     })
 
