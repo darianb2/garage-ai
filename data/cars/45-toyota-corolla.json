@@ -1,0 +1,41 @@
+{
+  "name": "Toyota Corolla",
+  "engine": "1.8L naturally-aspirated I4 (2ZR-FAE), 139 hp — 2.0L Dynamic Force I4 (M20A-FKS), 169 hp on SE/XSE — 1.8L hybrid, 121 hp combined",
+  "horsepower": 139,
+  "torque": "126 lb-ft (1.8L) · 151 lb-ft (2.0L) · 105 lb-ft (hybrid engine)",
+  "drivetrain": "FWD (the hybrid added available AWD for 2023)",
+  "transmission": "CVT (a Direct-Shift CVT with a physical launch gear on the 2.0L) · 6-speed manual offered on the 2.0L hatchback/SE · e-CVT on the hybrid",
+  "0_to_60": "~9.8 sec (1.8L) · ~8.0 sec (2.0L) · ~10.5 sec (hybrid)",
+  "fuel_economy": "30 city / 38 hwy mpg (1.8L LE) · 31 / 40 (2.0L SE) · 53 / 52 (hybrid LE)",
+  "curb_weight": "~2,910–3,150 lbs",
+  "reliability": "9/10 — the Corolla is a benchmark for cheap, no-drama dependability. The 1.8L and 2.0L are port/direct-injection fours with timing chains, and the CVT is one of the more durable in the class, so these routinely pass 200k miles on basic maintenance. It is not fast, but almost nothing goes wrong. The main documented item is the 2020 Denso low-pressure fuel-pump recall that swept many Toyotas — have it confirmed complete on an affected car.",
+  "cost_to_own": "Insurance: Low · Maintenance ~$350/yr (among the cheapest cars to keep) · Excellent fuel economy · Strong resale — the Corolla name sells itself on the used market",
+  "popular_mods": [
+    "A quality set of all-season or winter tires — the single best upgrade on a light FWD commuter",
+    "All-weather floor liners and a cargo tray",
+    "Apple CarPlay / Android Auto head unit on pre-2020 cars that lacked it",
+    "Mild appearance touches (wheels, window tint) — the enthusiast scene is small outside the GR Corolla",
+    "Honest take: the Corolla is about dependability and running costs, not speed — money is better spent on tires and maintenance than on chasing power"
+  ],
+  "oil_type": "0W-16 full synthetic (0W-20 acceptable on many trims — check the cap)",
+  "oil_interval": "Per the Maintenance Minder (~7,500–10,000 miles)",
+  "generations": {
+    "11th Gen E170 (2014–2019 US)": "The value-focused Corolla — 1.8L (132–140 hp), CVT or a 6-speed manual early on. Roomy back seat, very cheap to run, if a bit dull to drive.",
+    "12th Gen E210 (2020–present US)": "A big step up on the TNGA-C platform — sharper handling, a proper 2.0L Dynamic Force option (169 hp), a much better interior, and a genuinely efficient 1.8L hybrid. Sedan and hatchback body styles; Toyota Safety Sense standard.",
+    "Note": "The high-performance GR Corolla (three-cylinder turbo, AWD) is a separate enthusiast model, not part of the mainstream Corolla lineup covered here."
+  },
+  "common_issues": [
+    "2020 Denso low-pressure fuel-pump recall — industry-wide across many makes, not Corolla-specific; verify it is closed by VIN",
+    "The CVT droning under hard acceleration — efficient but not sporty; the 2.0L with the launch gear feels more natural",
+    "Modest power, especially with the 1.8L and a full car — this is a commuter, not a quick car",
+    "Road and wind noise on the highway, more so on the lighter/base trims",
+    "Early E210 infotainment could feel dated; later cars improved with wireless CarPlay/Android Auto"
+  ],
+  "maintenance_tips": [
+    "Keep up with the specified low-viscosity synthetic oil on the Maintenance Minder — this engine asks for little else",
+    "Service the CVT fluid with genuine Toyota CVT fluid around 60k miles despite 'lifetime' claims — it is cheap insurance for a long-lived transmission",
+    "Confirm the fuel-pump recall and any open recalls by VIN before buying",
+    "Otherwise it is cabin filters, brake fluid, and tires — parts are cheap and available everywhere",
+    "The hybrid's traction battery is long-lived; just keep the 12V battery healthy, as a weak one causes odd electrical gremlins"
+  ]
+}

@@ -1206,5 +1206,101 @@
     "generation": "3rd Gen",
     "body": "SUV",
     "note": "Roomy three-row family SUV on the durable J35 V6"
+  },
+  {
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2021,
+    "generation": "12th Gen (E210)",
+    "body": "Sedan",
+    "note": "The default dependable compact — cheap to run, nearly impossible to kill"
+  },
+  {
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2020,
+    "generation": "8th Gen (XV70)",
+    "body": "Sedan",
+    "note": "America's midsize benchmark — comfortable, efficient, bulletproof"
+  },
+  {
+    "make": "Toyota",
+    "model": "RAV4",
+    "year": 2021,
+    "generation": "5th Gen (XA50)",
+    "body": "SUV",
+    "note": "America's best-selling non-truck — practical, efficient, tough"
+  },
+  {
+    "make": "Toyota",
+    "model": "Highlander",
+    "year": 2021,
+    "generation": "4th Gen (XU70)",
+    "body": "SUV",
+    "note": "Roomy three-row family SUV on Toyota's proven V6/hybrid"
+  },
+  {
+    "make": "Toyota",
+    "model": "4Runner",
+    "year": 2021,
+    "generation": "5th Gen (N280)",
+    "body": "SUV",
+    "note": "Old-school body-on-frame SUV — thirsty but legendarily durable"
+  },
+  {
+    "make": "Toyota",
+    "model": "Tacoma",
+    "year": 2020,
+    "generation": "3rd Gen",
+    "body": "Truck",
+    "note": "The resale king of midsize trucks — durable and capable"
+  },
+  {
+    "make": "Toyota",
+    "model": "Sienna",
+    "year": 2021,
+    "generation": "4th Gen (XL40)",
+    "body": "Minivan",
+    "note": "The hybrid-only minivan — a ~36 mpg family hauler"
+  },
+  {
+    "make": "Toyota",
+    "model": "Prius",
+    "year": 2020,
+    "generation": "4th Gen (XW50)",
+    "body": "Hatch",
+    "note": "The hybrid that went mainstream — 50+ mpg and nearly bulletproof"
+  },
+  {
+    "make": "Toyota",
+    "model": "Avalon",
+    "year": 2020,
+    "generation": "5th Gen (XX50)",
+    "body": "Sedan",
+    "note": "A plush, quick full-size sedan — a stretched, quieter Camry V6"
+  },
+  {
+    "make": "Toyota",
+    "model": "Tundra",
+    "year": 2022,
+    "generation": "3rd Gen",
+    "body": "Truck",
+    "note": "Full-size truck reborn on twin-turbo V6 power"
+  },
+  {
+    "make": "Toyota",
+    "model": "Corolla Cross",
+    "year": 2022,
+    "generation": "1st Gen",
+    "body": "SUV",
+    "note": "A Corolla on stilts — an efficient, affordable subcompact SUV"
+  },
+  {
+    "make": "Toyota",
+    "model": "Yaris",
+    "year": 2019,
+    "generation": "Mazda2-based",
+    "body": "Sedan",
+    "note": "Cheap, durable subcompact — later US cars were rebadged Mazda2s"
   }
 ]

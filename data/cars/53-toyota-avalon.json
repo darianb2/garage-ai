@@ -1,0 +1,41 @@
+{
+  "name": "Toyota Avalon",
+  "engine": "3.5L naturally-aspirated V6 (2GR-FKS), 301 hp — 2.5L hybrid, 215 hp combined — (2021+ added a 2.5L I4 with AWD, 205 hp)",
+  "horsepower": 301,
+  "torque": "267 lb-ft (V6)",
+  "drivetrain": "FWD (V6 and hybrid) · available AWD on the 2.5L I4 (2021+)",
+  "transmission": "8-speed automatic (V6 and I4) · e-CVT (hybrid)",
+  "0_to_60": "~5.8 sec (V6) · ~7.5 sec (hybrid)",
+  "fuel_economy": "22 city / 32 hwy mpg (V6) · 43 / 44 (hybrid)",
+  "curb_weight": "~3,560–3,704 lbs",
+  "reliability": "9/10 — the fifth-gen Avalon is essentially a longer, plusher Camry, and it inherits the same excellent dependability. The 301 hp 2GR V6 is one of Toyota's most proven engines, the 8-speed automatic is well-sorted, and the hybrid system is long-lived and returns an easy 40+ mpg. The main documented item is the 2020 Denso low-pressure fuel-pump recall shared across many brands. It is a quiet, comfortable, quick full-size sedan that will run for a very long time.",
+  "cost_to_own": "Insurance: Average · Maintenance ~$450/yr · The V6 asks for a bit more fuel, while the hybrid is genuinely frugal for a big sedan · Resale is good, though full-size sedans depreciate more than Toyota's SUVs",
+  "popular_mods": [
+    "Quality all-season or winter tires — the biggest comfort and safety upgrade on a big FWD sedan",
+    "All-weather floor liners and tasteful wheels",
+    "Sound-deadening and OEM-plus dampers on higher-mileage cars for an even quieter ride",
+    "The factory TRD trim shows how far owners take the sportier look",
+    "Honest take: the Avalon is about quiet comfort and a strong V6 — money is best spent on tires and upkeep, not power"
+  ],
+  "oil_type": "0W-20 full synthetic (0W-16 on the hybrid four — check the cap)",
+  "oil_interval": "Per the Maintenance Minder (~7,500–10,000 miles)",
+  "generations": {
+    "4th Gen XX40 (2013–2018 US)": "The comfortable, understated Avalon — 3.5L V6 with a 6-speed automatic, plus a 2.5L four-cylinder hybrid. Roomy and durable, if anonymous.",
+    "5th Gen XX50 (2019–2022 US)": "A bolder, sportier-looking redesign on the TNGA-K platform — 301 hp V6, an efficient hybrid, available AWD (2021+ four-cylinder), and a genuinely plush, quiet cabin. The first Avalon with a TRD trim.",
+    "Discontinued after 2022": "Toyota retired the Avalon in the US after 2022; the rear-drive-based Crown effectively replaced it at the top of the sedan range."
+  },
+  "common_issues": [
+    "2020 Denso low-pressure fuel-pump recall — industry-wide; confirm it is closed by VIN",
+    "Big-sedan depreciation — full-size sedans lose value faster than Toyota's SUVs, which is actually good news for used buyers",
+    "More road noise on the sportier Touring/TRD trims with larger wheels",
+    "Infotainment on early XX50 cars felt dated; later years improved it",
+    "The V6 is thirstier than the four-cylinder rivals — the hybrid is the frugal choice"
+  ],
+  "maintenance_tips": [
+    "Keep up with the specified synthetic oil on the Maintenance Minder",
+    "Service the 8-speed automatic fluid on schedule despite 'lifetime' claims",
+    "Confirm the fuel-pump recall and any open recalls by VIN",
+    "On the hybrid, keep the traction-battery cooling intake clear and the 12V battery healthy",
+    "Budget for tires and brakes; otherwise this is low-maintenance Toyota V6 motoring"
+  ]
+}

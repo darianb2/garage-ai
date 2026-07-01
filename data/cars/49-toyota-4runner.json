@@ -1,0 +1,41 @@
+{
+  "name": "Toyota 4Runner",
+  "engine": "4.0L naturally-aspirated V6 (1GR-FE), 270 hp",
+  "horsepower": 270,
+  "torque": "278 lb-ft",
+  "drivetrain": "RWD or part-time 4WD (full-time 4WD with a locking center diff on Limited); available KDSS and a locking rear diff on TRD trims",
+  "transmission": "5-speed automatic",
+  "0_to_60": "~7.5 sec",
+  "fuel_economy": "16 city / 19 hwy mpg",
+  "curb_weight": "~4,400–4,805 lbs",
+  "reliability": "9/10 — the fifth-gen 4Runner is old-school body-on-frame engineering, and that is exactly why people love it. The 4.0L 1GR-FE V6 and the 5-speed automatic are ancient by modern standards but genuinely bulletproof, with very few chronic failures and a huge base of 200k–300k-mile trucks. The trade-offs are all about the dated platform: it is thirsty, the interior and tech are behind the times, and the 5-speed is down two or three ratios versus rivals. If you want durability and real off-road ability, few things hold up like it.",
+  "cost_to_own": "Insurance: Moderate · Maintenance ~$500/yr · Fuel economy is its weak point (~18 mpg real-world) · Class-leading resale — clean 4Runners are notoriously hard to buy used because owners keep them",
+  "popular_mods": [
+    "A dedicated set of all-terrain tires — the highest-impact upgrade for looks and capability",
+    "A mild lift (or just better shocks) to fit larger tires and improve travel",
+    "Skid plates, sliders, and a light bar for genuine off-road use",
+    "Roof rack, drawer/storage systems, and a fridge slide for overlanding",
+    "Honest take: the 4Runner is a durable off-roader, not a fast or efficient SUV — spend on tires, protection, and suspension, not power"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Per the Maintenance Minder (~5,000–7,500 miles; many owners run 5,000)",
+  "generations": {
+    "4th Gen N210 (2003–2009 US)": "The last 4Runner with an available V8 (4.7L) alongside the V6 — beloved and very durable, if getting old now.",
+    "5th Gen N280 (2010–2024 US)": "One of the longest production runs in the segment — 4.0L V6, 5-speed automatic, real 4WD hardware, and a reputation for outlasting almost everything. Dated on-road, superb off-road and for resale.",
+    "6th Gen (2025+ US)": "A ground-up redesign moving to a turbocharged four (including an i-FORCE MAX hybrid) and an 8-speed automatic — far more modern, but a clean fifth-gen is the proven used pick."
+  },
+  "common_issues": [
+    "Poor fuel economy and an aging 5-speed automatic — the price of the old-school platform, not a defect",
+    "Dated infotainment and interior versus newer rivals (improved slightly in the 2020 refresh)",
+    "A stiff, jittery unladen ride on some trims; the KDSS-equipped trucks ride and handle better",
+    "Body/frame surface rust in heavy road-salt regions — inspect the frame on Northern trucks",
+    "Some owners note the tailgate/rear-window mechanism and the small third-row option as quirks, not faults"
+  ],
+  "maintenance_tips": [
+    "Change the 0W-20 oil on time — the 1GR V6 is happiest on a shorter interval",
+    "Service the transfer case and differential fluids on schedule, especially if you actually go off-road or tow",
+    "Inspect and treat the frame for rust in salt-belt states — it is the main thing that ends these trucks",
+    "Keep the 5-speed automatic fluid fresh despite 'lifetime' claims",
+    "Confirm any open recalls by VIN, and check that off-road trucks have not been abused"
+  ]
+}

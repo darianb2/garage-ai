@@ -1,0 +1,41 @@
+{
+  "name": "Toyota Yaris",
+  "engine": "1.5L Skyactiv-G I4 (Mazda-built, 106 hp) on the 2016–2020 Mazda2-based US cars — earlier US Yaris used Toyota's own 1.5L (2NZ/1NR/2NR, ~106 hp)",
+  "horsepower": 106,
+  "torque": "103 lb-ft",
+  "drivetrain": "FWD",
+  "transmission": "6-speed manual or 6-speed automatic (Mazda2-based cars) · earlier cars used a 5-speed manual or 4-speed automatic",
+  "0_to_60": "~9.0 sec",
+  "fuel_economy": "32 city / 40 hwy mpg (2019–2020 automatic)",
+  "curb_weight": "~2,385–2,600 lbs",
+  "reliability": "8/10 — the Yaris is a simple, cheap-to-run subcompact with a well-earned dependable reputation, and it is genuinely inexpensive to own. Note the twist for US buyers: the 2016–2020 Yaris sedan (and 2019–2020 hatchback) is actually a rebadged Mazda2, built by Mazda with Mazda's 1.5L Skyactiv engine and a proper 6-speed automatic — a good thing, as it drives better than the old car. Earlier US Yaris models were Toyota-built. Either way it is basic, durable transportation; Toyota discontinued it in the US after 2020.",
+  "cost_to_own": "Insurance: Low · Maintenance ~$350/yr (about as cheap as cars get) · Excellent fuel economy · Resale is modest in absolute dollars but the running costs are the lowest around",
+  "popular_mods": [
+    "Quality all-season or winter tires — the highest-value upgrade on any light economy car",
+    "All-weather floor liners and simple interior touches",
+    "A better head unit / speakers on base cars that came sparsely equipped",
+    "For the Mazda2-based cars, the small enthusiast scene borrows lightly from the Mazda2 parts bin",
+    "Honest take: the Yaris is about minimal running costs, not performance — spend on tires and basic upkeep and enjoy how cheap it is to own"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Every ~7,500 miles (per the maintenance schedule)",
+  "generations": {
+    "XP130 (2012–2018 US hatchback)": "The Toyota-built Yaris hatchback — 1.5L, 5-speed manual or 4-speed automatic. Basic and durable, if dated in tech and refinement.",
+    "Mazda2-based sedan (2016–2020 US)": "Sold first as the Scion iA, then the Yaris iA, then simply the Yaris sedan — actually a rebadged Mazda2 with Mazda's 1.5L Skyactiv engine and a 6-speed automatic. Better to drive than the Toyota-built car.",
+    "Mazda2-based hatchback (2019–2020 US)": "The hatchback also switched to the Mazda2 underneath for its final two years. Toyota then dropped the Yaris from the US lineup after 2020."
+  },
+  "common_issues": [
+    "Modest power and a basic feel — it is an economy car and does not hide it",
+    "Road and wind noise on the highway, as with any light subcompact",
+    "Sparse equipment on base trims (especially the older Toyota-built cars)",
+    "US availability ended after 2020, so parts/service are straightforward but it is an older platform now",
+    "Confirm any open recalls (including the older Takata airbag campaigns on early cars) are closed by VIN"
+  ],
+  "maintenance_tips": [
+    "Keep up with the specified synthetic oil — these engines ask for very little",
+    "On the Mazda2-based cars, service the 6-speed automatic fluid on schedule for a long life",
+    "Check the Takata airbag and any open recalls by VIN on older examples — free and important",
+    "Otherwise it is cabin filters, brake fluid, and tires; parts are cheap and everywhere",
+    "The manual's clutch is light and long-lived; just keep the hydraulic fluid fresh"
+  ]
+}

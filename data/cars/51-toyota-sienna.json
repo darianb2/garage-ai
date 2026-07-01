@@ -1,0 +1,41 @@
+{
+  "name": "Toyota Sienna",
+  "engine": "2.5L Atkinson-cycle I4 hybrid (A25A-FXS) paired with electric motors, 245 hp combined",
+  "horsepower": 245,
+  "torque": "176 lb-ft (engine); the hybrid system's electric assist fills in low-end torque",
+  "drivetrain": "FWD or electronic AWD (a separate rear electric motor drives the rear axle)",
+  "transmission": "e-CVT (electronic continuously variable)",
+  "0_to_60": "~7.7 sec",
+  "fuel_economy": "36 city / 36 hwy mpg (FWD) · 35 / 36 (AWD)",
+  "curb_weight": "~4,610–4,725 lbs",
+  "reliability": "8/10 — the fourth-gen Sienna made a bold move to hybrid-only power, and it pairs Toyota's very proven hybrid system with minivan practicality to deliver around 36 mpg, which is transformative for a vehicle this size. The powertrain is dependable and the fuel savings are real. The main complaints are that the four-cylinder can sound strained and buzzy under hard acceleration (there is no V6 anymore), and some owners wanted more outright passing punch. As a durable, efficient family hauler, it is hard to beat.",
+  "cost_to_own": "Insurance: Moderate · Maintenance ~$500/yr · Excellent fuel economy for a minivan (~35 mpg real-world) makes it cheap to run · Strong resale — efficient three-row Toyotas hold value well",
+  "popular_mods": [
+    "All-weather floor liners and a full-length cargo liner — non-negotiable for family and road-trip duty",
+    "Sunshades, seat-back organizers, and a trash/console setup for kid duty",
+    "Roof crossbars plus a cargo box for luggage on trips",
+    "A second set of winter tires for the AWD in cold climates",
+    "Honest take: the Sienna is about space and efficiency, not speed — money is best spent on protection, tires, and family-friendly accessories"
+  ],
+  "oil_type": "0W-16 full synthetic",
+  "oil_interval": "Per the Maintenance Minder (~7,500–10,000 miles)",
+  "generations": {
+    "3rd Gen XL30 (2011–2020 US)": "The V6, available-AWD Sienna — 3.5L V6 with a 6- then 8-speed automatic, and the only minivan of its era offered with all-wheel drive. Roomy and durable.",
+    "4th Gen XL40 (2021–present US)": "A dramatic redesign that went hybrid-only — a 245 hp four-cylinder hybrid, e-CVT, available electronic AWD, and around 36 mpg. Clever storage (Super Long Slide second row) and available onboard amenities.",
+    "Note": "Because the fourth gen is hybrid-only, there is no V6 option after 2020 — the trade for the big jump in fuel economy."
+  },
+  "common_issues": [
+    "The 2.5L four sounds strained and buzzy under hard acceleration — the character trade for hybrid efficiency, not a fault",
+    "Some owners want more passing power than the hybrid four delivers when fully loaded",
+    "Early infotainment quirks and occasional software updates on the first (2021) model year",
+    "Brake feel from the regenerative system takes some getting used to",
+    "Confirm any open recalls by VIN, as with any recent vehicle"
+  ],
+  "maintenance_tips": [
+    "Keep up with the 0W-16 synthetic oil on the Maintenance Minder",
+    "Keep the traction-battery cooling intake (in the cabin) clear of debris, and keep the 12V battery healthy",
+    "Service brake fluid on schedule; regen means pads last a long time but fluid still needs changing",
+    "Rotate tires and budget for them given the vehicle's weight",
+    "Have any open recalls confirmed closed by VIN before buying"
+  ]
+}

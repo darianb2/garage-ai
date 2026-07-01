@@ -786,6 +786,19 @@ CURATED_SPEC_BINDINGS = {
     ("honda", "nsx"):     [(1991, 1996, "Honda NSX (NA1)")],        # NA1 (Acura NSX NA2 is a separate entry)
     ("honda", "prelude"): [(1997, 2001, "Honda Prelude (BB6)")],    # 5th gen H22A4
     ("honda", "crx"):     [(1988, 1991, "Honda CRX (EF)")],         # 2nd gen EF (US Si, D16A6)
+    # --- Mainstream mix — Toyota (Task 9, mainstream + economy curated coverage) ---
+    ("toyota", "corolla"):       [(2020, 9999, "Toyota Corolla")],       # 12th gen E210; the 1985 AE86 stays unbound (NHTSA-only)
+    ("toyota", "camry"):         [(2018, 2024, "Toyota Camry")],         # 8th gen XV70; 9th gen 2025+ (hybrid-only) unbound
+    ("toyota", "rav4"):          [(2019, 2025, "Toyota RAV4")],          # 5th gen XA50; 6th gen 2026+ unbound
+    ("toyota", "highlander"):    [(2020, 2022, "Toyota Highlander")],    # 4th gen XU70 V6 years; 2023+ 2.4T + XU50 unbound
+    ("toyota", "4runner"):       [(2010, 2024, "Toyota 4Runner")],       # 5th gen N280; 6th gen 2025+ unbound
+    ("toyota", "tacoma"):        [(2016, 2023, "Toyota Tacoma")],        # 3rd gen; 4th gen 2024+ + 2nd gen unbound
+    ("toyota", "sienna"):        [(2021, 9999, "Toyota Sienna")],        # 4th gen XL40 (hybrid-only); 3rd gen unbound
+    ("toyota", "prius"):         [(2016, 2022, "Toyota Prius")],         # 4th gen XW50; 5th gen 2023+ + 3rd gen unbound
+    ("toyota", "avalon"):        [(2019, 2022, "Toyota Avalon")],        # 5th gen XX50 (discontinued after 2022)
+    ("toyota", "tundra"):        [(2022, 9999, "Toyota Tundra")],        # 3rd gen twin-turbo; 2nd gen 5.7 V8 unbound
+    ("toyota", "corolla cross"): [(2022, 9999, "Toyota Corolla Cross")], # 1st gen
+    ("toyota", "yaris"):         [(2016, 2020, "Toyota Yaris")],         # Mazda2-based US cars; older Toyota-built unbound
 }
 
 

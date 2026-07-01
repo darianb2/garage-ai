@@ -1,0 +1,41 @@
+{
+  "name": "Toyota RAV4",
+  "engine": "2.5L naturally-aspirated I4 (A25A-FKS), 203 hp — 2.5L hybrid, 219 hp combined — RAV4 Prime plug-in hybrid, 302 hp combined",
+  "horsepower": 203,
+  "torque": "184 lb-ft (gas)",
+  "drivetrain": "FWD or AWD (the hybrid and Prime are AWD-standard via a separate rear electric motor)",
+  "transmission": "8-speed automatic (gas) · e-CVT (hybrid and Prime)",
+  "0_to_60": "~8.0 sec (gas) · ~7.4 sec (hybrid) · ~5.6 sec (Prime)",
+  "fuel_economy": "27 city / 35 hwy mpg (FWD gas) · 41 / 38 (hybrid) · 94 MPGe and ~38 mpg on gas (Prime)",
+  "curb_weight": "~3,370–3,690 lbs",
+  "reliability": "8/10 — the XA50 RAV4 rides on Toyota's proven 2.5L Dynamic Force four and hybrid system and is broadly dependable, which is a big reason it is America's best-selling non-truck. The knocks are real but manageable: early 2019 cars drew complaints about the 8-speed automatic lurching or hesitating at low speed (addressed by a TSB), some hybrids had a fuel-tank-fill issue where the tank would not fill completely, and the 2020 Denso fuel-pump recall applies. A well-sorted one is a durable, efficient family SUV.",
+  "cost_to_own": "Insurance: Average · Maintenance ~$450/yr · Excellent resale — RAV4s hold value as well as anything in the segment · The hybrid's real-world ~38–40 mpg makes it the running-cost champ",
+  "popular_mods": [
+    "A second set of wheels with dedicated winter or all-terrain tires — the best foul-weather/light-trail upgrade for the AWD",
+    "All-weather floor liners and a cargo liner for family and dog duty",
+    "Roof crossbars plus a cargo box or bike rack",
+    "Mild lift and A/T tires on the TRD Off-Road for the light-overlanding crowd",
+    "Honest take: the RAV4 is a practical family SUV — money is better spent on good tires, protection, and the hybrid powertrain than on chasing power"
+  ],
+  "oil_type": "0W-16 full synthetic",
+  "oil_interval": "Per the Maintenance Minder (~7,500–10,000 miles)",
+  "generations": {
+    "4th Gen XA40 (2013–2018 US)": "The car-like, easygoing RAV4 — 2.5L four with a 6-speed automatic, and a first-generation hybrid from 2016. Comfortable and durable, if a bit soft and plain.",
+    "5th Gen XA50 (2019–2025 US)": "A more rugged, TNGA-based redesign — 203 hp 2.5L four with an 8-speed automatic, a strong 219 hp hybrid, and the quick 302 hp RAV4 Prime plug-in. TRD Off-Road and Adventure trims add mild capability.",
+    "6th Gen (2026+ US)": "The newest redesign leans further into hybrid and plug-in power; a clean XA50 remains the used-market value."
+  },
+  "common_issues": [
+    "Early 2019 8-speed automatic low-speed lurch/hesitation — a documented TSB item; test-drive at parking-lot speeds",
+    "Some 2019–2020 hybrids had a fuel-tank-fill problem (tank would not fill fully) addressed under warranty/TSB",
+    "2020 Denso low-pressure fuel-pump recall — industry-wide; confirm it is closed by VIN",
+    "More road noise than a luxury crossover, and a firmer ride on the bigger-wheeled trims",
+    "Infotainment on early XA50 cars felt dated; later years improved it"
+  ],
+  "maintenance_tips": [
+    "Keep up with the 0W-16 synthetic oil on the Maintenance Minder",
+    "Service the 8-speed automatic fluid on schedule — it dislikes long neglect",
+    "Confirm the fuel-pump recall and any open recalls by VIN before buying",
+    "On the hybrid, keep the traction-battery cooling intake clear and the 12V battery healthy",
+    "Rotate tires and budget for brakes on schedule; otherwise upkeep is routine Toyota"
+  ]
+}

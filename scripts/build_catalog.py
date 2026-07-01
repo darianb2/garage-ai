@@ -202,6 +202,20 @@ CARS = [
     ("Honda", "Insight", 2019, "3rd Gen (ZE4)", "Sedan", "Stealth hybrid Civic — 52 mpg without looking like an eco-box"),
     ("Honda", "Odyssey", 2018, "5th Gen (RL6)", "Minivan", "The enthusiast's minivan — quick J35 V6, Magic Slide seats"),
     ("Honda", "Pilot", 2019, "3rd Gen", "SUV", "Roomy three-row family SUV on the durable J35 V6"),
+
+    # --- Mainstream mix — Toyota (Task 9: mainstream + economy curated coverage) ---
+    ("Toyota", "Corolla", 2021, "12th Gen (E210)", "Sedan", "The default dependable compact — cheap to run, nearly impossible to kill"),
+    ("Toyota", "Camry", 2020, "8th Gen (XV70)", "Sedan", "America's midsize benchmark — comfortable, efficient, bulletproof"),
+    ("Toyota", "RAV4", 2021, "5th Gen (XA50)", "SUV", "America's best-selling non-truck — practical, efficient, tough"),
+    ("Toyota", "Highlander", 2021, "4th Gen (XU70)", "SUV", "Roomy three-row family SUV on Toyota's proven V6/hybrid"),
+    ("Toyota", "4Runner", 2021, "5th Gen (N280)", "SUV", "Old-school body-on-frame SUV — thirsty but legendarily durable"),
+    ("Toyota", "Tacoma", 2020, "3rd Gen", "Truck", "The resale king of midsize trucks — durable and capable"),
+    ("Toyota", "Sienna", 2021, "4th Gen (XL40)", "Minivan", "The hybrid-only minivan — a ~36 mpg family hauler"),
+    ("Toyota", "Prius", 2020, "4th Gen (XW50)", "Hatch", "The hybrid that went mainstream — 50+ mpg and nearly bulletproof"),
+    ("Toyota", "Avalon", 2020, "5th Gen (XX50)", "Sedan", "A plush, quick full-size sedan — a stretched, quieter Camry V6"),
+    ("Toyota", "Tundra", 2022, "3rd Gen", "Truck", "Full-size truck reborn on twin-turbo V6 power"),
+    ("Toyota", "Corolla Cross", 2022, "1st Gen", "SUV", "A Corolla on stilts — an efficient, affordable subcompact SUV"),
+    ("Toyota", "Yaris", 2019, "Mazda2-based", "Sedan", "Cheap, durable subcompact — later US cars were rebadged Mazda2s"),
 ]
 
 

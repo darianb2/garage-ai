@@ -1,0 +1,41 @@
+{
+  "name": "Toyota Corolla Cross",
+  "engine": "2.0L Dynamic Force I4 (M20A-FKS), 169 hp — hybrid (2023+), 196 hp combined",
+  "horsepower": 169,
+  "torque": "150 lb-ft (2.0L)",
+  "drivetrain": "FWD or AWD (the hybrid is AWD-standard via a rear electric motor)",
+  "transmission": "CVT (Direct-Shift with a launch gear) · e-CVT (hybrid)",
+  "0_to_60": "~9.2 sec (gas) · ~8.0 sec (hybrid)",
+  "fuel_economy": "31 city / 33 hwy mpg (FWD gas) · 29 / 32 (AWD gas) · 45 / 38 (hybrid)",
+  "curb_weight": "~3,150–3,470 lbs",
+  "reliability": "8/10 — the Corolla Cross is a tall, practical subcompact SUV built on the same dependable TNGA-C bones as the Corolla, so it inherits that car's easygoing durability. The 2.0L four and CVT are proven, and the hybrid adds both efficiency and welcome extra punch. It is a newer nameplate, so the long-term record is still young, but there is nothing unusual to watch for. The honest trade-offs are that the gas model is leisurely and there is more road noise than in pricier crossovers.",
+  "cost_to_own": "Insurance: Low · Maintenance ~$400/yr · Good fuel economy (the hybrid is excellent for an AWD SUV) · Strong resale — it carries the Corolla name and Toyota's crossover demand",
+  "popular_mods": [
+    "All-weather floor liners and a cargo liner — it is a small SUV that gets used like one",
+    "Roof crossbars plus a cargo box or bike rack to stretch the modest cargo hold",
+    "A second set of winter tires for the AWD in cold climates",
+    "Mild appearance touches (wheels, tint) — practicality, not performance, is the point",
+    "Honest take: the Corolla Cross is about efficient, affordable practicality — the hybrid is the one to get; money is better spent on tires and protection than on power"
+  ],
+  "oil_type": "0W-16 full synthetic",
+  "oil_interval": "Per the Maintenance Minder (~7,500–10,000 miles)",
+  "generations": {
+    "1st Gen (2022–present US)": "Toyota slotted a tall, roomy crossover between the Corolla and the RAV4 — 169 hp 2.0L with a CVT and available AWD, joined for 2023 by a 196 hp hybrid (AWD-standard) that is both quicker and more efficient. Standard Toyota Safety Sense.",
+    "Note": "The gas front-driver is the budget pick; the hybrid AWD is the sweet spot, adding real-world efficiency and noticeably better acceleration.",
+    "Positioning": "Think of it as a Corolla on stilts — more space and a higher seating position than the sedan, without stepping up to the RAV4's size and price."
+  },
+  "common_issues": [
+    "Leisurely acceleration with the gas 2.0L, especially fully loaded — the hybrid is noticeably quicker",
+    "More road and wind noise than more expensive crossovers",
+    "Modest cargo space versus a compact SUV like the RAV4 — it is a subcompact, and packs like one",
+    "The CVT drones under hard acceleration on the gas model",
+    "A newer nameplate, so verify any open recalls by VIN as with any recent vehicle"
+  ],
+  "maintenance_tips": [
+    "Keep up with the 0W-16 synthetic oil on the Maintenance Minder",
+    "Service the CVT fluid with genuine Toyota fluid around 60k miles despite 'lifetime' claims (gas model)",
+    "On the hybrid, keep the traction-battery cooling intake clear and the 12V battery healthy",
+    "Rotate tires and keep up with brake fluid; regen means pads last a long time on the hybrid",
+    "Confirm any open recalls by VIN before buying"
+  ]
+}

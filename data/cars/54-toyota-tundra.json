@@ -1,0 +1,41 @@
+{
+  "name": "Toyota Tundra",
+  "engine": "3.5L twin-turbo V6 (i-FORCE, V35A-FTS), 389 hp — i-FORCE MAX hybrid, 437 hp combined (the previous 2007–2021 generation used a 5.7L V8, 381 hp)",
+  "horsepower": 389,
+  "torque": "479 lb-ft (i-FORCE) · 583 lb-ft (i-FORCE MAX)",
+  "drivetrain": "RWD or part-time 4WD",
+  "transmission": "10-speed automatic",
+  "0_to_60": "~6.0 sec (i-FORCE) · ~5.7 sec (i-FORCE MAX)",
+  "fuel_economy": "18 city / 23 hwy mpg (i-FORCE 4x2) · 20 / 24 (i-FORCE MAX)",
+  "curb_weight": "~5,100–5,700 lbs",
+  "reliability": "7/10 — the third-gen Tundra is a huge leap in capability: a twin-turbo V6 that out-powers and out-tows the old 5.7L V8, a 10-speed automatic, and up to 12,000 lbs of towing. The catch is that it traded a legendarily bulletproof V8 for a brand-new, more complex engine, and Toyota issued a significant recall on some 2022–2023 trucks for machining debris in the V35A engine that could cause failure (affected engines were replaced). Well-sorted trucks have been fine, but the long-term record is younger and less proven than the old V8's. Have the engine recall confirmed complete and buy with records.",
+  "cost_to_own": "Insurance: Moderate–High (large truck) · Maintenance ~$600/yr · Fuel economy is competitive for a full-size but still truck-thirsty · Strong resale, in line with the Toyota truck reputation",
+  "popular_mods": [
+    "All-terrain tires and a leveling kit — the standard first upgrades",
+    "A tonneau cover and bed liner/bed rack for utility and overlanding",
+    "A weight-distributing hitch and brake controller for serious towing",
+    "Skid plates and recovery gear on the off-road-focused TRD Pro",
+    "Honest take: the twin-turbo V6 already makes strong power — money is better spent on towing gear, tires, and protection than on chasing more output from a new engine"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Per the Maintenance Minder (~5,000–7,500 miles; many owners run 5,000 on a turbo engine)",
+  "generations": {
+    "2nd Gen (2007–2021 US)": "The 5.7L 3UR-FE V8 Tundra — 381 hp, 6-speed automatic, and a near-legendary reputation for durability (many well past 300k miles). Thirsty and dated late in its run, but about as bulletproof as full-size trucks get.",
+    "3rd Gen (2022–present US)": "A ground-up TNGA-F redesign that dropped the V8 for a 389 hp twin-turbo V6 (or a 437 hp i-FORCE MAX hybrid), a 10-speed automatic, coil-spring rear suspension, and up to 12,000 lbs of towing. Far more capable and modern, but a newer, less-proven powertrain.",
+    "Note": "Some 2022–2023 trucks were recalled for potential engine failure from manufacturing debris — verify the recall is closed by VIN."
+  },
+  "common_issues": [
+    "2022–2023 V35A engine recall for machining debris that could cause engine failure — affected engines were replaced; confirm it is closed by VIN",
+    "A brand-new twin-turbo V6 with a shorter track record than the old 5.7L V8 it replaced",
+    "Truck-typical fuel economy despite the smaller-displacement engine, especially when towing",
+    "Some early-build interior/infotainment quirks on 2022 trucks",
+    "The move from the proven V8 to a turbo V6 is a character and long-term-confidence change for buyers used to the old truck"
+  ],
+  "maintenance_tips": [
+    "Confirm the 2022–2023 engine recall is closed by VIN before buying — this is the single most important check",
+    "Change the 0W-20 synthetic oil on a shorter interval given the turbo engine",
+    "Service the 10-speed automatic, transfer case, and differential fluids on schedule, especially if you tow",
+    "Use a proper weight-distributing hitch and brake controller when towing near the limit",
+    "Keep up with cooling-system service — turbo engines run hot, and clean coolant matters"
+  ]
+}

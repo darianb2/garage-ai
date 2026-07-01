@@ -1,0 +1,41 @@
+{
+  "name": "Toyota Tacoma",
+  "engine": "3.5L V6 (2GR-FKS), 278 hp — 2.7L naturally-aspirated I4 (2TR-FE), 159 hp base",
+  "horsepower": 278,
+  "torque": "265 lb-ft (V6) · 180 lb-ft (2.7L I4)",
+  "drivetrain": "RWD or part-time 4WD (available locking rear diff and Crawl Control on TRD Off-Road/Pro)",
+  "transmission": "6-speed automatic · 6-speed manual (available on V6 TRD Sport/Off-Road/Pro)",
+  "0_to_60": "~7.7 sec (V6) · ~9+ sec (2.7L I4)",
+  "fuel_economy": "18 city / 22 hwy mpg (V6 4x2) · 20 / 23 (2.7L I4 4x2)",
+  "curb_weight": "~3,980–4,480 lbs",
+  "reliability": "8/10 — the third-gen Tacoma has a genuinely durable drivetrain and the best resale value of any midsize truck, but it is not without gripes. The 3.5L V6 and 6-speed automatic hold up well, though the transmission can lug and 'hunt' at low rpm in the name of economy (many owners just drive it in a lower gear or ECT mode). The ride is trucky and bouncy on the rear leaf springs, and it uses rear drum brakes. Early 2016–2017 cars saw some rear-differential and driveline vibration complaints. Buy a well-kept one and it will run for a very long time.",
+  "cost_to_own": "Insurance: Moderate · Maintenance ~$500/yr · Fuel economy is only average for the class · Best-in-class resale — Tacomas are famously expensive to buy used because they hold value so well",
+  "popular_mods": [
+    "All-terrain tires and a mild lift/leveling kit — the classic first upgrades",
+    "Better rear suspension (add-a-leaf or aftermarket leaf pack) to settle the bouncy unladen ride",
+    "Skid plates, sliders, and a bed rack or camper setup for overlanding",
+    "A tune/exhaust does little on the naturally-aspirated V6 — spend on tires and suspension instead",
+    "Honest take: the Tacoma is bought for durability and resale, not speed — the manual V6 TRD is the enthusiast pick; everything else is about capability and protection"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Per the Maintenance Minder (~5,000–7,500 miles; many owners run 5,000)",
+  "generations": {
+    "2nd Gen (2005–2015 US)": "The truck that cemented the Tacoma's reputation — 2.7L four or a 4.0L V6, tough and simple. Frame-rust recalls affected some early trucks (Toyota bought many back).",
+    "3rd Gen (2016–2023 US)": "A more modern redesign — 3.5L V6 (278 hp) or 2.7L four, 6-speed automatic or manual, and serious TRD Off-Road/Pro hardware. Best resale in the class, if trucky to drive.",
+    "4th Gen (2024+ US)": "A ground-up redesign on the TNGA-F platform with turbocharged four-cylinder power (including an i-FORCE MAX hybrid) and an 8-speed automatic — much stronger and more modern; a clean third-gen is the proven value."
+  },
+  "common_issues": [
+    "6-speed automatic lugging/'hunting' at low rpm for economy — annoying but not a failure; ECT mode or manual shifting helps",
+    "Bouncy, firm rear leaf-spring ride when the bed is empty — the most common comfort complaint",
+    "Rear drum brakes and only-average fuel economy for the class",
+    "Some 2016–2017 driveline/rear-differential vibration and a leaky rear-diff pinion seal reported",
+    "Frame rust in heavy road-salt regions on older trucks — inspect the frame on Northern examples"
+  ],
+  "maintenance_tips": [
+    "Change the 0W-20 oil on time and keep the 6-speed automatic fluid fresh despite 'lifetime' claims",
+    "Service the transfer case and differential fluids on schedule, especially if you tow or wheel it",
+    "Inspect the frame and rear differential for rust and leaks, particularly in salt-belt states",
+    "Have any open recalls confirmed closed by VIN before buying",
+    "On the manual, do the clutch hydraulic fluid; the clutch itself is long-lived if not abused"
+  ]
+}

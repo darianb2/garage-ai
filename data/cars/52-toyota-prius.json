@@ -1,0 +1,41 @@
+{
+  "name": "Toyota Prius",
+  "engine": "1.8L Atkinson-cycle I4 hybrid (2ZR-FXE) paired with an electric motor, 121 hp combined",
+  "horsepower": 121,
+  "torque": "105 lb-ft (engine); electric assist fills in low-end torque",
+  "drivetrain": "FWD · available AWD-e (a rear electric motor, added for 2019)",
+  "transmission": "e-CVT (electronic continuously variable)",
+  "0_to_60": "~10.0 sec",
+  "fuel_economy": "54 city / 50 hwy mpg (LE/XLE) · up to 58 / 53 (Eco) · 51 / 47 (AWD-e)",
+  "curb_weight": "~3,010–3,375 lbs",
+  "reliability": "9/10 — the fourth-gen Prius is one of the most dependable cars Toyota has ever built, and its hybrid system regularly runs past 200k–300k miles with the original traction battery. It is genuinely cheap to run and own. Two things to know: the 12V auxiliary battery is the usual culprit behind weird no-start/electrical gremlins (an easy, inexpensive fix), and 2016–2018 cars can suffer EGR-cooler clogging that, if ignored, has been linked to coolant issues and head-gasket trouble — cleaning the EGR system is a known, manageable maintenance item. Keep up with it and the Prius is close to bulletproof.",
+  "cost_to_own": "Insurance: Low · Maintenance ~$400/yr · Class-leading fuel economy (~50+ mpg real-world) makes it one of the cheapest cars to drive · Solid resale, especially where fuel is expensive",
+  "popular_mods": [
+    "A quality set of low-rolling-resistance or all-season tires — tire choice noticeably affects both mpg and grip",
+    "All-weather floor liners and a cargo tray — the hatchback is surprisingly practical",
+    "Proactive EGR-system and intake cleaning on 2016–2018 cars as preventive maintenance",
+    "A fresh 12V battery at the first sign of odd electrical behavior",
+    "Honest take: the Prius is about efficiency and dependability, not speed — money is best spent on tires and preventive maintenance, not power"
+  ],
+  "oil_type": "0W-16 full synthetic (0W-20 acceptable — check the cap)",
+  "oil_interval": "Per the Maintenance Minder (~7,500–10,000 miles)",
+  "generations": {
+    "3rd Gen XW30 (2010–2015 US)": "The Prius that made hybrids mainstream — 1.8L hybrid, ~50 mpg, huge fleet and private numbers. Very durable; watch for the same EGR/head-gasket item and aging traction batteries on high-mileage cars.",
+    "4th Gen XW50 (2016–2022 US)": "A more efficient, better-driving redesign on the TNGA platform — up to ~56 mpg, available AWD-e from 2019, and a polarizing but aerodynamic shape. The dependability high point of the nameplate.",
+    "5th Gen XW60 (2023+ US)": "A genuinely striking redesign with a much stronger 2.0L hybrid (194 hp, or 196 hp AWD) and ~57 mpg — finally quick as well as frugal."
+  },
+  "common_issues": [
+    "12V auxiliary battery weakness causing no-starts and odd electrical gremlins — a cheap, common fix, not the expensive traction battery",
+    "2016–2018 EGR-cooler clogging linked to coolant intrusion and head-gasket problems if neglected — clean the EGR system preventively",
+    "Polarizing styling and a busy interior layout (center-mounted gauges) — a taste issue, not a fault",
+    "Modest acceleration and a droning engine under hard throttle — it is built for economy",
+    "Some owners report road noise and a firm ride on the Eco/low-rolling-resistance tires"
+  ],
+  "maintenance_tips": [
+    "Keep the 12V battery healthy and replace it proactively — it causes more Prius headaches than anything else",
+    "On 2016–2018 cars, have the EGR cooler and intake cleaned as preventive maintenance",
+    "Keep the traction-battery cooling intake (behind the rear seat) clear of dust and debris",
+    "Use the specified low-viscosity synthetic oil and keep up with brake fluid despite low pad wear",
+    "Confirm any open recalls by VIN, and budget for eventual traction-battery service only on very high-mileage cars"
+  ]
+}
