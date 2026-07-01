@@ -197,6 +197,11 @@ CARS = [
     ("Honda", "Accord", 2015, "9th Gen (CR)", "Sedan", "Earth Dreams efficiency; last of the V6"),
     ("Honda", "Accord", 2019, "10th Gen (CV)", "Sedan", "Turbo-four sport-sedan sharpness"),
     ("Honda", "Accord", 2023, "11th Gen (CY)", "Sedan", "Hybrid-led, refined commuter"),
+    ("Honda", "Fit", 2018, "3rd Gen (GK)", "Hatch", "Magic-Seat subcompact — huge space, tiny thirst, 200k-mile reputation"),
+    ("Honda", "HR-V", 2019, "1st Gen (RU)", "SUV", "A tall, practical Fit — sensible subcompact crossover"),
+    ("Honda", "Insight", 2019, "3rd Gen (ZE4)", "Sedan", "Stealth hybrid Civic — 52 mpg without looking like an eco-box"),
+    ("Honda", "Odyssey", 2018, "5th Gen (RL6)", "Minivan", "The enthusiast's minivan — quick J35 V6, Magic Slide seats"),
+    ("Honda", "Pilot", 2019, "3rd Gen", "SUV", "Roomy three-row family SUV on the durable J35 V6"),
 ]
 
 

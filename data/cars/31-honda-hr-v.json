@@ -1,0 +1,40 @@
+{
+  "name": "Honda HR-V",
+  "engine": "1.8L naturally-aspirated i-VTEC I4 (R18)",
+  "horsepower": 141,
+  "torque": "127 lb-ft",
+  "drivetrain": "FWD or Real Time AWD",
+  "transmission": "CVT (6-speed manual available on 2016–2018 FWD LX/EX)",
+  "0_to_60": "~9.5 sec",
+  "fuel_economy": "28 city / 34 hwy mpg (FWD) · 27 / 31 (AWD)",
+  "curb_weight": "~2,906–3,109 lbs (FWD / AWD)",
+  "reliability": "8/10 — the first-gen HR-V is essentially a taller, more practical Fit, and it inherits that car's durability. The 1.8L R18 is a proven, timing-chain Honda engine shared with a generation of Civics, and the CVT is dependable. Its raw NHTSA complaint count looks large mostly because the HR-V sells in huge numbers; the recurring themes are that it's slow and a little noisy, not that it breaks. Mechanically it's about as low-drama as a crossover gets.",
+  "cost_to_own": "Insurance: Low (small crossover, low-risk profile) · Maintenance ~$400/yr · Strong resale — the subcompact-SUV segment stays in demand, and the HR-V is the sensible pick in it",
+  "popular_mods": [
+    "All-weather floor liners + cargo tray — the Magic Seat carries over from the Fit, so use it",
+    "Roof crossbars + cargo box or bike rack (Yakima / Thule) for the weekend missions",
+    "A second set of wheels with dedicated winter tires — the single best upgrade for an AWD daily",
+    "Trailer hitch for a bike/cargo rack (light-duty only)",
+    "Honest take: the HR-V is a tall Fit built for practicality, not speed — spend on tires and maintenance, not power"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Per the Maintenance Minder (~7,500 miles)",
+  "generations": {
+    "1st Gen RU (2016–2022 US)": "Built on the Fit platform with the Magic Seat and the 1.8L R18 (141 hp). CVT across the range, with a 6-speed manual offered on early FWD trims (2016–2018). Roomy for its size, efficient, and genuinely easy to live with — the definition of a sensible first car or small family runabout.",
+    "2nd Gen RV (2023+ US)": "A ground-up redesign on the Civic platform — bigger, more grown-up, with a 2.0L (158 hp) and standard Honda Sensing. It rides and looks more mature, but loses the clever Magic Seat and is a bit thirstier and pricier, which makes a clean first-gen the value play used."
+  },
+  "common_issues": [
+    "Underpowered and vocal — the 1.8L and CVT drone under hard acceleration; merging and hills take planning",
+    "More road and wind noise than pricier rivals — a comfort gripe, not a mechanical one",
+    "Pre-refresh infotainment (2016–2018) was laggy and lacked a physical volume knob (added in the 2019 update)",
+    "A/C and fuel-system service items show up in the NHTSA data at volume-typical rates — check that open recalls are closed",
+    "Firm-ish ride on the larger wheels; the seats are fine but not plush on long trips"
+  ],
+  "maintenance_tips": [
+    "Change the 0W-20 oil on the Maintenance Minder — the R18 is one of the most bulletproof engines Honda makes",
+    "Service the CVT fluid with genuine Honda HCF-2 around 30–40k miles and it'll go the distance",
+    "It's a timing-chain engine (no belt), so there's no expensive timing service to budget for",
+    "Verify any open recalls by VIN before buying — the fixes are free at a dealer",
+    "Otherwise it's cabin filters, brakes, and tire rotations — cheap and simple to keep"
+  ]
+}

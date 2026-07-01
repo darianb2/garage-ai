@@ -1,0 +1,41 @@
+{
+  "name": "Honda Prelude (BB6)",
+  "engine": "2.2L H22A4 DOHC VTEC I4",
+  "horsepower": 200,
+  "torque": "156 lb-ft @ 5250",
+  "drivetrain": "FWD",
+  "transmission": "5-speed manual (4-speed SportShift automatic)",
+  "0_to_60": "~6.9 sec",
+  "fuel_economy": "22 city / 27 hwy mpg",
+  "curb_weight": "~3,042 lbs",
+  "reliability": "8/10 — the H22A4 is a strong, high-revving VTEC engine that thrives on maintenance and revs, and the fifth-gen Prelude is generally durable. Two things temper the score: the Type SH's ATTS (Active Torque Transfer System) front differential is clever but complex and expensive to fix if it fails, with parts increasingly scarce, and the 4-speed automatic is weaker and less rewarding than the 5-speed manual. Clean manual cars — especially the Type SH — are quietly becoming collectible.",
+  "cost_to_own": "Insurance: Moderate · Maintenance ~$450/yr · Values are rising for clean, unmodified fifth-gens (the Type SH most of all) · ATTS parts are the wildcard cost",
+  "popular_mods": [
+    "Intake + header + cat-back exhaust — the H22 responds well to breathing mods",
+    "Coilovers or quality lowering springs + sway bars to sharpen the front-heavy chassis",
+    "A short shifter and fresh bushings to tighten the drive",
+    "Summer performance tires for the front-drive grip it needs",
+    "Honest take: a clean, stock Type SH is increasingly a keeper — think twice before cutting into an original one"
+  ],
+  "oil_type": "5W-30 or 10W-30 full synthetic",
+  "oil_interval": "Every 5,000–7,500 miles",
+  "generations": {
+    "5th Gen BB6/BB8 (1997–2001)": "The final Prelude — sharp-edged styling, the 200 hp H22A4, and Honda's double-wishbone handling. Sold as a base/SH split in the US.",
+    "Type SH (Super Handling)": "Added ATTS, an electronically controlled front differential that shuffles torque to the outside wheel to fight understeer and sharpen turn-in — a genuinely advanced system for a late-90s FWD coupe.",
+    "Note": "Honda revived the Prelude nameplate as a hybrid coupe for the mid-2020s — a very different car from this H22-powered BB6."
+  },
+  "common_issues": [
+    "ATTS failure on the Type SH — complex, expensive, and hard to source parts for",
+    "The 4-speed automatic is the weak link — the manual is both more reliable and more fun",
+    "Distributor wear/leaks, typical of Honda distributor ignitions of the era",
+    "Timing belt is an interval service — a snapped belt bends valves on this interference engine",
+    "Rust on rear arches and subframes in salt climates"
+  ],
+  "maintenance_tips": [
+    "Do the timing belt + water pump on schedule (~90k/7 years) — it's an interference engine",
+    "On a Type SH, service the ATTS fluid and confirm the system actually works before buying",
+    "Rebuild or replace the distributor at the first sign of a leak or misfire",
+    "Use a quality 5W-30/10W-30 and let VTEC warm up before you lean on it",
+    "Favor a manual car with records — it's the more durable and more valuable choice"
+  ]
+}

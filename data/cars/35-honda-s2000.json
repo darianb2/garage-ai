@@ -1,0 +1,41 @@
+{
+  "name": "Honda S2000",
+  "engine": "2.0L F20C (AP1) / 2.2L F22C1 (AP2) DOHC VTEC I4",
+  "horsepower": 240,
+  "torque": "153 lb-ft @ 7500 (F20C) · 162 lb-ft @ 6500 (F22C)",
+  "drivetrain": "RWD",
+  "transmission": "6-speed manual",
+  "0_to_60": "~5.4 sec",
+  "fuel_economy": "20 city / 26 hwy mpg",
+  "curb_weight": "~2,800 lbs",
+  "reliability": "9/10 — the F20C/F22C is one of the most over-built four-cylinders ever put in a production car, and it will happily see its 9,000 rpm redline for years if you maintain it. Failures are almost always down to neglect or abuse, not design. The two real ownership notes are mechanical valve clearances that must actually be checked on schedule, and the AP1's famously snappy lift-off oversteer — a chassis trait to respect, not a fault. Clean, unmodified cars are appreciating fast.",
+  "cost_to_own": "Insurance: High (two-seat sports car) · Maintenance ~$500/yr · Values are climbing steadily — a well-kept S2000 is now an appreciating asset, so originality pays",
+  "popular_mods": [
+    "A factory or OEM-style hardtop — the biggest quality-of-life (and value) upgrade",
+    "Quality coilovers + an alignment — sharpens the chassis without ruining the ride",
+    "Header + cat-back exhaust to let the F-series sing to 9k",
+    "A supercharger kit for owners who want real power (the NA engine is happiest boosted, not high-compression turbo'd)",
+    "Honest take: the S2000 is near-perfect from the factory — the smartest 'mod' is a stock, rust-free, unmolested example"
+  ],
+  "oil_type": "10W-30 full synthetic",
+  "oil_interval": "Every 5,000–7,500 miles",
+  "generations": {
+    "AP1 (2000–2003)": "The purist's S2000 — 2.0L F20C making 240 hp at a screaming 8,300 rpm with a 9,000 rpm redline, and a peaky, high-strung character. Also the tail-happiest, thanks to a shorter wheelbase feel and that late-arriving power.",
+    "AP2 (2004–2009)": "The stroked 2.2L F22C1 trades ~1,000 rpm of redline (now ~8,200) for a fatter midrange that makes the car quicker point-to-point and easier to drive. Revised suspension geometry tamed the snap oversteer.",
+    "CR (2008–2009)": "The Club Racer — a stiffer, lighter, track-focused AP2 with a removable hardtop and available deletion of the soft top and A/C. The rarest and most collectible US S2000."
+  },
+  "common_issues": [
+    "Valve clearances need periodic inspection and adjustment — skip it and you'll eventually burn a valve",
+    "AP1 lift-off (snap) oversteer — a driving characteristic to learn, tamed on the AP2",
+    "Soft-top rear window and seams crack with age and sun — a hardtop or careful care helps",
+    "Clutch and differential wear on hard-driven or tracked cars",
+    "Rust on early cars in salt climates — check the frame rails and rear subframe"
+  ],
+  "maintenance_tips": [
+    "Actually check the valve clearances on schedule — this is the one service owners skip and regret",
+    "Use a quality 10W-30 and let the engine warm before chasing VTEC and the 9k redline",
+    "Care for the soft top (clean, treat, garage it) or fit a hardtop to preserve the interior",
+    "Inspect the differential and clutch on any car with a track history",
+    "Keep it original — matching numbers, stock parts, and clean paint are what the market pays for now"
+  ]
+}

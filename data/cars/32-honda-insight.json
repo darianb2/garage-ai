@@ -1,0 +1,40 @@
+{
+  "name": "Honda Insight",
+  "engine": "1.5L Atkinson-cycle I4 (107 hp) + two-motor hybrid system",
+  "horsepower": 151,
+  "torque": "197 lb-ft (electric motor)",
+  "drivetrain": "FWD",
+  "transmission": "e-CVT (Honda two-motor hybrid, single fixed drive)",
+  "0_to_60": "~7.7 sec",
+  "fuel_economy": "55 city / 49 hwy mpg (LX/EX) · 51 / 45 (Touring)",
+  "curb_weight": "~2,987–3,078 lbs",
+  "reliability": "9/10 — the third-gen Insight is a Civic underneath running Honda's proven two-motor hybrid system, the same architecture as the Accord and CR-V hybrids. There's no traditional transmission or belt to wear out, the gas engine mostly acts as a generator, and the high-voltage battery is well-proven and long-warrantied. Its NHTSA complaint count is low. The main things to know are shared Honda-era recalls (the Denso fuel pump campaign) rather than anything specific to the hybrid system.",
+  "cost_to_own": "Insurance: Low · Maintenance ~$400/yr (regen braking means pads and rotors last a long time) · Excellent fuel economy · Hybrid battery warranty 8yr/100k (10yr/150k in CARB states) · Quietly cheap to run",
+  "popular_mods": [
+    "All-weather floor liners — it's a premium commuter, keep the interior nice",
+    "A second set of wheels with winter tires — the best real-world upgrade for a FWD hybrid",
+    "Better wiper blades and a good cabin filter — small comfort wins on a car built for quiet miles",
+    "Honest take: the Insight is an efficiency and refinement play, not a mod platform — the smartest 'upgrade' is just driving it gently and banking the MPG"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Per the Maintenance Minder (~7,500 miles)",
+  "generations": {
+    "1st Gen ZE1 (2000–2006 US)": "The frugality icon — a lightweight aluminum two-seater with a 1.0L three-cylinder IMA hybrid (~70 hp) that returned up to ~70 mpg highway. Slow and spartan, but a genuine cult classic for hypermilers.",
+    "2nd Gen ZE2 (2010–2014 US)": "A five-door hatchback with a 1.3L IMA hybrid (~98 hp combined), pitched as a budget Prius rival. Practical and cheap, but the least loved Insight — noisier and less efficient than the Toyota.",
+    "3rd Gen ZE4 (2019–2022 US)": "The best Insight by far — a Civic-based sedan with the two-motor hybrid (151 hp combined) and ~52 mpg combined, styled and trimmed like a premium compact rather than an eco-appliance. Effectively a stealth hybrid Civic. Discontinued after 2022 as Honda folded the hybrid back into the Civic and Accord lineups."
+  },
+  "common_issues": [
+    "Denso low-pressure fuel pump recall — a widespread 2018–2020 Honda/Acura campaign; verify by VIN it's been done",
+    "12V (accessory) battery can drain if the car sits for long stretches — a common hybrid quirk, not a fault; a trickle charger fixes it",
+    "Road noise on the highway, firmer ride on the Touring's larger wheels — comfort notes, not defects",
+    "Trunk-only cargo (the battery lives behind the seat), so it's less versatile than a hatchback",
+    "Real-world MPG dips noticeably in cold weather — true of every hybrid, worth knowing before you buy"
+  ],
+  "maintenance_tips": [
+    "Change the 0W-20 oil on the Maintenance Minder — the Atkinson engine runs easy and lasts",
+    "Regenerative braking means the friction brakes barely wear — but still flush the brake fluid on schedule and exercise the calipers so they don't seize",
+    "If the car will sit for weeks, put the 12V battery on a maintainer — it prevents the most common no-start complaint",
+    "Confirm the Denso fuel pump recall and any other open campaigns by VIN before buying",
+    "There's no CVT belt or timing belt to service — this is a genuinely low-maintenance drivetrain"
+  ]
+}

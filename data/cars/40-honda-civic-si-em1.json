@@ -1,0 +1,40 @@
+{
+  "name": "Honda Civic Si (6th Gen EM1)",
+  "engine": "1.6L B16A2 DOHC VTEC I4",
+  "horsepower": 160,
+  "torque": "111 lb-ft @ 7000",
+  "drivetrain": "FWD",
+  "transmission": "5-speed manual",
+  "0_to_60": "~7.2 sec",
+  "fuel_economy": "26 city / 31 hwy mpg",
+  "curb_weight": "~2,612 lbs",
+  "reliability": "9/10 — the EM1's B16A2 is a legendary DOHC VTEC engine that thrives on revs (VTEC crossover around 5,600 rpm, screaming to an 8,000 rpm redline) and is famously durable when maintained and warmed up. This was also the last Si with front double-wishbone suspension, which is a big reason it's such a cult classic. The knocks are age-related — rust, tired clutches and synchros on hard-driven cars — rather than anything inherent. Prices for clean, original EM1s have climbed sharply.",
+  "cost_to_own": "Insurance: Moderate · Maintenance ~$400/yr · Clean, unmodified EM1 coupes command real money now — originality is the value driver",
+  "popular_mods": [
+    "Bolt-ons for the B16 — header, intake, exhaust, and a proper tune to feed the top end",
+    "Coilovers + sway bars to exploit the double-wishbone front end",
+    "A short shifter and fresh bushings to tighten the drive",
+    "Sticky summer tires — the light chassis rewards grip",
+    "Honest take: unmodified EM1s are increasingly collectible, so many owners now preserve rather than modify"
+  ],
+  "oil_type": "5W-30 or 10W-30 full synthetic",
+  "oil_interval": "Every 5,000–7,500 miles",
+  "generations": {
+    "6th Gen EM1 (1999–2000)": "The Si came back as a coupe with the 160 hp B16A2 — a high-revving 1.6 that defined the era. Only sold for two model years in the US, which is part of its cult status.",
+    "Note": "The last Civic Si with a front double-wishbone suspension — the following EP3 switched to MacPherson struts, so the EM1 is prized for its handling feel."
+  },
+  "common_issues": [
+    "Rust on rear arches, rockers, and floors in salt climates",
+    "Clutch and synchro wear on cars that lived at the 8,000 rpm redline",
+    "Distributor wear/leaks, typical of the era's Honda ignition",
+    "Timing belt is an interval service on this interference engine",
+    "Finding a clean, stock, unmodified example is the real challenge"
+  ],
+  "maintenance_tips": [
+    "Do the timing belt + water pump on schedule — a snapped belt bends valves",
+    "Warm the engine before chasing VTEC and the redline to protect the B16",
+    "Inspect the clutch and gearbox on any hard-driven car before buying",
+    "Address distributor leaks early to avoid misfires and no-starts",
+    "Keep it original — matching, unmodified EM1s are what the market pays for"
+  ]
+}

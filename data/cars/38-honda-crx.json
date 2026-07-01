@@ -1,0 +1,42 @@
+{
+  "name": "Honda CRX (EF)",
+  "engine": "1.6L D16A6 SOHC 16v I4 (US Si, non-VTEC)",
+  "horsepower": 105,
+  "torque": "98 lb-ft",
+  "drivetrain": "FWD",
+  "transmission": "5-speed manual",
+  "0_to_60": "~8.2 sec",
+  "fuel_economy": "31 city / 36 hwy mpg (Si)",
+  "curb_weight": "~2,100 lbs",
+  "reliability": "9/10 for sheer durability — the D-series is about as robust and simple as engines get, and at ~2,100 lbs there's very little to stress. These will run essentially forever on basic maintenance. The real enemy is rust and age, not mechanical failure: clean, un-rotted examples are genuinely hard to find now. One myth to correct — the US-market Si is NOT VTEC (the B16-powered SiR was JDM/Euro only), which is exactly why it became the definitive lightweight VTEC-swap platform.",
+  "cost_to_own": "Insurance: Low · Maintenance ~$300/yr (cheap and simple) · Values are climbing for rust-free, unmodified examples — the CRX has become a bona fide collectible",
+  "popular_mods": [
+    "A VTEC engine swap (B16/B18 or a D-series VTEC) — the classic CRX build, since the US Si came non-VTEC",
+    "Coilovers or lowering springs + sway bars — the featherweight chassis loves suspension work",
+    "Header + exhaust + intake for the D16",
+    "Lightweight wheels with sticky tires — huge impact on such a light car",
+    "Honest take: a rust-free, stock Si is now worth preserving — swap a rougher shell and leave the clean ones alone"
+  ],
+  "oil_type": "5W-30 or 10W-30 full synthetic",
+  "oil_interval": "Every 5,000–7,500 miles",
+  "generations": {
+    "1st Gen (1984–1987)": "The original wedge-shaped economy sport hatch that started the CRX legend — simpler, lighter, and pure 80s.",
+    "2nd Gen EF (1988–1991)": "The definitive CRX — HF (economy, ~50 mpg), DX, and the Si (105 hp in 1988, 108 hp from 1990 with a revised cam). Two-seat, sub-2,200 lb, and endlessly tunable.",
+    "JDM/Euro SiR": "The version US buyers wish they got — the 1.6L B16A VTEC (~150 hp), which is why so many US cars end up with a VTEC swap.",
+    "Successor": "Replaced by the Civic del Sol (targa) for 1993 — a heavier, softer take on the idea."
+  },
+  "common_issues": [
+    "Rust — rockers, floors, hatch, and rear quarters; on a 35-year-old car this is the single biggest thing to inspect",
+    "Age-related electrical gremlins (grounds, connectors, gauges)",
+    "Worn suspension bushings and mounts that dull the light, tossable feel",
+    "Cracked dashboards and faded, brittle interior plastics from sun exposure",
+    "Many surviving cars are modified — finding an unmolested Si is the real challenge"
+  ],
+  "maintenance_tips": [
+    "Inspect for rust first and thoroughly — a rust-free shell is worth more than any mechanical spec",
+    "Keep up the timing belt interval and periodic valve-clearance checks on the D16",
+    "Refresh tired bushings and mounts to restore the classic CRX feel",
+    "Parts are cheap and plentiful — this is one of the most affordable classics to keep running",
+    "If it's a clean, stock Si, preserve its originality; build a rougher car instead"
+  ]
+}

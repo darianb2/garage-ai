@@ -1,0 +1,42 @@
+{
+  "name": "Honda Fit",
+  "engine": "1.5L naturally-aspirated i-VTEC I4 (L15B/LEB)",
+  "horsepower": 130,
+  "torque": "114 lb-ft (6MT) · 113 lb-ft (CVT)",
+  "drivetrain": "FWD",
+  "transmission": "6-speed manual or CVT (128 hp with the CVT)",
+  "0_to_60": "~8.5 sec (6MT) · ~9 sec (CVT)",
+  "fuel_economy": "29 city / 36 hwy mpg (6MT) · 33 / 40 (CVT)",
+  "curb_weight": "~2,522–2,648 lbs",
+  "reliability": "9/10 — the Fit is one of the most reliable small cars Honda ever built. The naturally-aspirated 1.5L has no turbo and a timing chain (no belt to change), so there's very little to go wrong; owners routinely take these past 200k miles on basic maintenance. Its NHTSA complaint count is modest and mostly comfort-related, not mechanical. The one thing to actually chase is the Takata airbag recall on older cars — free, and non-negotiable.",
+  "cost_to_own": "Insurance: Low · Maintenance ~$350/yr (cheapest Honda to keep) · Excellent fuel economy · Strong resale for a subcompact — the Fit holds value because everyone knows it lasts",
+  "popular_mods": [
+    "All-weather floor liners + a cargo tray — the Magic Seat makes the Fit a genuine little hauler, so protect it",
+    "Roof crossbars + bike/cargo rack (Yakima / Thule) — the Fit swallows more than cars twice its size",
+    "A second set of wheels with winter tires — the best money you can spend on a light FWD car",
+    "Mild suspension (lowering springs / sway bar) for the small but real enthusiast scene around the GK/GE",
+    "Honest take: the Fit's magic is packaging and efficiency, not power — money is better spent on good tires than on chasing horsepower it doesn't have"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Per the Maintenance Minder (~7,500 miles)",
+  "generations": {
+    "1st Gen GD (2007–2008 US)": "The original clever subcompact — 1.5L (L15A, 109 hp), 5-speed manual or 5-speed auto. Tiny footprint, surprising space, and the Magic Seat debut.",
+    "2nd Gen GE (2009–2013 US)": "More refined and a bit bigger; 1.5L (L15A7, 117 hp), 5MT or 5AT. The Sport trim added paddle shifters. Still famously durable.",
+    "3rd Gen GK (2015–2020 US)": "The roomiest and most efficient Fit — 1.5L direct-injection L15B (130 hp / 128 with CVT), 6-speed manual or CVT. Magic Seat perfected. Honda pulled the Fit from the US after 2020 and pointed shoppers at the HR-V.",
+    "Note": "There was no 2014 US model year between the 2nd and 3rd gens."
+  },
+  "common_issues": [
+    "Road and wind noise — it's a light, small car, and it sounds like one on the highway",
+    "Firm, thin seats that some owners find tiring on long trips — a genuine comfort gripe, not a fault",
+    "Takata airbag recall on 2015–2016 (and the earlier generations) — verify by VIN that it's been done, it's free",
+    "Early GK infotainment (2015–2017) was laggy and dropped the physical volume knob; Honda brought the knob back in the 2018 refresh",
+    "The CVT is efficient but drones under hard acceleration — the 6-speed manual is the enthusiast's pick"
+  ],
+  "maintenance_tips": [
+    "Keep up with 0W-20 oil on the Maintenance Minder — this engine asks for almost nothing else",
+    "Service the CVT fluid with genuine Honda HCF-2 around 30–40k miles — the CVT lasts when you actually service it",
+    "Check the Takata airbag and any open recalls by VIN before you buy an older one",
+    "Beyond that it's cabin filters, brake fluid, and tires — parts are cheap and everywhere",
+    "The manual's clutch is light and long-lived; just do the fluid and it'll outlast the car"
+  ]
+}

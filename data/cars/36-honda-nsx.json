@@ -1,0 +1,41 @@
+{
+  "name": "Honda NSX (NA1)",
+  "engine": "3.0L C30A DOHC VTEC V6 (mid-mounted)",
+  "horsepower": 270,
+  "torque": "210 lb-ft",
+  "drivetrain": "RWD (mid-engine)",
+  "transmission": "5-speed manual (4-speed automatic, 252 hp)",
+  "0_to_60": "~5.7 sec",
+  "fuel_economy": "17 city / 24 hwy mpg",
+  "curb_weight": "~3,020 lbs",
+  "reliability": "10/10 for a supercar — this is the car that proved an exotic could be as dependable as a Civic. The all-aluminum C30A is famously durable, and Honda engineered the NSX to be driven every day. The caveats are ownership costs, not fragility: the timing belt and water pump are a scheduled major service, some early manual gearboxes suffered a second-gear snap-ring failure, and aging electronics and climate parts need care. Values have gone stratospheric, so provenance and originality matter enormously.",
+  "cost_to_own": "Insurance: High (appreciating exotic) · Maintenance ~$1,500+/yr · Timing belt + water pump every ~7 years/90k is a four-figure job · Values are very high and still climbing — this is a blue-chip collector Honda",
+  "popular_mods": [
+    "Suspension refresh with OEM-spec or period-correct parts — bushings and dampers age",
+    "A tasteful exhaust to wake up the C30A (many owners keep it stock for value)",
+    "Refreshed wheels/tires in the correct sizes",
+    "Honest take: the NSX has crossed into collector territory — originality is worth far more than any modification, so preserve rather than personalize"
+  ],
+  "oil_type": "10W-30 full synthetic",
+  "oil_interval": "Every 5,000–7,500 miles",
+  "generations": {
+    "NA1 (1991–1996)": "The original — 3.0L C30A (270 hp with the 5-speed), pop-up headlights, and a Senna-honed aluminum chassis. The 4-speed automatic detuned it to 252 hp. The purest expression of the everyday-supercar idea.",
+    "NSX-T (1995+)": "A removable targa roof panel became the volume body style from 1995 on — slightly heavier but hugely popular in the US.",
+    "NA2 (1997–2005)": "Sold in the US as the Acura NSX — a larger 3.2L C32B (290 hp) with a 6-speed manual, and fixed headlights from 2002. See the Acura NSX (NA1/NA2 era) entry for that car.",
+    "NSX-R (JDM)": "The stripped, track-honed, Japan-only homologation special — the collector's grail."
+  },
+  "common_issues": [
+    "Timing belt + water pump is a scheduled, expensive major service — verify when it was last done",
+    "Second-gear snap-ring failure on some early (1991–1994) manual transmissions — a known, documented issue",
+    "Aging climate control, electronics, and rubber seals — typical of any 30-year-old exotic",
+    "Clutch wear on driven cars; the pop-up headlight motors can fail",
+    "Sun-faded interiors and cracked dashboards on unprotected cars"
+  ],
+  "maintenance_tips": [
+    "Do the timing belt and water pump on the time interval, not just mileage — this is non-negotiable",
+    "On early manuals, confirm whether the second-gear snap-ring update has been performed",
+    "Use quality 10W-30 and let the C30A warm up before revving",
+    "Buy on service history and originality — a documented, unmodified car is worth the premium",
+    "Store it well: sun and damp are the enemies of the interior and electronics"
+  ]
+}

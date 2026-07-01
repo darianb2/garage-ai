@@ -1,0 +1,40 @@
+{
+  "name": "Honda Civic Si (7th Gen EP3)",
+  "engine": "2.0L K20A3 DOHC i-VTEC I4",
+  "horsepower": 160,
+  "torque": "132 lb-ft @ 5000",
+  "drivetrain": "FWD",
+  "transmission": "5-speed manual (dash-mounted shifter)",
+  "0_to_60": "~7.0 sec",
+  "fuel_economy": "26 city / 30 hwy mpg",
+  "curb_weight": "~2,744 lbs",
+  "reliability": "8/10 — the EP3 introduced the K20 to the Si, and the K-series is one of the most durable and swap-friendly engines Honda ever built. The catch is that the US Si got the milder K20A3 (a single-cam-profile i-VTEC that's more economy-minded than the K20A2/Z2 in the RSX Type-S), and the generation switched to a MacPherson-strut front end, so purists rate it below the EM1. None of that hurts reliability — it just makes the EP3 a fantastic, cheap K-swap base. Long underrated, now climbing in value.",
+  "cost_to_own": "Insurance: Low-moderate · Maintenance ~$400/yr · Still one of the more affordable Si generations, but clean examples are appreciating",
+  "popular_mods": [
+    "A K20A2/K20Z head or a full K-swap — the classic way to unlock the K20A3's potential",
+    "RSX Type-S parts (intake manifold, throttle body, cams) to wake up the top end",
+    "Coilovers + sway bars to sharpen the strut-front chassis",
+    "Header + intake + exhaust with a tune",
+    "Honest take: the EP3 is the value-buy K-swap platform — great bones, cheap entry, huge parts support"
+  ],
+  "oil_type": "5W-30 or 10W-30 full synthetic",
+  "oil_interval": "Every 5,000–7,500 miles",
+  "generations": {
+    "7th Gen EP3 (2002–2005)": "The Si became a hatchback with a novel dash-mounted shifter and the 160 hp K20A3 i-VTEC. Polarizing at launch for its shape and mild engine, but beloved now for K-series durability and swap potential.",
+    "Note": "This generation dropped the front double-wishbone for MacPherson struts — the trade-off enthusiasts most often cite versus the earlier EM1."
+  },
+  "common_issues": [
+    "The K20A3's mild VTEC crossover feels tame stock — the reason so many get head swaps",
+    "MacPherson-strut front end is less sharp than the older double-wishbone Sis",
+    "VTC actuator cold-start rattle on the K-series — usually benign but worth knowing",
+    "Rust on rear arches and rockers in salt climates",
+    "Dash-shifter bushings wear and make the shift feel vague"
+  ],
+  "maintenance_tips": [
+    "The K20 is chain-driven — no timing belt to change, one of its big advantages",
+    "Address any VTC actuator rattle if it persists past cold start",
+    "Refresh shifter and suspension bushings to tighten the driving feel",
+    "Keep the oil fresh — the K-series is happiest on a clean 5,000–7,500 mile interval",
+    "If you want power, budget for a head swap or K-swap rather than chasing the K20A3 hard"
+  ]
+}

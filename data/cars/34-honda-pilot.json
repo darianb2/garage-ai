@@ -1,0 +1,41 @@
+{
+  "name": "Honda Pilot",
+  "engine": "3.5L naturally-aspirated i-VTEC V6 with VCM (J35Y6)",
+  "horsepower": 280,
+  "torque": "262 lb-ft",
+  "drivetrain": "FWD or i-VTM4 AWD",
+  "transmission": "6-speed automatic (LX/EX/EX-L) or 9-speed automatic (Touring/Elite)",
+  "0_to_60": "~6.2 sec",
+  "fuel_economy": "20 city / 27 hwy mpg (FWD 9AT) · 19 / 26 (AWD)",
+  "curb_weight": "~3,957–4,319 lbs (FWD / AWD)",
+  "reliability": "7/10 — the third-gen Pilot is a comfortable, spacious three-row family SUV riding on Honda's durable J35 V6, and the mechanicals generally go the distance. The knocks are familiar Honda-V6 ones: Variable Cylinder Management (VCM) is tied to oil consumption, spark-plug fouling, and low-speed drivetrain vibration from worn mounts, and the early ZF 9-speed automatic (Touring/Elite) drew complaints for rough, hesitant shifts before software updates. Buy one with the recalls closed and the VCM understood and it's a dependable hauler.",
+  "cost_to_own": "Insurance: Moderate (large family SUV) · Maintenance ~$550/yr · Fuel economy is average for a three-row · Strong resale — three-row Hondas hold value well",
+  "popular_mods": [
+    "A VCM disabler (VCMTuner / S-VCM) — the go-to J35 mod to keep all six cylinders firing, curb oil use, and spare the engine mounts",
+    "All-weather floor liners + a cargo liner for the third-row/trunk area — essential for family and dog duty",
+    "Roof crossbars + a cargo box, plus a trailer hitch (AWD tows up to ~5,000 lbs)",
+    "A second set of wheels with dedicated winter tires — the best foul-weather upgrade for the i-VTM4 AWD",
+    "Honest take: the Pilot is a family SUV — money is better spent on the VCM disabler, good tires, and maintenance than on power"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Per the Maintenance Minder (~7,500 miles) — check the level between changes on VCM engines",
+  "generations": {
+    "2nd Gen (2009–2015 US)": "The boxy, truck-like Pilot — 3.5L J35 V6 (~250 hp), 5-speed automatic, and a reputation for going forever. Rugged and roomy; the value pick if you want simple and durable.",
+    "3rd Gen (2016–2022 US)": "A car-based, more refined redesign — 280 hp J35, 6-speed automatic (LX/EX/EX-L) or a ZF 9-speed (Touring/Elite), i-VTM4 torque-vectoring AWD, and seating for up to eight. The mainstream family-SUV sweet spot.",
+    "4th Gen (2023+ US)": "Bigger and more rugged-looking with a 285 hp J35, a 10-speed automatic, and an off-road-flavored TrailSport trim. More capable, but pricier — a clean third-gen is the used-market value."
+  },
+  "common_issues": [
+    "VCM-related oil consumption, spark-plug fouling, and low-speed vibration from worn engine/transmission mounts on the J35 — the defining thing to know about this drivetrain",
+    "Early ZF 9-speed automatic (2016–2018 Touring/Elite) hesitation and harsh shifts, plus an unpopular push-button shifter — most improved with software updates",
+    "Idle stop / auto start-stop can feel shuddery on restart — normal, but a common gripe",
+    "Infotainment on 2016–2018 was laggy and lacked a volume knob (the knob returned in the 2019 refresh)",
+    "Automatic emergency braking (CMBS) false activations reported by some owners"
+  ],
+  "maintenance_tips": [
+    "Change the 0W-20 oil on time and check the level between changes — VCM engines can use oil quietly",
+    "A VCM disabler is the most-recommended step for engine-mount life and oil-consumption peace of mind",
+    "Service the transmission fluid with the correct Honda ATF on schedule — the 9-speed especially dislikes neglect",
+    "Refresh spark plugs on schedule (VCM can foul them) and inspect the engine mounts if you feel low-speed shudder",
+    "Confirm all open recalls are closed by VIN, and budget for brakes given the vehicle's weight"
+  ]
+}

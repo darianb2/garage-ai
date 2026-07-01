@@ -749,7 +749,13 @@ def api_recalls():
 # (older M3s/Miatas/Civic Si, the Mk6 GTI, the Shelbys, the 2023 Z, ...) stay
 # unbound on purpose — see the Task 1 review list in notes/.
 CURATED_SPEC_BINDINGS = {
-    ("honda", "civic si"):     [(2022, 9999, "Honda Civic Si")],      # 11th-gen FE1
+    ("honda", "civic si"):     [(1992, 1995, "Honda Civic Si (5th Gen EG)"),   # D16Z6
+                                (1999, 2000, "Honda Civic Si (6th Gen EM1)"),  # B16A2
+                                (2002, 2005, "Honda Civic Si (7th Gen EP3)"),  # K20A3
+                                (2006, 2011, "Honda Civic Si (8th Gen)"),      # K20Z3 (FG2 coupe / FA5 sedan)
+                                (2012, 2015, "Honda Civic Si (9th Gen)"),      # K24Z7 (FG4 coupe / FB6 sedan)
+                                (2017, 2020, "Honda Civic Si (10th Gen)"),     # L15B7 turbo (FC3 coupe / FC1 sedan)
+                                (2022, 9999, "Honda Civic Si")],               # 11th-gen FE1
     ("honda", "civic type r"): [(2023, 9999, "Honda Civic Type R")],  # FL5
     ("toyota", "gr86"):        [(2022, 9999, "Toyota GR86")],         # 2nd-gen ZN8
     ("toyota", "gr supra"):    [(2020, 9999, "Toyota GR Supra")],     # A90/A91
@@ -770,6 +776,16 @@ CURATED_SPEC_BINDINGS = {
                            (2013, 2017, "Honda Accord (9th Gen)"),  # CR/CT (V6 detailed on the Accord V6 page)
                            (2018, 2022, "Honda Accord (10th Gen)"), # CV
                            (2023, 9999, "Honda Accord (11th Gen)")],# CY
+    ("honda", "fit"):     [(2015, 2020, "Honda Fit")],              # 3rd gen GK (US); GD/GE stay unbound
+    ("honda", "hr-v"):    [(2016, 2022, "Honda HR-V")],             # 1st gen RU; 2nd gen 2023+ (2.0L) unbound
+    ("honda", "insight"): [(2019, 2022, "Honda Insight")],          # 3rd gen ZE4; ZE1/ZE2 stay unbound
+    ("honda", "odyssey"): [(2018, 9999, "Honda Odyssey")],          # 5th gen RL6; 4th gen 2011-2017 unbound
+    ("honda", "pilot"):   [(2016, 2022, "Honda Pilot")],            # 3rd gen; 2nd gen + 4th gen (2023+) unbound
+    # --- Honda enthusiast icons (Task 9 spec-gap fill) ---
+    ("honda", "s2000"):   [(2000, 2009, "Honda S2000")],            # AP1 (F20C) + AP2 (F22C)
+    ("honda", "nsx"):     [(1991, 1996, "Honda NSX (NA1)")],        # NA1 (Acura NSX NA2 is a separate entry)
+    ("honda", "prelude"): [(1997, 2001, "Honda Prelude (BB6)")],    # 5th gen H22A4
+    ("honda", "crx"):     [(1988, 1991, "Honda CRX (EF)")],         # 2nd gen EF (US Si, D16A6)
 }
 
 

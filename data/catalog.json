@@ -1166,5 +1166,45 @@
     "generation": "11th Gen (CY)",
     "body": "Sedan",
     "note": "Hybrid-led, refined commuter"
+  },
+  {
+    "make": "Honda",
+    "model": "Fit",
+    "year": 2018,
+    "generation": "3rd Gen (GK)",
+    "body": "Hatch",
+    "note": "Magic-Seat subcompact — huge space, tiny thirst, 200k-mile reputation"
+  },
+  {
+    "make": "Honda",
+    "model": "HR-V",
+    "year": 2019,
+    "generation": "1st Gen (RU)",
+    "body": "SUV",
+    "note": "A tall, practical Fit — sensible subcompact crossover"
+  },
+  {
+    "make": "Honda",
+    "model": "Insight",
+    "year": 2019,
+    "generation": "3rd Gen (ZE4)",
+    "body": "Sedan",
+    "note": "Stealth hybrid Civic — 52 mpg without looking like an eco-box"
+  },
+  {
+    "make": "Honda",
+    "model": "Odyssey",
+    "year": 2018,
+    "generation": "5th Gen (RL6)",
+    "body": "Minivan",
+    "note": "The enthusiast's minivan — quick J35 V6, Magic Slide seats"
+  },
+  {
+    "make": "Honda",
+    "model": "Pilot",
+    "year": 2019,
+    "generation": "3rd Gen",
+    "body": "SUV",
+    "note": "Roomy three-row family SUV on the durable J35 V6"
   }
 ]

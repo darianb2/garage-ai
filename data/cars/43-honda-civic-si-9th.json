@@ -1,0 +1,41 @@
+{
+  "name": "Honda Civic Si (9th Gen)",
+  "engine": "2.4L K24Z7 DOHC i-VTEC I4",
+  "horsepower": 205,
+  "torque": "174 lb-ft @ 4400",
+  "drivetrain": "FWD",
+  "transmission": "6-speed manual",
+  "0_to_60": "~6.4 sec",
+  "fuel_economy": "22 city / 31 hwy mpg",
+  "curb_weight": "~2,875 lbs",
+  "reliability": "8/10 — the 9th-gen Si swapped to the larger 2.4L K24Z7, the biggest-displacement engine in Si history, trading some top-end scream for a much fatter, more usable midrange (and it kept the helical LSD). The K24 is durable and, being chain-driven, has no timing belt. It launched at 201 hp / 170 lb-ft in 2012–2013 and was retuned to 205 hp / 174 lb-ft for 2014–2015. The main criticisms were the cheap early-2012 interior (fixed in the 2013 refresh) and the same K-series synchro/VTC quirks — not durability.",
+  "cost_to_own": "Insurance: Moderate-high · Maintenance ~$450/yr · Solid, stable values — the torquey K24 makes it a favorite affordable Si",
+  "popular_mods": [
+    "Bolt-ons (intake, header, cat-back) plus a tune — the K24 makes strong, tractable power",
+    "Coilovers + sway bars to work with the factory LSD",
+    "A short shifter and fresh bushings for tighter throws",
+    "Sticky summer tires to put the midrange torque down",
+    "Honest take: the K24's torque makes this the easiest Si to enjoy stock — light mods go a long way"
+  ],
+  "oil_type": "0W-20 or 5W-30 full synthetic",
+  "oil_interval": "Every 5,000–7,500 miles",
+  "generations": {
+    "9th Gen FB6 Sedan (2012–2015)": "The four-door Si — 2.4L K24Z7, 6-speed, helical LSD. Practical, torquey, and the volume seller.",
+    "9th Gen FG4 Coupe (2012–2015)": "The two-door with the same drivetrain for buyers who wanted the sportier body.",
+    "2014 retune": "Honda revised the exhaust for 2014, bumping output from 201 hp / 170 lb-ft to 205 hp / 174 lb-ft."
+  },
+  "common_issues": [
+    "Cheap-feeling interior on the 2012 cars specifically — Honda improved it in the 2013 refresh (cosmetic, not mechanical)",
+    "3rd-gear synchro wear on hard-shifted examples — feel for notchiness",
+    "VTC actuator cold-start rattle on the K-series — usually benign",
+    "Clutch wear on modified or hard-driven cars",
+    "Otherwise very few mechanical complaints — the K24 is stout"
+  ],
+  "maintenance_tips": [
+    "No timing belt — the K24 is chain-driven, saving a major service",
+    "Keep the transmission fluid fresh and shift deliberately to protect the synchros",
+    "Address a persistent VTC rattle; maintain a tight oil interval",
+    "Prefer a 2013+ car for the improved interior, or a 2014–2015 for the small power bump",
+    "Inspect the clutch on any tuned car before purchase"
+  ]
+}

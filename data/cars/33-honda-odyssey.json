@@ -1,0 +1,41 @@
+{
+  "name": "Honda Odyssey",
+  "engine": "3.5L naturally-aspirated i-VTEC V6 with VCM (J35)",
+  "horsepower": 280,
+  "torque": "262 lb-ft",
+  "drivetrain": "FWD",
+  "transmission": "9-speed automatic (10-speed on Touring & Elite)",
+  "0_to_60": "~6.5 sec",
+  "fuel_economy": "19 city / 28 hwy / 22 combined mpg",
+  "curb_weight": "~4,354–4,593 lbs",
+  "reliability": "7/10 — the Odyssey is a genuinely good minivan built on Honda's tough J35 V6, and most of them soldier through family duty for years. Two things keep it from a higher score: the early 5th-gen 9-speed ZF automatic could shift roughly until Honda's software updates settled it down, and the V6's Variable Cylinder Management (VCM) is linked to oil consumption and worn engine mounts over time. Neither is a dealbreaker, but both are worth knowing — and the sliding doors and power seats are more complaint-prone than the drivetrain.",
+  "cost_to_own": "Insurance: Low-moderate (family vehicle) · Maintenance ~$550/yr · Fuel economy is only okay for the class · Strong resale — good minivans stay in demand and the Odyssey is the enthusiast's pick of them",
+  "popular_mods": [
+    "All-weather floor liners + a full cargo/trunk liner — this is a family hauler, protect every surface",
+    "A VCM disabler (VCMTuner / S-VCM) — a genuinely popular Honda-V6 mod that keeps all six cylinders active to curb oil burning and save the engine mounts",
+    "Roof crossbars + a cargo box for road-trip season",
+    "A second set of wheels with winter tires — a heavy FWD van benefits a lot from real snow tires",
+    "Honest take: it's a minivan — the best 'mods' are the ones that make family life easier, not faster"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Per the Maintenance Minder (~7,500 miles) — check the level between changes on VCM engines",
+  "generations": {
+    "4th Gen RL5 (2011–2017 US)": "The hugely popular 'lightning-bolt' beltline van — 3.5L J35 V6 (248–280 hp), 5-speed auto then a 6-speed from 2014. Roomy, reliable, and the value sweet spot on the used market.",
+    "5th Gen RL6 (2018–2025 US)": "A ground-up redesign with the 280 hp J35, a 9-speed automatic (10-speed on Touring/Elite), Magic Slide second-row seats, and family tech like CabinWatch/CabinTalk. Quick for a van and comfortable, once the early transmission software was sorted.",
+    "Note": "The 5th gen dropped the folding third-row 'Magic Seat' packaging in favor of removable second-row seats — great flexibility, but the middle seats are heavy to take out."
+  },
+  "common_issues": [
+    "Early 5th-gen 9-speed automatic (2018–2019) could hesitate or shift harshly — most were improved by Honda software updates, so confirm they've been applied",
+    "VCM oil consumption and worn engine/transmission mounts on the J35 over higher miles — watch the oil level and feel for low-speed vibration",
+    "Power sliding doors and the second-row Magic Slide seat latches are recall- and complaint-prone — verify all campaigns are closed by VIN",
+    "Infotainment on 2018–2020 was laggy and lost the volume knob (it returned in the 2021 refresh)",
+    "Automatic emergency braking (CMBS) false activations reported by some owners"
+  ],
+  "maintenance_tips": [
+    "Change the 0W-20 oil on time and check the level between changes — VCM engines can quietly use some oil",
+    "A VCM disabler is the single most recommended step for long-term J35 engine-mount and oil-consumption peace of mind",
+    "Service the transmission fluid on schedule with the correct Honda ATF — the 9-speed is happiest when it's not neglected",
+    "Confirm the sliding-door and second-row seat recalls are done by VIN before buying used",
+    "Keep the spark plugs fresh (VCM can foul them) and stay on top of brake service given the vehicle's weight"
+  ]
+}

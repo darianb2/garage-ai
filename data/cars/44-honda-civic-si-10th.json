@@ -1,0 +1,41 @@
+{
+  "name": "Honda Civic Si (10th Gen)",
+  "engine": "1.5L L15B7 turbo I4",
+  "horsepower": 205,
+  "torque": "192 lb-ft @ 2100–5000",
+  "drivetrain": "FWD",
+  "transmission": "6-speed manual",
+  "0_to_60": "~6.3 sec",
+  "fuel_economy": "28 city / 38 hwy mpg",
+  "curb_weight": "~2,906 lbs",
+  "reliability": "8/10 — the 10th-gen Si returned to turbo power with the L15B7, giving it a broad, flexible torque band (192 lb-ft from just 2,100 rpm), a helical LSD, and adaptive dampers, all while returning excellent economy. The turbo four is fundamentally robust, and it takes very well to tuning. The one real thing to watch is oil dilution — fuel washing into the oil during short, cold-weather trips — which affects the whole 1.5T family; check the oil level and don't stretch changes in winter.",
+  "cost_to_own": "Insurance: Moderate-high (turbo sport compact, young-driver target) · Maintenance ~$400/yr · Strong resale — the last of the pre-11th-gen Sis holds value well",
+  "popular_mods": [
+    "Hondata FlashPro ECU tune (+50–70 whp — by far the biggest single gain on the turbo)",
+    "Cold-air intake + an upgraded front-mount intercooler",
+    "Cat-back exhaust + downpipe",
+    "Lowering springs or coilovers + a rear sway bar",
+    "Summer performance tires — the LSD chassis can use more grip than stock"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Every 5,000–7,500 miles (check the level more often in cold climates)",
+  "generations": {
+    "10th Gen FC1 Sedan (2017–2020)": "The four-door Si — 205 hp L15B7 turbo, 6-speed, helical LSD, adaptive dampers. The practical volume seller.",
+    "10th Gen FC3 Coupe (2017–2020)": "The two-door with the same drivetrain — the last Civic Si coupe Honda made.",
+    "Note": "The following 11th-gen FE1 Si (2022+) dropped to 200 hp but moved its torque peak even lower for better daily driveability — see the Honda Civic Si entry."
+  },
+  "common_issues": [
+    "Oil dilution (fuel mixing into the oil) on short, cold trips — the defining 1.5T watch item",
+    "Pre-refresh infotainment could be laggy and dropped the physical volume knob",
+    "A/C compressor failures, a common Honda-era complaint",
+    "Clutch wear on tuned or hard-driven cars",
+    "The turbo itself is robust — most issues trace to maintenance, not the hardware"
+  ],
+  "maintenance_tips": [
+    "Check the oil level regularly and don't stretch oil changes in cold weather — the dilution fix starts with fresh oil",
+    "Let the engine warm up before hard driving, especially on short winter trips",
+    "If you tune it, use a reputable FlashPro map and keep an eye on the intercooler and plugs",
+    "Use Honda-approved 0W-20 full synthetic",
+    "Inspect brakes and clutch more often if you drive it hard — sport use wears them faster"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Honda Civic Si (8th Gen)",
+  "engine": "2.0L K20Z3 DOHC i-VTEC I4",
+  "horsepower": 197,
+  "torque": "139 lb-ft @ 6200",
+  "drivetrain": "FWD",
+  "transmission": "6-speed manual",
+  "0_to_60": "~6.5 sec",
+  "fuel_economy": "21 city / 29 hwy mpg",
+  "curb_weight": "~2,877 lbs",
+  "reliability": "8/10 — the 8th-gen Si got the strong K20Z3 (197 hp, revving to 8,000 rpm) with a slick 6-speed and, for the first time on an Si, a factory helical limited-slip differential. The K-series is durable and the chain-driven valvetrain means no timing belt. Two known-but-not-universal issues keep it off a 9: a small number of 2006–2009 blocks developed cracks around a coolant passage, and 3rd-gear synchro wear shows up on hard-shifted cars. Buy on service history and it's a superb, tunable daily.",
+  "cost_to_own": "Insurance: Moderate-high (sport compact, young-driver target) · Maintenance ~$450/yr · Strong, stable values — a clean 8th-gen Si is a sought-after modern classic",
+  "popular_mods": [
+    "Intake + header + cat-back exhaust — the K20Z3 responds well and sounds great",
+    "A tune (Ktuner / Hondata) to sharpen throttle and VTEC",
+    "Coilovers + sway bars to exploit the chassis and factory LSD",
+    "A short shifter and fresh bushings for crisper 6-speed throws",
+    "Summer performance tires — the LSD chassis can use more grip than stock"
+  ],
+  "oil_type": "0W-20 or 5W-30 full synthetic",
+  "oil_interval": "Every 5,000–7,500 miles",
+  "generations": {
+    "8th Gen FG2 Coupe (2006–2011)": "The two-door Si — 197 hp K20Z3, 6-speed, helical LSD. The enthusiast's pick of the generation.",
+    "8th Gen FA5 Sedan (2007–2011)": "The first-ever Si sedan, mechanically identical to the coupe — practical without giving up the drivetrain.",
+    "Mugen Si (2008)": "A limited-run, Mugen-tuned FA5 sedan with unique suspension, aero, and wheels — the collectible of the generation."
+  },
+  "common_issues": [
+    "Rare K20Z3 engine-block cracking on some 2006–2009 cars (around a coolant passage) — check history and for coolant loss",
+    "3rd-gear (sometimes 5th) synchro wear on hard-shifted cars — feel for notchiness",
+    "VTC actuator cold-start rattle on the K-series — usually harmless but common",
+    "Clutch wear on modified or hard-driven examples",
+    "Infotainment/instrument quirks and worn interior bits typical of the age"
+  ],
+  "maintenance_tips": [
+    "No timing belt — the K20 is chain-driven, which saves a major service",
+    "Watch coolant level and history for any sign of the block-crack issue on early cars",
+    "Shift deliberately and keep the transmission fluid fresh to protect the synchros",
+    "Address a persistent VTC rattle; keep the oil clean on a tight interval",
+    "Inspect the clutch on any tuned car before buying"
+  ]
+}

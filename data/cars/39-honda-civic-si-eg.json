@@ -1,0 +1,40 @@
+{
+  "name": "Honda Civic Si (5th Gen EG)",
+  "engine": "1.6L D16Z6 SOHC VTEC I4",
+  "horsepower": 125,
+  "torque": "106 lb-ft @ 5200",
+  "drivetrain": "FWD",
+  "transmission": "5-speed manual",
+  "0_to_60": "~7.9 sec",
+  "fuel_economy": "29 city / 36 hwy mpg",
+  "curb_weight": "~2,300 lbs",
+  "reliability": "9/10 — the first Civic Si with VTEC, and mechanically about as bulletproof as Honda gets. The D16Z6 is simple, light-stressed, and famously long-lived, and the whole car weighs about 2,300 lbs, so nothing is working hard. The real ownership issue at this age is rust and tired suspension, not the drivetrain. The EG's party trick is a double-wishbone suspension at all four corners — a big part of why it's still a beloved chassis to build on.",
+  "cost_to_own": "Insurance: Low-moderate · Maintenance ~$350/yr · Clean, unmodified EG Si hatches are appreciating — rust-free shells are the scarce part",
+  "popular_mods": [
+    "A B-series swap (B16/B18) — the classic way to add the power the D16Z6 leaves on the table",
+    "Coilovers + sway bars — the double-wishbone chassis rewards good suspension",
+    "Header + intake + exhaust for the D-series",
+    "Lightweight wheels + sticky tires — transformative on such a light car",
+    "Honest take: rust-free EG shells are getting rare, so preserve a clean one and build a rougher car"
+  ],
+  "oil_type": "5W-30 or 10W-30 full synthetic",
+  "oil_interval": "Every 5,000–7,500 miles",
+  "generations": {
+    "5th Gen EG (1992–1995)": "The Si returned to the US with VTEC for the first time — 125 hp D16Z6 in a ~2,300 lb hatch with double-wishbone suspension front and rear. Simple, chuckable, and endlessly tunable.",
+    "Note": "The EG is the launchpad of the modern Si story and the foundation of Honda's tuning scene — later Si generations chased more power, but few match this one's lightweight purity."
+  },
+  "common_issues": [
+    "Rust — rockers, floors, and rear quarters on a 30-year-old car",
+    "Worn suspension bushings and mounts that blunt the sharp EG feel",
+    "Age-related electrical and gauge gremlins",
+    "Many cars are heavily modified — a clean, stock example is the hard find",
+    "Cracked dashes and faded plastics from sun exposure"
+  ],
+  "maintenance_tips": [
+    "Inspect for rust first — a solid shell matters more than any spec",
+    "Keep the timing belt interval and periodic valve-clearance checks current on the D16",
+    "Refresh bushings and mounts to bring back the crisp handling",
+    "Parts are cheap and everywhere — a very affordable classic to run",
+    "Preserve originality on clean cars; the market increasingly rewards it"
+  ]
+}
