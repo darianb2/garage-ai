@@ -1,0 +1,37 @@
+{
+  "name": "Honda Accord (8th Gen)",
+  "engine": "2.4L DOHC i-VTEC I4 (K24Z), 177–190 hp — 3.5L SOHC i-VTEC V6 (J35Z) with VCM, 271 hp",
+  "horsepower": 190,
+  "torque": "161 lb-ft (2.4L) · 254 lb-ft (V6)",
+  "drivetrain": "FWD",
+  "transmission": "5-speed automatic or 5-speed manual (2.4L) · 5-speed automatic or 6-speed manual (V6 coupe)",
+  "0_to_60": "~7.8 sec (2.4L) · ~6.2 sec (V6)",
+  "fuel_economy": "22 city / 31 hwy mpg (2.4L automatic)",
+  "curb_weight": "~3,221–3,605 lbs",
+  "reliability": "8/10 — a roomy, durable sedan, with three documented things to check. The V6 uses cylinder deactivation (VCM), which can drive oil consumption and motor-mount wear (owners often fit a VCM disabler). Many 2008–2010 cars had premature front brake wear and judder, which Honda addressed through service bulletins. And this generation falls under the industry-wide Takata airbag recall. The 2.4L I4 is the simpler, trouble-free pick.",
+  "cost_to_own": "Insurance: Low to average · Maintenance ~$400/yr (V6 a little more) · Cheap to run with strong resale",
+  "popular_mods": [
+    "VCM disabler on V6 cars to cut oil burn and motor-mount wear",
+    "All-weather liners and tasteful wheels with quality tires",
+    "OEM-plus suspension refresh on higher-mileage cars",
+    "Honest take: the 2.4L I4 is the no-drama choice; the V6 coupe with the 6-speed manual is the quiet enthusiast pick"
+  ],
+  "oil_type": "0W-20 (V6) / 5W-20 (early I4) — confirm by engine and year",
+  "oil_interval": "Every 7,500 miles (per the Maintenance Minder)",
+  "generations": {
+    "8th Gen (2008–2012)": "Grew into a roomy, near-full-size sedan (plus a coupe). 2.4L K24 four (177hp LX / 190hp EX) or a 271hp 3.5L J35 V6 with cylinder deactivation. Comfortable, quiet, and easy to live with.",
+    "2011 refresh": "Mild front and rear styling updates plus equipment changes; powertrains carried over."
+  },
+  "common_issues": [
+    "V6 VCM-related oil consumption and rear motor-mount wear (idle vibration as it ages)",
+    "2008–2010 premature front brake wear and judder — Honda issued service bulletins",
+    "Takata airbag-inflator recall (this generation is included) — verify completion by VIN",
+    "Occasional power-steering pump whine on high-mileage cars"
+  ],
+  "maintenance_tips": [
+    "Many V6 owners fit a VCM disabler; check oil level between changes regardless",
+    "Inspect front brakes and rotors on a 2008–2010 car",
+    "Confirm the Takata airbag recall is complete",
+    "Service the automatic with genuine Honda ATF; inspect motor mounts if idle vibration appears"
+  ]
+}

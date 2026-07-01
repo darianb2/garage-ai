@@ -127,65 +127,83 @@ function Recalls({ profile }) {
 function Complaints({ profile }) {
   const list = profile.complaints || [];
   const issues = profile.common_issues || [];
-  if (!list.length) return null;
+  const total = profile.complaints_count || list.length;
+  if (!total) return null;
   return (
     <Card className="p-5">
-      <SectionTitle>Recent complaints</SectionTitle>
+      <SectionTitle>Owner complaints</SectionTitle>
 
-      {/* Garage AI's digest of the raw NHTSA narratives — the headline takeaway. */}
-      {profile.complaints_summary && (
-        <p className="mb-4 border-l-2 border-amber-500/70 pl-3 text-sm leading-relaxed text-zinc-300">
+      {/* Lead with the digest — sum the complaints up, don't dump the raw pile.
+          On a high-volume car the full breakdown would flood the page, so the
+          systems + individual reports live behind one opt-in toggle. */}
+      {profile.complaints_summary ? (
+        <p className="border-l-2 border-amber-500/70 pl-3 text-sm leading-relaxed text-zinc-300">
           {profile.complaints_summary}
+        </p>
+      ) : (
+        <p className="text-sm text-zinc-400">
+          {total.toLocaleString()} owner {total === 1 ? "complaint" : "complaints"} on file with NHTSA.
         </p>
       )}
 
-      {/* Grouped by the system owners blamed, with counts — the structured view. */}
-      {issues.length > 0 && (
-        <div className="mb-4">
-          <div className="mb-2 text-xs uppercase tracking-wide text-zinc-500">
-            Most-reported systems
-          </div>
-          <div className="flex flex-wrap gap-2">
-            {issues.map(([component, count]) => (
-              <span
-                key={component}
-                className="rounded-full border border-zinc-700 bg-zinc-800/60 px-3 py-1 text-xs text-zinc-300"
-              >
-                {component} · {count} {count === 1 ? "report" : "reports"}
-              </span>
-            ))}
-          </div>
-        </div>
-      )}
+      {(issues.length > 0 || list.length > 0) && (
+        <details className="group mt-3">
+          <summary className="cursor-pointer text-xs text-zinc-500 hover:text-amber-500">
+            Show the breakdown
+            {profile.complaints_summary ? ` — ${total.toLocaleString()} on file` : ""}
+          </summary>
 
-      {/* Full owner narratives are long and numerous, so keep them opt-in. */}
-      <details className="group">
-        <summary className="cursor-pointer text-xs text-zinc-500 hover:text-amber-500">
-          Read individual reports
-          {profile.complaints_count > list.length &&
-            ` — ${list.length} of ${profile.complaints_count} on file`}
-        </summary>
-        <div className="mt-3 space-y-3">
-          {list.map((c, i) => {
-            const flags = [
-              c.crash && "crash",
-              c.fire && "fire",
-              c.injuries && `${c.injuries} injured`,
-            ].filter(Boolean);
-            return (
-              <div key={i} className="border-l-2 border-zinc-800 pl-3">
-                <div className="text-xs text-zinc-500">
-                  {c.components || "Complaint"}
-                  {flags.length > 0 && (
-                    <span className="ml-1 text-red-300">({flags.join(", ")})</span>
-                  )}
-                </div>
-                {c.summary && <p className="mt-1 text-sm text-zinc-400">{c.summary}</p>}
+          {/* Grouped by the system owners blamed, with counts. */}
+          {issues.length > 0 && (
+            <div className="mt-3">
+              <div className="mb-2 text-xs uppercase tracking-wide text-zinc-500">
+                Most-reported systems
               </div>
-            );
-          })}
-        </div>
-      </details>
+              <div className="flex flex-wrap gap-2">
+                {issues.map(([component, count]) => (
+                  <span
+                    key={component}
+                    className="rounded-full border border-zinc-700 bg-zinc-800/60 px-3 py-1 text-xs text-zinc-300"
+                  >
+                    {component} · {count} {count === 1 ? "report" : "reports"}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* The full owner narratives — longest and most numerous, so deepest in. */}
+          {list.length > 0 && (
+            <div className="mt-4">
+              <div className="mb-2 text-xs uppercase tracking-wide text-zinc-500">
+                Individual reports
+                {profile.complaints_count > list.length &&
+                  ` — ${list.length} of ${total.toLocaleString()}`}
+              </div>
+              <div className="space-y-3">
+                {list.map((c, i) => {
+                  const flags = [
+                    c.crash && "crash",
+                    c.fire && "fire",
+                    c.injuries && `${c.injuries} injured`,
+                  ].filter(Boolean);
+                  return (
+                    <div key={i} className="border-l-2 border-zinc-800 pl-3">
+                      <div className="text-xs text-zinc-500">
+                        {c.components || "Complaint"}
+                        {flags.length > 0 && (
+                          <span className="ml-1 text-red-300">({flags.join(", ")})</span>
+                        )}
+                      </div>
+                      {c.summary && <p className="mt-1 text-sm text-zinc-400">{c.summary}</p>}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+        </details>
+      )}
     </Card>
   );
 }

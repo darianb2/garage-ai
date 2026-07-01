@@ -1,0 +1,39 @@
+{
+  "name": "Honda Accord (10th Gen)",
+  "engine": "1.5L turbo I4 (L15BE), 192 hp — 2.0L turbo I4 (K20C4), 252 hp on Sport 2.0T",
+  "horsepower": 192,
+  "torque": "192 lb-ft (1.5T) · 273 lb-ft (2.0T)",
+  "drivetrain": "FWD",
+  "transmission": "CVT (1.5T) · 10-speed automatic (2.0T) · 6-speed manual offered on the Sport",
+  "0_to_60": "~7.2 sec (1.5T) · ~5.5 sec (2.0T)",
+  "fuel_economy": "30 city / 38 hwy mpg (1.5T)",
+  "curb_weight": "~3,131–3,428 lbs",
+  "reliability": "9/10 — a genuinely strong record and a frequent reliability-award winner. The documented items are software-era infotainment quirks on early cars and the 2020 Denso low-pressure fuel-pump recall, which was industry-wide across many brands, not Accord-specific. Both turbo fours have held up well; NHTSA volume is moderate for a top-selling sedan.",
+  "cost_to_own": "Insurance: Average · Maintenance ~$400/yr · Strong resale; note the 2.0T asks for premium fuel while the 1.5T runs on regular",
+  "popular_mods": [
+    "Hondata flash on the 2.0T — it shares the Civic Type R's K20C engine family, so there's a real, proven tuning path",
+    "All-weather liners and tasteful wheels with quality tires",
+    "A second set of winter tires for cold-climate owners",
+    "Suspension refresh (OEM-plus dampers/springs) on higher-mileage cars",
+    "Honest take: the 1.5T is a sensible commuter; the manual 2.0T Sport is the quiet enthusiast pick and where any money is best spent"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Per the Maintenance Minder (~7,500 miles)",
+  "generations": {
+    "10th Gen (2018–2022)": "A turbo-four lineup that replaced the old V6: 1.5L turbo standard, 252hp 2.0L turbo (with a 10-speed automatic, and a 6-speed manual early on) up top. Roomy, refined, and sharp-handling for a family sedan, with Honda Sensing standard.",
+    "The V6 is gone": "This generation dropped the naturally-aspirated J35 V6 entirely — see our separate Accord V6 page for the 2013–2017 car buyers seek out for that engine.",
+    "Replaced by the 11th Gen (2023+)": "The 2023 redesign kept the 1.5T and added a stronger hybrid, leaning further toward efficiency."
+  },
+  "common_issues": [
+    "Early infotainment and driver-assist software quirks (improved with updates)",
+    "2020 Denso low-pressure fuel-pump recall — industry-wide, affected many makes including Honda",
+    "Some reports of start-stop AGM battery wear on short-trip cars",
+    "More tire and road noise than a luxury sedan — a refinement gripe, not a fault"
+  ],
+  "maintenance_tips": [
+    "Run premium fuel in the 2.0T as Honda specifies; the 1.5T is happy on regular",
+    "Keep infotainment/control software updated on early cars",
+    "Service the 10-speed automatic (2.0T) and the CVT (1.5T) fluids on schedule",
+    "Have the fuel-pump recall confirmed complete on a 2018–2020 car"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Honda Civic (10th Gen)",
+  "engine": "1.5L turbo I4 (L15B7) on EX and up — 2.0L naturally-aspirated I4 (R20) on LX/Sport",
+  "horsepower": 174,
+  "torque": "162 lb-ft (1.5T) · 138 lb-ft (2.0L)",
+  "drivetrain": "FWD",
+  "transmission": "CVT (1.5T) · CVT or 6-speed manual (2.0L)",
+  "0_to_60": "~6.8 sec (1.5T) · ~7.5 sec (2.0L)",
+  "fuel_economy": "32 city / 42 hwy mpg (1.5T EX sedan)",
+  "curb_weight": "~2,762–2,923 lbs",
+  "reliability": "8/10 — one of the most-sold cars in America, so its raw NHTSA complaint count is large mostly by sales volume. The recurring, documented items are narrow and shared with the same-era CR-V: the early 1.5T's cold-climate oil dilution (Honda issued a service bulletin and extended the powertrain warranty) and 2016–2018 A/C condenser cracks (Honda extended coverage). The chassis and CVT themselves have proven durable.",
+  "cost_to_own": "Insurance: Low to average · Maintenance ~$350/yr · Among the cheapest cars in its class to own, with class-leading fuel economy and strong resale",
+  "popular_mods": [
+    "All-weather floor liners and a cargo tray — the practical first buy",
+    "A dedicated winter-tire set on steel wheels — the single biggest real-world upgrade",
+    "Hondata FlashPro on the 1.5T for those who want more — a genuine (if small) tuning scene exists, shared with the Si",
+    "Tasteful 17–18\" wheels with quality all-seasons",
+    "Honest take: the base Civic is built to be a dependable appliance — most owners are best served spending on tires and upkeep, not power"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Per the Maintenance Minder (~7,500 miles); check the level on early 1.5T cars",
+  "generations": {
+    "10th Gen (2016–2021)": "The volume Civic, sold as sedan, coupe, and hatchback. 2.0L naturally-aspirated four on LX/Sport; 1.5L turbo on EX and up. Roomy for the class, very efficient, and the platform under the Si and Type R. The 2019 refresh brought back the physical volume knob and added standard Honda Sensing on most trims.",
+    "Replaced by the 11th Gen (2022+)": "The 2022 redesign simplified the lineup (sedan and hatch), kept the 2.0L / 1.5T split, and improved interior quality — which makes a clean 2019–2021 the value sweet spot used."
+  },
+  "common_issues": [
+    "1.5T oil dilution on early cold-climate cars (rising oil level, fuel smell) — addressed by Honda's service bulletin and warranty extension",
+    "2016–2018 A/C condenser failures (stress cracks) — a common, documented complaint Honda extended coverage for",
+    "Pre-2019 infotainment lag and the deleted volume knob (restored in the 2019 refresh)",
+    "Soft factory paint and easily-curbed wheels — cosmetic, not mechanical"
+  ],
+  "maintenance_tips": [
+    "Change the oil on time and check the level between changes on a 1.5T used for short cold trips",
+    "Confirm the A/C condenser has been replaced (or budget for it) on a 2016–2018 car",
+    "Service the CVT fluid with genuine Honda HCF-2 around 30–40k miles",
+    "Cabin filter, brakes, and tire rotations are most of the upkeep — this is a cheap car to run"
+  ]
+}

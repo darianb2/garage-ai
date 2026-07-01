@@ -1094,5 +1094,77 @@
     "generation": "Type 1",
     "body": "Coupe",
     "note": "Air-cooled tuning canvas"
+  },
+  {
+    "make": "Honda",
+    "model": "CR-V",
+    "year": 2019,
+    "generation": "5th Gen (RW)",
+    "body": "SUV",
+    "note": "America's default compact SUV — sensible, spacious, Honda-tough"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2008,
+    "generation": "8th Gen (FA/FG)",
+    "body": "Sedan",
+    "note": "Bulletproof R18 commuter, 200k-mile reputation"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2013,
+    "generation": "9th Gen (FB)",
+    "body": "Sedan",
+    "note": "Efficient, no-drama daily compact"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2018,
+    "generation": "10th Gen (FC)",
+    "body": "Sedan",
+    "note": "Turbo-era Civic — sharp, frugal, roomy"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2022,
+    "generation": "11th Gen (FE)",
+    "body": "Sedan",
+    "note": "Grown-up, refined, still cheap to run"
+  },
+  {
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2010,
+    "generation": "8th Gen (CP/CS)",
+    "body": "Sedan",
+    "note": "Roomy K24/V6 family sedan"
+  },
+  {
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2015,
+    "generation": "9th Gen (CR)",
+    "body": "Sedan",
+    "note": "Earth Dreams efficiency; last of the V6"
+  },
+  {
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2019,
+    "generation": "10th Gen (CV)",
+    "body": "Sedan",
+    "note": "Turbo-four sport-sedan sharpness"
+  },
+  {
+    "make": "Honda",
+    "model": "Accord",
+    "year": 2023,
+    "generation": "11th Gen (CY)",
+    "body": "Sedan",
+    "note": "Hybrid-led, refined commuter"
   }
 ]

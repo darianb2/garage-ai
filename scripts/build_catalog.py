@@ -186,6 +186,17 @@ CARS = [
     ("Plymouth", "Barracuda", 1970, "'Cuda", "Coupe", "Hemi E-body muscle icon"),
     ("Ford", "Mustang", 1969, "Boss 302", "Coupe", "Trans-Am homologation classic"),
     ("Volkswagen", "Beetle", 1968, "Type 1", "Coupe", "Air-cooled tuning canvas"),
+
+    # --- Mainstream mix — Honda (Task 9: curated enthusiast+mainstream, brand by brand) ---
+    ("Honda", "CR-V", 2019, "5th Gen (RW)", "SUV", "America's default compact SUV — sensible, spacious, Honda-tough"),
+    ("Honda", "Civic", 2008, "8th Gen (FA/FG)", "Sedan", "Bulletproof R18 commuter, 200k-mile reputation"),
+    ("Honda", "Civic", 2013, "9th Gen (FB)", "Sedan", "Efficient, no-drama daily compact"),
+    ("Honda", "Civic", 2018, "10th Gen (FC)", "Sedan", "Turbo-era Civic — sharp, frugal, roomy"),
+    ("Honda", "Civic", 2022, "11th Gen (FE)", "Sedan", "Grown-up, refined, still cheap to run"),
+    ("Honda", "Accord", 2010, "8th Gen (CP/CS)", "Sedan", "Roomy K24/V6 family sedan"),
+    ("Honda", "Accord", 2015, "9th Gen (CR)", "Sedan", "Earth Dreams efficiency; last of the V6"),
+    ("Honda", "Accord", 2019, "10th Gen (CV)", "Sedan", "Turbo-four sport-sedan sharpness"),
+    ("Honda", "Accord", 2023, "11th Gen (CY)", "Sedan", "Hybrid-led, refined commuter"),
 ]
 
 

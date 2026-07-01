@@ -1,0 +1,38 @@
+{
+  "name": "Honda Civic (9th Gen)",
+  "engine": "1.8L SOHC i-VTEC I4 (R18Z1) on LX/EX — 2.4L DOHC i-VTEC I4 (K24Z7) in the Si — 1.5L + IMA in the Hybrid",
+  "horsepower": 143,
+  "torque": "129 lb-ft (1.8L) · 174 lb-ft (Si 2.4L)",
+  "drivetrain": "FWD",
+  "transmission": "5-speed automatic or 5-speed manual (1.8L) · 6-speed manual (Si)",
+  "0_to_60": "~8.5 sec (1.8L) · ~6.4 sec (Si)",
+  "fuel_economy": "28 city / 39 hwy mpg (1.8L)",
+  "curb_weight": "~2,754–2,875 lbs",
+  "reliability": "9/10 — one of the most trouble-free modern compacts. The headline item is the industry-wide Takata airbag-inflator recall this generation falls under, so verify it has been completed by VIN. The R18 drivetrain is exceptionally durable, and Honda's quick 2013 interior overhaul answered early cabin-quality criticism.",
+  "cost_to_own": "Insurance: Low · Maintenance ~$350/yr · Class-leading economy and resale",
+  "popular_mods": [
+    "A dedicated winter-tire set on a second set of wheels",
+    "All-weather floor liners and cargo protection",
+    "Updated head unit / phone integration on early cars",
+    "OEM-plus suspension refresh on higher-mileage examples",
+    "Honest take: the Si (2.4L K24) is the enthusiast version — the 1.8L is a keep-it-stock, runs-forever daily"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Every 7,500 miles (per the Maintenance Minder)",
+  "generations": {
+    "9th Gen (2012–2015)": "Sedan and coupe on the 140–143hp 1.8L R18; the Si moved to a torquier 2.4L K24Z7 (201–205hp) with a 6-speed manual. A natural-gas (CNG) variant and a 1.5L Hybrid were also offered.",
+    "2013 interior overhaul": "Honda heavily revised the dash materials and added equipment a year in, directly addressing criticism of the 2012 car — so 2013+ examples feel a clear notch nicer."
+  },
+  "common_issues": [
+    "Takata airbag-inflator recall (this generation is included) — verify completion by VIN",
+    "Early 2012 interior materials drew criticism (revised for 2013) — a perception issue, not a fault",
+    "i-MID infotainment quirks on some units",
+    "Front tire wear from alignment, typical of the platform"
+  ],
+  "maintenance_tips": [
+    "Confirm the Takata airbag recall is complete",
+    "Run 0W-20 full synthetic and follow the Maintenance Minder",
+    "Service the 5-speed automatic fluid with genuine Honda ATF around 30–60k miles",
+    "Check valve clearances around 100k (chain-driven, no timing belt)"
+  ]
+}

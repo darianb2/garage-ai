@@ -19,21 +19,61 @@ that helps people reseach and compare new and used cars.
 - **Web app**: searchable card grid, detail pages, and a JSON API.
 - **Clean data layer**: each car is a validated JSON file, separate from the code.
 
-## Running it
+## Setup & running
 
-### CLI
-```bash
-python3 main.py
-```
-Try: `q50` · `civic si vs wrx` · `awd` · `over 400 hp`
+A Python (Flask) backend that serves a prebuilt React frontend. It runs the same
+on **macOS, Windows, and Linux**. The built frontend (`frontend/dist`) is
+committed, so **to just run the app you only need Python** — Node is required only
+if you want to change the frontend.
 
-### Web app
+### Prerequisites
+- **Python 3.12+** — macOS: `brew install python@3.12` (or [python.org]);
+  Windows: the [python.org] installer (tick "Add python.exe to PATH").
+- **Node 18+** *(only to rebuild the frontend)* — macOS: `brew install node`;
+  Windows: [nodejs.org].
+
+[python.org]: https://www.python.org/downloads/
+[nodejs.org]: https://nodejs.org/
+
+### Run the web app
+
+**macOS / Linux**
 ```bash
 python3 -m venv .venv
-./.venv/bin/pip install -r requirements.txt
-./.venv/bin/python app.py
+source .venv/bin/activate
+pip install -r requirements.txt
+python app.py
 ```
-Then open <http://localhost:5000>.
+
+**Windows (PowerShell)**
+```powershell
+py -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+python app.py
+```
+
+Then open <http://localhost:5000>. (With the venv active, the `python` command is
+the same on every OS — only the venv path differs.)
+
+### CLI
+With the venv active: `python main.py` — try `q50` · `civic si vs wrx` · `awd` · `over 400 hp`.
+
+### Rebuilding the frontend (only if you edit it)
+```bash
+cd frontend
+npm install
+npm run build        # writes frontend/dist, which Flask serves
+```
+
+### AI features
+The AI answer/compare/summary features call Anthropic. Set a key to enable them;
+without one the app runs a free "demo" stub.
+- macOS / Linux: `export ANTHROPIC_API_KEY=sk-...`
+- Windows (PowerShell): `$env:ANTHROPIC_API_KEY = "sk-..."`
+
+> `gunicorn` (in `requirements.txt`) is the Linux production server used on Render
+> and won't run on Windows — locally, just use `python app.py` on every OS.
 
 ### JSON API
 - `GET /api/cars` — list of car summaries

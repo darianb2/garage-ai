@@ -1,0 +1,37 @@
+{
+  "name": "Honda Accord (11th Gen)",
+  "engine": "1.5L turbo I4 (L15BE), 192 hp — 2.0L Atkinson I4 + two-motor hybrid, 204 hp combined",
+  "horsepower": 192,
+  "torque": "192 lb-ft (1.5T) · 247 lb-ft (hybrid drive motor)",
+  "drivetrain": "FWD",
+  "transmission": "CVT (1.5T) · e-CVT (Hybrid)",
+  "0_to_60": "~7.9 sec (1.5T) · ~6.5 sec (Hybrid)",
+  "fuel_economy": "29 city / 37 hwy mpg (1.5T) · ~46 city / 41 hwy mpg (Hybrid)",
+  "curb_weight": "~3,239–3,571 lbs",
+  "reliability": "9/10 — too new for a deep field record, but it carries Honda's proven 1.5T and the well-developed two-motor hybrid system, which is now the volume choice. Dropping the 2.0T and the manual narrows the lineup to efficient commuters. Early recalls have been minor (verify any open campaign by VIN).",
+  "cost_to_own": "Insurance: Average · Maintenance ~$400/yr · The hybrid's real-world economy is the headline running-cost win; the battery carries a long warranty",
+  "popular_mods": [
+    "All-weather liners and tasteful wheels with quality tires",
+    "Winter tires on a second set for cold-climate owners",
+    "Sound-deadening / interior tweaks for the long-commute crowd",
+    "Honest take: this generation is about efficiency and refinement — it's a commuter, not a mod platform"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Per the Maintenance Minder (~7,500 miles)",
+  "generations": {
+    "11th Gen (2023+)": "A simpler, hybrid-led lineup: a 1.5L turbo on lower trims and a stronger 204hp two-motor Hybrid on Sport/EX-L/Touring, which is now the volume seller. A larger Google built-in infotainment system up top; the old 2.0T and manual are gone.",
+    "Hybrid-first strategy": "Honda positioned the hybrid as the mainstream choice here, trading the previous 2.0T's outright pace for efficiency and refinement."
+  },
+  "common_issues": [
+    "Too new for a deep reliability record — track open recalls by VIN",
+    "Some early infotainment / Google built-in software quirks",
+    "More tire and road noise than a luxury sedan — a refinement gripe",
+    "Standard early-production fit-and-finish items, addressed under warranty"
+  ],
+  "maintenance_tips": [
+    "Keep the infotainment software updated on early cars",
+    "Run 0W-20 full synthetic on the Maintenance Minder",
+    "The hybrid battery is covered by a long warranty — no special owner upkeep beyond regular service",
+    "Cabin filter, brakes, and tire rotations are most of the routine cost"
+  ]
+}

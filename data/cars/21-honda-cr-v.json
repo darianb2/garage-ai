@@ -1,0 +1,40 @@
+{
+  "name": "Honda CR-V",
+  "engine": "1.5L turbo I4 (L15B7) — 2.4L naturally-aspirated I4 (K24W9) on the 2017 LX",
+  "horsepower": 190,
+  "torque": "179 lb-ft",
+  "drivetrain": "FWD or Real Time AWD",
+  "transmission": "CVT",
+  "0_to_60": "~7.5 sec",
+  "fuel_economy": "28 city / 34 hwy mpg (1.5T FWD) · 27 / 33 (AWD)",
+  "curb_weight": "~3,337–3,512 lbs (trim / AWD dependent)",
+  "reliability": "8/10 — among America's best-selling SUVs, so its raw NHTSA complaint count is large mostly by sales volume. The genuinely recurring, documented items are narrow: the early 1.5T's cold-climate oil dilution, which Honda addressed with a service bulletin and a powertrain-warranty extension, and 2017–2018 A/C condenser cracks, for which Honda extended coverage. Mechanically it's Honda-durable and cheap to keep.",
+  "cost_to_own": "Insurance: Low (family SUV, low theft/claim profile) · Maintenance ~$400/yr · Strong resale — quietly where the CR-V wins",
+  "popular_mods": [
+    "All-weather floor liners (WeatherTech / Husky) — the real 'first mod' for a daily SUV",
+    "Roof crossbars + cargo box (Yakima / Thule) for the family-hauler missions",
+    "A second set of wheels with dedicated winter tires — the single best 'performance' upgrade here",
+    "Trailer hitch + bike or cargo rack (rated ~1,500 lbs braked)",
+    "Honest take: the CR-V is an appliance, not a mod platform — money is better spent on good tires and on-time maintenance than on power"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Per the Maintenance Minder (~7,500 miles) — don't stretch it on the 1.5T",
+  "generations": {
+    "5th Gen (2017–2022)": "The volume CR-V most shoppers cross-shop against the RAV4. 1.5L turbo (190 hp) from EX on up; the 2017 LX kept the older 2.4L naturally-aspirated four. CVT only. Roomy, efficient, and genuinely pleasant to live with, with Honda Sensing driver-assist standard on most trims.",
+    "Hybrid added (2020+)": "A two-motor CR-V Hybrid joined the lineup for 2020 (~38+ mpg city) for buyers who want the efficiency without plugging in.",
+    "Replaced by the 6th Gen (2023+)": "The 2023 redesign grew the CR-V and leaned harder into the hybrid, which makes a clean 2019–2022 1.5T the value sweet spot on the used market."
+  },
+  "common_issues": [
+    "1.5T oil dilution: fuel can wash into the oil during short, cold-weather trips — watch for a rising oil level and a fuel smell, worst on early 2017–2018 cars before Honda's fix",
+    "A/C condenser failures on 2017–2018 (stress cracks / debris) — a common, well-documented CR-V and Civic-era complaint",
+    "Infotainment lag and the deleted volume knob on pre-refresh units (the knob returned in the 2020 update)",
+    "More road and wind noise than some rivals — a comfort gripe, not a mechanical one"
+  ],
+  "maintenance_tips": [
+    "Change the oil on time and check the level between changes if you do short cold-weather hops — that's the 1.5T's one real quirk",
+    "Cold-climate owners: get the dealer software update and let the engine warm up properly before short trips",
+    "Service the CVT fluid with genuine Honda HCF-2 around 30–40k miles — CVTs go the distance when you actually service them",
+    "Budget for the A/C condenser on an early car if it hasn't already been replaced",
+    "Beyond that it's cabin filters, brakes, and tire rotations — this is a cheap car to keep"
+  ]
+}

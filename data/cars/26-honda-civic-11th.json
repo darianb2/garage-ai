@@ -1,0 +1,37 @@
+{
+  "name": "Honda Civic (11th Gen)",
+  "engine": "1.5L turbo I4 (L15CA) on EX/Touring — 2.0L naturally-aspirated I4 (K20C2) on LX/Sport",
+  "horsepower": 180,
+  "torque": "177 lb-ft (1.5T) · 138 lb-ft (2.0L)",
+  "drivetrain": "FWD",
+  "transmission": "CVT (the Si and Type R are separate 6-speed manuals)",
+  "0_to_60": "~7.0 sec (1.5T) · ~8.0 sec (2.0L)",
+  "fuel_economy": "31 city / 40 hwy mpg (1.5T)",
+  "curb_weight": "~2,877–3,077 lbs",
+  "reliability": "9/10 — too new for a long field record, but it carries over the proven 2.0L and 1.5T engines and the CVT from the 10th gen, and the early-1.5T cold-climate oil dilution was sorted generations earlier. Recalls so far have been minor (verify any open campaign by VIN). The interior quality took a clear step up.",
+  "cost_to_own": "Insurance: Low to average · Maintenance ~$350/yr · Strong resale and still cheap to run",
+  "popular_mods": [
+    "Winter tires on a second set of wheels for cold-climate owners",
+    "All-weather liners and tasteful wheel/tire packages",
+    "Hondata flash on the 1.5T for those who want a little more — a real, small tuning path shared with the Si",
+    "Honest take: the sporty Si and track-ready Type R are the enthusiast versions; the base car is a refined, dependable daily"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Per the Maintenance Minder (~7,500 miles)",
+  "generations": {
+    "11th Gen (2022+)": "Cleaner, more grown-up styling and a genuinely improved interior with real physical controls. Carryover 2.0L (158hp) and 1.5T (180hp) engines with a CVT, in sedan and hatchback bodies; the Si and Type R sit above it.",
+    "Sport-trim hierarchy": "LX and Sport get the 2.0L; EX and Touring get the 1.5T. The Si (1.5T, 6-speed) and Type R (2.0T, 6-speed) are separate enthusiast models."
+  },
+  "common_issues": [
+    "Too new for a deep reliability record — track open recalls by VIN",
+    "Occasional early infotainment/software quirks (improved via updates)",
+    "Soft factory paint and easily-curbed alloy wheels — cosmetic",
+    "Road noise on coarse surfaces, typical of the class"
+  ],
+  "maintenance_tips": [
+    "Keep the infotainment and control software updated on early cars",
+    "Run 0W-20 full synthetic on the Maintenance Minder",
+    "Service the CVT fluid with genuine Honda HCF-2 around 30–40k miles",
+    "Cabin filter, brakes, and tire rotations are most of the upkeep"
+  ]
+}

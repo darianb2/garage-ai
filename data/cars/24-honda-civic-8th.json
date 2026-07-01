@@ -1,0 +1,38 @@
+{
+  "name": "Honda Civic (8th Gen)",
+  "engine": "1.8L SOHC i-VTEC I4 (R18A1) on DX/LX/EX — 2.0L DOHC i-VTEC I4 (K20Z3) in the Si",
+  "horsepower": 140,
+  "torque": "128 lb-ft (1.8L) · 139 lb-ft (Si 2.0L)",
+  "drivetrain": "FWD",
+  "transmission": "5-speed automatic or 5-speed manual (1.8L) · 6-speed manual (Si)",
+  "0_to_60": "~8.5 sec (1.8L) · ~6.7 sec (Si)",
+  "fuel_economy": "25 city / 36 hwy mpg (1.8L automatic)",
+  "curb_weight": "~2,588–2,877 lbs",
+  "reliability": "9/10 — a famously durable commuter, with two documented things to check. Some 2006–2009 1.8L engines developed coolant-leaking block cracks, and Honda extended that powertrain warranty to 8 years/unlimited miles in response. This generation also falls under the industry-wide Takata airbag-inflator recall — confirm by VIN that it has been completed. Past those, the R18 drivetrain runs near-forever.",
+  "cost_to_own": "Insurance: Low · Maintenance ~$350/yr · Cheap parts and legendary economy-car resale",
+  "popular_mods": [
+    "Quality all-season or a dedicated winter-tire set — the real-world upgrade on a commuter",
+    "All-weather floor liners and a cargo tray",
+    "OEM refresh items (struts, bushings, mounts) on high-mileage cars",
+    "Tasteful 16–17\" wheels with good tires",
+    "Honest take: the Si (K20) is the tuner Civic — the R18 cars are best kept stock, reliable, and cheap"
+  ],
+  "oil_type": "5W-20 synthetic blend (R18) — confirm by trim/year",
+  "oil_interval": "Every 5,000–7,500 miles (per the Maintenance Minder)",
+  "generations": {
+    "8th Gen (2006–2011)": "Sold as a sedan and a coupe with the 140hp 1.8L R18; the Si (sedan and coupe) used the 197hp 2.0L K20Z3 with a 6-speed manual and a limited-slip differential. A futuristic two-tier dash, a huge greenhouse, and a 200k-mile reputation.",
+    "2009 mid-cycle update": "Light styling and equipment revisions; mechanicals carried over."
+  },
+  "common_issues": [
+    "2006–2009 1.8L engine block hairline cracks (coolant loss) — Honda extended the powertrain warranty to 8yr/unlimited",
+    "Takata airbag-inflator recall (this generation is included) — verify completion by VIN",
+    "Front tire inner-edge wear from alignment/camber — budget for alignments and tires",
+    "Aging A/C compressor and soft factory paint on high-mileage cars"
+  ],
+  "maintenance_tips": [
+    "Confirm the Takata airbag recall has been done before anything else",
+    "Watch the coolant level on a 2006–2009 car and keep the warranty-repair paperwork if it was done",
+    "Keep the alignment in spec to save front tires",
+    "The R18 is a timing-chain engine (no belt service) but has adjustable valves — check clearances around 100k"
+  ]
+}

@@ -265,12 +265,12 @@ def record_hit():
     """Increment and return the homepage visit count (thread-safe within a worker)."""
     with _hits_lock:
         try:
-            with open(HITS_FILE) as f:
+            with open(HITS_FILE, encoding="utf-8") as f:
                 count = int(f.read().strip() or 0)
         except (FileNotFoundError, ValueError):
             count = 0
         count += 1
-        with open(HITS_FILE, "w") as f:
+        with open(HITS_FILE, "w", encoding="utf-8") as f:
             f.write(str(count))
         return count
 
@@ -760,6 +760,16 @@ CURATED_SPEC_BINDINGS = {
     # MX-5 ND: 2016-18 (ND1) made 155hp; the curated file carries the 181hp ND2
     # figure (2019+). Bound for the whole ND run but flagged for review.
     ("mazda", "mx-5 miata"):   [(2016, 9999, "Mazda MX-5 Miata")],    # ND
+    # --- Mainstream mix — Honda (Task 9, brand-by-brand curated coverage) ---
+    ("honda", "cr-v"):    [(2017, 2022, "Honda CR-V")],              # 5th gen (RW); 6th gen 2023+ unbound
+    ("honda", "civic"):   [(2006, 2011, "Honda Civic (8th Gen)"),   # FA/FG
+                           (2012, 2015, "Honda Civic (9th Gen)"),   # FB
+                           (2016, 2021, "Honda Civic (10th Gen)"),  # FC
+                           (2022, 9999, "Honda Civic (11th Gen)")], # FE/FL (Civic Si / Type R are separate models)
+    ("honda", "accord"):  [(2008, 2012, "Honda Accord (8th Gen)"),  # CP/CS
+                           (2013, 2017, "Honda Accord (9th Gen)"),  # CR/CT (V6 detailed on the Accord V6 page)
+                           (2018, 2022, "Honda Accord (10th Gen)"), # CV
+                           (2023, 9999, "Honda Accord (11th Gen)")],# CY
 }
 
 
