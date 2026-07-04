@@ -37,5 +37,31 @@
     "Budget for tires and brakes like an exotic",
     "Go easy on launch control on early cars; later boxes are tougher",
     "Use a GT-R specialist who knows the VR38 and GR6"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "VR38DETT — 3.8L twin-turbo V6, each unit hand-assembled and signed by a single Takumi master builder. 565 hp (2017) and genuinely stout.",
+      "watch": "Very reliable when serviced on schedule; keep oil intervals short with any track use."
+    },
+    "drivetrain": {
+      "detail": "GR6 6-speed dual-clutch mounted as a rear transaxle, fed by the ATTESA E-TS AWD system — the key to the launch and the 50:50-capable balance.",
+      "watch": "The transaxle is the real cost: fluid service on schedule is non-negotiable, and hard launches wear the early (2009-2010) boxes."
+    },
+    "suspension": {
+      "detail": "Bilstein DampTronic adjustable dampers with a multilink layout — supercar grip with a genuine comfort mode.",
+      "watch": "Dampers and bushings are expensive, and the alignment is fussy after any suspension work."
+    },
+    "brakes": {
+      "detail": "Big Brembo monobloc calipers on vented, drilled rotors (carbon-ceramics offered on later cars).",
+      "watch": "Rotors and pads are exotic-car expensive and wear quickly with track use."
+    },
+    "fuel": {
+      "detail": "High-pressure injection feeding the twin turbos; the stock fuel system supports large tuner gains.",
+      "watch": "E85 and upgraded pumps/injectors are the path for high-power (700-1,000+ whp) builds."
+    },
+    "body": {
+      "detail": "Steel, aluminum, and composite body — heavy at ~3,930 lbs but slippery and planted.",
+      "watch": "Front-end stone chips and costly body panels; with the R35 it's consumables and running cost, not faults, that bite."
+    }
+  }
 }

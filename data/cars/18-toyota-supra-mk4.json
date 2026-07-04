@@ -37,5 +37,31 @@
     "Stay on top of targa seals and treat any rust early",
     "Don't over-boost the stock sequential turbos - upgrade fueling before chasing power",
     "Use quality fluids on schedule; overbuilt doesn't mean maintenance-free"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "2JZ-GTE — 3.0L sequential-twin-turbo inline-six, 320 hp stock. A closed-deck iron block and forged crank make it legendarily overbuilt, reliably good for 600-700 whp on the stock bottom end.",
+      "watch": "Age, not engineering: aging turbos and hoses, and period R12 A/C. Verify condition with a compression and leakdown test."
+    },
+    "drivetrain": {
+      "detail": "Getrag-built V160 6-speed manual (the one to have) or a 4-speed automatic, driving the rear wheels through a Torsen limited-slip differential.",
+      "watch": "The V160 is stout but expensive to replace; clutches on hard-driven and modified cars are a common wear item."
+    },
+    "suspension": {
+      "detail": "Double-wishbone front and rear — a genuine sports-car chassis beneath the grand-touring bodywork.",
+      "watch": "Tired bushings and shocks on 25-plus-year-old cars; a full refresh restores the intended handling."
+    },
+    "brakes": {
+      "detail": "Large vented discs front and rear — strong for the era and easily upgraded.",
+      "watch": "Warped rotors and aged flexible lines; upgrade for track use or big-power builds."
+    },
+    "fuel": {
+      "detail": "Factory EFI feeding the sequential turbos — the stock fuel system, not the block, is the first ceiling.",
+      "watch": "Upgrade injectors and the fuel pump before chasing boost; fueling limits power long before the 2JZ does."
+    },
+    "body": {
+      "detail": "Steel unibody with a lift-out targa top; clean examples have appreciated hard ($80k-$150k+).",
+      "watch": "Rust at the rear hatch, wheel arches, and battery tray; hardened targa seals leak, rattle, and let in wind noise."
+    }
+  }
 }

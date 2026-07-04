@@ -40,5 +40,31 @@
     "Rebuild or refresh VANOS if you hear the telltale rattle",
     "Use the specified 10W-60 and don't stretch oil intervals",
     "Replace cooling-system components proactively before they strand you"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "S54B32 — 3.2L naturally aspirated inline-six with six individual throttle bodies and double-VANOS, 333 hp (US) at a screaming 8,000 rpm. One of the all-time-great NA sixes.",
+      "watch": "Rod bearings wear from tight factory clearances — preventive replacement is the accepted fix — plus VANOS rattle and aging cooling-system plastics."
+    },
+    "drivetrain": {
+      "detail": "Getrag 420G 6-speed manual or the automated-clutch SMG II, driving the rear wheels through a limited-slip differential.",
+      "watch": "SMG hydraulic pump and actuator failures plague SMG cars; many owners convert to the manual."
+    },
+    "suspension": {
+      "detail": "MacPherson-strut front and multilink rear — the sharp, communicative chassis that set the sport-coupe benchmark.",
+      "watch": "Worn front control-arm and rear trailing-arm bushings dull the steering; refresh them with age."
+    },
+    "brakes": {
+      "detail": "Vented discs at all four corners — strong and genuinely track-capable with the right pads and fluid.",
+      "watch": "Warped or cracked rotors on track-used cars; upgrade pads and fluid before lapping."
+    },
+    "electrical": {
+      "detail": "Early-2000s BMW electronics — robust in design but now aging hardware.",
+      "watch": "Failing window regulators, pixel loss in the cluster/on-board-computer display, and tired cooling-fan electronics."
+    },
+    "body": {
+      "detail": "Steel unibody coupe or convertible — now an appreciating modern classic.",
+      "watch": "The signature E46 M3 flaw: rear subframe mounting points crack where they meet the chassis floor — inspect and reinforce with plates."
+    }
+  }
 }

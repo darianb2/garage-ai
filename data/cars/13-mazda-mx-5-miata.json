@@ -36,5 +36,27 @@
     "NA/NB: replace the timing belt every 60k miles (NC/ND use a maintenance-free chain)",
     "Refresh cooling-system plastics on NA/NB to prevent leaks",
     "Keep up with oil changes — these engines last forever if maintained"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "2.0L Skyactiv-G naturally aspirated four — 181 hp at 7,000 rpm in the ND2 (155 hp in the 2016-2018 ND1). Free-revving and nearly unbreakable.",
+      "watch": "Genuinely durable; just keep up with oil changes and it lasts."
+    },
+    "drivetrain": {
+      "detail": "A slick 6-speed manual (the one to have) or a 6-speed automatic, driving the rear wheels through a limited-slip differential on Club and GT trims.",
+      "watch": "Very reliable — the short, notchy shifter is the whole point."
+    },
+    "suspension": {
+      "detail": "Double-wishbone front and multilink rear — light, tossable, and the entire reason the car exists.",
+      "watch": "Refresh bushings and dampers on high-mile cars to keep the sharpness; coilovers and sway bars are the classic first mod."
+    },
+    "brakes": {
+      "detail": "Vented front and solid rear discs — more than enough stopping power for a ~2,350 lb car.",
+      "watch": "Pads and fluid are the only upgrade needed for track days."
+    },
+    "body": {
+      "detail": "Featherweight steel unibody roadster (soft-top ~2,345 lbs; RF retractable fastback ~2,450). Aluminum hood and trunk trim weight.",
+      "watch": "Rock chips and soft-top window/seal wear with age; rust is the enemy on older Miatas, far less so on the galvanized ND."
+    }
+  }
 }

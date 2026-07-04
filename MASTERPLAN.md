@@ -294,10 +294,20 @@ Strategy: PERFECT 4 launch cars end-to-end, then scale the same template behind 
   live complaint/recall data (the layer future 3D hotspots will surface).
 
 ### 8.2 Data spine for the 4 cars
-- [ ] Lock the 4; assemble full profiles (specs + reliability + recalls/complaints/safety)
-      Note: real specs for RX-7 FD, S2000, Supra Mk4 already researched (web-verified)
-- [ ] Define a per-car "systems map" schema (engine, drivetrain, suspension, brakes,
-      electrical...) so 3D hotspots can bind to data
+- [x] Lock the 4; assemble full profiles (specs + reliability + recalls/complaints/safety).
+      All 4 launch cars (Miata ND, Supra A80, M3 E46, GT-R R35) have curated 16-field
+      JSONs, and every spec field was web-verified against OEM / Car and Driver / EPA
+      (2026-07): corrected Supra fuel economy (15/22 turbo), M3 highway mpg (coupe
+      16/24), GT-R generation dates (R35 ended Aug 2025). Live NHTSA data comes from
+      the profile engine on demand.
+- [x] Per-car "systems map" schema — each launch car's JSON now carries a
+      `systems_map`: { <system key> -> { detail, watch } } keyed to the shared
+      lib/systems.js keys (engine/drivetrain/suspension/brakes/electrical/fuel/body).
+      `computeSystems()` merges it (via profile.specs) so BOTH the 3D hotspot detail
+      panel and the Mechanical Breakdown cards show curated "what it is / what to
+      watch" text alongside live NHTSA counts. Uncurated cars fall back to the
+      NHTSA-only view. This upgrades the 8.4 hotspots from generic NHTSA-derived to
+      real per-car mechanical detail.
 
 ### 8.3 Interactive 3D viewer
 - [x] Integrate Three.js / react-three-fiber; orbit / zoom / rotate (DONE 2026-06-27)

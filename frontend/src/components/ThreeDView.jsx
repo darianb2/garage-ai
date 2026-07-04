@@ -65,7 +65,17 @@ export default function ThreeDView({ profile, vehicle }) {
               close
             </button>
           </div>
-          <div className="mt-1 flex flex-wrap gap-4 text-sm text-zinc-300">
+          {sel.curated && (
+            <div className="mt-1">
+              <p className="text-sm text-zinc-200">{sel.curated.detail}</p>
+              {sel.curated.watch && (
+                <p className="mt-1 text-xs text-amber-500/90">
+                  <span className="font-semibold">Watch:</span> {sel.curated.watch}
+                </p>
+              )}
+            </div>
+          )}
+          <div className="mt-2 flex flex-wrap gap-4 text-sm text-zinc-300">
             <span>
               <b className="text-amber-500">{sel.issueCount}</b> owner complaint{sel.issueCount === 1 ? "" : "s"}
             </span>

@@ -26,15 +26,21 @@ export const SYSTEMS = [
   { key: "body", label: "Body & Exterior", match: ["body", "structure", "exterior", "latch", "door", "wheel", "tire"] },
 ];
 
-// For a profile, return each system with its live complaint count + matching recalls.
+// For a profile, return each system with its live complaint count + matching
+// recalls, plus any curated per-car detail. `curated` comes from the car's
+// hand-written systems_map (in the curated JSON, surfaced as profile.specs) and
+// is { detail, watch } — what the system actually IS on this car and its known
+// weak point. Cars we haven't curated simply have curated: null and fall back to
+// the NHTSA-derived view.
 export function computeSystems(profile) {
   const issues = profile?.common_issues || []; // [[componentName, count], ...]
   const recalls = profile?.recalls || [];
+  const map = profile?.specs?.systems_map || {};
   return SYSTEMS.map((sys) => {
     const issueCount = issues
       .filter(([name]) => hits(name, sys.match))
       .reduce((sum, [, count]) => sum + count, 0);
     const sysRecalls = recalls.filter((r) => hits(r.component, sys.match));
-    return { ...sys, issueCount, recalls: sysRecalls };
+    return { ...sys, issueCount, recalls: sysRecalls, curated: map[sys.key] || null };
   });
 }

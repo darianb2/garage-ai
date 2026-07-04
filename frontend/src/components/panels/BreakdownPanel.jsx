@@ -6,15 +6,17 @@ import { computeSystems } from "../../lib/systems";
 export default function BreakdownPanel({ profile }) {
   const systems = computeSystems(profile);
   const max = Math.max(1, ...systems.map((s) => s.issueCount));
+  const hasCurated = systems.some((s) => s.curated);
 
   return (
     <div>
       <Card className="mb-4 p-4">
         <p className="text-sm text-zinc-400">
-          Each major system is bound to live NHTSA data for this car — owner-complaint
-          volume and open recalls.{" "}
+          {hasCurated
+            ? "Curated breakdown of each major system on this car — what the hardware is and what to watch — alongside live NHTSA owner-complaint and recall data."
+            : "Each major system is bound to live NHTSA data for this car — owner-complaint volume and open recalls."}{" "}
           <span className="text-zinc-500">
-            The 3D Model tab shows the same data as clickable hotspots on the car.
+            The 3D Model tab shows the same systems as clickable hotspots on the car.
           </span>
         </p>
       </Card>
@@ -34,6 +36,16 @@ export default function BreakdownPanel({ profile }) {
                   </Badge>
                 )}
               </div>
+              {sys.curated && (
+                <div className="mt-2">
+                  <p className="text-sm text-zinc-300">{sys.curated.detail}</p>
+                  {sys.curated.watch && (
+                    <p className="mt-1 text-xs text-amber-500/90">
+                      <span className="font-semibold">Watch:</span> {sys.curated.watch}
+                    </p>
+                  )}
+                </div>
+              )}
               <div className="mt-2 h-1.5 rounded bg-zinc-800">
                 <div
                   className={`h-1.5 rounded ${clean ? "bg-emerald-500/40" : "bg-amber-500"}`}
