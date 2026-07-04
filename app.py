@@ -799,6 +799,11 @@ CURATED_SPEC_BINDINGS = {
     ("toyota", "tundra"):        [(2022, 9999, "Toyota Tundra")],        # 3rd gen twin-turbo; 2nd gen 5.7 V8 unbound
     ("toyota", "corolla cross"): [(2022, 9999, "Toyota Corolla Cross")], # 1st gen
     ("toyota", "yaris"):         [(2016, 2020, "Toyota Yaris")],         # Mazda2-based US cars; older Toyota-built unbound
+    # --- Toyota enthusiast icons (Task 9 spec-gap fill) ---
+    ("toyota", "gr corolla"): [(2023, 9999, "Toyota GR Corolla")],              # E210 G16E-GTS three-cylinder
+    ("toyota", "mr2"):        [(1991, 1999, "Toyota MR2 (SW20)")],              # SW20 (AW11 stays unbound)
+    ("toyota", "mr2 spyder"): [(2000, 2007, "Toyota MR2 Spyder")],             # ZZW30
+    ("toyota", "celica"):     [(1994, 1999, "Toyota Celica GT-Four (ST205)")], # ST205 homologation (regular Celicas stay unbound)
 }
 
 

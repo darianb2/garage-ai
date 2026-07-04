@@ -1,0 +1,40 @@
+{
+  "name": "Toyota GR Corolla",
+  "engine": "1.6L turbocharged I3 (G16E-GTS), 300 hp @ 6,500 rpm",
+  "horsepower": 300,
+  "torque": "273 lb-ft @ 3,000–5,500 rpm (295 lb-ft on the 2025 8-speed automatic)",
+  "drivetrain": "AWD (GR-FOUR, with 60:40 / 50:50 / 30:70 selectable front-rear torque split)",
+  "transmission": "6-speed intelligent manual (iMT, with auto rev-match) · an 8-speed automatic (GR-DAT) was added for 2025",
+  "0_to_60": "~4.9–5.0 sec (manual) · ~4.9 sec (automatic)",
+  "fuel_economy": "21 city / 28 hwy mpg (manual)",
+  "curb_weight": "~3,175–3,285 lbs (the stripped, rear-seat-delete Morizo Edition is the lightest)",
+  "reliability": "8/10 — the G16E-GTS is the most powerful production three-cylinder ever sold, and it has held up well: independent testing and KBB give it top marks, and there are no widespread catastrophic-failure patterns despite the huge specific output. The caveats are that it is a young, high-strung platform running a lot of boost through a small engine, and a few very public cases (including two engine fires) saw Toyota deny warranty claims — rare, but a reminder to buy one with a clean, documented history. Treat it as a hard-driven performance car, not a Corolla.",
+  "cost_to_own": "Insurance: High (300 hp AWD performance car) · Maintenance ~$450–600/yr · Turbo-AWD running costs (tires, brakes, clutch on tracked cars) run higher than a normal Corolla · Strong demand keeps resale high",
+  "popular_mods": [
+    "A tune / higher-octane calibration — the G16E responds well and there is real headroom on E85",
+    "An upgraded intercooler and intake to keep intake temps down on repeated hard runs",
+    "A cat-back or turbo-back exhaust for the three-cylinder's distinctive off-beat note",
+    "Sticky 200-treadwear tires and pads — the GR-FOUR chassis rewards grip and cooling more than power",
+    "Honest take: it is quick and capable stock; sort cooling, tires, and brakes before chasing more boost"
+  ],
+  "oil_type": "0W-20 full synthetic",
+  "oil_interval": "Every 5,000 miles (or sooner with track use — this engine works hard)",
+  "generations": {
+    "Core / Circuit / Morizo (2023)": "The launch cars. Core is the value pick; Circuit adds a forged carbon roof, vents, and a rear spoiler; the limited Morizo Edition deletes the rear seat, shortens the gearing, and adds chassis bracing for a lighter, sharper track weapon.",
+    "2024–present": "Largely carryover on the manual, with a Premium grade added and running refinements. For 2025 Toyota added the 8-speed GR-DAT automatic (with a small torque bump) and light suspension/cooling updates, broadening the car's appeal beyond three-pedal buyers."
+  },
+  "common_issues": [
+    "A young, high-output platform — long-term durability data is still thin compared with a mainstream Corolla",
+    "A few high-profile warranty disputes (including engine fires) where Toyota denied claims — uncommon, but check history",
+    "Real heat generation under sustained track use; intake temps and brake fade are the limits to manage",
+    "Firm, buzzy three-cylinder character and a busy ride — this is a rally-bred hatch, not a quiet commuter",
+    "High demand meant markups and limited allocation, especially on the Morizo Edition"
+  ],
+  "maintenance_tips": [
+    "Change the oil on a short interval with the specified 0W-20 synthetic, and shorter still if you track it",
+    "Let the turbo three warm up before boost and cool down after hard runs before shutting off",
+    "Watch intake and coolant temps on track; add cooling before adding power",
+    "Keep every service record — documented history matters a lot on a warranty-sensitive performance car",
+    "Inspect the clutch, brakes, and tires regularly on any car that has seen track or autocross use"
+  ]
+}

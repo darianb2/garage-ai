@@ -212,7 +212,10 @@ JSON cars stay as the specs source until that paid API lands.
       card links to `/profile?make=&model=&year=` and auto-runs the engine
 - [x] Homepage links to the catalog
 - [x] First batch: 126 cars (JDM / German / American / hot hatch / classics)
-- [ ] Grow the catalog toward ~500 in further batches (add tuples + rerun script)
+- [~] Grow the catalog toward ~500 in further batches (add tuples + rerun script) —
+      now at 163. Brand-by-brand curated-spec coverage: Honda (29 entries) and
+      Toyota (21 entries) are fully curated, including enthusiast icons
+      (S2000/NSX/Prelude/CRX; GR Corolla, MR2 SW20, MR2 Spyder, Celica GT-Four ST205).
 - [ ] Known limit: curated-specs match is make+model substring, so a catalog
       entry can pull specs from a different generation of the same model
       (e.g. A80 Supra shows GR Supra specs). Make it generation-aware later.

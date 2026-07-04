@@ -1,0 +1,41 @@
+{
+  "name": "Toyota MR2 (SW20)",
+  "engine": "2.0L turbocharged I4 (3S-GTE) on the Turbo · 2.2L NA I4 (5S-FE) on the base US car",
+  "horsepower": 200,
+  "torque": "200 lb-ft @ 3,200 rpm (US Turbo); JDM Rev3/Rev4 cars made ~245 PS / 224 lb-ft",
+  "drivetrain": "RWD (mid-engine, transverse)",
+  "transmission": "5-speed manual (a 4-speed automatic was offered on lower trims)",
+  "0_to_60": "~6.1 sec (US Turbo) · ~7.5–8 sec (NA)",
+  "fuel_economy": "~18 city / 24 hwy mpg (Turbo)",
+  "curb_weight": "~2,800 lbs (Turbo)",
+  "reliability": "8/10 — the 3S-GTE is a stout, iron-block turbo four that responds hugely to boost and takes abuse well, and the SW20 is generally dependable for a 30-year-old mid-engine sports car. The famous asterisk is handling, not the engine: the early Rev1 cars (1991–1992) had genuine snap-oversteer that Toyota fixed with wider rear tires and revised suspension from Rev2 on. The other realities are age-related — cooling lines that run the length of the car, and turbo/clutch wear on hard-used examples. A sorted later-revision car is a joy.",
+  "cost_to_own": "Insurance: Moderate–High (turbo sports coupe, rising values) · Maintenance ~$600/yr and climbing as parts get scarce · Clean Turbos are appreciating collector cars now, so originality and history pay",
+  "popular_mods": [
+    "A Rev2+ suspension setup or quality coilovers with a proper alignment — tames the early cars' tail",
+    "A larger front-mount intercooler and boost controller — the 3S-GTE loves air and responds fast",
+    "A CT20b or aftermarket turbo upgrade for owners chasing 300+ hp reliably",
+    "Fresh coolant hard-lines and hoses — the long mid-engine cooling runs are a known age item",
+    "Honest take: fix the chassis and cooling first; the engine will happily make power once the basics are sorted"
+  ],
+  "oil_type": "5W-30 synthetic (10W-30 acceptable in warm climates)",
+  "oil_interval": "Every 3,000–5,000 miles (shorter on a boosted, tracked car)",
+  "generations": {
+    "Rev1 (1991–1992 US)": "The original SW20 Turbo — 200 hp, sharp looks, and the notorious lift-off snap-oversteer from narrow rear tires and the mid-engine mass. Thrilling but demands respect.",
+    "Rev2 (1993–1995 US)": "The fix: wider rear tires, revised suspension geometry, bigger brakes, and a stiffer body. Much more planted and the sweet spot for US buyers.",
+    "Rev3–Rev5 (1994–1999 JDM)": "Japan kept the car alive with more power (~245 PS), a stronger gearbox, and detail improvements. These later JDM Turbos are the most desirable SW20s and increasingly imported."
+  },
+  "common_issues": [
+    "Rev1 snap (lift-off) oversteer — a chassis trait, resolved from Rev2 onward",
+    "Aging mid-engine cooling system — the long coolant hard-lines and hoses corrode and leak with age",
+    "Turbo and clutch wear on hard-driven or boosted cars; verify boost history",
+    "Rust on early cars in salt climates — check the rockers, floors, and rear frame",
+    "Parts scarcity for some Turbo-specific and interior pieces as the cars age"
+  ],
+  "maintenance_tips": [
+    "Refresh the entire cooling system (hard-lines, hoses, thermostat) on any car with unknown history",
+    "Keep boost sensible on a stock engine and use good synthetic oil — the 3S-GTE is tough but heat-sensitive",
+    "Fit later-spec suspension or a proper alignment before pushing an early car hard",
+    "Inspect the clutch and check for even, healthy boost with no smoke on spool-up",
+    "Preserve originality and paperwork — later JDM revisions and clean US Turbos are appreciating fast"
+  ]
+}

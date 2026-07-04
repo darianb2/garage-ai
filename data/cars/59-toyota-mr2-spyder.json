@@ -1,0 +1,40 @@
+{
+  "name": "Toyota MR2 Spyder",
+  "engine": "1.8L NA I4 (1ZZ-FE), 138 hp @ 6,400 rpm",
+  "horsepower": 138,
+  "torque": "125 lb-ft @ 4,400 rpm",
+  "drivetrain": "RWD (mid-engine, transverse)",
+  "transmission": "5-speed manual (2000–01) · 5-speed or a 6-speed SMT sequential-manual (2002–05)",
+  "0_to_60": "~6.8–7.5 sec",
+  "fuel_economy": "~25 city / 30 hwy mpg",
+  "curb_weight": "~2,195 lbs",
+  "reliability": "8/10 — the ZZW30 is the lightest, simplest MR2 and, kept in tune, a dependable little roadster whose low weight flatters its modest power. Two things define ownership. First, the pre-2003 1ZZ-FE is a known oil-burner: the original piston-ring design can consume oil, so you check the level religiously and value a car with the updated rings. Second, the early SMT automated-manual is the weak point — jerky and expensive to fix — so the plain 5-speed manual is the one to buy. Do those two things and it is cheap, tossable fun.",
+  "cost_to_own": "Insurance: Moderate (small two-seat convertible) · Maintenance ~$450/yr · Excellent fuel economy for a sports car · Values are firming as the last, cheapest mid-engine Toyota — clean manuals lead",
+  "popular_mods": [
+    "A hardtop and a wind deflector — the biggest comfort and refinement upgrade for the open car",
+    "Quality coilovers and a sway-bar set — the light chassis sharpens up beautifully",
+    "Sticky 200-treadwear tires — grip transforms a 2,200 lb car more than horsepower would",
+    "A modest intake/header/exhaust for a little more sound and response (big power means an engine swap)",
+    "Honest take: this car is about lightness and balance, not power — spend on suspension, tires, and a manual, not a turbo"
+  ],
+  "oil_type": "5W-30 synthetic",
+  "oil_interval": "Every 5,000 miles — and check the level often on pre-2003 cars",
+  "generations": {
+    "2000–2002": "The launch Spyder — 138 hp 1ZZ-FE, 5-speed manual, and a featherweight ~2,200 lb curb weight. Pure, simple mid-engine convertible fun. Early 1ZZ engines are the most prone to oil consumption.",
+    "2003–2005": "Late US cars got the updated pistons/rings that largely cured the oil burning, minor styling and interior tweaks, and remain the ones to seek out. A 6-speed SMT was optional from 2002 but the manual is preferred."
+  },
+  "common_issues": [
+    "Pre-2003 1ZZ-FE oil consumption — check the oil level often; updated rings on later cars fixed most cases",
+    "The SMT sequential automated-manual is jerky and costly to repair — favor the conventional 5-speed",
+    "Convertible-top wear and rear-window clouding with age and sun",
+    "Pre-cat material can break down and be ingested on high-mile 1ZZ engines — a known Toyota-four concern",
+    "Very small cabin and no cargo space to speak of — a weekend toy, not a daily hauler"
+  ],
+  "maintenance_tips": [
+    "Check the oil level every couple of fill-ups on any pre-2003 car and top up promptly",
+    "Buy the 5-speed manual; budget for specialist repair if you take on an SMT car",
+    "Keep the convertible top clean and treated, and store it out of the sun when possible",
+    "Address the pre-cat concern proactively on high-mile engines to protect the cylinders",
+    "Otherwise it is basic, cheap upkeep — this is one of the most affordable mid-engine cars to own"
+  ]
+}

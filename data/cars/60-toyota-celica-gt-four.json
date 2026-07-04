@@ -1,0 +1,40 @@
+{
+  "name": "Toyota Celica GT-Four (ST205)",
+  "engine": "2.0L turbocharged I4 (3S-GTE) with the twin-entry CT20b turbo, ~239 hp (export) / 252–255 PS (JDM)",
+  "horsepower": 239,
+  "torque": "223 lb-ft @ 4,000 rpm",
+  "drivetrain": "AWD (full-time, with a Torsen center differential)",
+  "transmission": "5-speed manual",
+  "0_to_60": "~5.9 sec",
+  "fuel_economy": "Not US-EPA rated (JDM/Euro homologation car); real-world ~20–24 mpg",
+  "curb_weight": "~3,150 lbs",
+  "reliability": "8/10 — the ST205 is a rally homologation special built in strictly limited numbers (about 2,500 to satisfy Group A WRC rules), so it is rarer and more specialized than a normal Celica. Mechanically the 3S-GTE turbo four is proven and strong, but this version runs more boost and hardware — the water-to-air intercooler, the twin-entry CT20b turbo, and a genuine AWD driveline — all of which need care on a car now 30 years old. The bigger ownership challenge is parts: many GT-Four-specific and homologation pieces are scarce and expensive. A well-maintained example is a special, appreciating collector car.",
+  "cost_to_own": "Insurance: High (rare turbo-AWD collector/import) · Maintenance ~$800/yr and rising with parts scarcity · A genuine appreciating homologation special — provenance, originality, and a documented history drive value",
+  "popular_mods": [
+    "A front-mount intercooler upgrade — the factory water-to-air setup heat-soaks under sustained load",
+    "A boost controller and supporting fueling for a safe, modest power bump on the stout 3S-GTE",
+    "Refreshed AWD driveline service (center diff, couplings) — keep the rally hardware healthy",
+    "Suspension refresh with quality dampers to restore the rally-bred handling",
+    "Honest take: originality is the value here — a light, reversible tune and meticulous maintenance beat heavy modification on a homologation car"
+  ],
+  "oil_type": "5W-30 synthetic (10W-30 acceptable in warm climates)",
+  "oil_interval": "Every 3,000–5,000 miles (shorter on a hard-driven turbo)",
+  "generations": {
+    "ST205 (1994–1999)": "The final and most focused Celica GT-Four. Built to homologate the car for Group A World Rally Championship (~2,500 units), it added the twin-entry CT20b turbo, water-to-air intercooling, uprated brakes, a stiffer body, and the rally-derived AWD system. The rare WRC/Group A edition with the 'Super Strut' suspension is the collector's pick.",
+    "Lineage note": "It followed the ST165 (1986–1989) and the celebrated ST185 (1990–1993), the generation that won Toyota's WRC titles. All three GT-Fours pair the 3S-GTE turbo with full-time AWD; the ST205 is the last and most hardcore."
+  },
+  "common_issues": [
+    "Parts scarcity — many GT-Four-specific and homologation components are hard to find and costly",
+    "Aging turbo and water-to-air intercooler system that heat-soaks under sustained boost",
+    "AWD driveline wear (center differential, viscous coupling) on high-mile or hard-used cars",
+    "Rust on a 30-year-old body, especially on cars from salt climates — inspect thoroughly",
+    "Grey-import complexity in some markets (age exemptions, parts sourcing, service knowledge)"
+  ],
+  "maintenance_tips": [
+    "Service the AWD driveline and check the center diff/coupling — the rally hardware is core to the car",
+    "Address turbo and intercooler heat management before pushing boost on the aging system",
+    "Use good synthetic oil on a short interval and let the turbo warm up and cool down",
+    "Inspect the body carefully for rust and prior accident/rally history before buying",
+    "Preserve originality and paperwork — provenance is what makes a genuine ST205 valuable"
+  ]
+}
