@@ -302,14 +302,18 @@ Strategy: PERFECT 4 launch cars end-to-end, then scale the same template behind 
       (2026-07): corrected Supra fuel economy (15/22 turbo), M3 highway mpg (coupe
       16/24), GT-R generation dates (R35 ended Aug 2025). Live NHTSA data comes from
       the profile engine on demand.
-- [x] Per-car "systems map" schema — each launch car's JSON now carries a
-      `systems_map`: { <system key> -> { detail, watch } } keyed to the shared
-      lib/systems.js keys (engine/drivetrain/suspension/brakes/electrical/fuel/body).
-      `computeSystems()` merges it (via profile.specs) so BOTH the 3D hotspot detail
-      panel and the Mechanical Breakdown cards show curated "what it is / what to
-      watch" text alongside live NHTSA counts. Uncurated cars fall back to the
-      NHTSA-only view. This upgrades the 8.4 hotspots from generic NHTSA-derived to
-      real per-car mechanical detail.
+- [x] Per-car "systems map" schema — a car's JSON carries a `systems_map`:
+      { <system key> -> { detail, watch } } keyed to the shared lib/systems.js keys
+      (engine/drivetrain/suspension/brakes/electrical/fuel/body). `computeSystems()`
+      merges it (via profile.specs) so BOTH the Explode/3D detail panel and the
+      Mechanical Breakdown cards show curated "what it is / what to watch" text
+      alongside live NHTSA counts. Uncurated cars fall back to the NHTSA-only view.
+- [~] Systems-map coverage: now 19 of 71 curated cars. The 4 launch cars plus a
+      15-car enthusiast batch (S2000, NSX NA1, Civic Type R, GR86, GR Supra, MR2
+      SW20, M3 E30/E92, M2, M5 E39, 370Z, WRX, Mustang GT, Camaro SS, Golf GTI) —
+      each web-verified for failure points. Remaining ~52 curated cars (mainstream
+      Honda/Toyota lineups, more BMW/Civic Si gens, Q50s) are candidates for the
+      next batches.
 
 ### 8.3 Interactive 3D viewer
 - [x] Integrate Three.js / react-three-fiber; orbit / zoom / rotate (DONE 2026-06-27)

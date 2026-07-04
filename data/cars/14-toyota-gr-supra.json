@@ -36,5 +36,31 @@
     "Use BMW LL-spec oil — the B58 is particular",
     "Balance and align wheels to cure highway steering shudder",
     "Huge tuning headroom, but upgrade fueling before chasing big power"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "BMW's B58 3.0L single-turbo inline-six, 382 hp / 368 lb-ft - one of the toughest modern BMW engines and a huge tuning platform.",
+      "watch": "Early 2020-21 cars can drink oil and their plastic-ring oil pump can crack (metal from 2022+); shorten intervals well below BMW's 10k."
+    },
+    "drivetrain": {
+      "detail": "RWD via a ZF 8-speed automatic (6-speed manual added 2023) with an active electronic limited-slip diff.",
+      "watch": "The ZF auto is essentially bulletproof and shrugs off big power - nothing chronic to flag here."
+    },
+    "suspension": {
+      "detail": "Adaptive dampers with struts up front and a multilink rear - sharp and composed for a GT.",
+      "watch": "Some cars develop a highway-speed steering shudder, almost always cured by a proper wheel balance and alignment."
+    },
+    "brakes": {
+      "detail": "Four-piston fixed front calipers on 348mm discs - strong, confident street stoppers.",
+      "watch": "More than enough for the road; add track fluid and pads for repeated hard laps, but there's no inherent weakness."
+    },
+    "fuel": {
+      "detail": "Single high-pressure direct-injection system feeding the B58.",
+      "watch": "Stock fueling is the ceiling for big builds - add E85 or upgraded fueling before chasing 500+ whp."
+    },
+    "body": {
+      "detail": "A Z4 sibling built by Magna Steyr in Austria - genuine BMW hardware under Toyota styling.",
+      "watch": "Noticeable wind buffeting with the windows down; a cheap aftermarket deflector sorts it."
+    }
+  }
 }

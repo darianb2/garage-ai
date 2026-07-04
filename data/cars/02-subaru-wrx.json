@@ -35,5 +35,27 @@
     "Change oil every 6k miles — turbos punish extended intervals",
     "Let engine warm up before pushing hard",
     "Inspect intercooler hoses for cracks at 60k+"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "271 hp / 258 lb-ft FA24F 2.4L direct-injected turbo boxer four - the VB grew the old FA20's displacement for a fatter midrange.",
+      "watch": "Knock-sensitive on pump gas; warm it up before boost and run a conservative, well-proven tune (E85 flex is the popular fix)."
+    },
+    "drivetrain": {
+      "detail": "Symmetrical AWD through a stout 6-speed manual or the CVT-based Subaru Performance Transmission with paddle 'gears'.",
+      "watch": "The 6MT is bulletproof; it's the CVT that draws durability questions under sustained hard or track use at high mileage."
+    },
+    "suspension": {
+      "detail": "Struts up front, double-wishbone rear on a much-stiffened VB body shell with dual-pinion electric steering.",
+      "watch": "Stock damping runs soft - coilovers or springs plus front and rear sway bars are the go-to first upgrade."
+    },
+    "brakes": {
+      "detail": "Vented discs at all four corners, competent street stoppers sized for the ~3,320 lb sedan.",
+      "watch": "They fade and heat-soak quickly on track - fresh fluid and better pads before repeat hot laps."
+    },
+    "fuel": {
+      "detail": "Direct injection feeds the FA24F turbo, and it wants 91-octane premium.",
+      "watch": "A few early 2022 cars logged low-pressure fuel-pump failures; the well-known 2017-2020 Denso pump recall does not cover the VB."
+    }
+  }
 }

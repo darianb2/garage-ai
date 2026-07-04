@@ -35,5 +35,23 @@
     "Use Nissan ester oil and check level regularly",
     "Get an alignment to slow rear tire wear",
     "Let the gearbox warm up before hard 2nd-gear shifts"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "3.7L VQ37VHR V6 with VVEL variable valve lift - 332 hp and 270 lb-ft, a rev-happy naturally aspirated unit.",
+      "watch": "Prone to high oil temps under track or hard use that trigger a limp mode near 280F, so an oil cooler is wise; some cars also drink oil at higher miles."
+    },
+    "drivetrain": {
+      "detail": "RWD with a 6-speed manual (the world's first with SynchroRev Match rev-matching) or a 7-speed automatic.",
+      "watch": "The plastic concentric slave cylinder can fail and needs the transmission dropped to replace - swap in a metal unit; 2nd-gear synchro also feels notchy when cold."
+    },
+    "suspension": {
+      "detail": "Struts up front and a multilink rear on a rigid Z34 chassis, tuned firm for a short-wheelbase sports coupe.",
+      "watch": "Aggressive factory rear camber chews the inner edges off the rear tires fast - get a proper alignment to slow the wear."
+    },
+    "brakes": {
+      "detail": "Sport trim adds 4-piston front / 2-piston rear Akebono calipers on 14-inch rotors; base cars get smaller single-piston brakes.",
+      "watch": "The Akebono setup is known for brake judder - Nissan issued a TSB - as pads and rotors can warp or build up material and vibrate under highway braking."
+    }
+  }
 }

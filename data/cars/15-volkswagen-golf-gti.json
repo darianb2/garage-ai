@@ -37,5 +37,27 @@
     "Replace the plastic water pump/thermostat proactively around 60-80k",
     "Service the DSG fluid every ~40k miles",
     "Use VW 504.00 oil and shorten the LongLife interval to 5-7.5k"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "2.0L EA888 evo4 turbo four, 241 hp / 273 lb-ft, running combined direct plus port injection.",
+      "watch": "The plastic water pump/thermostat housing cracks and leaks, and DI still cakes the intake valves - plan on a walnut blast."
+    },
+    "drivetrain": {
+      "detail": "FWD through a 6-speed manual or 7-speed DQ381 wet-clutch DSG, with a VAQ electronically controlled limited-slip diff.",
+      "watch": "The DSG lasts only if you service its fluid and filter around every 40k; skip it and the mechatronics and clutches wear."
+    },
+    "suspension": {
+      "detail": "Struts front, multilink rear with optional DCC adaptive dampers - a genuinely sorted hot-hatch chassis.",
+      "watch": "It'll understeer and tug at the wheel when pushed hard; a stiffer rear sway bar sharpens turn-in nicely."
+    },
+    "brakes": {
+      "detail": "Vented front discs sized for the ~3,150 lb hatch, with strong, progressive street feel.",
+      "watch": "Fine for the road; heavy track use wants better pads and fluid to hold off fade."
+    },
+    "electrical": {
+      "detail": "MIB3 infotainment with capacitive touch sliders and steering-wheel touchpads replacing physical buttons.",
+      "watch": "Mk8 software is buggy and laggy - glitchy screens, unlit sliders and occasional module gremlins are the real Mk8 gripe."
+    }
+  }
 }

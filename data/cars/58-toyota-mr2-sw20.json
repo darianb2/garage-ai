@@ -37,5 +37,31 @@
     "Fit later-spec suspension or a proper alignment before pushing an early car hard",
     "Inspect the clutch and check for even, healthy boost with no smoke on spool-up",
     "Preserve originality and paperwork — later JDM revisions and clean US Turbos are appreciating fast"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "Iron-block 2.0L 3S-GTE turbo four (200 hp / 200 lb-ft) on the Turbo; base US cars got the 2.2L NA 5S-FE.",
+      "watch": "The signature age item is the long mid-engine coolant hard-lines corroding and leaking; it also weeps oil from the cam cover and distributor o-rings."
+    },
+    "drivetrain": {
+      "detail": "Mid-engine, transverse, RWD through a 5-speed manual (E153); later cars added a limited-slip diff.",
+      "watch": "Clutch and turbo wear on hard-driven or over-boosted cars - verify boost history and a clean, smoke-free spool-up."
+    },
+    "suspension": {
+      "detail": "Struts at all four corners behind the driver; Rev2 (1993+) added wider rear tires and revised geometry.",
+      "watch": "Early Rev1 (1991-92) cars are the infamous snap/lift-off oversteer cars; fit later-spec suspension or at least a proper alignment."
+    },
+    "brakes": {
+      "detail": "Four-wheel discs, upsized on the Turbo and again from Rev2.",
+      "watch": "No design flaw, just age - check for warped rotors and tired flex lines on a 30-year-old car."
+    },
+    "electrical": {
+      "detail": "Conventional early-90s Toyota electrics, with the alternator tucked low in a tight mid-engine bay.",
+      "watch": "Oil leaks from above drip onto the alternator and cook it - and it's a miserable job to swap in that cramped bay."
+    },
+    "body": {
+      "detail": "Steel unibody coupe with an optional T-bar removable roof.",
+      "watch": "Early cars rust in salt climates - inspect the rockers, floors, and rear frame rails before buying."
+    }
+  }
 }

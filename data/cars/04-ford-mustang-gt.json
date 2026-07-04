@@ -34,5 +34,27 @@
     "Upgrade diff and transmission fluid to racing spec if tracking",
     "Check rear axle half-shafts if launching hard regularly",
     "Coolant overflow tank cracks over time — inspect at 50k+"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "5.0L Coyote DOHC V8 - Gen3 in this 460 hp / 420 lb-ft trim with dual port + direct injection and a 7,500 rpm redline.",
+      "watch": "Genuinely robust; just keep the 5W-50 fresh and add cooling for track days, since heat is what stresses these cars."
+    },
+    "drivetrain": {
+      "detail": "RWD with a Getrag MT82-D4 6-speed manual or the 10R80 10-speed auto, feeding an independent rear with a limited-slip diff.",
+      "watch": "The MT82 is notchy with weak synchros and high-rpm 2-3 lockout; hard launches also snap the stock IRS half-shafts."
+    },
+    "suspension": {
+      "detail": "First Mustang with independent rear suspension; MagneRide adaptive dampers optional on the Performance Pack.",
+      "watch": "Soft rubber IRS subframe bushings let the diff walk, so wheel hop on hard launches is the classic S550 complaint."
+    },
+    "brakes": {
+      "detail": "Big Brembo six-piston front calipers on Performance Pack cars haul the ~3,705 lb coupe down hard.",
+      "watch": "Strong for the street; on track step up to race pads and high-temp fluid and mind fade on repeat stops."
+    },
+    "body": {
+      "detail": "Steel unibody fastback around 3,705 lbs with the S550's fully independent rear packaging.",
+      "watch": "The plastic coolant degas/overflow tank turns brittle and cracks with age - worth inspecting past 50k."
+    }
+  }
 }

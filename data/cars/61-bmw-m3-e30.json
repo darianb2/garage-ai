@@ -36,5 +36,27 @@
     "Inspect thoroughly for rust before buying, and address any early corrosion aggressively",
     "Warm the engine before revving it hard, and use a suitable high-ZDDP or 10W-60/20W-50 oil",
     "Preserve originality and paperwork — with the market where it is, correctness is the value"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "2.3L S14B23 DOHC 16v inline-four - essentially half of the M88/S38 six - ~192 hp US (Euro non-cat ~200) spinning to a ~7,000 rpm redline.",
+      "watch": "Timing-chain guide/tensioner rails wear by ~80-100k, it needs periodic valve-lash shim checks, and valve-stem seals weep (blue smoke on cold start)."
+    },
+    "drivetrain": {
+      "detail": "RWD through a dogleg Getrag 265 five-speed manual - an automatic was never offered.",
+      "watch": "The dogleg gate and worn shifter bushings feel notchy with age; the clutch and diff are stout, so mostly just check for driveline slack."
+    },
+    "suspension": {
+      "detail": "MacPherson-strut front, semi-trailing-arm rear and a quick-ratio steering rack - the light, analog homologation chassis that started the M3 name.",
+      "watch": "On 30-plus-year-old cars the dampers, bushings and subframe mounts are usually tired; a full refresh with quality parts transforms it."
+    },
+    "brakes": {
+      "detail": "Four-wheel discs, vented up front, sized for a sub-2,900 lb car - modest by modern standards but plenty for the weight.",
+      "watch": "Nothing chronic; on cars that sit, watch for seized calipers and perished flex lines, and refresh any old brake fluid."
+    },
+    "body": {
+      "detail": "The boxy, flared-fender Group A homologation shell unique to the E30 M3 - steel with bespoke wide-body panels.",
+      "watch": "Rust is the E30 killer: check strut towers, rockers, rear arches and trunk floor - a rust-free shell is where the value lives."
+    }
+  }
 }

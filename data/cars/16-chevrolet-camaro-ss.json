@@ -35,5 +35,27 @@
     "Use dexos 0W-40 and don't stretch oil intervals",
     "Budget for tires and brakes with spirited driving",
     "Track use: add cooling and upgrade brake fluid"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "6.2L LT1 V8 (C7 Corvette-derived), direct-injected, 455 hp / 455 lb-ft, with Active Fuel Management V4 mode on automatics.",
+      "watch": "AFM lifters collapse and cause oil burn on auto cars; manuals skip AFM entirely, so an AFM-delete tune is the auto fix."
+    },
+    "drivetrain": {
+      "detail": "RWD via a Tremec TR6060 6-speed manual with active rev-match, or an 8-speed auto (2016-18) / 10-speed (2019+).",
+      "watch": "Early 8-speed autos suffer torque-converter shudder and clunky 1-2 shifts - confirm the updated-fluid service was done."
+    },
+    "suspension": {
+      "detail": "Sharp Alpha platform (shared with the Cadillac ATS/CTS); struts front, five-link rear, magnetic ride on the 1LE.",
+      "watch": "The chassis is excellent with no real weak point; spirited driving just eats tires, so budget for rubber."
+    },
+    "brakes": {
+      "detail": "Brembo four-piston front brakes (six-piston on the 1LE) rein in the 4.0-second SS.",
+      "watch": "Plenty for the street; track duty wants upgraded pads and fresh high-temp fluid."
+    },
+    "body": {
+      "detail": "Low, wide coupe on the Alpha architecture - lighter and tauter than the 5th-gen it replaced.",
+      "watch": "Notoriously poor outward visibility from the high beltline and slit windows, plus a cramped rear seat and tiny trunk."
+    }
+  }
 }

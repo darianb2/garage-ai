@@ -36,5 +36,27 @@
     "On the S55 Competition, address the crank hub before high-power tunes or repeated launch-control use",
     "Keep the cooling system healthy (water pump, thermostat) on any car that sees track use",
     "Let the turbo six warm up before boost and cool briefly after hard runs"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "3.0L turbo inline-six: N55 single-turbo (365 hp, 369 on overboost) on 2016-18 cars, M3/M4-derived S55 twin-turbo (405 hp) on the 2019+ Competition.",
+      "watch": "The N55 is stout; the S55 Competition inherits the friction-fit single-bolt crank hub that can slip - mostly a tuned/launch-control risk, but catastrophic if it lets go."
+    },
+    "drivetrain": {
+      "detail": "RWD through a 6-speed manual (with rev-matching) or 7-speed M-DCT, feeding an active M differential.",
+      "watch": "The driveline is robust; manuals are largely trouble-free, and on DCT cars just budget for eventual clutch-pack and mechatronics service."
+    },
+    "suspension": {
+      "detail": "Aluminum double-joint front and five-link rear borrowed from the M3/M4; the Competition adds a front strut brace.",
+      "watch": "Genuinely robust - expect only normal age- or track-related bushing and control-arm wear over time."
+    },
+    "brakes": {
+      "detail": "Four-wheel vented discs with four-piston front calipers - strong brakes for a compact ~3,450 lb coupe.",
+      "watch": "Fine on the street; hard track use wears pads and rotors quickly and can boil the fluid, so upgrade both for track days."
+    },
+    "fuel": {
+      "detail": "Direct-injected turbo six with a charge pipe routing boosted air from the turbo to the intercooler and intake.",
+      "watch": "The N55's factory plastic charge pipe cracks under boost - an aluminum swap is near-universal; also watch for wastegate rattle from a worn linkage."
+    }
+  }
 }

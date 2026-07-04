@@ -36,5 +36,27 @@
     "Replace throttle actuators proactively at the first sign of trouble to avoid being stranded in limp mode",
     "Keep VANOS solenoids serviced and let the V8 reach temperature before chasing the redline",
     "On DCT cars, service the transmission fluid on schedule and watch clutch adaptation values"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "4.0L S65B40 naturally-aspirated V8 with architecture derived from the E60 M5's V10 - 414 hp screaming to an 8,400 rpm redline.",
+      "watch": "Connecting-rod bearing wear is the signature worry (many replace it preventively), so run 10W-60 and shorten oil changes to ~5k; also watch VANOS rattle."
+    },
+    "drivetrain": {
+      "detail": "RWD through a 6-speed manual or 7-speed M-DCT dual-clutch.",
+      "watch": "Manuals are stout (just check clutch wear); on DCT cars budget for mechatronics faults and clutch-pack wear, and service the fluid on schedule."
+    },
+    "suspension": {
+      "detail": "Aluminum front control arms and a five-link rear; Competition-package cars add EDC adaptive dampers.",
+      "watch": "Expect age-related front control-arm bushing and rear subframe/diff-mount wear - nothing exotic, but a refresh sharpens an already-brilliant chassis."
+    },
+    "brakes": {
+      "detail": "Large four-wheel vented discs with floating single-piston calipers - strong street brakes for a ~3,700 lb coupe.",
+      "watch": "They wear quickly under track use; watch for warped or heat-cracked rotors and glazed pads on hard-driven cars."
+    },
+    "electrical": {
+      "detail": "Eight individual throttle bodies operated by two electronic throttle actuators - a defining S65 induction feature.",
+      "watch": "Those actuators wear internally and fail (codes 2B15/2B16), dropping the car into limp mode - replace them proactively at the first sign."
+    }
+  }
 }

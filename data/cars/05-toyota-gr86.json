@@ -33,5 +33,27 @@
     "Let revs climb before shifting — engine rewards high RPM",
     "Brake fluid degrades quickly on track — flush every season",
     "Tires wear fast under spirited driving — check pressure often"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "Naturally aspirated 2.4L FA24 Subaru flat-four, 228 hp / 184 lb-ft, that loves to rev past 7,000 rpm with the power living up top.",
+      "watch": "The real risk is track oil starvation - sustained right-hand lateral g can drop oil pressure and spin a rod bearing; early cars also had RTV sealant clogging the oil pickup."
+    },
+    "drivetrain": {
+      "detail": "RWD through a slick Aisin 6-speed manual (or 6-speed auto), with a Torsen limited-slip diff standard.",
+      "watch": "The gearbox and diff are tough; the clutch is the wear item - riding or slipping it on hard launches burns it early."
+    },
+    "suspension": {
+      "detail": "MacPherson struts up front, double wishbones out back on Subaru's Global Platform - about 50% stiffer than the first-gen chassis.",
+      "watch": "No chronic faults; it's just soft and tail-happy stock - sway bars, coilovers, and sticky tires wake it right up."
+    },
+    "brakes": {
+      "detail": "Ventilated discs at all four corners - plenty for the street on a ~2,800-lb car.",
+      "watch": "Stock pads and fluid fade fast on track; flush the fluid every season and fit track pads before lapping hard."
+    },
+    "fuel": {
+      "detail": "D-4S dual injection runs both direct and port injectors on the FA24.",
+      "watch": "That dual setup sidesteps the intake-valve carbon buildup that plagues direct-injection-only engines - basically trouble-free."
+    }
+  }
 }

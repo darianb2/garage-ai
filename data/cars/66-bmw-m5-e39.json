@@ -36,5 +36,27 @@
     "Use the correct 10W-60 M-spec synthetic and check the oil often, given the normal consumption",
     "Inspect timing-chain guides at high mileage and listen for cold-start rattle",
     "Buy on condition and history — a well-kept, documented manual car is worth the premium"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "Hand-built 4.9L S62 V8 (badged 5.0) with double-VANOS and individual throttle bodies - 394 hp, 369 lb-ft, plus a healthy appetite for oil that's normal by design.",
+      "watch": "VANOS solenoids/seals wear around 60-120k, causing a growl, rough idle and lost power; rod bearings suffer on neglected oil, so run 10W-60 and service the VANOS proactively."
+    },
+    "drivetrain": {
+      "detail": "RWD through a Getrag 420G 6-speed manual - the only gearbox offered in the US, no automatic ever built.",
+      "watch": "The rubber driveshaft flex disc (guibo) cracks with age, giving clunks on gear changes and driveline vibration - inspect it and the clutch on any high-miler."
+    },
+    "suspension": {
+      "detail": "Conventional coil-sprung sport suspension - no adaptive dampers, just well-sorted analog geometry on the E39 chassis.",
+      "watch": "Front thrust-arm and control-arm bushings wear out, causing a steering shimmy under light braking and a front-end clunk - a classic E39 refresh item."
+    },
+    "brakes": {
+      "detail": "Large-for-the-era discs with two-piece floating front rotors riveted to alloy hats to cut unsprung weight.",
+      "watch": "Those floating rotors develop rivet play and warp or rattle over time, and replacements aren't cheap - budget for a full set once worn."
+    },
+    "electrical": {
+      "detail": "Straightforward for a flagship - DSC stability control and an on-board computer, no fragile electronic gimmickry.",
+      "watch": "The instrument-cluster and OBC LCDs suffer dead-pixel rot from aging ribbon cables, making gauges and messages hard to read - common but fixable."
+    }
+  }
 }

@@ -37,5 +37,27 @@
     "Care for the soft top (clean, treat, garage it) or fit a hardtop to preserve the interior",
     "Inspect the differential and clutch on any car with a track history",
     "Keep it original — matching numbers, stock parts, and clean paint are what the market pays for now"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "The gem: 2.0L F20C (AP1) or stroked 2.2L F22C1 (AP2), a DOHC VTEC four screaming to a 9,000 rpm redline (about 8,200 on the AP2) at 240 hp.",
+      "watch": "Actually check the mechanical valve clearances on schedule or you will eventually burn a valve, and on high-mile cars listen for timing-chain-tensioner rattle at startup and on lift-off."
+    },
+    "drivetrain": {
+      "detail": "RWD through a slick 6-speed manual and a standard Torsen limited-slip diff, a proper old-school sports-car layout.",
+      "watch": "Fundamentally tough; on hard-driven or tracked cars check for clutch wear and a tired differential, but the gearbox is otherwise a highlight."
+    },
+    "suspension": {
+      "detail": "Double-wishbone at all four corners, the source of the razor-sharp turn-in the S2000 is famous for.",
+      "watch": "Respect the AP1 snappy lift-off oversteer, a chassis trait the AP2 revised geometry tamed; refresh tired bushings on older cars."
+    },
+    "brakes": {
+      "detail": "Vented discs front and rear with ABS, modest on paper but plenty for a roughly 2,800 lb car.",
+      "watch": "No real design weakness, but stock pads and fluid will fade under repeated track abuse, so upgrade both before lapping."
+    },
+    "body": {
+      "detail": "Aluminum hood over a rigid high X-bone chassis in a compact convertible body; early cars use a plastic soft-top rear window, later ones glass.",
+      "watch": "The plastic rear window cracks and yellows with age, and early cars rust, so check the frame rails, rear wheel-arch areas, and critically the subframe mounting points."
+    }
+  }
 }

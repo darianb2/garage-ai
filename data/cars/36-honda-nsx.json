@@ -37,5 +37,31 @@
     "Use quality 10W-30 and let the C30A warm up before revving",
     "Buy on service history and originality — a documented, unmodified car is worth the premium",
     "Store it well: sun and damp are the enemies of the interior and electronics"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "A jewel of a mid-mounted 3.0L C30A DOHC VTEC V6, all-aluminum, making 270 hp with the 5-speed (252 in the auto) and as durable as a Civic.",
+      "watch": "The C30A itself is bulletproof, but the timing belt and water pump are a scheduled roughly 7-year/90k four-figure job, so verify when it was last done."
+    },
+    "drivetrain": {
+      "detail": "270 hp to the rear wheels through a 5-speed manual, with a detuned 252 hp 4-speed automatic optional.",
+      "watch": "Early 1991-1994 manuals can suffer the documented second-gear snap-ring failure (car pops out of 2nd), so confirm the updated case or fix was performed."
+    },
+    "suspension": {
+      "detail": "Senna-honed all-aluminum double-wishbone suspension front and rear, supple yet precise and a benchmark chassis for its era.",
+      "watch": "Mechanically robust; on a 30-year-old car budget for aging bushings, dampers, and rubber, since a full OEM-spec refresh transforms it."
+    },
+    "brakes": {
+      "detail": "Four-wheel vented discs with ABS, sized for the light roughly 3,020 lb chassis rather than a headline feature.",
+      "watch": "No systemic fault; just replace age-hardened lines and fluid and check for warped rotors on cars that have sat."
+    },
+    "electrical": {
+      "detail": "Typical early-90s Honda electronics run the climate control, EPS, gauge cluster, and relays.",
+      "watch": "The Climate Control Unit capacitors leak with age (blower stuck on high or dead knobs); the CCU and related modules are common recap/solder repairs."
+    },
+    "body": {
+      "detail": "The world's first mass-produced all-aluminum monocoque, with pop-up headlights on the NA1 (fixed units arrived later on the NA2).",
+      "watch": "The aluminum body will not rust, but sun and damp crack dashboards and fade interiors, and pop-up headlight motors can fail, so garage it."
+    }
+  }
 }
