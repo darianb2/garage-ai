@@ -37,5 +37,31 @@
     "Rebuild or replace the distributor at the first sign of a leak or misfire",
     "Use a quality 5W-30/10W-30 and let VTEC warm up before you lean on it",
     "Favor a manual car with records — it's the more durable and more valuable choice"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "2.2L H22A4 DOHC VTEC four — 200 hp at 7,000 rpm and 156 lb-ft at 5,250, one of Honda's strongest naturally aspirated fours of its era. It thrives on revs and on maintenance.",
+      "watch": "It's an interference engine driven by a timing belt — do the belt and water pump on schedule (~90k/7 years) or a snapped belt bends valves. Let it warm up before leaning on VTEC."
+    },
+    "drivetrain": {
+      "detail": "A 5-speed manual (the one to have) or a weaker 4-speed SportShift automatic, driving the front wheels. The Type SH adds ATTS — an electronically controlled front differential that shuffles torque to the outside wheel to fight understeer and sharpen turn-in.",
+      "watch": "ATTS is clever but complex and expensive to fix, with parts increasingly scarce — service the fluid and confirm it actually works before buying. The 4-speed auto is the weak link; favor the manual."
+    },
+    "suspension": {
+      "detail": "Double-wishbone front and rear — Honda's signature layout and a big part of why the BB6 still handles as sweetly as it does.",
+      "watch": "Refresh bushings and dampers on high-mile cars; the nose-heavy front-drive chassis rewards coilovers or quality lowering springs plus stiffer sway bars."
+    },
+    "brakes": {
+      "detail": "Four-wheel disc brakes — vented front, solid rear — plenty of stopping power for a ~3,042 lb coupe.",
+      "watch": "Pads and fresh fluid are all it needs; nothing chronic here."
+    },
+    "electrical": {
+      "detail": "Honda distributor ignition, typical of late-90s Hondas.",
+      "watch": "Distributors wear and leak with age, causing misfires or no-starts — rebuild or replace at the first sign of trouble."
+    },
+    "body": {
+      "detail": "Steel unibody coupe, ~3,042 lbs, wearing Honda's sharp-edged final-Prelude styling.",
+      "watch": "Rust on the rear arches and subframes in salt climates is the main thing to inspect on a survivor."
+    }
+  }
 }

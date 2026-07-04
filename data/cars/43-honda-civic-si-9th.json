@@ -37,5 +37,27 @@
     "Address a persistent VTC rattle; maintain a tight oil interval",
     "Prefer a 2013+ car for the improved interior, or a 2014–2015 for the small power bump",
     "Inspect the clutch on any tuned car before purchase"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "2.4L K24Z7 DOHC i-VTEC four — the biggest-displacement engine in Si history. 201 hp / 170 lb-ft in 2012-2013, retuned to 205 hp / 174 lb-ft at 4,400 for 2014-2015. Trades the old 2.0L's top-end scream for a much fatter, more usable midrange, and it's chain-driven (no timing belt).",
+      "watch": "Genuinely stout — the main K-series quirk is the harmless cold-start VTC actuator rattle. Keep the oil clean and it lasts."
+    },
+    "drivetrain": {
+      "detail": "6-speed manual driving the front wheels through a helical limited-slip differential — the LSD carried over from the 8th gen and works beautifully with the K24's torque.",
+      "watch": "3rd-gear synchro wear shows up on hard-shifted cars — feel for notchiness. Inspect the clutch on any tuned or hard-driven car."
+    },
+    "suspension": {
+      "detail": "MacPherson strut front and independent multi-link rear, evolved from the 8th-gen platform with revised sport tuning for a slightly more compliant balance.",
+      "watch": "Bushings and dampers soften with miles; coilovers and sway bars are the usual upgrade to tighten it back up around the factory LSD."
+    },
+    "brakes": {
+      "detail": "Four-wheel discs sized for the Si — plenty of stopping power for a ~2,875 lb sedan or coupe.",
+      "watch": "Pads and fluid are the only real upgrade for spirited or track use."
+    },
+    "body": {
+      "detail": "Steel unibody as the FB6 sedan (the volume seller) or FG4 coupe, around 2,875 lbs.",
+      "watch": "The one real gripe: the 2012 cars had a cheap-feeling interior with hard plastics — Honda fixed it in the 2013 refresh. It's cosmetic, not mechanical, so prefer a 2013-2015 car."
+    }
+  }
 }

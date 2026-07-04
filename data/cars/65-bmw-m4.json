@@ -36,5 +36,27 @@
     "Use the correct LL-01 low-viscosity synthetic — not the 10W-60 that older M engines require",
     "Support any tune with an upgraded intercooler and healthy cooling system",
     "Service the DCT fluid on schedule and monitor clutch adaptations on DCT cars"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "3.0L S55B30 twin-turbo inline-six — 425 hp (444 hp Competition), 406 lb-ft from just 1,850 rpm via twin mono-scroll turbos on an open-deck block. The first turbo M4.",
+      "watch": "The marquee concern is single-bolt crank-hub slippage — it can throw off timing and cause misfire or failure, overwhelmingly on tuned or hard-launched cars; pin/key the hub before serious power. The factory plastic charge pipe cracks under boost (aluminum is the fix) and the charge-air intercooler can fail; oil consumption and the rod-bearing debate follow hard-driven cars, and the water pump/thermostat wear with age. Use LL-01 low-viscosity synthetic — never the 10W-60 of older M engines."
+    },
+    "drivetrain": {
+      "detail": "Rear-wheel drive through a 7-speed M-DCT dual-clutch or a 6-speed manual, with a carbon-fiber driveshaft and an active M differential.",
+      "watch": "Service the DCT fluid on schedule and monitor clutch adaptations on DCT cars; the manual is durable and the value-holding choice."
+    },
+    "suspension": {
+      "detail": "Adaptive M suspension with a double-joint aluminum front and five-link rear — firmer and occasionally twitchy at the limit.",
+      "watch": "The stock chassis can feel nervous near the edge — coilovers or springs calm it; refresh bushings on older cars."
+    },
+    "brakes": {
+      "detail": "M compound vented discs with blue four-piston front calipers; carbon-ceramics optional.",
+      "watch": "Pads and fresh fluid are all track use needs; the optional ceramics are expensive to service."
+    },
+    "body": {
+      "detail": "Steel unibody coupe lightened with a carbon-fiber roof and driveshaft — lighter than it looks at ~3,530 lbs.",
+      "watch": "Mostly rock chips and the usual coupe seal wear; rust is uncommon."
+    }
+  }
 }

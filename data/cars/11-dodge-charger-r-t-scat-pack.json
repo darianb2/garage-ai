@@ -35,5 +35,31 @@
     "Address any lifter tick immediately before it wipes the camshaft",
     "Inspect/replace exhaust manifold bolts if you hear a cold-start tick",
     "Run premium fuel in the 392/Scat Pack"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "6.4L 392 HEMI V8 making 485 hp and 475 lb-ft in the Scat Pack; the R/T runs the 5.7L HEMI (395 lb-ft). Simple, robust pushrod V8s with cylinder-deactivating MDS.",
+      "watch": "The MDS lifter tick is the notorious failure — if ignored it escalates to a collapsed lifter and a wiped camshaft, so address any tick immediately; broken exhaust manifold bolts also cause a distinctive cold-start tick."
+    },
+    "drivetrain": {
+      "detail": "Rear-wheel drive through the stout 8-speed TorqueFlite automatic (ZF-based 8HP).",
+      "watch": "The transmission is generally robust and trouble-free; keep up with fluid service on hard-launched or tuned cars."
+    },
+    "suspension": {
+      "detail": "Independent front and multilink rear under a big four-door unibody muscle sedan.",
+      "watch": "A ~4,360 lb curb weight blunts agility next to lighter rivals — it is a straight-line bruiser first; lowering springs and sway bars are the common handling fix."
+    },
+    "brakes": {
+      "detail": "Large ventilated discs, with four-piston Brembo front calipers standard on the Scat Pack.",
+      "watch": "There is a lot of mass to haul down — fresh pads and fluid matter, and the brakes work hard on a heavy car driven hard."
+    },
+    "fuel": {
+      "detail": "Naturally aspirated, port-injected V8 that wants premium fuel in the 392/Scat Pack.",
+      "watch": "Genuinely thirsty — real-world economy is low (~15 city mpg) — and do not stretch oil changes: sludge starves the MDS oil passages that feed the lifters."
+    },
+    "body": {
+      "detail": "A big, heavy full-size four-door unibody — real muscle-sedan practicality, and the LD car is the last of the HEMI Chargers before the electric/Hurricane LB.",
+      "watch": "Solid, simple structure; the curb weight is the defining trade-off for the four-door usability."
+    }
+  }
 }

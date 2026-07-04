@@ -34,5 +34,27 @@
     "Walnut blast intake valves every 40-60k miles",
     "Use only VW 502.00 approved oil — non-spec oil voids warranty",
     "Replace water pump and thermostat proactively at 80k"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "EA888 (Gen 3) 2.0L turbocharged inline-four — 306 hp and 295 lb-ft through a single twin-scroll turbo (the IS38 is the popular big-power upgrade). Refined, torquey, and a tuner's favorite.",
+      "watch": "Direct injection means carbon builds up on the intake valves across every generation — plan on a walnut-blast every 40-60k. The other known item is the water pump and thermostat (a plastic integrated module) failing around 60-90k; replace it proactively at ~80k. Stick to VW 502.00-spec oil."
+    },
+    "drivetrain": {
+      "detail": "7-speed DQ381 wet-clutch dual-clutch (S tronic) paired with Haldex-based Quattro AWD, which normally drives the front wheels and clutches torque rearward when they slip.",
+      "watch": "The classic complaint is DSG shudder/hesitation at low speed when cold — often improved by a dealer TCU software update. The DQ381 wants regular fluid changes (it can heat-soak under sustained hard use), and the Haldex pump/fluid needs servicing or the AWD can quietly stop engaging."
+    },
+    "suspension": {
+      "detail": "MacPherson-strut front and multi-link rear, with adaptive dampers (magnetic ride via Audi drive select) optional on many cars.",
+      "watch": "A firm, planted sport setup; control-arm bushings wear with miles. Coilovers and sway bars are the standard handling upgrades."
+    },
+    "brakes": {
+      "detail": "Vented front discs (roughly 340mm) with ABS and stability control, sized for an AWD hot hatch/sedan.",
+      "watch": "Pads and rotors wear at the pace this car invites; high-temp fluid and better pads are the track-prep essentials."
+    },
+    "body": {
+      "detail": "MQB-platform unibody at about 3,527 lbs — sold as a sedan, hatchback (Sportback) or convertible depending on generation and market.",
+      "watch": "Typical premium-German upkeep — trim, seals and rock chips; parts and labor run higher than mainstream rivals."
+    }
+  }
 }

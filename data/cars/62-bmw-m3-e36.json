@@ -36,5 +36,27 @@
     "Inspect the rear subframe mounts, especially on any car with track history",
     "Use the correct 10W-60 M-spec synthetic and let the six warm before hard use",
     "Keep the gaskets fresh — small oil leaks are cheap to fix and easy to ignore until they aren't"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "The US S52B32 — a 3.2L version of BMW's iron-block M50-family inline-six making 240 hp and 236 lb-ft at 3,800 rpm, with single VANOS variable intake timing (1995 US cars used the 3.0L S50B30US, also 240 hp). Torquey and durable, if not the exotic 316+ hp individual-throttle-body Euro S50B32.",
+      "watch": "Cooling is the maintenance clock — the plastic thermostat housing, water-pump impeller, radiator, and expansion tank all age out and can cook the engine if ignored. Expect VANOS rattle ('marbles in a can') with a midrange power loss, plus valve-cover and oil-filter-housing gasket leaks and the odd cam-position sensor or fan clutch."
+    },
+    "drivetrain": {
+      "detail": "A 5-speed manual (the one to have) or a 5-speed automatic, driving the rear wheels; Europe got a 6-speed manual.",
+      "watch": "Dependable by M standards — the manual and rear end are robust; the slushbox auto is the enthusiast's car to avoid."
+    },
+    "suspension": {
+      "detail": "MacPherson-strut front and BMW's multilink 'Z-axle' rear — a balanced, communicative chassis that responds beautifully to a refresh.",
+      "watch": "Tired bushings and dampers dull it on high-mile cars; fresh bushings and coilovers are the classic first move."
+    },
+    "brakes": {
+      "detail": "Vented front and rear discs — plenty of stopping power for a ~3,175 lb coupe.",
+      "watch": "Stock brakes are fine on the street; pads, fluid, and cooling ducts are all a track day needs."
+    },
+    "body": {
+      "detail": "Steel unibody coupe, sedan, or convertible — the M3 grown into a refined, usable GT.",
+      "watch": "The known weak point is cracking at the rear subframe mounting points and trunk floor on hard-driven or tracked cars — inspect and reinforce. Watch for rust in the usual rockers and arches on neglected examples."
+    }
+  }
 }

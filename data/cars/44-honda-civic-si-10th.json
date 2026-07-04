@@ -37,5 +37,31 @@
     "If you tune it, use a reputable FlashPro map and keep an eye on the intercooler and plugs",
     "Use Honda-approved 0W-20 full synthetic",
     "Inspect brakes and clutch more often if you drive it hard — sport use wears them faster"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "1.5L L15B7 turbocharged, direct-injected four — 205 hp and a broad 192 lb-ft plateau from just 2,100 rpm out to 5,000. Fundamentally robust and famously responsive to tuning.",
+      "watch": "Oil dilution — fuel washing into the crankcase during short, cold-weather trips — is THE watch item on the 1.5T family. Check the oil level, let it warm up before hard driving, and don't stretch changes in winter."
+    },
+    "drivetrain": {
+      "detail": "6-speed manual driving the front wheels through a helical limited-slip differential — the LSD plus the turbo's low-end torque make it easy to drive quickly.",
+      "watch": "The turbo hardware is durable; most trouble traces to maintenance, not parts. Clutch wear shows up on tuned or hard-driven cars."
+    },
+    "suspension": {
+      "detail": "MacPherson strut front and independent multi-link rear on an ultra-rigid subframe, with an Adaptive Damper System (ADS) — the first application of adaptive dampers on any Civic.",
+      "watch": "The adaptive dampers make lowering trickier — you need springs or coilovers designed to keep the ADS happy or it throws a warning. Refresh bushings on high-mile cars."
+    },
+    "brakes": {
+      "detail": "Four-wheel discs, larger than the base Civic's, matched to the Si's grip and pace.",
+      "watch": "Pads and fluid wear faster with sport driving — inspect and refresh them more often than on a commuter."
+    },
+    "electrical": {
+      "detail": "Honda's era touchscreen infotainment plus the usual Civic accessory systems.",
+      "watch": "The pre-refresh head unit could be laggy and infamously dropped the physical volume knob for a touch slider. A/C compressor failures are a known complaint of this Honda era."
+    },
+    "body": {
+      "detail": "Steel unibody as the FC1 sedan or FC3 coupe (the last Civic Si coupe Honda built), around 2,906 lbs.",
+      "watch": "Solid structure; watch for rock chips and parking dings like any daily-driven compact."
+    }
+  }
 }

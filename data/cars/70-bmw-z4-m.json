@@ -36,5 +36,27 @@
     "Refresh the cooling system proactively on any car with unknown history",
     "Use the correct 10W-60 M-spec synthetic and change it on the shorter interval",
     "Buy on documented service history — a maintained S54 is worth the premium"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "The S54B32 — the E46 M3's 3.2L naturally-aspirated straight-six with individual throttle bodies and double-VANOS, here making 330 hp (US SAE; Euro 343 PS) and 262 lb-ft at 4,900 rpm and spinning to an ~8,000 rpm redline. One of BMW's all-time great engines.",
+      "watch": "The headline concern is rod-bearing wear — potentially catastrophic, so interval replacement (with 10W-60) is accepted practice; the Z4 M is viewed as less bearing-troubled than the earliest 2001-2003 E46 M3s. Add VANOS wear (rattle, worn seals, oil-pressure loss) and an aging cooling system."
+    },
+    "drivetrain": {
+      "detail": "6-speed manual only — no automatic was ever offered — driving the rear wheels through a limited-slip differential.",
+      "watch": "The gearbox is stout; the differential and its mounts take a beating on hard-used or tracked cars."
+    },
+    "suspension": {
+      "detail": "MacPherson-strut front and multilink rear; the fixed roof makes the coupe meaningfully stiffer and sharper than the M Roadster.",
+      "watch": "Already firm — a fresh alignment, bushings, and dampers sharpen it further; that's the productive spend, not slamming it."
+    },
+    "brakes": {
+      "detail": "Vented discs front and rear — strong and progressive for a ~3,230 lb two-seater.",
+      "watch": "Stock hardware handles spirited road driving; pads and fluid are all a track day requires."
+    },
+    "body": {
+      "detail": "The fixed-roof, shooting-brake 'clownshoe' — a low-production, cult-shaped hard-top now prized as a modern collectible.",
+      "watch": "Inspect the rear-subframe mounting area on hard-driven cars, and buy on documented history — condition and originality drive the rising values."
+    }
+  }
 }

@@ -36,5 +36,31 @@
     "Walnut-blast the intake valves periodically — direct injection means carbon buildup",
     "Replace the electric water pump proactively around 80k–100k miles",
     "If you want the fast N54 experience with fewer headaches, seek a 2011+ N55 car"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "3.0L N54B30 twin-turbo inline-six — 300 hp and 300 lb-ft from 1,400 rpm via two small parallel turbos (2007-2010; the 2011+ E92 switched to the single-turbo N55). Massively tunable — a simple flash adds 50-70+ hp.",
+      "watch": "Turbo wastegate rattle from bushing wear is the classic N54 turbo complaint, and the plastic charge pipe cracks under boost. The electric water pump and thermostat fail (replace proactively around 80k-100k), the oil-filter-housing gasket leaks, and direct injection means the intake valves need periodic walnut-blasting for carbon buildup."
+    },
+    "fuel": {
+      "detail": "Direct injection with a high-pressure fuel pump (HPFP) and piezoelectric injectors — the source of the N54's enormous tuning headroom.",
+      "watch": "The HPFP was the subject of a major recall/class action on 2007-2010 cars — confirm it and the piezo injectors have been updated or budget for them. A healthy fuel system is the difference between a cheap thrill and a money pit. (The 2011+ N55 resolved the HPFP and wastegate woes.)"
+    },
+    "drivetrain": {
+      "detail": "Rear-wheel drive (xDrive AWD optional) through a 6-speed manual or a 6-speed Steptronic torque-converter automatic.",
+      "watch": "Both gearboxes are durable; service the auto's fluid despite BMW's 'lifetime' claim, and keep the diff/transfer-case fluids fresh on xDrive cars."
+    },
+    "suspension": {
+      "detail": "Standard E92 3-series strut front and multilink rear — composed and comfortable rather than track-focused (this isn't the M3).",
+      "watch": "Refresh worn bushings and dampers on high-mile cars; coilovers and sway bars are common upgrades."
+    },
+    "brakes": {
+      "detail": "Vented front and rear discs with single-piston sliding calipers — sized for a fast coupe, not the M3's compound setup.",
+      "watch": "Pads, rotors, and fluid are the only real needs; upgrade the pads and fluid before tracking a tuned car."
+    },
+    "body": {
+      "detail": "Steel E92 coupe unibody — a handsome, conventional two-door and the bargain-priced way into the N54.",
+      "watch": "Rock chips and the usual coupe seal and trim wear; well-galvanized, so rust is rare."
+    }
+  }
 }

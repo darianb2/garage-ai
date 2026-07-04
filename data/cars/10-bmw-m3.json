@@ -36,5 +36,27 @@
     "Install a crank hub fix on F80 before tuning for higher power",
     "Shorten oil intervals well below BMW's recommendation",
     "Inspect E46 rear subframe for cracks at the chassis mounts"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "3.0L S58 twin-turbo inline-six — 503 hp in the G80 Competition (473 hp in the base 6-speed RWD car), 479 lb-ft. A closed-deck block, forged crank, and revised crank hub make it the most over-built modern M six.",
+      "watch": "The S58 itself is genuinely robust — the M3's expensive-failure lineage lives in the older cars: rod bearings on the E46 S54 and E90 S65 (factory clearances too tight) and the F80 S55's single-bolt crank-hub slip. On the G80, just shorten the oil interval well below BMW's 10k+ recommendation."
+    },
+    "drivetrain": {
+      "detail": "Rear-wheel drive with a 6-speed manual (base RWD only), or a ZF 8-speed torque-converter automatic — not a DCT — with xDrive AWD available on Competition that only feeds the fronts when the rears break loose.",
+      "watch": "Reliable — the 8-speed auto and xDrive hardware are well-proven BMW units. Keep the transfer-case and differential fluids fresh on xDrive cars."
+    },
+    "suspension": {
+      "detail": "Adaptive M suspension with electronically controlled dampers, a double-joint front strut and five-link rear, on staggered wheels.",
+      "watch": "Drive modes run from firm to punishing; refresh dampers and bushings on high-mile cars. Coilovers and sway bars are the usual track upgrades."
+    },
+    "brakes": {
+      "detail": "Large vented M compound discs with fixed six-piston front calipers; carbon-ceramics optional.",
+      "watch": "Strong but consumable on track — pads, rotors, and fluid are wear items, and the optional ceramics are expensive to replace."
+    },
+    "body": {
+      "detail": "Steel-and-aluminum unibody sedan (G80) with the controversial oversized kidney grille and an available CFRP roof.",
+      "watch": "Mostly the grille debate and rock chips; well-galvanized, so rust is rare."
+    }
+  }
 }

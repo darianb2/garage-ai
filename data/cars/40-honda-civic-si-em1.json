@@ -36,5 +36,31 @@
     "Inspect the clutch and gearbox on any hard-driven car before buying",
     "Address distributor leaks early to avoid misfires and no-starts",
     "Keep it original — matching, unmodified EM1s are what the market pays for"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "1.6L B16A2 DOHC VTEC four — 160 hp and 111 lb-ft at 7,000, a legendary high-revving screamer with VTEC crossover around 5,600 rpm and an 8,000 rpm redline.",
+      "watch": "Durable when warmed up and maintained, but it's an interference engine on a timing belt — do the belt and water pump on schedule or a snapped belt bends valves."
+    },
+    "drivetrain": {
+      "detail": "A 5-speed manual driving the front wheels, geared to keep the B16 spinning in its high-rpm sweet spot.",
+      "watch": "Clutches and synchros wear on cars that lived at the 8,000 rpm redline — inspect the gearbox on any hard-driven example before buying."
+    },
+    "suspension": {
+      "detail": "Double-wishbone front and rear — the last Si with a front double-wishbone, which is exactly why enthusiasts prize its handling over the strut-front EP3 that followed.",
+      "watch": "Refresh bushings and mounts on high-mile cars; the double-wishbone front loves coilovers and sway bars."
+    },
+    "brakes": {
+      "detail": "Four-wheel disc brakes standard on the Si — the right hardware for a car meant to be driven hard.",
+      "watch": "Pads and fresh fluid handle track duty; nothing inherent to worry about."
+    },
+    "electrical": {
+      "detail": "Honda distributor ignition, typical of the era.",
+      "watch": "Distributors wear and leak with age — address leaks early to avoid misfires and no-starts."
+    },
+    "body": {
+      "detail": "Steel unibody coupe, ~2,612 lbs, sold in the US for only two model years — part of its cult status.",
+      "watch": "Rust on rear arches, rockers, and floors in salt climates; finding a clean, stock, unmodified EM1 is the real challenge, and originality is what the market now pays for."
+    }
+  }
 }

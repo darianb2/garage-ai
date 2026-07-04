@@ -38,5 +38,31 @@
     "Refresh tired bushings and mounts to restore the classic CRX feel",
     "Parts are cheap and plentiful — this is one of the most affordable classics to keep running",
     "If it's a clean, stock Si, preserve its originality; build a rougher car instead"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "1.6L D16A6 SOHC 16-valve four — the US Si is non-VTEC, making 105 hp and 98 lb-ft (108 hp from 1990 with a revised cam). About as simple and durable as engines get, and barely stressed in a ~2,100 lb car.",
+      "watch": "Genuinely long-lived — just keep the timing belt interval current and check valve clearances periodically. The classic build is a VTEC B-series swap, precisely because the US Si came non-VTEC."
+    },
+    "drivetrain": {
+      "detail": "A 5-speed manual driving the front wheels — the only transmission that matters in a featherweight this light.",
+      "watch": "Robust and cheap to service, with parts everywhere; nothing to fear here."
+    },
+    "suspension": {
+      "detail": "Four-wishbone independent — Honda's then-new double-wishbone setup front and rear, and the reason the sub-2,200 lb EF feels so alive.",
+      "watch": "Tired bushings and mounts dull the light, tossable feel — a full refresh transforms a survivor, and coilovers plus sway bars are the classic first move."
+    },
+    "brakes": {
+      "detail": "Front discs, with four-wheel discs arriving on the 1990-1991 Si (earlier Si cars used rear drums) — more than adequate for a 2,100 lb car.",
+      "watch": "Pads and fluid are all it needs; owners often add a rear-disc setup to the earlier drum-braked cars."
+    },
+    "electrical": {
+      "detail": "Simple early-90s wiring that is now decades old.",
+      "watch": "Age-related gremlins — grounds, connectors, and flaky gauges — are common, but most are cheap to chase down."
+    },
+    "body": {
+      "detail": "Two-seat steel unibody hatch, sub-2,200 lbs and endlessly tunable.",
+      "watch": "Rust is the single biggest enemy — rockers, floors, hatch, and rear quarters; a rust-free shell is worth more than any spec. Sun-baked, cracked dashes and brittle interior plastics are near-universal."
+    }
+  }
 }

@@ -33,5 +33,27 @@
     "Do not extend oil changes past 5,000 miles — turbos are oil-dependent",
     "Change transmission fluid every 30-40k miles (Infiniti says lifetime — ignore that)",
     "Monitor coolant level — turbocharged engines are harder on cooling systems"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "3.0L VR30DDTT twin-turbo 60-degree V6 — 300 hp and 295 lb-ft, direct-injected, with a Garrett turbo per cylinder bank running roughly 9.5 psi through a water-to-air intercooler. Strong and heavily tunable.",
+      "watch": "Wastegate rattle — the pivot point wears inside the turbo housing and produces a signature idle/low-load rattle at mileage. And it will consume oil if you stretch intervals: keep to 5k, no exceptions, because the turbos live on that oil."
+    },
+    "drivetrain": {
+      "detail": "Jatco 7-speed automatic (JR711E), rear-drive or Intelligent AWD.",
+      "watch": "Valve-body issues and rear differential bushing wear show up at higher mileage. Change the transmission fluid every 30-40k despite Infiniti's 'lifetime' spec."
+    },
+    "suspension": {
+      "detail": "Double-wishbone front, multi-link rear, with Infiniti's 2nd-gen Direct Adaptive Steering (steer-by-wire) available.",
+      "watch": "DAS steering feels numb and disconnected — the common gripe across the range. Refresh bushings and dampers on older cars; coilovers and sway bars are the go-to."
+    },
+    "brakes": {
+      "detail": "Vented front discs with ABS and stability control.",
+      "watch": "Adequate for the street; upgraded pads and fresh fluid are all a spirited driver needs."
+    },
+    "body": {
+      "detail": "Steel unibody four-door at about 3,820 lbs.",
+      "watch": "Turbocharged engines run the cooling system harder — keep an eye on coolant level and hose condition; otherwise standard age-related trim and paint wear."
+    }
+  }
 }

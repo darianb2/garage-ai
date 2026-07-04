@@ -36,5 +36,31 @@
     "Inspect relentlessly for rust and address it early with correct, reversible repairs",
     "Service the M10 timing chain and keep the valves adjusted — the engine itself is very durable",
     "Preserve originality and numbers-matching parts — correctness drives the strong values"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "The M10 — BMW's legendarily durable 2.0L SOHC canted 'slant-four,' chain-driven, making 130 hp DIN (US SAE-net ~125 hp) and ~131 lb-ft at ~4,500 rpm. Simple, sturdy, and famously long-lived.",
+      "watch": "Very durable if maintained — watch the timing chain and guides for wear and keep the valves adjusted; carbon can build on the injection-related components."
+    },
+    "fuel": {
+      "detail": "The tii's defining feature: a Kugelfischer PL04 mechanical injection pump in place of carburetors, giving crisp throttle response and the car its 'touring international injection' name.",
+      "watch": "The pump is finicky and specialist-dependent — a poorly-set or long-stored pump loses power and drivability, its internals gum up from sitting (the oil-recirculation design), and rust or debris from the tank and lines will foul it. A correctly rebuilt, dialed-in pump is the heart of a good tii."
+    },
+    "drivetrain": {
+      "detail": "4-speed manual driving the rear wheels; a close-ratio 5-speed Getrag was a rare option, mostly outside the US.",
+      "watch": "Tough and simple — many owners fit the 5-speed for relaxed cruising, ideally kept reversible to preserve originality and value."
+    },
+    "suspension": {
+      "detail": "MacPherson-strut front and semi-trailing-arm independent rear — light and tossable, the template for the BMW sport sedan.",
+      "watch": "Refresh tired bushings, dampers, and the steering box on any survivor; the payoff is the classic, communicative 02 feel."
+    },
+    "brakes": {
+      "detail": "Front discs and rear drums — modest by modern standards but well matched to a ~2,200-2,380 lb car.",
+      "watch": "Fine when healthy; keep the hydraulics and flexible lines fresh on a car that's now 50-plus years old."
+    },
+    "body": {
+      "detail": "Light steel unibody two-door — the compact shape credited with building BMW's US sport-sedan reputation and the spiritual ancestor of the 3 Series.",
+      "watch": "Rust is the real enemy — rockers, floors, shock towers, and trunk are the chronic spots; a rust-free, numbers-matching car is worth far more than a modified one."
+    }
+  }
 }

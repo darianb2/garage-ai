@@ -36,5 +36,27 @@
     "Watch intake and coolant temps on track; add cooling before adding power",
     "Keep every service record — documented history matters a lot on a warranty-sensitive performance car",
     "Inspect the clutch, brakes, and tires regularly on any car that has seen track or autocross use"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "1.6L turbocharged inline-three (G16E-GTS) making 300 hp at 6,500 rpm and 273 lb-ft — the most powerful production three-cylinder ever sold, running a lot of boost through a very small engine.",
+      "watch": "A young, high-strung platform with still-thin long-term data; a few high-profile warranty denials (including two engine fires) mean you buy one with clean, documented history and let the turbo warm up and cool down after hard runs."
+    },
+    "drivetrain": {
+      "detail": "Rally-bred GR-FOUR all-wheel drive with a selectable 60:40 / 50:50 / 30:70 front-rear torque split, driven through a 6-speed intelligent manual (iMT) with auto rev-match — an 8-speed GR-DAT automatic joined for 2025.",
+      "watch": "The clutch and driveline take real abuse on tracked cars; inspect the clutch, tires, and fluids on anything that has seen track or autocross use."
+    },
+    "suspension": {
+      "detail": "MacPherson-strut front and a multilink rear under a widened, stiffened Corolla hatch body, tuned for rally-hatch responses.",
+      "watch": "Firm, buzzy, and busy by design — this is a rally-bred hatch, not a quiet commuter; sticky 200-treadwear tires reward the chassis more than added power does."
+    },
+    "brakes": {
+      "detail": "Large ventilated discs with four-piston front calipers — strong, confident street brakes with real bite.",
+      "watch": "Brake fade is one of the genuine limits under sustained track use; upgraded pads and fresh fluid come before chasing more boost."
+    },
+    "body": {
+      "detail": "A three-door hatch on a widened, extra-welded and adhesive-bonded Corolla shell, with a forged carbon roof on Circuit and Morizo; the rear-seat-delete Morizo Edition is the lightest at ~3,175 lbs.",
+      "watch": "High demand meant markups and limited allocation, especially on the Morizo — the buzzy triple and firm ride are character, not a fault."
+    }
+  }
 }

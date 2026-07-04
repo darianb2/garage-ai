@@ -37,5 +37,27 @@
     "Shift deliberately and keep the transmission fluid fresh to protect the synchros",
     "Address a persistent VTC rattle; keep the oil clean on a tight interval",
     "Inspect the clutch on any tuned car before buying"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "2.0L K20Z3 DOHC i-VTEC four — 197 hp at 7,800 rpm and 139 lb-ft at 6,200, spinning to an ~8,000 rpm redline. High-strung, chain-driven (no timing belt), and one of Honda's great free-revving K-series engines.",
+      "watch": "A small number of 2006-2009 blocks cracked around a coolant passage — check service history and for any coolant loss. The cold-start VTC actuator rattle is common and usually harmless."
+    },
+    "drivetrain": {
+      "detail": "A slick 6-speed manual driving the front wheels through a factory helical limited-slip differential — the first Si ever to get an LSD, and the reason it puts power down so cleanly out of corners.",
+      "watch": "3rd-gear (sometimes 5th) synchro wear turns up on hard-shifted cars — feel for notchiness. Inspect the clutch on any modified or hard-driven example."
+    },
+    "suspension": {
+      "detail": "MacPherson strut front and an independent multi-link rear, sport-tuned with stiffer springs, dampers, and thicker anti-roll bars than a regular Civic.",
+      "watch": "Refresh tired bushings and dampers on high-mile cars to bring back the sharpness; coilovers and sway bars are the classic first mod to exploit the LSD chassis."
+    },
+    "brakes": {
+      "detail": "Four-wheel discs — vented front, solid rear, Si-specific — more than enough for a ~2,877 lb car.",
+      "watch": "Pads and fresh fluid are all it needs for track days; sport use wears both faster than a commuter Civic."
+    },
+    "body": {
+      "detail": "Steel unibody offered as the FG2 coupe or the first-ever Si sedan (FA5), both around 2,877 lbs — plus the collectible 2008 Mugen Si sedan.",
+      "watch": "Worn trim, a faded two-tier digital dash, and minor infotainment/instrument quirks are typical of the age; rust is the enemy on neglected northern cars."
+    }
+  }
 }

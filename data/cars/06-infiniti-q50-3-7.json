@@ -32,5 +32,27 @@
     "Use Nissan genuine ester oil to reduce valve train noise",
     "Inspect rear timing cover for oil seepage at 60k+ miles",
     "Check oil level every fill-up — engine can consume oil silently"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "3.7L VQ37VHR naturally aspirated V6 — 328 hp at 7,000 rpm and 269 lb-ft, with Nissan's VVEL (Variable Valve Event and Lift) on the intake and a 7,500-rpm redline. The last naturally aspirated engine offered in the Q50, and a proven, high-revving unit.",
+      "watch": "Valve-train noise (a top-end tick) is common and usually quiets down on Nissan's genuine ester oil. Watch for the rear timing-cover gasket weeping oil under pressure at 60k+, and for oil consumption from worn valve seals or rings on higher-mile cars — check the level every fill-up."
+    },
+    "drivetrain": {
+      "detail": "Jatco-built 7-speed automatic (JR711E) driving the rear wheels, or Infiniti's Intelligent AWD that only sends torque forward when the rears start to slip.",
+      "watch": "Durable behind the NA V6. Don't trust the 'lifetime fill' claim — fresh ATF every 30-40k is cheap insurance."
+    },
+    "suspension": {
+      "detail": "Double-wishbone front and multi-link rear. The 2014 Q50 debuted Direct Adaptive Steering (DAS) — a steer-by-wire system with no mechanical link between the wheel and rack in normal driving (a clutch mechanically re-couples them if it faults); non-DAS cars kept a conventional rack.",
+      "watch": "DAS is the enthusiast sore point — steering feel is numb and artificial with little genuine road feedback. On high-mile cars, refresh bushings and dampers; coilovers and sway bars are the usual first upgrades."
+    },
+    "brakes": {
+      "detail": "Vented front and solid rear discs with ABS and stability control.",
+      "watch": "Rotor warping (a pulsation through the pedal under braking) is the noted weak point — quality replacement rotors/pads and fresh fluid cure it."
+    },
+    "body": {
+      "detail": "Steel unibody sport sedan at about 3,574 lbs, with Infiniti's dual-screen InTouch infotainment inside.",
+      "watch": "Typical age items — rock chips, trim and seal wear; the older InTouch system can feel laggy by modern standards."
+    }
+  }
 }

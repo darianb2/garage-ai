@@ -308,13 +308,20 @@ Strategy: PERFECT 4 launch cars end-to-end, then scale the same template behind 
       merges it (via profile.specs) so BOTH the Explode/3D detail panel and the
       Mechanical Breakdown cards show curated "what it is / what to watch" text
       alongside live NHTSA counts. Uncurated cars fall back to the NHTSA-only view.
-- [~] Systems-map coverage: now 46 of 71 curated cars. Launch 4 + a 15-car
-      enthusiast batch + a 27-car mainstream/economy batch (the full Honda + Toyota
-      daily-driver lineups: Civic/Accord gens, CR-V/Fit/HR-V/Insight/Odyssey/Pilot,
-      Corolla/Camry/RAV4/Highlander/4Runner/Tacoma/Tundra/Sienna/Prius/Avalon/
-      Corolla Cross/Yaris) — each web-verified, framed for non-enthusiast owners
-      (reliability, running cost, known recalls). Remaining ~25 (Civic Si gens,
-      more BMW, Q50s, Audi S3) are candidates for later.
+- [x] Systems-map coverage: now ALL 71 of 71 curated cars. The final batch of 25
+      completed this pass: the full Civic Si lineage (EG/EM1/EP3/8th/9th/10th +
+      the generic Si), Prelude BB6, CRX EF; the enthusiast BMWs (M3 E36, M4 F82,
+      M5 E60, 1M, 335i E92, Z4 M E86, 2002 tii, plus the generic G80 M3); the
+      3 Infiniti Q50 trims (3.7 / 3.0t / Red Sport 400); Audi S3; Toyota GR
+      Corolla, MR2 Spyder, Celica GT-Four; and the Charger R/T Scat Pack. Each
+      map is grounded on the file's already-web-verified `common_issues` (re-bucketed
+      by system) with well-established hardware facts in `detail`; new failure-mode
+      claims were web-verified. Verified live through /api/profile — 20 of the 25
+      surface immediately in Profile. The remaining 5 are the SAME known Phase-7.2
+      "intentional orphans" (below): the generic G80 `BMW M3`, `Audi S3` (an 8V
+      catalog entry exists but stays unbound until 8V-vs-8Y hp is verified), and the
+      3 Q50 trims (no Q50 in the catalog). Their maps are done and will appear the
+      moment a catalog binding is added.
 - [x] BUGFIX: the Marble redesign replaced the Breakdown/3D tabs, orphaning the
       systems_map display. Re-surfaced it as a "Systems breakdown" section inside
       Profile mode (reuses BreakdownPanel via computeSystems), so all curated

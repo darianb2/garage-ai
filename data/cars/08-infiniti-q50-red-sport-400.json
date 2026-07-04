@@ -33,5 +33,27 @@
     "Same engine as 3.0t — follow same strict 5k oil change interval",
     "DAS system can be replaced with a conventional rack if preferred",
     "Inspect turbo boost hoses for cracks — high output puts more stress on them"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "High-output 3.0L VR30DDTT twin-turbo V6 — 400 hp and 350 lb-ft. Same Garrett turbos as the 300hp car but run harder (~14.5 psi) with an added optical turbine-speed sensor per turbo that lets them safely spin roughly 30% faster, plus extra charge-air-cooler pumping to manage the heat.",
+      "watch": "Same wastegate rattle as every VR30 — turbo-housing pivot wear. The extra boost and heat make strict 5,000-mile oil changes non-negotiable, and it's worth inspecting the boost hoses for cracks since high output stresses them more."
+    },
+    "drivetrain": {
+      "detail": "Jatco 7-speed automatic, rear-drive or Intelligent AWD, sending the VR30's 350 lb-ft to the road.",
+      "watch": "Valve-body issues and rear diff bushing wear are the high-mileage items shared with the 3.0t; keep the transmission fluid fresh rather than 'lifetime.'"
+    },
+    "suspension": {
+      "detail": "Sport-tuned double-wishbone front and multi-link rear, with standard steer-by-wire Direct Adaptive Steering.",
+      "watch": "Two honest gripes: DAS feels numb with no road feedback at low speeds (it can be swapped for a conventional rack if you hate it), and the firm sport setup transmits road harshness into the cabin."
+    },
+    "brakes": {
+      "detail": "Upgraded sport brake package — larger rotors with four-piston front calipers to match the extra power.",
+      "watch": "Strong from the factory; fresh high-temp fluid and better pads are all that's needed before track use."
+    },
+    "body": {
+      "detail": "Steel unibody sport sedan at about 3,890 lbs with Red Sport-specific styling.",
+      "watch": "Standard age and use wear — rock chips, trim, seals; the biggest 'complaint' is really the firm ride, covered under suspension."
+    }
+  }
 }

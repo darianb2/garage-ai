@@ -36,5 +36,31 @@
     "Budget for throttle actuators and, on SMG cars, the pump and clutch",
     "Buy on documented history above all — service records are worth more than low mileage here",
     "Let the V10 fully warm before using the upper rev range"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "The S85 — a 5.0L naturally-aspirated V10 revving to ~8,250 rpm for 500 hp and 383 lb-ft at 6,100 rpm, with individual throttle bodies, double-VANOS, and selectable P400/P500 power modes. An F1-inspired high-water mark and the only V10 M5.",
+      "watch": "The defining flaw is undersized rod bearings — replace roughly every 60k-80k miles or the engine can grenade (short 10W-60 oil changes help). Also expect high oil consumption and VANOS faults, sometimes triggered by rod-bearing debris."
+    },
+    "drivetrain": {
+      "detail": "7-speed SMG III single-clutch automated manual at US launch, or the rare US-only 2007+ Getrag 6-speed manual, sending power to the rear wheels through a limited-slip differential.",
+      "watch": "On SMG cars the hydraulic pump can fail and the clutch is a ~30k-50k mile consumable — the 6MT skips those headaches, though not the engine's rod-bearing needs."
+    },
+    "suspension": {
+      "detail": "Aluminum front strut and rear multilink with Electronic Damping Control (EDC) — composed and quick for a ~4,012 lb sedan.",
+      "watch": "Age-related bushing and EDC damper wear soften body control; refresh on high-mile cars to bring it back."
+    },
+    "brakes": {
+      "detail": "Large vented discs sized to haul a heavy sedan down from V10 speeds, repeatedly.",
+      "watch": "Effective but expensive — rotors, pads, and fluid are pricey consumables, especially with any track use."
+    },
+    "electrical": {
+      "detail": "Two bank-mounted electric throttle actuators drive the individual throttle bodies, and the car is dense with electronics (iDrive, SMG hydraulic control).",
+      "watch": "The throttle actuators wear out on nearly every S85 and will drop the car into limp mode — rebuilt or replacement units are a near-inevitable job. Treat it as budgeted maintenance."
+    },
+    "body": {
+      "detail": "Steel unibody sedan (a Touring wagon was sold abroad) — a discreet, full-size Q-ship.",
+      "watch": "Structurally solid; the real 'body' issue is financial — a cheap E60 M5 hides a heavy maintenance bill and is the most expensive kind to own. Buy on documented history above all."
+    }
+  }
 }

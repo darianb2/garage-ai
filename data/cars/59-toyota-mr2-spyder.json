@@ -36,5 +36,27 @@
     "Keep the convertible top clean and treated, and store it out of the sun when possible",
     "Address the pre-cat concern proactively on high-mile engines to protect the cylinders",
     "Otherwise it is basic, cheap upkeep — this is one of the most affordable mid-engine cars to own"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "1.8L naturally aspirated 1ZZ-FE four, 138 hp at 6,400 rpm, mounted transversely amidships behind the seats — modest output that a ~2,200 lb curb weight flatters.",
+      "watch": "Pre-2003 cars are known oil-burners from the original piston-ring design — check the level every couple of fill-ups and top up promptly; later cars got updated rings that largely cured it, and watch for pre-cat material breaking down and being ingested on high-mile engines."
+    },
+    "drivetrain": {
+      "detail": "Rear-wheel drive from the mid-engine transverse layout, through a slick 5-speed manual (2000-01, and the one to buy) or an SMT automated sequential manual offered on 2002-05 cars.",
+      "watch": "The early SMT is jerky and expensive to repair — strongly favor the conventional 5-speed; budget for specialist work if you take on an SMT car."
+    },
+    "suspension": {
+      "detail": "MacPherson struts front and rear on a featherweight chassis that is all about balance and lightness rather than outright grip.",
+      "watch": "Refresh tired bushings and dampers on high-mile cars; quality coilovers and a sway-bar set are the classic first upgrade that sharpens the light chassis beautifully."
+    },
+    "brakes": {
+      "detail": "Vented front and solid rear discs — modest hardware, but there is very little mass to stop.",
+      "watch": "No real weak point here; fresh pads and fluid are all a spirited driver needs."
+    },
+    "body": {
+      "detail": "Featherweight (~2,195 lb) steel-unibody mid-engine roadster with a power convertible top.",
+      "watch": "Convertible-top wear and rear-window clouding come with age and sun — keep it clean, treated, and out of the sun; the tiny cabin has essentially no cargo space, so it is a weekend toy, not a daily hauler."
+    }
+  }
 }

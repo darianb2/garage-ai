@@ -36,5 +36,27 @@
     "Refresh shifter and suspension bushings to tighten the driving feel",
     "Keep the oil fresh — the K-series is happiest on a clean 5,000–7,500 mile interval",
     "If you want power, budget for a head swap or K-swap rather than chasing the K20A3 hard"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "2.0L K20A3 DOHC i-VTEC four — 160 hp and 132 lb-ft at 5,000. The US Si got the milder single-cam-profile K20A3 (more economy-minded than the RSX Type-S's K20A2/Z2), but the K-series is one of the most durable, swap-friendly engines Honda ever built, and it's chain-driven — no timing belt to ever replace.",
+      "watch": "VTC actuator cold-start rattle is common and usually benign — address it only if it persists past warm-up. The mild VTEC crossover feels tame stock, which is why so many owners fit a K20A2/Z head or go full K-swap."
+    },
+    "drivetrain": {
+      "detail": "A 5-speed manual with a novel dash-mounted shifter, driving the front wheels.",
+      "watch": "Very durable; the dash-shifter bushings wear and make the shift feel vague — fresh bushings tighten it right back up."
+    },
+    "suspension": {
+      "detail": "MacPherson-strut front (a toe-control-link strut) with a reactive-link double-wishbone rear — the generation that dropped the earlier Sis' front double-wishbone.",
+      "watch": "Less razor-sharp than the double-wishbone EM1, but coilovers and sway bars wake up the strut-front chassis considerably."
+    },
+    "brakes": {
+      "detail": "Four-wheel disc brakes — well suited to the heavier ~2,744 lb hatch.",
+      "watch": "Pads and fluid are all it needs; no chronic issues."
+    },
+    "body": {
+      "detail": "Steel unibody hatchback, ~2,744 lbs, with styling that was polarizing at launch and appreciated now.",
+      "watch": "Rust on rear arches and rockers in salt climates is the main thing to inspect."
+    }
+  }
 }

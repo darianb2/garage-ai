@@ -36,5 +36,31 @@
     "Refresh bushings and mounts to bring back the crisp handling",
     "Parts are cheap and everywhere — a very affordable classic to run",
     "Preserve originality on clean cars; the market increasingly rewards it"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "1.6L D16Z6 SOHC VTEC four — 125 hp and 106 lb-ft at 5,200, the first VTEC engine in a US Civic Si. Simple, light-stressed, and famously long-lived.",
+      "watch": "Bulletproof with basic care — keep the timing belt interval and periodic valve-clearance checks current. A B-series swap is the classic way to add the power the D16Z6 leaves on the table."
+    },
+    "drivetrain": {
+      "detail": "A 5-speed manual driving the front wheels in a ~2,300 lb hatch, so nothing is ever working hard.",
+      "watch": "Very reliable and cheap to keep going."
+    },
+    "suspension": {
+      "detail": "Double-wishbone at all four corners — the EG's party trick and the foundation of a chassis enthusiasts still love to build on.",
+      "watch": "Worn bushings and mounts blunt the sharp EG feel; a refresh plus coilovers and sway bars brings it right back."
+    },
+    "brakes": {
+      "detail": "Front and rear discs on the Si — well matched to a light ~2,300 lb car.",
+      "watch": "Just pads and fluid; nothing chronic."
+    },
+    "electrical": {
+      "detail": "Early-90s wiring now roughly three decades old.",
+      "watch": "Age-related electrical and gauge gremlins turn up — mostly grounds and connectors — and are inexpensive to sort."
+    },
+    "body": {
+      "detail": "Lightweight steel unibody hatch, ~2,300 lbs.",
+      "watch": "Rust on rockers, floors, and rear quarters is the real ownership issue; a clean, unmodified shell is the scarce, appreciating part, and dashes crack with sun exposure."
+    }
+  }
 }

@@ -36,5 +36,31 @@
     "Listen for wastegate rattle and address worn actuators/turbos before they worsen",
     "Use the correct LL-01 synthetic on a 5,000–7,500 mile interval, not the stretched CBS interval",
     "Preserve originality and documentation — the 1M's value rides on it"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "3.0L N54B30 twin-turbo inline-six — 335 hp and 332 lb-ft (369 lb-ft on temporary overboost) from two small parallel turbochargers; BMW's first mass-produced twin-turbo gas engine, dropped into the smallest M body.",
+      "watch": "Turbo wastegate rattle from premature bushing wear is the classic N54 turbo complaint — address worn actuators before they worsen. The plastic charge pipe cracks under boost (an aluminum piece is a near-universal upgrade), and oil-filter-housing and valve-cover gaskets weep with age across the N54 family."
+    },
+    "fuel": {
+      "detail": "Direct injection fed by a high-pressure fuel pump (HPFP) and piezoelectric injectors — the heart of the N54's tuning headroom and of its reputation.",
+      "watch": "The HPFP is the marquee N54 failure and was subject to a warranty extension — confirm it's been updated or budget for it. The piezo injectors also fail and were revised; keeping the fuel system healthy is the whole game on this engine."
+    },
+    "drivetrain": {
+      "detail": "Rear-wheel drive through a 6-speed manual only — no automatic was ever offered — with an M limited-slip differential and a widened track.",
+      "watch": "The gearbox and diff are robust; just keep the fluids fresh."
+    },
+    "suspension": {
+      "detail": "E9x M3-derived suspension with aluminum control arms and a widened track packaged under the compact E82 shell.",
+      "watch": "Refresh dampers and bushings on higher-mile cars — the chassis is the whole point of this car, so keep it tight."
+    },
+    "brakes": {
+      "detail": "Large vented discs and calipers pulled from the E9x M3 parts bin — serious stopping hardware for such a compact car.",
+      "watch": "Pads and fresh fluid for spirited or track use; otherwise trouble-free."
+    },
+    "body": {
+      "detail": "Compact E82 coupe unibody with flared fenders covering the widened track — a discreet, muscular shape and a one-model-year US collectible.",
+      "watch": "Originality is everything on an appreciating car — check for accident history and preserve documentation; rust is uncommon."
+    }
+  }
 }

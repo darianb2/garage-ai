@@ -37,5 +37,31 @@
     "Check oil level frequently on 10th gen due to known dilution issue",
     "Use Honda-approved 0W-20 synthetic",
     "Inspect brake pads — sport driving wears them faster"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "1.5L turbocharged four (Honda's L15 family) — 200 hp and 192 lb-ft with a broad, flexible torque band that peaks low. The modern Si formula: turbo torque everywhere, still happy to rev.",
+      "watch": "Oil dilution — fuel mixing into the oil on short trips in cold climates — is the defining watch item and hits the 10th-gen 1.5T hardest. Check the oil level often and use Honda-approved 0W-20 synthetic."
+    },
+    "drivetrain": {
+      "detail": "6-speed manual driving the front wheels through a helical limited-slip differential — a genuinely great shifter and the LSD that defines every modern Si.",
+      "watch": "Bulletproof in normal use; clutch wear shows up on tuned or hard-driven cars."
+    },
+    "suspension": {
+      "detail": "MacPherson strut front and independent multi-link rear on the modern platform, sport-tuned (with adaptive dampers on the 10th-gen Si).",
+      "watch": "Refresh bushings and dampers on high-mile cars; if it has adaptive dampers, lowering needs parts made to work with the system."
+    },
+    "brakes": {
+      "detail": "Four-wheel discs sized for the Si — strong and consistent for a ~3,000 lb compact.",
+      "watch": "Sport driving wears pads faster; fresh pads and fluid are all it needs for track days."
+    },
+    "electrical": {
+      "detail": "Honda touchscreen infotainment plus the usual Civic accessory systems.",
+      "watch": "Infotainment freezing is a common complaint, and A/C compressor failure is a known issue on these cars."
+    },
+    "body": {
+      "detail": "Steel unibody Civic in sedan or coupe form, around 3,012 lbs.",
+      "watch": "Solid structure; watch for rock chips and parking dings like any daily-driven compact."
+    }
+  }
 }

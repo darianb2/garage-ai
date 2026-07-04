@@ -36,5 +36,27 @@
     "Use good synthetic oil on a short interval and let the turbo warm up and cool down",
     "Inspect the body carefully for rust and prior accident/rally history before buying",
     "Preserve originality and paperwork — provenance is what makes a genuine ST205 valuable"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "2.0L turbocharged 3S-GTE four with the twin-entry CT20b turbo and a water-to-air intercooler — ~239 hp in export trim, 252-255 PS JDM. The 3S-GTE bottom end is proven and stout.",
+      "watch": "The aging turbo and water-to-air intercooler heat-soak under sustained boost — sort cooling and heat management before pushing boost, and always warm up and cool down the turbo."
+    },
+    "drivetrain": {
+      "detail": "Full-time all-wheel drive with a Torsen center differential and viscous coupling, driven through a 5-speed manual — genuine rally-derived hardware.",
+      "watch": "The center diff and viscous coupling wear on high-mile or hard-used cars; service the driveline regularly, and be aware many GT-Four-specific parts are scarce and expensive."
+    },
+    "suspension": {
+      "detail": "Rally-bred strut suspension, stiffened over lesser Celicas; the rare WRC/Group A edition adds the sought-after 'Super Strut' front setup.",
+      "watch": "Refresh dampers and bushings to restore the handling — Super Strut components in particular are hard and costly to source."
+    },
+    "brakes": {
+      "detail": "Uprated four-wheel discs over the standard Celica, with ABS, to match the homologation car's pace.",
+      "watch": "GT-Four-specific brake parts fall under the same scarcity problem — budget for the hunt on a 30-year-old collector car."
+    },
+    "body": {
+      "detail": "A stiffer, homologation-spec Celica shell built in roughly 2,500 units to satisfy Group A World Rally Championship rules.",
+      "watch": "Rust is the big one on a 30-year-old body, especially salt-climate cars — inspect thoroughly and check for prior accident or rally history; grey-import examples add sourcing and service complexity."
+    }
+  }
 }
