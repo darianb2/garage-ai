@@ -3,6 +3,7 @@ import Landing from "./components/Landing";
 import VehicleHub from "./components/VehicleHub";
 import CompareView from "./components/CompareView";
 import CompareTray from "./components/CompareTray";
+import TopSearch from "./components/TopSearch";
 
 const MAX_COMPARE = 3;
 
@@ -59,10 +60,17 @@ export default function App() {
   return (
     <div className="min-h-full bg-zinc-950 text-zinc-100">
       <div className="sticky top-0 z-20 border-b border-zinc-900 bg-zinc-950/80 backdrop-blur">
-        <div className="mx-auto max-w-6xl px-4 py-3">
-          <button onClick={home} className="text-lg font-bold tracking-tight">
+        <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3">
+          <button onClick={home} className="shrink-0 text-lg font-bold tracking-tight">
             <span className="text-amber-500">Garage</span> AI
           </button>
+          {/* Search bar only while on a vehicle (a "file"); the Landing has its
+              own hero search, so the nav stays clean there. */}
+          {vehicle && !comparing && (
+            <div className="flex flex-1 justify-end">
+              <TopSearch onSelect={open} />
+            </div>
+          )}
         </div>
       </div>
 
