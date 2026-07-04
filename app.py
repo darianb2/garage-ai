@@ -816,7 +816,7 @@ CURATED_SPEC_BINDINGS = {
     ("bmw", "1 series m"):  [(2011, 2012, "BMW 1 Series M")],          # E82 1M (N54)
     ("bmw", "335i"):        [(2007, 2013, "BMW 335i (E92)")],          # E92 coupe (N54 2007-10, N55 2011-13)
     ("bmw", "z4 m"):        [(2006, 2008, "BMW Z4 M Coupe (E86)")],    # S54 clownshoe coupe
-    ("bmw", "2002"):        [(1971, 1975, "BMW 2002 tii")],           # tii injection years (carb 2002s stay unbound)
+    ("bmw", "2002"):        [(1971, 1973, "BMW 2002 tii")],           # tii injection years; carb 2002s and the '73-'74 Turbo stay unbound
 }
 
 
