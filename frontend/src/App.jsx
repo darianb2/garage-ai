@@ -21,18 +21,35 @@ export default function App() {
   const [answer, setAnswer] = useState(null);
   const [compare, setCompare] = useState([]); // cars staged for side-by-side
   const [comparing, setComparing] = useState(false); // showing the compare view
+  const [browse, setBrowse] = useState(false); // Landing showing the full catalog
 
   // Landing hands us a car (tile click) or a car + AI answer (a question).
   const open = (v, ans = null) => {
     setVehicle(v);
     setAnswer(ans);
     setComparing(false);
+    setBrowse(false);
     window.scrollTo(0, 0);
   };
   const home = () => {
     setVehicle(null);
     setAnswer(null);
     setComparing(false);
+    setBrowse(false);
+  };
+  // Nav: Catalog -> Landing in browse-all mode; Compare -> the side-by-side view
+  // (which itself prompts to add cars when fewer than two are staged).
+  const showCatalog = () => {
+    setVehicle(null);
+    setAnswer(null);
+    setComparing(false);
+    setBrowse(true);
+    window.scrollTo(0, 0);
+  };
+  const openCompare = () => {
+    setVehicle(null);
+    setComparing(true);
+    window.scrollTo(0, 0);
   };
 
   // Stage a car for comparison (delegated up from tiles and the Hub). Dedupes by
@@ -62,7 +79,12 @@ export default function App() {
   // primary Ask surface.
   const askFocus = () => {
     home();
-    requestAnimationFrame(() => document.getElementById("hero-search")?.focus());
+    // Let the Landing mount, then focus + select the hero search (it doubles as
+    // the Ask box: a question-shaped query routes to Garage AI).
+    setTimeout(() => {
+      const el = document.getElementById("hero-search");
+      if (el) { el.focus(); el.select?.(); }
+    }, 60);
   };
 
   // The MARBLE nav is app chrome for the Landing/Compare views; inside the Hub the
@@ -86,8 +108,10 @@ export default function App() {
             </button>
             <nav className="ml-auto flex items-center gap-5 text-[13px] text-marble-mid">
               <button onClick={home} className="hidden hover:text-marble-body sm:inline">Explore</button>
-              <button onClick={startCompare} className="hidden hover:text-marble-body sm:inline">Compare</button>
-              <button onClick={home} className="hidden hover:text-marble-body sm:inline">Catalog</button>
+              <button onClick={openCompare} className="hidden hover:text-marble-body sm:inline">
+                Compare{compare.length > 0 ? ` (${compare.length})` : ""}
+              </button>
+              <button onClick={showCatalog} className="hidden hover:text-marble-body sm:inline">Catalog</button>
               <PrimaryButton onClick={askFocus} className="px-4 py-2 text-[13px]">Ask AI</PrimaryButton>
             </nav>
           </div>
@@ -112,7 +136,7 @@ export default function App() {
             inCompare={inCompare(vehicle)}
           />
         ) : (
-          <Landing onSelect={open} onCompare={addCompare} inCompare={inCompare} />
+          <Landing onSelect={open} onCompare={addCompare} inCompare={inCompare} browse={browse} />
         )}
       </main>
 

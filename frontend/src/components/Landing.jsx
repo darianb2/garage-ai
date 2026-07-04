@@ -30,7 +30,7 @@ function looksLikeQuestion(q) {
 // catalog; a question-shaped query routes to Ask Garage AI instead. Empty state
 // shows the four launch cars; a "research any car" fallback runs the profile
 // engine on a make/model/year the catalog doesn't hold.
-export default function Landing({ onSelect, onCompare, inCompare }) {
+export default function Landing({ onSelect, onCompare, inCompare, browse = false }) {
   const [catalog, setCatalog] = useState(null);
   const [query, setQuery] = useState("");
   const [asking, setAsking] = useState(false);
@@ -172,6 +172,21 @@ export default function Landing({ onSelect, onCompare, inCompare }) {
               </p>
             ) : (
               <CatalogGrid cars={results} onSelect={onSelect} onCompare={onCompare} inCompare={inCompare} />
+            )}
+          </div>
+        ) : browse ? (
+          /* Browse the full catalog (nav → Catalog) */
+          <div className="pb-16 pt-2">
+            <div className="mb-5 flex items-center justify-between">
+              <h2 className="text-[13px] font-semibold text-marble-hi">All vehicles</h2>
+              <Mono className="text-[11px] normal-case tracking-normal">
+                {catalog?.length ?? "…"} in catalog
+              </Mono>
+            </div>
+            {!catalog ? (
+              <Spinner label="Loading catalog…" />
+            ) : (
+              <CatalogGrid cars={catalog} onSelect={onSelect} onCompare={onCompare} inCompare={inCompare} />
             )}
           </div>
         ) : (
