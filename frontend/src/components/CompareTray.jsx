@@ -7,7 +7,7 @@ export default function CompareTray({ items, max, onRemove, onClear, onCompare }
   return (
     <div className="fixed inset-x-0 bottom-0 z-30 border-t border-zinc-800 bg-zinc-950/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-3 px-4 py-3">
-        <span className="text-xs font-semibold uppercase tracking-wide text-amber-500">
+        <span className="text-xs font-semibold uppercase tracking-wide text-marble-accent">
           Compare ({items.length}/{max})
         </span>
 
@@ -35,7 +35,7 @@ export default function CompareTray({ items, max, onRemove, onClear, onCompare }
         <button
           onClick={onCompare}
           disabled={!ready}
-          className="rounded-lg bg-amber-500 px-4 py-1.5 text-sm font-semibold text-zinc-900 hover:bg-amber-400 disabled:cursor-not-allowed disabled:opacity-50"
+          className="rounded-lg bg-marble-accent px-4 py-1.5 text-sm font-semibold text-zinc-900 hover:bg-marble-accent disabled:cursor-not-allowed disabled:opacity-50"
         >
           {ready ? "Compare" : "Add one more"}
         </button>

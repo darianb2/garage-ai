@@ -75,7 +75,7 @@ export default function TopSearch({ onSelect }) {
         aria-label="Search cars"
         role="combobox"
         aria-expanded={showList && !!needle}
-        className="w-full rounded-lg border border-zinc-700 bg-zinc-900 px-3 py-1.5 text-sm text-zinc-100 placeholder-zinc-500 focus:border-amber-500 focus:outline-none focus:ring-1 focus:ring-amber-500"
+        className="w-full rounded-lg border border-zinc-700 bg-zinc-900 px-3 py-1.5 text-sm text-zinc-100 placeholder-zinc-500 focus:border-marble-accent focus:outline-none focus:ring-1 focus:ring-marble-accent"
       />
       {showList && needle && (
         <ul
@@ -92,7 +92,7 @@ export default function TopSearch({ onSelect }) {
                   onMouseEnter={() => setActive(i)}
                   onClick={() => pick(c)}
                   className={`block w-full px-3 py-2 text-left ${
-                    i === active ? "bg-amber-500 text-zinc-900" : "hover:bg-zinc-800"
+                    i === active ? "bg-marble-accent text-zinc-900" : "hover:bg-zinc-800"
                   }`}
                 >
                   <span className="text-sm font-medium">

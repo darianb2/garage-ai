@@ -1,20 +1,23 @@
 import { useEffect, useState } from "react";
 import { getCatalog, askAnswer } from "../lib/api";
-import { Card, Spinner } from "./ui";
+import { Spinner, Mono, PrimaryButton } from "./ui";
 import CatalogGrid from "./CatalogGrid";
 
-// Model-name chips for the catalog search engine (no AI) and question chips for
-// the Ask Garage AI box (the grounded answer endpoint). Kept apart so each tool
-// advertises what it does.
-const SEARCH_EXAMPLES = ["Supra", "M3", "GT-R", "Miata", "911"];
-const ASK_EXAMPLES = [
-  "is the E46 M3 reliable?",
-  "what breaks on the GT-R?",
-  "is the Miata cheap to own?",
+// The 4 locked launch cars — showcase quality. Years/chassis are display strings;
+// the vehicle object is what opens the Hub (generation chosen so the 3D model +
+// curated specs both resolve — Miata opens at 2019 for the ND2 spec sheet, Supra
+// keeps "A80 (Mk4)" to match the model registry key).
+const LAUNCH = [
+  { name: "Mazda MX-5 Miata", chassis: "ND", years: "2015–now",
+    vehicle: { make: "Mazda", model: "MX-5 Miata", year: 2019, generation: "ND", body: "Roadster" } },
+  { name: "Toyota Supra", chassis: "A80", years: "1993–2002",
+    vehicle: { make: "Toyota", model: "Supra", year: 1997, generation: "A80 (Mk4)", body: "Coupe" } },
+  { name: "BMW M3", chassis: "E46", years: "2000–2006",
+    vehicle: { make: "BMW", model: "M3", year: 2003, generation: "E46", body: "Coupe" } },
+  { name: "Nissan GT-R", chassis: "R35", years: "2007–now",
+    vehicle: { make: "Nissan", model: "GT-R", year: 2017, generation: "R35", body: "Coupe" } },
 ];
 
-// Used only to nudge — if a catalog search comes up empty and the text reads like
-// a question, we point the visitor at the Ask box instead of leaving them stuck.
 const QUESTION_START =
   /^(is|are|was|were|do|does|did|should|would|could|can|will|which|what|whats|how|why|who|whose)\b/;
 function looksLikeQuestion(q) {
@@ -23,82 +26,47 @@ function looksLikeQuestion(q) {
   return s.includes("?") || QUESTION_START.test(s) || s.split(/\s+/).length >= 4;
 }
 
-// Search-first landing, now with two clearly separate tools (owner request):
-//   1. A catalog SEARCH ENGINE — filters the cars we have, entirely client-side,
-//      no AI, no cost. Submitting a model/keyword opens a results grid.
-//   2. An ASK GARAGE AI section — sends a question to /api/answer, which
-//      identifies the car and answers grounded in our data + NHTSA. A resolved
-//      car hands { vehicle, answer } up so the Hub renders the answer on top.
-// The grid (results / browse-all) lives in CatalogGrid; the AI answer navigates
-// away to the Hub, so only its "name a car" reply / errors show inline here.
+// Search-first landing (design ref #2b). One hero search bar that live-filters the
+// catalog; a question-shaped query routes to Ask Garage AI instead. Empty state
+// shows the four launch cars; a "research any car" fallback runs the profile
+// engine on a make/model/year the catalog doesn't hold.
 export default function Landing({ onSelect, onCompare, inCompare }) {
   const [catalog, setCatalog] = useState(null);
-  const [query, setQuery] = useState(""); // catalog search text
-  const [question, setQuestion] = useState(""); // AI question text
-  const [view, setView] = useState("home"); // home | results | browse
-  const [results, setResults] = useState([]); // catalog filtered by the submitted keyword
+  const [query, setQuery] = useState("");
   const [asking, setAsking] = useState(false);
-  const [notice, setNotice] = useState(null); // AI inline reply (no car identified) or error
-
+  const [notice, setNotice] = useState(null);
+  const [showResearch, setShowResearch] = useState(false);
   const [free, setFree] = useState({ make: "", model: "", year: "" });
 
   useEffect(() => {
     getCatalog().then(setCatalog).catch(() => setCatalog([]));
   }, []);
 
-  const filterCatalog = (q) => {
-    const needle = q.trim().toLowerCase();
-    if (!catalog) return [];
-    if (!needle) return catalog;
-    return catalog.filter((c) =>
-      `${c.make} ${c.model} ${c.generation} ${c.body} ${c.note}`
-        .toLowerCase()
-        .includes(needle),
-    );
-  };
+  const needle = query.trim().toLowerCase();
+  const results = !needle
+    ? []
+    : (catalog || []).filter((c) =>
+        `${c.make} ${c.model} ${c.generation} ${c.body} ${c.note}`.toLowerCase().includes(needle),
+      );
 
-  // --- Tool 1: catalog search engine (no AI) ---
-  const search = (term) => {
-    const q = term.trim();
-    if (!q) return;
-    setResults(filterCatalog(q));
-    setView("results");
-  };
-  const onSearch = (e) => {
+  const onSubmit = async (e) => {
     e.preventDefault();
-    search(query);
-  };
-  const runSearchExample = (ex) => {
-    setQuery(ex);
-    search(ex);
-  };
-
-  // --- Tool 2: Ask Garage AI (the grounded answer endpoint) ---
-  const ask = async (raw) => {
-    const q = raw.trim();
+    const q = query.trim();
     if (!q || asking) return;
-    setNotice(null);
-    setAsking(true);
-    try {
-      const data = await askAnswer(q);
-      if (data.vehicle) {
-        onSelect(data.vehicle, data); // hand the answer up to App -> VehicleHub
-      } else {
-        setNotice({ kind: "info", text: data.answer }); // "name a car" reply
+    if (looksLikeQuestion(q)) {
+      setNotice(null);
+      setAsking(true);
+      try {
+        const data = await askAnswer(q);
+        if (data.vehicle) onSelect(data.vehicle, data);
+        else setNotice({ kind: "info", text: data.answer });
+      } catch (err) {
+        setNotice({ kind: "error", text: err.message });
+      } finally {
+        setAsking(false);
       }
-    } catch (e) {
-      setNotice({ kind: "error", text: e.message });
-    } finally {
-      setAsking(false);
     }
-  };
-  const onAsk = (e) => {
-    e.preventDefault();
-    ask(question);
-  };
-  const runAskExample = (ex) => {
-    setQuestion(ex);
-    ask(ex);
+    // model/keyword queries are already reflected live in the results grid below
   };
 
   const submitFree = (e) => {
@@ -106,175 +74,153 @@ export default function Landing({ onSelect, onCompare, inCompare }) {
     if (free.make && free.model && free.year) onSelect({ ...free });
   };
 
-  const chip =
-    "rounded-full border border-zinc-800 bg-zinc-900/60 px-3 py-1 text-sm text-zinc-300 hover:border-amber-500 hover:text-amber-400 disabled:opacity-60";
-
   return (
-    <div className="mx-auto max-w-6xl px-4">
-      <header className="pt-16 pb-8 text-center">
-        <h1 className="text-5xl font-bold tracking-tight">
-          Find your <span className="text-amber-500">car</span>
-        </h1>
-        <p className="mx-auto mt-3 max-w-xl text-zinc-400">
-          Search the garage for a model, or ask Garage AI a question — answered from
-          real specs, reliability, and recall data.
-        </p>
-      </header>
-
-      {/* Tool 1 — the catalog search engine (filters our cars, no AI). */}
-      <section className="mx-auto max-w-xl">
-        <form onSubmit={onSearch} className="flex gap-2">
-          <input
-            autoFocus
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search the garage — model or keyword (e.g. Supra, M3, AWD)"
-            className="w-full rounded-xl border border-zinc-700 bg-zinc-900 px-5 py-4 text-lg text-zinc-100 placeholder-zinc-500 focus:border-amber-500 focus:outline-none focus:ring-1 focus:ring-amber-500"
-          />
-          <button className="shrink-0 rounded-xl bg-amber-500 px-5 font-semibold text-zinc-900 hover:bg-amber-400">
-            Search
-          </button>
-        </form>
-        <div className="mt-3 flex flex-wrap items-center justify-center gap-2">
-          {SEARCH_EXAMPLES.map((ex) => (
-            <button key={ex} onClick={() => runSearchExample(ex)} className={chip}>
-              {ex}
-            </button>
-          ))}
-          <button
-            onClick={() => setView("browse")}
-            className="text-sm text-zinc-400 underline-offset-4 hover:text-amber-400 hover:underline"
-          >
-            Browse all {catalog?.length ?? ""}
-          </button>
-        </div>
-      </section>
-
-      {/* Tool 2 — Ask Garage AI (a separate section; hits /api/answer). */}
-      <section className="mx-auto mt-10 max-w-xl">
-        <Card className="p-5">
-          <span className="text-xs font-semibold uppercase tracking-widest text-amber-500">
-            Ask Garage AI
-          </span>
-          <p className="mt-1 text-sm text-zinc-400">
-            Have a question about a specific car? Get a grounded answer, not just a
-            listing.
+    <div>
+      {/* Hero */}
+      <section
+        className="marble-veins relative overflow-hidden px-6 pb-10 pt-16 text-center"
+        style={{ background: "radial-gradient(120% 90% at 50% -20%, #1a1a1e, #0d0d0f 62%)" }}
+      >
+        <div className="relative mx-auto max-w-[760px]">
+          <Mono className="text-[12px] tracking-[0.14em] !text-marble-accent">
+            SEARCH ANY CAR · EXPLORE IN 3D
+          </Mono>
+          <h1 className="mt-3 text-[44px] font-extrabold leading-[1.02] tracking-[-0.02em] text-marble-hi sm:text-[52px]">
+            Your pocket mechanic.
+          </h1>
+          <p className="mx-auto mt-4 max-w-[520px] text-[16px] leading-relaxed text-marble-mid">
+            Search a make, model or trim — get the specs, the 3D teardown, and honest
+            answers grounded in real data.
           </p>
-          <form onSubmit={onAsk} className="mt-3 flex gap-2">
-            <input
-              value={question}
-              onChange={(e) => setQuestion(e.target.value)}
-              placeholder="e.g. is the Mk4 Supra reliable?"
-              className="w-full rounded-xl border border-zinc-700 bg-zinc-900 px-4 py-3 text-zinc-100 placeholder-zinc-500 focus:border-amber-500 focus:outline-none focus:ring-1 focus:ring-amber-500"
-            />
-            <button
-              disabled={asking}
-              className="shrink-0 rounded-xl bg-amber-500 px-5 font-semibold text-zinc-900 hover:bg-amber-400 disabled:opacity-60"
-            >
-              {asking ? "…" : "Ask"}
-            </button>
-          </form>
-          <div className="mt-3 flex flex-wrap gap-2">
-            {ASK_EXAMPLES.map((ex) => (
-              <button
-                key={ex}
-                onClick={() => runAskExample(ex)}
-                disabled={asking}
-                className={chip}
-              >
-                {ex}
-              </button>
-            ))}
-          </div>
 
-          {asking && (
-            <div className="mt-4">
-              <Spinner label="Garage AI is reading the data…" />
-            </div>
-          )}
-          {notice && (
-            <div
-              className={`mt-4 rounded-xl border p-4 text-left text-sm ${
-                notice.kind === "error"
-                  ? "border-red-500/30 bg-red-500/5 text-red-200"
-                  : "border-amber-500/30 bg-amber-500/5 text-zinc-200"
-              }`}
+          <form
+            onSubmit={onSubmit}
+            className="mx-auto mt-7 flex max-w-[620px] items-center gap-2 rounded-xl border border-white/[0.12] bg-marble-panel2 py-[7px] pl-[18px] pr-[7px] shadow-[0_10px_40px_rgba(0,0,0,0.5)]"
+          >
+            <svg viewBox="0 0 24 24" className="h-[18px] w-[18px] shrink-0 text-marble-dim" fill="none" stroke="currentColor" strokeWidth="2">
+              <circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" strokeLinecap="round" />
+            </svg>
+            <input
+              id="hero-search"
+              autoFocus
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Search any car — make, model, trim…"
+              className="w-full bg-transparent text-[15px] text-marble-hi placeholder-marble-dim focus:outline-none"
+            />
+            <PrimaryButton type="submit" className="shrink-0 rounded-lg px-5 py-2.5 text-[13px]" disabled={asking}>
+              {asking ? "…" : "Explore"}
+            </PrimaryButton>
+          </form>
+
+          <p className="mt-3 text-[12.5px] text-marble-dim">
+            Not in our profiled set?{" "}
+            <button
+              onClick={() => setShowResearch((s) => !s)}
+              className="text-marble-accent hover:underline"
             >
+              Research any car →
+            </button>
+          </p>
+
+          {showResearch && (
+            <form onSubmit={submitFree} className="mx-auto mt-3 flex max-w-[620px] flex-wrap items-center justify-center gap-2">
+              {["make", "model", "year"].map((f) => (
+                <input
+                  key={f}
+                  value={free[f]}
+                  onChange={(e) => setFree({ ...free, [f]: e.target.value })}
+                  placeholder={f[0].toUpperCase() + f.slice(1)}
+                  inputMode={f === "year" ? "numeric" : "text"}
+                  className="w-28 rounded-lg border border-white/10 bg-marble-panel px-3 py-1.5 text-sm text-marble-body placeholder-marble-dim focus:border-marble-accent focus:outline-none"
+                />
+              ))}
+              <PrimaryButton type="submit" className="px-3 py-1.5 text-sm">Research</PrimaryButton>
+            </form>
+          )}
+
+          {asking && <div className="mt-5 flex justify-center"><Spinner label="Garage AI is reading the data…" /></div>}
+          {notice && (
+            <div className={`mx-auto mt-5 max-w-[620px] rounded-xl border p-4 text-left text-sm ${
+              notice.kind === "error"
+                ? "border-red-500/30 bg-red-500/5 text-red-200"
+                : "border-marble-accent/30 bg-marble-accent/5 text-marble-body"
+            }`}>
               {notice.text}
             </div>
           )}
-        </Card>
+        </div>
       </section>
 
-      {/* Results / browse grid — driven only by the search engine above. */}
-      {view !== "home" && (
-        <div className="mt-12">
-          <div className="mb-6 flex items-center justify-between gap-3">
-            <p className="text-sm text-zinc-500">
-              {view === "browse"
-                ? `Browsing all ${catalog?.length ?? ""} vehicles`
-                : `${results.length} match${results.length === 1 ? "" : "es"} for “${query.trim()}”`}
-            </p>
-            <button
-              onClick={() => setView("home")}
-              className="shrink-0 text-sm text-zinc-400 hover:text-amber-400"
-            >
-              ← Clear
-            </button>
+      <div className="mx-auto max-w-6xl px-6">
+        {needle ? (
+          /* Live search results */
+          <div className="pb-16 pt-2">
+            <div className="mb-5 flex items-center justify-between">
+              <p className="text-sm text-marble-dim">
+                {results.length} match{results.length === 1 ? "" : "es"} for “{query.trim()}”
+              </p>
+              <button onClick={() => setQuery("")} className="text-sm text-marble-dim hover:text-marble-accent">
+                ← Clear
+              </button>
+            </div>
+            {!catalog ? (
+              <Spinner label="Loading catalog…" />
+            ) : results.length === 0 && looksLikeQuestion(query) ? (
+              <p className="text-sm text-marble-mid">
+                Looking for an answer, not a listing? Press <span className="text-marble-accent">Explore</span> to ask Garage AI.
+              </p>
+            ) : (
+              <CatalogGrid cars={results} onSelect={onSelect} onCompare={onCompare} inCompare={inCompare} />
+            )}
           </div>
-          {/* Empty search that reads like a question -> point at the Ask box. */}
-          {view === "results" && results.length === 0 && looksLikeQuestion(query) && (
-            <p className="mb-4 text-sm text-zinc-400">
-              Looking for an answer, not a listing? Ask it in the{" "}
-              <span className="text-amber-400">Ask Garage AI</span> box above.
-            </p>
-          )}
-          {!catalog ? (
-            <Spinner label="Loading catalog…" />
-          ) : (
-            <CatalogGrid
-              cars={view === "browse" ? catalog : results}
-              onSelect={onSelect}
-              onCompare={onCompare}
-              inCompare={inCompare}
-            />
-          )}
-        </div>
-      )}
-
-      {/* "Not in the garage?" — research any car by make/model/year. */}
-      {view === "home" && (
-        <div className="mx-auto mt-12 max-w-xl pb-20 text-center">
-          <form
-            onSubmit={submitFree}
-            className="flex flex-wrap items-center justify-center gap-2 text-sm text-zinc-500"
-          >
-            <span>Not in the garage?</span>
-            <input
-              value={free.make}
-              onChange={(e) => setFree({ ...free, make: e.target.value })}
-              placeholder="Make"
-              className="w-24 rounded-lg border border-zinc-800 bg-zinc-900 px-2 py-1 text-zinc-200 focus:border-amber-500 focus:outline-none"
-            />
-            <input
-              value={free.model}
-              onChange={(e) => setFree({ ...free, model: e.target.value })}
-              placeholder="Model"
-              className="w-24 rounded-lg border border-zinc-800 bg-zinc-900 px-2 py-1 text-zinc-200 focus:border-amber-500 focus:outline-none"
-            />
-            <input
-              value={free.year}
-              onChange={(e) => setFree({ ...free, year: e.target.value })}
-              placeholder="Year"
-              inputMode="numeric"
-              className="w-20 rounded-lg border border-zinc-800 bg-zinc-900 px-2 py-1 text-zinc-200 focus:border-amber-500 focus:outline-none"
-            />
-            <button className="rounded-lg bg-amber-500 px-3 py-1 font-semibold text-zinc-900 hover:bg-amber-400">
-              Research
-            </button>
-          </form>
-        </div>
-      )}
+        ) : (
+          /* Launch cars row */
+          <div className="pb-16 pt-2">
+            <div className="mb-4 flex items-end justify-between gap-3">
+              <h2 className="text-[13px] font-semibold text-marble-hi">Launch cars — showcase quality</h2>
+              <Mono className="text-[11px] normal-case tracking-normal">
+                4 of 71 profiled · {catalog?.length ?? "…"} in catalog
+              </Mono>
+            </div>
+            <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+              {LAUNCH.map((car) => (
+                <LaunchCard key={car.name} car={car} onOpen={() => onSelect(car.vehicle)} />
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
     </div>
+  );
+}
+
+function LaunchCard({ car, onOpen }) {
+  return (
+    <button
+      onClick={onOpen}
+      className="group relative overflow-hidden rounded-[11px] border border-marble-accent/30 bg-marble-panel text-left transition hover:border-marble-accent/60"
+    >
+      <span className="absolute right-2 top-2 z-10 rounded-[4px] bg-marble-accent px-1.5 py-0.5 font-mono text-[9px] font-semibold text-marble-onaccent">
+        3D READY
+      </span>
+      <div
+        className="flex h-[104px] items-center justify-center"
+        style={{ background: "radial-gradient(90% 90% at 50% 40%, #232327, #0c0c0e 74%)" }}
+      >
+        {/* small car silhouette stand-in (production: r3f thumbnail) */}
+        <svg viewBox="0 0 120 40" className="h-9 w-28 text-marble-faint" fill="currentColor">
+          <path d="M6 30c0-3 3-5 8-6l10-8c3-2 7-3 12-3h20c8 0 15 3 22 7l16 2c6 1 10 3 12 6 1 3-1 5-5 5H11c-3 0-5-2-5-4z" />
+          <circle cx="34" cy="31" r="7" className="text-marble-bg" fill="currentColor" />
+          <circle cx="88" cy="31" r="7" className="text-marble-bg" fill="currentColor" />
+        </svg>
+      </div>
+      <div className="px-3.5 py-3">
+        <div className="text-[14px] font-semibold text-marble-hi">{car.name}</div>
+        <div className="mt-0.5 font-mono text-[11px] text-marble-accent">
+          {car.chassis} · {car.years}
+        </div>
+      </div>
+    </button>
   );
 }

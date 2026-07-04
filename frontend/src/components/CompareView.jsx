@@ -64,7 +64,7 @@ function Cell({ row, entry, win }) {
   const value = entry.profile ? row.get(entry.profile) : null;
   const blank = value === null || value === undefined || value === "";
   return (
-    <td className={`px-3 py-2 align-top text-sm ${win ? "font-semibold text-amber-300" : "text-zinc-200"}`}>
+    <td className={`px-3 py-2 align-top text-sm ${win ? "font-semibold text-marble-accent" : "text-zinc-200"}`}>
       {blank ? <span className="text-zinc-600">—</span> : value}
     </td>
   );
@@ -76,7 +76,7 @@ function Section({ title, rows, profiles }) {
       <tr>
         <td
           colSpan={profiles.length + 1}
-          className="pt-5 pb-1 text-xs font-semibold uppercase tracking-wide text-amber-500"
+          className="pt-5 pb-1 text-xs font-semibold uppercase tracking-wide text-marble-accent"
         >
           {title}
         </td>
@@ -146,7 +146,7 @@ export default function CompareView({ vehicles, onBack, onOpen, onRemove }) {
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-6">
-      <button onClick={onBack} className="text-sm text-zinc-400 hover:text-amber-400">
+      <button onClick={onBack} className="text-sm text-zinc-400 hover:text-marble-accent">
         ← Back
       </button>
       <h1 className="mt-3 text-3xl font-bold tracking-tight">Compare</h1>
@@ -158,8 +158,8 @@ export default function CompareView({ vehicles, onBack, onOpen, onRemove }) {
       ) : (
         <>
           {/* AI "key differences" readout (optional layer). */}
-          <section className="mt-4 rounded-xl border border-amber-500/30 bg-amber-500/5 p-5">
-            <div className="text-xs font-semibold uppercase tracking-widest text-amber-500">
+          <section className="mt-4 rounded-xl border border-marble-accent/30 bg-marble-accent/5 p-5">
+            <div className="text-xs font-semibold uppercase tracking-widest text-marble-accent">
               Garage AI · key differences
             </div>
             {summaryLoading ? (
@@ -177,7 +177,7 @@ export default function CompareView({ vehicles, onBack, onOpen, onRemove }) {
                   {summary.summary}
                 </div>
                 {summary.sources?.length > 0 && (
-                  <p className="mt-4 border-t border-amber-500/10 pt-3 text-xs text-zinc-500">
+                  <p className="mt-4 border-t border-marble-accent/10 pt-3 text-xs text-zinc-500">
                     Based on: {summary.sources.join(" · ")}
                   </p>
                 )}
@@ -200,14 +200,14 @@ export default function CompareView({ vehicles, onBack, onOpen, onRemove }) {
                         <div className="text-sm font-bold text-zinc-100">
                           {v.year} {v.model}
                         </div>
-                        <div className="text-xs text-amber-500/90">
+                        <div className="text-xs text-marble-accent/90">
                           {v.make}
                           {v.generation ? ` · ${v.generation}` : ""}
                         </div>
                         <div className="mt-1 flex gap-3 text-xs">
                           <button
                             onClick={() => onOpen(v)}
-                            className="text-zinc-400 hover:text-amber-400"
+                            className="text-zinc-400 hover:text-marble-accent"
                           >
                             Open
                           </button>

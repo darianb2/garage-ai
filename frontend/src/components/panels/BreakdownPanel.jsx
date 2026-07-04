@@ -40,7 +40,7 @@ export default function BreakdownPanel({ profile }) {
                 <div className="mt-2">
                   <p className="text-sm text-zinc-300">{sys.curated.detail}</p>
                   {sys.curated.watch && (
-                    <p className="mt-1 text-xs text-amber-500/90">
+                    <p className="mt-1 text-xs text-marble-accent/90">
                       <span className="font-semibold">Watch:</span> {sys.curated.watch}
                     </p>
                   )}
@@ -48,7 +48,7 @@ export default function BreakdownPanel({ profile }) {
               )}
               <div className="mt-2 h-1.5 rounded bg-zinc-800">
                 <div
-                  className={`h-1.5 rounded ${clean ? "bg-emerald-500/40" : "bg-amber-500"}`}
+                  className={`h-1.5 rounded ${clean ? "bg-emerald-500/40" : "bg-marble-accent"}`}
                   style={{ width: clean ? "100%" : `${(sys.issueCount / max) * 100}%` }}
                 />
               </div>

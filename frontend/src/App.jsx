@@ -3,7 +3,7 @@ import Landing from "./components/Landing";
 import VehicleHub from "./components/VehicleHub";
 import CompareView from "./components/CompareView";
 import CompareTray from "./components/CompareTray";
-import TopSearch from "./components/TopSearch";
+import { PrimaryButton } from "./components/ui";
 
 const MAX_COMPARE = 3;
 
@@ -57,22 +57,42 @@ export default function App() {
   };
   const inCompare = (v) => compare.some((c) => keyOf(c) === keyOf(v));
 
+  // "Ask AI" (nav): go home and focus the hero search — it doubles as the ask box
+  // (a question-shaped query routes to Garage AI). In the Hub, Profile mode is the
+  // primary Ask surface.
+  const askFocus = () => {
+    home();
+    requestAnimationFrame(() => document.getElementById("hero-search")?.focus());
+  };
+
+  // The MARBLE nav is app chrome for the Landing/Compare views; inside the Hub the
+  // Hub's own top bar is the header (per the design mocks), so the global nav hides.
+  const inHub = vehicle && !comparing;
+
   return (
-    <div className="min-h-full bg-zinc-950 text-zinc-100">
-      <div className="sticky top-0 z-20 border-b border-zinc-900 bg-zinc-950/80 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3">
-          <button onClick={home} className="shrink-0 text-lg font-bold tracking-tight">
-            <span className="text-amber-500">Garage</span> AI
-          </button>
-          {/* Search bar only while on a vehicle (a "file"); the Landing has its
-              own hero search, so the nav stays clean there. */}
-          {vehicle && !comparing && (
-            <div className="flex flex-1 justify-end">
-              <TopSearch onSelect={open} />
-            </div>
-          )}
+    <div className="min-h-full bg-marble-bg text-marble-body">
+      {!inHub && (
+        <div className="sticky top-0 z-20 border-b border-white/[0.07] bg-marble-bg/85 backdrop-blur">
+          <div className="mx-auto flex h-14 max-w-6xl items-center gap-3 px-6">
+            <button onClick={home} className="flex shrink-0 items-center gap-2.5">
+              <span
+                className="marble-veins relative h-[26px] w-[26px] overflow-hidden rounded-[7px]"
+                style={{ background: "linear-gradient(135deg,#2a2a30,#0c0c0e)" }}
+              />
+              <span className="text-[15px] font-bold tracking-[0.16em] text-marble-hi">MARBLE</span>
+              <span className="hidden rounded-[4px] border border-marble-accent/35 px-1.5 py-0.5 font-mono text-[10px] font-medium text-marble-accent sm:inline">
+                POCKET MECHANIC
+              </span>
+            </button>
+            <nav className="ml-auto flex items-center gap-5 text-[13px] text-marble-mid">
+              <button onClick={home} className="hidden hover:text-marble-body sm:inline">Explore</button>
+              <button onClick={startCompare} className="hidden hover:text-marble-body sm:inline">Compare</button>
+              <button onClick={home} className="hidden hover:text-marble-body sm:inline">Catalog</button>
+              <PrimaryButton onClick={askFocus} className="px-4 py-2 text-[13px]">Ask AI</PrimaryButton>
+            </nav>
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Pad the bottom so the fixed compare tray never covers the last row. */}
       <main className={compare.length > 0 && !comparing ? "pb-24" : ""}>

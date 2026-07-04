@@ -31,7 +31,7 @@ function Specs({ profile }) {
         ))}
       </div>
       {s.reliability && (
-        <p className="mt-3 text-sm text-amber-300/90">
+        <p className="mt-3 text-sm text-marble-accent/90">
           <span className="text-zinc-500">Our take: </span>
           {s.reliability}
         </p>
@@ -54,13 +54,13 @@ function Reliability({ profile }) {
       <p className="text-lg font-semibold">{r.label}</p>
       <div className="mt-2 flex flex-wrap gap-4 text-sm text-zinc-300">
         <span>
-          <b className="text-amber-500">{r.recalls}</b> recall{r.recalls === 1 ? "" : "s"}
+          <b className="text-marble-accent">{r.recalls}</b> recall{r.recalls === 1 ? "" : "s"}
         </span>
         <span>
-          <b className="text-amber-500">{r.complaints}</b> complaint{r.complaints === 1 ? "" : "s"}
+          <b className="text-marble-accent">{r.complaints}</b> complaint{r.complaints === 1 ? "" : "s"}
         </span>
         <span>
-          <b className="text-amber-500">{r.serious}</b> crash/fire/injury
+          <b className="text-marble-accent">{r.serious}</b> crash/fire/injury
         </span>
       </div>
       <p className="mt-3 text-xs text-zinc-500">{r.caveat}</p>
@@ -137,7 +137,7 @@ function Complaints({ profile }) {
           On a high-volume car the full breakdown would flood the page, so the
           systems + individual reports live behind one opt-in toggle. */}
       {profile.complaints_summary ? (
-        <p className="border-l-2 border-amber-500/70 pl-3 text-sm leading-relaxed text-zinc-300">
+        <p className="border-l-2 border-marble-accent/70 pl-3 text-sm leading-relaxed text-zinc-300">
           {profile.complaints_summary}
         </p>
       ) : (
@@ -148,7 +148,7 @@ function Complaints({ profile }) {
 
       {(issues.length > 0 || list.length > 0) && (
         <details className="group mt-3">
-          <summary className="cursor-pointer text-xs text-zinc-500 hover:text-amber-500">
+          <summary className="cursor-pointer text-xs text-zinc-500 hover:text-marble-accent">
             Show the breakdown
             {profile.complaints_summary ? ` — ${total.toLocaleString()} on file` : ""}
           </summary>

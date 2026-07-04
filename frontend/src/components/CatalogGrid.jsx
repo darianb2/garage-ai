@@ -82,13 +82,13 @@ export default function CatalogGrid({ cars, onSelect, onCompare, inCompare }) {
                   className="relative"
                 >
                   <button onClick={() => onSelect(t.car)} className="block w-full text-left">
-                    <Card className="h-full p-4 transition hover:-translate-y-0.5 hover:border-amber-500">
+                    <Card className="h-full p-4 transition hover:-translate-y-0.5 hover:border-marble-accent">
                       <CarImage vehicle={t.car} variant="tile" className="mb-3" />
                       <div className="flex items-baseline justify-between gap-2">
                         <h2 className="font-semibold text-zinc-100">{t.car.model}</h2>
                         <span className="shrink-0 text-xs text-zinc-500">{t.car.body}</span>
                       </div>
-                      <p className="mt-0.5 text-sm text-amber-500/90">{t.car.generation}</p>
+                      <p className="mt-0.5 text-sm text-marble-accent/90">{t.car.generation}</p>
                       <p className="mt-1 text-sm text-zinc-400">{t.car.note}</p>
                     </Card>
                   </button>
@@ -123,7 +123,7 @@ function GroupTile({ group, open, onToggle, onSelect, onCompare, inCompare }) {
   const count = items.length;
   return (
     <div className={open ? "sm:col-span-2 lg:col-span-3" : ""}>
-      <Card className="h-full p-4 transition hover:border-amber-500">
+      <Card className="h-full p-4 transition hover:border-marble-accent">
         <CarImage vehicle={items[0]} variant="tile" className="mb-3" />
         <button
           onClick={onToggle}
@@ -131,7 +131,7 @@ function GroupTile({ group, open, onToggle, onSelect, onCompare, inCompare }) {
         >
           <div>
             <h2 className="font-semibold text-zinc-100">{model}</h2>
-            <p className="mt-0.5 text-sm text-amber-500/90">
+            <p className="mt-0.5 text-sm text-marble-accent/90">
               {count} generation{count === 1 ? "" : "s"}
             </p>
             <p className="mt-1 text-sm text-zinc-400">
@@ -154,11 +154,11 @@ function GroupTile({ group, open, onToggle, onSelect, onCompare, inCompare }) {
             {items.map((g, j) => (
               <li
                 key={j}
-                className="flex h-full flex-col rounded-lg border border-zinc-800 p-3 transition hover:border-amber-500"
+                className="flex h-full flex-col rounded-lg border border-zinc-800 p-3 transition hover:border-marble-accent"
               >
                 <button onClick={() => onSelect(g)} className="block flex-1 text-left">
                   <div className="flex items-baseline justify-between gap-2">
-                    <span className="text-sm font-medium text-amber-500/90">
+                    <span className="text-sm font-medium text-marble-accent/90">
                       {g.generation}
                     </span>
                     <span className="shrink-0 text-xs text-zinc-500">{g.body}</span>
@@ -172,7 +172,7 @@ function GroupTile({ group, open, onToggle, onSelect, onCompare, inCompare }) {
                     className={`mt-2 self-start text-xs font-medium ${
                       inCompare?.(g)
                         ? "cursor-default text-zinc-500"
-                        : "text-amber-400/80 hover:text-amber-300"
+                        : "text-marble-accent/80 hover:text-marble-accent"
                     }`}
                   >
                     {inCompare?.(g) ? "✓ In compare" : "+ Compare"}
@@ -201,7 +201,7 @@ function CompareToggle({ car, onCompare, inCompare }) {
       className={`absolute left-2 top-2 z-10 rounded-md px-1.5 py-0.5 text-[10px] font-bold ${
         active
           ? "bg-zinc-700 text-zinc-200"
-          : "bg-zinc-950/80 text-amber-300 hover:bg-amber-500 hover:text-zinc-900"
+          : "bg-zinc-950/80 text-marble-accent hover:bg-marble-accent hover:text-zinc-900"
       }`}
     >
       {active ? "✓ Compare" : "+ Compare"}

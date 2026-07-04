@@ -1,24 +1,23 @@
 import { useEffect, useState } from "react";
-import { getProfile } from "../lib/api";
-import { Badge, Spinner } from "./ui";
-import CarImage from "./CarImage";
-import ThreeDView from "./ThreeDView";
+import { getProfile, askAnswer } from "../lib/api";
+import { modelFor } from "../lib/models";
+import { ChassisBadge, Segmented, Spinner, PrimaryButton, SectionLabel } from "./ui";
+import ShowroomMode from "./ShowroomMode";
+import ExplodeMode from "./ExplodeMode";
 import ProfilePanel from "./panels/ProfilePanel";
-import BreakdownPanel from "./panels/BreakdownPanel";
 
-const TABS = [
-  { id: "profile", label: "Overview" },
-  { id: "3d", label: "3D Model" },
-  { id: "breakdown", label: "Mechanical Breakdown" },
+const MODES = [
+  { id: "showroom", label: "Showroom" },
+  { id: "explode", label: "Explode" },
+  { id: "profile", label: "Profile" },
 ];
 
-// The Vehicle Hub: one car, three linked layers (profile / 3D / breakdown), all
-// fed by the data engine. `vehicle` carries { make, model, year, generation?,
-// body?, note? } from a catalog card or the free-form research form. `answer`
-// (optional) is the homepage AI reply { answer, sources, question } that brought
-// the visitor here; when present it's shown on top of the car (Task 6).
+// The Vehicle Hub: one persistent 3D stage, three modes (design ref #4a).
+// Showroom = configurator, Explode = serviceable-parts breakdown, Profile = the
+// data profile + Ask Garage AI. Showroom/Explode render immediately from the 3D
+// model + static data; only Profile waits on the live data fetch.
 export default function VehicleHub({ vehicle, answer, onBack, onCompare, inCompare }) {
-  const [tab, setTab] = useState("profile");
+  const [mode, setMode] = useState("showroom");
   const [profile, setProfile] = useState(null);
   const [error, setError] = useState(null);
 
@@ -34,85 +33,128 @@ export default function VehicleHub({ vehicle, answer, onBack, onCompare, inCompa
     };
   }, [vehicle]);
 
-  const title = `${vehicle.year} ${vehicle.make} ${vehicle.model}`;
+  const model = modelFor(vehicle);
+  const chassis = (vehicle.generation || "").split(/[ (]/)[0];
+  const years = vehicle.years || vehicle.year;
+  const title = `${vehicle.make} ${vehicle.model}`;
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-6">
-      <button onClick={onBack} className="text-sm text-zinc-400 hover:text-amber-400">
-        ← All vehicles
-      </button>
-
-      {answer && <AnswerCard data={answer} />}
-
-      <CarImage vehicle={vehicle} variant="hero" className="mt-3" />
-
-      <div className="mt-4 flex flex-wrap items-baseline gap-3">
-        <h1 className="text-3xl font-bold tracking-tight">{title}</h1>
-        {vehicle.generation && <Badge tone="amber">{vehicle.generation}</Badge>}
-        {vehicle.body && <Badge>{vehicle.body}</Badge>}
-        {onCompare && (
-          <button
-            onClick={() => onCompare(vehicle)}
-            disabled={inCompare}
-            className={`ml-auto self-center rounded-lg border px-3 py-1.5 text-sm font-medium ${
-              inCompare
-                ? "cursor-default border-zinc-800 text-zinc-500"
-                : "border-amber-500/50 text-amber-400 hover:bg-amber-500 hover:text-zinc-900"
-            }`}
-          >
-            {inCompare ? "✓ In compare" : "+ Compare"}
-          </button>
-        )}
+    <div className="mx-auto max-w-6xl px-4 py-4">
+      {/* Hub top bar */}
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-2 border-b border-white/[0.07] pb-3">
+        <button onClick={onBack} className="text-[13px] text-marble-dim hover:text-marble-body">
+          ← Search
+        </button>
+        <span className="h-4 w-px bg-white/10" />
+        <h1 className="text-[18px] font-bold leading-tight text-marble-hi">{title}</h1>
+        {chassis && <ChassisBadge>{chassis}</ChassisBadge>}
+        <span className="text-[12px] text-marble-dim">{years}</span>
+        <div className="ml-auto flex items-center gap-2">
+          {onCompare && (
+            <button
+              onClick={() => onCompare(vehicle)}
+              disabled={inCompare}
+              className={`rounded-lg border px-2.5 py-1.5 text-[12px] font-medium ${
+                inCompare
+                  ? "cursor-default border-white/10 text-marble-dim"
+                  : "border-white/15 text-marble-mid hover:border-marble-accent/50 hover:text-marble-accent"
+              }`}
+            >
+              {inCompare ? "✓ Compare" : "+ Compare"}
+            </button>
+          )}
+          <Segmented items={MODES} value={mode} onChange={setMode} />
+        </div>
       </div>
-      {vehicle.note && <p className="mt-1 text-zinc-400">{vehicle.note}</p>}
 
-      <nav className="mt-6 flex gap-1 border-b border-zinc-800">
-        {TABS.map((t) => (
-          <button
-            key={t.id}
-            onClick={() => setTab(t.id)}
-            className={`-mb-px border-b-2 px-4 py-2 text-sm font-medium ${
-              tab === t.id
-                ? "border-amber-500 text-amber-400"
-                : "border-transparent text-zinc-400 hover:text-zinc-200"
-            }`}
-          >
-            {t.label}
-          </button>
-        ))}
-      </nav>
-
-      <div className="py-6">
-        {tab === "3d" ? (
-          <ThreeDView profile={profile} vehicle={vehicle} />
-        ) : error ? (
-          <p className="text-red-300">{error}</p>
-        ) : !profile ? (
-          <Spinner label={`Researching ${title}…`} />
-        ) : tab === "profile" ? (
-          <ProfilePanel profile={profile} />
-        ) : (
-          <BreakdownPanel profile={profile} />
-        )}
+      <div className="mt-4">
+        {mode === "showroom" && <ShowroomMode vehicle={vehicle} model={model} />}
+        {mode === "explode" && <ExplodeMode vehicle={vehicle} model={model} profile={profile} />}
+        {mode === "profile" &&
+          (error ? (
+            <p className="text-red-300">{error}</p>
+          ) : !profile ? (
+            <Spinner label={`Assembling ${title} profile…`} />
+          ) : (
+            <ProfileMode vehicle={vehicle} profile={profile} answer={answer} />
+          ))}
       </div>
     </div>
   );
 }
 
-// The homepage AI answer, shown on top of the car the question was about. Echoes
-// the question, the grounded answer (line breaks preserved), and a "Based on:"
-// source line so it's clear the answer comes from our data + NHTSA, not thin air.
+// Profile mode: the existing data panel + Ask Garage AI (grounded on this car).
+function ProfileMode({ vehicle, profile, answer }) {
+  return (
+    <div className="space-y-4">
+      {answer && <AnswerCard data={answer} />}
+      <AskBox vehicle={vehicle} />
+      <ProfilePanel profile={profile} />
+    </div>
+  );
+}
+
+function AskBox({ vehicle }) {
+  const [q, setQ] = useState("");
+  const [asking, setAsking] = useState(false);
+  const [reply, setReply] = useState(null);
+  const name = `${vehicle.year} ${vehicle.make} ${vehicle.model}`;
+
+  const ask = async (e) => {
+    e.preventDefault();
+    const question = q.trim();
+    if (!question || asking) return;
+    setAsking(true);
+    setReply(null);
+    try {
+      // Ground on this car by naming it in the question the resolver reads.
+      const data = await askAnswer(`${question} (about the ${name})`);
+      setReply({ answer: data.answer, sources: data.sources });
+    } catch (err) {
+      setReply({ answer: err.message, sources: [] });
+    } finally {
+      setAsking(false);
+    }
+  };
+
+  return (
+    <div className="rounded-xl border border-white/[0.07] bg-marble-panel p-4">
+      <SectionLabel>ASK GARAGE AI</SectionLabel>
+      <form onSubmit={ask} className="mt-2 flex gap-2">
+        <input
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+          placeholder={`Ask about the ${vehicle.model} — reliability, mods, what to check…`}
+          className="w-full rounded-lg border border-white/10 bg-marble-panel2 px-3 py-2 text-sm text-marble-hi placeholder-marble-dim focus:border-marble-accent focus:outline-none"
+        />
+        <PrimaryButton type="submit" disabled={asking} className="shrink-0">
+          {asking ? "…" : "Ask"}
+        </PrimaryButton>
+      </form>
+      {asking && <div className="mt-3"><Spinner label="Reading the data…" /></div>}
+      {reply && (
+        <div className="mt-3 whitespace-pre-line text-sm leading-relaxed text-marble-body">
+          {reply.answer}
+          {reply.sources?.length > 0 && (
+            <p className="mt-3 border-t border-white/10 pt-2 text-xs text-marble-dim">
+              Based on: {reply.sources.join(" · ")}
+            </p>
+          )}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function AnswerCard({ data }) {
   const { question, answer, sources } = data;
   return (
-    <section className="mt-4 rounded-xl border border-amber-500/30 bg-amber-500/5 p-5">
-      <div className="text-xs font-semibold uppercase tracking-widest text-amber-500">
-        Garage AI
-      </div>
-      {question && <p className="mt-1 text-sm italic text-zinc-400">“{question}”</p>}
-      <div className="mt-3 whitespace-pre-line leading-relaxed text-zinc-100">{answer}</div>
+    <section className="rounded-xl border border-marble-accent/30 bg-marble-accent/5 p-5">
+      <SectionLabel className="!text-marble-accent">GARAGE AI</SectionLabel>
+      {question && <p className="mt-1 text-sm italic text-marble-mid">“{question}”</p>}
+      <div className="mt-3 whitespace-pre-line leading-relaxed text-marble-body">{answer}</div>
       {sources?.length > 0 && (
-        <p className="mt-4 border-t border-amber-500/10 pt-3 text-xs text-zinc-500">
+        <p className="mt-4 border-t border-marble-accent/10 pt-3 text-xs text-marble-dim">
           Based on: {sources.join(" · ")}
         </p>
       )}

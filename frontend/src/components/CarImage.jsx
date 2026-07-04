@@ -38,7 +38,7 @@ export default function CarImage({ vehicle, variant = "tile", className = "" }) 
         </div>
       )}
       {has3d && (
-        <span className="absolute right-1.5 top-1.5 rounded-md bg-amber-500/90 px-1.5 py-0.5 text-[10px] font-bold text-zinc-900">
+        <span className="absolute right-1.5 top-1.5 rounded-md bg-marble-accent/90 px-1.5 py-0.5 text-[10px] font-bold text-zinc-900">
           3D
         </span>
       )}

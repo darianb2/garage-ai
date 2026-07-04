@@ -24,7 +24,7 @@ export default function ThreeDView({ profile, vehicle }) {
           {systems ? "Click a marker on the car to inspect a system" : "Loading data…"}
         </p>
         {model?.demo && (
-          <p className="text-amber-400">Demo model · generic stand-in, not the actual car</p>
+          <p className="text-marble-accent">Demo model · generic stand-in, not the actual car</p>
         )}
         {!model && (
           <p className="text-zinc-600">Stylized placeholder · no 3D model yet</p>
@@ -42,7 +42,7 @@ export default function ThreeDView({ profile, vehicle }) {
                 onClick={() => setSelected(s.key === selected ? null : s.key)}
                 className={`flex w-full items-center justify-between rounded-lg border px-2 py-1 text-left text-xs ${
                   s.key === selected
-                    ? "border-amber-500 bg-amber-500/10 text-amber-300"
+                    ? "border-marble-accent bg-marble-accent/10 text-marble-accent"
                     : "border-zinc-800 bg-zinc-900/70 text-zinc-300 hover:border-zinc-600"
                 }`}
               >
@@ -69,7 +69,7 @@ export default function ThreeDView({ profile, vehicle }) {
             <div className="mt-1">
               <p className="text-sm text-zinc-200">{sel.curated.detail}</p>
               {sel.curated.watch && (
-                <p className="mt-1 text-xs text-amber-500/90">
+                <p className="mt-1 text-xs text-marble-accent/90">
                   <span className="font-semibold">Watch:</span> {sel.curated.watch}
                 </p>
               )}
@@ -77,10 +77,10 @@ export default function ThreeDView({ profile, vehicle }) {
           )}
           <div className="mt-2 flex flex-wrap gap-4 text-sm text-zinc-300">
             <span>
-              <b className="text-amber-500">{sel.issueCount}</b> owner complaint{sel.issueCount === 1 ? "" : "s"}
+              <b className="text-marble-accent">{sel.issueCount}</b> owner complaint{sel.issueCount === 1 ? "" : "s"}
             </span>
             <span>
-              <b className="text-amber-500">{sel.recalls.length}</b> recall{sel.recalls.length === 1 ? "" : "s"}
+              <b className="text-marble-accent">{sel.recalls.length}</b> recall{sel.recalls.length === 1 ? "" : "s"}
             </span>
           </div>
           {sel.recalls.slice(0, 2).map((r, i) => (

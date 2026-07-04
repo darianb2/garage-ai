@@ -33,8 +33,8 @@ function Hotspot({ system, selected, onSelect }) {
     >
       <sphereGeometry args={[on ? 0.14 : 0.1, 16, 16]} />
       <meshStandardMaterial
-        color={on ? "#f59e0b" : "#fbbf24"}
-        emissive={on ? "#f59e0b" : "#92400e"}
+        color={on ? "#5a8cf0" : "#7ba3f4"}
+        emissive={on ? "#5a8cf0" : "#22376e"}
         emissiveIntensity={on ? 1 : 0.5}
       />
     </mesh>
@@ -47,7 +47,7 @@ function ProceduralBody() {
   return (
     <>
       <RoundedBox args={[3.6, 0.55, 1.7]} radius={0.12} smoothness={4} position={[0, 0.5, 0]} castShadow>
-        <meshStandardMaterial color="#f59e0b" metalness={0.5} roughness={0.35} />
+        <meshStandardMaterial color="#5a8cf0" metalness={0.5} roughness={0.35} />
       </RoundedBox>
       <RoundedBox args={[1.9, 0.5, 1.45]} radius={0.14} smoothness={4} position={[-0.15, 0.95, 0]} castShadow>
         <meshStandardMaterial color="#18181b" metalness={0.3} roughness={0.2} />
