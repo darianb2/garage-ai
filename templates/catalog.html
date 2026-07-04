@@ -23,7 +23,7 @@
     <a class="card block p-4 rounded-xl bg-zinc-800 border border-zinc-700
               hover:border-amber-500 hover:-translate-y-0.5 transition"
        data-search="{{ (c.make ~ ' ' ~ c.model ~ ' ' ~ c.generation ~ ' ' ~ c.body ~ ' ' ~ c.note)|lower }}"
-       href="{{ url_for('profile_page') }}?make={{ c.make|urlencode }}&model={{ c.model|urlencode }}&year={{ c.year }}">
+       href="{{ url_for('profile_page') }}?make={{ c.make|urlencode }}&model={{ c.model|urlencode }}&year={{ c.year }}&generation={{ c.generation|urlencode }}">
       <div class="flex items-baseline justify-between gap-2">
         <h2 class="font-semibold text-zinc-100">{{ c.make }} {{ c.model }}</h2>
         <span class="text-xs text-zinc-500 shrink-0">{{ c.body }}</span>

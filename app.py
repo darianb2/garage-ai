@@ -563,7 +563,7 @@ def api_answer():
     if limited:
         return jsonify({"error": limited}), 429
     make, model, year = vehicle["make"], vehicle["model"], str(vehicle["year"])
-    matches = _curated_for(make, model, year)
+    matches = _curated_for(make, model, year, vehicle.get("generation"))
     specs = cars[matches[0]] if matches else None
     try:
         profile = build_profile(make, model, year, specs=specs)
@@ -661,8 +661,10 @@ def api_compare():
         make = str(v.get("make", "")).strip()
         model = str(v.get("model", "")).strip()
         year = str(v.get("year", "")).strip()
+        generation = str(v.get("generation", "")).strip()
         if make and model and year:
-            picked.append({"make": make, "model": model, "year": year})
+            picked.append({"make": make, "model": model, "year": year,
+                           "generation": generation})
     if len(picked) < 2:
         return jsonify({"error": "Pick at least two cars to compare."}), 400
     limited = rate_limit_error()  # the AI summary is the only billed part
@@ -671,7 +673,7 @@ def api_compare():
     try:
         profiles = []
         for v in picked:
-            matches = _curated_for(v["make"], v["model"], v["year"])
+            matches = _curated_for(v["make"], v["model"], v["year"], v.get("generation"))
             specs = cars[matches[0]] if matches else None
             profiles.append(build_profile(v["make"], v["model"], v["year"], specs=specs))
         summary = compare_vehicles(profiles)
@@ -766,9 +768,11 @@ CURATED_SPEC_BINDINGS = {
                                 (1992, 1999, "BMW M3 (E36)"),        # US S52/S50B30US
                                 (2000, 2006, "BMW M3 (E46)"),        # S54
                                 (2007, 2013, "BMW M3 (E92)")],       # S65 V8 (E90 sedan / E93 vert share it)
-    # MX-5 ND: 2016-18 (ND1) made 155hp; the curated file carries the 181hp ND2
-    # figure (2019+). Bound for the whole ND run but flagged for review.
-    ("mazda", "mx-5 miata"):   [(2016, 9999, "Mazda MX-5 Miata")],    # ND
+    # MX-5 ND: the curated file carries the 181hp ND2 figure, so it's bound only
+    # to ND2 years (2019+). The 2016-18 ND1 (155hp SkyActiv-G 2.0) is a real
+    # curation gap — left unbound so it shows honest NHTSA data, not +26hp it
+    # never made, until an ND1 file is added.
+    ("mazda", "mx-5 miata"):   [(2019, 9999, "Mazda MX-5 Miata")],    # ND2
     # --- Mainstream mix — Honda (Task 9, brand-by-brand curated coverage) ---
     ("honda", "cr-v"):    [(2017, 2022, "Honda CR-V")],              # 5th gen (RW); 6th gen 2023+ unbound
     ("honda", "civic"):   [(2006, 2011, "Honda Civic (8th Gen)"),   # FA/FG
@@ -817,24 +821,96 @@ CURATED_SPEC_BINDINGS = {
     ("bmw", "335i"):        [(2007, 2013, "BMW 335i (E92)")],          # E92 coupe (N54 2007-10, N55 2011-13)
     ("bmw", "z4 m"):        [(2006, 2008, "BMW Z4 M Coupe (E86)")],    # S54 clownshoe coupe
     ("bmw", "2002"):        [(1971, 1973, "BMW 2002 tii")],           # tii injection years; carb 2002s and the '73-'74 Turbo stay unbound
+    # --- American/German muscle & hot-hatch (bind the original curated files to
+    # their real generation). These models share one catalog `model` string
+    # across very different trims, so each is TRIM-GATED: the fourth tuple element
+    # lists tokens that must appear in the catalog generation string, which keeps,
+    # e.g., the 455hp Camaro SS off the 650hp ZL1 and the S550 Mustang GT off the
+    # flat-plane GT350/GT500. See _curated_for.
+    ("chevrolet", "camaro"):  [(2016, 2024, "Chevrolet Camaro SS", ("ss",))],         # 6th-gen LT1 SS (excludes ZL1)
+    ("ford", "mustang"):      [(2018, 2023, "Ford Mustang GT", ("gt",))],             # S550 460hp Coyote GT (excludes GT350/GT500/Mach 1; pre-'18 GT unbound)
+    ("dodge", "charger"):     [(2011, 2023, "Dodge Charger R/T / Scat Pack", ("scat",))],  # LD 392 Scat Pack (excludes Hellcat)
+    ("volkswagen", "gti"):    [(2022, 9999, "Volkswagen Golf GTI")],                  # Mk8 241hp (Mk5/6/7 made less, stay unbound)
 }
 
 
-def _curated_for(make, model, year):
+def _gen_tokens(generation):
+    """Whole-word tokens of a catalog generation/trim string, lowercased.
+
+    'GT (S550)' -> {'gt','s550'}; 'SS (6th Gen)' -> {'ss','6th','gen'};
+    'Shelby GT350' -> {'shelby','gt350'}. Whole-token (not substring) matching is
+    what keeps a 'gt' trim gate off a 'GT350'/'GT500' — those are their own tokens.
+    """
+    return set(re.findall(r"[a-z0-9]+", (generation or "").lower()))
+
+
+def _curated_for(make, model, year, generation=None):
     """Curated spec file name(s) whose generation matches this exact car.
 
-    Our hand-curated JSON documents one generation each, so we bind specs by
-    (make, model, year-range) via CURATED_SPEC_BINDINGS instead of a loose
-    make+model match. Returns [] when we have no curated specs for that
-    generation, so the profile falls back to live NHTSA data instead of showing
-    another generation's numbers.
+    Our hand-curated JSON documents one generation (and often one trim) each, so
+    we bind specs by (make, model, year-range[, trim]) via CURATED_SPEC_BINDINGS
+    instead of a loose make+model match. Each binding is
+    (year_lo, year_hi, curated_name) or (year_lo, year_hi, curated_name, trim)
+    where `trim` is a tuple of lowercase tokens that must ALL appear (as whole
+    words) in the catalog `generation` string — this is how one model+year that
+    covers several trims is split (Camaro SS vs ZL1, Mustang GT vs GT350). A
+    trim-gated binding only fires when a `generation` is supplied and matches; a
+    freeform make/model/year lookup (no generation) skips trim-gated bindings
+    rather than guess a trim. Returns [] when nothing matches, so the profile
+    falls back to live NHTSA data instead of another generation's numbers.
     """
     try:
         y = int(str(year)[:4])
     except (TypeError, ValueError):
         return []
-    bindings = CURATED_SPEC_BINDINGS.get((make.strip().lower(), model.strip().lower()), [])
-    return [name for (lo, hi, name) in bindings if lo <= y <= hi and name in cars]
+    gen_tokens = _gen_tokens(generation)
+    out = []
+    for binding in CURATED_SPEC_BINDINGS.get((make.strip().lower(), model.strip().lower()), []):
+        lo, hi, name = binding[0], binding[1], binding[2]
+        trim = binding[3] if len(binding) > 3 else None
+        if not (lo <= y <= hi) or name not in cars:
+            continue
+        if trim is not None and not set(trim).issubset(gen_tokens):
+            continue  # trim-gated: needs a matching generation string to fire
+        out.append(name)
+    return out
+
+
+def validate_spec_bindings():
+    """Integrity-check CURATED_SPEC_BINDINGS against the loaded curated files.
+
+    The bindings are hand-maintained in parallel with data/cars/*.json, so they
+    can drift silently: a binding can point at a curated file we renamed/deleted
+    (dead -> car gets no specs), or two ranges for the same trim can overlap
+    (ambiguous -> which generation's numbers win?). Both are always bugs, so we
+    surface them loudly at startup instead of shipping a car the wrong specs.
+    Overlaps across DIFFERENT trims (Camaro SS vs ZL1) are intentional and fine.
+    Returns a list of problem strings (empty == clean).
+    """
+    problems = []
+    for (mk, md), bindings in CURATED_SPEC_BINDINGS.items():
+        # Dead bindings: target curated file no longer exists.
+        for b in bindings:
+            if b[2] not in cars:
+                problems.append(f"({mk},{md}): binding -> missing curated file {b[2]!r}")
+        # Overlapping year ranges within the same trim gate.
+        by_trim = {}
+        for b in bindings:
+            trim = b[3] if len(b) > 3 else None
+            by_trim.setdefault(frozenset(trim) if trim else None, []).append(b)
+        for trim, group in by_trim.items():
+            group = sorted(group, key=lambda b: b[0])
+            for prev, cur in zip(group, group[1:]):
+                if cur[0] <= prev[1]:
+                    problems.append(
+                        f"({mk},{md}) trim={tuple(trim) if trim else None}: "
+                        f"year ranges overlap {prev[:2]} & {cur[:2]}")
+    return problems
+
+
+_binding_problems = validate_spec_bindings()
+for _p in _binding_problems:
+    app.logger.warning("CURATED_SPEC_BINDINGS: %s", _p)
 
 
 @app.route("/catalog")
@@ -860,9 +936,10 @@ def api_profile():
     make = request.args.get("make", "").strip()
     model = request.args.get("model", "").strip()
     year = request.args.get("year", "").strip()
+    generation = request.args.get("generation", "").strip()
     if not (make and model and year):
         return jsonify({"error": "Enter make, model, and year."}), 400
-    matches = _curated_for(make, model, year)
+    matches = _curated_for(make, model, year, generation)
     specs = cars[matches[0]] if matches else None
     try:
         profile = build_profile(make, model, year, specs=specs)

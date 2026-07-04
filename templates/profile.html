@@ -24,6 +24,9 @@
       class="px-4 py-2 rounded-lg bg-amber-500 text-zinc-900 font-semibold hover:bg-amber-400 disabled:opacity-50">
       Research
     </button>
+    <!-- Carries the generation/trim from a catalog link so the backend can pick
+         the right trim's specs; cleared once the visitor edits the car by hand. -->
+    <input type="hidden" id="generation">
   </form>
 
   <div id="profile-status" class="hidden text-zinc-300 text-sm mb-4"></div>
@@ -209,6 +212,8 @@
     setStatus('Researching ' + year + ' ' + make + ' ' + model + '...');
     try {
       const params = new URLSearchParams({ make, model, year });
+      const generation = document.getElementById('generation').value.trim();
+      if (generation) params.set('generation', generation);
       const res = await fetch('/api/profile?' + params.toString());
       const data = await res.json();
       if (data.error) { setStatus(data.error); return; }
@@ -226,7 +231,15 @@
     }
   });
 
-  // Arrive from a catalog link (/profile?make=&model=&year=)? Prefill + auto-run.
+  // A hand-typed car has no trim context, so drop any generation carried from a
+  // catalog link the moment the visitor edits the make/model/year themselves.
+  ['make', 'model', 'year'].forEach((id) =>
+    document.getElementById(id).addEventListener('input', () => {
+      document.getElementById('generation').value = '';
+    }));
+
+  // Arrive from a catalog link (/profile?make=&model=&year=&generation=)?
+  // Prefill (generation included, so trim-gated specs resolve) + auto-run.
   (function () {
     const p = new URLSearchParams(location.search);
     const make = p.get('make'), model = p.get('model'), year = p.get('year');
@@ -234,6 +247,7 @@
       document.getElementById('make').value = make;
       document.getElementById('model').value = model;
       document.getElementById('year').value = year;
+      document.getElementById('generation').value = p.get('generation') || '';
       form.requestSubmit ? form.requestSubmit() : form.dispatchEvent(new Event('submit'));
     }
   })();

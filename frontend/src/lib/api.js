@@ -8,9 +8,12 @@ export async function getCatalog() {
 }
 
 // Build a full profile for any vehicle (live NHTSA data + curated specs if we
-// have the car). `vehicle` needs { make, model, year }.
-export async function getProfile({ make, model, year }) {
+// have the car). `vehicle` needs { make, model, year }; `generation` is optional
+// but lets the backend pick the right trim's specs when a model+year covers
+// several (Camaro SS vs ZL1, Mustang GT vs GT350).
+export async function getProfile({ make, model, year, generation }) {
   const params = new URLSearchParams({ make, model, year });
+  if (generation) params.set("generation", generation);
   const res = await fetch("/api/profile?" + params.toString());
   const data = await res.json();
   if (data.error) throw new Error(data.error);

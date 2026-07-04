@@ -218,9 +218,23 @@ JSON cars stay as the specs source until that paid API lands.
       (21 entries), and BMW (12 entries) are fully curated, including enthusiast
       icons (S2000/NSX/Prelude/CRX; GR Corolla, MR2 SW20, MR2 Spyder, Celica
       GT-Four ST205; M3 E30/E36/E92, M2, M4, M5 E39/E60, 1M, 335i, Z4 M, 2002 tii).
-- [ ] Known limit: curated-specs match is make+model substring, so a catalog
-      entry can pull specs from a different generation of the same model
-      (e.g. A80 Supra shows GR Supra specs). Make it generation-aware later.
+- [x] Generation-aware curated-spec matching. The old make+model-substring
+      match (A80 Supra showed GR Supra specs) was replaced by year-range
+      CURATED_SPEC_BINDINGS (Task 1), then made TRIM-aware this pass: bindings
+      can gate on the catalog `generation` tokens, so one model+year that spans
+      trims resolves correctly (Camaro SS not the ZL1, Mustang GT not the
+      GT350/GT500/Mach 1). `generation` now flows catalog -> /api/profile,
+      /api/answer, /api/compare (+ the legacy /profile page). Wired up 4 orphan
+      curated files this pass (Camaro SS, Mustang GT S550, Charger Scat Pack, VW
+      GTI Mk8) and narrowed the MX-5 binding to ND2 (2019+) since the file
+      carries the 181hp ND2 figure (ND1 155hp left honest-NHTSA until curated).
+      Guardrail: validate_spec_bindings() flags dead bindings + same-trim year
+      overlaps at startup; scripts/check_bindings.py is the regression test.
+      7 curated files stay intentional orphans (no correct catalog home yet):
+      the G80-spec generic "BMW M3" (catalog has only E30-E92), Subaru WRX (VB
+      specs; catalog has GD/VA only), Audi S3 (needs 8V-vs-8Y hp verified),
+      Honda Accord V6 (trim the catalog doesn't split from the 4-cyl 9th gen),
+      and the 3 Infiniti Q50 trims (no Q50 in the catalog).
 
 ### 7.3 Flagship depth (rich 16-field icons) — TODO
 - [ ] Pick a shortlist of true icons; research REAL specs in verified batches
