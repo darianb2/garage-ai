@@ -37,5 +37,23 @@
     "Confirm the fuel-pump recall and any open recalls by VIN",
     "On the hybrid, keep the traction-battery cooling intake clear and the 12V battery healthy",
     "Budget for brakes and tires given the vehicle's weight; otherwise upkeep is routine"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "A long-proven 3.5L V6 (295 hp, 2020-2022) or a 2.5L hybrid four (243 hp combined); the 2023 refresh switched to a 2.4L turbo four.",
+      "watch": "The V6 is durable and largely trouble-free - routine maintenance only. Confirm the 2020 Denso fuel-pump recall is closed by VIN."
+    },
+    "drivetrain": {
+      "detail": "FWD or AWD; the V6 pairs with an 8-speed automatic and the hybrid with an e-CVT.",
+      "watch": "Broadly dependable; a minority of 2020-2022 owners report 8-speed noise or shift quirks, so listen for whine on a test drive."
+    },
+    "electrical": {
+      "detail": "A 12V battery plus, on the hybrid, a durable traction battery, all feeding the touchscreen infotainment.",
+      "watch": "The hybrid battery is a strong point; keep the 12V healthy. Early XU70 infotainment felt dated - later years improved it."
+    },
+    "body": {
+      "detail": "A three-row TNGA-K SUV; a power liftgate is standard on the higher trims.",
+      "watch": "Main gripes are a tight third row and a firmer ride on big wheels; some report weak power-liftgate struts - all minor."
+    }
+  }
 }

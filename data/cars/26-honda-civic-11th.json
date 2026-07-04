@@ -33,5 +33,27 @@
     "Run 0W-20 full synthetic on the Maintenance Minder",
     "Service the CVT fluid with genuine Honda HCF-2 around 30–40k miles",
     "Cabin filter, brakes, and tire rotations are most of the upkeep"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "Carryover proven engines: a 158hp 2.0L naturally-aspirated four (K20C2) on LX/Sport, or a 180hp 1.5L turbo (L15CA) on EX/Touring.",
+      "watch": "The 1.5T's old cold-climate oil dilution was sorted generations ago, and the engines have been trouble-free so far - just keep to the oil schedule."
+    },
+    "drivetrain": {
+      "detail": "Front-wheel drive with a CVT (the sporty Si and track-focused Type R are separate 6-speed manuals).",
+      "watch": "The CVT carries over from the durable 10th gen - service it with genuine Honda HCF-2 fluid on schedule."
+    },
+    "suspension": {
+      "detail": "Standard front strut suspension with electric power steering.",
+      "watch": "2022-2024 cars have a steering gearbox/rack recall for excessive friction or tire rub - confirm by VIN that it has been fixed."
+    },
+    "fuel": {
+      "detail": "Direct-injected fuel system on the turbo 1.5T and the 2.0L.",
+      "watch": "Some recent cars were recalled for a high-pressure fuel pump that can crack and leak - check for any open fuel recall by VIN."
+    },
+    "electrical": {
+      "detail": "Modern touchscreen infotainment (larger on Touring) with the usual 12V systems.",
+      "watch": "Early cars had occasional software and infotainment quirks that updates largely cleared - keep the system updated."
+    }
+  }
 }

@@ -37,5 +37,23 @@
     "Confirm the fuel-pump recall and any open recalls by VIN before buying",
     "On the hybrid, keep the traction-battery cooling intake clear and the 12V battery healthy",
     "Rotate tires and budget for brakes on schedule; otherwise upkeep is routine Toyota"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "A 2.5L Dynamic Force four (203 hp) or, in the hybrid, an Atkinson-cycle version paired with electric motors for 219 hp combined.",
+      "watch": "Very reliable Toyota four with no chronic faults - just keep up with the 0W-16 synthetic oil on the Maintenance Minder."
+    },
+    "drivetrain": {
+      "detail": "FWD or AWD; the gas model uses an 8-speed automatic, while the hybrid uses an e-CVT with a separate rear electric motor for AWD.",
+      "watch": "Early 2019 8-speeds could lurch or hesitate at low speed; a dealer reflash (TSB) fixes it - test-drive at parking-lot speeds."
+    },
+    "fuel": {
+      "detail": "A 14.5-gallon tank; the hybrid uses a differently shaped saddle tank tucked around the rear electric motor.",
+      "watch": "Many 2019-2020 hybrids wouldn't fill completely (fixed under a Toyota support program); confirm the 2020 Denso fuel-pump recall is closed by VIN."
+    },
+    "electrical": {
+      "detail": "A 12V battery runs the accessories; the hybrid adds a durable traction battery and the touchscreen infotainment.",
+      "watch": "The traction battery is very long-lived; just keep the 12V healthy. Early XA50 infotainment felt dated but works fine."
+    }
+  }
 }

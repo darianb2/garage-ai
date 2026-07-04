@@ -35,5 +35,23 @@
     "Keep infotainment/control software updated on early cars",
     "Service the 10-speed automatic (2.0T) and the CVT (1.5T) fluids on schedule",
     "Have the fuel-pump recall confirmed complete on a 2018–2020 car"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "Turbo fours only: a 192 hp 1.5L standard and a 252 hp 2.0L on the Sport, which asks for premium fuel.",
+      "watch": "Early 1.5T cars can get fuel in the oil (oil dilution) on short cold trips; a Honda software update curbed it, and it's less common than on the CR-V/Civic."
+    },
+    "drivetrain": {
+      "detail": "Front-wheel drive; the 1.5T uses a CVT and the 2.0T a 10-speed automatic (a 6-speed manual early on).",
+      "watch": "Both transmissions have held up well; just service the fluids on schedule. No widespread failures reported."
+    },
+    "fuel": {
+      "detail": "An in-tank low-pressure fuel pump feeds the turbo engines.",
+      "watch": "2018-2019 cars fall under the industry-wide Denso fuel-pump recall; a failing pump can stall the engine, so confirm the fix is done."
+    },
+    "electrical": {
+      "detail": "Touchscreen infotainment, a body control module, and start-stop with an AGM battery.",
+      "watch": "2018-2020 cars had a BCM recall (glitchy warning lights, backup camera, wipers) and early infotainment bugs; software updates fixed most."
+    }
+  }
 }

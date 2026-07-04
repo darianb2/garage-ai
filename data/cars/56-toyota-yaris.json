@@ -37,5 +37,23 @@
     "Check the Takata airbag and any open recalls by VIN on older examples — free and important",
     "Otherwise it is cabin filters, brake fluid, and tires; parts are cheap and everywhere",
     "The manual's clutch is light and long-lived; just keep the hydraulic fluid fresh"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "Mazda's 1.5L Skyactiv-G four on the 2016-2020 US cars (a rebadged Mazda2); earlier US Yaris used Toyota's own 1.5L.",
+      "watch": "Simple and durable - just use the specified synthetic oil. Older, higher-mileage cars can use a little oil, so check the level."
+    },
+    "drivetrain": {
+      "detail": "FWD with a 6-speed automatic or 6-speed manual on the Mazda2-based cars (earlier cars had a 4-speed auto or 5-speed manual).",
+      "watch": "Solid Mazda mechanicals; service the automatic fluid on schedule. The manual's clutch is light and long-lived, though a worn one can judder."
+    },
+    "electrical": {
+      "detail": "12V battery and a simple, sparsely-equipped infotainment and audio setup on base trims.",
+      "watch": "The most that's reported is minor gremlins like an occasional ABS light; base cars came bare, so many owners upgrade the head unit and speakers."
+    },
+    "safety": {
+      "detail": "Basic airbags and stability control; the Mazda2-based cars predate most modern driver aids.",
+      "watch": "On older examples, confirm the Takata airbag and any open recalls are closed by VIN - free and important before buying."
+    }
+  }
 }

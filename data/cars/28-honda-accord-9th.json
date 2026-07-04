@@ -33,5 +33,23 @@
     "Confirm the Takata airbag recall is complete",
     "Service the CVT fluid with genuine Honda HCF-2 on schedule",
     "Iridium spark plugs around 100k on the V6"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "2.4L 'Earth Dreams' four (185-189 hp), a 278 hp J35 V6, or a two-motor hybrid; the last Accord offered with the V6.",
+      "watch": "The four has an excellent record. The V6 still uses VCM and can burn oil and wear motor mounts; owners often fit a VCM disabler."
+    },
+    "drivetrain": {
+      "detail": "Front-wheel drive; the 2.4L four pairs with a CVT while the V6 uses a 6-speed automatic.",
+      "watch": "Early CVTs can judder or shudder at light throttle around 20-60 mph from overheated fluid; Honda issued a software update and fluid flush."
+    },
+    "electrical": {
+      "detail": "Standard 12V system with a dual-screen infotainment setup on pre-2016 cars.",
+      "watch": "2013-2014 cars had minor electric power-steering, starter and weak-battery niggles plus fiddly early infotainment; nothing major."
+    },
+    "safety": {
+      "detail": "Airbags, stability control and, on later trims, Honda Sensing driver aids.",
+      "watch": "Also covered by the industry-wide Takata airbag-inflator recall; verify completion by VIN."
+    }
+  }
 }

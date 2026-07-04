@@ -38,5 +38,23 @@
     "Check the Takata airbag and any open recalls by VIN before you buy an older one",
     "Beyond that it's cabin filters, brake fluid, and tires — parts are cheap and everywhere",
     "The manual's clutch is light and long-lived; just do the fluid and it'll outlast the car"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "1.5L naturally-aspirated i-VTEC four (L15B, 130 hp / 128 with the CVT). No turbo, and a timing chain instead of a belt, so there's little to go wrong.",
+      "watch": "One of the most trouble-free engines Honda makes; owners routinely pass 200k on basic oil changes. No real recurring fault here."
+    },
+    "drivetrain": {
+      "detail": "Front-drive with a 6-speed manual or a CVT (the efficient, high-mpg choice). The manual is the enthusiast pick.",
+      "watch": "A few early GK owners report CVT hesitation or rough shifts, but it's generally dependable; service the HCF-2 fluid around 30-40k. The CVT drones under hard acceleration."
+    },
+    "electrical": {
+      "detail": "Touchscreen infotainment (2018+ brought back the volume knob) plus the usual body electronics and a small 12V battery.",
+      "watch": "The undersized battery can drain if the car sits, and 2015-2017 infotainment is laggy. Minor gripes, not breakdowns."
+    },
+    "safety": {
+      "detail": "Full airbag set across the range, with Honda Sensing on later trims. Thick A-pillars can pinch forward visibility.",
+      "watch": "2015-2016 Fits fall under the Takata airbag recall; inflators can rupture. Verify by VIN it's been done. The repair is free and non-negotiable."
+    }
+  }
 }

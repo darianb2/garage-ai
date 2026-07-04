@@ -34,5 +34,27 @@
     "Watch the coolant level on a 2006–2009 car and keep the warranty-repair paperwork if it was done",
     "Keep the alignment in spec to save front tires",
     "The R18 is a timing-chain engine (no belt service) but has adjustable valves — check clearances around 100k"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "A 1.8L SOHC i-VTEC four (R18) on DX/LX/EX; the Si uses a 197hp 2.0L K20. Both are timing-chain engines with no belt to replace.",
+      "watch": "Some 2006-2009 1.8L engines develop coolant-leaking hairline block cracks; Honda extended the powertrain warranty, so check for coolant loss and any repair paperwork."
+    },
+    "drivetrain": {
+      "detail": "Front-wheel drive with a 5-speed automatic or 5-speed manual on the 1.8L; the Si adds a 6-speed manual and a limited-slip differential.",
+      "watch": "Genuinely durable and cheap to fix; keep the automatic's fluid serviced with genuine Honda ATF and it will run to very high mileage."
+    },
+    "safety": {
+      "detail": "This generation is covered by the industry-wide Takata airbag-inflator recall.",
+      "watch": "Before buying, confirm by VIN that the free Takata airbag recall has been completed - it is the single most important check on these cars."
+    },
+    "electrical": {
+      "detail": "Conventional 12V electrics behind a distinctive two-tier dash; nothing exotic to go wrong.",
+      "watch": "The A/C compressor and its clutch bearing can wear out with age and be costly - listen for grinding and check that the air blows cold."
+    },
+    "suspension": {
+      "detail": "Simple, inexpensive front strut suspension that is easy and cheap to service.",
+      "watch": "Front tires tend to wear on the inner edge from camber and alignment drift, so budget for regular alignments and tires."
+    }
+  }
 }

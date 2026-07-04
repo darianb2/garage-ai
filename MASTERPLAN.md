@@ -308,12 +308,17 @@ Strategy: PERFECT 4 launch cars end-to-end, then scale the same template behind 
       merges it (via profile.specs) so BOTH the Explode/3D detail panel and the
       Mechanical Breakdown cards show curated "what it is / what to watch" text
       alongside live NHTSA counts. Uncurated cars fall back to the NHTSA-only view.
-- [~] Systems-map coverage: now 19 of 71 curated cars. The 4 launch cars plus a
-      15-car enthusiast batch (S2000, NSX NA1, Civic Type R, GR86, GR Supra, MR2
-      SW20, M3 E30/E92, M2, M5 E39, 370Z, WRX, Mustang GT, Camaro SS, Golf GTI) —
-      each web-verified for failure points. Remaining ~52 curated cars (mainstream
-      Honda/Toyota lineups, more BMW/Civic Si gens, Q50s) are candidates for the
-      next batches.
+- [~] Systems-map coverage: now 46 of 71 curated cars. Launch 4 + a 15-car
+      enthusiast batch + a 27-car mainstream/economy batch (the full Honda + Toyota
+      daily-driver lineups: Civic/Accord gens, CR-V/Fit/HR-V/Insight/Odyssey/Pilot,
+      Corolla/Camry/RAV4/Highlander/4Runner/Tacoma/Tundra/Sienna/Prius/Avalon/
+      Corolla Cross/Yaris) — each web-verified, framed for non-enthusiast owners
+      (reliability, running cost, known recalls). Remaining ~25 (Civic Si gens,
+      more BMW, Q50s, Audi S3) are candidates for later.
+- [x] BUGFIX: the Marble redesign replaced the Breakdown/3D tabs, orphaning the
+      systems_map display. Re-surfaced it as a "Systems breakdown" section inside
+      Profile mode (reuses BreakdownPanel via computeSystems), so all curated
+      systems maps are visible again.
 
 ### 8.3 Interactive 3D viewer
 - [x] Integrate Three.js / react-three-fiber; orbit / zoom / rotate (DONE 2026-06-27)

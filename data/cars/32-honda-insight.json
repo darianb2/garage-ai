@@ -36,5 +36,27 @@
     "If the car will sit for weeks, put the 12V battery on a maintainer — it prevents the most common no-start complaint",
     "Confirm the Denso fuel pump recall and any other open campaigns by VIN before buying",
     "There's no CVT belt or timing belt to service — this is a genuinely low-maintenance drivetrain"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "A 1.5L Atkinson four that mostly runs as a generator to charge the battery and feed the motors, rarely driving the wheels directly, so it leads an easy life.",
+      "watch": "Genuinely trouble-free. It's the same proven two-motor system as the Accord and CR-V hybrids, with very few engine complaints on record."
+    },
+    "drivetrain": {
+      "detail": "Honda's two-motor hybrid with a single fixed gear (badged e-CVT) drives the front wheels; there's no conventional automatic, torque converter, or belt.",
+      "watch": "Nothing systemic. With no gearbox to fail it's among the most durable setups Honda makes; regular fluid changes are about all it asks."
+    },
+    "electrical": {
+      "detail": "A well-proven lithium-ion drive battery (warranted 8yr/100k, 10yr/150k in CARB states) plus a normal 12V battery for the accessories.",
+      "watch": "The 12V can drain if the car sits for weeks and cause a no-start; a trickle charger fixes it. The main hybrid battery has held up well."
+    },
+    "fuel": {
+      "detail": "A conventional port fuel-injection system feeds the 1.5L gas engine; nothing exotic here.",
+      "watch": "2019-2020 cars fall under the wide Denso low-pressure fuel-pump recall that can cause stalling; confirm by VIN it's been done."
+    },
+    "brakes": {
+      "detail": "Blends regenerative (motor) braking with normal friction brakes, so the pads and rotors do very little work.",
+      "watch": "Pads and rotors last a long time, but light use lets calipers seize; flush the fluid on schedule and exercise them and they stay healthy."
+    }
+  }
 }

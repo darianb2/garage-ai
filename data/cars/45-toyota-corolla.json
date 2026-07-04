@@ -37,5 +37,23 @@
     "Confirm the fuel-pump recall and any open recalls by VIN before buying",
     "Otherwise it is cabin filters, brake fluid, and tires — parts are cheap and available everywhere",
     "The hybrid's traction battery is long-lived; just keep the 12V battery healthy, as a weak one causes odd electrical gremlins"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "1.8L or 2.0L Dynamic Force four, or a 1.8L hybrid - port/direct-injection engines with a timing chain, so there's no belt to replace.",
+      "watch": "Very reliable; just keep up with the specified low-viscosity synthetic oil. Nothing chronic goes wrong with these engines."
+    },
+    "drivetrain": {
+      "detail": "FWD with a CVT (a Direct-Shift CVT with a real launch gear on the 2.0L), an e-CVT on the hybrid, or a 6-speed manual on the 2.0L.",
+      "watch": "One of the more durable CVTs in the class; change the fluid around 60k despite 'lifetime' claims. It drones under hard acceleration but rarely fails."
+    },
+    "fuel": {
+      "detail": "Regular unleaded with port/direct injection and an in-tank electric fuel pump.",
+      "watch": "Confirm the 2020 Denso low-pressure fuel-pump recall is closed by VIN - industry-wide, not Corolla-specific; a bad pump can stall the car."
+    },
+    "electrical": {
+      "detail": "12V battery, Toyota Safety Sense driver aids, and a touchscreen infotainment system.",
+      "watch": "Early E210 infotainment felt dated (later cars got wireless CarPlay/Android Auto); a weak 12V battery causes odd gremlins, especially on the hybrid."
+    }
+  }
 }

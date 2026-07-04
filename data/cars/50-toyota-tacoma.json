@@ -37,5 +37,27 @@
     "Inspect the frame and rear differential for rust and leaks, particularly in salt-belt states",
     "Have any open recalls confirmed closed by VIN before buying",
     "On the manual, do the clutch hydraulic fluid; the clutch itself is long-lived if not abused"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "3.5L naturally-aspirated V6 (2GR-FKS), 278 hp, or a base 2.7L four - both are durable, long-lived engines with no chronic internal failures.",
+      "watch": "Very reliable; just keep the 0W-20 oil fresh. No turbos to worry about, and 200k-plus miles is routine on a maintained truck."
+    },
+    "drivetrain": {
+      "detail": "6-speed automatic (or a 6-speed manual on the V6) driving RWD or part-time 4WD, with a locking rear diff on TRD Off-Road/Pro.",
+      "watch": "The 6-speed auto lugs and 'hunts' at low rpm for economy - annoying, not a failure; 2020+ improved via software. Some 2016-17 trucks had a rear-diff recall for loose fasteners - check it's closed."
+    },
+    "suspension": {
+      "detail": "Front coil-overs with an old-fashioned rear leaf-spring live axle - great for load and abuse, less so for ride comfort.",
+      "watch": "The most common gripe: a bouncy, firm rear ride when the bed is empty. An add-a-leaf or better shocks settles it; nothing actually breaks."
+    },
+    "brakes": {
+      "detail": "Front disc brakes with rear drum brakes - dated hardware, but adequate for a midsize truck's normal use.",
+      "watch": "Rear drums are behind rivals' discs but reliable and cheap to service; just routine maintenance."
+    },
+    "body": {
+      "detail": "Midsize body-on-frame pickup with a reputation for holding value better than anything else in the class.",
+      "watch": "On older trucks in salt-belt states, inspect the frame for rust; Toyota had frame-rust issues on the prior generation, so it's worth a close look."
+    }
+  }
 }

@@ -35,5 +35,23 @@
     "Service the 6-speed automatic with genuine Honda ATF DW-1 every ~30–50k miles",
     "Inspect motor mounts if you notice new idle vibration",
     "Iridium spark plugs around 100k miles"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "3.5L SOHC i-VTEC V6 (J35Y6, 278 hp) with Variable Cylinder Management, which shuts down cylinders under light load to save fuel.",
+      "watch": "VCM can raise oil use and foul spark plugs on light-throttle cruising; it's milder on this 9th-gen than earlier V6s. Check oil level; many owners fit a VCM disabler."
+    },
+    "drivetrain": {
+      "detail": "Front-drive with a 6-speed automatic (sedan) or, on the coupe, a 6-speed manual. A conventional geared automatic, not a CVT.",
+      "watch": "The transmission is durable; service the ATF DW-1 every 30-50k. The real wear item is the powertrain mounts, which VCM pulses wear by 80-120k, causing idle vibration."
+    },
+    "fuel": {
+      "detail": "Direct-injected V6 on regular unleaded; injectors spray fuel straight into the cylinders for efficiency and power.",
+      "watch": "Direct injection can build intake-valve carbon at high mileage, though milder than on turbo DI engines. No urgent fuel-system fault."
+    },
+    "electrical": {
+      "detail": "Dual-screen infotainment (2016+ adds Apple CarPlay and Android Auto) with available Honda Sensing on later cars.",
+      "watch": "Some early-build units have infotainment lag and minor quirks. Cosmetic and software-level, not a reliability concern."
+    }
+  }
 }

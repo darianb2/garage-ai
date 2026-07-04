@@ -5,6 +5,7 @@ import { ChassisBadge, Segmented, Spinner, PrimaryButton, SectionLabel } from ".
 import ShowroomMode from "./ShowroomMode";
 import ExplodeMode from "./ExplodeMode";
 import ProfilePanel from "./panels/ProfilePanel";
+import BreakdownPanel from "./panels/BreakdownPanel";
 
 const MODES = [
   { id: "profile", label: "Profile" },
@@ -83,13 +84,19 @@ export default function VehicleHub({ vehicle, answer, onBack, onCompare, inCompa
   );
 }
 
-// Profile mode: the existing data panel + Ask Garage AI (grounded on this car).
+// Profile mode: the data profile + Ask Garage AI (grounded on this car) + the
+// per-system mechanical breakdown (curated systems_map merged with live NHTSA
+// complaint/recall counts).
 function ProfileMode({ vehicle, profile, answer }) {
   return (
     <div className="space-y-4">
       {answer && <AnswerCard data={answer} />}
       <AskBox vehicle={vehicle} />
       <ProfilePanel profile={profile} />
+      <div>
+        <SectionLabel className="mb-2">SYSTEMS BREAKDOWN</SectionLabel>
+        <BreakdownPanel profile={profile} />
+      </div>
     </div>
   );
 }

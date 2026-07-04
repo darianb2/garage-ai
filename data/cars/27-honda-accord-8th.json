@@ -33,5 +33,27 @@
     "Inspect front brakes and rotors on a 2008–2010 car",
     "Confirm the Takata airbag recall is complete",
     "Service the automatic with genuine Honda ATF; inspect motor mounts if idle vibration appears"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "K24 2.4L four (177-190 hp) or a 271 hp 3.5L J35 V6 that shuts off cylinders (VCM) to save fuel.",
+      "watch": "The V6's VCM can burn oil and foul plugs; check oil between changes and consider a VCM disabler. The 2.4L four is the trouble-free pick."
+    },
+    "drivetrain": {
+      "detail": "Front-wheel drive through a durable conventional 5-speed automatic (manuals also offered), not a CVT.",
+      "watch": "The old-school 5-speed auto holds up well; on the V6 the active motor mounts wear from VCM and cause idle vibration as they age."
+    },
+    "brakes": {
+      "detail": "Standard front disc brakes sized for a family sedan.",
+      "watch": "2008-2010 cars are known for premature front pad/rotor wear and pedal judder, enough that a class action followed; budget for brake jobs."
+    },
+    "suspension": {
+      "detail": "Independent suspension front and rear, tuned for a comfortable ride.",
+      "watch": "Rear camber runs negative and isn't adjustable from the factory, wearing the inside edge of the rear tires; an aftermarket camber kit fixes it."
+    },
+    "safety": {
+      "detail": "Dual front and side airbags with ABS and stability control.",
+      "watch": "This generation is part of the industry-wide Takata airbag-inflator recall; confirm by VIN that the repair has been done."
+    }
+  }
 }

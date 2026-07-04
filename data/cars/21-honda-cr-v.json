@@ -36,5 +36,27 @@
     "Service the CVT fluid with genuine Honda HCF-2 around 30–40k miles — CVTs go the distance when you actually service them",
     "Budget for the A/C condenser on an early car if it hasn't already been replaced",
     "Beyond that it's cabin filters, brakes, and tire rotations — this is a cheap car to keep"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "The volume engine is a 1.5L turbo four (L15B7, 190 hp); the 2017 LX kept the older 2.4L naturally-aspirated four. Both are timing-chain designs, no belt to service.",
+      "watch": "The turbo four is Honda-durable but sensitive to oil level and short cold trips, so check the oil between changes and don't stretch the interval (see fuel)."
+    },
+    "fuel": {
+      "detail": "Direct-injected 1.5L turbo on regular unleaded; the injection is metered tightly, which is the root of the cold-weather oil-dilution quirk.",
+      "watch": "On early 2017-2018 cars, fuel can wash into the oil on short cold trips (rising oil level, fuel smell). Honda issued a software update and extended the powertrain warranty in cold states."
+    },
+    "drivetrain": {
+      "detail": "CVT only, in front-drive or Real Time AWD. No fixed gears; the CVT varies ratio continuously for efficiency.",
+      "watch": "The CVT is dependable when serviced. Change the fluid with genuine Honda HCF-2 around 30-40k miles; neglected fluid is what kills these, not the design."
+    },
+    "electrical": {
+      "detail": "Honda Sensing driver-assist is standard on most trims, and a touchscreen runs the audio and phone integration.",
+      "watch": "Pre-2020 infotainment is laggy and dropped the physical volume knob (it returned in the 2020 refresh). Annoying, not a reliability problem."
+    },
+    "body": {
+      "detail": "Standard unibody crossover; the A/C condenser sits low in the front end where road debris and stress can reach it.",
+      "watch": "2017-2019 A/C condenser/compressor failures are common. Honda extended compressor shaft-seal coverage to 10 years (TSB A23-040), so have a dealer check before paying."
+    }
+  }
 }

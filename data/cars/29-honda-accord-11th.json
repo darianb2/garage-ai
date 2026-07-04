@@ -33,5 +33,27 @@
     "Run 0W-20 full synthetic on the Maintenance Minder",
     "The hybrid battery is covered by a long warranty — no special owner upkeep beyond regular service",
     "Cabin filter, brakes, and tire rotations are most of the routine cost"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "A 192 hp 1.5L turbo on base trims and a 204 hp two-motor hybrid up top, now the volume seller; the old 2.0T and manual are gone.",
+      "watch": "Too new for a long-term record, but both are proven Honda powertrains; just keep up with the 0W-20 oil changes."
+    },
+    "drivetrain": {
+      "detail": "Front-wheel drive; the 1.5T uses a CVT and the hybrid a two-motor e-CVT.",
+      "watch": "A large recall covers a hybrid software glitch (ICM) that can cut drive power while moving; make sure the reprogramming has been done."
+    },
+    "fuel": {
+      "detail": "Direct injection, with a high-pressure fuel system on the hybrid.",
+      "watch": "Some 2023-2024 hybrids were recalled for a high-pressure fuel pump that can crack and leak fuel; verify by VIN."
+    },
+    "electrical": {
+      "detail": "A larger Google built-in infotainment system up top; the hybrid battery carries a long warranty.",
+      "watch": "Expect early infotainment software quirks; the hybrid battery needs no special owner upkeep beyond normal service."
+    },
+    "safety": {
+      "detail": "Honda Sensing driver-assist is standard across the range.",
+      "watch": "Early recalls have been minor (e.g., a driver's-seat frame that may be loose); check for any open campaign by VIN."
+    }
+  }
 }

@@ -37,5 +37,23 @@
     "Inspect and treat the frame for rust in salt-belt states — it is the main thing that ends these trucks",
     "Keep the 5-speed automatic fluid fresh despite 'lifetime' claims",
     "Confirm any open recalls by VIN, and check that off-road trucks have not been abused"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "Old-school 4.0L naturally-aspirated V6 (1GR-FE), 270 hp - no turbos, no direct injection, one of Toyota's most proven engines.",
+      "watch": "Genuinely bulletproof; higher-mile trucks may show minor water-pump or valve-cover gasket seepage. It's just thirsty (~18 mpg real-world), which is the platform, not a defect."
+    },
+    "drivetrain": {
+      "detail": "5-speed automatic (A750) driving RWD or real part-time 4WD; Limited runs full-time 4WD, and TRD trims add a locking rear diff and KDSS.",
+      "watch": "The 5-speed and 4WD hardware are very durable - just down a couple of gears versus rivals. Service the transfer-case and diff fluids on schedule if you tow or go off-road."
+    },
+    "suspension": {
+      "detail": "Body-on-frame with a coil-sprung rear; some trims offer KDSS, which stiffens the anti-roll bars only when needed for a better ride and off-road flex.",
+      "watch": "No chronic faults; the ride is just firm and jittery unladen on some trims - KDSS-equipped trucks ride and handle noticeably better."
+    },
+    "body": {
+      "detail": "Traditional body-on-frame SUV built for durability and off-road abuse rather than car-like refinement.",
+      "watch": "Main long-term killer is frame and control-arm surface rust in road-salt states - inspect the frame closely on Northern trucks; Southern trucks rarely have issues."
+    }
+  }
 }

@@ -37,5 +37,23 @@
     "On the hybrid, keep the traction-battery cooling intake clear and the 12V battery healthy",
     "Rotate tires and keep up with brake fluid; regen means pads last a long time on the hybrid",
     "Confirm any open recalls by VIN before buying"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "A 2.0L Dynamic Force four (169 hp) or, from 2023, a 196 hp hybrid - both proven TNGA engines shared with the Corolla.",
+      "watch": "Very reliable; the gas 2.0L just feels leisurely when loaded (not a fault). Keep the 0W-16 synthetic oil current."
+    },
+    "drivetrain": {
+      "detail": "FWD or AWD; the gas model uses a Direct-Shift CVT with a launch gear, the hybrid an e-CVT with a rear electric motor for AWD.",
+      "watch": "The CVT is proven but drones under hard throttle; it's a newer model, so service the fluid and verify open recalls by VIN."
+    },
+    "electrical": {
+      "detail": "A 12V battery runs the car and its touchscreen; the hybrid adds a traction battery.",
+      "watch": "Early cars had glitchy Wings infotainment (chip-shortage era) and some 12V-battery weakness - mostly minor teething issues."
+    },
+    "body": {
+      "detail": "A tall, practical subcompact SUV with modest cargo space behind the seats.",
+      "watch": "More road noise than pricier crossovers; a few owners report loose rear roof rails or bump noise - all minor."
+    }
+  }
 }

@@ -34,5 +34,23 @@
     "Run 0W-20 full synthetic and follow the Maintenance Minder",
     "Service the 5-speed automatic fluid with genuine Honda ATF around 30–60k miles",
     "Check valve clearances around 100k (chain-driven, no timing belt)"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "A reliable 1.8L SOHC i-VTEC four (R18Z1); the Si steps up to a torquier 2.4L K24, and a 1.5L hybrid was also offered. Timing chain, no belt.",
+      "watch": "Very durable past 200k; the minor gripes are a plastic intake air duct that can crack and a thermostat gasket that can seep coolant."
+    },
+    "drivetrain": {
+      "detail": "Front-wheel drive; the 1.8L uses a 5-speed manual, a 5-speed automatic on 2012-13 cars, or a CVT on 2014-15 (the Si is a 6-speed manual).",
+      "watch": "Solid overall, but 2014-15 CVT cars had a Honda software-update recall for the drive-pulley shaft - verify it was completed by VIN."
+    },
+    "safety": {
+      "detail": "Falls under the industry-wide Takata airbag-inflator recall, like most cars of its era.",
+      "watch": "Confirm the free Takata airbag recall is done by VIN; a steering-column mounting-bracket recall also affected some early cars."
+    },
+    "electrical": {
+      "detail": "12V electrics with Honda's i-MID information display above the main gauges; straightforward.",
+      "watch": "Expect occasional battery or starter wear with age and minor i-MID quirks - check the display works and the car starts easily cold."
+    }
+  }
 }

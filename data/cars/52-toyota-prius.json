@@ -37,5 +37,23 @@
     "Keep the traction-battery cooling intake (behind the rear seat) clear of dust and debris",
     "Use the specified low-viscosity synthetic oil and keep up with brake fluid despite low pad wear",
     "Confirm any open recalls by VIN, and budget for eventual traction-battery service only on very high-mileage cars"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "A 1.8L Atkinson-cycle four (2ZR-FXE) paired with electric motors for 121 hp combined - built for efficiency, not speed.",
+      "watch": "2016-2018 cars can clog the EGR cooler, which if ignored risks coolant loss and head-gasket trouble; clean the EGR system preventively."
+    },
+    "drivetrain": {
+      "detail": "FWD or, from 2019, AWD-e via a rear electric motor; an e-CVT and traction battery do the work.",
+      "watch": "Exceptionally durable - the hybrid system routinely passes 200k-300k miles on the original traction battery."
+    },
+    "electrical": {
+      "detail": "A small 12V auxiliary battery wakes the car and powers accessories alongside the hybrid traction battery.",
+      "watch": "The 12V battery is the top cause of no-starts and odd electrical gremlins - a cheap fix; replace it proactively."
+    },
+    "brakes": {
+      "detail": "Regenerative braking does most of the slowing, so the friction pads wear very slowly.",
+      "watch": "Pads last a long time, but keep the brake fluid fresh on schedule despite the low wear."
+    }
+  }
 }

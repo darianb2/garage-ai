@@ -36,5 +36,23 @@
     "It's a timing-chain engine (no belt), so there's no expensive timing service to budget for",
     "Verify any open recalls by VIN before buying — the fixes are free at a dealer",
     "Otherwise it's cabin filters, brakes, and tire rotations — cheap and simple to keep"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "1.8L naturally-aspirated i-VTEC four (R18, 141 hp), the proven timing-chain engine shared with a generation of Civics.",
+      "watch": "About as bulletproof as Honda gets, but underpowered; merging and hills take planning and it drones when pushed. Durability isn't the issue."
+    },
+    "drivetrain": {
+      "detail": "CVT across most of the range, in front-drive or Real Time AWD; early FWD trims (2016-2018) offered a 6-speed manual.",
+      "watch": "Mostly dependable, but 2019-2020 CVTs have more failure reports and replacement is costly. Service the HCF-2 fluid on time to protect it."
+    },
+    "fuel": {
+      "detail": "Port-injected 1.8L on regular unleaded, fed by an in-tank low-pressure fuel pump.",
+      "watch": "Included in the large Denso fuel-pump recall (NHTSA 23V858000); the pump can fail and stall the engine. Check by VIN that the free fix is done."
+    },
+    "electrical": {
+      "detail": "Keyless start, touchscreen infotainment (volume knob returned in 2019), and standard body electronics.",
+      "watch": "Honda extended the keyless-start warranty on 2016-2018 HR-Vs to 9 years/125k for an ignition-switch defect; early infotainment is laggy."
+    }
+  }
 }

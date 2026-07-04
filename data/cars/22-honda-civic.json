@@ -34,5 +34,23 @@
     "Confirm the A/C condenser has been replaced (or budget for it) on a 2016–2018 car",
     "Service the CVT fluid with genuine Honda HCF-2 around 30–40k miles",
     "Cabin filter, brakes, and tire rotations are most of the upkeep — this is a cheap car to run"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "A 2.0L naturally-aspirated four (R20) on LX/Sport, or a 174hp 1.5L turbo (L15B7) on EX and up.",
+      "watch": "Early 1.5T cars driven on short cold trips can suffer oil dilution (fuel in the oil, rising level); Honda issued a fix and warranty extension, so check the level."
+    },
+    "drivetrain": {
+      "detail": "Front-wheel drive; the 1.5T uses a CVT, while the 2.0L comes with a CVT or a 6-speed manual.",
+      "watch": "The CVT has proven durable - just service it with genuine Honda HCF-2 fluid on time to avoid any shudder."
+    },
+    "electrical": {
+      "detail": "Touchscreen infotainment plus the usual 12V and A/C systems.",
+      "watch": "2016-2018 A/C condensers can crack and fail (Honda extended coverage), and pre-2019 infotainment lagged and dropped the volume knob, both fixed in the 2019 refresh."
+    },
+    "body": {
+      "detail": "Roomy sedan, coupe, or hatchback body for the class.",
+      "watch": "Mostly cosmetic: the factory paint is soft and the alloy wheels curb easily - no structural concerns."
+    }
+  }
 }

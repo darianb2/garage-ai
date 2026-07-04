@@ -37,5 +37,27 @@
     "Confirm the fuel-pump recall and any open recalls by VIN",
     "On the hybrid, keep the traction-battery cooling intake clear and the 12V battery healthy",
     "Budget for tires and brakes; otherwise this is low-maintenance Toyota V6 motoring"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "A 301 hp 3.5L V6, a 2.5L hybrid, or (2021+) a 2.5L four with AWD - the 2GR V6 is one of Toyota's most proven engines.",
+      "watch": "Very reliable; routine synthetic oil is about all it asks. The V6 is thirstier, so the hybrid is the frugal pick."
+    },
+    "drivetrain": {
+      "detail": "FWD (V6/hybrid) or AWD (2021+ four), with an 8-speed automatic on gas cars or an e-CVT on the hybrid.",
+      "watch": "A few early-2019 V6 cars show mild low-speed hesitation/shift feel - never enough for a recall; service the fluid on schedule."
+    },
+    "fuel": {
+      "detail": "Regular unleaded with port/direct injection and an in-tank electric fuel pump.",
+      "watch": "Confirm the 2020 Denso low-pressure fuel-pump recall is closed by VIN - industry-wide; a failing pump can stall the engine."
+    },
+    "electrical": {
+      "detail": "12V battery, touchscreen infotainment, and Toyota Safety Sense driver aids.",
+      "watch": "Some owners report a weak 12V battery or corroded terminals, and early XX50 infotainment felt dated - keep the battery healthy."
+    },
+    "body": {
+      "detail": "Plush, quiet full-size cabin, often with a power rear-window sunshade on upper trims.",
+      "watch": "The powered rear sunshade can grind or fail - a common owner complaint, but it's a cosmetic annoyance, not a reliability worry."
+    }
+  }
 }

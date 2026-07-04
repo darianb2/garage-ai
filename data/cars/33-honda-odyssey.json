@@ -37,5 +37,27 @@
     "Service the transmission fluid on schedule with the correct Honda ATF — the 9-speed is happiest when it's not neglected",
     "Confirm the sliding-door and second-row seat recalls are done by VIN before buying used",
     "Keep the spark plugs fresh (VCM can foul them) and stay on top of brake service given the vehicle's weight"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "A 280 hp 3.5L J35 V6 with Variable Cylinder Management (VCM) that shuts off cylinders to save fuel while cruising.",
+      "watch": "VCM can burn oil and foul plugs over the miles, and worn mounts cause low-speed shudder; check oil between changes. Many owners fit a VCM disabler."
+    },
+    "drivetrain": {
+      "detail": "A ZF 9-speed automatic on most trims, or a 10-speed on Touring/Elite, sending power to the front wheels.",
+      "watch": "Early 2018-2019 9-speeds shifted roughly (a class action followed) and mostly settled with Honda software updates; keep the fluid serviced."
+    },
+    "electrical": {
+      "detail": "Touchscreen infotainment with family tech like CabinWatch, plus auto idle stop that cuts the engine at stops.",
+      "watch": "2018-2020 screen was laggy and dropped the volume knob (back for 2021). Auto idle stop is under an NHTSA restart-failure probe covering 2018-2025 vans."
+    },
+    "body": {
+      "detail": "Power sliding doors and Magic Slide second-row seats are the family-friendly party trick.",
+      "watch": "The sliding doors had two recalls, a sticking latch and handle cables that ice up and won't latch; confirm both are closed by VIN."
+    },
+    "safety": {
+      "detail": "Honda Sensing with automatic emergency braking (CMBS) is standard across the range.",
+      "watch": "2018-2019 Touring/Elite had a rollaway recall (parking gear could fail to hold); some owners also report CMBS braking for no reason. Verify recalls done."
+    }
+  }
 }

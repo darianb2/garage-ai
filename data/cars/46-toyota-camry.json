@@ -37,5 +37,23 @@
     "Confirm the fuel-pump recall and any open recalls by VIN",
     "On the hybrid, keep the 12V battery healthy and the traction battery cooling intake (behind the rear seat) clean",
     "Budget for brakes and tires on the heavier V6/AWD cars; otherwise upkeep is minimal"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "2.5L Dynamic Force four, a 301 hp 3.5L V6, or a 2.5L hybrid - all timing-chain engines with long, proven track records.",
+      "watch": "Among the most dependable midsize powertrains; just keep up with the specified synthetic oil and it will go the distance."
+    },
+    "drivetrain": {
+      "detail": "FWD (available AWD on the four) with an 8-speed automatic on gas cars, or an e-CVT on the hybrid.",
+      "watch": "Some early-2018 cars had low-speed 8-speed hesitation/hunting, improved by a software update - have a dealer confirm the latest TCM calibration."
+    },
+    "fuel": {
+      "detail": "Regular unleaded with port/direct injection and an in-tank electric fuel pump.",
+      "watch": "Confirm the 2020 Denso low-pressure fuel-pump recall is closed by VIN on 2018-2020 cars - industry-wide; a failing pump can stall the engine."
+    },
+    "electrical": {
+      "detail": "12V battery, Toyota Safety Sense, and touchscreen infotainment; the hybrid adds a traction battery.",
+      "watch": "Early XV70 infotainment felt dated; keep the 12V battery healthy and, on the hybrid, keep the rear traction-battery cooling intake clean."
+    }
+  }
 }

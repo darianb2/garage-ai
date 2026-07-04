@@ -37,5 +37,23 @@
     "Service the 10-speed automatic, transfer case, and differential fluids on schedule, especially if you tow",
     "Use a proper weight-distributing hitch and brake controller when towing near the limit",
     "Keep up with cooling-system service — turbo engines run hot, and clean coolant matters"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "3.5L twin-turbo V6 (i-FORCE, V35A-FTS), 389 hp, or a 437 hp i-FORCE MAX hybrid - replacing the old 5.7L V8 with more power and torque.",
+      "watch": "2022-24 recall: machining debris can wear the main bearings and cause knocking or stalling. Toyota replaces affected engines, but confirm the recall is done by VIN and buy with service records."
+    },
+    "drivetrain": {
+      "detail": "10-speed automatic driving RWD or part-time 4WD, rated to tow up to ~12,000 lbs.",
+      "watch": "The 10-speed and 4WD hardware have held up fine; service the transmission, transfer-case and diff fluids on schedule, especially if you tow near the limit."
+    },
+    "suspension": {
+      "detail": "Body-on-frame with a modern coil-spring (or optional air) rear suspension - a big ride upgrade over the old leaf-sprung Tundra.",
+      "watch": "No chronic problems reported; it rides well for a full-size truck. Standard routine maintenance."
+    },
+    "fuel": {
+      "detail": "Turbocharged V6 runs on regular gas; the hybrid i-FORCE MAX adds a battery and electric motor for extra low-end torque.",
+      "watch": "Despite the smaller engine, real-world economy is still truck-thirsty - expect the turbos to drink hard when towing or hauling."
+    }
+  }
 }

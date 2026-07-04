@@ -37,5 +37,27 @@
     "Service brake fluid on schedule; regen means pads last a long time but fluid still needs changing",
     "Rotate tires and budget for them given the vehicle's weight",
     "Have any open recalls confirmed closed by VIN before buying"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "2.5L Atkinson-cycle four (A25A-FXS) paired with electric motors for 245 hp combined - hybrid-only, no V6 offered since 2020.",
+      "watch": "Toyota's hybrid system is very proven and dependable; the four just sounds strained and buzzy under hard acceleration - character, not a fault."
+    },
+    "drivetrain": {
+      "detail": "e-CVT (a planetary hybrid transmission) driving the front wheels, with optional AWD via a separate rear electric motor.",
+      "watch": "Few moving parts and a strong reliability record - largely trouble-free; keep up with routine fluid and coolant service."
+    },
+    "brakes": {
+      "detail": "Regenerative braking blended with conventional friction brakes, which recover energy and greatly reduce pad wear.",
+      "watch": "Pads last a long time, but some owners report pulsation or grabby feel, and the regen takes getting used to. Service brake fluid on schedule."
+    },
+    "electrical": {
+      "detail": "Hybrid traction battery plus a standard 12V battery, and a large touchscreen infotainment system.",
+      "watch": "Early 2021 trucks had infotainment quirks fixed by software updates; keep the 12V healthy. The hybrid battery is well-proven and warrantied."
+    },
+    "body": {
+      "detail": "Minivan body with dual power sliding doors and clever storage like the Super Long Slide second row.",
+      "watch": "Some owners report water leaks at the sliding-door drains or sunroof. Also confirm the 2021-2025 third-row seatback bolt recall is closed by VIN."
+    }
+  }
 }

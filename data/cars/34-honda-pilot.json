@@ -37,5 +37,23 @@
     "Service the transmission fluid with the correct Honda ATF on schedule — the 9-speed especially dislikes neglect",
     "Refresh spark plugs on schedule (VCM can foul them) and inspect the engine mounts if you feel low-speed shudder",
     "Confirm all open recalls are closed by VIN, and budget for brakes given the vehicle's weight"
-  ]
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "A 280 hp 3.5L J35 V6 with Variable Cylinder Management (VCM) that deactivates cylinders on the highway to save fuel.",
+      "watch": "VCM is tied to oil use, fouled spark plugs, and low-speed vibration from worn mounts; check oil between changes. A VCM disabler is the popular fix."
+    },
+    "drivetrain": {
+      "detail": "A 6-speed automatic on LX/EX/EX-L or a ZF 9-speed on Touring/Elite, with front-drive or i-VTM4 AWD.",
+      "watch": "Early 2016-2018 9-speeds shifted harshly (improved by software); some 6-speeds got torque-converter judder covered by a TSB and extended warranty."
+    },
+    "electrical": {
+      "detail": "Touchscreen infotainment plus auto idle stop that shuts the engine at stops to save fuel.",
+      "watch": "2016-2018 screen was laggy with no volume knob (back for 2019). Auto idle stop is under an NHTSA probe for failing to restart across 2016-2025 Pilots."
+    },
+    "safety": {
+      "detail": "Honda Sensing with automatic emergency braking (CMBS) is standard on most trims.",
+      "watch": "Some owners report CMBS braking for no reason; otherwise the safety kit is solid. Confirm all open recalls are closed by VIN before buying."
+    }
+  }
 }
