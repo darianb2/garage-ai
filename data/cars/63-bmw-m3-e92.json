@@ -1,0 +1,40 @@
+{
+  "name": "BMW M3 (E92)",
+  "engine": "4.0L S65 (S65B40) naturally-aspirated V8, 8,400 rpm redline",
+  "horsepower": 414,
+  "torque": "295 lb-ft @ 3,900 rpm",
+  "drivetrain": "RWD",
+  "transmission": "6-speed manual, or 7-speed M-DCT dual-clutch",
+  "0_to_60": "~4.6 sec (DCT) · ~4.8 sec (manual)",
+  "fuel_economy": "~14 city / 20 hwy mpg (real-world city often lower)",
+  "curb_weight": "~3,700 lbs (US coupe)",
+  "reliability": "7/10 — the S65 is the only V8 M3 and one of the all-time great naturally-aspirated engines, a screaming 8,400 rpm unit derived from the E60 M5's V10. It is also the source of the car's signature worry: connecting-rod bearing wear, which a meaningful share of owners address preventively. Add the throttle-actuator failures (the two units driving the eight individual throttle bodies) and VANOS quirks, and the E92 rewards a proactive owner who shortens oil intervals and budgets for the known items. Do that, and you own the last, most dramatic pre-turbo M3.",
+  "cost_to_own": "Insurance: High · Maintenance ~$1,500/yr with a rod-bearing job and throttle actuators as budgeted big-ticket items · Values of clean, unmodified manual coupes are firming as the last NA M3",
+  "popular_mods": [
+    "Preventive rod-bearing replacement (often with upgraded bearings) — cheap insurance against the S65's worst failure",
+    "An E9x tune / headers to wake up the high-revving V8 without hurting reliability",
+    "Replacement throttle actuators before they fail and trigger limp mode",
+    "Coilovers and a proper alignment to sharpen an already-brilliant chassis",
+    "Honest take: spend on the rod bearings and throttle actuators first — mechanical peace of mind beats bolt-on power on an S65"
+  ],
+  "oil_type": "10W-60 full synthetic (BMW M-spec)",
+  "oil_interval": "Every 5,000 miles (well short of BMW's factory interval — owners strongly recommend shortening it)",
+  "generations": {
+    "E92 M3 (2007–2013)": "The V8 M3. Offered as the E92 coupe, E90 sedan, and E93 convertible, all sharing the 4.0L S65 that revs to 8,400 rpm. High-strung, race-bred, and best experienced near the redline — the peak of M3 drama before turbocharging arrived with the F80.",
+    "Competition & special editions": "Later Competition Packages added sharper suspension, wheels, and EDC tuning; limited runs like the Lime Rock Park and Frozen editions are the collector picks."
+  },
+  "common_issues": [
+    "Connecting-rod bearing wear — the S65's signature issue; many owners replace preventively",
+    "Throttle-actuator failure — the two actuators driving the individual throttle bodies wear out and cause limp mode",
+    "VANOS solenoid faults and rattle",
+    "Elevated oil consumption (partly by design on a high-revving M engine)",
+    "On DCT cars, mechatronics and clutch wear over time"
+  ],
+  "maintenance_tips": [
+    "Shorten the oil interval to ~5,000 miles with the correct 10W-60 — the single best thing for the rod bearings",
+    "Budget for preventive rod-bearing replacement, especially on higher-mileage or unknown-history cars",
+    "Replace throttle actuators proactively at the first sign of trouble to avoid being stranded in limp mode",
+    "Keep VANOS solenoids serviced and let the V8 reach temperature before chasing the redline",
+    "On DCT cars, service the transmission fluid on schedule and watch clutch adaptation values"
+  ]
+}

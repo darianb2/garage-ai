@@ -1,0 +1,40 @@
+{
+  "name": "BMW M2 (F87)",
+  "engine": "3.0L turbo inline-six — N55 single-turbo (2016–2018) · S55 twin-turbo on the M2 Competition (2019–2021)",
+  "horsepower": 365,
+  "torque": "343 lb-ft @ 1,450–4,750 rpm (369 lb-ft on overboost) — N55 car; the Competition's S55 makes 406 lb-ft",
+  "drivetrain": "RWD",
+  "transmission": "6-speed manual (standard), or 7-speed M-DCT dual-clutch",
+  "0_to_60": "~4.2 sec (DCT ~4.1, manual ~4.4)",
+  "fuel_economy": "~18–20 city / 26 hwy mpg",
+  "curb_weight": "~3,450 lbs (N55 manual)",
+  "reliability": "8/10 — the F87 M2 is widely called the purest modern M car, and it's also one of the more dependable, especially the original N55 single-turbo car. The N55's ownership items are minor and well-understood: a plastic charge pipe that cracks under boost (an easy aluminum swap), wastegate rattle from worn linkage, and the usual valve-cover/oil-pan gasket weeps. The 2019+ M2 Competition inherits the M3/M4's S55 twin-turbo and its single-bolt crank-hub concern — mostly a tuned/launch-control risk, but worth knowing. Either way, a stout, tossable, appreciating M coupe.",
+  "cost_to_own": "Insurance: High (compact performance coupe) · Maintenance ~$800/yr · Strong demand and 'last analog M' status keep resale high, manuals especially",
+  "popular_mods": [
+    "An aluminum charge pipe — cheap insurance against the N55's known cracking failure",
+    "A tune (N55 or S55) — both respond strongly and safely to a quality flash",
+    "An intake and intercooler to keep temps down on repeated hard runs",
+    "On the S55 Competition, a crank-hub upgrade before pushing serious power or using launch control hard",
+    "Honest take: it's brilliant stock — sort the charge pipe and cooling, then a mild tune is all most owners ever need"
+  ],
+  "oil_type": "BMW LL-01 synthetic (0W-30 / 5W-30; a 5W-40 is common for track or hot climates)",
+  "oil_interval": "Every 5,000–7,500 miles (short of BMW's condition-based interval)",
+  "generations": {
+    "M2 (2016–2018, N55)": "The original — a short-wheelbase M coupe with the N55 single-turbo six (365 hp / 343 lb-ft, 369 on overboost) borrowed and strengthened from the M235i. Compact, communicative, and the enthusiast favorite.",
+    "M2 Competition (2019–2021, S55)": "Swapped in the M3/M4-derived S55 twin-turbo for 405 hp / 406 lb-ft, with a stiffer front strut brace and cooling upgrades. The limited M2 CS (444 hp) capped the run as the collector's pick."
+  },
+  "common_issues": [
+    "N55 plastic charge pipe cracking under boost — near-universal aluminum upgrade",
+    "Wastegate rattle from a worn actuator/linkage on the N55",
+    "Valve-cover and oil-pan gasket oil weeps with age",
+    "S55 Competition inherits the single-bolt crank-hub slippage risk (mainly tuned/launch cars)",
+    "Occasional water-pump and thermostat wear"
+  ],
+  "maintenance_tips": [
+    "Fit an aluminum charge pipe early — the factory plastic one is a known weak point",
+    "Change oil every 5,000–7,500 miles with the correct LL-01 synthetic rather than stretching the CBS interval",
+    "On the S55 Competition, address the crank hub before high-power tunes or repeated launch-control use",
+    "Keep the cooling system healthy (water pump, thermostat) on any car that sees track use",
+    "Let the turbo six warm up before boost and cool briefly after hard runs"
+  ]
+}

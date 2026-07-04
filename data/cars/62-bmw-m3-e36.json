@@ -1,0 +1,40 @@
+{
+  "name": "BMW M3 (E36)",
+  "engine": "3.2L S52 (S52B32) inline-six — US 1996–1999; 1995 US cars used the 3.0L S50B30US, also 240 hp",
+  "horsepower": 240,
+  "torque": "236 lb-ft @ 3,800 rpm",
+  "drivetrain": "RWD",
+  "transmission": "5-speed manual, or a 5-speed automatic (Europe got a 6-speed manual)",
+  "0_to_60": "~5.5–6.0 sec",
+  "fuel_economy": "~19 city / 26 hwy mpg",
+  "curb_weight": "~3,175 lbs",
+  "reliability": "7/10 — mechanically the E36 M3 is dependable by M-car standards, but two truths define ownership. First, the US car got the detuned S52 (a hot-rodded M50-family six, 240 hp) rather than Europe's exotic individual-throttle-body S50B32 with 316+ hp, so purists argue it isn't a 'real' M3 — it's still a rewarding, affordable driver. Second, the cooling system is a maintenance clock: the plastic thermostat housing, water-pump impeller, radiator, and expansion tank all age out and can cook the engine if ignored. Stay ahead of cooling and VANOS and it's a cheap way into M ownership.",
+  "cost_to_own": "Insurance: Moderate · Maintenance ~$1,000/yr (cooling and VANOS are the big-ticket items) · Still one of the most affordable ways into an M3, though clean unmodified cars are starting to appreciate",
+  "popular_mods": [
+    "A full cooling-system overhaul (all-metal thermostat housing, water pump, radiator, expansion tank) — do this first",
+    "A VANOS rebuild/upgrade to restore crisp midrange and kill the rattle",
+    "Coilovers and fresh bushings — the E36 chassis responds beautifully to a suspension refresh",
+    "A rear subframe reinforcement on hard-driven or tracked cars",
+    "Honest take: sort the cooling and VANOS before chasing power — reliability is the real upgrade on an E36"
+  ],
+  "oil_type": "10W-60 full synthetic (BMW M-engine spec)",
+  "oil_interval": "Every 5,000–7,500 miles",
+  "generations": {
+    "E36 M3 (1995–1999 US)": "The M3 grown into a refined, usable coupe/sedan/convertible GT with a smooth inline-six. US cars ran the 240 hp S52 (S50B30US in 1995), trading the Euro car's exotica for value and everyday friendliness.",
+    "Euro S50B32 (not sold in US)": "Europe's 3.2L S50B32 with individual throttle bodies, higher compression, and 316–321 hp is the enthusiast's E36 M3 — a genuinely different, more special engine than the US S52."
+  },
+  "common_issues": [
+    "VANOS rattle and wear — the 'marbles in a can' noise with a midrange power loss",
+    "Cooling-system failures — plastic thermostat housing, water-pump impeller, radiator, and expansion tank all age out",
+    "Rear subframe / trunk-floor mounting-point cracking on hard-used cars",
+    "Oil leaks from the valve-cover and oil-filter-housing gaskets",
+    "Cam-position sensor and cooling-fan clutch failures with age"
+  ],
+  "maintenance_tips": [
+    "Replace the entire cooling system proactively — treat plastic coolant parts as scheduled wear items",
+    "Address VANOS with a rebuild kit at the first sign of rattle or lost midrange",
+    "Inspect the rear subframe mounts, especially on any car with track history",
+    "Use the correct 10W-60 M-spec synthetic and let the six warm before hard use",
+    "Keep the gaskets fresh — small oil leaks are cheap to fix and easy to ignore until they aren't"
+  ]
+}

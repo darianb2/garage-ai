@@ -762,7 +762,10 @@ CURATED_SPEC_BINDINGS = {
     ("toyota", "supra"):       [(1993, 2002, "Toyota Supra Mk4 (A80)")],  # A80 (1989 A70 stays unbound)
     ("nissan", "370z"):        [(2009, 2020, "Nissan 370Z")],         # Z34
     ("nissan", "gt-r"):        [(2007, 9999, "Nissan GT-R (R35)")],   # R35 (Skyline GT-R R32/R34 stay unbound)
-    ("bmw", "m3"):             [(2000, 2006, "BMW M3 (E46)")],        # E46 (E30/E36/E92 stay unbound)
+    ("bmw", "m3"):             [(1986, 1991, "BMW M3 (E30)"),        # S14 four
+                                (1992, 1999, "BMW M3 (E36)"),        # US S52/S50B30US
+                                (2000, 2006, "BMW M3 (E46)"),        # S54
+                                (2007, 2013, "BMW M3 (E92)")],       # S65 V8 (E90 sedan / E93 vert share it)
     # MX-5 ND: 2016-18 (ND1) made 155hp; the curated file carries the 181hp ND2
     # figure (2019+). Bound for the whole ND run but flagged for review.
     ("mazda", "mx-5 miata"):   [(2016, 9999, "Mazda MX-5 Miata")],    # ND
@@ -804,6 +807,16 @@ CURATED_SPEC_BINDINGS = {
     ("toyota", "mr2"):        [(1991, 1999, "Toyota MR2 (SW20)")],              # SW20 (AW11 stays unbound)
     ("toyota", "mr2 spyder"): [(2000, 2007, "Toyota MR2 Spyder")],             # ZZW30
     ("toyota", "celica"):     [(1994, 1999, "Toyota Celica GT-Four (ST205)")], # ST205 homologation (regular Celicas stay unbound)
+    # --- BMW lineup (Task 9 brand-by-brand curated coverage) ---
+    # M3 generations are folded into the ("bmw","m3") binding above (E30/E36/E46/E92).
+    ("bmw", "m2"):          [(2016, 2021, "BMW M2 (F87)")],              # N55 + S55 Competition
+    ("bmw", "m4"):          [(2014, 2020, "BMW M4 (F82)")],             # S55 twin-turbo
+    ("bmw", "m5"):          [(1998, 2003, "BMW M5 (E39)"),             # S62 V8
+                             (2004, 2010, "BMW M5 (E60)")],            # S85 V10 (E39/E60 gens; E28/E34/F10 stay unbound)
+    ("bmw", "1 series m"):  [(2011, 2012, "BMW 1 Series M")],          # E82 1M (N54)
+    ("bmw", "335i"):        [(2007, 2013, "BMW 335i (E92)")],          # E92 coupe (N54 2007-10, N55 2011-13)
+    ("bmw", "z4 m"):        [(2006, 2008, "BMW Z4 M Coupe (E86)")],    # S54 clownshoe coupe
+    ("bmw", "2002"):        [(1971, 1975, "BMW 2002 tii")],           # tii injection years (carb 2002s stay unbound)
 }
 
 

@@ -1,0 +1,40 @@
+{
+  "name": "BMW 2002 tii",
+  "engine": "2.0L M10 SOHC inline-four with Kugelfischer PL04 mechanical fuel injection",
+  "horsepower": 130,
+  "torque": "~131 lb-ft @ ~4,500 rpm (DIN; US SAE-net rated ~125 hp)",
+  "drivetrain": "RWD",
+  "transmission": "4-speed manual (a close-ratio 5-speed Getrag was a rare option, mostly outside the US)",
+  "0_to_60": "~9 sec",
+  "fuel_economy": "~24–30 mpg (period; a well-tuned tii can see ~35 mpg on the highway)",
+  "curb_weight": "~2,200–2,380 lbs",
+  "reliability": "8/10 — the tii is the fuel-injected flagship of the 02 series, and its simple, sturdy M10 four is famously long-lived; a healthy one is a wonderfully honest, tossable classic. The two ownership realities are era-appropriate. First, the Kugelfischer mechanical injection pump is finicky and specialist-dependent — set correctly it's crisp and reliable, but a poorly-adjusted or long-stored pump loses power and drivability, and rust or debris in the fuel system will foul it. Second, like any 1970s car, rust is the real enemy. Find a rust-free, properly-fueled tii and it will reward you for decades.",
+  "cost_to_own": "Insurance: Low–Moderate on an agreed-value classic policy · Maintenance ~$800/yr, plus a Kugelfischer specialist on call · Values of clean, correct tiis are strong and rising — this is a beloved blue-chip vintage BMW",
+  "popular_mods": [
+    "A correctly rebuilt and dialed-in Kugelfischer pump — the heart of a good-running tii",
+    "A thorough fuel-system cleanup (tank, lines, filters) to protect the injection",
+    "Careful, reversible rust repair — the single most value-preserving work on any 02",
+    "Period-correct suspension refresh and a 5-speed swap for relaxed cruising (kept reversible)",
+    "Honest take: keep it correct and rust-free — a numbers-matching, properly-injected tii is worth far more than a modified one"
+  ],
+  "oil_type": "20W-50 conventional (period spec; 10W-40 also used)",
+  "oil_interval": "Every ~3,000 miles",
+  "generations": {
+    "2002 tii (1972–1974)": "The fuel-injected flagship of the 02 range — 'touring international injection' — pairing the light 2002 body with the Kugelfischer mechanical pump for crisp throttle response and genuine sporting character. Widely credited as the car that built BMW's sport-sedan reputation in America and the spiritual ancestor of the 3 Series.",
+    "02 series context": "The broader 02 range (1966–1976) spanned the carbureted 1600/2002 up to the turbocharged 2002 Turbo; the tii is the injected sweet spot most enthusiasts covet."
+  },
+  "common_issues": [
+    "Kugelfischer injection pump tuning is finicky and specialist-dependent — a poorly-set pump loses power and drivability",
+    "Pump internals gum up after long storage due to the oil-recirculation design",
+    "Rust in the fuel tank and lines contaminating the pump and injectors",
+    "Chronic body rust — rockers, floors, shock towers, and trunk (typical of the era)",
+    "M10 timing-chain/guide wear and carbon on injection-related components"
+  ],
+  "maintenance_tips": [
+    "Use a Kugelfischer specialist — a correctly-set pump is the difference between a great and a gutless tii",
+    "Keep the fuel system clean; drive the car regularly so the pump doesn't gum up from sitting",
+    "Inspect relentlessly for rust and address it early with correct, reversible repairs",
+    "Service the M10 timing chain and keep the valves adjusted — the engine itself is very durable",
+    "Preserve originality and numbers-matching parts — correctness drives the strong values"
+  ]
+}

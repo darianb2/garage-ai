@@ -1,0 +1,40 @@
+{
+  "name": "BMW M5 (E60)",
+  "engine": "5.0L S85 naturally-aspirated V10, ~8,250 rpm redline",
+  "horsepower": 500,
+  "torque": "383 lb-ft @ 6,100 rpm",
+  "drivetrain": "RWD",
+  "transmission": "7-speed SMG III single-clutch automated manual at US launch; a rare 6-speed manual was added for the US in 2007 (US was the only market to get the 6MT)",
+  "0_to_60": "~4.5 sec (BMW quote; instrumented tests often ~4.1–4.3 sec)",
+  "fuel_economy": "~12 city / 18 hwy mpg",
+  "curb_weight": "~4,012 lbs",
+  "reliability": "6/10 — the E60 M5 is a technological high-water mark: the only V10 M5, an F1-inspired 5.0L revving past 8,000 rpm to 500 hp. It is also the most demanding M5 to own. The S85's undersized rod bearings need replacement roughly every 60k–80k miles or the engine can grenade; the two throttle actuators wear out on nearly every car; and the SMG III's hydraulic pump and clutch are consumables. None of this is a deal-breaker for an owner who budgets for it — but this is a car you maintain to a schedule and a bank balance, not one you neglect.",
+  "cost_to_own": "Insurance: High · Maintenance ~$2,500+/yr realistically (rod bearings, throttle actuators, SMG pump/clutch, thirst) · Buy the best-maintained car you can find; a cheap E60 M5 is the most expensive kind",
+  "popular_mods": [
+    "Preventive rod-bearing replacement (upgraded bearings) — non-negotiable insurance on an S85",
+    "Rebuilt or replacement throttle actuators before they fail and force limp mode",
+    "An SMG pump/accumulator refresh and clutch service on SMG cars",
+    "A software/exhaust freshening to enjoy the V10's top end (leave the engine internals stock)",
+    "Honest take: the smartest 'mods' are preventive rod bearings, throttle actuators, and SMG service — reliability is the whole game on an E60 M5"
+  ],
+  "oil_type": "10W-60 full synthetic (BMW M-spec)",
+  "oil_interval": "Every ~3,000–5,000 miles (well short of BMW's default — critical for protecting the rod bearings)",
+  "generations": {
+    "E60 M5 (2006–2010 US)": "BMW M's most extreme M5 — a naturally-aspirated 5.0L V10 with individual throttle bodies and adjustable P400/P500 power modes, paired at launch with the SMG III automated manual. Ferocious top-end performance and drama, at the cost of complexity and thirst.",
+    "6-speed manual (US-only, 2007+)": "A conventional Getrag 6-speed manual was offered only in the US market — rare, desirable, and the way to skip the SMG's pump/clutch headaches (though the engine's rod-bearing needs are unchanged)."
+  },
+  "common_issues": [
+    "Rod-bearing failure — undersized bearings/clearances for a high-revving V10; replace every ~60k–80k miles",
+    "Throttle-actuator failure — the two bank-mounted actuators wear out on nearly every S85 eventually",
+    "SMG hydraulic pump failure and clutch wear (clutch is a ~30k–50k mile consumable)",
+    "VANOS faults, sometimes triggered by rod-bearing debris",
+    "High oil consumption and expensive routine maintenance overall"
+  ],
+  "maintenance_tips": [
+    "Shorten oil changes to ~3,000–5,000 miles with the correct 10W-60 to protect the bearings",
+    "Treat rod bearings as scheduled maintenance, not a repair — replace preventively on interval",
+    "Budget for throttle actuators and, on SMG cars, the pump and clutch",
+    "Buy on documented history above all — service records are worth more than low mileage here",
+    "Let the V10 fully warm before using the upper rev range"
+  ]
+}

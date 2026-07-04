@@ -1,0 +1,40 @@
+{
+  "name": "BMW M4 (F82)",
+  "engine": "3.0L S55B30 twin-turbocharged inline-six",
+  "horsepower": 425,
+  "torque": "406 lb-ft @ 1,850–5,500 rpm",
+  "drivetrain": "RWD",
+  "transmission": "6-speed manual (standard), or 7-speed M-DCT dual-clutch",
+  "0_to_60": "~3.9 sec (DCT) · ~4.1 sec (manual)",
+  "fuel_economy": "~16 city / 23 hwy mpg",
+  "curb_weight": "~3,530 lbs",
+  "reliability": "7/10 — the F82 M4 is fast, tunable, and lighter than it looks (carbon roof and driveshaft), but the S55 twin-turbo six carries the headline modern-M concern: single-bolt crank-hub slippage, which can throw off timing and cause misfire/failure — overwhelmingly on tuned or hard-launched cars, but it defines the platform's reputation. Beyond that it's a factory plastic charge pipe that cracks, intercooler (charge-air cooler) failures, and the usual water-pump/thermostat wear. A stock or lightly-tuned car with the crank hub addressed is a strong, thrilling coupe; abused, tuned cars are the ones to scrutinize.",
+  "cost_to_own": "Insurance: High · Maintenance ~$1,000/yr, more if you tune (crank hub, cooling) · Depreciation has flattened; clean manuals hold value best",
+  "popular_mods": [
+    "A crank-hub upgrade (pinned/keyed) — the essential first step before any serious S55 power",
+    "An aluminum charge pipe to replace the crack-prone factory plastic one",
+    "A tune plus an upgraded intercooler — the S55 makes big, safe gains with cooling support",
+    "Coilovers or springs to calm the firm, occasionally twitchy stock chassis",
+    "Honest take: if you tune it, do the crank hub and cooling first — that's what keeps a big-power S55 alive"
+  ],
+  "oil_type": "BMW LL-01 synthetic (0W-30 / 5W-40 — the S55 does NOT use the 10W-60 of older M engines)",
+  "oil_interval": "Every 5,000–7,500 miles (short of BMW's condition-based interval)",
+  "generations": {
+    "M4 (2015–2020, F82)": "The coupe half of the F80 M3 / F82 M4 pair and the first M3/M4 to trade a naturally-aspirated V8 for a twin-turbo six — a huge torque and efficiency gain, with carbon-fiber weight savings. Quick and endlessly tunable, if firmer and less delicate than the smaller M2.",
+    "Competition Package (2016+)": "Bumped output to ~444 hp with retuned suspension, wheels, and a sportier exhaust — the more sorted way to buy an F82."
+  },
+  "common_issues": [
+    "Single-bolt crank-hub slippage — the marquee S55 concern (mostly tuned/launch-control cars), can cause timing/misfire failure",
+    "Factory plastic charge pipe cracking under boost",
+    "Charge-air cooler (intercooler) failures",
+    "Oil-consumption and rod-bearing debate on hard-driven cars",
+    "Water-pump and thermostat wear with age"
+  ],
+  "maintenance_tips": [
+    "Address the crank hub before any meaningful tune or repeated hard launches",
+    "Replace the plastic charge pipe with aluminum proactively",
+    "Use the correct LL-01 low-viscosity synthetic — not the 10W-60 that older M engines require",
+    "Support any tune with an upgraded intercooler and healthy cooling system",
+    "Service the DCT fluid on schedule and monitor clutch adaptations on DCT cars"
+  ]
+}

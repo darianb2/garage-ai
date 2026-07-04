@@ -1,0 +1,40 @@
+{
+  "name": "BMW Z4 M Coupe (E86)",
+  "engine": "3.2L S54B32 naturally-aspirated inline-six with individual throttle bodies",
+  "horsepower": 330,
+  "torque": "262 lb-ft @ 4,900 rpm (US SAE; Euro cars rated 343 PS / 269 lb-ft)",
+  "drivetrain": "RWD",
+  "transmission": "6-speed manual only — no automatic offered",
+  "0_to_60": "~4.8 sec",
+  "fuel_economy": "15 city / 23 hwy mpg",
+  "curb_weight": "~3,230 lbs",
+  "reliability": "8/10 — the E86 Z4 M Coupe is the hard-top 'clownshoe' shooting-brake sharing the E46 M3's high-revving S54 straight-six, and the fixed roof makes it stiffer and sharper than the M Roadster. The S54's headline concern is rod-bearing wear (potentially catastrophic, so interval replacement is the accepted practice) along with VANOS wear and the usual aging cooling system — though the Z4 M is generally viewed as less bearing-troubled than the earliest 2001–2003 E46 M3s. Low production and a cult shape make a well-maintained one a genuine modern collectible.",
+  "cost_to_own": "Insurance: High (rare two-seat M) · Maintenance ~$1,500/yr with rod bearings and VANOS as the budgeted big items · Rising collector interest — clean, documented cars appreciate",
+  "popular_mods": [
+    "Preventive rod-bearing replacement — the essential S54 insurance job",
+    "A VANOS rebuild to restore response and quiet the rattle",
+    "A cooling-system refresh (water pump, thermostat, radiator, expansion tank)",
+    "A quality suspension/alignment refresh to sharpen the already-stiff coupe",
+    "Honest take: spend on the rod bearings, VANOS, and cooling before anything cosmetic — that's what protects a rising-value S54 car"
+  ],
+  "oil_type": "10W-60 full synthetic (Castrol TWS / BMW M-spec)",
+  "oil_interval": "Every 5,000–7,500 miles",
+  "generations": {
+    "Z4 M Coupe (2006–2008, E86)": "The fixed-roof, shooting-brake derivative of the Z4 roadster, powered by the E46 M3's S54 straight-six. The hard top adds real chassis rigidity, making it a sharp, communicative driver's car now prized as a modern collectible.",
+    "Z4 M Roadster (E85)": "The open-top sibling shared the S54 drivetrain but with less structural stiffness; the coupe is the enthusiast and collector favorite."
+  },
+  "common_issues": [
+    "S54 rod-bearing wear — can be catastrophic; interval replacement is the accepted practice",
+    "VANOS unit failure — rattle, worn seals, and oil-pressure loss",
+    "Aging cooling-system components (water pump, thermostat, expansion tank)",
+    "Differential and rear-subframe stress on hard-used cars",
+    "Sensitivity to infrequent oil changes given the high-strung S54"
+  ],
+  "maintenance_tips": [
+    "Replace the rod bearings on interval — treat it as scheduled maintenance, not a repair",
+    "Service the VANOS at the first sign of rattle or lost response",
+    "Refresh the cooling system proactively on any car with unknown history",
+    "Use the correct 10W-60 M-spec synthetic and change it on the shorter interval",
+    "Buy on documented service history — a maintained S54 is worth the premium"
+  ]
+}

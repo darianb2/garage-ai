@@ -1,0 +1,40 @@
+{
+  "name": "BMW 335i (E92)",
+  "engine": "3.0L N54B30 twin-turbocharged inline-six (2007–2010); the 2011+ E92 switched to the single-turbo N55",
+  "horsepower": 300,
+  "torque": "300 lb-ft @ 1,400–5,000 rpm",
+  "drivetrain": "RWD (xDrive AWD optional)",
+  "transmission": "6-speed manual or 6-speed automatic (Steptronic)",
+  "0_to_60": "~4.8–5.1 sec (BMW claimed ~5.3)",
+  "fuel_economy": "~17 city / 26 hwy mpg (owners average ~20 combined)",
+  "curb_weight": "~3,550–3,600 lbs",
+  "reliability": "6/10 — the E92 335i put BMW's first modern twin-turbo six into the 3 Series and made it a tuner legend: a simple flash adds 50–70+ hp, because the underrated N54 has huge headroom. That upside comes with the N54's maintenance reputation — a high-pressure fuel pump that was the subject of a major recall/class action, wastegate rattle, fuel injector failures, and a plastic charge pipe that cracks. It's a hugely rewarding, bargain-priced performance coupe for an owner who goes in eyes-open and keeps the fuel system healthy. (The 2011+ N55 cars resolved the HPFP and wastegate woes.)",
+  "cost_to_own": "Insurance: Moderate · Maintenance ~$1,000/yr (N54 fuel system and turbos are the big items; the N55 is easier) · Cheap to buy, not always cheap to keep — budget for the known N54 jobs",
+  "popular_mods": [
+    "A tune (JB4 or a flash) — the N54's signature mod, big safe gains from stock turbos",
+    "An aluminum charge pipe to replace the crack-prone factory plastic one",
+    "An updated HPFP and walnut-blast of the intake valves (direct-injection carbon buildup)",
+    "An upgraded intercooler and downpipes to support a tune",
+    "Honest take: budget for the fuel system (HPFP, injectors) before chasing power — a healthy N54 is a fast, cheap thrill; a neglected one is a money pit"
+  ],
+  "oil_type": "5W-30 full synthetic (BMW Longlife-01)",
+  "oil_interval": "Every 5,000–7,500 miles (short of BMW's condition-based interval)",
+  "generations": {
+    "E92 335i, N54 (2007–2010)": "The car that defined the 'N54 era' — twin-turbo torque, effortless real-world pace, and enormous tuning headroom that made it the aftermarket's darling. Also the most maintenance-heavy of the E9x sixes.",
+    "E92 335i, N55 (2011–2013)": "A mid-cycle switch to the single-turbo N55 with Valvetronic — still 300 hp / 300 lb-ft, but it resolved the HPFP and wastegate-rattle problems, making it the easier-living choice."
+  },
+  "common_issues": [
+    "N54 high-pressure fuel pump (HPFP) failure — major recall/class action on 2007–2010 cars",
+    "Turbo wastegate rattle from bushing wear (N54)",
+    "Fuel injector failures (N54 piezo injectors)",
+    "Plastic charge pipe cracking under boost",
+    "Electric water-pump/thermostat failure and oil-filter-housing gasket leaks"
+  ],
+  "maintenance_tips": [
+    "On an N54 car, confirm the HPFP and injectors have been updated or budget for them",
+    "Fit an aluminum charge pipe and keep an eye out for wastegate rattle",
+    "Walnut-blast the intake valves periodically — direct injection means carbon buildup",
+    "Replace the electric water pump proactively around 80k–100k miles",
+    "If you want the fast N54 experience with fewer headaches, seek a 2011+ N55 car"
+  ]
+}

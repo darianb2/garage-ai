@@ -1,0 +1,40 @@
+{
+  "name": "BMW M5 (E39)",
+  "engine": "4.9L S62 V8 (badged 5.0), double-VANOS with individual throttle bodies",
+  "horsepower": 394,
+  "torque": "369 lb-ft @ 3,800 rpm",
+  "drivetrain": "RWD",
+  "transmission": "6-speed manual only (Getrag 420G) in the US — no automatic offered",
+  "0_to_60": "~4.8 sec",
+  "fuel_economy": "~12 city / 19 hwy mpg",
+  "curb_weight": "~3,960 lbs",
+  "reliability": "8/10 — the E39 M5 is often called the definitive analog super-sedan: a hand-built 4.9L V8, a 6-speed manual, an understated four-door body, and no electronic gimmickry. Mechanically the S62 is strong, with well-mapped age items rather than nasty surprises — VANOS wear (especially early 1999 units), timing-chain guide rattle at high mileage, and a healthy appetite for oil that is normal by design. Keep the cooling system fresh and the VANOS serviced and it's one of the most satisfying, usable fast cars ever made. Values reflect that reputation.",
+  "cost_to_own": "Insurance: Moderate–High (appreciating modern classic) · Maintenance ~$1,500/yr; the S62 is not cheap to service · Clean, unmodified manual cars are firmly appreciating",
+  "popular_mods": [
+    "A VANOS rebuild/refresh to restore crisp response and quiet the growl",
+    "A full cooling-system overhaul (water pump, thermostat, expansion tank, radiator)",
+    "A quality shock/spring or coilover refresh with fresh bushings",
+    "A sensible exhaust to let the S62 V8 breathe and sing",
+    "Honest take: it's near-perfect stock — the best money goes into VANOS, cooling, and originality, not power"
+  ],
+  "oil_type": "10W-60 full synthetic (BMW M-spec; LL-98 5W-30 was later approved, but 10W-60 is preferred)",
+  "oil_interval": "Every ~5,000 miles",
+  "generations": {
+    "E39 M5 (2000–2003 US)": "The analog benchmark — 394 hp 4.9L S62 V8, 6-speed manual only, roughly 20,000 built worldwide. Often cited as 'peak BMW M' for pairing near-supercar pace with everyday civility and zero gimmickry.",
+    "S62 engine note": "The S62 shares its double-VANOS, individual-throttle-body architecture with BMW's other great M engines of the era; it is robust but wants disciplined maintenance."
+  },
+  "common_issues": [
+    "VANOS wear — failed solenoids/seals causing rough idle, a growling noise, and lost power (early 1999 units especially)",
+    "Timing-chain guide and tensioner wear producing rattle at higher mileage",
+    "High oil consumption by design (loose tolerances; ~1 qt / 1,500 mi is considered normal)",
+    "Rod-bearing wear — a shared S62 concern, less severe than the later S85 but present",
+    "Cooling-system components (water pump, expansion tank, thermostat) age out and fail"
+  ],
+  "maintenance_tips": [
+    "Service the VANOS proactively — it's the defining S62 maintenance item",
+    "Refresh the whole cooling system on any car with unknown history",
+    "Use the correct 10W-60 M-spec synthetic and check the oil often, given the normal consumption",
+    "Inspect timing-chain guides at high mileage and listen for cold-start rattle",
+    "Buy on condition and history — a well-kept, documented manual car is worth the premium"
+  ]
+}

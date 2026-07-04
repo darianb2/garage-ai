@@ -1,0 +1,40 @@
+{
+  "name": "BMW M3 (E30)",
+  "engine": "2.3L S14 (S14B23) DOHC 16v inline-four",
+  "horsepower": 192,
+  "torque": "170 lb-ft @ 4,750 rpm (US catalyzed; Euro non-cat cars made ~200 hp)",
+  "drivetrain": "RWD",
+  "transmission": "5-speed manual (Getrag 265, dogleg) — no automatic was ever offered",
+  "0_to_60": "~6.9 sec",
+  "fuel_economy": "~17 city / 26 hwy mpg (period EPA)",
+  "curb_weight": "~2,865 lbs",
+  "reliability": "8/10 — the S14 is a race-bred, over-built four (its head is essentially half of the M88/S38 straight-six) and will run for decades if maintained, but this is a hand-built homologation special from the late '80s, so 'maintained' means real work. It wants periodic valve-lash shim adjustments, fresh timing-chain guides, and a specialist who knows the S14's throttle bodies and idle control. The bigger risk on any E30 is rust. A sorted, rust-free car is a blue-chip collectible now, and that changes the ownership math entirely — you preserve it, you don't thrash it.",
+  "cost_to_own": "Insurance: High (appreciating classic — agreed-value collector policy recommended) · Maintenance ~$1,500/yr and specialist-dependent; S14-specific parts are scarce and pricey · A genuine appreciating asset where originality and documented history drive value",
+  "popular_mods": [
+    "A meticulous suspension refresh with period-correct or quality dampers and fresh bushings",
+    "A proper rust repair and respray — the single most value-adding 'mod' on any E30 M3",
+    "A rebuilt or correctly-tuned throttle body / idle-control setup for crisp S14 response",
+    "Subtle wheel/tire freshening in the correct offsets; resist over-modifying a collectible",
+    "Honest take: a numbers-matching, unmolested E30 M3 is worth far more than any modified one — preserve, don't personalize"
+  ],
+  "oil_type": "20W-50 (period spec); many owners now run a quality 10W-60 or 20W-50 synthetic",
+  "oil_interval": "Every 3,000–5,000 miles",
+  "generations": {
+    "E30 M3 (1986–1991)": "The original — a boxy-fendered Group A touring-car homologation special with the high-strung S14 four spinning near a 7,000 rpm redline. Light, analog, quick-steering, and the car that founded the entire M3 legend. US cars arrived with catalytic converters and slightly less power than Europe's.",
+    "Evolution models (Euro-only)": "Europe received progressively hotter Evo II and Sport Evolution (2.5L, ~238 hp) homologation runs never sold in the US — the most collectible E30 M3s of all."
+  },
+  "common_issues": [
+    "Timing-chain guide and tensioner wear if service is deferred — a known S14 item",
+    "Requires periodic valve-lash (shim) adjustment to run right and protect the valvetrain",
+    "Valve-stem seals weep with age, causing blue smoke on cold startup",
+    "S14-specific parts scarcity and finicky idle-control/throttle-body behavior",
+    "Classic E30 rust — strut towers, rockers, rear arches, and trunk floor"
+  ],
+  "maintenance_tips": [
+    "Use a specialist who knows the S14 — it is not a generic BMW four",
+    "Keep valve clearances and timing-chain guides on schedule; both are cheaper than the failures they prevent",
+    "Inspect thoroughly for rust before buying, and address any early corrosion aggressively",
+    "Warm the engine before revving it hard, and use a suitable high-ZDDP or 10W-60/20W-50 oil",
+    "Preserve originality and paperwork — with the market where it is, correctness is the value"
+  ]
+}

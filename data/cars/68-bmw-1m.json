@@ -1,0 +1,40 @@
+{
+  "name": "BMW 1 Series M",
+  "engine": "3.0L N54B30 twin-turbocharged inline-six",
+  "horsepower": 335,
+  "torque": "332 lb-ft @ 1,500 rpm (369 lb-ft on temporary overboost)",
+  "drivetrain": "RWD",
+  "transmission": "6-speed manual only — no automatic offered",
+  "0_to_60": "~4.7 sec (BMW claim; tests often quicker)",
+  "fuel_economy": "~19 city / 26 hwy mpg",
+  "curb_weight": "~3,296 lbs",
+  "reliability": "8/10 — the 1M is a limited-run, homologation-flavored hot rod: the N54 twin-turbo six stuffed into the tiny E82 body with E92 M3 brakes and suspension bits and a widened track. Sold for a single US model year, manual-only, it's an instant cult classic that appreciated well past its sticker. The N54's known items apply — the high-pressure fuel pump (subject to a warranty extension), a plastic charge pipe that cracks, wastegate rattle, and piezo injectors — but the chassis and driving experience are the draw, and a well-sorted 1M is both thrilling and holding its value.",
+  "cost_to_own": "Insurance: High (rare, appreciating) · Maintenance ~$1,000/yr (N54 fuel system and turbos are the watch items) · A genuine appreciating modern collectible — originality pays",
+  "popular_mods": [
+    "An aluminum charge pipe — cheap insurance against the N54's cracking failure",
+    "An updated high-pressure fuel pump (HPFP) if not already replaced under the extension",
+    "A conservative tune — the N54 responds strongly, but keep it sensible on a collectible",
+    "A suspension refresh with quality dampers and fresh bushings",
+    "Honest take: it's a future classic — sort the N54's fuel system and charge pipe, then preserve rather than modify heavily"
+  ],
+  "oil_type": "5W-30 full synthetic (BMW Longlife-01)",
+  "oil_interval": "Every 5,000–7,500 miles (short of BMW's condition-based interval)",
+  "generations": {
+    "1 Series M Coupe (2011, E82)": "A one-model-year US special that combined the N54 twin-turbo, E92 M3 chassis hardware, a widened track, and a manual-only gearbox in the smallest BMW body. Never badged 'M1' to protect the mid-engine legend's name; it became an instant cult classic and appreciated above MSRP.",
+    "Successor note": "BMW replaced the 1M's spirit with the later F87 M2 — a broader, more refined take — but purists still prize the raw, limited 1M."
+  },
+  "common_issues": [
+    "N54 high-pressure fuel pump (HPFP) failure — the marquee N54 problem, subject to a warranty extension",
+    "Plastic charge pipe cracking under boost — near-universal aluminum upgrade",
+    "Turbo wastegate rattle from premature bushing wear",
+    "Fuel injector (piezo) failures and updates",
+    "Oil-filter-housing and valve-cover gasket leaks common to the N54 family"
+  ],
+  "maintenance_tips": [
+    "Confirm the HPFP has been updated (or budget for it) — it's the defining N54 failure",
+    "Fit an aluminum charge pipe early to avoid a boost-robbing crack",
+    "Listen for wastegate rattle and address worn actuators/turbos before they worsen",
+    "Use the correct LL-01 synthetic on a 5,000–7,500 mile interval, not the stretched CBS interval",
+    "Preserve originality and documentation — the 1M's value rides on it"
+  ]
+}
