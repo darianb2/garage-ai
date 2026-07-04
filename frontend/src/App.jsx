@@ -3,6 +3,7 @@ import Landing from "./components/Landing";
 import VehicleHub from "./components/VehicleHub";
 import CompareView from "./components/CompareView";
 import CompareTray from "./components/CompareTray";
+import AskModal from "./components/AskModal";
 import { PrimaryButton } from "./components/ui";
 
 const MAX_COMPARE = 3;
@@ -22,6 +23,7 @@ export default function App() {
   const [compare, setCompare] = useState([]); // cars staged for side-by-side
   const [comparing, setComparing] = useState(false); // showing the compare view
   const [browse, setBrowse] = useState(false); // Landing showing the full catalog
+  const [showAsk, setShowAsk] = useState(false); // the global Ask Garage AI dialog
 
   // Landing hands us a car (tile click) or a car + AI answer (a question).
   const open = (v, ans = null) => {
@@ -77,16 +79,6 @@ export default function App() {
   // "Ask AI" (nav): go home and focus the hero search — it doubles as the ask box
   // (a question-shaped query routes to Garage AI). In the Hub, Profile mode is the
   // primary Ask surface.
-  const askFocus = () => {
-    home();
-    // Let the Landing mount, then focus + select the hero search (it doubles as
-    // the Ask box: a question-shaped query routes to Garage AI).
-    setTimeout(() => {
-      const el = document.getElementById("hero-search");
-      if (el) { el.focus(); el.select?.(); }
-    }, 60);
-  };
-
   // The MARBLE nav is app chrome for the Landing/Compare views; inside the Hub the
   // Hub's own top bar is the header (per the design mocks), so the global nav hides.
   const inHub = vehicle && !comparing;
@@ -112,7 +104,7 @@ export default function App() {
                 Compare{compare.length > 0 ? ` (${compare.length})` : ""}
               </button>
               <button onClick={showCatalog} className="hidden hover:text-marble-body sm:inline">Catalog</button>
-              <PrimaryButton onClick={askFocus} className="px-4 py-2 text-[13px]">Ask AI</PrimaryButton>
+              <PrimaryButton onClick={() => setShowAsk(true)} className="px-4 py-2 text-[13px]">Ask AI</PrimaryButton>
             </nav>
           </div>
         </div>
@@ -149,6 +141,8 @@ export default function App() {
           onCompare={startCompare}
         />
       )}
+
+      {showAsk && <AskModal onClose={() => setShowAsk(false)} onOpen={open} />}
     </div>
   );
 }
