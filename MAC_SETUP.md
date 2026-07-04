@@ -29,10 +29,12 @@ binaries differ between Linux and macOS). Let the Mac rebuild them.
    the AI features run in a free "demo" stub instead of answering for real.
 
 2. **Claude Code project memory** (optional, but keeps session continuity) —
-   the notes Claude uses to remember where the project is live OUTSIDE the repo,
-   at `~/.claude/projects/-home-darian-Projects-garage-ai/memory/`. If you want
-   Claude to remember Task 9 / Honda progress on the Mac, copy that `memory/`
-   folder over (see Step 6). Tiny in size, easy to forget.
+   the notes Claude uses to remember where the project is live OUTSIDE the repo.
+   On this Mac they live at
+   `~/.claude/projects/-Users-darian-garage-ai/memory/` (the folder name is
+   derived from the project's absolute path, `/Users/darian/garage-ai`). If you
+   want Claude to remember Task 9 / Honda progress on the Mac, copy the old
+   machine's `memory/` folder over (see Step 6). Tiny in size, easy to forget.
 
 3. **Developer tools** — Git, the `gh` CLI, Python 3.12+, Node, and Claude Code
    itself all need installing on a fresh Mac (Steps 1-2). This is the only part
@@ -108,11 +110,11 @@ So Claude remembers the project state on the Mac:
 1. Run Claude Code once in the project (`claude` from inside `garage-ai/`) so it
    creates the project's memory directory.
 2. Copy the `.md` files from the old machine's
-   `~/.claude/projects/-home-darian-Projects-garage-ai/memory/` into the new
-   project's matching `memory/` folder. The folder name is derived from the
-   project's absolute path, so the `-home-darian-` part becomes
-   `-Users-<your-mac-username>-...`. Easiest is to let Claude create it, then
-   drop the files in.
+   `~/.claude/projects/-home-darian-Projects-garage-ai/memory/` into this Mac's
+   matching folder, `~/.claude/projects/-Users-darian-garage-ai/memory/`. The
+   folder name is derived from the project's absolute path, so the old
+   `-home-darian-Projects-` part becomes `-Users-darian-` here. Easiest is to
+   let Claude create it, then drop the files in.
 
 Alternatively, just tell Claude "catch me up on where we are" and it will read
 the git history and any memory it has.
