@@ -885,4 +885,7 @@ def spa_catch_all(path):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    # PORT is overridable so local runs can dodge a busy port (e.g. macOS
+    # AirPlay Receiver squats on 5000). Defaults to 5000 when unset.
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=True, port=port)
