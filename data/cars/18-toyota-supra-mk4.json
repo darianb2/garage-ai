@@ -6,9 +6,9 @@
   "drivetrain": "RWD",
   "transmission": "6-speed manual (Getrag V160) / 4-speed automatic",
   "0_to_60": "~4.6 sec (turbo, 6-speed)",
-  "fuel_economy": "17 city / 23 hwy mpg (EPA, period)",
+  "fuel_economy": "15 city / 22 hwy mpg (EPA, turbo 6-speed; auto 16/22)",
   "curb_weight": "~3,400 lbs (turbo)",
-  "reliability": "9/10 - the 2JZ-GTE is one of the most overbuilt engines ever sold: closed-deck iron block and forged crank that shrug off 600-800 whp on stock internals once fueling and turbos are sorted. The car is robust; the real risks are age and abuse, not the engineering.",
+  "reliability": "9/10 - the 2JZ-GTE is one of the most overbuilt engines ever sold: closed-deck iron block and forged crank that reliably shrug off 600-700 whp on stock internals once fueling and turbos are sorted. The car is robust; the real risks are age and abuse, not the engineering.",
   "cost_to_own": "Insurance: collector/agreed-value territory · Mechanicals are stout but parts are increasingly scarce and pricey, and clean unmodified examples have appreciated hard (often $80k-$150k+).",
   "popular_mods": [
     "Boost + fueling (injectors, fuel pump, standalone ECU) - big gains on the stock 2JZ-GTE bottom end",
