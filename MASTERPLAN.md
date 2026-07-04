@@ -213,7 +213,9 @@ JSON cars stay as the specs source until that paid API lands.
 - [x] Homepage links to the catalog
 - [x] First batch: 126 cars (JDM / German / American / hot hatch / classics)
 - [~] Grow the catalog toward ~500 in further batches (add tuples + rerun script) —
-      now at 256 (batch 2 added 93: more JDM/German/American icons, classics, EVs).
+      now at 343 (batch 3 added 87: Italian/British exotics — first Ferrari/
+      Lamborghini/McLaren/Aston/Maserati — French & JDM icons, modern American
+      performance, EV/mainstream fills; 54 makes). Batch 2 added 93.
       Brand-by-brand curated-spec coverage: Honda (29 entries), Toyota
       (21 entries), and BMW (12 entries) are fully curated, including enthusiast
       icons (S2000/NSX/Prelude/CRX; GR Corolla, MR2 SW20, MR2 Spyder, Celica
