@@ -154,12 +154,12 @@ Verified live: `/`, `/api/cars` (16 cars), `/car/<name>`, `/api/search`, 404 pat
 
 ---
 
-## Phase 6 — AI Research Assistant ("Ask about this car") — IN PROGRESS
+## Phase 6 — AI Research Assistant ("Ask about this car") — LIVE
 
 Goal: an in-app assistant that gives the enthusiast-owner wisdom Google scatters
 across forums — grounded on each car's verified JSON, synthesized by Claude.
 
-### 6.1 v1 — per-car assistant (BUILT, paused before going live)
+### 6.1 v1 — per-car assistant (LIVE on Render since 2026-07-04)
 - [x] `POST /api/ask/<car>` endpoint: grounded prompt (`_car_facts` + `SYSTEM_TEMPLATE`),
       Claude `claude-opus-4-8` via the official `anthropic` SDK
 - [x] Key-gated: no `ANTHROPIC_API_KEY` → returns a stub, so the UI works with no cost
@@ -167,13 +167,15 @@ across forums — grounded on each car's verified JSON, synthesized by Claude.
       (What breaks? / Before you buy / Should I mod it? / 5-year cost / Right for me?)
       + freeform box + `fetch()` JS
 - [x] First guardrail: 500-char question cap
-- [~] Add `ANTHROPIC_API_KEY` — LOCAL verified: real `claude-opus-4-8` answers tested
-      end-to-end (grounded, good tone, ~2-3¢/answer). Still TODO: Render env var.
+- [x] Add `ANTHROPIC_API_KEY` — set in the Render dashboard; LIVE (2026-07-04).
+      Verified against the deployed `/api/answer`: real grounded `claude-opus-4-8`
+      answers (identified 2003 BMW M3, sourced from curated specs + NHTSA), not the
+      stub. (~2-3¢/answer, bounded by the rate limits below.)
 - [x] Add per-IP rate limiting BEFORE the key goes live on the public URL (cost abuse)
       — `rate_limit_error()` in app.py: 10/IP/hour + 300/day global ceiling, in-memory
       (single gunicorn worker on free tier), reads X-Forwarded-For; returns 429
 - [x] Raise max_tokens 1024 → 2048 (1024 truncated the longer "checklist" answers)
-- [ ] Decide: ship stub to Render now, or wait until key + rate limit are in
+- [x] Decided: shipped the key + rate limit to Render (not the stub) — AI is live.
 
 ### 6.2 v2 ideas (later)
 - [ ] Live web search (server-side `web_search` tool) for current pricing / recalls
@@ -361,12 +363,13 @@ When a scheduled agent wakes up, it should:
 
 **Current active phase:** Phase 8 — PIVOT: Interactive Vehicle Explorer (PLANNING)
 **Status:** Phases 1–5 SHIPPED (live at https://garage-ai-34hw.onrender.com). Phase 6
-AI assistant BUILT (stub mode, not deployed). Phase 7 data engine BUILT locally
-(profile engine + 126-car catalog) — this is the BACKBONE the pivot feeds on.
-Phase 8 reframes the product into a search-engine + 3D explorer. Stack + 4 cars LOCKED
-(2026-06-27): React + Vite + react-three-fiber, Flask stays the API; cars = Miata ND /
-Supra Mk4 / M3 E46 / GT-R R35. Next step: scaffold the `frontend/` app, then build the
-Vehicle Hub. Repo: https://github.com/darianb2/garage-ai.
+AI assistant LIVE on Render (real Claude answers, key set + rate-limited). Phase 7
+data engine SHIPPED (profile engine + 343-car catalog, generation/trim-aware curated
+specs) — the BACKBONE the pivot feeds on. Phase 8 SHIPPED its first product: the
+"Marble" redesign — search-first landing + one-stage Vehicle Hub with Profile /
+Showroom (configurator) / Explode (parts + sources) modes; 4 launch cars (Miata ND /
+Supra A80 / M3 E46 / GT-R R35) with real GLB models, curated systems maps, and
+web-verified specs. Repo: https://github.com/darianb2/garage-ai.
 
 > Run the web app: `./.venv/bin/python app.py` → http://localhost:5000
 
