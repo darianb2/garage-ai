@@ -7,9 +7,9 @@ import ExplodeMode from "./ExplodeMode";
 import ProfilePanel from "./panels/ProfilePanel";
 
 const MODES = [
+  { id: "profile", label: "Profile" },
   { id: "showroom", label: "Showroom" },
   { id: "explode", label: "Explode" },
-  { id: "profile", label: "Profile" },
 ];
 
 // The Vehicle Hub: one persistent 3D stage, three modes (design ref #4a).
@@ -17,7 +17,7 @@ const MODES = [
 // data profile + Ask Garage AI. Showroom/Explode render immediately from the 3D
 // model + static data; only Profile waits on the live data fetch.
 export default function VehicleHub({ vehicle, answer, onBack, onCompare, inCompare }) {
-  const [mode, setMode] = useState("showroom");
+  const [mode, setMode] = useState("profile");
   const [profile, setProfile] = useState(null);
   const [error, setError] = useState(null);
 
