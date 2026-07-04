@@ -10,5 +10,5 @@ frontend/node_modules/
 # The built frontend (frontend/dist) IS committed because Render's Python runtime
 # has no Node to build it; dist/models is excluded in frontend/.gitignore since
 # Flask serves models from frontend/public/models instead.
-# Real 3D models are committed so they deploy; the demo stand-in is not.
-frontend/public/models/demo-car.glb
+# Real 3D models (including the CC0 demo stand-in) are committed so they deploy
+# and travel with the repo across machines.
