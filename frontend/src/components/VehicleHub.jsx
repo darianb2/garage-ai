@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { getProfile, askAnswer } from "../lib/api";
 import { modelFor } from "../lib/models";
 import { ChassisBadge, Segmented, Spinner, PrimaryButton, SectionLabel } from "./ui";
+import CarImage from "./CarImage";
 import ShowroomMode from "./ShowroomMode";
 import ExplodeMode from "./ExplodeMode";
 import ProfilePanel from "./panels/ProfilePanel";
@@ -71,14 +72,20 @@ export default function VehicleHub({ vehicle, answer, onBack, onCompare, inCompa
       <div className="mt-4">
         {mode === "showroom" && <ShowroomMode vehicle={vehicle} model={model} />}
         {mode === "explode" && <ExplodeMode vehicle={vehicle} model={model} profile={profile} />}
-        {mode === "profile" &&
-          (error ? (
-            <p className="text-red-300">{error}</p>
-          ) : !profile ? (
-            <Spinner label={`Assembling ${title} profile…`} />
-          ) : (
-            <ProfileMode vehicle={vehicle} profile={profile} answer={answer} />
-          ))}
+        {mode === "profile" && (
+          <div className="space-y-4">
+            {/* Lead with the car itself. The photo needs no data fetch, so it
+                shows immediately while the spec cards are still assembling. */}
+            <CarImage vehicle={vehicle} variant="hero" />
+            {error ? (
+              <p className="text-red-300">{error}</p>
+            ) : !profile ? (
+              <Spinner label={`Assembling ${title} profile…`} />
+            ) : (
+              <ProfileMode vehicle={vehicle} profile={profile} answer={answer} />
+            )}
+          </div>
+        )}
       </div>
     </div>
   );

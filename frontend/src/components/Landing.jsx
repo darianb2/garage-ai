@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { getCatalog, askAnswer } from "../lib/api";
 import { Spinner, Mono, PrimaryButton } from "./ui";
 import CatalogGrid from "./CatalogGrid";
+import CarImage from "./CarImage";
 
 // The 4 locked launch cars — showcase quality. Years/chassis are display strings;
 // the vehicle object is what opens the Hub (generation chosen so the 3D model +
@@ -223,17 +224,9 @@ function LaunchCard({ car, onOpen }) {
       <span className="absolute right-2 top-2 z-10 rounded-[4px] bg-marble-accent px-1.5 py-0.5 font-mono text-[9px] font-semibold text-marble-onaccent">
         3D READY
       </span>
-      <div
-        className="flex h-[104px] items-center justify-center"
-        style={{ background: "radial-gradient(90% 90% at 50% 40%, #232327, #0c0c0e 74%)" }}
-      >
-        {/* small car silhouette stand-in (production: r3f thumbnail) */}
-        <svg viewBox="0 0 120 40" className="h-9 w-28 text-marble-faint" fill="currentColor">
-          <path d="M6 30c0-3 3-5 8-6l10-8c3-2 7-3 12-3h20c8 0 15 3 22 7l16 2c6 1 10 3 12 6 1 3-1 5-5 5H11c-3 0-5-2-5-4z" />
-          <circle cx="34" cy="31" r="7" className="text-marble-bg" fill="currentColor" />
-          <circle cx="88" cy="31" r="7" className="text-marble-bg" fill="currentColor" />
-        </svg>
-      </div>
+      {/* Real hero photo (Wikimedia Commons); falls back to a styled placeholder
+          for any launch car we don't have a photo for yet. */}
+      <CarImage vehicle={car.vehicle} variant="hero" className="!rounded-none" />
       <div className="px-3.5 py-3">
         <div className="text-[14px] font-semibold text-marble-hi">{car.name}</div>
         <div className="mt-0.5 font-mono text-[11px] text-marble-accent">

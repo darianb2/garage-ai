@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { Card, SectionTitle } from "./ui";
 import CarImage from "./CarImage";
+import { heroFor } from "../lib/images";
 
 // The brand-grouped catalog grid. Given an already-filtered list of catalog
 // cars, lays them out by make A->Z. Any model with two or more generations in
@@ -121,10 +122,13 @@ export default function CatalogGrid({ cars, onSelect, onCompare, inCompare }) {
 function GroupTile({ group, open, onToggle, onSelect, onCompare, inCompare }) {
   const { model, items } = group;
   const count = items.length;
+  // Represent the model line with a generation we actually have a photo for
+  // (else the collapsed tile falls back to the oldest gen's placeholder).
+  const hero = items.find((it) => heroFor(it)) || items[0];
   return (
     <div className={open ? "sm:col-span-2 lg:col-span-3" : ""}>
       <Card className="h-full p-4 transition hover:border-marble-accent">
-        <CarImage vehicle={items[0]} variant="tile" className="mb-3" />
+        <CarImage vehicle={hero} variant="tile" className="mb-3" />
         <button
           onClick={onToggle}
           className="flex w-full items-center justify-between gap-2 text-left"

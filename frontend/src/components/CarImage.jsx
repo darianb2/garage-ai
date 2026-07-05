@@ -8,19 +8,27 @@ import { modelFor } from "../lib/models";
 // real interactive model for that car (3D is a bonus on top of the photo).
 export default function CarImage({ vehicle, variant = "tile", className = "" }) {
   const src = heroFor(vehicle);
-  const aspect = variant === "hero" ? "aspect-[16/5]" : "aspect-[16/10]";
+  const isHero = variant === "hero";
+  // Hero leads a page/card, so show the WHOLE car (contain) on a dark showroom
+  // stage instead of cropping a band out of the middle. Tiles stay cover for a
+  // tidy grid — their 16:10 ~matches the photos, so the crop is negligible.
+  const aspect = isHero ? "aspect-[16/9]" : "aspect-[16/10]";
+  const fit = isHero ? "object-contain" : "object-cover";
   const label = [vehicle?.make, vehicle?.model].filter(Boolean).join(" ");
   const model = modelFor(vehicle);
   const has3d = variant === "tile" && model && !model.demo;
 
   return (
-    <div className={`relative w-full overflow-hidden rounded-lg ${className}`}>
+    <div
+      className={`relative w-full overflow-hidden rounded-lg ${className}`}
+      style={isHero && src ? { background: "radial-gradient(90% 90% at 50% 40%, #232327, #0c0c0e 74%)" } : undefined}
+    >
       {src ? (
         <img
           src={src}
           alt={`${vehicle?.year ?? ""} ${label}`.trim()}
           loading="lazy"
-          className={`${aspect} w-full object-cover`}
+          className={`${aspect} w-full ${fit}`}
         />
       ) : (
         <div
