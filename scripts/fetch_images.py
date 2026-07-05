@@ -41,6 +41,9 @@ IMG_DIR = os.path.join(ROOT, "frontend", "public", "images")
 CATALOG = os.path.join(ROOT, "data", "catalog.json")
 CARS_DIR = os.path.join(ROOT, "data", "cars")
 MANIFEST = os.path.join(ROOT, "scripts", "image_manifest.json")
+# Consumed by the frontend Credits page so attribution is visible to users
+# (CC-BY/CC-BY-SA require it). Regenerated on every run from the manifest.
+FRONTEND_CREDITS = os.path.join(ROOT, "frontend", "src", "data", "credits.json")
 
 API = "https://commons.wikimedia.org/w/api.php"
 # Commons *requires* a descriptive User-Agent or it blocks the request.
@@ -391,6 +394,32 @@ def write_credits(man):
         f.write("\n".join(lines) + "\n")
 
 
+def needs_credit(license_name):
+    """CC BY / CC BY-SA require attribution; CC0 / public-domain do not."""
+    return license_name.strip().lower().startswith("cc by")
+
+
+def write_frontend_credits(man):
+    """Emit the data the /credits page renders (Title, Author, Source, License)."""
+    os.makedirs(os.path.dirname(FRONTEND_CREDITS), exist_ok=True)
+    out = []
+    for m in sorted(man.values(), key=lambda m: m["car"]):
+        if m.get("status") != "ok":
+            continue
+        p = m["pick"]
+        out.append({
+            "car": m["car"],
+            "title": p["title"].replace("File:", ""),
+            "author": p.get("artist") or "Unknown",
+            "license": p["license"],
+            "licenseUrl": p.get("license_url") or p.get("page") or "",
+            "source": p.get("page") or "",
+            "attributionRequired": needs_credit(p["license"]),
+        })
+    with open(FRONTEND_CREDITS, "w") as f:
+        json.dump(out, f, indent=2, ensure_ascii=False)
+
+
 # --- Main ----------------------------------------------------------------------
 
 def main():
@@ -434,6 +463,7 @@ def main():
         time.sleep(0.5)          # be polite to Commons
 
     write_credits(manifest)
+    write_frontend_credits(manifest)
     print(f"\n{ok}/{len(targets)} images saved this run. "
           f"Manifest -> scripts/image_manifest.json")
 

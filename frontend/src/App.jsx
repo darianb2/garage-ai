@@ -4,6 +4,7 @@ import VehicleHub from "./components/VehicleHub";
 import CompareView from "./components/CompareView";
 import CompareTray from "./components/CompareTray";
 import AskModal from "./components/AskModal";
+import Credits from "./components/Credits";
 import { PrimaryButton } from "./components/ui";
 
 const MAX_COMPARE = 3;
@@ -24,6 +25,7 @@ export default function App() {
   const [comparing, setComparing] = useState(false); // showing the compare view
   const [browse, setBrowse] = useState(false); // Landing showing the full catalog
   const [showAsk, setShowAsk] = useState(false); // the global Ask Garage AI dialog
+  const [showCredits, setShowCredits] = useState(false); // the photo-credits page
 
   // Landing hands us a car (tile click) or a car + AI answer (a question).
   const open = (v, ans = null) => {
@@ -31,6 +33,7 @@ export default function App() {
     setAnswer(ans);
     setComparing(false);
     setBrowse(false);
+    setShowCredits(false);
     window.scrollTo(0, 0);
   };
   const home = () => {
@@ -38,6 +41,15 @@ export default function App() {
     setAnswer(null);
     setComparing(false);
     setBrowse(false);
+    setShowCredits(false);
+  };
+  const openCredits = () => {
+    setVehicle(null);
+    setAnswer(null);
+    setComparing(false);
+    setBrowse(false);
+    setShowCredits(true);
+    window.scrollTo(0, 0);
   };
   // Nav: Catalog -> Landing in browse-all mode; Compare -> the side-by-side view
   // (which itself prompts to add cars when fewer than two are staged).
@@ -46,11 +58,13 @@ export default function App() {
     setAnswer(null);
     setComparing(false);
     setBrowse(true);
+    setShowCredits(false);
     window.scrollTo(0, 0);
   };
   const openCompare = () => {
     setVehicle(null);
     setComparing(true);
+    setShowCredits(false);
     window.scrollTo(0, 0);
   };
 
@@ -112,7 +126,9 @@ export default function App() {
 
       {/* Pad the bottom so the fixed compare tray never covers the last row. */}
       <main className={compare.length > 0 && !comparing ? "pb-24" : ""}>
-        {comparing ? (
+        {showCredits ? (
+          <Credits onBack={home} />
+        ) : comparing ? (
           <CompareView
             vehicles={compare}
             onBack={() => setComparing(false)}
@@ -131,6 +147,19 @@ export default function App() {
           <Landing onSelect={open} onCompare={addCompare} inCompare={inCompare} browse={browse} />
         )}
       </main>
+
+      {/* Footer (app chrome, hidden inside the Hub like the top nav). Carries the
+          photo-credits link — CC-BY/CC-BY-SA hero photos need visible attribution. */}
+      {!inHub && (
+        <footer className="border-t border-white/[0.07]">
+          <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 px-6 py-6 text-[12px] text-marble-dim">
+            <span>MARBLE · pocket mechanic — specs from curated data + NHTSA</span>
+            <button onClick={openCredits} className="hover:text-marble-accent">
+              Photo credits
+            </button>
+          </div>
+        </footer>
+      )}
 
       {!comparing && (
         <CompareTray
