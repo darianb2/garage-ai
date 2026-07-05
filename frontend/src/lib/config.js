@@ -110,6 +110,52 @@ const CONFIGS = {
     ],
     defaults: { body: "premium", paint: "pearlwhite", trim: "premium", packages: ["auto"] },
   },
+
+  "honda-civic-type-r": {
+    msrpBase: 42895,
+    msrpLabel: "2023 MSRP",
+    body: [{ id: "hatch", label: "Hatch" }],
+    paintYear: "2023 PALETTE",
+    paint: [
+      { id: "championship", name: "Championship White", fill: "linear-gradient(145deg,#f6f6f3,#d7d7d1)" },
+      { id: "rallyered", name: "Rallye Red", fill: "linear-gradient(145deg,#c8202a,#7c1016)" },
+      { id: "boostblue", name: "Boost Blue Pearl", fill: "linear-gradient(145deg,#2f74c4,#173f75)" },
+      { id: "sonicgray", name: "Sonic Gray Pearl", fill: "linear-gradient(145deg,#5a6066,#2c3034)" },
+      { id: "crystalblack", name: "Crystal Black Pearl", fill: "linear-gradient(145deg,#2a2a2e,#101012)" },
+    ],
+    trim: [{ id: "typer", name: "Type R", sub: "K20C1 · 315 hp · 6MT" }],
+    packages: [
+      { id: "manual", label: "6-speed manual (standard)", price: 0 },
+      { id: "hpd", label: "HPD aero package", price: 3200 },
+      { id: "illum", label: "Illumination package", price: 425 },
+    ],
+    defaults: { body: "hatch", paint: "championship", trim: "typer", packages: ["manual"] },
+  },
+
+  "honda-civic-si": {
+    msrpBase: 22715,
+    msrpLabel: "2014 MSRP",
+    body: [{ id: "coupe", label: "Coupe" }],
+    paintYear: "2014 PALETTE",
+    paint: [
+      { id: "rallyered", name: "Rallye Red", fill: "linear-gradient(145deg,#c8202a,#7c1016)" },
+      { id: "white", name: "Taffeta White", fill: "linear-gradient(145deg,#f6f6f3,#d7d7d1)" },
+      { id: "silver", name: "Alabaster Silver", fill: "linear-gradient(145deg,#c9ced3,#8a9098)" },
+      { id: "steel", name: "Modern Steel", fill: "linear-gradient(145deg,#4a4d52,#232529)" },
+      { id: "dynoblue", name: "Dyno Blue Pearl", fill: "linear-gradient(145deg,#26456f,#132540)" },
+      { id: "black", name: "Crystal Black Pearl", fill: "linear-gradient(145deg,#2a2a2e,#101012)" },
+    ],
+    trim: [
+      { id: "si", name: "Si", sub: "K24Z7 · 205 hp · 6MT" },
+      { id: "sihfp", name: "Si HFP", sub: "Honda Factory Performance" },
+    ],
+    packages: [
+      { id: "manual", label: "6-speed manual (standard)", price: 0 },
+      { id: "summer", label: "HFP 18\" wheels + summer tires", price: 1400 },
+      { id: "nav", label: "Satellite-linked navigation", price: 1500 },
+    ],
+    defaults: { body: "coupe", paint: "rallyered", trim: "si", packages: ["manual"] },
+  },
 };
 
 const kebab = (s) =>

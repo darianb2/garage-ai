@@ -16,6 +16,10 @@ const LAUNCH = [
     vehicle: { make: "BMW", model: "M3", year: 2003, generation: "E46", body: "Coupe" } },
   { name: "Nissan GT-R", chassis: "R35", years: "2007–now",
     vehicle: { make: "Nissan", model: "GT-R", year: 2017, generation: "R35", body: "Coupe" } },
+  { name: "Honda Civic Type R", chassis: "FL5", years: "2023–now",
+    vehicle: { make: "Honda", model: "Civic Type R", year: 2023, generation: "FL5", body: "Hatch" } },
+  { name: "Honda Civic Si", chassis: "FG4", years: "2012–2015",
+    vehicle: { make: "Honda", model: "Civic Si", year: 2014, generation: "9th Gen FG4", body: "Coupe" } },
 ];
 
 const QUESTION_START =
@@ -195,10 +199,10 @@ export default function Landing({ onSelect, onCompare, inCompare, browse = false
             <div className="mb-4 flex items-end justify-between gap-3">
               <h2 className="text-[13px] font-semibold text-marble-hi">Launch cars — showcase quality</h2>
               <Mono className="text-[11px] normal-case tracking-normal">
-                4 of 71 profiled · {catalog?.length ?? "…"} in catalog
+                6 of 71 profiled · {catalog?.length ?? "…"} in catalog
               </Mono>
             </div>
-            <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+            <div className="grid grid-cols-2 gap-4 lg:grid-cols-3">
               {LAUNCH.map((car) => (
                 <LaunchCard key={car.name} car={car} onOpen={() => onSelect(car.vehicle)} />
               ))}
