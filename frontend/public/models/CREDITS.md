@@ -27,6 +27,17 @@ by Ddiaz Design (https://sketchfab.com/ddiaz-design), licensed under CC-BY-NC-SA
 NOTE: CC-BY-NC-SA is NonCommercial AND ShareAlike — fine for local testing, but it
 must be replaced with a CC-BY / CC0 (or licensed) model before any commercial use.
 
+## 2012 Honda Civic Si Coupe (9th Gen / FG4) — TEST ONLY
+
+This work is based on "2012 Honda Civic Si Coupe"
+(https://sketchfab.com/3d-models/2012-honda-civic-si-coupe-634897c3ee864eb590c535593105785b)
+by Ddiaz Design (https://sketchfab.com/ddiaz-design), licensed under CC-BY-NC-SA-4.0
+(http://creativecommons.org/licenses/by-nc-sa/4.0/). The model is itself based on a
+Forza Motorsport 4 asset (credited by the author to Edgardo-R, SketchUp 3D Warehouse).
+
+NOTE: CC-BY-NC-SA is NonCommercial AND ShareAlike — fine for local testing, but it
+must be replaced with a CC-BY / CC0 (or licensed) model before any commercial use.
+
 ## Mazda MX-5 (ND) 2014 — CC-BY (commercial OK with credit)
 
 This work is based on "Mazda MX-5 (ND) 2014"

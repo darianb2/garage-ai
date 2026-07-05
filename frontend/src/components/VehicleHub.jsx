@@ -8,8 +8,8 @@ import ProfilePanel from "./panels/ProfilePanel";
 import BreakdownPanel from "./panels/BreakdownPanel";
 
 const MODES = [
-  { id: "profile", label: "Profile" },
   { id: "showroom", label: "Showroom" },
+  { id: "profile", label: "Profile" },
   { id: "explode", label: "Explode" },
 ];
 
@@ -18,7 +18,7 @@ const MODES = [
 // data profile + Ask Garage AI. Showroom/Explode render immediately from the 3D
 // model + static data; only Profile waits on the live data fetch.
 export default function VehicleHub({ vehicle, answer, onBack, onCompare, inCompare }) {
-  const [mode, setMode] = useState("profile");
+  const [mode, setMode] = useState("showroom");
   const [profile, setProfile] = useState(null);
   const [error, setError] = useState(null);
 

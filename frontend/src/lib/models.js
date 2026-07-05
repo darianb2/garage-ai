@@ -25,6 +25,12 @@ export const MODELS = {
   // the camera), matching the procedural car and the Supra.
   "honda-civic-type-r-fl5": { url: "/models/honda-civic-type-r-fl5.glb", rotation: [0, Math.PI / 2, 0] },
 
+  // 2012 Honda Civic Si Coupe (9th-gen FG4) — by Ddiaz Design, CC-BY-NC-SA-4.0
+  // (NonCommercial ShareAlike: test only, same as the FL5 above). Meshopt + WebP
+  // optimized (3.65MB Sketchfab GLB -> 886KB). Same Ddiaz/Forza export as the FL5:
+  // length runs along Z with the nose at +Z, so rotate +90° about Y to face +X.
+  "honda-civic-si-9th-gen-fg4": { url: "/models/honda-civic-si-9th-gen-fg4.glb", rotation: [0, Math.PI / 2, 0] },
+
   // --- The 4 locked launch cars (all CC-BY-4.0: commercial use OK with credit) ---
   // Mazda MX-5 Miata (ND) — by Nieve5677. Source is Z-up with its length along Y;
   // stand it upright (X -90) and yaw the nose to +X (Z +90) so it faces the camera.
