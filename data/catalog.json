@@ -4014,5 +4014,653 @@
     "generation": "8Y",
     "body": "Sedan",
     "note": "306hp EA888 quattro compact sport sedan"
+  },
+  {
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2009,
+    "generation": "XV40",
+    "body": "Sedan",
+    "note": "Bulletproof used-commuter benchmark"
+  },
+  {
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2015,
+    "generation": "XV50",
+    "body": "Sedan",
+    "note": "Roomy, dependable midsize staple"
+  },
+  {
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2010,
+    "generation": "E140",
+    "body": "Sedan",
+    "note": "Set-and-forget commuter appliance"
+  },
+  {
+    "make": "Toyota",
+    "model": "Corolla",
+    "year": 2016,
+    "generation": "E170",
+    "body": "Sedan",
+    "note": "Safe-pick compact with standard safety tech"
+  },
+  {
+    "make": "Toyota",
+    "model": "Prius",
+    "year": 2012,
+    "generation": "XW30 (3rd Gen)",
+    "body": "Hatch",
+    "note": "50mpg hybrid commuting workhorse"
+  },
+  {
+    "make": "Toyota",
+    "model": "C-HR",
+    "year": 2019,
+    "generation": "AX10",
+    "body": "SUV",
+    "note": "Style-first subcompact crossover"
+  },
+  {
+    "make": "Toyota",
+    "model": "Venza",
+    "year": 2021,
+    "generation": "XU80",
+    "body": "SUV",
+    "note": "Hybrid-only midsize two-row crossover"
+  },
+  {
+    "make": "Toyota",
+    "model": "RAV4",
+    "year": 2015,
+    "generation": "XA40",
+    "body": "SUV",
+    "note": "Used-market compact-SUV staple"
+  },
+  {
+    "make": "Toyota",
+    "model": "Highlander",
+    "year": 2015,
+    "generation": "XU50",
+    "body": "SUV",
+    "note": "Three-row family default, V6"
+  },
+  {
+    "make": "Toyota",
+    "model": "Sienna",
+    "year": 2015,
+    "generation": "3rd Gen (XL30)",
+    "body": "Minivan",
+    "note": "V6 family hauler, AWD available"
+  },
+  {
+    "make": "Toyota",
+    "model": "Matrix",
+    "year": 2009,
+    "generation": "2nd Gen",
+    "body": "Hatch",
+    "note": "Corolla-based practical hatch"
+  },
+  {
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2003,
+    "generation": "7th Gen (EM2)",
+    "body": "Sedan",
+    "note": "Simple, durable commuter Civic"
+  },
+  {
+    "make": "Honda",
+    "model": "CR-V",
+    "year": 2007,
+    "generation": "3rd Gen (RE)",
+    "body": "SUV",
+    "note": "Used-market family-hauler favorite"
+  },
+  {
+    "make": "Honda",
+    "model": "CR-V",
+    "year": 2023,
+    "generation": "6th Gen (RS)",
+    "body": "SUV",
+    "note": "Latest hybrid-available compact SUV"
+  },
+  {
+    "make": "Honda",
+    "model": "Odyssey",
+    "year": 2012,
+    "generation": "4th Gen (RL5)",
+    "body": "Minivan",
+    "note": "Spacious V6 family minivan"
+  },
+  {
+    "make": "Honda",
+    "model": "Pilot",
+    "year": 2023,
+    "generation": "4th Gen",
+    "body": "SUV",
+    "note": "Latest three-row family SUV"
+  },
+  {
+    "make": "Honda",
+    "model": "Passport",
+    "year": 2019,
+    "generation": "3rd Gen",
+    "body": "SUV",
+    "note": "Two-row Pilot for weekend duty"
+  },
+  {
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2010,
+    "generation": "L32",
+    "body": "Sedan",
+    "note": "Ubiquitous used midsize commuter"
+  },
+  {
+    "make": "Nissan",
+    "model": "Altima",
+    "year": 2019,
+    "generation": "L34",
+    "body": "Sedan",
+    "note": "Midsize commuter, AWD available"
+  },
+  {
+    "make": "Nissan",
+    "model": "Sentra",
+    "year": 2020,
+    "generation": "B18",
+    "body": "Sedan",
+    "note": "Much-improved budget compact"
+  },
+  {
+    "make": "Nissan",
+    "model": "Versa",
+    "year": 2020,
+    "generation": "N18",
+    "body": "Sedan",
+    "note": "One of the cheapest new cars, grown up"
+  },
+  {
+    "make": "Nissan",
+    "model": "Murano",
+    "year": 2015,
+    "generation": "Z52",
+    "body": "SUV",
+    "note": "Plush V6 midsize crossover"
+  },
+  {
+    "make": "Nissan",
+    "model": "Pathfinder",
+    "year": 2022,
+    "generation": "R53",
+    "body": "SUV",
+    "note": "Back-to-rugged three-row family SUV"
+  },
+  {
+    "make": "Nissan",
+    "model": "Kicks",
+    "year": 2018,
+    "generation": "P15",
+    "body": "SUV",
+    "note": "Budget city crossover"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Elantra",
+    "year": 2013,
+    "generation": "5th Gen (MD)",
+    "body": "Sedan",
+    "note": "Value compact of the early 2010s"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Elantra",
+    "year": 2021,
+    "generation": "7th Gen (CN7)",
+    "body": "Sedan",
+    "note": "Sharp-suited value compact, hybrid available"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Sonata",
+    "year": 2011,
+    "generation": "6th Gen (YF)",
+    "body": "Sedan",
+    "note": "Fluidic-design midsize value pick"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Sonata",
+    "year": 2020,
+    "generation": "8th Gen (DN8)",
+    "body": "Sedan",
+    "note": "Feature-dense midsize sedan"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Tucson",
+    "year": 2022,
+    "generation": "4th Gen (NX4)",
+    "body": "SUV",
+    "note": "Bold compact family crossover"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Santa Fe",
+    "year": 2019,
+    "generation": "4th Gen (TM)",
+    "body": "SUV",
+    "note": "Comfort-first midsize SUV"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Kona",
+    "year": 2018,
+    "generation": "1st Gen (OS)",
+    "body": "SUV",
+    "note": "Zippy subcompact crossover"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Accent",
+    "year": 2018,
+    "generation": "5th Gen (HC)",
+    "body": "Sedan",
+    "note": "Basic, honest budget sedan"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Palisade",
+    "year": 2020,
+    "generation": "1st Gen (LX2)",
+    "body": "SUV",
+    "note": "Value three-row family flagship"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Venue",
+    "year": 2021,
+    "generation": "1st Gen (QX)",
+    "body": "SUV",
+    "note": "Tiny entry crossover"
+  },
+  {
+    "make": "Hyundai",
+    "model": "Ioniq 5",
+    "year": 2022,
+    "generation": "1st Gen (NE)",
+    "body": "SUV",
+    "note": "Retro-futurist everyday EV"
+  },
+  {
+    "make": "Kia",
+    "model": "Soul",
+    "year": 2020,
+    "generation": "3rd Gen (SK3)",
+    "body": "Hatch",
+    "note": "Boxy practical urban runabout"
+  },
+  {
+    "make": "Kia",
+    "model": "Sportage",
+    "year": 2023,
+    "generation": "5th Gen (NQ5)",
+    "body": "SUV",
+    "note": "Compact family crossover, hybrid available"
+  },
+  {
+    "make": "Kia",
+    "model": "Sorento",
+    "year": 2021,
+    "generation": "4th Gen (MQ4)",
+    "body": "SUV",
+    "note": "Right-size three-row SUV"
+  },
+  {
+    "make": "Kia",
+    "model": "Optima",
+    "year": 2016,
+    "generation": "4th Gen (JF)",
+    "body": "Sedan",
+    "note": "Value midsize commuter sedan"
+  },
+  {
+    "make": "Kia",
+    "model": "Rio",
+    "year": 2018,
+    "generation": "4th Gen (YB)",
+    "body": "Sedan",
+    "note": "Cheap, cheerful basic transport"
+  },
+  {
+    "make": "Kia",
+    "model": "Niro",
+    "year": 2018,
+    "generation": "1st Gen (DE)",
+    "body": "SUV",
+    "note": "Hybrid crossover mpg champion"
+  },
+  {
+    "make": "Kia",
+    "model": "Seltos",
+    "year": 2021,
+    "generation": "1st Gen (SP2)",
+    "body": "SUV",
+    "note": "Boxy subcompact with real space"
+  },
+  {
+    "make": "Kia",
+    "model": "Carnival",
+    "year": 2022,
+    "generation": "4th Gen (KA4)",
+    "body": "Minivan",
+    "note": "SUV-styled family minivan"
+  },
+  {
+    "make": "Subaru",
+    "model": "Forester",
+    "year": 2019,
+    "generation": "5th Gen (SK)",
+    "body": "SUV",
+    "note": "Visibility-and-AWD family favorite"
+  },
+  {
+    "make": "Subaru",
+    "model": "Legacy",
+    "year": 2020,
+    "generation": "7th Gen (BW)",
+    "body": "Sedan",
+    "note": "AWD-standard midsize sedan"
+  },
+  {
+    "make": "Subaru",
+    "model": "Impreza",
+    "year": 2017,
+    "generation": "5th Gen (GK)",
+    "body": "Hatch",
+    "note": "Practical AWD compact"
+  },
+  {
+    "make": "Mazda",
+    "model": "CX-9",
+    "year": 2016,
+    "generation": "2nd Gen (TC)",
+    "body": "SUV",
+    "note": "Three-row with an upscale cabin"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Jetta",
+    "year": 2019,
+    "generation": "A7",
+    "body": "Sedan",
+    "note": "Roomy budget German commuter"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Passat",
+    "year": 2016,
+    "generation": "NMS (US)",
+    "body": "Sedan",
+    "note": "Roomy US-built midsize"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Tiguan",
+    "year": 2019,
+    "generation": "2nd Gen (AD1)",
+    "body": "SUV",
+    "note": "Compact crossover, third row available"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Taos",
+    "year": 2022,
+    "generation": "1st Gen",
+    "body": "SUV",
+    "note": "Entry subcompact crossover"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Atlas",
+    "year": 2018,
+    "generation": "1st Gen (CA)",
+    "body": "SUV",
+    "note": "US-sized three-row family SUV"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Golf",
+    "year": 2015,
+    "generation": "Mk7 TSI",
+    "body": "Hatch",
+    "note": "Refined do-everything hatch"
+  },
+  {
+    "make": "Volkswagen",
+    "model": "Beetle",
+    "year": 2013,
+    "generation": "A5",
+    "body": "Coupe",
+    "note": "Retro-modern Beetle revival"
+  },
+  {
+    "make": "Ford",
+    "model": "Escape",
+    "year": 2020,
+    "generation": "4th Gen",
+    "body": "SUV",
+    "note": "Car-like compact crossover, hybrid available"
+  },
+  {
+    "make": "Ford",
+    "model": "Explorer",
+    "year": 2020,
+    "generation": "6th Gen (U625)",
+    "body": "SUV",
+    "note": "RWD-based three-row family SUV"
+  },
+  {
+    "make": "Ford",
+    "model": "Edge",
+    "year": 2016,
+    "generation": "2nd Gen",
+    "body": "SUV",
+    "note": "Comfortable two-row midsize crossover"
+  },
+  {
+    "make": "Ford",
+    "model": "Fusion",
+    "year": 2014,
+    "generation": "2nd Gen (CD4)",
+    "body": "Sedan",
+    "note": "Handsome midsize, hybrid available"
+  },
+  {
+    "make": "Ford",
+    "model": "Focus",
+    "year": 2012,
+    "generation": "3rd Gen (C346)",
+    "body": "Hatch",
+    "note": "Global-platform compact commuter"
+  },
+  {
+    "make": "Ford",
+    "model": "Fiesta",
+    "year": 2014,
+    "generation": "6th Gen",
+    "body": "Hatch",
+    "note": "Subcompact city car"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "year": 2016,
+    "generation": "9th Gen (E2XX)",
+    "body": "Sedan",
+    "note": "Midsize commuter sedan"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Cruze",
+    "year": 2016,
+    "generation": "2nd Gen (D2XX)",
+    "body": "Sedan",
+    "note": "Compact commuter, diesel available"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Equinox",
+    "year": 2018,
+    "generation": "3rd Gen",
+    "body": "SUV",
+    "note": "Compact family crossover staple"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Traverse",
+    "year": 2018,
+    "generation": "2nd Gen (C1XX)",
+    "body": "SUV",
+    "note": "Minivan-space three-row crossover"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Trax",
+    "year": 2024,
+    "generation": "2nd Gen",
+    "body": "SUV",
+    "note": "Budget crossover value glow-up"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Spark",
+    "year": 2016,
+    "generation": "2nd Gen (M400)",
+    "body": "Hatch",
+    "note": "Tiny city-car cheapest-new pick"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Volt",
+    "year": 2017,
+    "generation": "2nd Gen",
+    "body": "Hatch",
+    "note": "Plug-in hybrid commuting pioneer"
+  },
+  {
+    "make": "Chevrolet",
+    "model": "Impala",
+    "year": 2014,
+    "generation": "10th Gen",
+    "body": "Sedan",
+    "note": "Full-size comfort sedan"
+  },
+  {
+    "make": "Buick",
+    "model": "Encore",
+    "year": 2015,
+    "generation": "1st Gen",
+    "body": "SUV",
+    "note": "Quiet subcompact luxury-lite crossover"
+  },
+  {
+    "make": "Buick",
+    "model": "Enclave",
+    "year": 2018,
+    "generation": "2nd Gen",
+    "body": "SUV",
+    "note": "Plush three-row family crossover"
+  },
+  {
+    "make": "GMC",
+    "model": "Terrain",
+    "year": 2018,
+    "generation": "2nd Gen",
+    "body": "SUV",
+    "note": "Equinox's squared-off twin"
+  },
+  {
+    "make": "GMC",
+    "model": "Acadia",
+    "year": 2017,
+    "generation": "2nd Gen",
+    "body": "SUV",
+    "note": "Right-sized three-row crossover"
+  },
+  {
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "year": 2017,
+    "generation": "RU",
+    "body": "Minivan",
+    "note": "Family minivan, plug-in hybrid available"
+  },
+  {
+    "make": "Dodge",
+    "model": "Grand Caravan",
+    "year": 2012,
+    "generation": "5th Gen (RT)",
+    "body": "Minivan",
+    "note": "Budget family-hauler workhorse"
+  },
+  {
+    "make": "Dodge",
+    "model": "Journey",
+    "year": 2012,
+    "generation": "JC",
+    "body": "SUV",
+    "note": "Budget three-row crossover"
+  },
+  {
+    "make": "Jeep",
+    "model": "Cherokee",
+    "year": 2014,
+    "generation": "KL",
+    "body": "SUV",
+    "note": "Compact crossover with trail cred"
+  },
+  {
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "year": 2012,
+    "generation": "WK2",
+    "body": "SUV",
+    "note": "V6 do-it-all family SUV"
+  },
+  {
+    "make": "Jeep",
+    "model": "Compass",
+    "year": 2018,
+    "generation": "2nd Gen (MP)",
+    "body": "SUV",
+    "note": "Entry Jeep-badged crossover"
+  },
+  {
+    "make": "Jeep",
+    "model": "Renegade",
+    "year": 2015,
+    "generation": "BU",
+    "body": "SUV",
+    "note": "Boxy Fiat-based small Jeep"
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Mirage",
+    "year": 2015,
+    "generation": "6th Gen (A03)",
+    "body": "Hatch",
+    "note": "Bare-bones cheapest-new-car pick"
+  },
+  {
+    "make": "Mitsubishi",
+    "model": "Outlander Sport",
+    "year": 2013,
+    "generation": "GA",
+    "body": "SUV",
+    "note": "Budget subcompact crossover"
   }
 ]

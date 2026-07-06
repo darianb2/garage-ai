@@ -223,6 +223,14 @@ JSON cars stay as the specs source until that paid API lands.
       classics — plus catalog homes for the orphan curated files (Q50 trims,
       S3 8Y, M3 G80/F80, WRX VB). Batch 3 added 87 (first Ferrari/Lamborghini/
       McLaren/Aston/Maserati; 54 makes). Batch 2 added 93.
+- [x] Batch 5 (2026-07-06, post-completion): +81 everyday economy & family
+      cars for NON-enthusiasts (583 total) — commuter sedans, compact/3-row
+      crossovers, minivans, budget hatches (Camry/Corolla/Altima/Elantra/
+      Sonata gens, CR-V/RAV4/Tucson/Sportage/Forester, Pacifica/Carnival/
+      Grand Caravan, Mirage/Versa/Spark...). The profile engine's recall/
+      complaint data is most valuable exactly here (e.g. the 2011 Sonata
+      surfaces its 3,368 complaints, Engine near the top). All new entries
+      verified honest-NHTSA (no accidental curated-spec matches).
       Brand-by-brand curated-spec coverage: Honda (29 entries), Toyota
       (21 entries), and BMW (12 entries) are fully curated, including enthusiast
       icons (S2000/NSX/Prelude/CRX; GR Corolla, MR2 SW20, MR2 Spyder, Celica

@@ -605,6 +605,105 @@ CARS = [
     ("Infiniti", "Q50", 2019, "3.0t (V37)", "Sedan", "VR30DDTT twin-turbo daily sport sedan"),
     ("Infiniti", "Q50", 2019, "Red Sport 400 (V37)", "Sedan", "400hp twin-turbo flagship trim"),
     ("Audi", "S3", 2023, "8Y", "Sedan", "306hp EA888 quattro compact sport sedan"),
+
+    # --- Catalog batch 5 (2026-07): everyday economy & family cars for
+    #     NON-enthusiasts — the commuters, crossovers, and minivans regular
+    #     buyers actually research. The profile engine (recalls/complaints/
+    #     reliability) is most valuable exactly here. ---
+    # Toyota
+    ("Toyota", "Camry", 2009, "XV40", "Sedan", "Bulletproof used-commuter benchmark"),
+    ("Toyota", "Camry", 2015, "XV50", "Sedan", "Roomy, dependable midsize staple"),
+    ("Toyota", "Corolla", 2010, "E140", "Sedan", "Set-and-forget commuter appliance"),
+    ("Toyota", "Corolla", 2016, "E170", "Sedan", "Safe-pick compact with standard safety tech"),
+    ("Toyota", "Prius", 2012, "XW30 (3rd Gen)", "Hatch", "50mpg hybrid commuting workhorse"),
+    ("Toyota", "C-HR", 2019, "AX10", "SUV", "Style-first subcompact crossover"),
+    ("Toyota", "Venza", 2021, "XU80", "SUV", "Hybrid-only midsize two-row crossover"),
+    ("Toyota", "RAV4", 2015, "XA40", "SUV", "Used-market compact-SUV staple"),
+    ("Toyota", "Highlander", 2015, "XU50", "SUV", "Three-row family default, V6"),
+    ("Toyota", "Sienna", 2015, "3rd Gen (XL30)", "Minivan", "V6 family hauler, AWD available"),
+    ("Toyota", "Matrix", 2009, "2nd Gen", "Hatch", "Corolla-based practical hatch"),
+    # Honda
+    ("Honda", "Civic", 2003, "7th Gen (EM2)", "Sedan", "Simple, durable commuter Civic"),
+    ("Honda", "CR-V", 2007, "3rd Gen (RE)", "SUV", "Used-market family-hauler favorite"),
+    ("Honda", "CR-V", 2023, "6th Gen (RS)", "SUV", "Latest hybrid-available compact SUV"),
+    ("Honda", "Odyssey", 2012, "4th Gen (RL5)", "Minivan", "Spacious V6 family minivan"),
+    ("Honda", "Pilot", 2023, "4th Gen", "SUV", "Latest three-row family SUV"),
+    ("Honda", "Passport", 2019, "3rd Gen", "SUV", "Two-row Pilot for weekend duty"),
+    # Nissan
+    ("Nissan", "Altima", 2010, "L32", "Sedan", "Ubiquitous used midsize commuter"),
+    ("Nissan", "Altima", 2019, "L34", "Sedan", "Midsize commuter, AWD available"),
+    ("Nissan", "Sentra", 2020, "B18", "Sedan", "Much-improved budget compact"),
+    ("Nissan", "Versa", 2020, "N18", "Sedan", "One of the cheapest new cars, grown up"),
+    ("Nissan", "Murano", 2015, "Z52", "SUV", "Plush V6 midsize crossover"),
+    ("Nissan", "Pathfinder", 2022, "R53", "SUV", "Back-to-rugged three-row family SUV"),
+    ("Nissan", "Kicks", 2018, "P15", "SUV", "Budget city crossover"),
+    # Hyundai
+    ("Hyundai", "Elantra", 2013, "5th Gen (MD)", "Sedan", "Value compact of the early 2010s"),
+    ("Hyundai", "Elantra", 2021, "7th Gen (CN7)", "Sedan", "Sharp-suited value compact, hybrid available"),
+    ("Hyundai", "Sonata", 2011, "6th Gen (YF)", "Sedan", "Fluidic-design midsize value pick"),
+    ("Hyundai", "Sonata", 2020, "8th Gen (DN8)", "Sedan", "Feature-dense midsize sedan"),
+    ("Hyundai", "Tucson", 2022, "4th Gen (NX4)", "SUV", "Bold compact family crossover"),
+    ("Hyundai", "Santa Fe", 2019, "4th Gen (TM)", "SUV", "Comfort-first midsize SUV"),
+    ("Hyundai", "Kona", 2018, "1st Gen (OS)", "SUV", "Zippy subcompact crossover"),
+    ("Hyundai", "Accent", 2018, "5th Gen (HC)", "Sedan", "Basic, honest budget sedan"),
+    ("Hyundai", "Palisade", 2020, "1st Gen (LX2)", "SUV", "Value three-row family flagship"),
+    ("Hyundai", "Venue", 2021, "1st Gen (QX)", "SUV", "Tiny entry crossover"),
+    ("Hyundai", "Ioniq 5", 2022, "1st Gen (NE)", "SUV", "Retro-futurist everyday EV"),
+    # Kia
+    ("Kia", "Soul", 2020, "3rd Gen (SK3)", "Hatch", "Boxy practical urban runabout"),
+    ("Kia", "Sportage", 2023, "5th Gen (NQ5)", "SUV", "Compact family crossover, hybrid available"),
+    ("Kia", "Sorento", 2021, "4th Gen (MQ4)", "SUV", "Right-size three-row SUV"),
+    ("Kia", "Optima", 2016, "4th Gen (JF)", "Sedan", "Value midsize commuter sedan"),
+    ("Kia", "Rio", 2018, "4th Gen (YB)", "Sedan", "Cheap, cheerful basic transport"),
+    ("Kia", "Niro", 2018, "1st Gen (DE)", "SUV", "Hybrid crossover mpg champion"),
+    ("Kia", "Seltos", 2021, "1st Gen (SP2)", "SUV", "Boxy subcompact with real space"),
+    ("Kia", "Carnival", 2022, "4th Gen (KA4)", "Minivan", "SUV-styled family minivan"),
+    # Subaru
+    ("Subaru", "Forester", 2019, "5th Gen (SK)", "SUV", "Visibility-and-AWD family favorite"),
+    ("Subaru", "Legacy", 2020, "7th Gen (BW)", "Sedan", "AWD-standard midsize sedan"),
+    ("Subaru", "Impreza", 2017, "5th Gen (GK)", "Hatch", "Practical AWD compact"),
+    # Mazda
+    ("Mazda", "CX-9", 2016, "2nd Gen (TC)", "SUV", "Three-row with an upscale cabin"),
+    # Volkswagen
+    ("Volkswagen", "Jetta", 2019, "A7", "Sedan", "Roomy budget German commuter"),
+    ("Volkswagen", "Passat", 2016, "NMS (US)", "Sedan", "Roomy US-built midsize"),
+    ("Volkswagen", "Tiguan", 2019, "2nd Gen (AD1)", "SUV", "Compact crossover, third row available"),
+    ("Volkswagen", "Taos", 2022, "1st Gen", "SUV", "Entry subcompact crossover"),
+    ("Volkswagen", "Atlas", 2018, "1st Gen (CA)", "SUV", "US-sized three-row family SUV"),
+    ("Volkswagen", "Golf", 2015, "Mk7 TSI", "Hatch", "Refined do-everything hatch"),
+    ("Volkswagen", "Beetle", 2013, "A5", "Coupe", "Retro-modern Beetle revival"),
+    # Ford
+    ("Ford", "Escape", 2020, "4th Gen", "SUV", "Car-like compact crossover, hybrid available"),
+    ("Ford", "Explorer", 2020, "6th Gen (U625)", "SUV", "RWD-based three-row family SUV"),
+    ("Ford", "Edge", 2016, "2nd Gen", "SUV", "Comfortable two-row midsize crossover"),
+    ("Ford", "Fusion", 2014, "2nd Gen (CD4)", "Sedan", "Handsome midsize, hybrid available"),
+    ("Ford", "Focus", 2012, "3rd Gen (C346)", "Hatch", "Global-platform compact commuter"),
+    ("Ford", "Fiesta", 2014, "6th Gen", "Hatch", "Subcompact city car"),
+    # Chevrolet
+    ("Chevrolet", "Malibu", 2016, "9th Gen (E2XX)", "Sedan", "Midsize commuter sedan"),
+    ("Chevrolet", "Cruze", 2016, "2nd Gen (D2XX)", "Sedan", "Compact commuter, diesel available"),
+    ("Chevrolet", "Equinox", 2018, "3rd Gen", "SUV", "Compact family crossover staple"),
+    ("Chevrolet", "Traverse", 2018, "2nd Gen (C1XX)", "SUV", "Minivan-space three-row crossover"),
+    ("Chevrolet", "Trax", 2024, "2nd Gen", "SUV", "Budget crossover value glow-up"),
+    ("Chevrolet", "Spark", 2016, "2nd Gen (M400)", "Hatch", "Tiny city-car cheapest-new pick"),
+    ("Chevrolet", "Volt", 2017, "2nd Gen", "Hatch", "Plug-in hybrid commuting pioneer"),
+    ("Chevrolet", "Impala", 2014, "10th Gen", "Sedan", "Full-size comfort sedan"),
+    # Buick / GMC
+    ("Buick", "Encore", 2015, "1st Gen", "SUV", "Quiet subcompact luxury-lite crossover"),
+    ("Buick", "Enclave", 2018, "2nd Gen", "SUV", "Plush three-row family crossover"),
+    ("GMC", "Terrain", 2018, "2nd Gen", "SUV", "Equinox's squared-off twin"),
+    ("GMC", "Acadia", 2017, "2nd Gen", "SUV", "Right-sized three-row crossover"),
+    # Chrysler / Dodge / Jeep
+    ("Chrysler", "Pacifica", 2017, "RU", "Minivan", "Family minivan, plug-in hybrid available"),
+    ("Dodge", "Grand Caravan", 2012, "5th Gen (RT)", "Minivan", "Budget family-hauler workhorse"),
+    ("Dodge", "Journey", 2012, "JC", "SUV", "Budget three-row crossover"),
+    ("Jeep", "Cherokee", 2014, "KL", "SUV", "Compact crossover with trail cred"),
+    ("Jeep", "Grand Cherokee", 2012, "WK2", "SUV", "V6 do-it-all family SUV"),
+    ("Jeep", "Compass", 2018, "2nd Gen (MP)", "SUV", "Entry Jeep-badged crossover"),
+    ("Jeep", "Renegade", 2015, "BU", "SUV", "Boxy Fiat-based small Jeep"),
+    # Mitsubishi
+    ("Mitsubishi", "Mirage", 2015, "6th Gen (A03)", "Hatch", "Bare-bones cheapest-new-car pick"),
+    ("Mitsubishi", "Outlander Sport", 2013, "GA", "SUV", "Budget subcompact crossover"),
 ]
 
 
