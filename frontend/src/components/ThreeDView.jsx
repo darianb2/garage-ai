@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Viewer3D from "./Viewer3D";
+import Viewer3D from "./Stage3D";
 import { computeSystems } from "../lib/systems";
 import { modelFor } from "../lib/models";
 import { Badge } from "./ui";

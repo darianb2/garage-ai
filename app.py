@@ -961,8 +961,11 @@ def api_profile():
 
 @app.route("/models/<path:filename>")
 def model_file(filename):
-    # 3D models (committed in frontend/public/models), served as-is.
-    return send_from_directory(MODELS_DIR, filename)
+    # 3D models (committed in frontend/public/models), served as-is. These are
+    # large and effectively static, so cache them hard (30 days) — repeat views
+    # skip the multi-MB re-download. Flask still sends Last-Modified/ETag for
+    # revalidation after expiry, so replacing a model is picked up.
+    return send_from_directory(MODELS_DIR, filename, max_age=60 * 60 * 24 * 30)
 
 
 @app.route("/<path:path>")

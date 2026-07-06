@@ -129,12 +129,17 @@ export default function CarModel({
   return (
     <group ref={group}>
       {model ? (
+        // Real model: render nothing while the glTF downloads (fallback=null)
+        // so the low-poly block car never flashes in ahead of the actual car.
+        // ProceduralBody stays only as the *error* fallback (bad file / 404),
+        // where showing something beats a blank stage.
         <ModelBoundary modelKey={model.url} fallback={<ProceduralBody />}>
-          <Suspense fallback={<ProceduralBody />}>
+          <Suspense fallback={null}>
             <GLTFCar model={model} />
           </Suspense>
         </ModelBoundary>
       ) : (
+        // No model for this car: the block car IS its representation.
         <ProceduralBody />
       )}
 

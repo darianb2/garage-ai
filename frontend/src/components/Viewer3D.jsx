@@ -39,6 +39,13 @@ export default function Viewer3D({
   return (
     <Canvas
       shadows
+      // Cap the render resolution (phones report dpr 3 — a ~2.25x fragment-shading
+      // cost for no visible gain here) and only draw frames when something changes.
+      // The Showroom/Explode stage is static (spin=false), so "demand" means near-
+      // zero idle GPU; OrbitControls invalidates on drag and a resolved model
+      // commits a frame. Auto-spin (loading) needs continuous frames -> "always".
+      dpr={[1, 2]}
+      frameloop={doSpin ? "always" : "demand"}
       gl={{ alpha: true }}
       camera={{ position: [4.6, 1.5, 1.9], fov: 45 }}
       onPointerMissed={() => onSelect(null)}

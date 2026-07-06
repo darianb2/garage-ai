@@ -2,6 +2,15 @@ import { useMemo, useState } from "react";
 import { Card, SectionTitle } from "./ui";
 import CarImage from "./CarImage";
 import { heroFor } from "../lib/images";
+import { modelFor } from "../lib/models";
+import { warm3D } from "../lib/preload3d";
+
+// Prefetch the 3D chunk + model file when hovering a car we actually have a model
+// for (no-op otherwise), so opening its Showroom feels instant.
+const warmCar = (car) => {
+  const m = car && modelFor(car);
+  if (m && !m.demo) warm3D(m.url);
+};
 
 // The brand-grouped catalog grid. Given an already-filtered list of catalog
 // cars, lays them out by make A->Z. Any model with two or more generations in
@@ -82,7 +91,11 @@ export default function CatalogGrid({ cars, onSelect, onCompare, inCompare }) {
                   key={`${t.car.model}-${t.car.generation}-${t.car.year}`}
                   className="relative"
                 >
-                  <button onClick={() => onSelect(t.car)} className="block w-full text-left">
+                  <button
+                    onClick={() => onSelect(t.car)}
+                    onMouseEnter={() => warmCar(t.car)}
+                    className="block w-full text-left"
+                  >
                     <Card className="h-full p-4 transition hover:-translate-y-0.5 hover:border-marble-accent">
                       <CarImage vehicle={t.car} variant="tile" className="mb-3" />
                       <div className="flex items-baseline justify-between gap-2">
@@ -125,8 +138,13 @@ function GroupTile({ group, open, onToggle, onSelect, onCompare, inCompare }) {
   // Represent the model line with a generation we actually have a photo for
   // (else the collapsed tile falls back to the oldest gen's placeholder).
   const hero = items.find((it) => heroFor(it)) || items[0];
+  // The generation in this group that has a 3D model (if any), to preload on hover.
+  const warmTarget = items.find((it) => modelFor(it) && !modelFor(it).demo);
   return (
-    <div className={open ? "sm:col-span-2 lg:col-span-3" : ""}>
+    <div
+      className={open ? "sm:col-span-2 lg:col-span-3" : ""}
+      onMouseEnter={() => warmCar(warmTarget)}
+    >
       <Card className="h-full p-4 transition hover:border-marble-accent">
         <CarImage vehicle={hero} variant="tile" className="mb-3" />
         <button

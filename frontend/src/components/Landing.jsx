@@ -3,6 +3,8 @@ import { getCatalog, askAnswer } from "../lib/api";
 import { Spinner, Mono, PrimaryButton } from "./ui";
 import CatalogGrid from "./CatalogGrid";
 import CarImage from "./CarImage";
+import { modelFor } from "../lib/models";
+import { warm3D } from "../lib/preload3d";
 
 // The 4 locked launch cars — showcase quality. Years/chassis are display strings;
 // the vehicle object is what opens the Hub (generation chosen so the 3D model +
@@ -219,6 +221,7 @@ function LaunchCard({ car, onOpen }) {
   return (
     <button
       onClick={onOpen}
+      onMouseEnter={() => warm3D(modelFor(car.vehicle)?.url)}
       className="group relative overflow-hidden rounded-[11px] border border-marble-accent/30 bg-marble-panel text-left transition hover:border-marble-accent/60"
     >
       <span className="absolute right-2 top-2 z-10 rounded-[4px] bg-marble-accent px-1.5 py-0.5 font-mono text-[9px] font-semibold text-marble-onaccent">

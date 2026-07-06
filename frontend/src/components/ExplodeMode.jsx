@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import Viewer3D from "./Viewer3D";
+import Viewer3D from "./Stage3D";
 import { explodeFor } from "../lib/explode";
 import { Segmented, SectionLabel, Mono, PrimaryButton } from "./ui";
 

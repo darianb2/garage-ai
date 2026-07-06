@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import Viewer3D from "./Viewer3D";
+import Viewer3D from "./Stage3D";
 import { configFor } from "../lib/config";
 import { SectionLabel, Segmented, PrimaryButton, Mono } from "./ui";
 
