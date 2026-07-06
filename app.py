@@ -710,9 +710,13 @@ def api_search():
 # --- Recall lookup (live NHTSA data) ---------------------------------------
 # First piece of the "data engine": instead of curated facts, pull recalls from
 # a real automotive API at request time. Free, no key — works for any US car.
+# The standalone /recalls page was folded into /profile (which shows recalls
+# plus complaints/safety/specs); the redirect keeps old bookmarks working and
+# forwards make/model/year so a saved lookup lands on the assembled profile.
 @app.route("/recalls")
 def recalls_page():
-    return render_template("recalls.html")
+    query = request.query_string.decode()
+    return redirect("/profile" + (f"?{query}" if query else ""), code=301)
 
 
 @app.route("/api/recalls")
@@ -767,7 +771,8 @@ CURATED_SPEC_BINDINGS = {
     ("bmw", "m3"):             [(1986, 1991, "BMW M3 (E30)"),        # S14 four
                                 (1992, 1999, "BMW M3 (E36)"),        # US S52/S50B30US
                                 (2000, 2006, "BMW M3 (E46)"),        # S54
-                                (2007, 2013, "BMW M3 (E92)")],       # S65 V8 (E90 sedan / E93 vert share it)
+                                (2007, 2013, "BMW M3 (E92)"),        # S65 V8 (E90 sedan / E93 vert share it)
+                                (2021, 9999, "BMW M3")],             # G80 (S58, the generic file's 503hp Competition figure); F80 stays unbound
     # MX-5 ND: the curated file carries the 181hp ND2 figure, so it's bound only
     # to ND2 years (2019+). The 2016-18 ND1 (155hp SkyActiv-G 2.0) is a real
     # curation gap — left unbound so it shows honest NHTSA data, not +26hp it
@@ -831,6 +836,16 @@ CURATED_SPEC_BINDINGS = {
     ("ford", "mustang"):      [(2018, 2023, "Ford Mustang GT", ("gt",))],             # S550 460hp Coyote GT (excludes GT350/GT500/Mach 1; pre-'18 GT unbound)
     ("dodge", "charger"):     [(2011, 2023, "Dodge Charger R/T / Scat Pack", ("scat",))],  # LD 392 Scat Pack (excludes Hellcat)
     ("volkswagen", "gti"):    [(2022, 9999, "Volkswagen Golf GTI")],                  # Mk8 241hp (Mk5/6/7 made less, stay unbound)
+    # --- Former "intentional orphans" bound once batch 4 gave them catalog homes ---
+    ("subaru", "wrx"):        [(2022, 9999, "Subaru WRX")],                           # VB (FA24F 271hp); GD/VA entries stay unbound
+    # The curated S3 file carries the US 8Y figure (306hp EA888). US 8V cars were
+    # rated 288-292hp (verified 2026-07), so the 8V catalog entry stays unbound.
+    ("audi", "s3"):           [(2022, 2024, "Audi S3")],                              # 8Y pre-refresh; the 328hp 2025 refresh is out of range
+    # Q50: one model string spans three very different trims, so all three are
+    # TRIM-GATED on the catalog generation tokens (like Camaro SS vs ZL1 above).
+    ("infiniti", "q50"):      [(2014, 2015, "Infiniti Q50 3.7", ("3", "7")),          # VQ37VHR launch trim
+                               (2016, 2024, "Infiniti Q50 3.0t", ("0t",)),            # VR30DDTT 300hp
+                               (2016, 2024, "Infiniti Q50 Red Sport 400", ("red", "sport"))],  # VR30DDTT 400hp
 }
 
 
