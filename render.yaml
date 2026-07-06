@@ -13,7 +13,10 @@ services:
     runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT
+    # --timeout 90: a profile request can stack NHTSA calls (now retried once
+    # on transient failures) + the Claude complaint summary; the default 30s
+    # would SIGKILL the single free-tier worker mid-request on a slow chain.
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --timeout 90
     envVars:
       - key: PYTHON_VERSION
         value: 3.12.3

@@ -115,6 +115,14 @@ def build_profile(make, model, year, specs=None):
     """
     recalls = get_recalls(make, model, year)
     complaints = get_complaints(make, model, year)
+    if not recalls and not complaints:
+        # NHTSA sometimes transiently answers with nothing for a car that has
+        # plenty on file, and "zero recalls AND zero complaints" rendered as
+        # truth is a falsely clean bill of health. Ask once more before
+        # believing it; genuinely clean cars just pay one extra fast, empty
+        # round-trip.
+        recalls = get_recalls(make, model, year)
+        complaints = get_complaints(make, model, year)
     try:
         safety = get_safety_ratings(make, model, year)
     except Exception:

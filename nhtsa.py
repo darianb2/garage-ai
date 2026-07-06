@@ -12,6 +12,7 @@ Only the Python standard library is used, so there's nothing new to install.
 """
 
 import json
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -20,13 +21,30 @@ RECALLS_URL = "https://api.nhtsa.gov/recalls/recallsByVehicle"
 COMPLAINTS_URL = "https://api.nhtsa.gov/complaints/complaintsByVehicle"
 SAFETY_BASE = "https://api.nhtsa.gov/SafetyRatings"
 TIMEOUT_SECONDS = 10
+RETRIES = 1  # one re-attempt per request; keeps worst-case latency bounded
+RETRY_BACKOFF_SECONDS = 0.5
 
 
 def _get_json(url):
-    """Fetch a URL and parse the JSON body. Raises on network/HTTP errors."""
+    """Fetch a URL and parse the JSON body, retrying one transient failure.
+
+    NHTSA's API intermittently drops a request (gateway 5xx, timeout, reset,
+    truncated body); a single quick retry turns most of those blips into a
+    normal answer. 4xx responses are never retried — they're real answers
+    (e.g. 400 = vehicle NHTSA doesn't recognize) that callers interpret.
+    """
     request = urllib.request.Request(url, headers={"User-Agent": "garage-ai"})
-    with urllib.request.urlopen(request, timeout=TIMEOUT_SECONDS) as response:
-        return json.load(response)
+    for attempt in range(RETRIES + 1):
+        try:
+            with urllib.request.urlopen(request, timeout=TIMEOUT_SECONDS) as response:
+                return json.load(response)
+        except urllib.error.HTTPError as err:
+            if err.code < 500 or attempt == RETRIES:
+                raise
+        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
+            if attempt == RETRIES:
+                raise
+        time.sleep(RETRY_BACKOFF_SECONDS)
 
 
 def get_recalls(make, model, year):

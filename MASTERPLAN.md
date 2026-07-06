@@ -203,6 +203,12 @@ JSON cars stay as the specs source until that paid API lands.
 - [x] `templates/profile.html`: assembled profile (specs / reliability / safety /
       what-breaks / recalls / complaints), matches dark-amber design system
 - [x] Homepage "Research any car" link so /profile is reachable (not an orphan)
+- [x] Harden against NHTSA API flakiness (2026-07-06): `_get_json` retries one
+      transient failure (5xx/timeout/reset — never 4xx), and `build_profile`
+      refetches once when recalls AND complaints both come back empty, so a
+      blip can't render as an authoritative "0 recalls" clean bill of health.
+      gunicorn `--timeout 90` (Procfile + render.yaml) so a slow NHTSA + AI
+      summary chain can't SIGKILL the single free-tier worker mid-request.
 - [x] Decide what to do with the older `/recalls` page — FOLDED into /profile
       (2026-07-06): `/recalls` 301-redirects to `/profile` with the query string
       forwarded, so old bookmarks land on the assembled profile. `recalls.html`
