@@ -185,7 +185,7 @@ across forums — grounded on each car's verified JSON, synthesized by Claude.
 
 ---
 
-## Phase 7 — Data Engine (live API profiles) — IN PROGRESS
+## Phase 7 — Data Engine (live API profiles) — ✅ COMPLETE (2026-07-06)
 
 The North Star: stop relying on hand-curated facts; assemble each car's profile
 on demand from real automotive APIs (AI as the orchestration layer). Start with
@@ -203,8 +203,11 @@ JSON cars stay as the specs source until that paid API lands.
 - [x] `templates/profile.html`: assembled profile (specs / reliability / safety /
       what-breaks / recalls / complaints), matches dark-amber design system
 - [x] Homepage "Research any car" link so /profile is reachable (not an orphan)
-- [ ] Decide what to do with the older `/recalls` page (fold into /profile?)
-- [ ] Push + deploy to Render
+- [x] Decide what to do with the older `/recalls` page — FOLDED into /profile
+      (2026-07-06): `/recalls` 301-redirects to `/profile` with the query string
+      forwarded, so old bookmarks land on the assembled profile. `recalls.html`
+      deleted; `/api/recalls` kept (documented public JSON endpoint).
+- [x] Push + deploy to Render (2026-07-06, with the batch-4 catalog below)
 
 ### 7.2 Enthusiast catalog (breadth) — IN PROGRESS
 - [x] `scripts/build_catalog.py` -> `data/catalog.json`: lightweight entries
@@ -214,10 +217,12 @@ JSON cars stay as the specs source until that paid API lands.
       card links to `/profile?make=&model=&year=` and auto-runs the engine
 - [x] Homepage links to the catalog
 - [x] First batch: 126 cars (JDM / German / American / hot hatch / classics)
-- [~] Grow the catalog toward ~500 in further batches (add tuples + rerun script) —
-      now at 343 (batch 3 added 87: Italian/British exotics — first Ferrari/
-      Lamborghini/McLaren/Aston/Maserati — French & JDM icons, modern American
-      performance, EV/mainstream fills; 54 makes). Batch 2 added 93.
+- [x] Grow the catalog toward ~500 in further batches (add tuples + rerun script) —
+      DONE at 502 (2026-07-06). Batch 4 added 159: deeper JDM/German/Italian/
+      British benches, modern American + off-road/EV, Korean, Euro hot hatches,
+      classics — plus catalog homes for the orphan curated files (Q50 trims,
+      S3 8Y, M3 G80/F80, WRX VB). Batch 3 added 87 (first Ferrari/Lamborghini/
+      McLaren/Aston/Maserati; 54 makes). Batch 2 added 93.
       Brand-by-brand curated-spec coverage: Honda (29 entries), Toyota
       (21 entries), and BMW (12 entries) are fully curated, including enthusiast
       icons (S2000/NSX/Prelude/CRX; GR Corolla, MR2 SW20, MR2 Spyder, Celica
@@ -234,17 +239,25 @@ JSON cars stay as the specs source until that paid API lands.
       carries the 181hp ND2 figure (ND1 155hp left honest-NHTSA until curated).
       Guardrail: validate_spec_bindings() flags dead bindings + same-trim year
       overlaps at startup; scripts/check_bindings.py is the regression test.
-      7 curated files stay intentional orphans (no correct catalog home yet):
-      the G80-spec generic "BMW M3" (catalog has only E30-E92), Subaru WRX (VB
-      specs; catalog has GD/VA only), Audi S3 (needs 8V-vs-8Y hp verified),
-      Honda Accord V6 (trim the catalog doesn't split from the 4-cyl 9th gen),
-      and the 3 Infiniti Q50 trims (no Q50 in the catalog).
+      ORPHANS CLOSED (2026-07-06): batch 4 gave 6 of the 7 catalog homes +
+      bindings — generic "BMW M3" bound to the new G80 entry (2021+; the F80
+      stays unbound since the file carries S58 figures), Subaru WRX to the new
+      VB entry (2022+), Audi S3 to a new 8Y entry (2022-2024; web-verified the
+      file's 306hp is the US 8Y figure — US 8V made 288-292hp, so the 8V entry
+      stays unbound), and the 3 Infiniti Q50 trims via trim-gated bindings
+      (3.7 2014-15 / 3.0t / Red Sport 400 2016-24), Camaro-SS-style. Only
+      Honda Accord V6 remains an intentional orphan (the binding system has no
+      negative trim gates, so it can't be split from the ungated 9th-gen
+      binding without mismatching).
 
-### 7.3 Flagship depth (rich 16-field icons) — TODO
-- [ ] Pick a shortlist of true icons; research REAL specs in verified batches
-      (web search, not memory) and add as full data/cars/*.json entries
+### 7.3 Flagship depth (rich 16-field icons) — SUPERSEDED by Phase 8
+The pivot (8.0) replaced "flagship depth across the catalog" with "perfect the 4
+launch cars end-to-end" — and that work is done (71 curated cars now carry full
+16-field JSONs + systems maps via 8.2). No separate 7.3 work remains.
 
-### 7.4 Next (paid specs + smarter resolve)
+### 7.4 Paid specs + smarter resolve — DEFERRED to the Phase 8 backlog
+These stay valuable but belong to the pivot's "generalize the template" step
+(8.5), not to closing out the data engine:
 - [ ] AI resolver: parse vague input ("2016 q50 red sport") -> make/model/year/trim
 - [ ] Commercial specs API (CarAPI free tier first) for trims/hp/wheel-tire sizes
 - [ ] Replace curated-JSON specs merge with live specs; keep JSON as verified cache
@@ -380,8 +393,9 @@ When a scheduled agent wakes up, it should:
 **Current active phase:** Phase 8 — PIVOT: Interactive Vehicle Explorer (PLANNING)
 **Status:** Phases 1–5 SHIPPED (live at https://garage-ai-34hw.onrender.com). Phase 6
 AI assistant LIVE on Render (real Claude answers, key set + rate-limited). Phase 7
-data engine SHIPPED (profile engine + 343-car catalog, generation/trim-aware curated
-specs) — the BACKBONE the pivot feeds on. Phase 8 SHIPPED its first product: the
+data engine COMPLETE 2026-07-06 (profile engine + 502-car catalog, generation/
+trim-aware curated specs, /recalls folded into /profile; 7.4 deferred to the
+Phase 8 backlog) — the BACKBONE the pivot feeds on. Phase 8 SHIPPED its first product: the
 "Marble" redesign — search-first landing + one-stage Vehicle Hub with Profile /
 Showroom (configurator) / Explode (parts + sources) modes; 4 launch cars (Miata ND /
 Supra A80 / M3 E46 / GT-R R35) with real GLB models, curated systems maps, and

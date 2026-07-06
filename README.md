@@ -130,7 +130,7 @@ python3 scripts/check_bindings.py # verify catalog cars map to the right spec fi
 | `main.py` | command-line interface |
 | `app.py` | Flask web backend + JSON API + AI endpoints |
 | `frontend/` | React app; the built `frontend/dist` is committed and served |
-| `templates/` | `base`, `index`, `car`, `catalog`, `profile`, `recalls` (Tailwind, dark theme) |
+| `templates/` | `base`, `index`, `car`, `catalog`, `profile` (Tailwind, dark theme) |
 | `scripts/` | `add_car.py`, `build_catalog.py`, `check_bindings.py` |
 
 ## Deploying
