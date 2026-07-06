@@ -55,6 +55,16 @@ WEBP_QUALITY = 82
 # Free licenses we accept. CC0 / public-domain need no attribution; CC-BY(-SA)
 # do — we credit everything in CREDITS.md regardless, which satisfies all of them.
 FREE_LICENSE = re.compile(r"^(cc0|cc[ -]?by([ -]sa)?([ -][0-9.]+)?|public domain|pd|pdm)", re.I)
+# Hard blocks checked FIRST: FREE_LICENSE is a prefix match, so "CC BY-NC 2.0"
+# would otherwise pass on its "cc by" prefix. NC/ND aren't allowed on Commons,
+# but mis-tagged files exist; GFDL-only is free but requires shipping the full
+# license text, which a hero-photo credit line can't satisfy.
+BLOCKED_LICENSE = re.compile(r"\bnc\b|non[ -]?commercial|\bnd\b|no[ -]?deriv|gfdl", re.I)
+
+
+def license_ok(license_name):
+    lic = (license_name or "").replace("-", " ").strip()
+    return not BLOCKED_LICENSE.search(lic) and bool(FREE_LICENSE.match(lic))
 
 # Words that mark a good vs. bad hero framing, scored against the file title.
 GOOD = ("front", "quarter", "3/4", "34", "profile", "side", "exterior")
@@ -91,6 +101,25 @@ OVERRIDES = {
     "honda-odyssey-5th-gen-rl6": {"query": "2019 Honda Odyssey USA", "avoid": ["rc1", "absolute", "jdm", "aero"]},
     "honda-cr-v-5th-gen-rw": {"query": "2019 Honda CR-V", "avoid": ["6th", "sixth", "2023", "2024", "2025"]},
     "toyota-yaris-mazda2-based": {"query": "Toyota Yaris 2019 sedan", "avoid": ["hatchback", "gr "]},
+    # A-brands review pass (2026-07): 13 of 43 first picks failed the visual
+    # check (rear views, race/concept cars, heavily modified show cars, one
+    # photo of a building). Pins hand-chosen from Commons probe results.
+    # Commons has no acceptable free front-3/4 of a USDM 3rd-gen (DC2) Integra
+    # GS-R (only rears, a 2nd-gen, and Type R trims) — reviewed 2026-07. Skip:
+    # the styled CarImage placeholder beats a wrong-generation photo.
+    "acura-integra-gs-r-dc2": {"skip": True},
+    "acura-integra-type-r-dc2": {"pin": "2001 Acura Integra Type-R in Phoenix Yellow, Front Right (St. Ignace 2023).jpg"},
+    "acura-nsx-nc1": {"pin": "2017 Honda NSX 3.5 Front.jpg"},
+    "acura-rdx-turbo-tb1": {"pin": "2007 Acura RDX 2.4 Turbo SH AWD (51413127857).jpg"},
+    "acura-rsx-type-s-dc5": {"pin": "My 2006 RSX Type-S.jpg"},
+    "audi-quattro-ur-quattro": {"pin": "Audi Ur-Quattro (9532193009).jpg"},
+    "audi-r8-type-42": {"pin": "2009 Audi R8 Quattro V8.jpg"},
+    "audi-rs-e-tron-gt-j1": {"pin": "2022 Audi e-tron GT RS.jpg"},
+    "audi-rs5-b9": {"pin": "2019 Audi RS5 Coupe TFSi Quattro Automatic 2.9.jpg"},
+    "audi-rs7-c7": {"pin": "Audi RS7 Sportback - przód (MSP16).jpg"},
+    "audi-s3-8y": {"pin": "2023 Audi S3 TFSi Quattro.jpg"},
+    "audi-s4-b5": {"pin": "Audi S4 (Type B5) silver fl.jpg"},
+    "audi-s6-c7": {"pin": "Audi S6 (C7) Washington DC Metro Area, USA (1).jpg"},
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))
@@ -174,19 +203,30 @@ def gen_avoid(c):
     return sorted(av)
 
 
-def build_targets(limit=None):
+def build_targets(limit=None, makes=None):
+    """Rows to fetch. Default: catalog rows whose make+model has a curated
+    profile. With `makes`: EVERY catalog row of those makes (the brand-by-brand
+    whole-catalog sweep), ordered alphabetically make -> model -> year."""
     cat = json.load(open(CATALOG))
+    if makes:
+        wanted = {m.strip().lower() for m in makes}
+        cat = [c for c in cat if (c.get("make") or "").lower() in wanted]
+        cat.sort(key=lambda c: ((c.get("make") or "").lower(),
+                                (c.get("model") or "").lower(),
+                                c.get("year") or 0))
     curated = curated_keys()
     have = {p[:-5] for p in os.listdir(IMG_DIR) if p.endswith(".webp")} \
         if os.path.isdir(IMG_DIR) else set()
     out, seen = [], set()
     for c in cat:
-        if kebab(f"{c['make']} {c['model']}") not in curated:
+        if not makes and kebab(f"{c['make']} {c['model']}") not in curated:
             continue
         slug = primary_slug(c)
         if not slug or slug in have or slug in seen:
             continue
         seen.add(slug)
+        if OVERRIDES.get(slug, {}).get("skip"):
+            continue  # reviewed: no acceptable free image on Commons yet
         row = {
             "slug": slug,
             "car": f"{c['make']} {c['model']} ({c.get('generation') or c.get('year')})",
@@ -273,8 +313,15 @@ def best_candidates(car):
         try:
             p = get_file(pin)
             if p:
-                return f"pin:{pin}", [_cand(p)]
-            print(f"  ! pin not found: {pin!r} (falling back to search)")
+                cand = _cand(p)
+                # Pins are hand-vetted for CONTENT, but the license gate still
+                # applies — a pin must never smuggle in a non-free file.
+                if license_ok(cand["license"]):
+                    return f"pin:{pin}", [cand]
+                print(f"  ! pin license blocked ({cand['license']!r}): {pin!r} "
+                      "(falling back to search)")
+            else:
+                print(f"  ! pin not found: {pin!r} (falling back to search)")
         except Exception:  # noqa: BLE001 — fall through to the cascade
             pass
     for q in candidate_queries(car):
@@ -306,7 +353,7 @@ def score(page, tokens, avoid=(), target_year=None):
 
     if ii.get("mime") not in ("image/jpeg", "image/png"):
         return None, f"mime {ii.get('mime')}"
-    if not FREE_LICENSE.match(lic.replace("-", " ").strip()):
+    if not license_ok(lic):
         return None, f"non-free: {lic!r}"
     w, h = ii.get("width", 0), ii.get("height", 0)
     if w < 1200:
@@ -423,11 +470,20 @@ def write_frontend_credits(man):
 # --- Main ----------------------------------------------------------------------
 
 def main():
-    limit = int(sys.argv[1]) if len(sys.argv) > 1 else None
+    limit, makes = None, None
+    for arg in sys.argv[1:]:
+        if arg.startswith("--makes="):
+            makes = [m for m in arg.split("=", 1)[1].split(",") if m.strip()]
+        elif arg.isdigit():
+            limit = int(arg)
+        else:
+            sys.exit(f"usage: fetch_images.py [limit] [--makes=Make1,Make2,...]  "
+                     f"(got {arg!r})")
     os.makedirs(IMG_DIR, exist_ok=True)
     manifest = load_manifest()
-    targets = build_targets(limit)
-    print(f"{len(targets)} cars to fetch (profiled rows missing an image)\n")
+    targets = build_targets(limit, makes)
+    scope = f"makes: {', '.join(makes)}" if makes else "profiled rows"
+    print(f"{len(targets)} cars to fetch ({scope}, missing an image)\n")
 
     ok = 0
     for i, car in enumerate(targets, 1):

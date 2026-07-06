@@ -1,5 +1,2534 @@
 [
   {
+    "slug": "abarth-595-competizione",
+    "car": "Abarth 595 (Competizione)",
+    "make": "Abarth",
+    "model": "595",
+    "code": "Competizione",
+    "body": "Hatch",
+    "year": 2018,
+    "query": "Abarth 595 Competizione 2018",
+    "tokens": [
+      "595",
+      "competizione"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Abarth 595 Competizione 2018",
+    "pick": {
+      "score": 9.14,
+      "reasons": [
+        "CC0/PD",
+        "tokens:595,competizione",
+        "year-match"
+      ],
+      "title": "File:2018 Abarth 595 Competizione 2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/2018_Abarth_595_Competizione_2.jpg/1920px-2018_Abarth_595_Competizione_2.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Abarth_595_Competizione_2.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Calreyn88",
+      "width": 13762,
+      "height": 9354
+    },
+    "alternates": [
+      {
+        "score": 6.9,
+        "reasons": [
+          "tokens:595,competizione",
+          "year-match"
+        ],
+        "title": "File:2018 Abarth 595 Competizione 3.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/2018_Abarth_595_Competizione_3.jpg/1920px-2018_Abarth_595_Competizione_3.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Abarth_595_Competizione_3.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 13100,
+        "height": 9718
+      },
+      {
+        "score": 6.56,
+        "reasons": [
+          "tokens:595,competizione",
+          "year-match"
+        ],
+        "title": "File:2018 Abarth 595 Competizione 1.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/2018_Abarth_595_Competizione_1.jpg/1920px-2018_Abarth_595_Competizione_1.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Abarth_595_Competizione_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 2737,
+        "height": 2170
+      },
+      {
+        "score": 6.47,
+        "reasons": [
+          "tokens:595,competizione",
+          "year-match"
+        ],
+        "title": "File:2018 Abarth 595 Competizione.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/2018_Abarth_595_Competizione.jpg/1920px-2018_Abarth_595_Competizione.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Abarth_595_Competizione.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 2490,
+        "height": 2022
+      }
+    ]
+  },
+  {
+    "slug": "acura-cl-type-s-ya4",
+    "car": "Acura CL (Type-S (YA4))",
+    "make": "Acura",
+    "model": "CL",
+    "code": "Type-S",
+    "body": "Coupe",
+    "year": 2003,
+    "query": "Acura CL Type-S 2003",
+    "tokens": [
+      "cl",
+      "type-s"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Acura CL 2003",
+    "pick": {
+      "score": 4.94,
+      "reasons": [
+        "CC0/PD",
+        "tokens:cl"
+      ],
+      "title": "File:01-03 Acura CL.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/66/01-03_Acura_CL.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:01-03_Acura_CL.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "IFCAR",
+      "width": 1836,
+      "height": 994
+    },
+    "alternates": [
+      {
+        "score": 4.66,
+        "reasons": [
+          "CC0/PD",
+          "tokens:cl"
+        ],
+        "title": "File:2nd Acura CL.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a8/2nd_Acura_CL.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2nd_Acura_CL.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "IFCAR",
+        "width": 1892,
+        "height": 952
+      },
+      {
+        "score": 4.54,
+        "reasons": [
+          "tokens:cl",
+          "good-angle"
+        ],
+        "title": "File:Acura 2.3 CL (1999) (53487999655).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Acura_2.3_CL_%281999%29_%2853487999655%29.jpg/1920px-Acura_2.3_CL_%281999%29_%2853487999655%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Acura_2.3_CL_(1999)_(53487999655).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 5621,
+        "height": 3703
+      },
+      {
+        "score": 4.14,
+        "reasons": [
+          "CC0/PD",
+          "tokens:cl"
+        ],
+        "title": "File:2nd Acura CL .jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/97/2nd_Acura_CL_.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2nd_Acura_CL_.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "IFCAR",
+        "width": 1647,
+        "height": 738
+      }
+    ]
+  },
+  {
+    "slug": "acura-integra-de4",
+    "car": "Acura Integra (DE4)",
+    "make": "Acura",
+    "model": "Integra",
+    "code": "DE4",
+    "body": "Hatch",
+    "year": 2023,
+    "query": "Acura Integra DE4 2023",
+    "tokens": [
+      "de4",
+      "integra"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Acura Integra DE4 2023",
+    "pick": {
+      "score": 8.62,
+      "reasons": [
+        "tokens:integra",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2023 Acura Integra (base) in Lunar Silver Metallic, front left.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/2023_Acura_Integra_%28base%29_in_Lunar_Silver_Metallic%2C_front_left.jpg/1920px-2023_Acura_Integra_%28base%29_in_Lunar_Silver_Metallic%2C_front_left.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2023_Acura_Integra_(base)_in_Lunar_Silver_Metallic,_front_left.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 4648,
+      "height": 2832
+    },
+    "alternates": [
+      {
+        "score": 8.08,
+        "reasons": [
+          "tokens:integra",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2023 Acura Integra A-Spec, front 12.29.22.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/2023_Acura_Integra_A-Spec%2C_front_12.29.22.jpg/1920px-2023_Acura_Integra_A-Spec%2C_front_12.29.22.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2023_Acura_Integra_A-Spec,_front_12.29.22.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kevauto",
+        "width": 5117,
+        "height": 2678
+      },
+      {
+        "score": 7.79,
+        "reasons": [
+          "tokens:integra",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2023 Acura Integra A-Spec, front 4.3.23.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/2023_Acura_Integra_A-Spec%2C_front_4.3.23.jpg/1920px-2023_Acura_Integra_A-Spec%2C_front_4.3.23.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2023_Acura_Integra_A-Spec,_front_4.3.23.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kevauto",
+        "width": 3470,
+        "height": 1717
+      },
+      {
+        "score": 7.67,
+        "reasons": [
+          "tokens:integra",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2023 Acura Integra, front 4.4.23.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/2023_Acura_Integra%2C_front_4.4.23.jpg/1920px-2023_Acura_Integra%2C_front_4.4.23.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2023_Acura_Integra,_front_4.4.23.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kevauto",
+        "width": 2921,
+        "height": 1428
+      }
+    ]
+  },
+  {
+    "slug": "acura-integra-type-r-dc2",
+    "car": "Acura Integra Type R (DC2)",
+    "make": "Acura",
+    "model": "Integra Type R",
+    "code": "DC2",
+    "body": "Coupe",
+    "year": 1998,
+    "query": "Acura Integra Type R DC2 1998",
+    "tokens": [
+      "dc2",
+      "integra",
+      "type"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2001 Acura Integra Type-R in Phoenix Yellow, Front Right (St. Ignace 2023).jpg",
+    "status": "ok",
+    "query_used": "pin:2001 Acura Integra Type-R in Phoenix Yellow, Front Right (St. Ignace 2023).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2001 Acura Integra Type-R in Phoenix Yellow, Front Right (St. Ignace 2023).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/2001_Acura_Integra_Type-R_in_Phoenix_Yellow%2C_Front_Right_%28St._Ignace_2023%29.jpg/1920px-2001_Acura_Integra_Type-R_in_Phoenix_Yellow%2C_Front_Right_%28St._Ignace_2023%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2001_Acura_Integra_Type-R_in_Phoenix_Yellow,_Front_Right_(St._Ignace_2023).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Elise240SX",
+      "width": 3479,
+      "height": 2240
+    },
+    "alternates": []
+  },
+  {
+    "slug": "acura-integra-type-s-de5",
+    "car": "Acura Integra Type S (DE5)",
+    "make": "Acura",
+    "model": "Integra Type S",
+    "code": "DE5",
+    "body": "Hatch",
+    "year": 2024,
+    "query": "Acura Integra Type S DE5 2024",
+    "tokens": [
+      "de5",
+      "integra",
+      "type"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Acura Integra Type S 2024",
+    "pick": {
+      "score": 9.28,
+      "reasons": [
+        "tokens:integra,type",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2024 Acura Integra Type-S (United States) front view.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/47/2024_Acura_Integra_Type-S_%28United_States%29_front_view.png",
+      "page": "https://commons.wikimedia.org/wiki/File:2024_Acura_Integra_Type-S_(United_States)_front_view.png",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "artist": "Gold Pony",
+      "width": 1920,
+      "height": 1080
+    },
+    "alternates": [
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:integra,type",
+          "year-match"
+        ],
+        "title": "File:2024 Acura Integra Type S Style Party by Matt Long (53520143515).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/2024_Acura_Integra_Type_S_Style_Party_by_Matt_Long_%2853520143515%29.jpg/1920px-2024_Acura_Integra_Type_S_Style_Party_by_Matt_Long_%2853520143515%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2024_Acura_Integra_Type_S_Style_Party_by_Matt_Long_(53520143515).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "crudmucosa",
+        "width": 4799,
+        "height": 3199
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:integra,type",
+          "year-match"
+        ],
+        "title": "File:Acura Integra Type-S (2024) (54090265154).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Acura_Integra_Type-S_%282024%29_%2854090265154%29.jpg/1920px-Acura_Integra_Type-S_%282024%29_%2854090265154%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Acura_Integra_Type-S_(2024)_(54090265154).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "score": 3.5,
+        "reasons": [
+          "tokens:type"
+        ],
+        "title": "File:Styling Type S (53519877868).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Styling_Type_S_%2853519877868%29.jpg/1920px-Styling_Type_S_%2853519877868%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Styling_Type_S_(53519877868).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "crudmucosa",
+        "width": 4768,
+        "height": 3179
+      }
+    ]
+  },
+  {
+    "slug": "acura-legend-ka7-ka8",
+    "car": "Acura Legend (KA7/KA8)",
+    "make": "Acura",
+    "model": "Legend",
+    "code": "KA7",
+    "body": "Coupe",
+    "year": 1991,
+    "query": "Acura Legend KA7 1991",
+    "tokens": [
+      "ka7",
+      "legend"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Acura Legend KA7 1991",
+    "pick": {
+      "score": 7.8,
+      "reasons": [
+        "CC0/PD",
+        "tokens:legend",
+        "year-match"
+      ],
+      "title": "File:1991-93 Acura Legend Sedan.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/1991-93_Acura_Legend_Sedan.jpg/1920px-1991-93_Acura_Legend_Sedan.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1991-93_Acura_Legend_Sedan.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "Bull-Doser",
+      "width": 2027,
+      "height": 1332
+    },
+    "alternates": [
+      {
+        "score": 5.15,
+        "reasons": [
+          "CC0/PD",
+          "tokens:legend"
+        ],
+        "title": "File:'91-'93 Acura Legend Sedan.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4c/%2791-%2793_Acura_Legend_Sedan.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:%2791-%2793_Acura_Legend_Sedan.JPG",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 1769,
+        "height": 1209
+      },
+      {
+        "score": 3.51,
+        "reasons": [
+          "tokens:legend"
+        ],
+        "title": "File:91 Acura Legend (13174599143).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/91_Acura_Legend_%2813174599143%29.jpg/1920px-91_Acura_Legend_%2813174599143%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:91_Acura_Legend_(13174599143).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Greg Gjerdingen from Willmar, USA",
+        "width": 4592,
+        "height": 3056
+      }
+    ]
+  },
+  {
+    "slug": "acura-nsx-nc1",
+    "car": "Acura NSX (NC1)",
+    "make": "Acura",
+    "model": "NSX",
+    "code": "NC1",
+    "body": "Coupe",
+    "year": 2017,
+    "query": "Acura NSX NC1 2017",
+    "tokens": [
+      "nc1",
+      "nsx"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2017 Honda NSX 3.5 Front.jpg",
+    "status": "ok",
+    "query_used": "pin:2017 Honda NSX 3.5 Front.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2017 Honda NSX 3.5 Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2017_Honda_NSX_3.5_Front.jpg/1920px-2017_Honda_NSX_3.5_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2017_Honda_NSX_3.5_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 4777,
+      "height": 2223
+    },
+    "alternates": []
+  },
+  {
+    "slug": "acura-rdx-turbo-tb1",
+    "car": "Acura RDX (Turbo (TB1))",
+    "make": "Acura",
+    "model": "RDX",
+    "code": "Turbo",
+    "body": "SUV",
+    "year": 2007,
+    "query": "Acura RDX Turbo 2007",
+    "tokens": [
+      "rdx",
+      "turbo"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2007 Acura RDX 2.4 Turbo SH AWD (51413127857).jpg",
+    "status": "ok",
+    "query_used": "pin:2007 Acura RDX 2.4 Turbo SH AWD (51413127857).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2007 Acura RDX 2.4 Turbo SH AWD (51413127857).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2007_Acura_RDX_2.4_Turbo_SH_AWD_%2851413127857%29.jpg/1920px-2007_Acura_RDX_2.4_Turbo_SH_AWD_%2851413127857%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2007_Acura_RDX_2.4_Turbo_SH_AWD_(51413127857).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Rutger van der Maar",
+      "width": 2048,
+      "height": 1362
+    },
+    "alternates": []
+  },
+  {
+    "slug": "acura-rsx-type-s-dc5",
+    "car": "Acura RSX Type S (DC5)",
+    "make": "Acura",
+    "model": "RSX Type S",
+    "code": "DC5",
+    "body": "Coupe",
+    "year": 2005,
+    "query": "Acura RSX Type S DC5 2005",
+    "tokens": [
+      "dc5",
+      "rsx",
+      "type"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "My 2006 RSX Type-S.jpg",
+    "status": "ok",
+    "query_used": "pin:My 2006 RSX Type-S.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:My 2006 RSX Type-S.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1c/My_2006_RSX_Type-S.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:My_2006_RSX_Type-S.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Nate Grigg",
+      "width": 1632,
+      "height": 1224
+    },
+    "alternates": []
+  },
+  {
+    "slug": "acura-tl-type-s-ua7",
+    "car": "Acura TL (Type-S (UA7))",
+    "make": "Acura",
+    "model": "TL",
+    "code": "Type-S",
+    "body": "Sedan",
+    "year": 2007,
+    "query": "Acura TL Type-S 2007",
+    "tokens": [
+      "tl",
+      "type-s"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Acura TL Type-S 2007",
+    "pick": {
+      "score": 7.73,
+      "reasons": [
+        "CC0/PD",
+        "tokens:tl,type-s",
+        "year-match"
+      ],
+      "title": "File:2007-Acura-TL-Type-S.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2f/2007-Acura-TL-Type-S.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2007-Acura-TL-Type-S.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "IFCAR",
+      "width": 1253,
+      "height": 554
+    },
+    "alternates": [
+      {
+        "score": 7.7,
+        "reasons": [
+          "CC0/PD",
+          "tokens:tl",
+          "year-match"
+        ],
+        "title": "File:2007-Acura-TL-TypeS-DC.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/2007-Acura-TL-TypeS-DC.jpg/1920px-2007-Acura-TL-TypeS-DC.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2007-Acura-TL-TypeS-DC.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "IFCAR",
+        "width": 1972,
+        "height": 1144
+      },
+      {
+        "score": 7.28,
+        "reasons": [
+          "CC0/PD",
+          "tokens:tl",
+          "year-match"
+        ],
+        "title": "File:Acura TL Type S -- 08-21-2009.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Acura_TL_Type_S_--_08-21-2009.jpg/1920px-Acura_TL_Type_S_--_08-21-2009.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Acura_TL_Type_S_--_08-21-2009.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "IFCAR",
+        "width": 2082,
+        "height": 1074
+      },
+      {
+        "score": 7.18,
+        "reasons": [
+          "tokens:tl,type-s",
+          "year-match"
+        ],
+        "title": "File:2007 Acura TL Type-S.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2007_Acura_TL_Type-S.jpg/1920px-2007_Acura_TL_Type-S.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2007_Acura_TL_Type-S.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "DestinationFearFan",
+        "width": 3374,
+        "height": 2206
+      }
+    ]
+  },
+  {
+    "slug": "acura-tsx-cl9",
+    "car": "Acura TSX (CL9)",
+    "make": "Acura",
+    "model": "TSX",
+    "code": "CL9",
+    "body": "Sedan",
+    "year": 2006,
+    "query": "Acura TSX CL9 2006",
+    "tokens": [
+      "cl9",
+      "tsx"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Acura TSX CL9 2006",
+    "pick": {
+      "score": 5.32,
+      "reasons": [
+        "CC0/PD",
+        "tokens:tsx"
+      ],
+      "title": "File:06-07 Acura TSX.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/06-07_Acura_TSX.jpg/1920px-06-07_Acura_TSX.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:06-07_Acura_TSX.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "IFCAR",
+      "width": 1962,
+      "height": 1180
+    },
+    "alternates": [
+      {
+        "score": 5.2,
+        "reasons": [
+          "CC0/PD",
+          "tokens:tsx"
+        ],
+        "title": "File:06-08 Acura TSX.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/06-08_Acura_TSX.jpg/1920px-06-08_Acura_TSX.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:06-08_Acura_TSX.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "IFCAR",
+        "width": 2095,
+        "height": 1211
+      },
+      {
+        "score": 5.15,
+        "reasons": [
+          "tokens:tsx",
+          "good-angle",
+          "front",
+          "bad-angle",
+          "year-match"
+        ],
+        "title": "File:2006 Acura TSX in Nighthawk Black Pearl, Front Left, 09-05-2022.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/2006_Acura_TSX_in_Nighthawk_Black_Pearl%2C_Front_Left%2C_09-05-2022.jpg/1920px-2006_Acura_TSX_in_Nighthawk_Black_Pearl%2C_Front_Left%2C_09-05-2022.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2006_Acura_TSX_in_Nighthawk_Black_Pearl,_Front_Left,_09-05-2022.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Elise240SX",
+        "width": 3690,
+        "height": 1753
+      },
+      {
+        "score": 5.05,
+        "reasons": [
+          "CC0/PD",
+          "tokens:tsx"
+        ],
+        "title": "File:'06-'08 Acura TSX.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/%2706-%2708_Acura_TSX.JPG/1920px-%2706-%2708_Acura_TSX.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:%2706-%2708_Acura_TSX.JPG",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 2257,
+        "height": 1633
+      }
+    ]
+  },
+  {
+    "slug": "alfa-romeo-4c-960",
+    "car": "Alfa Romeo 4C (960)",
+    "make": "Alfa Romeo",
+    "model": "4C",
+    "code": "960",
+    "body": "Coupe",
+    "year": 2015,
+    "query": "Alfa Romeo 4C 960 2015",
+    "tokens": [
+      "4c",
+      "960"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Alfa Romeo 4C 2015",
+    "pick": {
+      "score": 6.02,
+      "reasons": [
+        "tokens:4c",
+        "year-match"
+      ],
+      "title": "File:2015 Alfa Romeo 4C.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/2015_Alfa_Romeo_4C.jpg/1920px-2015_Alfa_Romeo_4C.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2015_Alfa_Romeo_4C.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 13496,
+      "height": 8938
+    },
+    "alternates": [
+      {
+        "score": 5.99,
+        "reasons": [
+          "tokens:4c",
+          "year-match"
+        ],
+        "title": "File:Alfa Romeo 4C Safety Car, Pau 2015.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Alfa_Romeo_4C_Safety_Car%2C_Pau_2015.jpg/1920px-Alfa_Romeo_4C_Safety_Car%2C_Pau_2015.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_4C_Safety_Car,_Pau_2015.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Handelsgeselschaft",
+        "width": 4288,
+        "height": 2864
+      },
+      {
+        "score": 5.57,
+        "reasons": [
+          "tokens:4c",
+          "year-match"
+        ],
+        "title": "File:Alfa Romeo 4C Coupe 2015.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Alfa_Romeo_4C_Coupe_2015.jpg/1920px-Alfa_Romeo_4C_Coupe_2015.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_4C_Coupe_2015.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Leonard J. DeFrancisci",
+        "width": 3264,
+        "height": 2448
+      }
+    ]
+  },
+  {
+    "slug": "alfa-romeo-8c-competizione-8c",
+    "car": "Alfa Romeo 8C Competizione (8C)",
+    "make": "Alfa Romeo",
+    "model": "8C Competizione",
+    "code": "8C",
+    "body": "Coupe",
+    "year": 2008,
+    "query": "Alfa Romeo 8C Competizione 8C 2008",
+    "tokens": [
+      "8c",
+      "competizione"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Alfa Romeo 8C Competizione 8C 2008",
+    "pick": {
+      "score": 9.38,
+      "reasons": [
+        "tokens:8c,competizione",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:Alfa Romeo 8C 2008 Competizione LSideFront CECF 9April2011 (14600912555).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Alfa_Romeo_8C_2008_Competizione_LSideFront_CECF_9April2011_%2814600912555%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_8C_2008_Competizione_LSideFront_CECF_9April2011_(14600912555).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Valder137",
+      "width": 1500,
+      "height": 1004
+    },
+    "alternates": [
+      {
+        "score": 9.34,
+        "reasons": [
+          "tokens:8c,competizione",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:Alfa Romeo 8C 2008 Competizione AboveLSideFront CECF 9April2011 (14414309438).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/af/Alfa_Romeo_8C_2008_Competizione_AboveLSideFront_CECF_9April2011_%2814414309438%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_8C_2008_Competizione_AboveLSideFront_CECF_9April2011_(14414309438).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Valder137",
+        "width": 1200,
+        "height": 803
+      },
+      {
+        "score": 9.34,
+        "reasons": [
+          "tokens:8c,competizione",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:Alfa Romeo 8C 2008 Competizione RSideFront CECF 9April2011 (14600912005).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/37/Alfa_Romeo_8C_2008_Competizione_RSideFront_CECF_9April2011_%2814600912005%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_8C_2008_Competizione_RSideFront_CECF_9April2011_(14600912005).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Valder137",
+        "width": 1200,
+        "height": 803
+      },
+      {
+        "score": 7.08,
+        "reasons": [
+          "tokens:8c,competizione",
+          "good-angle",
+          "front"
+        ],
+        "title": "File:Alfa Romeo 8C Competizione (front) - 003 - Flickr - Cha gi\u00e0 Jos\u00e9.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Alfa_Romeo_8C_Competizione_%28front%29_-_003_-_Flickr_-_Cha_gi%C3%A0_Jos%C3%A9.jpg/1920px-Alfa_Romeo_8C_Competizione_%28front%29_-_003_-_Flickr_-_Cha_gi%C3%A0_Jos%C3%A9.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_8C_Competizione_(front)_-_003_-_Flickr_-_Cha_gi%C3%A0_Jos%C3%A9.jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Cha gi\u00e0 Jos\u00e9 from Vienna, Austria",
+        "width": 3008,
+        "height": 2000
+      }
+    ]
+  },
+  {
+    "slug": "alfa-romeo-giulia-quadrifoglio",
+    "car": "Alfa Romeo Giulia (Quadrifoglio)",
+    "make": "Alfa Romeo",
+    "model": "Giulia",
+    "code": "Quadrifoglio",
+    "body": "Sedan",
+    "year": 2017,
+    "query": "Alfa Romeo Giulia Quadrifoglio 2017",
+    "tokens": [
+      "giulia",
+      "quadrifoglio"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Alfa Romeo Giulia Quadrifoglio 2017",
+    "pick": {
+      "score": 7.38,
+      "reasons": [
+        "tokens:giulia,quadrifoglio",
+        "year-match"
+      ],
+      "title": "File:Alfa Romeo Giulia Quadrifoglio (2017) (52956509056).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Alfa_Romeo_Giulia_Quadrifoglio_%282017%29_%2852956509056%29.jpg/1920px-Alfa_Romeo_Giulia_Quadrifoglio_%282017%29_%2852956509056%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_Giulia_Quadrifoglio_(2017)_(52956509056).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Charles from Port Chester, New York",
+      "width": 5707,
+      "height": 3550
+    },
+    "alternates": [
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:giulia,quadrifoglio",
+          "year-match"
+        ],
+        "title": "File:2017 Alfa Romeo Giulia Quadrifoglio (25716860656).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/2017_Alfa_Romeo_Giulia_Quadrifoglio_%2825716860656%29.jpg/1920px-2017_Alfa_Romeo_Giulia_Quadrifoglio_%2825716860656%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2017_Alfa_Romeo_Giulia_Quadrifoglio_(25716860656).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Greg Gjerdingen from Willmar, USA",
+        "width": 5456,
+        "height": 3632
+      },
+      {
+        "score": 7.19,
+        "reasons": [
+          "tokens:giulia,quadrifoglio",
+          "year-match"
+        ],
+        "title": "File:Alfa Romeo Giulia Quadrifoglio (2017) (52956958298).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Alfa_Romeo_Giulia_Quadrifoglio_%282017%29_%2852956958298%29.jpg/1920px-Alfa_Romeo_Giulia_Quadrifoglio_%282017%29_%2852956958298%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_Giulia_Quadrifoglio_(2017)_(52956958298).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 5474,
+        "height": 3666
+      },
+      {
+        "score": 7.15,
+        "reasons": [
+          "tokens:giulia,quadrifoglio",
+          "year-match"
+        ],
+        "title": "File:2017 Alfa Romeo Giulia Quadrifoglio Verde Auto.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/2017_Alfa_Romeo_Giulia_Quadrifoglio_Verde_Auto.jpg/1920px-2017_Alfa_Romeo_Giulia_Quadrifoglio_Verde_Auto.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2017_Alfa_Romeo_Giulia_Quadrifoglio_Verde_Auto.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 2747,
+        "height": 1767
+      }
+    ]
+  },
+  {
+    "slug": "alfa-romeo-gtv6-tipo-116",
+    "car": "Alfa Romeo GTV6 (Tipo 116)",
+    "make": "Alfa Romeo",
+    "model": "GTV6",
+    "code": "116",
+    "body": "Coupe",
+    "year": 1983,
+    "query": "Alfa Romeo GTV6 116 1983",
+    "tokens": [
+      "116",
+      "gtv6"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Alfa Romeo GTV6 1983",
+    "pick": {
+      "score": 3.5,
+      "reasons": [
+        "tokens:gtv6"
+      ],
+      "title": "File:AlfaRomeoGTV6.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/AlfaRomeoGTV6.jpg/1920px-AlfaRomeoGTV6.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:AlfaRomeoGTV6.jpg",
+      "license": "CC BY-SA 3.0 de",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "artist": "spf",
+      "width": 5184,
+      "height": 3456
+    },
+    "alternates": []
+  },
+  {
+    "slug": "alfa-romeo-stelvio-quadrifoglio",
+    "car": "Alfa Romeo Stelvio (Quadrifoglio)",
+    "make": "Alfa Romeo",
+    "model": "Stelvio",
+    "code": "Quadrifoglio",
+    "body": "SUV",
+    "year": 2018,
+    "query": "Alfa Romeo Stelvio Quadrifoglio 2018",
+    "tokens": [
+      "quadrifoglio",
+      "stelvio"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Alfa Romeo Stelvio Quadrifoglio 2018",
+    "pick": {
+      "score": 7.2,
+      "reasons": [
+        "tokens:quadrifoglio,stelvio",
+        "year-match"
+      ],
+      "title": "File:R\u00e9tromobile 2018 - Alfa Romeo Stelvio Quadrifoglio - 001.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/R%C3%A9tromobile_2018_-_Alfa_Romeo_Stelvio_Quadrifoglio_-_001.jpg/1920px-R%C3%A9tromobile_2018_-_Alfa_Romeo_Stelvio_Quadrifoglio_-_001.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:R%C3%A9tromobile_2018_-_Alfa_Romeo_Stelvio_Quadrifoglio_-_001.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Thesupermat",
+      "width": 5472,
+      "height": 3648
+    },
+    "alternates": [
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:quadrifoglio,stelvio",
+          "year-match"
+        ],
+        "title": "File:R\u00e9tromobile 2018 - Alfa Romeo Stelvio Quadrifoglio - 002.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/R%C3%A9tromobile_2018_-_Alfa_Romeo_Stelvio_Quadrifoglio_-_002.jpg/1920px-R%C3%A9tromobile_2018_-_Alfa_Romeo_Stelvio_Quadrifoglio_-_002.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:R%C3%A9tromobile_2018_-_Alfa_Romeo_Stelvio_Quadrifoglio_-_002.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Thesupermat",
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "score": 7.19,
+        "reasons": [
+          "tokens:quadrifoglio,stelvio",
+          "year-match"
+        ],
+        "title": "File:Alfa Romeo Stelvio Quadrifoglio at Legendy 2018 in Prague.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Alfa_Romeo_Stelvio_Quadrifoglio_at_Legendy_2018_in_Prague.jpg/1920px-Alfa_Romeo_Stelvio_Quadrifoglio_at_Legendy_2018_in_Prague.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Alfa_Romeo_Stelvio_Quadrifoglio_at_Legendy_2018_in_Prague.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Ji\u0159\u00ed Sedl\u00e1\u010dek",
+        "width": 3888,
+        "height": 2592
+      }
+    ]
+  },
+  {
+    "slug": "alpine-a110-type-128",
+    "car": "Alpine A110 (Type 128)",
+    "make": "Alpine",
+    "model": "A110",
+    "code": "128",
+    "body": "Coupe",
+    "year": 2018,
+    "query": "Alpine A110 128 2018",
+    "tokens": [
+      "128",
+      "a110"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Alpine A110 2018",
+    "pick": {
+      "score": 8.53,
+      "reasons": [
+        "tokens:a110",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2018 Alpine A110 Premiere Edition 1.8 Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/2018_Alpine_A110_Premiere_Edition_1.8_Front.jpg/1920px-2018_Alpine_A110_Premiere_Edition_1.8_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Alpine_A110_Premiere_Edition_1.8_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 4839,
+      "height": 2874
+    },
+    "alternates": [
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:a110",
+          "year-match"
+        ],
+        "title": "File:Alpine A110 GT4, Paris Motor Show 2018, IMG 0220.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Alpine_A110_GT4%2C_Paris_Motor_Show_2018%2C_IMG_0220.jpg/1920px-Alpine_A110_GT4%2C_Paris_Motor_Show_2018%2C_IMG_0220.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Alpine_A110_GT4,_Paris_Motor_Show_2018,_IMG_0220.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alexander Migl",
+        "width": 4615,
+        "height": 3076
+      },
+      {
+        "score": 5.99,
+        "reasons": [
+          "tokens:a110",
+          "year-match"
+        ],
+        "title": "File:Alpine A110 GT4 Genf 2018.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Alpine_A110_GT4_Genf_2018.jpg/1920px-Alpine_A110_GT4_Genf_2018.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Alpine_A110_GT4_Genf_2018.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alexander Migl",
+        "width": 5072,
+        "height": 3389
+      },
+      {
+        "score": 5.99,
+        "reasons": [
+          "tokens:a110",
+          "year-match"
+        ],
+        "title": "File:Alpine A110 L\u00e9gende Genf 2018.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Alpine_A110_L%C3%A9gende_Genf_2018.jpg/1920px-Alpine_A110_L%C3%A9gende_Genf_2018.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Alpine_A110_L%C3%A9gende_Genf_2018.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alexander Migl",
+        "width": 4836,
+        "height": 3231
+      }
+    ]
+  },
+  {
+    "slug": "amc-javelin-amx",
+    "car": "AMC Javelin (AMX)",
+    "make": "AMC",
+    "model": "Javelin",
+    "code": "AMX",
+    "body": "Coupe",
+    "year": 1971,
+    "query": "AMC Javelin AMX 1971",
+    "tokens": [
+      "amx",
+      "javelin"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "AMC Javelin AMX 1971",
+    "pick": {
+      "score": 11.27,
+      "reasons": [
+        "CC0/PD",
+        "tokens:amx,javelin",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:1971 AMC Javelin AMX red MD frontright.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/1971_AMC_Javelin_AMX_red_MD_frontright.jpg/1920px-1971_AMC_Javelin_AMX_red_MD_frontright.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1971_AMC_Javelin_AMX_red_MD_frontright.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "CZmarlin \u2014 Christopher Ziemnowicz, releases all rights but a photo credit would be appreciated if this image is used anywhere other than Wikipedia. Please leave a note at Wikipedia here. Thank you!",
+      "width": 2484,
+      "height": 1365
+    },
+    "alternates": [
+      {
+        "score": 8.77,
+        "reasons": [
+          "CC0/PD",
+          "tokens:amx,javelin",
+          "year-match"
+        ],
+        "title": "File:1971 AMC Javelin AMX 401 in Mustard Yellow at 2017 AMO show 4of4.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/1971_AMC_Javelin_AMX_401_in_Mustard_Yellow_at_2017_AMO_show_4of4.jpg/1920px-1971_AMC_Javelin_AMX_401_in_Mustard_Yellow_at_2017_AMO_show_4of4.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1971_AMC_Javelin_AMX_401_in_Mustard_Yellow_at_2017_AMO_show_4of4.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "CZmarlin \u2014 Christopher Ziemnowicz, a photo credit would be appreciated if this image is used anywhere other than Wikipedia.",
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "score": 8.69,
+        "reasons": [
+          "CC0/PD",
+          "tokens:amx,javelin",
+          "year-match"
+        ],
+        "title": "File:1971 AMC Javelin AMX red MD headon.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/1971_AMC_Javelin_AMX_red_MD_headon.jpg/1920px-1971_AMC_Javelin_AMX_red_MD_headon.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1971_AMC_Javelin_AMX_red_MD_headon.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "CZmarlin \u2014 Christopher Ziemnowicz, releases all rights but a photo credit would be appreciated if this image is used anywhere other than Wikipedia. Please leave a note at Wikipedia here. Thank you!",
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "score": 8.69,
+        "reasons": [
+          "CC0/PD",
+          "tokens:amx,javelin",
+          "year-match"
+        ],
+        "title": "File:1971 AMC Javelin AMX red MD indriver.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/1971_AMC_Javelin_AMX_red_MD_indriver.jpg/1920px-1971_AMC_Javelin_AMX_red_MD_indriver.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1971_AMC_Javelin_AMX_red_MD_indriver.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "CZmarlin \u2014 Christopher Ziemnowicz, releases all rights but a photo credit would be appreciated if this image is used anywhere other than Wikipedia. Please leave a note at Wikipedia here. Thank you!",
+        "width": 2592,
+        "height": 1944
+      }
+    ]
+  },
+  {
+    "slug": "aston-martin-db5-db5",
+    "car": "Aston Martin DB5 (DB5)",
+    "make": "Aston Martin",
+    "model": "DB5",
+    "code": "DB5",
+    "body": "Coupe",
+    "year": 1964,
+    "query": "Aston Martin DB5 DB5 1964",
+    "tokens": [
+      "db5"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Aston Martin DB5 DB5 1964",
+    "pick": {
+      "score": 6.09,
+      "reasons": [
+        "tokens:db5",
+        "year-match"
+      ],
+      "title": "File:1964 Aston Martin DB5 Blue.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/1964_Aston_Martin_DB5_Blue.jpg/1920px-1964_Aston_Martin_DB5_Blue.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1964_Aston_Martin_DB5_Blue.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MrWalkr",
+      "width": 9384,
+      "height": 5666
+    },
+    "alternates": [
+      {
+        "score": 6.08,
+        "reasons": [
+          "tokens:db5",
+          "year-match"
+        ],
+        "title": "File:1964 Aston Martin DB5 8.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/1964_Aston_Martin_DB5_8.jpg/1920px-1964_Aston_Martin_DB5_8.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1964_Aston_Martin_DB5_8.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 14652,
+        "height": 8816
+      },
+      {
+        "score": 6.06,
+        "reasons": [
+          "tokens:db5",
+          "year-match"
+        ],
+        "title": "File:Aston Martin DB5 1964.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Aston_Martin_DB5_1964.jpg/1920px-Aston_Martin_DB5_1964.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Aston_Martin_DB5_1964.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 3048,
+        "height": 1915
+      },
+      {
+        "score": 6.02,
+        "reasons": [
+          "tokens:db5",
+          "year-match"
+        ],
+        "title": "File:1964 Aston Martin DB5 HCC25.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/1964_Aston_Martin_DB5_HCC25.jpg/1920px-1964_Aston_Martin_DB5_HCC25.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1964_Aston_Martin_DB5_HCC25.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 3507,
+        "height": 2113
+      }
+    ]
+  },
+  {
+    "slug": "aston-martin-db9-vh-gt",
+    "car": "Aston Martin DB9 (VH GT)",
+    "make": "Aston Martin",
+    "model": "DB9",
+    "code": "VH",
+    "body": "Coupe",
+    "year": 2005,
+    "query": "Aston Martin DB9 VH 2005",
+    "tokens": [
+      "db9",
+      "vh"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Aston Martin DB9 2005",
+    "pick": {
+      "score": 6.0,
+      "reasons": [
+        "tokens:db9",
+        "year-match"
+      ],
+      "title": "File:2005-2008 Aston Martin DB9.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/2005-2008_Aston_Martin_DB9.png/1920px-2005-2008_Aston_Martin_DB9.png",
+      "page": "https://commons.wikimedia.org/wiki/File:2005-2008_Aston_Martin_DB9.png",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "LukaCali",
+      "width": 5184,
+      "height": 3456
+    },
+    "alternates": [
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:db9",
+          "year-match"
+        ],
+        "title": "File:2005 Aston Martin DB9 Coupe (25817653864).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/2005_Aston_Martin_DB9_Coupe_%2825817653864%29.jpg/1920px-2005_Aston_Martin_DB9_Coupe_%2825817653864%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2005_Aston_Martin_DB9_Coupe_(25817653864).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sicnag",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "score": 5.69,
+        "reasons": [
+          "tokens:db9",
+          "year-match"
+        ],
+        "title": "File:2005 silver Aston Martin DB9 coupe.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2005_silver_Aston_Martin_DB9_coupe.JPG/1920px-2005_silver_Aston_Martin_DB9_coupe.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:2005_silver_Aston_Martin_DB9_coupe.JPG",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "BrokenSphere",
+        "width": 2272,
+        "height": 1563
+      },
+      {
+        "score": 5.58,
+        "reasons": [
+          "tokens:db9",
+          "year-match"
+        ],
+        "title": "File:2005 Aston Martin DB9 Automatic.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/2005_Aston_Martin_DB9_Automatic.jpg/1920px-2005_Aston_Martin_DB9_Automatic.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2005_Aston_Martin_DB9_Automatic.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 2124,
+        "height": 1186
+      }
+    ]
+  },
+  {
+    "slug": "aston-martin-v8-vantage-vh",
+    "car": "Aston Martin V8 Vantage (VH)",
+    "make": "Aston Martin",
+    "model": "V8 Vantage",
+    "code": "VH",
+    "body": "Coupe",
+    "year": 2007,
+    "query": "Aston Martin V8 Vantage VH 2007",
+    "tokens": [
+      "v8",
+      "vantage",
+      "vh"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Aston Martin V8 Vantage 2007",
+    "pick": {
+      "score": 9.56,
+      "reasons": [
+        "tokens:v8,vantage",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2007 Aston Martin V8 Vantage 4.3 Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/2007_Aston_Martin_V8_Vantage_4.3_Front.jpg/1920px-2007_Aston_Martin_V8_Vantage_4.3_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2007_Aston_Martin_V8_Vantage_4.3_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 4409,
+      "height": 2494
+    },
+    "alternates": [
+      {
+        "score": 9.23,
+        "reasons": [
+          "CC0/PD",
+          "tokens:v8,vantage",
+          "year-match"
+        ],
+        "title": "File:2007 Aston Martin Vantage V8 N24 2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/2007_Aston_Martin_Vantage_V8_N24_2.jpg/1920px-2007_Aston_Martin_Vantage_V8_N24_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2007_Aston_Martin_Vantage_V8_N24_2.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Calreyn88",
+        "width": 16320,
+        "height": 10764
+      },
+      {
+        "score": 9.21,
+        "reasons": [
+          "CC0/PD",
+          "tokens:v8,vantage",
+          "year-match"
+        ],
+        "title": "File:2007 Aston Martin Vantage V8 N24 1.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/2007_Aston_Martin_Vantage_V8_N24_1.jpg/1920px-2007_Aston_Martin_Vantage_V8_N24_1.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2007_Aston_Martin_Vantage_V8_N24_1.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Calreyn88",
+        "width": 16320,
+        "height": 10838
+      },
+      {
+        "score": 8.87,
+        "reasons": [
+          "CC0/PD",
+          "tokens:v8,vantage",
+          "year-match"
+        ],
+        "title": "File:2007 Aston Martin Vantage V8 N24.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/2007_Aston_Martin_Vantage_V8_N24.jpg/1920px-2007_Aston_Martin_Vantage_V8_N24.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2007_Aston_Martin_Vantage_V8_N24.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Calreyn88",
+        "width": 16320,
+        "height": 12240
+      }
+    ]
+  },
+  {
+    "slug": "aston-martin-vanquish-v12",
+    "car": "Aston Martin Vanquish (V12)",
+    "make": "Aston Martin",
+    "model": "Vanquish",
+    "code": "V12",
+    "body": "Coupe",
+    "year": 2003,
+    "query": "Aston Martin Vanquish V12 2003",
+    "tokens": [
+      "v12",
+      "vanquish"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Aston Martin Vanquish V12 2003",
+    "pick": {
+      "score": 7.87,
+      "reasons": [
+        "tokens:v12,vanquish",
+        "good-angle",
+        "year-match"
+      ],
+      "title": "File:Aston-Martin V12 Vanquish (2003) (34460715631).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Aston-Martin_V12_Vanquish_%282003%29_%2834460715631%29.jpg/1920px-Aston-Martin_V12_Vanquish_%282003%29_%2834460715631%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Aston-Martin_V12_Vanquish_(2003)_(34460715631).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Andrew Bone from Weymouth, England",
+      "width": 4896,
+      "height": 3672
+    },
+    "alternates": [
+      {
+        "score": 6.87,
+        "reasons": [
+          "tokens:v12,vanquish",
+          "year-match"
+        ],
+        "title": "File:Aston-Martin V12 Vanquish (2003) (33748299824).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Aston-Martin_V12_Vanquish_%282003%29_%2833748299824%29.jpg/1920px-Aston-Martin_V12_Vanquish_%282003%29_%2833748299824%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Aston-Martin_V12_Vanquish_(2003)_(33748299824).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Andrew Bone from Weymouth, England",
+        "width": 4896,
+        "height": 3672
+      },
+      {
+        "score": 6.87,
+        "reasons": [
+          "tokens:v12,vanquish",
+          "year-match"
+        ],
+        "title": "File:Aston-Martin V12 Vanquish (2003) (33748318414).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Aston-Martin_V12_Vanquish_%282003%29_%2833748318414%29.jpg/1920px-Aston-Martin_V12_Vanquish_%282003%29_%2833748318414%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Aston-Martin_V12_Vanquish_(2003)_(33748318414).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Andrew Bone from Weymouth, England",
+        "width": 4896,
+        "height": 3672
+      },
+      {
+        "score": 6.81,
+        "reasons": [
+          "tokens:v12,vanquish",
+          "year-match"
+        ],
+        "title": "File:2003 Aston Martin V12 Vanquish 5935 cc 5935 cc at Horsham English Festival 2018.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/2003_Aston_Martin_V12_Vanquish_5935_cc_5935_cc_at_Horsham_English_Festival_2018.jpg/1920px-2003_Aston_Martin_V12_Vanquish_5935_cc_5935_cc_at_Horsham_English_Festival_2018.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2003_Aston_Martin_V12_Vanquish_5935_cc_5935_cc_at_Horsham_English_Festival_2018.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Acabashi",
+        "width": 3582,
+        "height": 2686
+      }
+    ]
+  },
+  {
+    "slug": "aston-martin-vantage-amr",
+    "car": "Aston Martin Vantage (AMR)",
+    "make": "Aston Martin",
+    "model": "Vantage",
+    "code": "AMR",
+    "body": "Coupe",
+    "year": 2019,
+    "query": "Aston Martin Vantage AMR 2019",
+    "tokens": [
+      "amr",
+      "vantage"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Aston Martin Vantage AMR 2019",
+    "pick": {
+      "score": 7.38,
+      "reasons": [
+        "tokens:amr,vantage",
+        "year-match"
+      ],
+      "title": "File:2020 Vantage V8 AMR.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/2020_Vantage_V8_AMR.jpg/1920px-2020_Vantage_V8_AMR.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2020_Vantage_V8_AMR.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MrWalkr",
+      "width": 6251,
+      "height": 3937
+    },
+    "alternates": [
+      {
+        "score": 7.22,
+        "reasons": [
+          "tokens:amr,vantage",
+          "year-match"
+        ],
+        "title": "File:2020 Aston Martin Vantage V8 AMR 2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/2020_Aston_Martin_Vantage_V8_AMR_2.jpg/1920px-2020_Aston_Martin_Vantage_V8_AMR_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Aston_Martin_Vantage_V8_AMR_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 3493,
+        "height": 2105
+      },
+      {
+        "score": 6.99,
+        "reasons": [
+          "tokens:amr,vantage",
+          "year-match"
+        ],
+        "title": "File:2020 Aston Martin Vantage V8 AMR 1.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/2020_Aston_Martin_Vantage_V8_AMR_1.jpg/1920px-2020_Aston_Martin_Vantage_V8_AMR_1.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Aston_Martin_Vantage_V8_AMR_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 2120,
+        "height": 1255
+      },
+      {
+        "score": 6.93,
+        "reasons": [
+          "tokens:amr,vantage",
+          "year-match"
+        ],
+        "title": "File:2020 Aston Martin Vantage V8 AMR.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3f/2020_Aston_Martin_Vantage_V8_AMR.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Aston_Martin_Vantage_V8_AMR.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 1857,
+        "height": 1240
+      }
+    ]
+  },
+  {
+    "slug": "audi-quattro-ur-quattro",
+    "car": "Audi Quattro (Ur-Quattro)",
+    "make": "Audi",
+    "model": "Quattro",
+    "code": "Ur-Quattro",
+    "body": "Coupe",
+    "year": 1983,
+    "query": "Audi Quattro Ur-Quattro 1983",
+    "tokens": [
+      "quattro",
+      "ur-quattro"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Audi Ur-Quattro (9532193009).jpg",
+    "status": "ok",
+    "query_used": "pin:Audi Ur-Quattro (9532193009).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Audi Ur-Quattro (9532193009).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Audi_Ur-Quattro_%289532193009%29.jpg/1920px-Audi_Ur-Quattro_%289532193009%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Audi_Ur-Quattro_(9532193009).jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "artist": "Ross",
+      "width": 3114,
+      "height": 1822
+    },
+    "alternates": []
+  },
+  {
+    "slug": "audi-r8-type-42",
+    "car": "Audi R8 (Type 42)",
+    "make": "Audi",
+    "model": "R8",
+    "code": "42",
+    "body": "Coupe",
+    "year": 2010,
+    "query": "Audi R8 42 2010",
+    "tokens": [
+      "42",
+      "r8"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2009 Audi R8 Quattro V8.jpg",
+    "status": "ok",
+    "query_used": "pin:2009 Audi R8 Quattro V8.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2009 Audi R8 Quattro V8.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/2009_Audi_R8_Quattro_V8.jpg/1920px-2009_Audi_R8_Quattro_V8.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2009_Audi_R8_Quattro_V8.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 3032,
+      "height": 1588
+    },
+    "alternates": []
+  },
+  {
+    "slug": "audi-r8-v10-type-4s",
+    "car": "Audi R8 (V10 (Type 4S))",
+    "make": "Audi",
+    "model": "R8",
+    "code": "V10",
+    "body": "Coupe",
+    "year": 2020,
+    "query": "Audi R8 V10 2020",
+    "tokens": [
+      "r8",
+      "v10"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Audi R8 V10 2020",
+    "pick": {
+      "score": 9.35,
+      "reasons": [
+        "tokens:r8,v10",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2020 Audi R8 V10 5.2 Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2020_Audi_R8_V10_5.2_Front.jpg/1920px-2020_Audi_R8_V10_5.2_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2020_Audi_R8_V10_5.2_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 4215,
+      "height": 2251
+    },
+    "alternates": [
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:r8,v10",
+          "year-match"
+        ],
+        "title": "File:Audi R8 V10 Plus 5.2 FSI (Typ 4S, 2020) (52566233006).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Audi_R8_V10_Plus_5.2_FSI_%28Typ_4S%2C_2020%29_%2852566233006%29.jpg/1920px-Audi_R8_V10_Plus_5.2_FSI_%28Typ_4S%2C_2020%29_%2852566233006%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Audi_R8_V10_Plus_5.2_FSI_(Typ_4S,_2020)_(52566233006).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "score": 6.87,
+        "reasons": [
+          "tokens:r8,v10",
+          "year-match"
+        ],
+        "title": "File:Audi R8 V10 Plus (2020) (53618556872).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Audi_R8_V10_Plus_%282020%29_%2853618556872%29.jpg/1920px-Audi_R8_V10_Plus_%282020%29_%2853618556872%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Audi_R8_V10_Plus_(2020)_(53618556872).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "score": 6.82,
+        "reasons": [
+          "tokens:r8,v10",
+          "good-angle",
+          "front"
+        ],
+        "title": "File:Audi-R8-V10-Front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Audi-R8-V10-Front.jpg/1920px-Audi-R8-V10-Front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Audi-R8-V10-Front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "1994McLarenF1",
+        "width": 3648,
+        "height": 2736
+      }
+    ]
+  },
+  {
+    "slug": "audi-rs-e-tron-gt-j1",
+    "car": "Audi RS e-tron GT (J1)",
+    "make": "Audi",
+    "model": "RS e-tron GT",
+    "code": "J1",
+    "body": "Sedan",
+    "year": 2022,
+    "query": "Audi RS e-tron GT J1 2022",
+    "tokens": [
+      "e-tron",
+      "gt",
+      "j1",
+      "rs"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2022 Audi e-tron GT RS.jpg",
+    "status": "ok",
+    "query_used": "pin:2022 Audi e-tron GT RS.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2022 Audi e-tron GT RS.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/2022_Audi_e-tron_GT_RS.jpg/1920px-2022_Audi_e-tron_GT_RS.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2022_Audi_e-tron_GT_RS.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 2851,
+      "height": 1731
+    },
+    "alternates": []
+  },
+  {
+    "slug": "audi-rs3-8v",
+    "car": "Audi RS3 (8V)",
+    "make": "Audi",
+    "model": "RS3",
+    "code": "8V",
+    "body": "Sedan",
+    "year": 2018,
+    "query": "Audi RS3 8V 2018",
+    "tokens": [
+      "8v",
+      "rs3"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Audi RS3 8V 2018",
+    "pick": {
+      "score": 6.12,
+      "reasons": [
+        "tokens:rs3",
+        "good-angle",
+        "front",
+        "bad-angle",
+        "year-match"
+      ],
+      "title": "File:2016 Audi RS3 Sportsback NAV Quattro S-A 2.5 Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/2016_Audi_RS3_Sportsback_NAV_Quattro_S-A_2.5_Front.jpg/1920px-2016_Audi_RS3_Sportsback_NAV_Quattro_S-A_2.5_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2016_Audi_RS3_Sportsback_NAV_Quattro_S-A_2.5_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 4144,
+      "height": 2525
+    },
+    "alternates": [
+      {
+        "score": 6.1,
+        "reasons": [
+          "tokens:rs3",
+          "year-match"
+        ],
+        "title": "File:2018 Audi RS3 TFSi Quattro.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2018_Audi_RS3_TFSi_Quattro.jpg/1920px-2018_Audi_RS3_TFSi_Quattro.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Audi_RS3_TFSi_Quattro.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 3712,
+        "height": 2272
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:rs3",
+          "year-match"
+        ],
+        "title": "File:Audi RS3, GIMS 2018, Le Grand-Saconnex (1X7A1499).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Audi_RS3%2C_GIMS_2018%2C_Le_Grand-Saconnex_%281X7A1499%29.jpg/1920px-Audi_RS3%2C_GIMS_2018%2C_Le_Grand-Saconnex_%281X7A1499%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Audi_RS3,_GIMS_2018,_Le_Grand-Saconnex_(1X7A1499).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Matti Blume",
+        "width": 6720,
+        "height": 4480
+      },
+      {
+        "score": 5.86,
+        "reasons": [
+          "tokens:rs3",
+          "year-match"
+        ],
+        "title": "File:2018 Audi RS3 Quattro S-A Saloon 2.5.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/2018_Audi_RS3_Quattro_S-A_Saloon_2.5.jpg/1920px-2018_Audi_RS3_Quattro_S-A_Saloon_2.5.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Audi_RS3_Quattro_S-A_Saloon_2.5.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Vauxford",
+        "width": 4503,
+        "height": 2542
+      }
+    ]
+  },
+  {
+    "slug": "audi-rs4-b7",
+    "car": "Audi RS4 (B7)",
+    "make": "Audi",
+    "model": "RS4",
+    "code": "B7",
+    "body": "Sedan",
+    "year": 2007,
+    "query": "Audi RS4 B7 2007",
+    "tokens": [
+      "b7",
+      "rs4"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Audi RS4 B7 2007",
+    "pick": {
+      "score": 6.77,
+      "reasons": [
+        "tokens:b7,rs4",
+        "year-match"
+      ],
+      "title": "File:2007 Audi RS4 B7 (Typ 8E) (3848541420).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/2007_Audi_RS4_B7_%28Typ_8E%29_%283848541420%29.jpg/1920px-2007_Audi_RS4_B7_%28Typ_8E%29_%283848541420%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2007_Audi_RS4_B7_(Typ_8E)_(3848541420).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Spanish Coches",
+      "width": 3324,
+      "height": 2508
+    },
+    "alternates": [
+      {
+        "score": 6.77,
+        "reasons": [
+          "tokens:b7,rs4",
+          "year-match"
+        ],
+        "title": "File:2007 Audi RS4 B7 (Typ 8E) (3848543324).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/2007_Audi_RS4_B7_%28Typ_8E%29_%283848543324%29.jpg/1920px-2007_Audi_RS4_B7_%28Typ_8E%29_%283848543324%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2007_Audi_RS4_B7_(Typ_8E)_(3848543324).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Spanish Coches",
+        "width": 3324,
+        "height": 2508
+      },
+      {
+        "score": 6.02,
+        "reasons": [
+          "tokens:rs4",
+          "year-match"
+        ],
+        "title": "File:2007 Audi RS4 Quattro 2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/2007_Audi_RS4_Quattro_2.jpg/1920px-2007_Audi_RS4_Quattro_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2007_Audi_RS4_Quattro_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 15740,
+        "height": 10410
+      },
+      {
+        "score": 5.88,
+        "reasons": [
+          "tokens:rs4",
+          "year-match"
+        ],
+        "title": "File:2007 Audi RS4 (82142).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/2007_Audi_RS4_%2882142%29.jpg/1920px-2007_Audi_RS4_%2882142%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2007_Audi_RS4_(82142).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 3892,
+        "height": 2694
+      }
+    ]
+  },
+  {
+    "slug": "audi-rs4-b8",
+    "car": "Audi RS4 (B8)",
+    "make": "Audi",
+    "model": "RS4",
+    "code": "B8",
+    "body": "Sedan",
+    "year": 2013,
+    "query": "Audi RS4 B8 2013",
+    "tokens": [
+      "b8",
+      "rs4"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Audi RS4 B8 2013",
+    "pick": {
+      "score": 8.77,
+      "reasons": [
+        "CC0/PD",
+        "tokens:b8,rs4",
+        "good-angle",
+        "front"
+      ],
+      "title": "File:Audi RS4 (B8) front.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Audi_RS4_%28B8%29_front.JPG/1920px-Audi_RS4_%28B8%29_front.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:Audi_RS4_(B8)_front.JPG",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Tokumeigakarinoaoshima",
+      "width": 1930,
+      "height": 1364
+    },
+    "alternates": [
+      {
+        "score": 6.15,
+        "reasons": [
+          "CC0/PD",
+          "tokens:b8,rs4"
+        ],
+        "title": "File:Audi RS4 (B8) right.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Audi_RS4_%28B8%29_right.JPG/1920px-Audi_RS4_%28B8%29_right.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Audi_RS4_(B8)_right.JPG",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Tokumeigakarinoaoshima",
+        "width": 2020,
+        "height": 1498
+      },
+      {
+        "score": 3.56,
+        "reasons": [
+          "tokens:rs4"
+        ],
+        "title": "File:Audi RS4 - Flickr - Alexandre Pr\u00e9vot.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Audi_RS4_-_Flickr_-_Alexandre_Pr%C3%A9vot.jpg/1920px-Audi_RS4_-_Flickr_-_Alexandre_Pr%C3%A9vot.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Audi_RS4_-_Flickr_-_Alexandre_Pr%C3%A9vot.jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Alexandre Pr\u00e9vot from Nancy, France",
+        "width": 3000,
+        "height": 1864
+      },
+      {
+        "score": 3.38,
+        "reasons": [
+          "tokens:rs4"
+        ],
+        "title": "File:Audi RS4 - Flickr - Alexandre Pr\u00e9vot (1).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Audi_RS4_-_Flickr_-_Alexandre_Pr%C3%A9vot_%281%29.jpg/1920px-Audi_RS4_-_Flickr_-_Alexandre_Pr%C3%A9vot_%281%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Audi_RS4_-_Flickr_-_Alexandre_Pr%C3%A9vot_(1).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Alexandre Pr\u00e9vot from Nancy, France",
+        "width": 3000,
+        "height": 2000
+      }
+    ]
+  },
+  {
+    "slug": "audi-rs5-b9",
+    "car": "Audi RS5 (B9)",
+    "make": "Audi",
+    "model": "RS5",
+    "code": "B9",
+    "body": "Coupe",
+    "year": 2019,
+    "query": "Audi RS5 B9 2019",
+    "tokens": [
+      "b9",
+      "rs5"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2019 Audi RS5 Coupe TFSi Quattro Automatic 2.9.jpg",
+    "status": "ok",
+    "query_used": "pin:2019 Audi RS5 Coupe TFSi Quattro Automatic 2.9.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2019 Audi RS5 Coupe TFSi Quattro Automatic 2.9.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/2019_Audi_RS5_Coupe_TFSi_Quattro_Automatic_2.9.jpg/1920px-2019_Audi_RS5_Coupe_TFSi_Quattro_Automatic_2.9.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2019_Audi_RS5_Coupe_TFSi_Quattro_Automatic_2.9.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 4983,
+      "height": 3258
+    },
+    "alternates": []
+  },
+  {
+    "slug": "audi-rs6-avant-c8",
+    "car": "Audi RS6 Avant (C8)",
+    "make": "Audi",
+    "model": "RS6 Avant",
+    "code": "C8",
+    "body": "Wagon",
+    "year": 2021,
+    "query": "Audi RS6 Avant C8 2021",
+    "tokens": [
+      "avant",
+      "c8",
+      "rs6"
+    ],
+    "avoid": [
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "roadster",
+      "spider",
+      "spyder"
+    ],
+    "status": "ok",
+    "query_used": "Audi RS6 Avant C8 2021",
+    "pick": {
+      "score": 9.72,
+      "reasons": [
+        "tokens:avant,rs6",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2021 Audi RS6 Avant in Nardo Gray, front right.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2021_Audi_RS6_Avant_in_Nardo_Gray%2C_front_right.jpg/1920px-2021_Audi_RS6_Avant_in_Nardo_Gray%2C_front_right.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2021_Audi_RS6_Avant_in_Nardo_Gray,_front_right.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5444,
+      "height": 3604
+    },
+    "alternates": [
+      {
+        "score": 9.48,
+        "reasons": [
+          "tokens:avant,rs6",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2021 Audi RS6 Avant in Nardo Grey, Front Right, 09-04-2022.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/2021_Audi_RS6_Avant_in_Nardo_Grey%2C_Front_Right%2C_09-04-2022.jpg/1920px-2021_Audi_RS6_Avant_in_Nardo_Grey%2C_Front_Right%2C_09-04-2022.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2021_Audi_RS6_Avant_in_Nardo_Grey,_Front_Right,_09-04-2022.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Elise240SX",
+        "width": 2954,
+        "height": 2029
+      },
+      {
+        "score": 8.66,
+        "reasons": [
+          "tokens:avant,rs6",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2021 Audi RS6 Avant Nogaro Edition TFSi MHEV Quattro 4.0 Front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/2021_Audi_RS6_Avant_Nogaro_Edition_TFSi_MHEV_Quattro_4.0_Front.jpg/1920px-2021_Audi_RS6_Avant_Nogaro_Edition_TFSi_MHEV_Quattro_4.0_Front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2021_Audi_RS6_Avant_Nogaro_Edition_TFSi_MHEV_Quattro_4.0_Front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Vauxford",
+        "width": 3431,
+        "height": 1571
+      },
+      {
+        "score": 7.9,
+        "reasons": [
+          "CC0/PD",
+          "tokens:avant,c8,rs6"
+        ],
+        "title": "File:Audi RS6 Avant C8 (BK21 AXT) - 7 June 2026.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Audi_RS6_Avant_C8_%28BK21_AXT%29_-_7_June_2026.jpg/1920px-Audi_RS6_Avant_C8_%28BK21_AXT%29_-_7_June_2026.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Audi_RS6_Avant_C8_(BK21_AXT)_-_7_June_2026.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Aethonatic",
+        "width": 4700,
+        "height": 3137
+      }
+    ]
+  },
+  {
+    "slug": "audi-rs7-c7",
+    "car": "Audi RS7 (C7)",
+    "make": "Audi",
+    "model": "RS7",
+    "code": "C7",
+    "body": "Sedan",
+    "year": 2016,
+    "query": "Audi RS7 C7 2016",
+    "tokens": [
+      "c7",
+      "rs7"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Audi RS7 Sportback - prz\u00f3d (MSP16).jpg",
+    "status": "ok",
+    "query_used": "pin:Audi RS7 Sportback - prz\u00f3d (MSP16).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Audi RS7 Sportback - prz\u00f3d (MSP16).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Audi_RS7_Sportback_-_prz%C3%B3d_%28MSP16%29.jpg/1920px-Audi_RS7_Sportback_-_prz%C3%B3d_%28MSP16%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Audi_RS7_Sportback_-_prz%C3%B3d_(MSP16).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Jakub \"Flyz1\" Maciejewski",
+      "width": 5456,
+      "height": 3632
+    },
+    "alternates": []
+  },
+  {
     "slug": "audi-s3-8v",
     "car": "Audi S3 (8V)",
     "body": "Sedan",
@@ -85,6 +2614,692 @@
         "artist": "EurovisionNim",
         "width": 4237,
         "height": 2434
+      }
+    ]
+  },
+  {
+    "slug": "audi-s3-8y",
+    "car": "Audi S3 (8Y)",
+    "make": "Audi",
+    "model": "S3",
+    "code": "8Y",
+    "body": "Sedan",
+    "year": 2023,
+    "query": "Audi S3 8Y 2023",
+    "tokens": [
+      "8y",
+      "s3"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2023 Audi S3 TFSi Quattro.jpg",
+    "status": "ok",
+    "query_used": "pin:2023 Audi S3 TFSi Quattro.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2023 Audi S3 TFSi Quattro.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/2023_Audi_S3_TFSi_Quattro.jpg/1920px-2023_Audi_S3_TFSi_Quattro.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2023_Audi_S3_TFSi_Quattro.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 1924,
+      "height": 1134
+    },
+    "alternates": []
+  },
+  {
+    "slug": "audi-s4-b5",
+    "car": "Audi S4 (B5)",
+    "make": "Audi",
+    "model": "S4",
+    "code": "B5",
+    "body": "Sedan",
+    "year": 2001,
+    "query": "Audi S4 B5 2001",
+    "tokens": [
+      "b5",
+      "s4"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Audi S4 (Type B5) silver fl.jpg",
+    "status": "ok",
+    "query_used": "pin:Audi S4 (Type B5) silver fl.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Audi S4 (Type B5) silver fl.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/db/Audi_S4_%28Type_B5%29_silver_fl.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Audi_S4_(Type_B5)_silver_fl.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "Photo taken by H. Yune (en:User:Hkyune)",
+      "width": 1688,
+      "height": 1072
+    },
+    "alternates": []
+  },
+  {
+    "slug": "audi-s4-b8",
+    "car": "Audi S4 (B8)",
+    "make": "Audi",
+    "model": "S4",
+    "code": "B8",
+    "body": "Sedan",
+    "year": 2013,
+    "query": "Audi S4 B8 2013",
+    "tokens": [
+      "b8",
+      "s4"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Audi S4 B8 2013",
+    "pick": {
+      "score": 5.86,
+      "reasons": [
+        "tokens:s4",
+        "year-match"
+      ],
+      "title": "File:2013 Audi S4 (8403322591) (cropped).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/2013_Audi_S4_%288403322591%29_%28cropped%29.jpg/1920px-2013_Audi_S4_%288403322591%29_%28cropped%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2013_Audi_S4_(8403322591)_(cropped).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Sarah Larson from Ann Arbor, MI, USA",
+      "width": 2458,
+      "height": 1611
+    },
+    "alternates": [
+      {
+        "score": 5.64,
+        "reasons": [
+          "tokens:s4",
+          "year-match"
+        ],
+        "title": "File:2013 Audi S4 TFSi Quattro Auto.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/2013_Audi_S4_TFSi_Quattro_Auto.jpg/1920px-2013_Audi_S4_TFSi_Quattro_Auto.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2013_Audi_S4_TFSi_Quattro_Auto.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 2140,
+        "height": 1491
+      },
+      {
+        "score": 5.57,
+        "reasons": [
+          "tokens:s4",
+          "year-match"
+        ],
+        "title": "File:2013 Audi S4 (8403322591).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/2013_Audi_S4_%288403322591%29.jpg/1920px-2013_Audi_S4_%288403322591%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2013_Audi_S4_(8403322591).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sarah Larson from Ann Arbor, MI, USA",
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "score": 5.57,
+        "reasons": [
+          "tokens:s4",
+          "year-match"
+        ],
+        "title": "File:2013 Audi S4 (8404417598).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2013_Audi_S4_%288404417598%29.jpg/1920px-2013_Audi_S4_%288404417598%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2013_Audi_S4_(8404417598).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sarah Larson from Ann Arbor, MI, USA",
+        "width": 3264,
+        "height": 2448
+      }
+    ]
+  },
+  {
+    "slug": "audi-s5-b9",
+    "car": "Audi S5 (B9)",
+    "make": "Audi",
+    "model": "S5",
+    "code": "B9",
+    "body": "Coupe",
+    "year": 2018,
+    "query": "Audi S5 B9 2018",
+    "tokens": [
+      "b9",
+      "s5"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Audi S5 2018",
+    "pick": {
+      "score": 8.03,
+      "reasons": [
+        "tokens:s5",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2018 Audi S5 TFSi Quattro Automatic 3.0 Front (1).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/2018_Audi_S5_TFSi_Quattro_Automatic_3.0_Front_%281%29.jpg/1920px-2018_Audi_S5_TFSi_Quattro_Automatic_3.0_Front_%281%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Audi_S5_TFSi_Quattro_Automatic_3.0_Front_(1).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 4872,
+      "height": 2515
+    },
+    "alternates": [
+      {
+        "score": 7.67,
+        "reasons": [
+          "tokens:s5",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2018 Audi S5 TFSi Quattro Automatic 3.0 Front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/2018_Audi_S5_TFSi_Quattro_Automatic_3.0_Front.jpg/1920px-2018_Audi_S5_TFSi_Quattro_Automatic_3.0_Front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Audi_S5_TFSi_Quattro_Automatic_3.0_Front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Vauxford",
+        "width": 4935,
+        "height": 2334
+      },
+      {
+        "score": 7.67,
+        "reasons": [
+          "tokens:s5",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2018 Audi S5 sedan front 4.11.18.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/2018_Audi_S5_sedan_front_4.11.18.jpg/1920px-2018_Audi_S5_sedan_front_4.11.18.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Audi_S5_sedan_front_4.11.18.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kevauto",
+        "width": 4823,
+        "height": 2282
+      },
+      {
+        "score": 6.01,
+        "reasons": [
+          "tokens:s5",
+          "year-match"
+        ],
+        "title": "File:2017 Audi S5 TFSi Quattro Automatic 3.0.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/2017_Audi_S5_TFSi_Quattro_Automatic_3.0.jpg/1920px-2017_Audi_S5_TFSi_Quattro_Automatic_3.0.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2017_Audi_S5_TFSi_Quattro_Automatic_3.0.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Vauxford",
+        "width": 4304,
+        "height": 2858
+      }
+    ]
+  },
+  {
+    "slug": "audi-s6-c7",
+    "car": "Audi S6 (C7)",
+    "make": "Audi",
+    "model": "S6",
+    "code": "C7",
+    "body": "Sedan",
+    "year": 2016,
+    "query": "Audi S6 C7 2016",
+    "tokens": [
+      "c7",
+      "s6"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Audi S6 (C7) Washington DC Metro Area, USA (1).jpg",
+    "status": "ok",
+    "query_used": "pin:Audi S6 (C7) Washington DC Metro Area, USA (1).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Audi S6 (C7) Washington DC Metro Area, USA (1).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Audi_S6_%28C7%29_Washington_DC_Metro_Area%2C_USA_%281%29.jpg/1920px-Audi_S6_%28C7%29_Washington_DC_Metro_Area%2C_USA_%281%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Audi_S6_(C7)_Washington_DC_Metro_Area,_USA_(1).jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "artist": "OWS Photography",
+      "width": 2700,
+      "height": 2160
+    },
+    "alternates": []
+  },
+  {
+    "slug": "audi-sport-quattro-s1",
+    "car": "Audi Sport Quattro (S1)",
+    "make": "Audi",
+    "model": "Sport Quattro",
+    "code": "S1",
+    "body": "Coupe",
+    "year": 1985,
+    "query": "Audi Sport Quattro S1 1985",
+    "tokens": [
+      "quattro",
+      "s1",
+      "sport"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Audi Sport Quattro S1 1985",
+    "pick": {
+      "score": 9.4,
+      "reasons": [
+        "tokens:quattro,s1,sport",
+        "good-angle",
+        "year-match"
+      ],
+      "title": "File:Audi Sport Quattro S1 E2 (1985) (52856834541).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Audi_Sport_Quattro_S1_E2_%281985%29_%2852856834541%29.jpg/1920px-Audi_Sport_Quattro_S1_E2_%281985%29_%2852856834541%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Audi_Sport_Quattro_S1_E2_(1985)_(52856834541).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Charles from Port Chester, New York",
+      "width": 6000,
+      "height": 4000
+    },
+    "alternates": [
+      {
+        "score": 8.47,
+        "reasons": [
+          "tokens:quattro,s1,sport",
+          "year-match"
+        ],
+        "title": "File:1985 Audi Sport Quattro S1 (14593841423).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1985_Audi_Sport_Quattro_S1_%2814593841423%29.jpg/1920px-1985_Audi_Sport_Quattro_S1_%2814593841423%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1985_Audi_Sport_Quattro_S1_(14593841423).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "big-ashb",
+        "width": 4924,
+        "height": 3208
+      },
+      {
+        "score": 8.35,
+        "reasons": [
+          "tokens:quattro,s1,sport",
+          "year-match"
+        ],
+        "title": "File:1985 Audi Sport Quattro S1 E2 HCC23.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/1985_Audi_Sport_Quattro_S1_E2_HCC23.jpg/1920px-1985_Audi_Sport_Quattro_S1_E2_HCC23.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1985_Audi_Sport_Quattro_S1_E2_HCC23.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 4923,
+        "height": 2857
+      },
+      {
+        "score": 8.27,
+        "reasons": [
+          "tokens:quattro,s1,sport",
+          "year-match"
+        ],
+        "title": "File:1985 Audi Sport Quattro S1 2.1.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/1985_Audi_Sport_Quattro_S1_2.1.jpg/1920px-1985_Audi_Sport_Quattro_S1_2.1.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1985_Audi_Sport_Quattro_S1_2.1.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Vauxford",
+        "width": 4044,
+        "height": 2291
+      }
+    ]
+  },
+  {
+    "slug": "audi-tt-8n",
+    "car": "Audi TT (8N)",
+    "make": "Audi",
+    "model": "TT",
+    "code": "8N",
+    "body": "Coupe",
+    "year": 2001,
+    "query": "Audi TT 8N 2001",
+    "tokens": [
+      "8n",
+      "tt"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Audi TT 8N",
+    "pick": {
+      "score": 8.69,
+      "reasons": [
+        "CC0/PD",
+        "tokens:8n,tt",
+        "good-angle",
+        "front"
+      ],
+      "title": "File:Audi TT coup\u00e9 (8N) front.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Audi_TT_coup%C3%A9_%288N%29_front.JPG/1920px-Audi_TT_coup%C3%A9_%288N%29_front.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:Audi_TT_coup%C3%A9_(8N)_front.JPG",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Tokumeigakarinoaoshima",
+      "width": 2560,
+      "height": 1920
+    },
+    "alternates": [
+      {
+        "score": 8.28,
+        "reasons": [
+          "CC0/PD",
+          "tokens:8n,tt",
+          "year-match"
+        ],
+        "title": "File:2003-2006 Audi TT (8N) 1.8 T coupe (2011-11-08) 01.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/2003-2006_Audi_TT_%288N%29_1.8_T_coupe_%282011-11-08%29_01.jpg/1920px-2003-2006_Audi_TT_%288N%29_1.8_T_coupe_%282011-11-08%29_01.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2003-2006_Audi_TT_(8N)_1.8_T_coupe_(2011-11-08)_01.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "OSX",
+        "width": 3680,
+        "height": 1720
+      },
+      {
+        "score": 8.18,
+        "reasons": [
+          "CC0/PD",
+          "tokens:8n,tt",
+          "year-match"
+        ],
+        "title": "File:2003-2006 Audi TT (8N) 1.8 T coupe (2011-11-08) 02.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/2003-2006_Audi_TT_%288N%29_1.8_T_coupe_%282011-11-08%29_02.jpg/1920px-2003-2006_Audi_TT_%288N%29_1.8_T_coupe_%282011-11-08%29_02.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2003-2006_Audi_TT_(8N)_1.8_T_coupe_(2011-11-08)_02.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "OSX",
+        "width": 3708,
+        "height": 1692
+      },
+      {
+        "score": 6.32,
+        "reasons": [
+          "CC0/PD",
+          "tokens:8n,tt",
+          "good-angle",
+          "front",
+          "bad-angle"
+        ],
+        "title": "File:Audi TT 1.8T (8N) at night front.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Audi_TT_1.8T_%288N%29_at_night_front.JPG/1920px-Audi_TT_1.8T_%288N%29_at_night_front.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Audi_TT_1.8T_(8N)_at_night_front.JPG",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Tokumeigakarinoaoshima",
+        "width": 2420,
+        "height": 1716
+      }
+    ]
+  },
+  {
+    "slug": "audi-tt-rs-8s",
+    "car": "Audi TT RS (8S)",
+    "make": "Audi",
+    "model": "TT RS",
+    "code": "8S",
+    "body": "Coupe",
+    "year": 2018,
+    "query": "Audi TT RS 8S 2018",
+    "tokens": [
+      "8s",
+      "rs",
+      "tt"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Audi TT RS 8S 2018",
+    "pick": {
+      "score": 7.11,
+      "reasons": [
+        "tokens:rs,tt",
+        "year-match"
+      ],
+      "title": "File:2018 Audi TT RS Coupe.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/2018_Audi_TT_RS_Coupe.jpg/1920px-2018_Audi_TT_RS_Coupe.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Audi_TT_RS_Coupe.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 4397,
+      "height": 2517
+    },
+    "alternates": [
+      {
+        "score": 6.94,
+        "reasons": [
+          "tokens:rs,tt",
+          "year-match"
+        ],
+        "title": "File:2018 Audi TT RS TFSi Quattro Auto.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/2018_Audi_TT_RS_TFSi_Quattro_Auto.jpg/1920px-2018_Audi_TT_RS_TFSi_Quattro_Auto.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Audi_TT_RS_TFSi_Quattro_Auto.jpg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "Calreyn88",
+        "width": 3405,
+        "height": 1901
+      },
+      {
+        "score": 4.57,
+        "reasons": [
+          "tokens:rs,tt"
+        ],
+        "title": "File:Audi TT RS (32257791443).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Audi_TT_RS_%2832257791443%29.jpg/1920px-Audi_TT_RS_%2832257791443%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Audi_TT_RS_(32257791443).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Alexandre Pr\u00e9vot from Nancy, France",
+        "width": 3000,
+        "height": 2000
+      },
+      {
+        "score": 4.57,
+        "reasons": [
+          "tokens:rs,tt"
+        ],
+        "title": "File:Audi TT RS (54166666880).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Audi_TT_RS_%2854166666880%29.jpg/1920px-Audi_TT_RS_%2854166666880%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Audi_TT_RS_(54166666880).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Alexandre Prevot from Nancy, France",
+        "width": 3000,
+        "height": 2000
+      }
+    ]
+  },
+  {
+    "slug": "austin-healey-3000-mk-iii",
+    "car": "Austin-Healey 3000 (Mk III)",
+    "make": "Austin-Healey",
+    "model": "3000",
+    "code": "Mk",
+    "body": "Roadster",
+    "year": 1965,
+    "query": "Austin-Healey 3000 Mk 1965",
+    "tokens": [
+      "3000",
+      "mk"
+    ],
+    "avoid": [
+      "avant",
+      "coupe",
+      "estate",
+      "hardtop",
+      "kombi",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Austin-Healey 3000 Mk 1965",
+    "pick": {
+      "score": 7.95,
+      "reasons": [
+        "tokens:3000,mk",
+        "good-angle",
+        "year-match"
+      ],
+      "title": "File:Austin Healey 3000 Mk III (1965) - 30178344203.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Austin_Healey_3000_Mk_III_%281965%29_-_30178344203.jpg/1920px-Austin_Healey_3000_Mk_III_%281965%29_-_30178344203.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Austin_Healey_3000_Mk_III_(1965)_-_30178344203.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "SG2012",
+      "width": 2000,
+      "height": 1334
+    },
+    "alternates": [
+      {
+        "score": 7.26,
+        "reasons": [
+          "tokens:3000,mk",
+          "year-match"
+        ],
+        "title": "File:1965 Austin-Healey 3000 Mk III Phase II.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/1965_Austin-Healey_3000_Mk_III_Phase_II.jpg/1920px-1965_Austin-Healey_3000_Mk_III_Phase_II.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1965_Austin-Healey_3000_Mk_III_Phase_II.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Vauxford",
+        "width": 4405,
+        "height": 2634
+      },
+      {
+        "score": 7.26,
+        "reasons": [
+          "tokens:3000,mk",
+          "year-match"
+        ],
+        "title": "File:1965 Austin Healey 3000 MK III 2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/1965_Austin_Healey_3000_MK_III_2.jpg/1920px-1965_Austin_Healey_3000_MK_III_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1965_Austin_Healey_3000_MK_III_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 11510,
+        "height": 7532
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:3000,mk",
+          "year-match"
+        ],
+        "title": "File:1965 Austin-Healey 3000 Mk III BJ8.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/1965_Austin-Healey_3000_Mk_III_BJ8.jpg/1920px-1965_Austin-Healey_3000_Mk_III_BJ8.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1965_Austin-Healey_3000_Mk_III_BJ8.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 2843,
+        "height": 1806
       }
     ]
   },

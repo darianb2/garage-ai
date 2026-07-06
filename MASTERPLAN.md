@@ -381,6 +381,26 @@ Strategy: PERFECT 4 launch cars end-to-end, then scale the same template behind 
 
 ---
 
+## Phase 9 — Catalog imagery, brand by brand (Phase 8 paused 2026-07-06)
+
+Hero photos for ALL catalog cars (not just the 71 curated), sourced from
+Wikimedia Commons via scripts/fetch_images.py (`--makes=` mode), alphabetical
+by brand. EVERY image is (a) license-gated — CC0/PD/CC-BY/CC-BY-SA only, with
+NC/ND/GFDL explicitly blocked and pins license-checked too — and (b) reviewed
+VISUALLY before commit (the scorer's title heuristics pass rear views, race
+cars, concepts, and modified show cars that only eyes catch: 13 of 43 A-brand
+first picks failed review). Attribution auto-generated into the /credits page
+(frontend/src/data/credits.json) + public/images/CREDITS.md.
+
+- [x] A brands (2026-07-06): Abarth, Acura, Alfa Romeo, Alpine, AMC, Aston
+      Martin, Audi, Austin-Healey — 42/43 shipped after 3 review rounds
+      (Integra GS-R DC2 skipped: Commons has no acceptable free front shot;
+      the styled placeholder is better than a wrong-gen photo).
+- [ ] B brands next: Bentley, BMW (36 rows — biggest single brand), Buick.
+      Then C (Cadillac, Caterham, Chevrolet 20 rows, Chrysler) and onward.
+
+---
+
 ## Index of Files
 
 | File | Purpose |
