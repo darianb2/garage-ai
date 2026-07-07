@@ -5828,6 +5828,3170 @@
     "alternates": []
   },
   {
+    "slug": "cadillac-ats-v-gen-1",
+    "car": "Cadillac ATS-V (Gen 1)",
+    "make": "Cadillac",
+    "model": "ATS-V",
+    "code": "1",
+    "body": "Coupe",
+    "year": 2016,
+    "query": "Cadillac ATS-V 1 2016",
+    "tokens": [
+      "1",
+      "ats-v"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Cadillac ATS-V (24508373830).jpg",
+    "status": "ok",
+    "query_used": "pin:Cadillac ATS-V (24508373830).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Cadillac ATS-V (24508373830).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Cadillac_ATS-V_%2824508373830%29.jpg/1920px-Cadillac_ATS-V_%2824508373830%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Cadillac_ATS-V_(24508373830).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Jacob Frey 4A",
+      "width": 5184,
+      "height": 3456
+    },
+    "alternates": []
+  },
+  {
+    "slug": "cadillac-ct4-v-blackwing-gen-1",
+    "car": "Cadillac CT4-V Blackwing (Gen 1)",
+    "make": "Cadillac",
+    "model": "CT4-V Blackwing",
+    "code": "1",
+    "body": "Sedan",
+    "year": 2022,
+    "query": "Cadillac CT4-V Blackwing 1 2022",
+    "tokens": [
+      "1",
+      "blackwing",
+      "ct4-v"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Cadillac CT4-V Blackwing 1",
+    "pick": {
+      "score": 8.07,
+      "reasons": [
+        "tokens:1,blackwing,ct4-v",
+        "good-angle",
+        "front"
+      ],
+      "title": "File:Cadillac CT4-V Blackwing WGI23 (Front) 01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cadillac_CT4-V_Blackwing_WGI23_%28Front%29_01.jpg/1920px-Cadillac_CT4-V_Blackwing_WGI23_%28Front%29_01.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Cadillac_CT4-V_Blackwing_WGI23_(Front)_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "SmackJam",
+      "width": 4000,
+      "height": 3000
+    },
+    "alternates": [
+      {
+        "score": 6.87,
+        "reasons": [
+          "tokens:blackwing,ct4-v",
+          "good-angle",
+          "front"
+        ],
+        "title": "File:Cadillac CT4-V Blackwing WGI23 (Front) 02.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Cadillac_CT4-V_Blackwing_WGI23_%28Front%29_02.jpg/1920px-Cadillac_CT4-V_Blackwing_WGI23_%28Front%29_02.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Cadillac_CT4-V_Blackwing_WGI23_(Front)_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "SmackJam",
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "score": 6.37,
+        "reasons": [
+          "CC0/PD",
+          "tokens:blackwing,ct4-v"
+        ],
+        "title": "File:22 Cadillac CT4-V Blackwing.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/22_Cadillac_CT4-V_Blackwing.jpg/1920px-22_Cadillac_CT4-V_Blackwing.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:22_Cadillac_CT4-V_Blackwing.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "HJUdall",
+        "width": 4128,
+        "height": 3096
+      },
+      {
+        "score": 3.07,
+        "reasons": [
+          "tokens:1,blackwing,ct4-v",
+          "bad-angle"
+        ],
+        "title": "File:Cadillac CT4-V Blackwing WGI23 (Rear) 01.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Cadillac_CT4-V_Blackwing_WGI23_%28Rear%29_01.jpg/1920px-Cadillac_CT4-V_Blackwing_WGI23_%28Rear%29_01.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Cadillac_CT4-V_Blackwing_WGI23_(Rear)_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "SmackJam",
+        "width": 4000,
+        "height": 3000
+      }
+    ]
+  },
+  {
+    "slug": "cadillac-ct5-v-blackwing-gen-1",
+    "car": "Cadillac CT5-V Blackwing (Gen 1)",
+    "make": "Cadillac",
+    "model": "CT5-V Blackwing",
+    "code": "1",
+    "body": "Sedan",
+    "year": 2022,
+    "query": "Cadillac CT5-V Blackwing 1 2022",
+    "tokens": [
+      "1",
+      "blackwing",
+      "ct5-v"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Cadillac CT5-V Blackwing 1 2022",
+    "pick": {
+      "score": 9.49,
+      "reasons": [
+        "tokens:blackwing,ct5-v",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2022 Cadillac CT5-V Blackwing in Dark Emerald Frost, front left.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/2022_Cadillac_CT5-V_Blackwing_in_Dark_Emerald_Frost%2C_front_left.jpg/1920px-2022_Cadillac_CT5-V_Blackwing_in_Dark_Emerald_Frost%2C_front_left.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2022_Cadillac_CT5-V_Blackwing_in_Dark_Emerald_Frost,_front_left.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5087,
+      "height": 2821
+    },
+    "alternates": [
+      {
+        "score": 4.48,
+        "reasons": [
+          "tokens:blackwing,ct5-v",
+          "bad-angle",
+          "year-match"
+        ],
+        "title": "File:2022 Cadillac CT5-V Blackwing in Dark Emerald Frost, rear left.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/2022_Cadillac_CT5-V_Blackwing_in_Dark_Emerald_Frost%2C_rear_left.jpg/1920px-2022_Cadillac_CT5-V_Blackwing_in_Dark_Emerald_Frost%2C_rear_left.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2022_Cadillac_CT5-V_Blackwing_in_Dark_Emerald_Frost,_rear_left.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Mr.choppers",
+        "width": 5062,
+        "height": 2797
+      }
+    ]
+  },
+  {
+    "slug": "cadillac-cts-v-gen-2",
+    "car": "Cadillac CTS-V (Gen 2)",
+    "make": "Cadillac",
+    "model": "CTS-V",
+    "code": "2",
+    "body": "Sedan",
+    "year": 2009,
+    "query": "Cadillac CTS-V 2 2009",
+    "tokens": [
+      "2",
+      "cts-v"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Cadillac CTS-V 2 2009",
+    "pick": {
+      "score": 8.1,
+      "reasons": [
+        "CC0/PD",
+        "tokens:2,cts-v",
+        "year-match"
+      ],
+      "title": "File:Cadillac CTS-V 2 -- 08-25-2009.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Cadillac_CTS-V_2_--_08-25-2009.jpg/1920px-Cadillac_CTS-V_2_--_08-25-2009.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Cadillac_CTS-V_2_--_08-25-2009.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "IFCAR",
+      "width": 2328,
+      "height": 1086
+    },
+    "alternates": [
+      {
+        "score": 7.0,
+        "reasons": [
+          "tokens:2,cts-v",
+          "year-match"
+        ],
+        "title": "File:2009 Cadillac CTS-V North American International Auto Show Detroit 2008 188 N (2225247846).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/2009_Cadillac_CTS-V_North_American_International_Auto_Show_Detroit_2008_188_N_%282225247846%29.jpg/1920px-2009_Cadillac_CTS-V_North_American_International_Auto_Show_Detroit_2008_188_N_%282225247846%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2009_Cadillac_CTS-V_North_American_International_Auto_Show_Detroit_2008_188_N_(2225247846).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Joe Ross from Lansing, Michigan",
+        "width": 2256,
+        "height": 1496
+      },
+      {
+        "score": 7.0,
+        "reasons": [
+          "tokens:2,cts-v",
+          "year-match"
+        ],
+        "title": "File:2009 Cadillac CTS-V North American International Auto Show Detroit 2008 189 N (2224457323).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/2009_Cadillac_CTS-V_North_American_International_Auto_Show_Detroit_2008_189_N_%282224457323%29.jpg/1920px-2009_Cadillac_CTS-V_North_American_International_Auto_Show_Detroit_2008_189_N_%282224457323%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2009_Cadillac_CTS-V_North_American_International_Auto_Show_Detroit_2008_189_N_(2224457323).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Joe Ross from Lansing, Michigan",
+        "width": 2256,
+        "height": 1496
+      },
+      {
+        "score": 7.0,
+        "reasons": [
+          "tokens:2,cts-v",
+          "year-match"
+        ],
+        "title": "File:2009 Cadillac CTS-V North American International Auto Show Detroit 2008 190 N (2224458829).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/2009_Cadillac_CTS-V_North_American_International_Auto_Show_Detroit_2008_190_N_%282224458829%29.jpg/1920px-2009_Cadillac_CTS-V_North_American_International_Auto_Show_Detroit_2008_190_N_%282224458829%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2009_Cadillac_CTS-V_North_American_International_Auto_Show_Detroit_2008_190_N_(2224458829).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Joe Ross from Lansing, Michigan",
+        "width": 2256,
+        "height": 1496
+      }
+    ]
+  },
+  {
+    "slug": "cadillac-escalade-v-5th-gen",
+    "car": "Cadillac Escalade (V (5th Gen))",
+    "make": "Cadillac",
+    "model": "Escalade",
+    "code": "V",
+    "body": "SUV",
+    "year": 2023,
+    "query": "Cadillac Escalade V 2023",
+    "tokens": [
+      "escalade",
+      "v"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Cadillac Escalade V 2023",
+    "pick": {
+      "score": 9.06,
+      "reasons": [
+        "CC0/PD",
+        "tokens:escalade,v",
+        "year-match"
+      ],
+      "title": "File:23 Cadillac Escalade-V Base - Scottsdale AZ 2024 (cropped).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/23_Cadillac_Escalade-V_Base_-_Scottsdale_AZ_2024_%28cropped%29.jpg/1920px-23_Cadillac_Escalade-V_Base_-_Scottsdale_AZ_2024_%28cropped%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:23_Cadillac_Escalade-V_Base_-_Scottsdale_AZ_2024_(cropped).jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "HJUdall",
+      "width": 3113,
+      "height": 2093
+    },
+    "alternates": [
+      {
+        "score": 8.87,
+        "reasons": [
+          "CC0/PD",
+          "tokens:escalade,v",
+          "year-match"
+        ],
+        "title": "File:23 Cadillac Escalade-V Base - Scottsdale AZ 2024.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/23_Cadillac_Escalade-V_Base_-_Scottsdale_AZ_2024.jpg/1920px-23_Cadillac_Escalade-V_Base_-_Scottsdale_AZ_2024.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:23_Cadillac_Escalade-V_Base_-_Scottsdale_AZ_2024.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "HJUdall",
+        "width": 4128,
+        "height": 3096
+      },
+      {
+        "score": 8.73,
+        "reasons": [
+          "CC0/PD",
+          "tokens:escalade,v",
+          "year-match"
+        ],
+        "title": "File:2023 Cadillac Escalade V au SIAM 2023.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/2023_Cadillac_Escalade_V_au_SIAM_2023.JPG/1920px-2023_Cadillac_Escalade_V_au_SIAM_2023.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:2023_Cadillac_Escalade_V_au_SIAM_2023.JPG",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 2793,
+        "height": 2081
+      },
+      {
+        "score": 6.37,
+        "reasons": [
+          "CC0/PD",
+          "tokens:escalade,v"
+        ],
+        "title": "File:23 Cadillac Escalade-V Base (1).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/23_Cadillac_Escalade-V_Base_%281%29.jpg/1920px-23_Cadillac_Escalade-V_Base_%281%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:23_Cadillac_Escalade-V_Base_(1).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "HJUdall",
+        "width": 4128,
+        "height": 3096
+      }
+    ]
+  },
+  {
+    "slug": "cadillac-xlr-v",
+    "car": "Cadillac XLR (V)",
+    "make": "Cadillac",
+    "model": "XLR",
+    "code": "V",
+    "body": "Roadster",
+    "year": 2006,
+    "query": "Cadillac XLR V 2006",
+    "tokens": [
+      "v",
+      "xlr"
+    ],
+    "avoid": [
+      "avant",
+      "coupe",
+      "estate",
+      "hardtop",
+      "kombi",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Cadillac XLR V 2006",
+    "pick": {
+      "score": 9.81,
+      "reasons": [
+        "tokens:v,xlr",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2006 Cadillac XLR-V, front left, 09-27-2025.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/2006_Cadillac_XLR-V%2C_front_left%2C_09-27-2025.jpg/1920px-2006_Cadillac_XLR-V%2C_front_left%2C_09-27-2025.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2006_Cadillac_XLR-V,_front_left,_09-27-2025.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MercurySable99",
+      "width": 4191,
+      "height": 2546
+    },
+    "alternates": [
+      {
+        "score": 7.25,
+        "reasons": [
+          "tokens:v,xlr",
+          "year-match"
+        ],
+        "title": "File:Cadillac XLR-V (2006) (53995558250).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Cadillac_XLR-V_%282006%29_%2853995558250%29.jpg/1920px-Cadillac_XLR-V_%282006%29_%2853995558250%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Cadillac_XLR-V_(2006)_(53995558250).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 5533,
+        "height": 3626
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:v,xlr",
+          "year-match"
+        ],
+        "title": "File:Cadillac XLR-V (2006) (53995558305).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Cadillac_XLR-V_%282006%29_%2853995558305%29.jpg/1920px-Cadillac_XLR-V_%282006%29_%2853995558305%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Cadillac_XLR-V_(2006)_(53995558305).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 5915,
+        "height": 3943
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:v,xlr",
+          "year-match"
+        ],
+        "title": "File:Cadillac XLR-V (2006) (54091584633).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Cadillac_XLR-V_%282006%29_%2854091584633%29.jpg/1920px-Cadillac_XLR-V_%282006%29_%2854091584633%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Cadillac_XLR-V_(2006)_(54091584633).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 6000,
+        "height": 4000
+      }
+    ]
+  },
+  {
+    "slug": "caterham-seven-620r",
+    "car": "Caterham Seven (620R)",
+    "make": "Caterham",
+    "model": "Seven",
+    "code": "620R",
+    "body": "Roadster",
+    "year": 2015,
+    "query": "Caterham Seven 620R 2015",
+    "tokens": [
+      "620r",
+      "seven"
+    ],
+    "avoid": [
+      "avant",
+      "coupe",
+      "estate",
+      "hardtop",
+      "kombi",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2020 Caterham Seven 620R.jpg",
+    "status": "ok",
+    "query_used": "pin:2020 Caterham Seven 620R.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2020 Caterham Seven 620R.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/2020_Caterham_Seven_620R.jpg/1920px-2020_Caterham_Seven_620R.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2020_Caterham_Seven_620R.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 3429,
+      "height": 2582
+    },
+    "alternates": []
+  },
+  {
+    "slug": "chevrolet-bolt-euv",
+    "car": "Chevrolet Bolt (EUV)",
+    "make": "Chevrolet",
+    "model": "Bolt",
+    "code": "EUV",
+    "body": "Hatch",
+    "year": 2022,
+    "query": "Chevrolet Bolt EUV 2022",
+    "tokens": [
+      "bolt",
+      "euv"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Bolt EUV 2022",
+    "pick": {
+      "score": 9.72,
+      "reasons": [
+        "tokens:bolt,euv",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2022 Chevrolet Bolt EUV, front 8.26.23.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2022_Chevrolet_Bolt_EUV%2C_front_8.26.23.jpg/1920px-2022_Chevrolet_Bolt_EUV%2C_front_8.26.23.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2022_Chevrolet_Bolt_EUV,_front_8.26.23.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 3047,
+      "height": 1943
+    },
+    "alternates": [
+      {
+        "score": 9.44,
+        "reasons": [
+          "tokens:bolt,euv",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2022 Chevrolet Bolt EUV (Canada) front view.png",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2a/2022_Chevrolet_Bolt_EUV_%28Canada%29_front_view.png",
+        "page": "https://commons.wikimedia.org/wiki/File:2022_Chevrolet_Bolt_EUV_(Canada)_front_view.png",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "ChevroletCanada",
+        "width": 1920,
+        "height": 1278
+      },
+      {
+        "score": 9.0,
+        "reasons": [
+          "CC0/PD",
+          "tokens:bolt,euv",
+          "year-match"
+        ],
+        "title": "File:2022-2024 Chevrolet Bolt EUV \u00c9nergir.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bc/2022-2024_Chevrolet_Bolt_EUV_%C3%89nergir.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:2022-2024_Chevrolet_Bolt_EUV_%C3%89nergir.JPG",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 1321,
+        "height": 809
+      },
+      {
+        "score": 8.48,
+        "reasons": [
+          "CC0/PD",
+          "tokens:bolt,euv",
+          "year-match"
+        ],
+        "title": "File:2022-2024 Chevrolet Bolt EUV SPVM.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3a/2022-2024_Chevrolet_Bolt_EUV_SPVM.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2022-2024_Chevrolet_Bolt_EUV_SPVM.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 1493,
+        "height": 785
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-camaro-iroc-z",
+    "car": "Chevrolet Camaro (IROC-Z)",
+    "make": "Chevrolet",
+    "model": "Camaro",
+    "code": "IROC-Z",
+    "body": "Coupe",
+    "year": 1988,
+    "query": "Chevrolet Camaro IROC-Z 1988",
+    "tokens": [
+      "camaro",
+      "iroc-z"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Camaro IROC-Z 1988",
+    "pick": {
+      "score": 7.34,
+      "reasons": [
+        "tokens:camaro,iroc-z",
+        "year-match"
+      ],
+      "title": "File:1987 Chevrolet Camaro IROC-Z Z28 (26713251112) (cropped).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/1987_Chevrolet_Camaro_IROC-Z_Z28_%2826713251112%29_%28cropped%29.jpg/1920px-1987_Chevrolet_Camaro_IROC-Z_Z28_%2826713251112%29_%28cropped%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1987_Chevrolet_Camaro_IROC-Z_Z28_(26713251112)_(cropped).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Sicnag",
+      "width": 4511,
+      "height": 2765
+    },
+    "alternates": [
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:camaro,iroc-z",
+          "year-match"
+        ],
+        "title": "File:1987 Chevrolet Camaro IROC-Z Z28 (26713251112).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/1987_Chevrolet_Camaro_IROC-Z_Z28_%2826713251112%29.jpg/1920px-1987_Chevrolet_Camaro_IROC-Z_Z28_%2826713251112%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1987_Chevrolet_Camaro_IROC-Z_Z28_(26713251112).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sicnag",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "score": 7.0,
+        "reasons": [
+          "tokens:camaro",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:1988 Chevrolet Camaro IROC Z (16049843437).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/1988_Chevrolet_Camaro_IROC_Z_%2816049843437%29.jpg/1920px-1988_Chevrolet_Camaro_IROC_Z_%2816049843437%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1988_Chevrolet_Camaro_IROC_Z_(16049843437).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sicnag",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "score": 6.93,
+        "reasons": [
+          "tokens:camaro,iroc-z",
+          "year-match"
+        ],
+        "title": "File:1988 Chevrolet Camaro 5.0 V8 Iroc-Z.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/1988_Chevrolet_Camaro_5.0_V8_Iroc-Z.jpg/1920px-1988_Chevrolet_Camaro_5.0_V8_Iroc-Z.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1988_Chevrolet_Camaro_5.0_V8_Iroc-Z.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Kieran White from Manchester, England",
+        "width": 3072,
+        "height": 1728
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-camaro-ss-396-2nd-gen",
+    "car": "Chevrolet Camaro (SS 396 (2nd Gen))",
+    "make": "Chevrolet",
+    "model": "Camaro",
+    "code": "396",
+    "body": "Coupe",
+    "year": 1970,
+    "query": "Chevrolet Camaro 396 1970",
+    "tokens": [
+      "396",
+      "camaro"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1971 Camaro SS (10).jpg",
+    "status": "ok",
+    "query_used": "pin:1971 Camaro SS (10).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1971 Camaro SS (10).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/1971_Camaro_SS_%2810%29.jpg/1920px-1971_Camaro_SS_%2810%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1971_Camaro_SS_(10).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "cars cars cars Florida",
+      "width": 2592,
+      "height": 1944
+    },
+    "alternates": []
+  },
+  {
+    "slug": "chevrolet-camaro-ss-6th-gen",
+    "car": "Chevrolet Camaro (SS (6th Gen))",
+    "make": "Chevrolet",
+    "model": "Camaro",
+    "code": "SS",
+    "body": "Coupe",
+    "year": 2016,
+    "query": "Chevrolet Camaro SS 2016",
+    "tokens": [
+      "camaro",
+      "ss"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2016 Chevrolet Camaro 2SS.jpg",
+    "status": "ok",
+    "query_used": "pin:2016 Chevrolet Camaro 2SS.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2016 Chevrolet Camaro 2SS.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2016_Chevrolet_Camaro_2SS.jpg/1920px-2016_Chevrolet_Camaro_2SS.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2016_Chevrolet_Camaro_2SS.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "HRYMX from United States of America",
+      "width": 4492,
+      "height": 3040
+    },
+    "alternates": []
+  },
+  {
+    "slug": "chevrolet-camaro-z-28",
+    "car": "Chevrolet Camaro (Z/28)",
+    "make": "Chevrolet",
+    "model": "Camaro",
+    "code": "28",
+    "body": "Coupe",
+    "year": 1969,
+    "query": "Chevrolet Camaro 28 1969",
+    "tokens": [
+      "28",
+      "camaro"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Camaro 28 1969",
+    "pick": {
+      "score": 9.47,
+      "reasons": [
+        "tokens:28,camaro",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:1969 Chevrolet Camaro Z28 Rally Sport, front right, 09-09-2023.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/1969_Chevrolet_Camaro_Z28_Rally_Sport%2C_front_right%2C_09-09-2023.jpg/1920px-1969_Chevrolet_Camaro_Z28_Rally_Sport%2C_front_right%2C_09-09-2023.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1969_Chevrolet_Camaro_Z28_Rally_Sport,_front_right,_09-09-2023.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MercurySable99",
+      "width": 5144,
+      "height": 2834
+    },
+    "alternates": [
+      {
+        "score": 9.28,
+        "reasons": [
+          "CC0/PD",
+          "tokens:28,camaro",
+          "year-match"
+        ],
+        "title": "File:Chevrolet Camaro Z 28 Coup\u00e9 (1969) (55221050175).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Chevrolet_Camaro_Z_28_Coup%C3%A9_%281969%29_%2855221050175%29.jpg/1920px-Chevrolet_Camaro_Z_28_Coup%C3%A9_%281969%29_%2855221050175%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Camaro_Z_28_Coup%C3%A9_(1969)_(55221050175).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Charles from Port Chester, New York",
+        "width": 5883,
+        "height": 3824
+      },
+      {
+        "score": 9.2,
+        "reasons": [
+          "CC0/PD",
+          "tokens:28,camaro",
+          "year-match"
+        ],
+        "title": "File:1969 Chevrolet Camaro Z 28 Pro Street (52558337400).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/1969_Chevrolet_Camaro_Z_28_Pro_Street_%2852558337400%29.jpg/1920px-1969_Chevrolet_Camaro_Z_28_Pro_Street_%2852558337400%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1969_Chevrolet_Camaro_Z_28_Pro_Street_(52558337400).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Mustang Joe",
+        "width": 4668,
+        "height": 3116
+      },
+      {
+        "score": 9.2,
+        "reasons": [
+          "CC0/PD",
+          "tokens:28,camaro",
+          "year-match"
+        ],
+        "title": "File:Chevrolet Camaro Z 28 Coup\u00e9 (1969) (55221050205).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Chevrolet_Camaro_Z_28_Coup%C3%A9_%281969%29_%2855221050205%29.jpg/1920px-Chevrolet_Camaro_Z_28_Coup%C3%A9_%281969%29_%2855221050205%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Camaro_Z_28_Coup%C3%A9_(1969)_(55221050205).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Charles from Port Chester, New York",
+        "width": 5588,
+        "height": 3725
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-camaro-z-28-5th-gen",
+    "car": "Chevrolet Camaro (Z/28 (5th Gen))",
+    "make": "Chevrolet",
+    "model": "Camaro",
+    "code": "28",
+    "body": "Coupe",
+    "year": 2014,
+    "query": "Chevrolet Camaro 28 2014",
+    "tokens": [
+      "28",
+      "camaro"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Chevrolet Camaro Z28 Hirschaid 2022-20220709-RM-120103 (cropped).jpg",
+    "status": "ok",
+    "query_used": "pin:Chevrolet Camaro Z28 Hirschaid 2022-20220709-RM-120103 (cropped).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Chevrolet Camaro Z28 Hirschaid 2022-20220709-RM-120103 (cropped).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Chevrolet_Camaro_Z28_Hirschaid_2022-20220709-RM-120103_%28cropped%29.jpg/1920px-Chevrolet_Camaro_Z28_Hirschaid_2022-20220709-RM-120103_%28cropped%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Camaro_Z28_Hirschaid_2022-20220709-RM-120103_(cropped).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Ermell",
+      "width": 3619,
+      "height": 1740
+    },
+    "alternates": []
+  },
+  {
+    "slug": "chevrolet-camaro-zl1",
+    "car": "Chevrolet Camaro (ZL1)",
+    "make": "Chevrolet",
+    "model": "Camaro",
+    "code": "ZL1",
+    "body": "Coupe",
+    "year": 2018,
+    "query": "Chevrolet Camaro ZL1 2018",
+    "tokens": [
+      "camaro",
+      "zl1"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Camaro ZL1 2018",
+    "pick": {
+      "score": 9.2,
+      "reasons": [
+        "CC0/PD",
+        "tokens:camaro,zl1",
+        "year-match"
+      ],
+      "title": "File:2018 Chevrolet Camaro ZL1 1LE (53776084528).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/2018_Chevrolet_Camaro_ZL1_1LE_%2853776084528%29.jpg/1920px-2018_Chevrolet_Camaro_ZL1_1LE_%2853776084528%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Chevrolet_Camaro_ZL1_1LE_(53776084528).jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Mustang Joe",
+      "width": 5328,
+      "height": 3557
+    },
+    "alternates": [
+      {
+        "score": 8.87,
+        "reasons": [
+          "CC0/PD",
+          "tokens:camaro,zl1",
+          "year-match"
+        ],
+        "title": "File:2018 ZL1 Camaro (1).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/2018_ZL1_Camaro_%281%29.jpg/1920px-2018_ZL1_Camaro_%281%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_ZL1_Camaro_(1).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Kodjo 71",
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "score": 8.87,
+        "reasons": [
+          "CC0/PD",
+          "tokens:camaro,zl1",
+          "year-match"
+        ],
+        "title": "File:2018 ZL1 Camaro (2).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/2018_ZL1_Camaro_%282%29.jpg/1920px-2018_ZL1_Camaro_%282%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_ZL1_Camaro_(2).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Kodjo 71",
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "score": 7.19,
+        "reasons": [
+          "tokens:camaro,zl1",
+          "year-match"
+        ],
+        "title": "File:Chevrolet Camaro ZL1 LE 2018 at Legendy 2019 in Prague.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Chevrolet_Camaro_ZL1_LE_2018_at_Legendy_2019_in_Prague.jpg/1920px-Chevrolet_Camaro_ZL1_LE_2018_at_Legendy_2019_in_Prague.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Camaro_ZL1_LE_2018_at_Legendy_2019_in_Prague.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Ji\u0159\u00ed Sedl\u00e1\u010dek",
+        "width": 3888,
+        "height": 2592
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-chevelle-ss-454",
+    "car": "Chevrolet Chevelle (SS 454)",
+    "make": "Chevrolet",
+    "model": "Chevelle",
+    "code": "454",
+    "body": "Coupe",
+    "year": 1970,
+    "query": "Chevrolet Chevelle 454 1970",
+    "tokens": [
+      "454",
+      "chevelle"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Chevelle 454 1970",
+    "pick": {
+      "score": 9.2,
+      "reasons": [
+        "CC0/PD",
+        "tokens:454,chevelle",
+        "year-match"
+      ],
+      "title": "File:1970 Chevelle SS 454 (20452211479).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/1970_Chevelle_SS_454_%2820452211479%29.jpg/1920px-1970_Chevelle_SS_454_%2820452211479%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1970_Chevelle_SS_454_(20452211479).jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Mustang Joe",
+      "width": 5615,
+      "height": 3748
+    },
+    "alternates": [
+      {
+        "score": 9.2,
+        "reasons": [
+          "CC0/PD",
+          "tokens:454,chevelle",
+          "year-match"
+        ],
+        "title": "File:Chevrolet Chevelle SS 454 LS6 (1970) (55220899684).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Chevrolet_Chevelle_SS_454_LS6_%281970%29_%2855220899684%29.jpg/1920px-Chevrolet_Chevelle_SS_454_LS6_%281970%29_%2855220899684%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Chevelle_SS_454_LS6_(1970)_(55220899684).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Charles from Port Chester, New York",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "score": 7.8,
+        "reasons": [
+          "tokens:454,chevelle",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:1970 Chevrolet Chevelle SS454 Sports Coupe (8343895415).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/1970_Chevrolet_Chevelle_SS454_Sports_Coupe_%288343895415%29.jpg/1920px-1970_Chevrolet_Chevelle_SS454_Sports_Coupe_%288343895415%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1970_Chevrolet_Chevelle_SS454_Sports_Coupe_(8343895415).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sicnag",
+        "width": 3456,
+        "height": 2592
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:454,chevelle",
+          "year-match"
+        ],
+        "title": "File:1970 Chevrolet Chevelle SS454 (15748244098).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/1970_Chevrolet_Chevelle_SS454_%2815748244098%29.jpg/1920px-1970_Chevrolet_Chevelle_SS454_%2815748244098%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1970_Chevrolet_Chevelle_SS454_(15748244098).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sicnag",
+        "width": 5184,
+        "height": 3456
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-cobalt-ss-supercharged-turbo",
+    "car": "Chevrolet Cobalt SS (Supercharged/Turbo)",
+    "make": "Chevrolet",
+    "model": "Cobalt SS",
+    "code": "Supercharged",
+    "body": "Coupe",
+    "year": 2008,
+    "query": "Chevrolet Cobalt SS Supercharged 2008",
+    "tokens": [
+      "cobalt",
+      "ss",
+      "supercharged"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Cobalt SS 2008",
+    "pick": {
+      "score": 8.43,
+      "reasons": [
+        "CC0/PD",
+        "tokens:cobalt,ss",
+        "year-match"
+      ],
+      "title": "File:2008 Chevrolet Cobalt SS sedan.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8a/2008_Chevrolet_Cobalt_SS_sedan.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2008_Chevrolet_Cobalt_SS_sedan.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "IFCAR",
+      "width": 1727,
+      "height": 889
+    },
+    "alternates": [
+      {
+        "score": 6.17,
+        "reasons": [
+          "CC0/PD",
+          "tokens:cobalt,ss"
+        ],
+        "title": "File:'08 Chevrolet Cobalt SS Coupe.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/%2708_Chevrolet_Cobalt_SS_Coupe.JPG/1920px-%2708_Chevrolet_Cobalt_SS_Coupe.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:%2708_Chevrolet_Cobalt_SS_Coupe.JPG",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 2297,
+        "height": 1713
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-colorado-zr2-3rd-gen",
+    "car": "Chevrolet Colorado (ZR2 (3rd Gen))",
+    "make": "Chevrolet",
+    "model": "Colorado",
+    "code": "ZR2",
+    "body": "Truck",
+    "year": 2023,
+    "query": "Chevrolet Colorado ZR2 2023",
+    "tokens": [
+      "colorado",
+      "zr2"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2024 Chevrolet Colorado ZR2, front right, 07-18-2024.jpg",
+    "status": "ok",
+    "query_used": "pin:2024 Chevrolet Colorado ZR2, front right, 07-18-2024.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2024 Chevrolet Colorado ZR2, front right, 07-18-2024.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/2024_Chevrolet_Colorado_ZR2%2C_front_right%2C_07-18-2024.jpg/1920px-2024_Chevrolet_Colorado_ZR2%2C_front_right%2C_07-18-2024.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2024_Chevrolet_Colorado_ZR2,_front_right,_07-18-2024.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MercurySable99",
+      "width": 4680,
+      "height": 3616
+    },
+    "alternates": []
+  },
+  {
+    "slug": "chevrolet-corvette-c1",
+    "car": "Chevrolet Corvette (C1)",
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "code": "C1",
+    "body": "Roadster",
+    "year": 1962,
+    "query": "Chevrolet Corvette C1 1962",
+    "tokens": [
+      "c1",
+      "corvette"
+    ],
+    "avoid": [
+      "avant",
+      "coupe",
+      "estate",
+      "hardtop",
+      "kombi",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1962 Chevrolet C1 Corvette Roadster (21327773141).jpg",
+    "status": "ok",
+    "query_used": "pin:1962 Chevrolet C1 Corvette Roadster (21327773141).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1962 Chevrolet C1 Corvette Roadster (21327773141).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/1962_Chevrolet_C1_Corvette_Roadster_%2821327773141%29.jpg/1920px-1962_Chevrolet_C1_Corvette_Roadster_%2821327773141%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1962_Chevrolet_C1_Corvette_Roadster_(21327773141).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Sicnag",
+      "width": 5184,
+      "height": 3456
+    },
+    "alternates": []
+  },
+  {
+    "slug": "chevrolet-corvette-c2-sting-ray",
+    "car": "Chevrolet Corvette (C2 Sting Ray)",
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "code": "C2",
+    "body": "Coupe",
+    "year": 1966,
+    "query": "Chevrolet Corvette C2 1966",
+    "tokens": [
+      "c2",
+      "corvette"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Corvette C2 1966",
+    "pick": {
+      "score": 7.35,
+      "reasons": [
+        "tokens:c2,corvette",
+        "year-match"
+      ],
+      "title": "File:1966 Chevrolet Corvette C2 1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/1966_Chevrolet_Corvette_C2_1.jpg/1920px-1966_Chevrolet_Corvette_C2_1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1966_Chevrolet_Corvette_C2_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 3824,
+      "height": 2414
+    },
+    "alternates": [
+      {
+        "score": 7.31,
+        "reasons": [
+          "tokens:c2,corvette",
+          "year-match"
+        ],
+        "title": "File:1966 Chevrolet Corvette C2 Stingray LC24.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/1966_Chevrolet_Corvette_C2_Stingray_LC24.jpg/1920px-1966_Chevrolet_Corvette_C2_Stingray_LC24.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1966_Chevrolet_Corvette_C2_Stingray_LC24.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 3336,
+        "height": 2083
+      },
+      {
+        "score": 7.22,
+        "reasons": [
+          "tokens:c2,corvette",
+          "year-match"
+        ],
+        "title": "File:1966 Chevrolet Corvette C2 LC24.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/1966_Chevrolet_Corvette_C2_LC24.jpg/1920px-1966_Chevrolet_Corvette_C2_LC24.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1966_Chevrolet_Corvette_C2_LC24.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 3022,
+        "height": 1856
+      },
+      {
+        "score": 7.19,
+        "reasons": [
+          "tokens:c2,corvette",
+          "year-match"
+        ],
+        "title": "File:1966 Chevrolet Corvette C2 2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/1966_Chevrolet_Corvette_C2_2.jpg/1920px-1966_Chevrolet_Corvette_C2_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1966_Chevrolet_Corvette_C2_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 3514,
+        "height": 2302
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-corvette-c3-stingray",
+    "car": "Chevrolet Corvette (C3 Stingray)",
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "code": "C3",
+    "body": "Coupe",
+    "year": 1973,
+    "query": "Chevrolet Corvette C3 1973",
+    "tokens": [
+      "c3",
+      "corvette"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Corvette C3 1973",
+    "pick": {
+      "score": 7.2,
+      "reasons": [
+        "tokens:c3,corvette",
+        "year-match"
+      ],
+      "title": "File:1973 Chevrolet C3 Corvette Coupe (16185129591).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/1973_Chevrolet_C3_Corvette_Coupe_%2816185129591%29.jpg/1920px-1973_Chevrolet_C3_Corvette_Coupe_%2816185129591%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1973_Chevrolet_C3_Corvette_Coupe_(16185129591).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Sicnag",
+      "width": 5184,
+      "height": 3456
+    },
+    "alternates": [
+      {
+        "score": 7.05,
+        "reasons": [
+          "tokens:c3,corvette",
+          "year-match"
+        ],
+        "title": "File:W3910 Chevrolet Corvette C3 1973 14381XA2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/W3910_Chevrolet_Corvette_C3_1973_14381XA2.jpg/1920px-W3910_Chevrolet_Corvette_C3_1973_14381XA2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:W3910_Chevrolet_Corvette_C3_1973_14381XA2.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Llann W\u00e9\u00b2",
+        "width": 5984,
+        "height": 3376
+      },
+      {
+        "score": 6.93,
+        "reasons": [
+          "tokens:c3,corvette",
+          "year-match"
+        ],
+        "title": "File:1973 Chevrolet Corvette C3 Stingray (8891752530).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f1/1973_Chevrolet_Corvette_C3_Stingray_%288891752530%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1973_Chevrolet_Corvette_C3_Stingray_(8891752530).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Niels de Wit from Lunteren, The Netherlands",
+        "width": 1600,
+        "height": 1056
+      },
+      {
+        "score": 6.8,
+        "reasons": [
+          "tokens:c3,corvette",
+          "year-match"
+        ],
+        "title": "File:1973 Chevrolet Corvette C3 Coupe.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/1973_Chevrolet_Corvette_C3_Coupe.jpg/1920px-1973_Chevrolet_Corvette_C3_Coupe.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1973_Chevrolet_Corvette_C3_Coupe.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sicnag",
+        "width": 3456,
+        "height": 2592
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-corvette-c4-zr-1",
+    "car": "Chevrolet Corvette (C4 ZR-1)",
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "code": "C4",
+    "body": "Coupe",
+    "year": 1991,
+    "query": "Chevrolet Corvette C4 1991",
+    "tokens": [
+      "c4",
+      "corvette"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1990 Chevrolet Corvette ZR1.jpg",
+    "status": "ok",
+    "query_used": "pin:1990 Chevrolet Corvette ZR1.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1990 Chevrolet Corvette ZR1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/1990_Chevrolet_Corvette_ZR1.jpg/1920px-1990_Chevrolet_Corvette_ZR1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1990_Chevrolet_Corvette_ZR1.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Eric Friedebach",
+      "width": 4128,
+      "height": 2322
+    },
+    "alternates": []
+  },
+  {
+    "slug": "chevrolet-corvette-c5-z06",
+    "car": "Chevrolet Corvette (C5 Z06)",
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "code": "C5",
+    "body": "Coupe",
+    "year": 2002,
+    "query": "Chevrolet Corvette C5 2002",
+    "tokens": [
+      "c5",
+      "corvette"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Corvette C5 2002",
+    "pick": {
+      "score": 9.2,
+      "reasons": [
+        "CC0/PD",
+        "tokens:c5,corvette",
+        "year-match"
+      ],
+      "title": "File:Chevrolet Corvette Z06 Coup\u00e9 (C5, 2002) (54802322623).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Chevrolet_Corvette_Z06_Coup%C3%A9_%28C5%2C_2002%29_%2854802322623%29.jpg/1920px-Chevrolet_Corvette_Z06_Coup%C3%A9_%28C5%2C_2002%29_%2854802322623%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_Z06_Coup%C3%A9_(C5,_2002)_(54802322623).jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Charles from Port Chester, New York",
+      "width": 5738,
+      "height": 3825
+    },
+    "alternates": [
+      {
+        "score": 8.62,
+        "reasons": [
+          "tokens:corvette",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2002 Chevrolet Corvette coupe, front left, 06-06-2026.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/2002_Chevrolet_Corvette_coupe%2C_front_left%2C_06-06-2026.jpg/1920px-2002_Chevrolet_Corvette_coupe%2C_front_left%2C_06-06-2026.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2002_Chevrolet_Corvette_coupe,_front_left,_06-06-2026.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MercurySable99",
+        "width": 3758,
+        "height": 2314
+      },
+      {
+        "score": 7.47,
+        "reasons": [
+          "tokens:corvette",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2002 Chevrolet Corvette, Front Right, 10-02-2020.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/2002_Chevrolet_Corvette%2C_Front_Right%2C_10-02-2020.jpg/1920px-2002_Chevrolet_Corvette%2C_Front_Right%2C_10-02-2020.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2002_Chevrolet_Corvette,_Front_Right,_10-02-2020.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "SsmIntrigue",
+        "width": 3024,
+        "height": 1404
+      },
+      {
+        "score": 6.78,
+        "reasons": [
+          "tokens:c5,corvette",
+          "year-match"
+        ],
+        "title": "File:Chevrolet Corvette C5-R - Kelly Collins, Andy Pilgrim & Franck Freon at Karting at the 2002 Le Mans (54294257972).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Chevrolet_Corvette_C5-R_-_Kelly_Collins%2C_Andy_Pilgrim_%26_Franck_Freon_at_Karting_at_the_2002_Le_Mans_%2854294257972%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_C5-R_-_Kelly_Collins,_Andy_Pilgrim_%26_Franck_Freon_at_Karting_at_the_2002_Le_Mans_(54294257972).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Martin Lee from London, UK",
+        "width": 1296,
+        "height": 744
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-corvette-c6-z06",
+    "car": "Chevrolet Corvette (C6 Z06)",
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "code": "C6",
+    "body": "Coupe",
+    "year": 2008,
+    "query": "Chevrolet Corvette C6 2008",
+    "tokens": [
+      "c6",
+      "corvette"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "'07 Chevrolet Corvette Z06.jpg",
+    "status": "ok",
+    "query_used": "pin:'07 Chevrolet Corvette Z06.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:'07 Chevrolet Corvette Z06.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/%2707_Chevrolet_Corvette_Z06.jpg/1920px-%2707_Chevrolet_Corvette_Z06.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:%2707_Chevrolet_Corvette_Z06.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "Bull-Doser",
+      "width": 2470,
+      "height": 1620
+    },
+    "alternates": []
+  },
+  {
+    "slug": "chevrolet-corvette-c7-stingray",
+    "car": "Chevrolet Corvette (C7 Stingray)",
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "code": "C7",
+    "body": "Coupe",
+    "year": 2016,
+    "query": "Chevrolet Corvette C7 2016",
+    "tokens": [
+      "c7",
+      "corvette"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2016 Chevrolet Corvette Stingray coupe, front left, 06-06-2026.jpg",
+    "status": "ok",
+    "query_used": "pin:2016 Chevrolet Corvette Stingray coupe, front left, 06-06-2026.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2016 Chevrolet Corvette Stingray coupe, front left, 06-06-2026.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/2016_Chevrolet_Corvette_Stingray_coupe%2C_front_left%2C_06-06-2026.jpg/1920px-2016_Chevrolet_Corvette_Stingray_coupe%2C_front_left%2C_06-06-2026.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2016_Chevrolet_Corvette_Stingray_coupe,_front_left,_06-06-2026.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MercurySable99",
+      "width": 3468,
+      "height": 2278
+    },
+    "alternates": []
+  },
+  {
+    "slug": "chevrolet-corvette-c7-zr1",
+    "car": "Chevrolet Corvette (C7 ZR1)",
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "code": "C7",
+    "body": "Coupe",
+    "year": 2019,
+    "query": "Chevrolet Corvette C7 2019",
+    "tokens": [
+      "c7",
+      "corvette"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Corvette C7 2019",
+    "pick": {
+      "score": 7.4,
+      "reasons": [
+        "tokens:c7,corvette",
+        "year-match"
+      ],
+      "title": "File:2019 Chevrolet Corvette C7 ZR1 2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Chevrolet_Corvette_C7_ZR1_2.jpg/1920px-2019_Chevrolet_Corvette_C7_ZR1_2.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2019_Chevrolet_Corvette_C7_ZR1_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 16320,
+      "height": 10200
+    },
+    "alternates": [
+      {
+        "score": 7.28,
+        "reasons": [
+          "tokens:c7,corvette",
+          "year-match"
+        ],
+        "title": "File:2019 Chevrolet Corvette C7 ZR1 3.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/2019_Chevrolet_Corvette_C7_ZR1_3.jpg/1920px-2019_Chevrolet_Corvette_C7_ZR1_3.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2019_Chevrolet_Corvette_C7_ZR1_3.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 16320,
+        "height": 9826
+      },
+      {
+        "score": 7.09,
+        "reasons": [
+          "tokens:c7,corvette",
+          "year-match"
+        ],
+        "title": "File:2019 Chevrolet Corvette C7 ZR1.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/2019_Chevrolet_Corvette_C7_ZR1.jpg/1920px-2019_Chevrolet_Corvette_C7_ZR1.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2019_Chevrolet_Corvette_C7_ZR1.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 8160,
+        "height": 5656
+      },
+      {
+        "score": 7.02,
+        "reasons": [
+          "tokens:c7,corvette",
+          "year-match"
+        ],
+        "title": "File:2019 Chevrolet Corvette C7 ZR1 LC24.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/2019_Chevrolet_Corvette_C7_ZR1_LC24.jpg/1920px-2019_Chevrolet_Corvette_C7_ZR1_LC24.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2019_Chevrolet_Corvette_C7_ZR1_LC24.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 4680,
+        "height": 2613
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-corvette-c8-stingray",
+    "car": "Chevrolet Corvette (C8 Stingray)",
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "code": "C8",
+    "body": "Coupe",
+    "year": 2020,
+    "query": "Chevrolet Corvette C8 2020",
+    "tokens": [
+      "c8",
+      "corvette"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Corvette C8 2020",
+    "pick": {
+      "score": 11.7,
+      "reasons": [
+        "CC0/PD",
+        "tokens:c8,corvette",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2020 Chevrolet Corvette (C8) front view.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/2020_Chevrolet_Corvette_%28C8%29_front_view.jpg/1920px-2020_Chevrolet_Corvette_%28C8%29_front_view.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2020_Chevrolet_Corvette_(C8)_front_view.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Mustang Joe",
+      "width": 6016,
+      "height": 4016
+    },
+    "alternates": [
+      {
+        "score": 6.79,
+        "reasons": [
+          "tokens:c8,corvette",
+          "year-match"
+        ],
+        "title": "File:2020 Chevrolet Corvette C8 (white).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/2020_Chevrolet_Corvette_C8_%28white%29.jpg/1920px-2020_Chevrolet_Corvette_C8_%28white%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Chevrolet_Corvette_C8_(white).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Oleg Yunakov",
+        "width": 5712,
+        "height": 2998
+      },
+      {
+        "score": 6.69,
+        "reasons": [
+          "tokens:c8,corvette",
+          "year-match"
+        ],
+        "title": "File:2020 Corvette C8.R at Amelia Island Concours d\u2019Elegance.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/2020_Corvette_C8.R_at_Amelia_Island_Concours_d%E2%80%99Elegance.jpg/1920px-2020_Corvette_C8.R_at_Amelia_Island_Concours_d%E2%80%99Elegance.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Corvette_C8.R_at_Amelia_Island_Concours_d%E2%80%99Elegance.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MN",
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "score": 4.19,
+        "reasons": [
+          "tokens:c8,corvette",
+          "bad-angle",
+          "year-match"
+        ],
+        "title": "File:2020 corvette c8 rear wheel.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/2020_corvette_c8_rear_wheel.jpg/1920px-2020_corvette_c8_rear_wheel.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_corvette_c8_rear_wheel.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MN",
+        "width": 2592,
+        "height": 1944
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-corvette-c8-z06",
+    "car": "Chevrolet Corvette (C8 Z06)",
+    "make": "Chevrolet",
+    "model": "Corvette",
+    "code": "C8",
+    "body": "Coupe",
+    "year": 2023,
+    "query": "Chevrolet Corvette C8 2023",
+    "tokens": [
+      "c8",
+      "corvette"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Chevrolet Corvette Z06 (C8, 2023) (53797860737).jpg",
+    "status": "ok",
+    "query_used": "pin:Chevrolet Corvette Z06 (C8, 2023) (53797860737).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Chevrolet Corvette Z06 (C8, 2023) (53797860737).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Chevrolet_Corvette_Z06_%28C8%2C_2023%29_%2853797860737%29.jpg/1920px-Chevrolet_Corvette_Z06_%28C8%2C_2023%29_%2853797860737%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Corvette_Z06_(C8,_2023)_(53797860737).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Charles from Port Chester, New York",
+      "width": 5468,
+      "height": 3645
+    },
+    "alternates": []
+  },
+  {
+    "slug": "chevrolet-cruze-2nd-gen-d2xx",
+    "car": "Chevrolet Cruze (2nd Gen (D2XX))",
+    "make": "Chevrolet",
+    "model": "Cruze",
+    "code": "",
+    "body": "Sedan",
+    "year": 2016,
+    "query": "Chevrolet Cruze 2016",
+    "tokens": [
+      "cruze"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Cruze 2016",
+    "pick": {
+      "score": 8.41,
+      "reasons": [
+        "tokens:cruze",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2016 Chevrolet Cruze 1.8 LT in Olympic White, front left, 06-15-2024.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/2016_Chevrolet_Cruze_1.8_LT_in_Olympic_White%2C_front_left%2C_06-15-2024.jpg/1920px-2016_Chevrolet_Cruze_1.8_LT_in_Olympic_White%2C_front_left%2C_06-15-2024.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2016_Chevrolet_Cruze_1.8_LT_in_Olympic_White,_front_left,_06-15-2024.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Ethan Llamas",
+      "width": 5506,
+      "height": 3784
+    },
+    "alternates": [
+      {
+        "score": 8.36,
+        "reasons": [
+          "tokens:cruze",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2016 SAIC-GM-Chevrolet Cruze CN-spec, front 8.4.18.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/2016_SAIC-GM-Chevrolet_Cruze_CN-spec%2C_front_8.4.18.jpg/1920px-2016_SAIC-GM-Chevrolet_Cruze_CN-spec%2C_front_8.4.18.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2016_SAIC-GM-Chevrolet_Cruze_CN-spec,_front_8.4.18.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kevauto",
+        "width": 4361,
+        "height": 2463
+      },
+      {
+        "score": 8.24,
+        "reasons": [
+          "tokens:cruze",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2016 Chevrolet Cruze Limited 1LT, front left, 07-11-2024.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/2016_Chevrolet_Cruze_Limited_1LT%2C_front_left%2C_07-11-2024.jpg/1920px-2016_Chevrolet_Cruze_Limited_1LT%2C_front_left%2C_07-11-2024.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2016_Chevrolet_Cruze_Limited_1LT,_front_left,_07-11-2024.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MercurySable99",
+        "width": 4227,
+        "height": 3082
+      },
+      {
+        "score": 5.83,
+        "reasons": [
+          "tokens:cruze",
+          "year-match"
+        ],
+        "title": "File:Chevrolet Cruze J400 CN China 2016-04-04.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/83/Chevrolet_Cruze_J400_CN_China_2016-04-04.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Cruze_J400_CN_China_2016-04-04.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Navigator84",
+        "width": 1300,
+        "height": 804
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-el-camino-ss-454",
+    "car": "Chevrolet El Camino (SS 454)",
+    "make": "Chevrolet",
+    "model": "El Camino",
+    "code": "454",
+    "body": "Truck",
+    "year": 1970,
+    "query": "Chevrolet El Camino 454 1970",
+    "tokens": [
+      "454",
+      "camino",
+      "el"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2022 Downtown West Allis Classic Car Show 030 (1970 Chevrolet El Camino SS).jpg",
+    "status": "ok",
+    "query_used": "pin:2022 Downtown West Allis Classic Car Show 030 (1970 Chevrolet El Camino SS).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2022 Downtown West Allis Classic Car Show 030 (1970 Chevrolet El Camino SS).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/2022_Downtown_West_Allis_Classic_Car_Show_030_%281970_Chevrolet_El_Camino_SS%29.jpg/1920px-2022_Downtown_West_Allis_Classic_Car_Show_030_%281970_Chevrolet_El_Camino_SS%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2022_Downtown_West_Allis_Classic_Car_Show_030_(1970_Chevrolet_El_Camino_SS).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Michael Barera",
+      "width": 6000,
+      "height": 4000
+    },
+    "alternates": []
+  },
+  {
+    "slug": "chevrolet-equinox-3rd-gen",
+    "car": "Chevrolet Equinox (3rd Gen)",
+    "make": "Chevrolet",
+    "model": "Equinox",
+    "code": "",
+    "body": "SUV",
+    "year": 2018,
+    "query": "Chevrolet Equinox 2018",
+    "tokens": [
+      "equinox"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Equinox 2018",
+    "pick": {
+      "score": 8.69,
+      "reasons": [
+        "tokens:equinox",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2018 Chevrolet Equinox front 1.22.19.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/2018_Chevrolet_Equinox_front_1.22.19.jpg/1920px-2018_Chevrolet_Equinox_front_1.22.19.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Chevrolet_Equinox_front_1.22.19.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 4674,
+      "height": 2916
+    },
+    "alternates": [
+      {
+        "score": 8.53,
+        "reasons": [
+          "tokens:equinox",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2018 Chevrolet Equinox LT, front 3.24.19.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/2018_Chevrolet_Equinox_LT%2C_front_3.24.19.jpg/1920px-2018_Chevrolet_Equinox_LT%2C_front_3.24.19.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Chevrolet_Equinox_LT,_front_3.24.19.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kevauto",
+        "width": 4700,
+        "height": 2788
+      },
+      {
+        "score": 7.45,
+        "reasons": [
+          "CC0/PD",
+          "tokens:equinox",
+          "year-match"
+        ],
+        "title": "File:2018 Chevrolet Equinox au SIAM 2018.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/2018_Chevrolet_Equinox_au_SIAM_2018.jpg/1920px-2018_Chevrolet_Equinox_au_SIAM_2018.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Chevrolet_Equinox_au_SIAM_2018.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 3361,
+        "height": 2657
+      },
+      {
+        "score": 7.24,
+        "reasons": [
+          "tokens:equinox",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2018 Chevrolet Equinox LT, Front Left, 10-09-2020.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/2018_Chevrolet_Equinox_LT%2C_Front_Left%2C_10-09-2020.jpg/1920px-2018_Chevrolet_Equinox_LT%2C_Front_Left%2C_10-09-2020.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Chevrolet_Equinox_LT,_Front_Left,_10-09-2020.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "SsmIntrigue",
+        "width": 3108,
+        "height": 1368
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-impala-10th-gen",
+    "car": "Chevrolet Impala (10th Gen)",
+    "make": "Chevrolet",
+    "model": "Impala",
+    "code": "",
+    "body": "Sedan",
+    "year": 2014,
+    "query": "Chevrolet Impala 2014",
+    "tokens": [
+      "impala"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Impala 2014",
+    "pick": {
+      "score": 5.92,
+      "reasons": [
+        "tokens:impala",
+        "year-match"
+      ],
+      "title": "File:2014 Chevy Impala Europe.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/2014_Chevy_Impala_Europe.jpg/1920px-2014_Chevy_Impala_Europe.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2014_Chevy_Impala_Europe.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Greg Gjerdingen",
+      "width": 3341,
+      "height": 2223
+    },
+    "alternates": [
+      {
+        "score": 5.65,
+        "reasons": [
+          "tokens:impala",
+          "year-match"
+        ],
+        "title": "File:Chevrolet Impala (2014\u20132020) 1X7A7175.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Chevrolet_Impala_%282014%E2%80%932020%29_1X7A7175.jpg/1920px-Chevrolet_Impala_%282014%E2%80%932020%29_1X7A7175.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Impala_(2014%E2%80%932020)_1X7A7175.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alexander-93",
+        "width": 5584,
+        "height": 2975
+      },
+      {
+        "score": 5.27,
+        "reasons": [
+          "tokens:impala",
+          "year-match"
+        ],
+        "title": "File:Chevrolet Impala (2014\u20132020) 1X7A7173.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Chevrolet_Impala_%282014%E2%80%932020%29_1X7A7173.jpg/1920px-Chevrolet_Impala_%282014%E2%80%932020%29_1X7A7173.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Impala_(2014%E2%80%932020)_1X7A7173.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alexander-93",
+        "width": 5005,
+        "height": 2424
+      },
+      {
+        "score": 5.17,
+        "reasons": [
+          "CC0/PD",
+          "tokens:impala"
+        ],
+        "title": "File:15 Chevrolet Impala LS.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/15_Chevrolet_Impala_LS.jpg/1920px-15_Chevrolet_Impala_LS.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:15_Chevrolet_Impala_LS.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "HJUdall",
+        "width": 4128,
+        "height": 3096
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-impala-ss-lt1",
+    "car": "Chevrolet Impala (SS (LT1))",
+    "make": "Chevrolet",
+    "model": "Impala",
+    "code": "SS",
+    "body": "Sedan",
+    "year": 1996,
+    "query": "Chevrolet Impala SS 1996",
+    "tokens": [
+      "impala",
+      "ss"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Impala SS 1996",
+    "pick": {
+      "score": 9.63,
+      "reasons": [
+        "tokens:impala,ss",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:1996 Chevrolet Impala SS, front right (Cruisin' the River Lowellville Car Show, June 19th, 2023).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/1996_Chevrolet_Impala_SS%2C_front_right_%28Cruisin%27_the_River_Lowellville_Car_Show%2C_June_19th%2C_2023%29.jpg/1920px-1996_Chevrolet_Impala_SS%2C_front_right_%28Cruisin%27_the_River_Lowellville_Car_Show%2C_June_19th%2C_2023%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1996_Chevrolet_Impala_SS,_front_right_(Cruisin%27_the_River_Lowellville_Car_Show,_June_19th,_2023).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MercurySable99",
+      "width": 4749,
+      "height": 2734
+    },
+    "alternates": [
+      {
+        "score": 9.58,
+        "reasons": [
+          "tokens:impala,ss",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:1996 Chevrolet Impala SS in Dark Cherry Metallic, Front Right (St. Ignace 2023).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1996_Chevrolet_Impala_SS_in_Dark_Cherry_Metallic%2C_Front_Right_%28St._Ignace_2023%29.jpg/1920px-1996_Chevrolet_Impala_SS_in_Dark_Cherry_Metallic%2C_Front_Right_%28St._Ignace_2023%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1996_Chevrolet_Impala_SS_in_Dark_Cherry_Metallic,_Front_Right_(St._Ignace_2023).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Elise240SX",
+        "width": 3821,
+        "height": 2634
+      },
+      {
+        "score": 7.24,
+        "reasons": [
+          "tokens:impala,ss",
+          "year-match"
+        ],
+        "title": "File:1995 Chevrolet Impala SS 1.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/1995_Chevrolet_Impala_SS_1.jpg/1920px-1995_Chevrolet_Impala_SS_1.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1995_Chevrolet_Impala_SS_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 3759,
+        "height": 2258
+      },
+      {
+        "score": 6.87,
+        "reasons": [
+          "tokens:impala,ss",
+          "year-match"
+        ],
+        "title": "File:1996 Chevrolet Impala SS, Mecum Auctions Kissimmee 2024.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/1996_Chevrolet_Impala_SS%2C_Mecum_Auctions_Kissimmee_2024.jpg/1920px-1996_Chevrolet_Impala_SS%2C_Mecum_Auctions_Kissimmee_2024.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1996_Chevrolet_Impala_SS,_Mecum_Auctions_Kissimmee_2024.jpg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "Pokemonprime",
+        "width": 4032,
+        "height": 3024
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-malibu-9th-gen-e2xx",
+    "car": "Chevrolet Malibu (9th Gen (E2XX))",
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "code": "",
+    "body": "Sedan",
+    "year": 2016,
+    "query": "Chevrolet Malibu 2016",
+    "tokens": [
+      "malibu"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Malibu 2016",
+    "pick": {
+      "score": 8.41,
+      "reasons": [
+        "tokens:malibu",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2016 Chevrolet Malibu 2.4 LTZ, front right, 06-21-2024.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/2016_Chevrolet_Malibu_2.4_LTZ%2C_front_right%2C_06-21-2024.jpg/1920px-2016_Chevrolet_Malibu_2.4_LTZ%2C_front_right%2C_06-21-2024.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2016_Chevrolet_Malibu_2.4_LTZ,_front_right,_06-21-2024.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Ethan Llamas",
+      "width": 4936,
+      "height": 3394
+    },
+    "alternates": [
+      {
+        "score": 8.32,
+        "reasons": [
+          "tokens:malibu",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:Chevrolet Malibu front-right 2016 Auto China.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Chevrolet_Malibu_front-right_2016_Auto_China.jpg/1920px-Chevrolet_Malibu_front-right_2016_Auto_China.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Malibu_front-right_2016_Auto_China.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Morio",
+        "width": 2560,
+        "height": 1707
+      },
+      {
+        "score": 8.32,
+        "reasons": [
+          "tokens:malibu",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:Chevrolet Malibu front 2016 Auto China.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Chevrolet_Malibu_front_2016_Auto_China.jpg/1920px-Chevrolet_Malibu_front_2016_Auto_China.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Malibu_front_2016_Auto_China.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Morio",
+        "width": 2560,
+        "height": 1706
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:malibu",
+          "year-match"
+        ],
+        "title": "File:1965 Chevrolet Malibu SS Fox Island Car Show 2016 06.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/1965_Chevrolet_Malibu_SS_Fox_Island_Car_Show_2016_06.jpg/1920px-1965_Chevrolet_Malibu_SS_Fox_Island_Car_Show_2016_06.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1965_Chevrolet_Malibu_SS_Fox_Island_Car_Show_2016_06.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Thorsten Lindner",
+        "width": 5184,
+        "height": 3456
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-nova-ss-396",
+    "car": "Chevrolet Nova (SS 396)",
+    "make": "Chevrolet",
+    "model": "Nova",
+    "code": "396",
+    "body": "Coupe",
+    "year": 1970,
+    "query": "Chevrolet Nova 396 1970",
+    "tokens": [
+      "396",
+      "nova"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1969 Chevrolet Nova SS 396 in Burnished Brown Poly, Front Right, 06-11-2022.jpg",
+    "status": "ok",
+    "query_used": "pin:1969 Chevrolet Nova SS 396 in Burnished Brown Poly, Front Right, 06-11-2022.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1969 Chevrolet Nova SS 396 in Burnished Brown Poly, Front Right, 06-11-2022.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/1969_Chevrolet_Nova_SS_396_in_Burnished_Brown_Poly%2C_Front_Right%2C_06-11-2022.jpg/1920px-1969_Chevrolet_Nova_SS_396_in_Burnished_Brown_Poly%2C_Front_Right%2C_06-11-2022.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1969_Chevrolet_Nova_SS_396_in_Burnished_Brown_Poly,_Front_Right,_06-11-2022.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Elise240SX",
+      "width": 3930,
+      "height": 2308
+    },
+    "alternates": []
+  },
+  {
+    "slug": "chevrolet-spark-2nd-gen-m400",
+    "car": "Chevrolet Spark (2nd Gen (M400))",
+    "make": "Chevrolet",
+    "model": "Spark",
+    "code": "",
+    "body": "Hatch",
+    "year": 2016,
+    "query": "Chevrolet Spark 2016",
+    "tokens": [
+      "spark"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Spark 2016",
+    "pick": {
+      "score": 8.57,
+      "reasons": [
+        "tokens:spark",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2016\u20132018 Chevrolet Spark LS (United States) front view.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2016%E2%80%932018_Chevrolet_Spark_LS_%28United_States%29_front_view.jpg/1920px-2016%E2%80%932018_Chevrolet_Spark_LS_%28United_States%29_front_view.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2016%E2%80%932018_Chevrolet_Spark_LS_(United_States)_front_view.jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "artist": "AJM STUDIOS",
+      "width": 3669,
+      "height": 2230
+    },
+    "alternates": [
+      {
+        "score": 8.39,
+        "reasons": [
+          "tokens:spark",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2015 Chevrolet Spark ev, left front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2015_Chevrolet_Spark_ev%2C_left_front.jpg/1920px-2015_Chevrolet_Spark_ev%2C_left_front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2015_Chevrolet_Spark_ev,_left_front.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Mr.choppers",
+        "width": 5004,
+        "height": 3468
+      },
+      {
+        "score": 8.33,
+        "reasons": [
+          "tokens:spark",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2016 Chevrolet Spark LS in Silver Ice Metallic, front left, 2024-11-14.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/2016_Chevrolet_Spark_LS_in_Silver_Ice_Metallic%2C_front_left%2C_2024-11-14.jpg/1920px-2016_Chevrolet_Spark_LS_in_Silver_Ice_Metallic%2C_front_left%2C_2024-11-14.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2016_Chevrolet_Spark_LS_in_Silver_Ice_Metallic,_front_left,_2024-11-14.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Elise240SX",
+        "width": 4009,
+        "height": 2829
+      },
+      {
+        "score": 8.25,
+        "reasons": [
+          "tokens:spark",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2016\u20132018 Chevrolet Spark LS (United States) front view (cropped).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/2016%E2%80%932018_Chevrolet_Spark_LS_%28United_States%29_front_view_%28cropped%29.jpg/1920px-2016%E2%80%932018_Chevrolet_Spark_LS_%28United_States%29_front_view_%28cropped%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2016%E2%80%932018_Chevrolet_Spark_LS_(United_States)_front_view_(cropped).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "AJM STUDIOS",
+        "width": 3209,
+        "height": 1806
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-ss-holden-based",
+    "car": "Chevrolet SS (Holden-based)",
+    "make": "Chevrolet",
+    "model": "SS",
+    "code": "Holden-based",
+    "body": "Sedan",
+    "year": 2015,
+    "query": "Chevrolet SS Holden-based 2015",
+    "tokens": [
+      "holden-based",
+      "ss"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2014 Chevrolet SS front.png",
+    "status": "ok",
+    "query_used": "pin:2014 Chevrolet SS front.png",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2014 Chevrolet SS front.png",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5e/2014_Chevrolet_SS_front.png",
+      "page": "https://commons.wikimedia.org/wiki/File:2014_Chevrolet_SS_front.png",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "artist": "That Hartford Guy",
+      "width": 1200,
+      "height": 800
+    },
+    "alternates": []
+  },
+  {
+    "slug": "chevrolet-tahoe-rst-5th-gen",
+    "car": "Chevrolet Tahoe (RST (5th Gen))",
+    "make": "Chevrolet",
+    "model": "Tahoe",
+    "code": "RST",
+    "body": "SUV",
+    "year": 2021,
+    "query": "Chevrolet Tahoe RST 2021",
+    "tokens": [
+      "rst",
+      "tahoe"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Tahoe 2021",
+    "pick": {
+      "score": 8.41,
+      "reasons": [
+        "tokens:tahoe",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2021 Chevrolet Tahoe High Country, front 12.24.20.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/2021_Chevrolet_Tahoe_High_Country%2C_front_12.24.20.jpg/1920px-2021_Chevrolet_Tahoe_High_Country%2C_front_12.24.20.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2021_Chevrolet_Tahoe_High_Country,_front_12.24.20.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 3126,
+      "height": 1851
+    },
+    "alternates": [
+      {
+        "score": 8.16,
+        "reasons": [
+          "tokens:tahoe",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2021 Chevrolet Tahoe front view (United States).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/2021_Chevrolet_Tahoe_front_view_%28United_States%29.jpg/1920px-2021_Chevrolet_Tahoe_front_view_%28United_States%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2021_Chevrolet_Tahoe_front_view_(United_States).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Gold Pony",
+        "width": 2714,
+        "height": 1518
+      },
+      {
+        "score": 8.05,
+        "reasons": [
+          "tokens:tahoe",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2021 Chevrolet Tahoe front view (2; United States).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/dd/2021_Chevrolet_Tahoe_front_view_%282%3B_United_States%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2021_Chevrolet_Tahoe_front_view_(2;_United_States).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Gold Pony",
+        "width": 1916,
+        "height": 1067
+      },
+      {
+        "score": 6.05,
+        "reasons": [
+          "tokens:tahoe",
+          "year-match"
+        ],
+        "title": "File:2021 Chevrolet Tahoe at the 2020 Canadian International Auto Show.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/2021_Chevrolet_Tahoe_at_the_2020_Canadian_International_Auto_Show.jpg/1920px-2021_Chevrolet_Tahoe_at_the_2020_Canadian_International_Auto_Show.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2021_Chevrolet_Tahoe_at_the_2020_Canadian_International_Auto_Show.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "CChanSonichu",
+        "width": 3405,
+        "height": 2077
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-traverse-2nd-gen-c1xx",
+    "car": "Chevrolet Traverse (2nd Gen (C1XX))",
+    "make": "Chevrolet",
+    "model": "Traverse",
+    "code": "",
+    "body": "SUV",
+    "year": 2018,
+    "query": "Chevrolet Traverse 2018",
+    "tokens": [
+      "traverse"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Traverse 2018",
+    "pick": {
+      "score": 8.3,
+      "reasons": [
+        "tokens:traverse",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2018 Chevrolet Traverse front 3.17.18.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/2018_Chevrolet_Traverse_front_3.17.18.jpg/1920px-2018_Chevrolet_Traverse_front_3.17.18.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Chevrolet_Traverse_front_3.17.18.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 4912,
+      "height": 2732
+    },
+    "alternates": [
+      {
+        "score": 7.84,
+        "reasons": [
+          "CC0/PD",
+          "tokens:traverse",
+          "year-match"
+        ],
+        "title": "File:2018 Chevrolet Traverse au SIAM 2018.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/2018_Chevrolet_Traverse_au_SIAM_2018.jpg/1920px-2018_Chevrolet_Traverse_au_SIAM_2018.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Chevrolet_Traverse_au_SIAM_2018.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 3289,
+        "height": 2249
+      },
+      {
+        "score": 7.8,
+        "reasons": [
+          "tokens:traverse",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2018 Chevrolet Traverse LT, front 8.11.18.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/2018_Chevrolet_Traverse_LT%2C_front_8.11.18.jpg/1920px-2018_Chevrolet_Traverse_LT%2C_front_8.11.18.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Chevrolet_Traverse_LT,_front_8.11.18.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kevauto",
+        "width": 5142,
+        "height": 2511
+      },
+      {
+        "score": 6.19,
+        "reasons": [
+          "tokens:traverse",
+          "year-match"
+        ],
+        "title": "File:Chevrolet Traverse 3.6 Premier AWD 2018 (39089515502).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Chevrolet_Traverse_3.6_Premier_AWD_2018_%2839089515502%29.jpg/1920px-Chevrolet_Traverse_3.6_Premier_AWD_2018_%2839089515502%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Traverse_3.6_Premier_AWD_2018_(39089515502).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "RL GNZLZ from Chile",
+        "width": 4000,
+        "height": 2489
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-trax-2nd-gen",
+    "car": "Chevrolet Trax (2nd Gen)",
+    "make": "Chevrolet",
+    "model": "Trax",
+    "code": "",
+    "body": "SUV",
+    "year": 2024,
+    "query": "Chevrolet Trax 2024",
+    "tokens": [
+      "trax"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Trax 2024",
+    "pick": {
+      "score": 8.65,
+      "reasons": [
+        "tokens:trax",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2024 Chevrolet Trax 2RS, front left, 12-10-2023.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/2024_Chevrolet_Trax_2RS%2C_front_left%2C_12-10-2023.jpg/1920px-2024_Chevrolet_Trax_2RS%2C_front_left%2C_12-10-2023.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2024_Chevrolet_Trax_2RS,_front_left,_12-10-2023.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MercurySable99",
+      "width": 4484,
+      "height": 2761
+    },
+    "alternates": [
+      {
+        "score": 8.42,
+        "reasons": [
+          "tokens:trax",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2024 Chevrolet Trax ACTIV, front left, 07-12-2023.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/2024_Chevrolet_Trax_ACTIV%2C_front_left%2C_07-12-2023.jpg/1920px-2024_Chevrolet_Trax_ACTIV%2C_front_left%2C_07-12-2023.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2024_Chevrolet_Trax_ACTIV,_front_left,_07-12-2023.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MercurySable99",
+        "width": 4581,
+        "height": 2631
+      },
+      {
+        "score": 8.28,
+        "reasons": [
+          "tokens:trax",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2024 Chevrolet Trax LS, front right, 05-26-2024.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/2024_Chevrolet_Trax_LS%2C_front_right%2C_05-26-2024.jpg/1920px-2024_Chevrolet_Trax_LS%2C_front_right%2C_05-26-2024.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2024_Chevrolet_Trax_LS,_front_right,_05-26-2024.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MercurySable99",
+        "width": 4251,
+        "height": 3063
+      },
+      {
+        "score": 8.26,
+        "reasons": [
+          "tokens:trax",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2024 Chevrolet Trax 1.2 LT in Jinx Metallic, front right, 06-09-2024.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/2024_Chevrolet_Trax_1.2_LT_in_Jinx_Metallic%2C_front_right%2C_06-09-2024.jpg/1920px-2024_Chevrolet_Trax_1.2_LT_in_Jinx_Metallic%2C_front_right%2C_06-09-2024.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2024_Chevrolet_Trax_1.2_LT_in_Jinx_Metallic,_front_right,_06-09-2024.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Ethan Llamas",
+        "width": 5120,
+        "height": 3712
+      }
+    ]
+  },
+  {
+    "slug": "chevrolet-volt-2nd-gen",
+    "car": "Chevrolet Volt (2nd Gen)",
+    "make": "Chevrolet",
+    "model": "Volt",
+    "code": "",
+    "body": "Hatch",
+    "year": 2017,
+    "query": "Chevrolet Volt 2017",
+    "tokens": [
+      "volt"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chevrolet Volt 2017",
+    "pick": {
+      "score": 6.84,
+      "reasons": [
+        "tokens:volt",
+        "good-angle",
+        "year-match"
+      ],
+      "title": "File:Chevrolet Volt WAS 2017 1734.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Chevrolet_Volt_WAS_2017_1734.jpg/1920px-Chevrolet_Volt_WAS_2017_1734.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Volt_WAS_2017_1734.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Mariordo (Mario Roberto Dur\u00e1n Ortiz)",
+      "width": 2700,
+      "height": 1800
+    },
+    "alternates": [
+      {
+        "score": 5.88,
+        "reasons": [
+          "tokens:volt",
+          "year-match"
+        ],
+        "title": "File:Chevrolet Volt WAS 2017 1522.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Chevrolet_Volt_WAS_2017_1522.jpg/1920px-Chevrolet_Volt_WAS_2017_1522.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Volt_WAS_2017_1522.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Mariordo (Mario Roberto Dur\u00e1n Ortiz)",
+        "width": 3000,
+        "height": 2000
+      },
+      {
+        "score": 5.88,
+        "reasons": [
+          "tokens:volt",
+          "year-match"
+        ],
+        "title": "File:Chevrolet Volt WAS 2017 1526.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Chevrolet_Volt_WAS_2017_1526.jpg/1920px-Chevrolet_Volt_WAS_2017_1526.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Volt_WAS_2017_1526.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Mariordo (Mario Roberto Dur\u00e1n Ortiz)",
+        "width": 3000,
+        "height": 2000
+      },
+      {
+        "score": 5.88,
+        "reasons": [
+          "tokens:volt",
+          "year-match"
+        ],
+        "title": "File:Chevrolet Volt WAS 2017 1559.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Chevrolet_Volt_WAS_2017_1559.jpg/1920px-Chevrolet_Volt_WAS_2017_1559.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Chevrolet_Volt_WAS_2017_1559.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Mariordo (Mario Roberto Dur\u00e1n Ortiz)",
+        "width": 3000,
+        "height": 2000
+      }
+    ]
+  },
+  {
+    "slug": "chrysler-300-300c-srt8",
+    "car": "Chrysler 300 (300C SRT8)",
+    "make": "Chrysler",
+    "model": "300",
+    "code": "300C",
+    "body": "Sedan",
+    "year": 2008,
+    "query": "Chrysler 300 300C 2008",
+    "tokens": [
+      "300",
+      "300c"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2008 Chrysler 300C SRT-8 sedan (19601667854).jpg",
+    "status": "ok",
+    "query_used": "pin:2008 Chrysler 300C SRT-8 sedan (19601667854).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2008 Chrysler 300C SRT-8 sedan (19601667854).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/2008_Chrysler_300C_SRT-8_sedan_%2819601667854%29.jpg/1920px-2008_Chrysler_300C_SRT-8_sedan_%2819601667854%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2008_Chrysler_300C_SRT-8_sedan_(19601667854).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Jeremy from Sydney, Australia",
+      "width": 4752,
+      "height": 3168
+    },
+    "alternates": []
+  },
+  {
+    "slug": "chrysler-crossfire-srt-6",
+    "car": "Chrysler Crossfire (SRT-6)",
+    "make": "Chrysler",
+    "model": "Crossfire",
+    "code": "SRT-6",
+    "body": "Coupe",
+    "year": 2005,
+    "query": "Chrysler Crossfire SRT-6 2005",
+    "tokens": [
+      "crossfire",
+      "srt-6"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chrysler Crossfire SRT-6 2005",
+    "pick": {
+      "score": 5.28,
+      "reasons": [
+        "tokens:crossfire",
+        "year-match"
+      ],
+      "title": "File:2005 Chrysler Crossfire SRT6 AeroBlue-right.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/2005_Chrysler_Crossfire_SRT6_AeroBlue-right.jpg/1920px-2005_Chrysler_Crossfire_SRT6_AeroBlue-right.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2005_Chrysler_Crossfire_SRT6_AeroBlue-right.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "MrDolomite",
+      "width": 2147,
+      "height": 1103
+    },
+    "alternates": []
+  },
+  {
+    "slug": "chrysler-pacifica-ru",
+    "car": "Chrysler Pacifica (RU)",
+    "make": "Chrysler",
+    "model": "Pacifica",
+    "code": "RU",
+    "body": "Minivan",
+    "year": 2017,
+    "query": "Chrysler Pacifica RU 2017",
+    "tokens": [
+      "pacifica",
+      "ru"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Chrysler Pacifica RU 2017",
+    "pick": {
+      "score": 8.41,
+      "reasons": [
+        "tokens:pacifica",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2017 Chrysler Pacifica Limited, front 12.21.19.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/2017_Chrysler_Pacifica_Limited%2C_front_12.21.19.jpg/1920px-2017_Chrysler_Pacifica_Limited%2C_front_12.21.19.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2017_Chrysler_Pacifica_Limited,_front_12.21.19.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 3725,
+      "height": 2158
+    },
+    "alternates": [
+      {
+        "score": 6.26,
+        "reasons": [
+          "tokens:pacifica",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:2017 Chrysler Pacifica on West Side Highway.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/2017_Chrysler_Pacifica_on_West_Side_Highway.jpg/1920px-2017_Chrysler_Pacifica_on_West_Side_Highway.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2017_Chrysler_Pacifica_on_West_Side_Highway.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Mr.choppers",
+        "width": 2604,
+        "height": 1314
+      },
+      {
+        "score": 5.77,
+        "reasons": [
+          "tokens:pacifica",
+          "year-match"
+        ],
+        "title": "File:2017 Pacifica.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2017_Pacifica.jpg/1920px-2017_Pacifica.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2017_Pacifica.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "TastyPoutine",
+        "width": 2048,
+        "height": 1360
+      },
+      {
+        "score": 5.2,
+        "reasons": [
+          "CC0/PD",
+          "tokens:pacifica"
+        ],
+        "title": "File:'17 Chrysler Pacifica.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/%2717_Chrysler_Pacifica.jpg/1920px-%2717_Chrysler_Pacifica.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:%2717_Chrysler_Pacifica.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 2069,
+        "height": 1405
+      }
+    ]
+  },
+  {
     "slug": "honda-civic-si-10th-gen-fc1",
     "car": "Honda Civic Si (10th Gen FC1)",
     "body": "Sedan",

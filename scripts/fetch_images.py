@@ -152,6 +152,28 @@ OVERRIDES = {
     "bmw-z4-m40i-g29": {"pin": "2019 BMW Z4 M40i Front.jpg"},
     "bmw-z4-m-e86": {"pin": "2007 BMW Z4 M Coupé in Monaco Blue Metallic, front left.jpg"},
     "buick-gsx-stage-1": {"pin": "1970 Buick GSX 455 Coupe (33285990451).jpg"},
+    # C-brands review pass (2026-07): 15 of 43 first picks failed the visual
+    # check — a hood-open ATS-V, a bare Caterham chassis (kit frame), an
+    # infotainment-screen shot for the Camaro Z/28, race cars (C7.R, the
+    # Chevrolet SS slot returned Camaro Cup cars), a wheel close-up (C8 Z06),
+    # rear/head-on framings (300C SRT8, C6), and a Chevelle coupe standing in
+    # for the El Camino. The 5th-gen Camaro Z/28 was invisible to full-text
+    # search; Category:"Chevrolet Camaro Z28 (5th generation)" surfaced it.
+    "cadillac-ats-v-gen-1": {"pin": "Cadillac ATS-V (24508373830).jpg"},
+    "caterham-seven-620r": {"pin": "2020 Caterham Seven 620R.jpg"},
+    "chevrolet-camaro-ss-396-2nd-gen": {"pin": "1971 Camaro SS (10).jpg"},
+    "chevrolet-camaro-z-28-5th-gen": {"pin": "Chevrolet Camaro Z28 Hirschaid 2022-20220709-RM-120103 (cropped).jpg"},
+    "chevrolet-camaro-ss-6th-gen": {"pin": "2016 Chevrolet Camaro 2SS.jpg"},
+    "chevrolet-corvette-c1": {"pin": "1962 Chevrolet C1 Corvette Roadster (21327773141).jpg"},
+    "chevrolet-corvette-c4-zr-1": {"pin": "1990 Chevrolet Corvette ZR1.jpg"},
+    "chevrolet-corvette-c6-z06": {"pin": "'07 Chevrolet Corvette Z06.jpg"},
+    "chevrolet-corvette-c7-stingray": {"pin": "2016 Chevrolet Corvette Stingray coupe, front left, 06-06-2026.jpg"},
+    "chevrolet-corvette-c8-z06": {"pin": "Chevrolet Corvette Z06 (C8, 2023) (53797860737).jpg"},
+    "chevrolet-el-camino-ss-454": {"pin": "2022 Downtown West Allis Classic Car Show 030 (1970 Chevrolet El Camino SS).jpg"},
+    "chevrolet-nova-ss-396": {"pin": "1969 Chevrolet Nova SS 396 in Burnished Brown Poly, Front Right, 06-11-2022.jpg"},
+    "chevrolet-ss-holden-based": {"pin": "2014 Chevrolet SS front.png"},
+    "chevrolet-colorado-zr2-3rd-gen": {"pin": "2024 Chevrolet Colorado ZR2, front right, 07-18-2024.jpg"},
+    "chrysler-300-300c-srt8": {"pin": "2008 Chrysler 300C SRT-8 sedan (19601667854).jpg"},
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))
