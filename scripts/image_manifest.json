@@ -4097,6 +4097,49 @@
     "alternates": []
   },
   {
+    "slug": "bmw-m235i-f22",
+    "car": "BMW M235i (F22)",
+    "make": "BMW",
+    "model": "M235i",
+    "code": "F22",
+    "body": "Coupe",
+    "year": 2015,
+    "query": "BMW M235i F22 2015",
+    "tokens": [
+      "f22",
+      "m235i"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2014-2018 BMW M235i (F22) coupe (2018-07-30) 01.jpg",
+    "status": "ok",
+    "query_used": "pin:2014-2018 BMW M235i (F22) coupe (2018-07-30) 01.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2014-2018 BMW M235i (F22) coupe (2018-07-30) 01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/2014-2018_BMW_M235i_%28F22%29_coupe_%282018-07-30%29_01.jpg/1920px-2014-2018_BMW_M235i_%28F22%29_coupe_%282018-07-30%29_01.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2014-2018_BMW_M235i_(F22)_coupe_(2018-07-30)_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "EurovisionNim",
+      "width": 4558,
+      "height": 2351
+    },
+    "alternates": []
+  },
+  {
     "slug": "bmw-m240i-g42",
     "car": "BMW M240i (G42)",
     "make": "BMW",

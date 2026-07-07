@@ -397,13 +397,14 @@ first picks failed review). Attribution auto-generated into the /credits page
       (Integra GS-R DC2 skipped: Commons has no acceptable free front shot;
       the styled placeholder is better than a wrong-gen photo).
 - [x] B brands (2026-07-06): Bentley, BMW (36 rows — biggest single brand),
-      Buick — 35/36 shipped after 2 review rounds. Far worse first-pick rate
+      Buick — 36/36 shipped after 3 review rounds. Far worse first-pick rate
       than the A's: 23 of 36 failed visual review (rear shots hiding behind
       generic Commons filenames the title scorer can't catch, modified/wrapped
       show cars, a badge close-up, and an X5 45e M Sport posing as the X5 M).
       All 23 re-pinned from contact-sheet probes of Commons candidates.
-      M235i (F22) skipped: Commons has only base-trim F22s, Gran Coupés, and
-      rears — no acceptable front shot of an actual M235i.
+      Search lesson from the M235i (F22): category/phrase queries missed every
+      usable file (most M235i photos aren't in any BMW category) — a plain
+      full-text "M235i" sweep found 25+, including clean stock front shots.
 - [ ] C brands next: Cadillac, Caterham, Chevrolet (20 rows), Chrysler.
       Then D-and-onward.
 

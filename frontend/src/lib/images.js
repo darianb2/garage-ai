@@ -74,6 +74,7 @@ export const IMAGES = {
   "bmw-m1-e26": "/images/bmw-m1-e26.webp",
   "bmw-m2-f87": "/images/bmw-m2-f87.webp",
   "bmw-m2-g87": "/images/bmw-m2-g87.webp",
+  "bmw-m235i-f22": "/images/bmw-m235i-f22.webp",
   "bmw-m240i-g42": "/images/bmw-m240i-g42.webp",
   "bmw-m3-e30": "/images/bmw-m3-e30.webp",
   "bmw-m3-e36": "/images/bmw-m3-e36.webp",

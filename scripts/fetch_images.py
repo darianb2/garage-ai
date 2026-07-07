@@ -138,10 +138,9 @@ OVERRIDES = {
     "bmw-m1-e26": {"pin": "BMW M1, front right (Brooklyn).jpg"},
     "bmw-m2-f87": {"pin": "2017 BMW M2 front.jpg"},
     "bmw-m2-g87": {"pin": "BMW G87 M2 Motorworld Munich 1X7A0071.jpg"},
-    # No acceptable F22 M235i on Commons (category holds only base 218d-228i
-    # trims, Gran Coupés, and rears; the lone M235i file is a rear highway
-    # shot) — reviewed 2026-07. Placeholder beats a wrong-badge photo.
-    "bmw-m235i-f22": {"skip": True},
+    # Category/phrase queries miss most M235i files (not categorized under
+    # BMW F22) — a plain full-text "M235i" search finds plenty. Reviewed 2026-07.
+    "bmw-m235i-f22": {"pin": "2014-2018 BMW M235i (F22) coupe (2018-07-30) 01.jpg"},
     "bmw-m240i-g42": {"pin": "BMW 2-Series Coupé (G42) M240i xDrive (2022) (52226831652).jpg"},
     "bmw-m3-f80": {"pin": "2018 BMW M3 Front.jpg"},
     "bmw-m3-g80": {"pin": "2021 BMW M3 Competition Automatic 3.0 Front.jpg"},
