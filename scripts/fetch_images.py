@@ -120,6 +120,39 @@ OVERRIDES = {
     "audi-s3-8y": {"pin": "2023 Audi S3 TFSi Quattro.jpg"},
     "audi-s4-b5": {"pin": "Audi S4 (Type B5) silver fl.jpg"},
     "audi-s6-c7": {"pin": "Audi S6 (C7) Washington DC Metro Area, USA (1).jpg"},
+    # B-brands review pass (2026-07): 22 of 36 first picks failed the visual
+    # check — mostly rear shots hiding behind generic filenames (850i, i8, M1,
+    # M3 G80, M8...), plus modified/wrapped show cars (M2s, M4 F82, 325is) and
+    # one wrong car outright (an X5 45e M Sport standing in for the X5 M).
+    "bentley-continental-gt-w12": {"pin": "2005 green Bentley Continental GT front.JPG"},
+    "bmw-135i-e82": {"pin": "BMW 135i (3).jpg"},
+    # Commons has no clean stock USDM 325is front shot (only rears, race cars,
+    # heavy mods) — this JDM 325i M Technic is the same E30 two-door with a
+    # factory kit, the closest honest match. Reviewed 2026-07.
+    "bmw-325is-e30": {"pin": "BMW E-A25 325i M Technic Version (No.16) (23051409250).jpg"},
+    "bmw-335i-e92": {"pin": "BMW335i 1.JPG"},
+    "bmw-540i-e39": {"pin": "BMW E39 jaslo.JPG"},
+    "bmw-850i-e31": {"pin": "BMW 850i (E31, 1991) (52451311033).jpg"},
+    "bmw-i4-m50-g26": {"pin": "BMW i4 M50 1X7A7379.jpg"},
+    "bmw-i8-i12": {"pin": "BMW i8 Front (left) New.jpg"},
+    "bmw-m1-e26": {"pin": "BMW M1, front right (Brooklyn).jpg"},
+    "bmw-m2-f87": {"pin": "2017 BMW M2 front.jpg"},
+    "bmw-m2-g87": {"pin": "BMW G87 M2 Motorworld Munich 1X7A0071.jpg"},
+    # No acceptable F22 M235i on Commons (category holds only base 218d-228i
+    # trims, Gran Coupés, and rears; the lone M235i file is a rear highway
+    # shot) — reviewed 2026-07. Placeholder beats a wrong-badge photo.
+    "bmw-m235i-f22": {"skip": True},
+    "bmw-m240i-g42": {"pin": "BMW 2-Series Coupé (G42) M240i xDrive (2022) (52226831652).jpg"},
+    "bmw-m3-f80": {"pin": "2018 BMW M3 Front.jpg"},
+    "bmw-m3-g80": {"pin": "2021 BMW M3 Competition Automatic 3.0 Front.jpg"},
+    "bmw-m4-f82": {"pin": "BMW M4 Coupé (F82) front.JPG"},
+    "bmw-m5-e34": {"pin": "BMW M5 E34 front.jpg"},
+    "bmw-m8-competition-f92": {"pin": "BMW M8 Competition Coupé (G15, 2022) (53798736676).jpg"},
+    "bmw-x5-m-f95": {"pin": "BMW X5M (F95) Washington DC Metro Area, USA (1).jpg"},
+    "bmw-z3-m-coupe-e36-8": {"pin": "2000mqp.jpg"},
+    "bmw-z4-m40i-g29": {"pin": "2019 BMW Z4 M40i Front.jpg"},
+    "bmw-z4-m-e86": {"pin": "2007 BMW Z4 M Coupé in Monaco Blue Metallic, front left.jpg"},
+    "buick-gsx-stage-1": {"pin": "1970 Buick GSX 455 Coupe (33285990451).jpg"},
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))
