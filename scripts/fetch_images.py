@@ -174,6 +174,26 @@ OVERRIDES = {
     "chevrolet-ss-holden-based": {"pin": "2014 Chevrolet SS front.png"},
     "chevrolet-colorado-zr2-3rd-gen": {"pin": "2024 Chevrolet Colorado ZR2, front right, 07-18-2024.jpg"},
     "chrysler-300-300c-srt8": {"pin": "2008 Chrysler 300C SRT-8 sedan (19601667854).jpg"},
+    # D-brands review pass (2026-07): 11 of 20 first picks failed the visual
+    # check — a Challenger "Hellcat side" shot, an SRT-8 Hellcat (hood open)
+    # standing in for the SRT Demon, a snakeskin-wrapped Charger show car with
+    # its doors up, a Durango 392 (rear view) for the Hellcat, a 4th-gen (2001)
+    # van for the 5th-gen Grand Caravan, a De Tomaso Pantera *race* car, a
+    # Stealth ES for the R/T Turbo, a base Viper for the ACR, and a low-res /
+    # cluttered pair of the Datsun 280Z and Viper GTS. Two rare cars were
+    # invisible to full-text search — the 2018 SRT Demon (buried under 1971
+    # Dart "Demon"s) and it needed Category:"Dodge Challenger Demon".
+    "datsun-280z-s30": {"pin": "1976 Datsun 280Z, front 6.16.19.jpg"},
+    "de-tomaso-pantera-gts": {"pin": "1974 De Tomaso Pantera GTS in Red and Black, front left.jpg"},
+    "dodge-challenger-hellcat": {"pin": "2015 Dodge Challenger SRT Hellcat (21607516352).jpg"},
+    "dodge-challenger-srt-demon": {"pin": "Dodge Challenger Demon 2 Genf 2018 (cropped).jpg"},
+    "dodge-charger-r-t-scat-pack": {"pin": "2021 Dodge Charger Scat Pack, front right (Cruisin' the River Lowellville Car Show, June 19th, 2023).jpg"},
+    "dodge-durango-srt-hellcat": {"pin": "Dodge Durango SRT Hellcat MYLE Festival 2025 DSC 9644.jpg"},
+    "dodge-grand-caravan-5th-gen-rt": {"pin": "2012 Dodge Grand Caravan RT -- 2012 DC.JPG"},
+    "dodge-stealth-r-t-turbo": {"pin": "1991 Dodge Stealth RT Turbo, Front Left, 10-03-2021.jpg"},
+    "dodge-viper-gen-5-acr": {"pin": "2016 Dodge Viper ACR with Extreme Aero package, front left, 06-16-2024.jpg"},
+    "dodge-viper-gts-gen-2": {"pin": "1997 Dodge Viper (35083948226).jpg"},
+    "dodge-viper-zb-gen-3": {"pin": "2003 Dodge Viper SRT-10 Roadster in Viper Red, Front Right (St. Ignace 2023).jpg"},
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))

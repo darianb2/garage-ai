@@ -8992,6 +8992,1322 @@
     ]
   },
   {
+    "slug": "datsun-240z-s30",
+    "car": "Datsun 240Z (S30)",
+    "make": "Datsun",
+    "model": "240Z",
+    "code": "S30",
+    "body": "Coupe",
+    "year": 1972,
+    "query": "Datsun 240Z S30 1972",
+    "tokens": [
+      "240z",
+      "s30"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Datsun 240Z S30 1972",
+    "pick": {
+      "score": 9.63,
+      "reasons": [
+        "tokens:240z,s30",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:1972 Datsun 240Z S30 from front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1972_Datsun_240Z_S30_from_front.jpg/1920px-1972_Datsun_240Z_S30_from_front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1972_Datsun_240Z_S30_from_front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MrWalkr",
+      "width": 2130,
+      "height": 1346
+    },
+    "alternates": [
+      {
+        "score": 8.05,
+        "reasons": [
+          "CC0/PD",
+          "tokens:240z",
+          "year-match"
+        ],
+        "title": "File:Datsun 240Z (1972) (55316897029).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Datsun_240Z_%281972%29_%2855316897029%29.jpg/1920px-Datsun_240Z_%281972%29_%2855316897029%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Datsun_240Z_(1972)_(55316897029).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Charles from Port Chester, New York",
+        "width": 5820,
+        "height": 3812
+      },
+      {
+        "score": 7.1,
+        "reasons": [
+          "tokens:240z,s30",
+          "year-match"
+        ],
+        "title": "File:1972 Datsun 240Z S30.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/1972_Datsun_240Z_S30.jpg/1920px-1972_Datsun_240Z_S30.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1972_Datsun_240Z_S30.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 4949,
+        "height": 2830
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:240z",
+          "year-match"
+        ],
+        "title": "File:Datsun 240Z (1972) (53770441704).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Datsun_240Z_%281972%29_%2853770441704%29.jpg/1920px-Datsun_240Z_%281972%29_%2853770441704%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Datsun_240Z_(1972)_(53770441704).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 6000,
+        "height": 4000
+      }
+    ]
+  },
+  {
+    "slug": "datsun-280z-s30",
+    "car": "Datsun 280Z (S30)",
+    "make": "Datsun",
+    "model": "280Z",
+    "code": "S30",
+    "body": "Coupe",
+    "year": 1977,
+    "query": "Datsun 280Z S30 1977",
+    "tokens": [
+      "280z",
+      "s30"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1976 Datsun 280Z, front 6.16.19.jpg",
+    "status": "ok",
+    "query_used": "pin:1976 Datsun 280Z, front 6.16.19.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1976 Datsun 280Z, front 6.16.19.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/1976_Datsun_280Z%2C_front_6.16.19.jpg/1920px-1976_Datsun_280Z%2C_front_6.16.19.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1976_Datsun_280Z,_front_6.16.19.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 4982,
+      "height": 2366
+    },
+    "alternates": []
+  },
+  {
+    "slug": "datsun-510-pl510",
+    "car": "Datsun 510 (PL510)",
+    "make": "Datsun",
+    "model": "510",
+    "code": "PL510",
+    "body": "Sedan",
+    "year": 1970,
+    "query": "Datsun 510 PL510 1970",
+    "tokens": [
+      "510",
+      "pl510"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Datsun 510 1970",
+    "pick": {
+      "score": 8.22,
+      "reasons": [
+        "tokens:510",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:1970-1972 Datsun 510 2-door sedan in Mexican Orange, front left.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/1970-1972_Datsun_510_2-door_sedan_in_Mexican_Orange%2C_front_left.jpg/1920px-1970-1972_Datsun_510_2-door_sedan_in_Mexican_Orange%2C_front_left.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1970-1972_Datsun_510_2-door_sedan_in_Mexican_Orange,_front_left.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 4551,
+      "height": 3342
+    },
+    "alternates": [
+      {
+        "score": 7.0,
+        "reasons": [
+          "tokens:510",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:1971 Datsun 510 1800 SSS Coupe (28154034462).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/1971_Datsun_510_1800_SSS_Coupe_%2828154034462%29.jpg/1920px-1971_Datsun_510_1800_SSS_Coupe_%2828154034462%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1971_Datsun_510_1800_SSS_Coupe_(28154034462).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sicnag",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:510",
+          "year-match"
+        ],
+        "title": "File:1970 Datsun 1600 (P510) sedan (20895651890).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/1970_Datsun_1600_%28P510%29_sedan_%2820895651890%29.jpg/1920px-1970_Datsun_1600_%28P510%29_sedan_%2820895651890%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1970_Datsun_1600_(P510)_sedan_(20895651890).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Jeremy from Sydney, Australia",
+        "width": 4752,
+        "height": 3168
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:510",
+          "year-match"
+        ],
+        "title": "File:1970 Datsun 1600 (P510) sedan (21057546546).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/1970_Datsun_1600_%28P510%29_sedan_%2821057546546%29.jpg/1920px-1970_Datsun_1600_%28P510%29_sedan_%2821057546546%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1970_Datsun_1600_(P510)_sedan_(21057546546).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Jeremy from Sydney, Australia",
+        "width": 4752,
+        "height": 3168
+      }
+    ]
+  },
+  {
+    "slug": "de-tomaso-pantera-gts",
+    "car": "De Tomaso Pantera (GTS)",
+    "make": "De Tomaso",
+    "model": "Pantera",
+    "code": "GTS",
+    "body": "Coupe",
+    "year": 1972,
+    "query": "De Tomaso Pantera GTS 1972",
+    "tokens": [
+      "gts",
+      "pantera"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1974 De Tomaso Pantera GTS in Red and Black, front left.jpg",
+    "status": "ok",
+    "query_used": "pin:1974 De Tomaso Pantera GTS in Red and Black, front left.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1974 De Tomaso Pantera GTS in Red and Black, front left.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/1974_De_Tomaso_Pantera_GTS_in_Red_and_Black%2C_front_left.jpg/1920px-1974_De_Tomaso_Pantera_GTS_in_Red_and_Black%2C_front_left.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1974_De_Tomaso_Pantera_GTS_in_Red_and_Black,_front_left.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5004,
+      "height": 2915
+    },
+    "alternates": []
+  },
+  {
+    "slug": "dodge-challenger-hellcat",
+    "car": "Dodge Challenger (Hellcat)",
+    "make": "Dodge",
+    "model": "Challenger",
+    "code": "Hellcat",
+    "body": "Coupe",
+    "year": 2016,
+    "query": "Dodge Challenger Hellcat 2016",
+    "tokens": [
+      "challenger",
+      "hellcat"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2015 Dodge Challenger SRT Hellcat (21607516352).jpg",
+    "status": "ok",
+    "query_used": "pin:2015 Dodge Challenger SRT Hellcat (21607516352).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2015 Dodge Challenger SRT Hellcat (21607516352).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/2015_Dodge_Challenger_SRT_Hellcat_%2821607516352%29.jpg/1920px-2015_Dodge_Challenger_SRT_Hellcat_%2821607516352%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2015_Dodge_Challenger_SRT_Hellcat_(21607516352).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Sicnag",
+      "width": 5184,
+      "height": 3456
+    },
+    "alternates": []
+  },
+  {
+    "slug": "dodge-challenger-r-t",
+    "car": "Dodge Challenger (R/T)",
+    "make": "Dodge",
+    "model": "Challenger",
+    "code": "R",
+    "body": "Coupe",
+    "year": 1970,
+    "query": "Dodge Challenger R 1970",
+    "tokens": [
+      "challenger",
+      "r"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Dodge Challenger R 1970",
+    "pick": {
+      "score": 7.2,
+      "reasons": [
+        "tokens:challenger,r",
+        "year-match"
+      ],
+      "title": "File:1970 Dodge Challenger R-T (16800739947).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/1970_Dodge_Challenger_R-T_%2816800739947%29.jpg/1920px-1970_Dodge_Challenger_R-T_%2816800739947%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1970_Dodge_Challenger_R-T_(16800739947).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Jeremy from Sydney, Australia",
+      "width": 4752,
+      "height": 3168
+    },
+    "alternates": [
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:challenger,r",
+          "year-match"
+        ],
+        "title": "File:1970 Dodge Challenger R-T (17006702592).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/1970_Dodge_Challenger_R-T_%2817006702592%29.jpg/1920px-1970_Dodge_Challenger_R-T_%2817006702592%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1970_Dodge_Challenger_R-T_(17006702592).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Jeremy from Sydney, Australia",
+        "width": 4752,
+        "height": 3168
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:challenger,r",
+          "year-match"
+        ],
+        "title": "File:1970 Dodge Challenger R-T (17006729752).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/1970_Dodge_Challenger_R-T_%2817006729752%29.jpg/1920px-1970_Dodge_Challenger_R-T_%2817006729752%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1970_Dodge_Challenger_R-T_(17006729752).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Jeremy from Sydney, Australia",
+        "width": 4752,
+        "height": 3168
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:challenger,r",
+          "year-match"
+        ],
+        "title": "File:1970 Dodge Challenger R-T (17007180851).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/1970_Dodge_Challenger_R-T_%2817007180851%29.jpg/1920px-1970_Dodge_Challenger_R-T_%2817007180851%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1970_Dodge_Challenger_R-T_(17007180851).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Jeremy from Sydney, Australia",
+        "width": 4752,
+        "height": 3168
+      }
+    ]
+  },
+  {
+    "slug": "dodge-challenger-r-t-scat-pack",
+    "car": "Dodge Challenger (R/T Scat Pack)",
+    "make": "Dodge",
+    "model": "Challenger",
+    "code": "R",
+    "body": "Coupe",
+    "year": 2015,
+    "query": "Dodge Challenger R 2015",
+    "tokens": [
+      "challenger",
+      "r"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Dodge Challenger R 2015",
+    "pick": {
+      "score": 9.23,
+      "reasons": [
+        "CC0/PD",
+        "tokens:challenger,r",
+        "year-match"
+      ],
+      "title": "File:My 2016 Dodge Challenger R-T.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/My_2016_Dodge_Challenger_R-T.jpg/1920px-My_2016_Dodge_Challenger_R-T.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:My_2016_Dodge_Challenger_R-T.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Stephen Ditner",
+      "width": 3629,
+      "height": 2182
+    },
+    "alternates": [
+      {
+        "score": 7.29,
+        "reasons": [
+          "tokens:challenger,r",
+          "year-match"
+        ],
+        "title": "File:2015 Dodge Challenger R T Shaker - Canada.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/2015_Dodge_Challenger_R_T_Shaker_-_Canada.jpg/1920px-2015_Dodge_Challenger_R_T_Shaker_-_Canada.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2015_Dodge_Challenger_R_T_Shaker_-_Canada.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Janusz Sobolewski from Mississauga, Ontario, Canada",
+        "width": 3887,
+        "height": 2508
+      },
+      {
+        "score": 7.21,
+        "reasons": [
+          "tokens:challenger,r",
+          "year-match"
+        ],
+        "title": "File:2015 Dodge Challenger R T SCAT Pack.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/2015_Dodge_Challenger_R_T_SCAT_Pack.jpg/1920px-2015_Dodge_Challenger_R_T_SCAT_Pack.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2015_Dodge_Challenger_R_T_SCAT_Pack.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 14114,
+        "height": 8318
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:challenger,r",
+          "year-match"
+        ],
+        "title": "File:2015 Dodge Challenger R-T (35002684522).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/2015_Dodge_Challenger_R-T_%2835002684522%29.jpg/1920px-2015_Dodge_Challenger_R-T_%2835002684522%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2015_Dodge_Challenger_R-T_(35002684522).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Greg Gjerdingen from Willmar, USA",
+        "width": 6000,
+        "height": 4000
+      }
+    ]
+  },
+  {
+    "slug": "dodge-challenger-srt-demon",
+    "car": "Dodge Challenger (SRT Demon)",
+    "make": "Dodge",
+    "model": "Challenger",
+    "code": "SRT",
+    "body": "Coupe",
+    "year": 2018,
+    "query": "Dodge Challenger SRT 2018",
+    "tokens": [
+      "challenger",
+      "srt"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Dodge Challenger Demon 2 Genf 2018 (cropped).jpg",
+    "status": "ok",
+    "query_used": "pin:Dodge Challenger Demon 2 Genf 2018 (cropped).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Dodge Challenger Demon 2 Genf 2018 (cropped).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Dodge_Challenger_Demon_2_Genf_2018_%28cropped%29.jpg/1920px-Dodge_Challenger_Demon_2_Genf_2018_%28cropped%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Dodge_Challenger_Demon_2_Genf_2018_(cropped).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Alexander Migl",
+      "width": 5183,
+      "height": 2598
+    },
+    "alternates": []
+  },
+  {
+    "slug": "dodge-charger-daytona",
+    "car": "Dodge Charger (Daytona)",
+    "make": "Dodge",
+    "model": "Charger",
+    "code": "Daytona",
+    "body": "Coupe",
+    "year": 1969,
+    "query": "Dodge Charger Daytona 1969",
+    "tokens": [
+      "charger",
+      "daytona"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Dodge Charger Daytona 1969",
+    "pick": {
+      "score": 8.36,
+      "reasons": [
+        "tokens:charger,daytona",
+        "good-angle",
+        "year-match"
+      ],
+      "title": "File:1969 Dodge Charger Daytona (13419983895) (cropped).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/1969_Dodge_Charger_Daytona_%2813419983895%29_%28cropped%29.jpg/1920px-1969_Dodge_Charger_Daytona_%2813419983895%29_%28cropped%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1969_Dodge_Charger_Daytona_(13419983895)_(cropped).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Sicnag",
+      "width": 4904,
+      "height": 3030
+    },
+    "alternates": [
+      {
+        "score": 8.2,
+        "reasons": [
+          "tokens:charger,daytona",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:1969 Dodge Charger Daytona (13419983895).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/1969_Dodge_Charger_Daytona_%2813419983895%29.jpg/1920px-1969_Dodge_Charger_Daytona_%2813419983895%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1969_Dodge_Charger_Daytona_(13419983895).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sicnag",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "score": 8.2,
+        "reasons": [
+          "tokens:charger,daytona",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:1969 Dodge Charger Daytona (13420094943).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/1969_Dodge_Charger_Daytona_%2813420094943%29.jpg/1920px-1969_Dodge_Charger_Daytona_%2813420094943%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1969_Dodge_Charger_Daytona_(13420094943).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sicnag",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "score": 8.2,
+        "reasons": [
+          "tokens:charger,daytona",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:1969 Dodge Charger Daytona (16386257734).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/1969_Dodge_Charger_Daytona_%2816386257734%29.jpg/1920px-1969_Dodge_Charger_Daytona_%2816386257734%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1969_Dodge_Charger_Daytona_(16386257734).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Jeremy from Sydney, Australia",
+        "width": 4752,
+        "height": 3168
+      }
+    ]
+  },
+  {
+    "slug": "dodge-charger-hellcat",
+    "car": "Dodge Charger (Hellcat)",
+    "make": "Dodge",
+    "model": "Charger",
+    "code": "Hellcat",
+    "body": "Sedan",
+    "year": 2016,
+    "query": "Dodge Charger Hellcat 2016",
+    "tokens": [
+      "charger",
+      "hellcat"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Dodge Charger Hellcat 2016",
+    "pick": {
+      "score": 7.2,
+      "reasons": [
+        "tokens:charger,hellcat",
+        "year-match"
+      ],
+      "title": "File:2015 Dodge Charger SRT Hellcat (21607570552).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/2015_Dodge_Charger_SRT_Hellcat_%2821607570552%29.jpg/1920px-2015_Dodge_Charger_SRT_Hellcat_%2821607570552%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2015_Dodge_Charger_SRT_Hellcat_(21607570552).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Sicnag",
+      "width": 5184,
+      "height": 3456
+    },
+    "alternates": [
+      {
+        "score": 6.29,
+        "reasons": [
+          "CC0/PD",
+          "tokens:charger,hellcat"
+        ],
+        "title": "File:'16 Dodge Charger SRT-8 Hellcat (MIAS '16).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/%2716_Dodge_Charger_SRT-8_Hellcat_%28MIAS_%2716%29.jpg/1920px-%2716_Dodge_Charger_SRT-8_Hellcat_%28MIAS_%2716%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:%2716_Dodge_Charger_SRT-8_Hellcat_(MIAS_%2716).jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 2454,
+        "height": 1761
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:charger",
+          "year-match"
+        ],
+        "title": "File:2013 Dodge Charger SXT Sedan (21431121678).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/2013_Dodge_Charger_SXT_Sedan_%2821431121678%29.jpg/1920px-2013_Dodge_Charger_SXT_Sedan_%2821431121678%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2013_Dodge_Charger_SXT_Sedan_(21431121678).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sicnag",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:hellcat",
+          "year-match"
+        ],
+        "title": "File:2015 Dodge Challenger SRT Hellcat (21607516352).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/2015_Dodge_Challenger_SRT_Hellcat_%2821607516352%29.jpg/1920px-2015_Dodge_Challenger_SRT_Hellcat_%2821607516352%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2015_Dodge_Challenger_SRT_Hellcat_(21607516352).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sicnag",
+        "width": 5184,
+        "height": 3456
+      }
+    ]
+  },
+  {
+    "slug": "dodge-charger-r-t-scat-pack",
+    "car": "Dodge Charger (R/T Scat Pack)",
+    "make": "Dodge",
+    "model": "Charger",
+    "code": "R",
+    "body": "Sedan",
+    "year": 2015,
+    "query": "Dodge Charger R 2015",
+    "tokens": [
+      "charger",
+      "r"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2021 Dodge Charger Scat Pack, front right (Cruisin' the River Lowellville Car Show, June 19th, 2023).jpg",
+    "status": "ok",
+    "query_used": "pin:2021 Dodge Charger Scat Pack, front right (Cruisin' the River Lowellville Car Show, June 19th, 2023).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2021 Dodge Charger Scat Pack, front right (Cruisin' the River Lowellville Car Show, June 19th, 2023).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/2021_Dodge_Charger_Scat_Pack%2C_front_right_%28Cruisin%27_the_River_Lowellville_Car_Show%2C_June_19th%2C_2023%29.jpg/1920px-2021_Dodge_Charger_Scat_Pack%2C_front_right_%28Cruisin%27_the_River_Lowellville_Car_Show%2C_June_19th%2C_2023%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2021_Dodge_Charger_Scat_Pack,_front_right_(Cruisin%27_the_River_Lowellville_Car_Show,_June_19th,_2023).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MercurySable99",
+      "width": 4410,
+      "height": 2615
+    },
+    "alternates": []
+  },
+  {
+    "slug": "dodge-durango-srt-hellcat",
+    "car": "Dodge Durango (SRT Hellcat)",
+    "make": "Dodge",
+    "model": "Durango",
+    "code": "SRT",
+    "body": "SUV",
+    "year": 2021,
+    "query": "Dodge Durango SRT 2021",
+    "tokens": [
+      "durango",
+      "srt"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Dodge Durango SRT Hellcat MYLE Festival 2025 DSC 9644.jpg",
+    "status": "ok",
+    "query_used": "pin:Dodge Durango SRT Hellcat MYLE Festival 2025 DSC 9644.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Dodge Durango SRT Hellcat MYLE Festival 2025 DSC 9644.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Dodge_Durango_SRT_Hellcat_MYLE_Festival_2025_DSC_9644.jpg/1920px-Dodge_Durango_SRT_Hellcat_MYLE_Festival_2025_DSC_9644.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Dodge_Durango_SRT_Hellcat_MYLE_Festival_2025_DSC_9644.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Alexander Migl",
+      "width": 4024,
+      "height": 2689
+    },
+    "alternates": []
+  },
+  {
+    "slug": "dodge-grand-caravan-5th-gen-rt",
+    "car": "Dodge Grand Caravan (5th Gen (RT))",
+    "make": "Dodge",
+    "model": "Grand Caravan",
+    "code": "",
+    "body": "Minivan",
+    "year": 2012,
+    "query": "Dodge Grand Caravan 2012",
+    "tokens": [
+      "caravan",
+      "grand"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2012 Dodge Grand Caravan RT -- 2012 DC.JPG",
+    "status": "ok",
+    "query_used": "pin:2012 Dodge Grand Caravan RT -- 2012 DC.JPG",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2012 Dodge Grand Caravan RT -- 2012 DC.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/2012_Dodge_Grand_Caravan_RT_--_2012_DC.JPG/1920px-2012_Dodge_Grand_Caravan_RT_--_2012_DC.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:2012_Dodge_Grand_Caravan_RT_--_2012_DC.JPG",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "IFCAR",
+      "width": 2648,
+      "height": 1796
+    },
+    "alternates": []
+  },
+  {
+    "slug": "dodge-journey-jc",
+    "car": "Dodge Journey (JC)",
+    "make": "Dodge",
+    "model": "Journey",
+    "code": "JC",
+    "body": "SUV",
+    "year": 2012,
+    "query": "Dodge Journey JC 2012",
+    "tokens": [
+      "jc",
+      "journey"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Dodge Journey JC 2012",
+    "pick": {
+      "score": 7.69,
+      "reasons": [
+        "CC0/PD",
+        "tokens:journey",
+        "year-match"
+      ],
+      "title": "File:2012 Dodge Journey -- NHTSA 2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/2012_Dodge_Journey_--_NHTSA_2.jpg/1920px-2012_Dodge_Journey_--_NHTSA_2.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2012_Dodge_Journey_--_NHTSA_2.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "U.S. National Highway Traffic Safety Administration",
+      "width": 2480,
+      "height": 1723
+    },
+    "alternates": [
+      {
+        "score": 7.65,
+        "reasons": [
+          "CC0/PD",
+          "tokens:journey",
+          "year-match"
+        ],
+        "title": "File:2012 Dodge Journey -- NHTSA 3.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/2012_Dodge_Journey_--_NHTSA_3.jpg/1920px-2012_Dodge_Journey_--_NHTSA_3.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2012_Dodge_Journey_--_NHTSA_3.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "U.S. National Highway Traffic Safety Administration",
+        "width": 2352,
+        "height": 1648
+      },
+      {
+        "score": 7.54,
+        "reasons": [
+          "CC0/PD",
+          "tokens:journey",
+          "year-match"
+        ],
+        "title": "File:2012 Dodge Journey -- NHTSA 1.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/2012_Dodge_Journey_--_NHTSA_1.jpg/1920px-2012_Dodge_Journey_--_NHTSA_1.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2012_Dodge_Journey_--_NHTSA_1.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "U.S. National Highway Traffic Safety Administration",
+        "width": 2404,
+        "height": 1756
+      },
+      {
+        "score": 5.46,
+        "reasons": [
+          "CC0/PD",
+          "tokens:journey"
+        ],
+        "title": "File:Dodge Journey Moosehead Lager.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Dodge_Journey_Moosehead_Lager.jpg/1920px-Dodge_Journey_Moosehead_Lager.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Dodge_Journey_Moosehead_Lager.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 3756,
+        "height": 2515
+      }
+    ]
+  },
+  {
+    "slug": "dodge-neon-srt-4",
+    "car": "Dodge Neon (SRT-4)",
+    "make": "Dodge",
+    "model": "Neon",
+    "code": "SRT-4",
+    "body": "Sedan",
+    "year": 2004,
+    "query": "Dodge Neon SRT-4 2004",
+    "tokens": [
+      "neon",
+      "srt-4"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Dodge Neon SRT-4 2004",
+    "pick": {
+      "score": 7.97,
+      "reasons": [
+        "tokens:srt-4",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2004 Dodge SRT-4, front left, 07-26-2022.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/2004_Dodge_SRT-4%2C_front_left%2C_07-26-2022.jpg/1920px-2004_Dodge_SRT-4%2C_front_left%2C_07-26-2022.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2004_Dodge_SRT-4,_front_left,_07-26-2022.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MercurySable99",
+      "width": 3604,
+      "height": 2857
+    },
+    "alternates": [
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:neon,srt-4",
+          "year-match"
+        ],
+        "title": "File:2004 Dodge Neon SRT-4.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2004_Dodge_Neon_SRT-4.jpg/1920px-2004_Dodge_Neon_SRT-4.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2004_Dodge_Neon_SRT-4.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Greg Gjerdingen",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:neon,srt-4",
+          "year-match"
+        ],
+        "title": "File:2004 Dodge Neon SRT-4 Orange Blast.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/2004_Dodge_Neon_SRT-4_Orange_Blast.jpg/1920px-2004_Dodge_Neon_SRT-4_Orange_Blast.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2004_Dodge_Neon_SRT-4_Orange_Blast.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "crudmucosa",
+        "width": 4494,
+        "height": 3000
+      },
+      {
+        "score": 3.72,
+        "reasons": [
+          "CC0/PD",
+          "tokens:neon,srt-4",
+          "bad-angle"
+        ],
+        "title": "File:Tuned `04 Dodge Neon SRT-4 (MIAS `11).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Tuned_%6004_Dodge_Neon_SRT-4_%28MIAS_%6011%29.jpg/1920px-Tuned_%6004_Dodge_Neon_SRT-4_%28MIAS_%6011%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Tuned_%6004_Dodge_Neon_SRT-4_(MIAS_%6011).jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 2221,
+        "height": 1621
+      }
+    ]
+  },
+  {
+    "slug": "dodge-ram-srt-10",
+    "car": "Dodge Ram (SRT-10)",
+    "make": "Dodge",
+    "model": "Ram",
+    "code": "SRT-10",
+    "body": "Truck",
+    "year": 2005,
+    "query": "Dodge Ram SRT-10 2005",
+    "tokens": [
+      "ram",
+      "srt-10"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Dodge Ram SRT-10 2005",
+    "pick": {
+      "score": 9.15,
+      "reasons": [
+        "tokens:ram,srt-10",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2005 silver Dodge Ram SRT-10 front.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/2005_silver_Dodge_Ram_SRT-10_front.JPG/1920px-2005_silver_Dodge_Ram_SRT-10_front.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:2005_silver_Dodge_Ram_SRT-10_front.JPG",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "BrokenSphere",
+      "width": 2272,
+      "height": 1704
+    },
+    "alternates": [
+      {
+        "score": 9.07,
+        "reasons": [
+          "tokens:ram,srt-10",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2005 Dodge RAM SRT-10 8.3 Front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/2005_Dodge_RAM_SRT-10_8.3_Front.jpg/1920px-2005_Dodge_RAM_SRT-10_8.3_Front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2005_Dodge_RAM_SRT-10_8.3_Front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Vauxford",
+        "width": 4888,
+        "height": 2428
+      },
+      {
+        "score": 9.07,
+        "reasons": [
+          "tokens:ram,srt-10",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:Tuning Show 2008 - 023 - Dodge RAM SRT-10 (front).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Tuning_Show_2008_-_023_-_Dodge_RAM_SRT-10_%28front%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Tuning_Show_2008_-_023_-_Dodge_RAM_SRT-10_(front).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "J\u00e1nos Tam\u00e1s",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "score": 8.2,
+        "reasons": [
+          "tokens:ram,srt-10",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:Dodge Ram SRT-10 (2005) (53771205334).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Dodge_Ram_SRT-10_%282005%29_%2853771205334%29.jpg/1920px-Dodge_Ram_SRT-10_%282005%29_%2853771205334%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Dodge_Ram_SRT-10_(2005)_(53771205334).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 6000,
+        "height": 4000
+      }
+    ]
+  },
+  {
+    "slug": "dodge-stealth-r-t-turbo",
+    "car": "Dodge Stealth (R/T Turbo)",
+    "make": "Dodge",
+    "model": "Stealth",
+    "code": "R",
+    "body": "Coupe",
+    "year": 1992,
+    "query": "Dodge Stealth R 1992",
+    "tokens": [
+      "r",
+      "stealth"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1991 Dodge Stealth RT Turbo, Front Left, 10-03-2021.jpg",
+    "status": "ok",
+    "query_used": "pin:1991 Dodge Stealth RT Turbo, Front Left, 10-03-2021.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1991 Dodge Stealth RT Turbo, Front Left, 10-03-2021.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/1991_Dodge_Stealth_RT_Turbo%2C_Front_Left%2C_10-03-2021.jpg/1920px-1991_Dodge_Stealth_RT_Turbo%2C_Front_Left%2C_10-03-2021.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1991_Dodge_Stealth_RT_Turbo,_Front_Left,_10-03-2021.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Elise240SX",
+      "width": 4320,
+      "height": 1692
+    },
+    "alternates": []
+  },
+  {
+    "slug": "dodge-viper-gen-5-acr",
+    "car": "Dodge Viper (Gen 5 ACR)",
+    "make": "Dodge",
+    "model": "Viper",
+    "code": "5",
+    "body": "Coupe",
+    "year": 2017,
+    "query": "Dodge Viper 5 2017",
+    "tokens": [
+      "5",
+      "viper"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2016 Dodge Viper ACR with Extreme Aero package, front left, 06-16-2024.jpg",
+    "status": "ok",
+    "query_used": "pin:2016 Dodge Viper ACR with Extreme Aero package, front left, 06-16-2024.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2016 Dodge Viper ACR with Extreme Aero package, front left, 06-16-2024.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/2016_Dodge_Viper_ACR_with_Extreme_Aero_package%2C_front_left%2C_06-16-2024.jpg/1920px-2016_Dodge_Viper_ACR_with_Extreme_Aero_package%2C_front_left%2C_06-16-2024.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2016_Dodge_Viper_ACR_with_Extreme_Aero_package,_front_left,_06-16-2024.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MercurySable99",
+      "width": 4973,
+      "height": 3185
+    },
+    "alternates": []
+  },
+  {
+    "slug": "dodge-viper-gts-gen-2",
+    "car": "Dodge Viper (GTS (Gen 2))",
+    "make": "Dodge",
+    "model": "Viper",
+    "code": "GTS",
+    "body": "Coupe",
+    "year": 1996,
+    "query": "Dodge Viper GTS 1996",
+    "tokens": [
+      "gts",
+      "viper"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1997 Dodge Viper (35083948226).jpg",
+    "status": "ok",
+    "query_used": "pin:1997 Dodge Viper (35083948226).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1997 Dodge Viper (35083948226).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/1997_Dodge_Viper_%2835083948226%29.jpg/1920px-1997_Dodge_Viper_%2835083948226%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1997_Dodge_Viper_(35083948226).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Greg Gjerdingen from Willmar, USA",
+      "width": 6000,
+      "height": 4000
+    },
+    "alternates": []
+  },
+  {
+    "slug": "dodge-viper-zb-gen-3",
+    "car": "Dodge Viper (ZB Gen 3)",
+    "make": "Dodge",
+    "model": "Viper",
+    "code": "3",
+    "body": "Coupe",
+    "year": 2003,
+    "query": "Dodge Viper 3 2003",
+    "tokens": [
+      "3",
+      "viper"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2003 Dodge Viper SRT-10 Roadster in Viper Red, Front Right (St. Ignace 2023).jpg",
+    "status": "ok",
+    "query_used": "pin:2003 Dodge Viper SRT-10 Roadster in Viper Red, Front Right (St. Ignace 2023).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2003 Dodge Viper SRT-10 Roadster in Viper Red, Front Right (St. Ignace 2023).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/2003_Dodge_Viper_SRT-10_Roadster_in_Viper_Red%2C_Front_Right_%28St._Ignace_2023%29.jpg/1920px-2003_Dodge_Viper_SRT-10_Roadster_in_Viper_Red%2C_Front_Right_%28St._Ignace_2023%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2003_Dodge_Viper_SRT-10_Roadster_in_Viper_Red,_Front_Right_(St._Ignace_2023).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Elise240SX",
+      "width": 3590,
+      "height": 2087
+    },
+    "alternates": []
+  },
+  {
     "slug": "honda-civic-si-10th-gen-fc1",
     "car": "Honda Civic Si (10th Gen FC1)",
     "body": "Sedan",
