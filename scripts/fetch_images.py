@@ -251,6 +251,10 @@ OVERRIDES = {
     "jeep-grand-wagoneer-ws": {"pin": "2022 Jeep Grand Wagoneer Series III in Bright White and Black, front left.jpg"},  # decluttered
     "jeep-wrangler-jl": {"pin": "2018 Jeep Wrangler Unlimited Sport 4-door front 6.10.18.jpg"},  # Sport, to differ from 392
     "jeep-wrangler-jl-rubicon-392": {"pin": "23 Jeep Wrangler Unlimited Rubicon 392.jpg"},  # was a Sahara
+    # K brands (hand-picked after contact-sheet review).
+    "kia-carnival-4th-gen-ka4": {"pin": "2022 Kia Carnival LX in Silky Silver, front left.jpg"},  # was the old 1st-gen minivan
+    "kia-forte-gt": {"pin": "2019 Kia Forte LXS in Currant Red, front left.jpg"},  # was a Forte5 hatch, rear view (no free GT sedan on Commons)
+    "kia-rio-4th-gen-yb": {"pin": "Kia Rio4 1.4 EX sedan 2023.jpg"},  # was the 5-door hatch; catalog is the sedan
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))
