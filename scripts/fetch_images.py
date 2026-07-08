@@ -335,6 +335,24 @@ OVERRIDES = {
     "subaru-legacy-gt-spec-b": {"pin": "08-Subaru-Legacy-SpecB.jpg"},  # was a 2001 3rd-gen GT with a bike rack (wrong gen)
     "subaru-svx-alcyone": {"pin": "Subaru Alcyone in Black Mica, front left.jpg"},  # was a 2.5:1 panoramic crop
     "subaru-wrx-va": {"pin": "2015 Subaru WRX Limited, Front Right, 04-10-2021.jpg"},  # pre-existing rear 3/4 view (Honda-lesson re-review)
+    # T brands (Tesla, Toyota) — hand-picked after contact-sheet review.
+    "tesla-model-y-performance": {"pin": "2020 Tesla Model Y, front 5.16.21.jpg"},  # was a rear view
+    "tesla-roadster-gen-1": {"pin": "2008 Tesla Roadster front.jpg"},  # was an interior shot
+    "tesla-model-s-plaid": {"pin": "Tesla Model S Plaid Autofrühling Ulm IMG 9278.jpg"},  # was a tiny 71KB crop
+    "toyota-86-zn6": {"pin": "Toyota 86 GT (DBA-ZN6) front.jpg"},  # was a wheel closeup
+    "toyota-camry-xv50": {"pin": "2015 Toyota Camry Atara S Silver Pearl.jpg"},  # was an interior shot
+    "toyota-camry-xv40": {"pin": "2009 Toyota Camry 01.jpg"},  # was a China-platform car
+    "toyota-chaser-jzx100": {"pin": "Tuned Toyota CHASER TOURER S (E-JZX100) front.jpg"},  # was a rear view
+    "toyota-corolla-gt-s-ae92": {"pin": "Toyota E-AE92 Corolla Levin GT-Z (23101513050).jpg"},  # was a rear CS-sedan; JDM Levin GT-Z is the AE92 sport-coupe sibling (no free US GT-S front shots)
+    "toyota-aristo-jzs161": {"pin": "Toyota ARISTO V300 (JZS160) front.JPG"},  # was a cluttered shot
+    "toyota-avalon-5th-gen-xx50": {"pin": "2020 Toyota Avalon Limited, front 6.13.21.jpg"},  # was a car-overlap shot
+    "toyota-land-cruiser-j250": {"pin": "2024 Toyota Land Cruiser 250 VX in Platinum White Pearl Mica, front left.jpg"},  # was an interior shot
+    "toyota-starlet-gt-turbo-ep82": {"pin": "Toyota Starlet 1.3 (42232837251).jpg"},  # was the base Soleil L, not the GT turbo
+    "toyota-venza-xu80": {"pin": "2021 Toyota Venza (front view, United States) 01.png"},  # was a rear view
+    "toyota-tacoma-3rd-gen": {"pin": "2023 Toyota Tacoma TRD Off-Road Double Cab in Black, front left.jpg"},  # was a Lifeguard-livery truck
+    "toyota-rav4-xa40": {"pin": "2013 Toyota RAV4 XLE AWD front left.jpg"},  # was a side/rear view
+    "toyota-celica-gt-s-zzt231": {"pin": "Toyota Celica in front of Richmond Gaol.jpg"},  # was a tiny crop
+    "toyota-yaris-mazda2-based": {"pin": "2017 Toyota Yaris iA sedan in Blue, front left.jpg"},  # was a car-overlap shot
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))
