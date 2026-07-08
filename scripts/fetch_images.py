@@ -255,6 +255,18 @@ OVERRIDES = {
     "kia-carnival-4th-gen-ka4": {"pin": "2022 Kia Carnival LX in Silky Silver, front left.jpg"},  # was the old 1st-gen minivan
     "kia-forte-gt": {"pin": "2019 Kia Forte LXS in Currant Red, front left.jpg"},  # was a Forte5 hatch, rear view (no free GT sedan on Commons)
     "kia-rio-4th-gen-yb": {"pin": "Kia Rio4 1.4 EX sedan 2023.jpg"},  # was the 5-door hatch; catalog is the sedan
+    # L brands (hand-picked after contact-sheet review).
+    "lamborghini-huracan-lb724": {"pin": "The frontview of Lamborghini huracan LP610-4.JPG"},  # was a rear 3/4
+    "lamborghini-murcielago-lp640": {"pin": "Lamborghini Murciélago LP640 Coupé (ABA-BE537) front.jpg"},  # was a rear/side view
+    "lancia-stratos-stratos-hf": {"pin": "1974 Lancia Stratos Stradale at Greenwich 2021, front left.jpg"},  # was a rear 3/4
+    "land-rover-range-rover-l460": {"pin": "Range Rover L460 HSE Belgravia Green Metallic - front.jpg"},  # was a rear 3/4
+    "lexus-gs-f-l10": {"pin": "Lexus GS F (DBA-URL10-FEZRH) front.jpg"},  # was a GS 300, rear view
+    "lexus-is-500-xe30": {"pin": "Lexus IS 500\"F SPORT Performance\" (5BA-USE30-BEZLH) front.jpg"},  # was a modified race-liveried car, rear
+    "lexus-rc-f-xc10": {"pin": "2015 Lexus RC F in Ultra White, front right.jpg"},  # was the RC 300h F Sport hybrid
+    "lexus-is-f-xe20": {"pin": "Lexus IS F USE20 Obsidian - front.jpg"},  # was the IS F CCS concept show car
+    "lexus-lc-500-z100": {"pin": "2018 Lexus LC500, Deep Blue Mica, front right.jpg"},  # was a dim auto-show floor shot
+    "lexus-sc-300-z30": {"pin": "1996 Lexus SC 300 3.0L front 6.13.18.jpg"},  # was a modified/lowered, cluttered lot
+    "lucid-air-grand-touring": {"pin": "2022 Lucid Air Grand Touring in Zenith Red, front left.jpg"},  # was a rear view
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))
