@@ -212,6 +212,27 @@ OVERRIDES = {
     "genesis-gv70-jk": {"pin": "2022 Genesis GV70 AWD, front 12.15.21.jpg"},
     "genesis-gv80-jx1": {"pin": "2021 Genesis GV80 3.5T Advanced, front left, 09-09-2023.jpg"},
     "gmc-syclone-gmt400": {"pin": "1991 GMC Syclone in Black, front right (Saratoga).jpg"},
+    # H brands (hand-picked after contact-sheet review; many replaced a pre-sweep Honda batch)
+    "honda-accord-9th-gen-cr": {"pin": "2013 Honda Accord LX sedan in White Orchard Pearl, front right, 04-26-2025.jpg"},
+    "honda-accord-8th-gen-cp-cs": {"pin": "2008 Honda Accord EX-L, Front Right, 11-21-2021.jpg"},
+    "honda-civic-11th-gen-fe": {"pin": "2022 Honda Civic LX Sedan, front right, 11-02-2022.jpg"},
+    "honda-civic-8th-gen-fa-fg": {"pin": "2008 Honda Civic DX-G in Alabaster Silver, Front Left, 07-31-2022.jpg"},
+    "honda-civic-eg6-sir-jdm": {"pin": "Tuned Honda Civic SiR (E-EG6) front.jpg"},
+    "honda-civic-ek9-type-r-jdm": {"pin": "1997 Honda Civic Type R (EK9), front left.jpg"},
+    "honda-civic-si-9th-gen-fb6": {"pin": "2014 Honda Civic Si Sedan in Rallye Red, front left, 2024-10-04.jpg"},
+    "honda-cr-z-zf1": {"pin": "2014 Honda CR-Z Sport-T i-VTEC 1.5 Front.jpg"},
+    "honda-crx-ef": {"pin": "1991 Honda CRX Si in Rio Red, front left.jpg"},
+    "honda-fit-3rd-gen-gk": {"pin": "2015 Honda Fit Hybrid front - JDM import.jpg"},
+    "honda-odyssey-4th-gen-rl5": {"pin": "2013 Honda Odyssey EX, Front Right, 10-16-2020.jpg"},
+    "honda-ridgeline-2nd-gen": {"pin": "2017 Honda Ridgeline RTL-E, front right (Hershey 2019).jpg"},
+    "honda-s660-jw5": {"pin": "Honda S660 α (JW5) front.JPG"},
+    "honda-nsx-na1": {"pin": "1991 Acura NSX, front left (Huntington).jpg"},
+    "honda-beat-pp1": {"pin": "MG 1108 (51600971356).jpg"},
+    "hummer-h1-alpha": {"pin": "Hummer H1 red front.jpg"},
+    "hyundai-kona-n-os": {"pin": "2023 Denver Auto Show Hyundai Kona N front quarter.jpg"},
+    "hyundai-tiburon-gk": {"pin": "2008 Hyundai Tiburon, front 8.25.19.jpg"},
+    "hyundai-tucson-4th-gen-nx4": {"pin": "2022 Hyundai Tucson SEL, front 5.2.22.jpg"},
+    "hyundai-veloster-n-js": {"pin": "2022 Hyundai Veloster N in Performance Blue, Front Right, 05-22-2022.jpg"},
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))
