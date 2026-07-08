@@ -322,6 +322,19 @@ OVERRIDES = {
     "ram-1500-dt-trx": {"pin": "23 Ram 1500 TRX (1).jpg"},  # was a base Crew Cab with a bull bar, not the TRX widebody
     "renault-5-turbo": {"pin": "1984 Renault 5 Turbo 2.jpg"},  # was the FWD Gordini/Alpine Turbo, not the mid-engine widebody
     "rivian-r1t-launch-edition": {"pin": "2022 Rivian R1T Adventure in Forest Green, front left.jpg"},  # was a rear-left view
+    # S brands (Saab, SEAT, Shelby, Skoda, Subaru) — hand-picked after contact-sheet review.
+    "saab-9-3-viggen": {"pin": "Saab-9-3-coupe-viggen.jpg"},  # was a Saab 9-5 SportCombi wagon (wrong model)
+    "seat-leon-cupra-r-mk2": {"pin": "Seat Leon 1P Cupra R Tribu.JPG"},  # was a Mk1 Cupra (wrong gen)
+    "shelby-cobra-427": {"pin": "1967 Shelby 427 Cobra starboard fore quarter, lighter. DSC 0734 (47528138991).jpg"},  # was a side-profile driving shot
+    "shelby-gt500-mk-i": {"pin": "1968 Shelby Mustang GT500KR Fastback (32916787850).jpg"},  # was a possible Eleanor restomod on an indoor stand
+    "skoda-octavia-vrs-mk3": {"pin": "2013 Skoda Octavia III RS (Typ 5E) 2.0 TSI Rio-Rot-Metallic Vorderansicht Nockalmstrasse.JPG"},  # was a rear 3/4 view
+    "subaru-ascent-wm": {"pin": "2019 Subaru Ascent front 12.29.18.jpg"},  # was a rear 3/4 view
+    "subaru-baja-sport": {"pin": "2003 Subaru Baja in Mystic Blue Pearl, front left, 10-12-2025.jpg"},  # was a distant row of Subarus
+    "subaru-forester-xt-sg": {"pin": "03-05 Subaru Forester XT.jpg"},  # was a small base-looking Forester; want the XT hood scoop
+    "subaru-impreza-2-5-rs-gc8": {"pin": "2001 Subaru Impreza 2.5 RS 4-dr, front right.jpg"},  # was a rear 3/4 view
+    "subaru-legacy-gt-spec-b": {"pin": "08-Subaru-Legacy-SpecB.jpg"},  # was a 2001 3rd-gen GT with a bike rack (wrong gen)
+    "subaru-svx-alcyone": {"pin": "Subaru Alcyone in Black Mica, front left.jpg"},  # was a 2.5:1 panoramic crop
+    "subaru-wrx-va": {"pin": "2015 Subaru WRX Limited, Front Right, 04-10-2021.jpg"},  # pre-existing rear 3/4 view (Honda-lesson re-review)
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))
