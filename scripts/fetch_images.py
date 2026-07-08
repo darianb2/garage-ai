@@ -267,6 +267,31 @@ OVERRIDES = {
     "lexus-lc-500-z100": {"pin": "2018 Lexus LC500, Deep Blue Mica, front right.jpg"},  # was a dim auto-show floor shot
     "lexus-sc-300-z30": {"pin": "1996 Lexus SC 300 3.0L front 6.13.18.jpg"},  # was a modified/lowered, cluttered lot
     "lucid-air-grand-touring": {"pin": "2022 Lucid Air Grand Touring in Zenith Red, front left.jpg"},  # was a rear view
+    # M brands (hand-picked after contact-sheet review).
+    "mazda-cx-9-2nd-gen-tc": {"pin": "2020 Mazda CX-9 Touring, Soul Red Crystal Metallic, front left.jpg"},  # was 1st-gen / wrong angle
+    "mazda-mazdaspeed-protege-bj": {"pin": "'03 Mazdaspeed Protegé Sedan (Les chauds vendredis '10).jpg"},  # was wrong Protege trim
+    "mazda-rx-3-s102a": {"pin": "1973 Mazda RX3 Series II Coupe (23738913081).jpg"},  # was an RX-7/8 mispick
+    "mazdaspeed-mazdaspeed3-bl": {"pin": "2012 Mazdaspeed3 in Liquid Silver Metallic, Front Right, 08-14-2022.jpg"},  # was 1st-gen / rear
+    "mazdaspeed-mazdaspeed6-gg": {"pin": "Mazdaspeed Atenza (DBA-GG3P) front.jpg"},  # was a rear/wrong-trim shot
+    "mazda-323-gtx-bf": {"pin": "1987 Mazda 323 Formule 4 1.6i Turbo 4WD front.jpg"},  # was a rally car / rear
+    "mclaren-570s-sports-series": {"pin": "2017 McLaren 570S Coupé in Volcano Yellow, front left.jpg"},  # was a rear 3/4
+    "mclaren-p1-p1": {"pin": "2014 McLaren P1 (Volcano Orange, front left), leaving Greenwich 2018.jpg"},  # was a rear view
+    "mercedes-benz-190e-2-5-16-cosworth": {"pin": "Tuned Mercedes-Benz 190E 2.3-16 (W201) front.jpg"},  # was a DTM race car; no stock 2.5-16 front on Commons
+    "mercedes-benz-amg-gt-c190": {"pin": "Blue Mercedes-AMG GT S (C190) front.JPG"},  # was a rear/wrong-angle shot
+    "mercedes-benz-c63-amg-w205": {"pin": "2016 Mercedes-AMG C 63 S Premium Automatic Coupe 4.0 Front.jpg"},  # was a rear 3/4
+    "mercedes-benz-sl55-amg-r230": {"pin": "2007 Mercedes SL55 Auto.jpg"},  # was a rear/wrong-gen shot
+    "mercedes-benz-slk55-amg-r171": {"pin": "Mercedes SLK55 R171.jpg"},  # was a rear view
+    "mercedes-benz-slr-mclaren-c199": {"pin": "Mercedes-Benz SLR McLaren (C199) front.JPG"},  # was a rear 3/4
+    "mg-mgb-chrome-bumper": {"pin": "1970 MGB Mk II Roadster (16332095745).jpg"},  # was a rubber-bumper / GT
+    "mini-cooper-classic-cooper-s": {"pin": "1968 Austin Mini Cooper S 1275cc Front.jpg"},  # was a rear/modified shot
+    "mini-cooper-s-f56": {"pin": "2017 Mini Cooper S 2.0 Front.jpg"},  # was a JCW / wrong trim
+    "mini-cooper-jcw-f56": {"pin": "Mini Hatch (F56) John Cooper Works 3-4-front 2025-08.jpg"},  # was a Cooper S / wrong trim
+    "mini-cooper-jcw-gp-f56": {"pin": "2020 Mini JCW GP 3.jpg"},  # was a wrong-gen GP / rear
+    "maserati-mc20-m240": {"pin": "2023 Maserati MC20 in Digital Mint, front right.jpg"},  # was a rear 3/4
+    "mitsubishi-fto-gpx-de3a": {"pin": "1995 FTO GPX Mivec.jpg"},  # was a decaled GS
+    "mitsubishi-lancer-evolution-ix": {"pin": "Mitsubishi LANCER Evolution IX MR GSR (GH-CT9A) front.jpg"},  # was a possible-VIII / mislabel
+    "mitsubishi-outlander-gn": {"pin": "2022 Mitsubishi Outlander SEL 2.5 in Alloy Silver, front left.jpg"},  # was the wrong 3rd-gen
+    "mitsubishi-starion-esi-r": {"pin": "1989 Mitsubishi Starion 2.6 Turbo EX (front).jpg"},  # was a rear/obstructed shot
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))

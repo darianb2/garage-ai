@@ -23642,6 +23642,843 @@
     "alternates": []
   },
   {
+    "slug": "maserati-bora-tipo-117",
+    "car": "Maserati Bora (Tipo 117)",
+    "make": "Maserati",
+    "model": "Bora",
+    "code": "117",
+    "body": "Coupe",
+    "year": 1973,
+    "query": "Maserati Bora 117 1973",
+    "tokens": [
+      "117",
+      "bora"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Maserati Bora 1973",
+    "pick": {
+      "score": 6.58,
+      "reasons": [
+        "tokens:bora",
+        "good-angle",
+        "year-match"
+      ],
+      "title": "File:1973 Maserati Bora 4700 (9041034387).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b0/1973_Maserati_Bora_4700_%289041034387%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1973_Maserati_Bora_4700_(9041034387).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Niels de Wit from Lunteren, The Netherlands",
+      "width": 1920,
+      "height": 1080
+    },
+    "alternates": [
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:bora",
+          "year-match"
+        ],
+        "title": "File:Paris - Bonhams 2016 - Maserati Bora 4.7 litres coup\u00e9 - 1973 - 001.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Paris_-_Bonhams_2016_-_Maserati_Bora_4.7_litres_coup%C3%A9_-_1973_-_001.jpg/1920px-Paris_-_Bonhams_2016_-_Maserati_Bora_4.7_litres_coup%C3%A9_-_1973_-_001.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Bonhams_2016_-_Maserati_Bora_4.7_litres_coup%C3%A9_-_1973_-_001.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Thesupermat",
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:bora",
+          "year-match"
+        ],
+        "title": "File:Paris - Bonhams 2016 - Maserati Bora 4.7 litres coup\u00e9 - 1973 - 002.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Paris_-_Bonhams_2016_-_Maserati_Bora_4.7_litres_coup%C3%A9_-_1973_-_002.jpg/1920px-Paris_-_Bonhams_2016_-_Maserati_Bora_4.7_litres_coup%C3%A9_-_1973_-_002.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Bonhams_2016_-_Maserati_Bora_4.7_litres_coup%C3%A9_-_1973_-_002.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Thesupermat",
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:bora",
+          "year-match"
+        ],
+        "title": "File:Paris - Bonhams 2016 - Maserati Bora 4.7 litres coup\u00e9 - 1973 - 003.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Paris_-_Bonhams_2016_-_Maserati_Bora_4.7_litres_coup%C3%A9_-_1973_-_003.jpg/1920px-Paris_-_Bonhams_2016_-_Maserati_Bora_4.7_litres_coup%C3%A9_-_1973_-_003.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Paris_-_Bonhams_2016_-_Maserati_Bora_4.7_litres_coup%C3%A9_-_1973_-_003.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Thesupermat",
+        "width": 5472,
+        "height": 3648
+      }
+    ]
+  },
+  {
+    "slug": "maserati-granturismo-m145",
+    "car": "Maserati GranTurismo (M145)",
+    "make": "Maserati",
+    "model": "GranTurismo",
+    "code": "M145",
+    "body": "Coupe",
+    "year": 2010,
+    "query": "Maserati GranTurismo M145 2010",
+    "tokens": [
+      "granturismo",
+      "m145"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Maserati GranTurismo M145 2010",
+    "pick": {
+      "score": 9.19,
+      "reasons": [
+        "CC0/PD",
+        "tokens:granturismo,m145",
+        "year-match"
+      ],
+      "title": "File:2010 Maserati GranTurismo (M145) 4.2 coupe (2015-07-26) 01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/2010_Maserati_GranTurismo_%28M145%29_4.2_coupe_%282015-07-26%29_01.jpg/1920px-2010_Maserati_GranTurismo_%28M145%29_4.2_coupe_%282015-07-26%29_01.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2010_Maserati_GranTurismo_(M145)_4.2_coupe_(2015-07-26)_01.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "OSX",
+      "width": 4272,
+      "height": 2856
+    },
+    "alternates": [
+      {
+        "score": 9.19,
+        "reasons": [
+          "CC0/PD",
+          "tokens:granturismo,m145",
+          "year-match"
+        ],
+        "title": "File:2010 Maserati GranTurismo (M145) 4.2 coupe (2015-07-26) 02.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/2010_Maserati_GranTurismo_%28M145%29_4.2_coupe_%282015-07-26%29_02.jpg/1920px-2010_Maserati_GranTurismo_%28M145%29_4.2_coupe_%282015-07-26%29_02.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2010_Maserati_GranTurismo_(M145)_4.2_coupe_(2015-07-26)_02.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "OSX",
+        "width": 4272,
+        "height": 2856
+      }
+    ]
+  },
+  {
+    "slug": "maserati-mc20-m240",
+    "car": "Maserati MC20 (M240)",
+    "make": "Maserati",
+    "model": "MC20",
+    "code": "M240",
+    "body": "Coupe",
+    "year": 2022,
+    "query": "Maserati MC20 M240 2022",
+    "tokens": [
+      "m240",
+      "mc20"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2023 Maserati MC20 in Digital Mint, front right.jpg",
+    "status": "ok",
+    "query_used": "pin:2023 Maserati MC20 in Digital Mint, front right.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2023 Maserati MC20 in Digital Mint, front right.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/2023_Maserati_MC20_in_Digital_Mint%2C_front_right.jpg/1920px-2023_Maserati_MC20_in_Digital_Mint%2C_front_right.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2023_Maserati_MC20_in_Digital_Mint,_front_right.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5080,
+      "height": 2992
+    },
+    "alternates": []
+  },
+  {
+    "slug": "maserati-quattroporte-v-m139",
+    "car": "Maserati Quattroporte (V (M139))",
+    "make": "Maserati",
+    "model": "Quattroporte",
+    "code": "V",
+    "body": "Sedan",
+    "year": 2008,
+    "query": "Maserati Quattroporte V 2008",
+    "tokens": [
+      "quattroporte",
+      "v"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Maserati Quattroporte V 2008",
+    "pick": {
+      "score": 9.27,
+      "reasons": [
+        "tokens:quattroporte,v",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2009 gray Maserati Quattroporte V front.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/2009_gray_Maserati_Quattroporte_V_front.JPG/1920px-2009_gray_Maserati_Quattroporte_V_front.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:2009_gray_Maserati_Quattroporte_V_front.JPG",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "BrokenSphere",
+      "width": 3264,
+      "height": 2448
+    },
+    "alternates": [
+      {
+        "score": 8.69,
+        "reasons": [
+          "CC0/PD",
+          "tokens:quattroporte,v",
+          "good-angle",
+          "front"
+        ],
+        "title": "File:The frontview of Maserati Quattroporte V GTS.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/The_frontview_of_Maserati_Quattroporte_V_GTS.JPG/1920px-The_frontview_of_Maserati_Quattroporte_V_GTS.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:The_frontview_of_Maserati_Quattroporte_V_GTS.JPG",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Tokumeigakarinoaoshima",
+        "width": 2550,
+        "height": 1908
+      },
+      {
+        "score": 7.0,
+        "reasons": [
+          "tokens:quattroporte,v",
+          "year-match"
+        ],
+        "title": "File:2008 Maserati Quattroporte 4.2 V8 (50544444988).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2008_Maserati_Quattroporte_4.2_V8_%2850544444988%29.jpg/1920px-2008_Maserati_Quattroporte_4.2_V8_%2850544444988%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2008_Maserati_Quattroporte_4.2_V8_(50544444988).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Rutger van der Maar",
+        "width": 2048,
+        "height": 1344
+      },
+      {
+        "score": 6.32,
+        "reasons": [
+          "CC0/PD",
+          "tokens:quattroporte",
+          "year-match"
+        ],
+        "title": "File:2006-2008 Maserati Quattroporte Sport GT sedan (2011-01-05).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/2006-2008_Maserati_Quattroporte_Sport_GT_sedan_%282011-01-05%29.jpg/1920px-2006-2008_Maserati_Quattroporte_Sport_GT_sedan_%282011-01-05%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2006-2008_Maserati_Quattroporte_Sport_GT_sedan_(2011-01-05).jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "OSX",
+        "width": 3690,
+        "height": 1464
+      }
+    ]
+  },
+  {
+    "slug": "mazda-323-gtx-bf",
+    "car": "Mazda 323 GTX (BF)",
+    "make": "Mazda",
+    "model": "323 GTX",
+    "code": "BF",
+    "body": "Hatch",
+    "year": 1988,
+    "query": "Mazda 323 GTX BF 1988",
+    "tokens": [
+      "323",
+      "bf",
+      "gtx"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1987 Mazda 323 Formule 4 1.6i Turbo 4WD front.jpg",
+    "status": "ok",
+    "query_used": "pin:1987 Mazda 323 Formule 4 1.6i Turbo 4WD front.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1987 Mazda 323 Formule 4 1.6i Turbo 4WD front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1987_Mazda_323_Formule_4_1.6i_Turbo_4WD_front.jpg/1920px-1987_Mazda_323_Formule_4_1.6i_Turbo_4WD_front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1987_Mazda_323_Formule_4_1.6i_Turbo_4WD_front.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Rutger van der Maar",
+      "width": 2048,
+      "height": 1393
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mazda-cosmo-eunos-jc",
+    "car": "Mazda Cosmo (Eunos (JC))",
+    "make": "Mazda",
+    "model": "Cosmo",
+    "code": "Eunos",
+    "body": "Coupe",
+    "year": 1992,
+    "query": "Mazda Cosmo Eunos 1992",
+    "tokens": [
+      "cosmo",
+      "eunos"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mazda Cosmo Eunos 1992",
+    "pick": {
+      "score": 6.7,
+      "reasons": [
+        "CC0/PD",
+        "tokens:cosmo,eunos"
+      ],
+      "title": "File:Eunos E-JCESE Cosmo 20B TYPE-E (23110313120).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Eunos_E-JCESE_Cosmo_20B_TYPE-E_%2823110313120%29.jpg/1920px-Eunos_E-JCESE_Cosmo_20B_TYPE-E_%2823110313120%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Eunos_E-JCESE_Cosmo_20B_TYPE-E_(23110313120).jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "\u5148\u5f93\u9697\u59cb",
+      "width": 4608,
+      "height": 3072
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mazda-cx-30-turbo-dm",
+    "car": "Mazda CX-30 (Turbo (DM))",
+    "make": "Mazda",
+    "model": "CX-30",
+    "code": "Turbo",
+    "body": "SUV",
+    "year": 2022,
+    "query": "Mazda CX-30 Turbo 2022",
+    "tokens": [
+      "cx-30",
+      "turbo"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mazda CX-30 2022",
+    "pick": {
+      "score": 7.0,
+      "reasons": [
+        "CC0/PD",
+        "tokens:cx-30",
+        "year-match"
+      ],
+      "title": "File:2019-2022 Mazda CX-30 SKYACTIV-G 2.0 Signature Style.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/2019-2022_Mazda_CX-30_SKYACTIV-G_2.0_Signature_Style.jpg/1920px-2019-2022_Mazda_CX-30_SKYACTIV-G_2.0_Signature_Style.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2019-2022_Mazda_CX-30_SKYACTIV-G_2.0_Signature_Style.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "TTTNIS",
+      "width": 5160,
+      "height": 2348
+    },
+    "alternates": [
+      {
+        "score": 5.86,
+        "reasons": [
+          "tokens:cx-30",
+          "year-match"
+        ],
+        "title": "File:2022 Mazda CX-30 2.0 SP.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/61/2022_Mazda_CX-30_2.0_SP.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2022_Mazda_CX-30_2.0_SP.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Chanokchon",
+        "width": 1612,
+        "height": 994
+      },
+      {
+        "score": 5.85,
+        "reasons": [
+          "tokens:cx-30",
+          "year-match"
+        ],
+        "title": "File:Mazda CX-30 2.0S 2022.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Mazda_CX-30_2.0S_2022.jpg/1920px-Mazda_CX-30_2.0S_2022.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mazda_CX-30_2.0S_2022.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "RL GNZLZ",
+        "width": 4702,
+        "height": 2647
+      },
+      {
+        "score": 5.84,
+        "reasons": [
+          "tokens:cx-30",
+          "year-match"
+        ],
+        "title": "File:2022 Mazda CX-30 2.0 V.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/2022_Mazda_CX-30_2.0_V.jpg/1920px-2022_Mazda_CX-30_2.0_V.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2022_Mazda_CX-30_2.0_V.jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "RL GNZLZ",
+        "width": 4000,
+        "height": 2250
+      }
+    ]
+  },
+  {
+    "slug": "mazda-cx-5-2nd-gen-kf",
+    "car": "Mazda CX-5 (2nd Gen (KF))",
+    "make": "Mazda",
+    "model": "CX-5",
+    "code": "",
+    "body": "SUV",
+    "year": 2021,
+    "query": "Mazda CX-5 2021",
+    "tokens": [
+      "cx-5"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mazda CX-5 2021",
+    "pick": {
+      "score": 8.43,
+      "reasons": [
+        "tokens:cx-5",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2022 Mazda CX-5 2.0 front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/2022_Mazda_CX-5_2.0_front.jpg/1920px-2022_Mazda_CX-5_2.0_front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2022_Mazda_CX-5_2.0_front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "ShangTW",
+      "width": 3344,
+      "height": 2224
+    },
+    "alternates": [
+      {
+        "score": 5.86,
+        "reasons": [
+          "tokens:cx-5",
+          "year-match"
+        ],
+        "title": "File:2021 Mazda CX-5 Sport Black Auto.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2021_Mazda_CX-5_Sport_Black_Auto.jpg/1920px-2021_Mazda_CX-5_Sport_Black_Auto.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2021_Mazda_CX-5_Sport_Black_Auto.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 2434,
+        "height": 1595
+      },
+      {
+        "score": 3.65,
+        "reasons": [
+          "tokens:cx-5"
+        ],
+        "title": "File:MAZDA CX-5 (KF) China (11).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/MAZDA_CX-5_%28KF%29_China_%2811%29.jpg/1920px-MAZDA_CX-5_%28KF%29_China_%2811%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:MAZDA_CX-5_(KF)_China_(11).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Dinkun Chen",
+        "width": 5497,
+        "height": 3494
+      },
+      {
+        "score": 3.59,
+        "reasons": [
+          "tokens:cx-5"
+        ],
+        "title": "File:MAZDA CX-5 (KF) China (17).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/MAZDA_CX-5_%28KF%29_China_%2817%29.jpg/1920px-MAZDA_CX-5_%28KF%29_China_%2817%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:MAZDA_CX-5_(KF)_China_(17).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Dinkun Chen",
+        "width": 7588,
+        "height": 4580
+      }
+    ]
+  },
+  {
+    "slug": "mazda-cx-9-2nd-gen-tc",
+    "car": "Mazda CX-9 (2nd Gen (TC))",
+    "make": "Mazda",
+    "model": "CX-9",
+    "code": "",
+    "body": "SUV",
+    "year": 2016,
+    "query": "Mazda CX-9 2016",
+    "tokens": [
+      "cx-9"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2020 Mazda CX-9 Touring, Soul Red Crystal Metallic, front left.jpg",
+    "status": "ok",
+    "query_used": "pin:2020 Mazda CX-9 Touring, Soul Red Crystal Metallic, front left.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2020 Mazda CX-9 Touring, Soul Red Crystal Metallic, front left.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/2020_Mazda_CX-9_Touring%2C_Soul_Red_Crystal_Metallic%2C_front_left.jpg/1920px-2020_Mazda_CX-9_Touring%2C_Soul_Red_Crystal_Metallic%2C_front_left.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2020_Mazda_CX-9_Touring,_Soul_Red_Crystal_Metallic,_front_left.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5264,
+      "height": 3324
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mazda-mazda3-4th-gen-bp",
+    "car": "Mazda Mazda3 (4th Gen (BP))",
+    "make": "Mazda",
+    "model": "Mazda3",
+    "code": "",
+    "body": "Hatch",
+    "year": 2019,
+    "query": "Mazda Mazda3 2019",
+    "tokens": [
+      "mazda3"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mazda Mazda3 2019",
+    "pick": {
+      "score": 6.12,
+      "reasons": [
+        "tokens:mazda3",
+        "year-match"
+      ],
+      "title": "File:Mazda3 Sedan Tokyo Auto Salon 2019 IMG 1297 edited.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Mazda3_Sedan_Tokyo_Auto_Salon_2019_IMG_1297_edited.jpg/1920px-Mazda3_Sedan_Tokyo_Auto_Salon_2019_IMG_1297_edited.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mazda3_Sedan_Tokyo_Auto_Salon_2019_IMG_1297_edited.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "DR17 Sagittarius Runaway",
+      "width": 3608,
+      "height": 2235
+    },
+    "alternates": [
+      {
+        "score": 5.89,
+        "reasons": [
+          "tokens:mazda3",
+          "year-match"
+        ],
+        "title": "File:Mazda3 (BP) Leonberg 2019 IMG 0093.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Mazda3_%28BP%29_Leonberg_2019_IMG_0093.jpg/1920px-Mazda3_%28BP%29_Leonberg_2019_IMG_0093.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mazda3_(BP)_Leonberg_2019_IMG_0093.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alexander Migl",
+        "width": 4766,
+        "height": 2712
+      },
+      {
+        "score": 5.81,
+        "reasons": [
+          "tokens:mazda3",
+          "year-match"
+        ],
+        "title": "File:Mazda3 (BP) Leonberg 2019 IMG 0094.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mazda3_%28BP%29_Leonberg_2019_IMG_0094.jpg/1920px-Mazda3_%28BP%29_Leonberg_2019_IMG_0094.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mazda3_(BP)_Leonberg_2019_IMG_0094.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alexander Migl",
+        "width": 4328,
+        "height": 2412
+      },
+      {
+        "score": 5.62,
+        "reasons": [
+          "tokens:mazda3",
+          "year-match"
+        ],
+        "title": "File:Mazda3 Sedan Tokyo Auto Salon 2019 IMG 1297.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mazda3_Sedan_Tokyo_Auto_Salon_2019_IMG_1297.jpg/1920px-Mazda3_Sedan_Tokyo_Auto_Salon_2019_IMG_1297.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mazda3_Sedan_Tokyo_Auto_Salon_2019_IMG_1297.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "DR17 Sagittarius Runaway",
+        "width": 3648,
+        "height": 2736
+      }
+    ]
+  },
+  {
+    "slug": "mazda-mazda6-gj",
+    "car": "Mazda Mazda6 (GJ)",
+    "make": "Mazda",
+    "model": "Mazda6",
+    "code": "GJ",
+    "body": "Sedan",
+    "year": 2018,
+    "query": "Mazda Mazda6 GJ 2018",
+    "tokens": [
+      "gj",
+      "mazda6"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mazda Mazda6 GJ 2018",
+    "pick": {
+      "score": 8.54,
+      "reasons": [
+        "tokens:mazda6",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2018 Mazda6 facelift Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2018_Mazda6_facelift_Front.jpg/1920px-2018_Mazda6_facelift_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Mazda6_facelift_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 5249,
+      "height": 3125
+    },
+    "alternates": [
+      {
+        "score": 7.52,
+        "reasons": [
+          "tokens:mazda6",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2018 Mazda6 Sport NAV+ Diesel 2.2 Front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/2018_Mazda6_Sport_NAV%2B_Diesel_2.2_Front.jpg/1920px-2018_Mazda6_Sport_NAV%2B_Diesel_2.2_Front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Mazda6_Sport_NAV%2B_Diesel_2.2_Front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Vauxford",
+        "width": 4182,
+        "height": 1909
+      },
+      {
+        "score": 7.17,
+        "reasons": [
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2018 Mazda 6 sedan front 4.2.18.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/2018_Mazda_6_sedan_front_4.2.18.jpg/1920px-2018_Mazda_6_sedan_front_4.2.18.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Mazda_6_sedan_front_4.2.18.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kevauto",
+        "width": 1985,
+        "height": 1211
+      },
+      {
+        "score": 6.06,
+        "reasons": [
+          "tokens:mazda6",
+          "year-match"
+        ],
+        "title": "File:2018 Mazda6 facelift.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/2018_Mazda6_facelift.jpg/1920px-2018_Mazda6_facelift.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Mazda6_facelift.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Vauxford",
+        "width": 4760,
+        "height": 2848
+      }
+    ]
+  },
+  {
+    "slug": "mazda-mazdaspeed-protege-bj",
+    "car": "Mazda Mazdaspeed Protege (BJ)",
+    "make": "Mazda",
+    "model": "Mazdaspeed Protege",
+    "code": "BJ",
+    "body": "Sedan",
+    "year": 2003,
+    "query": "Mazda Mazdaspeed Protege BJ 2003",
+    "tokens": [
+      "bj",
+      "mazdaspeed",
+      "protege"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "'03 Mazdaspeed Proteg\u00e9 Sedan (Les chauds vendredis '10).jpg",
+    "status": "ok",
+    "query_used": "pin:'03 Mazdaspeed Proteg\u00e9 Sedan (Les chauds vendredis '10).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:'03 Mazdaspeed Proteg\u00e9 Sedan (Les chauds vendredis '10).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/%2703_Mazdaspeed_Proteg%C3%A9_Sedan_%28Les_chauds_vendredis_%2710%29.jpg/1920px-%2703_Mazdaspeed_Proteg%C3%A9_Sedan_%28Les_chauds_vendredis_%2710%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:%2703_Mazdaspeed_Proteg%C3%A9_Sedan_(Les_chauds_vendredis_%2710).jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "Bull-Doser",
+      "width": 1936,
+      "height": 1291
+    },
+    "alternates": []
+  },
+  {
     "slug": "mazda-mx-5-miata-na",
     "car": "Mazda MX-5 Miata (NA)",
     "body": "Roadster",
@@ -23966,6 +24803,3234 @@
         "height": 3324
       }
     ]
+  },
+  {
+    "slug": "mazda-mx-6-ge",
+    "car": "Mazda MX-6 (GE)",
+    "make": "Mazda",
+    "model": "MX-6",
+    "code": "GE",
+    "body": "Coupe",
+    "year": 1993,
+    "query": "Mazda MX-6 GE 1993",
+    "tokens": [
+      "ge",
+      "mx-6"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mazda MX-6 GE 1993",
+    "pick": {
+      "score": 7.55,
+      "reasons": [
+        "tokens:mx-6",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:1993 Mazda MX-6 Mystere LS V6 in Brilliant Black, Front Right, 08-14-2022.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/1993_Mazda_MX-6_Mystere_LS_V6_in_Brilliant_Black%2C_Front_Right%2C_08-14-2022.jpg/1920px-1993_Mazda_MX-6_Mystere_LS_V6_in_Brilliant_Black%2C_Front_Right%2C_08-14-2022.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1993_Mazda_MX-6_Mystere_LS_V6_in_Brilliant_Black,_Front_Right,_08-14-2022.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Elise240SX",
+      "width": 3419,
+      "height": 1598
+    },
+    "alternates": [
+      {
+        "score": 6.94,
+        "reasons": [
+          "tokens:mx-6",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:1993 Mazda MX-6 2.5i-24V (9143505934).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/1993_Mazda_MX-6_2.5i-24V_%289143505934%29.jpg/1920px-1993_Mazda_MX-6_2.5i-24V_%289143505934%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1993_Mazda_MX-6_2.5i-24V_(9143505934).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Niels de Wit from Lunteren, The Netherlands",
+        "width": 2836,
+        "height": 1840
+      },
+      {
+        "score": 6.69,
+        "reasons": [
+          "tokens:ge,mx-6",
+          "year-match"
+        ],
+        "title": "File:1993 Mazda MX-6 (GE) coupe (2011-04-04).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/1993_Mazda_MX-6_%28GE%29_coupe_%282011-04-04%29.jpg/1920px-1993_Mazda_MX-6_%28GE%29_coupe_%282011-04-04%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1993_Mazda_MX-6_(GE)_coupe_(2011-04-04).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "FotoSleuth",
+        "width": 2592,
+        "height": 1944
+      },
+      {
+        "score": 6.42,
+        "reasons": [
+          "CC0/PD",
+          "tokens:ge,mx-6"
+        ],
+        "title": "File:Mazda MX-6 GE6.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Mazda_MX-6_GE6.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Mazda_MX-6_GE6.JPG",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Dechiz",
+        "width": 1728,
+        "height": 1152
+      }
+    ]
+  },
+  {
+    "slug": "mazda-rx-3-s102a",
+    "car": "Mazda RX-3 (S102A)",
+    "make": "Mazda",
+    "model": "RX-3",
+    "code": "S102A",
+    "body": "Coupe",
+    "year": 1973,
+    "query": "Mazda RX-3 S102A 1973",
+    "tokens": [
+      "rx-3",
+      "s102a"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1973 Mazda RX3 Series II Coupe (23738913081).jpg",
+    "status": "ok",
+    "query_used": "pin:1973 Mazda RX3 Series II Coupe (23738913081).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1973 Mazda RX3 Series II Coupe (23738913081).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/1973_Mazda_RX3_Series_II_Coupe_%2823738913081%29.jpg/1920px-1973_Mazda_RX3_Series_II_Coupe_%2823738913081%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1973_Mazda_RX3_Series_II_Coupe_(23738913081).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Sicnag",
+      "width": 5184,
+      "height": 3456
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mazda-rx-7-fc",
+    "car": "Mazda RX-7 (FC)",
+    "make": "Mazda",
+    "model": "RX-7",
+    "code": "FC",
+    "body": "Coupe",
+    "year": 1991,
+    "query": "Mazda RX-7 FC 1991",
+    "tokens": [
+      "fc",
+      "rx-7"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mazda RX-7 FC 1991",
+    "pick": {
+      "score": 5.92,
+      "reasons": [
+        "tokens:rx-7",
+        "year-match"
+      ],
+      "title": "File:1991 Mazda RX-7 Turbo II (8890766352).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/1991_Mazda_RX-7_Turbo_II_%288890766352%29.jpg/1920px-1991_Mazda_RX-7_Turbo_II_%288890766352%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1991_Mazda_RX-7_Turbo_II_(8890766352).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Niels de Wit from Lunteren, The Netherlands",
+      "width": 2846,
+      "height": 1860
+    },
+    "alternates": [
+      {
+        "score": 5.77,
+        "reasons": [
+          "tokens:rx-7",
+          "year-match"
+        ],
+        "title": "File:1991 Mazda RX-7 GLS (53140230946).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/1991_Mazda_RX-7_GLS_%2853140230946%29.jpg/1920px-1991_Mazda_RX-7_GLS_%2853140230946%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1991_Mazda_RX-7_GLS_(53140230946).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Rutger van der Maar",
+        "width": 2048,
+        "height": 1360
+      }
+    ]
+  },
+  {
+    "slug": "mazda-rx-7-fd",
+    "car": "Mazda RX-7 (FD)",
+    "make": "Mazda",
+    "model": "RX-7",
+    "code": "FD",
+    "body": "Coupe",
+    "year": 1993,
+    "query": "Mazda RX-7 FD 1993",
+    "tokens": [
+      "fd",
+      "rx-7"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mazda RX-7 FD 1993",
+    "pick": {
+      "score": 6.09,
+      "reasons": [
+        "tokens:rx-7",
+        "year-match"
+      ],
+      "title": "File:1993 Mazda RX-7 1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/1993_Mazda_RX-7_1.jpg/1920px-1993_Mazda_RX-7_1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1993_Mazda_RX-7_1.jpg",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "artist": "Calreyn88",
+      "width": 3855,
+      "height": 2480
+    },
+    "alternates": [
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:rx-7",
+          "year-match"
+        ],
+        "title": "File:Mazda RX-7 Turbo (1993) (54094124108).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mazda_RX-7_Turbo_%281993%29_%2854094124108%29.jpg/1920px-Mazda_RX-7_Turbo_%281993%29_%2854094124108%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mazda_RX-7_Turbo_(1993)_(54094124108).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "score": 5.94,
+        "reasons": [
+          "tokens:rx-7",
+          "year-match"
+        ],
+        "title": "File:1993 Mazda RX-7 2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/1993_Mazda_RX-7_2.jpg/1920px-1993_Mazda_RX-7_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1993_Mazda_RX-7_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 3208,
+        "height": 2110
+      },
+      {
+        "score": 5.7,
+        "reasons": [
+          "tokens:rx-7",
+          "year-match"
+        ],
+        "title": "File:1993 Mazda RX-7.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/1993_Mazda_RX-7.jpg/1920px-1993_Mazda_RX-7.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1993_Mazda_RX-7.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "DestinationFearFan",
+        "width": 3120,
+        "height": 1738
+      }
+    ]
+  },
+  {
+    "slug": "mazda-rx-7-sa22c",
+    "car": "Mazda RX-7 (SA22C)",
+    "make": "Mazda",
+    "model": "RX-7",
+    "code": "SA22C",
+    "body": "Coupe",
+    "year": 1980,
+    "query": "Mazda RX-7 SA22C 1980",
+    "tokens": [
+      "rx-7",
+      "sa22c"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mazda RX-7 1980",
+    "pick": {
+      "score": 6.02,
+      "reasons": [
+        "tokens:rx-7",
+        "year-match"
+      ],
+      "title": "File:1980 Mazda RX-7 SE Limited (17888386539) (cropped).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/1980_Mazda_RX-7_SE_Limited_%2817888386539%29_%28cropped%29.jpg/1920px-1980_Mazda_RX-7_SE_Limited_%2817888386539%29_%28cropped%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1980_Mazda_RX-7_SE_Limited_(17888386539)_(cropped).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Riley from Christchurch, New Zealand",
+      "width": 2851,
+      "height": 1761
+    },
+    "alternates": [
+      {
+        "score": 5.63,
+        "reasons": [
+          "tokens:rx-7",
+          "year-match"
+        ],
+        "title": "File:Mazda RX-7 (Holman & Moody) - Ernesto Soto, Pierre Honegger & Mark Hutchins at the 1980 Silverstone 6 Hours.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Mazda_RX-7_%28Holman_%26_Moody%29_-_Ernesto_Soto%2C_Pierre_Honegger_%26_Mark_Hutchins_at_the_1980_Silverstone_6_Hours.jpg/1920px-Mazda_RX-7_%28Holman_%26_Moody%29_-_Ernesto_Soto%2C_Pierre_Honegger_%26_Mark_Hutchins_at_the_1980_Silverstone_6_Hours.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mazda_RX-7_(Holman_%26_Moody)_-_Ernesto_Soto,_Pierre_Honegger_%26_Mark_Hutchins_at_the_1980_Silverstone_6_Hours.jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Martin Lee",
+        "width": 1970,
+        "height": 1366
+      },
+      {
+        "score": 5.55,
+        "reasons": [
+          "tokens:rx-7",
+          "year-match"
+        ],
+        "title": "File:1980 Mazda RX-7.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/1980_Mazda_RX-7.jpg/1920px-1980_Mazda_RX-7.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1980_Mazda_RX-7.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "NZ Car Freak",
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "score": 5.55,
+        "reasons": [
+          "tokens:rx-7",
+          "year-match"
+        ],
+        "title": "File:1980 Mazda RX-7 SE Limited (17888386539).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/1980_Mazda_RX-7_SE_Limited_%2817888386539%29.jpg/1920px-1980_Mazda_RX-7_SE_Limited_%2817888386539%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1980_Mazda_RX-7_SE_Limited_(17888386539).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Riley from Christchurch, New Zealand",
+        "width": 3072,
+        "height": 2304
+      }
+    ]
+  },
+  {
+    "slug": "mazda-rx-8-se3p",
+    "car": "Mazda RX-8 (SE3P)",
+    "make": "Mazda",
+    "model": "RX-8",
+    "code": "SE3P",
+    "body": "Coupe",
+    "year": 2005,
+    "query": "Mazda RX-8 SE3P 2005",
+    "tokens": [
+      "rx-8",
+      "se3p"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mazda RX-8 2005",
+    "pick": {
+      "score": 7.95,
+      "reasons": [
+        "tokens:rx-8",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2005 Mazda RX-8 front.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2005_Mazda_RX-8_front.JPG/1920px-2005_Mazda_RX-8_front.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:2005_Mazda_RX-8_front.JPG",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "artist": "No machine-readable author provided. Sfoskett~commonswiki assumed (based on copyright claims).",
+      "width": 2272,
+      "height": 1704
+    },
+    "alternates": [
+      {
+        "score": 6.45,
+        "reasons": [
+          "tokens:rx-8",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:2005 red Mazda RX-8 pace car side.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/2005_red_Mazda_RX-8_pace_car_side.JPG/1920px-2005_red_Mazda_RX-8_pace_car_side.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:2005_red_Mazda_RX-8_pace_car_side.JPG",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "BrokenSphere",
+        "width": 2272,
+        "height": 1704
+      },
+      {
+        "score": 5.37,
+        "reasons": [
+          "tokens:rx-8",
+          "good-angle",
+          "front"
+        ],
+        "title": "File:Mazda rx-8 front view.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/17/Mazda_rx-8_front_view.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mazda_rx-8_front_view.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "artist": "N3d",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "score": 5.35,
+        "reasons": [
+          "tokens:rx-8",
+          "year-match"
+        ],
+        "title": "File:Mazda RX-8 2005 (14466736692).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Mazda_RX-8_2005_%2814466736692%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mazda_RX-8_2005_(14466736692).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "order_242 from Chile",
+        "width": 1500,
+        "height": 1125
+      }
+    ]
+  },
+  {
+    "slug": "mazdaspeed-mazdaspeed3-bl",
+    "car": "Mazdaspeed Mazdaspeed3 (BL)",
+    "make": "Mazdaspeed",
+    "model": "Mazdaspeed3",
+    "code": "BL",
+    "body": "Hatch",
+    "year": 2010,
+    "query": "Mazdaspeed Mazdaspeed3 BL 2010",
+    "tokens": [
+      "bl",
+      "mazdaspeed3"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2012 Mazdaspeed3 in Liquid Silver Metallic, Front Right, 08-14-2022.jpg",
+    "status": "ok",
+    "query_used": "pin:2012 Mazdaspeed3 in Liquid Silver Metallic, Front Right, 08-14-2022.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2012 Mazdaspeed3 in Liquid Silver Metallic, Front Right, 08-14-2022.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/2012_Mazdaspeed3_in_Liquid_Silver_Metallic%2C_Front_Right%2C_08-14-2022.jpg/1920px-2012_Mazdaspeed3_in_Liquid_Silver_Metallic%2C_Front_Right%2C_08-14-2022.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2012_Mazdaspeed3_in_Liquid_Silver_Metallic,_Front_Right,_08-14-2022.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Elise240SX",
+      "width": 2704,
+      "height": 1465
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mazdaspeed-mazdaspeed6-gg",
+    "car": "Mazdaspeed Mazdaspeed6 (GG)",
+    "make": "Mazdaspeed",
+    "model": "Mazdaspeed6",
+    "code": "GG",
+    "body": "Sedan",
+    "year": 2006,
+    "query": "Mazdaspeed Mazdaspeed6 GG 2006",
+    "tokens": [
+      "gg",
+      "mazdaspeed6"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Mazdaspeed Atenza (DBA-GG3P) front.jpg",
+    "status": "ok",
+    "query_used": "pin:Mazdaspeed Atenza (DBA-GG3P) front.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Mazdaspeed Atenza (DBA-GG3P) front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Mazdaspeed_Atenza_%28DBA-GG3P%29_front.jpg/1920px-Mazdaspeed_Atenza_%28DBA-GG3P%29_front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mazdaspeed_Atenza_(DBA-GG3P)_front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Tokumeigakarinoaoshima",
+      "width": 2560,
+      "height": 1920
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mclaren-570s-sports-series",
+    "car": "McLaren 570S (Sports Series)",
+    "make": "McLaren",
+    "model": "570S",
+    "code": "Sports",
+    "body": "Coupe",
+    "year": 2016,
+    "query": "McLaren 570S Sports 2016",
+    "tokens": [
+      "570s",
+      "sports"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2017 McLaren 570S Coup\u00e9 in Volcano Yellow, front left.jpg",
+    "status": "ok",
+    "query_used": "pin:2017 McLaren 570S Coup\u00e9 in Volcano Yellow, front left.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2017 McLaren 570S Coup\u00e9 in Volcano Yellow, front left.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/2017_McLaren_570S_Coup%C3%A9_in_Volcano_Yellow%2C_front_left.jpg/1920px-2017_McLaren_570S_Coup%C3%A9_in_Volcano_Yellow%2C_front_left.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2017_McLaren_570S_Coup%C3%A9_in_Volcano_Yellow,_front_left.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5156,
+      "height": 2912
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mclaren-720s-p14",
+    "car": "McLaren 720S (P14)",
+    "make": "McLaren",
+    "model": "720S",
+    "code": "P14",
+    "body": "Coupe",
+    "year": 2018,
+    "query": "McLaren 720S P14 2018",
+    "tokens": [
+      "720s",
+      "p14"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "McLaren 720S 2018",
+    "pick": {
+      "score": 8.26,
+      "reasons": [
+        "tokens:720s",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2018 McLaren 720S front, Hagerty 6.1.19.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2018_McLaren_720S_front%2C_Hagerty_6.1.19.jpg/1920px-2018_McLaren_720S_front%2C_Hagerty_6.1.19.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_McLaren_720S_front,_Hagerty_6.1.19.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 4759,
+      "height": 2612
+    },
+    "alternates": [
+      {
+        "score": 6.14,
+        "reasons": [
+          "tokens:720s",
+          "year-match"
+        ],
+        "title": "File:2018 McLaren 720S 8.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/2018_McLaren_720S_8.jpg/1920px-2018_McLaren_720S_8.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_McLaren_720S_8.jpg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "Calreyn88",
+        "width": 3823,
+        "height": 2416
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:720s",
+          "year-match"
+        ],
+        "title": "File:McLaren 720S (2018) (52228246608).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/McLaren_720S_%282018%29_%2852228246608%29.jpg/1920px-McLaren_720S_%282018%29_%2852228246608%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:McLaren_720S_(2018)_(52228246608).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:720s",
+          "year-match"
+        ],
+        "title": "File:McLaren 720S (2018) (52228246633).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/McLaren_720S_%282018%29_%2852228246633%29.jpg/1920px-McLaren_720S_%282018%29_%2852228246633%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:McLaren_720S_(2018)_(52228246633).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 6000,
+        "height": 4000
+      }
+    ]
+  },
+  {
+    "slug": "mclaren-f1-f1",
+    "car": "McLaren F1 (F1)",
+    "make": "McLaren",
+    "model": "F1",
+    "code": "F1",
+    "body": "Coupe",
+    "year": 1994,
+    "query": "McLaren F1 F1 1994",
+    "tokens": [
+      "f1"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "McLaren F1 F1 1994",
+    "pick": {
+      "score": 8.01,
+      "reasons": [
+        "CC0/PD",
+        "tokens:f1",
+        "year-match"
+      ],
+      "title": "File:McLaren F1 (1994) (55082189081).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/McLaren_F1_%281994%29_%2855082189081%29.jpg/1920px-McLaren_F1_%281994%29_%2855082189081%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:McLaren_F1_(1994)_(55082189081).jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Charles from Port Chester, New York",
+      "width": 5815,
+      "height": 3860
+    },
+    "alternates": [
+      {
+        "score": 8.0,
+        "reasons": [
+          "CC0/PD",
+          "tokens:f1",
+          "year-match"
+        ],
+        "title": "File:McLaren F1 (1994) (55082448019).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/McLaren_F1_%281994%29_%2855082448019%29.jpg/1920px-McLaren_F1_%281994%29_%2855082448019%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:McLaren_F1_(1994)_(55082448019).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Charles from Port Chester, New York",
+        "width": 5753,
+        "height": 3835
+      },
+      {
+        "score": 7.55,
+        "reasons": [
+          "CC0/PD",
+          "tokens:f1",
+          "year-match"
+        ],
+        "title": "File:McLaren Peugeot 1994 F1.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/McLaren_Peugeot_1994_F1.JPG/1920px-McLaren_Peugeot_1994_F1.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:McLaren_Peugeot_1994_F1.JPG",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Alf van Beem",
+        "width": 3092,
+        "height": 2322
+      },
+      {
+        "score": 6.88,
+        "reasons": [
+          "tokens:f1",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:1994 McLaren F1-2 (29891734483).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/1994_McLaren_F1-2_%2829891734483%29.jpg/1920px-1994_McLaren_F1-2_%2829891734483%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1994_McLaren_F1-2_(29891734483).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "naeem mayet",
+        "width": 3000,
+        "height": 2000
+      }
+    ]
+  },
+  {
+    "slug": "mclaren-mp4-12c-mp4-12c",
+    "car": "McLaren MP4-12C (MP4-12C)",
+    "make": "McLaren",
+    "model": "MP4-12C",
+    "code": "MP4-12C",
+    "body": "Coupe",
+    "year": 2012,
+    "query": "McLaren MP4-12C MP4-12C 2012",
+    "tokens": [
+      "mp4-12c"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "McLaren MP4-12C MP4-12C 2012",
+    "pick": {
+      "score": 7.69,
+      "reasons": [
+        "tokens:mp4-12c",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:McLaren MP4-12C \u2013 Frontansicht (1), 30. August 2012, D\u00fcsseldorf.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/McLaren_MP4-12C_%E2%80%93_Frontansicht_%281%29%2C_30._August_2012%2C_D%C3%BCsseldorf.jpg/1920px-McLaren_MP4-12C_%E2%80%93_Frontansicht_%281%29%2C_30._August_2012%2C_D%C3%BCsseldorf.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:McLaren_MP4-12C_%E2%80%93_Frontansicht_(1),_30._August_2012,_D%C3%BCsseldorf.jpg",
+      "license": "CC BY-SA 3.0 de",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "artist": "M 93",
+      "width": 3081,
+      "height": 1504
+    },
+    "alternates": [
+      {
+        "score": 7.07,
+        "reasons": [
+          "tokens:mp4-12c",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:McLaren MP4-12C \u2013 Frontansicht (3), 30. August 2012, D\u00fcsseldorf.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/McLaren_MP4-12C_%E2%80%93_Frontansicht_%283%29%2C_30._August_2012%2C_D%C3%BCsseldorf.jpg/1920px-McLaren_MP4-12C_%E2%80%93_Frontansicht_%283%29%2C_30._August_2012%2C_D%C3%BCsseldorf.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:McLaren_MP4-12C_%E2%80%93_Frontansicht_(3),_30._August_2012,_D%C3%BCsseldorf.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "artist": "M 93",
+        "width": 3263,
+        "height": 1377
+      },
+      {
+        "score": 6.61,
+        "reasons": [
+          "tokens:mp4-12c",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:McLaren MP4-12C \u2013 Frontansicht (6), 30. August 2012, D\u00fcsseldorf.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/McLaren_MP4-12C_%E2%80%93_Frontansicht_%286%29%2C_30._August_2012%2C_D%C3%BCsseldorf.jpg/1920px-McLaren_MP4-12C_%E2%80%93_Frontansicht_%286%29%2C_30._August_2012%2C_D%C3%BCsseldorf.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:McLaren_MP4-12C_%E2%80%93_Frontansicht_(6),_30._August_2012,_D%C3%BCsseldorf.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "artist": "M 93",
+        "width": 3283,
+        "height": 1157
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:mp4-12c",
+          "year-match"
+        ],
+        "title": "File:McLaren - MP4-12C GT3 - Mondial de l'Automobile de Paris 2012 - 201.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/McLaren_-_MP4-12C_GT3_-_Mondial_de_l%27Automobile_de_Paris_2012_-_201.jpg/1920px-McLaren_-_MP4-12C_GT3_-_Mondial_de_l%27Automobile_de_Paris_2012_-_201.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:McLaren_-_MP4-12C_GT3_-_Mondial_de_l%27Automobile_de_Paris_2012_-_201.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Thesupermat",
+        "width": 4384,
+        "height": 2923
+      }
+    ]
+  },
+  {
+    "slug": "mclaren-p1-p1",
+    "car": "McLaren P1 (P1)",
+    "make": "McLaren",
+    "model": "P1",
+    "code": "P1",
+    "body": "Coupe",
+    "year": 2014,
+    "query": "McLaren P1 P1 2014",
+    "tokens": [
+      "p1"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2014 McLaren P1 (Volcano Orange, front left), leaving Greenwich 2018.jpg",
+    "status": "ok",
+    "query_used": "pin:2014 McLaren P1 (Volcano Orange, front left), leaving Greenwich 2018.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2014 McLaren P1 (Volcano Orange, front left), leaving Greenwich 2018.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/2014_McLaren_P1_%28Volcano_Orange%2C_front_left%29%2C_leaving_Greenwich_2018.jpg/1920px-2014_McLaren_P1_%28Volcano_Orange%2C_front_left%29%2C_leaving_Greenwich_2018.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2014_McLaren_P1_(Volcano_Orange,_front_left),_leaving_Greenwich_2018.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 4026,
+      "height": 2400
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mercedes-benz-190e-2-5-16-cosworth",
+    "car": "Mercedes-Benz 190E (2.5-16 Cosworth)",
+    "make": "Mercedes-Benz",
+    "model": "190E",
+    "code": "2.5-16",
+    "body": "Sedan",
+    "year": 1990,
+    "query": "Mercedes-Benz 190E 2.5-16 1990",
+    "tokens": [
+      "190e",
+      "2.5-16"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Tuned Mercedes-Benz 190E 2.3-16 (W201) front.jpg",
+    "status": "ok",
+    "query_used": "pin:Tuned Mercedes-Benz 190E 2.3-16 (W201) front.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Tuned Mercedes-Benz 190E 2.3-16 (W201) front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Tuned_Mercedes-Benz_190E_2.3-16_%28W201%29_front.jpg/1920px-Tuned_Mercedes-Benz_190E_2.3-16_%28W201%29_front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Tuned_Mercedes-Benz_190E_2.3-16_(W201)_front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Tokumeigakarinoaoshima",
+      "width": 2560,
+      "height": 1920
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mercedes-benz-300sl-w198-gullwing",
+    "car": "Mercedes-Benz 300SL (W198 Gullwing)",
+    "make": "Mercedes-Benz",
+    "model": "300SL",
+    "code": "W198",
+    "body": "Coupe",
+    "year": 1955,
+    "query": "Mercedes-Benz 300SL W198 1955",
+    "tokens": [
+      "300sl",
+      "w198"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mercedes-Benz 300SL W198 1955",
+    "pick": {
+      "score": 6.72,
+      "reasons": [
+        "tokens:300sl,w198",
+        "year-match"
+      ],
+      "title": "File:1955 Mercedes-Benz 300SL W198 I FOS21.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/1955_Mercedes-Benz_300SL_W198_I_FOS21.jpg/1920px-1955_Mercedes-Benz_300SL_W198_I_FOS21.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1955_Mercedes-Benz_300SL_W198_I_FOS21.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MrWalkr",
+      "width": 6091,
+      "height": 4841
+    },
+    "alternates": [
+      {
+        "score": 6.09,
+        "reasons": [
+          "tokens:300sl",
+          "year-match"
+        ],
+        "title": "File:1955 Mercedes-Benz 300SL LC23.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/1955_Mercedes-Benz_300SL_LC23.jpg/1920px-1955_Mercedes-Benz_300SL_LC23.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1955_Mercedes-Benz_300SL_LC23.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 4911,
+        "height": 2964
+      },
+      {
+        "score": 6.08,
+        "reasons": [
+          "tokens:300sl",
+          "year-match"
+        ],
+        "title": "File:1955 Mercedes-Benz 300SL LC25 Low.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/1955_Mercedes-Benz_300SL_LC25_Low.jpg/1920px-1955_Mercedes-Benz_300SL_LC25_Low.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1955_Mercedes-Benz_300SL_LC25_Low.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 4706,
+        "height": 2834
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:300sl",
+          "year-match"
+        ],
+        "title": "File:1955 Mercedes-Benz 300SL HCC24.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/1955_Mercedes-Benz_300SL_HCC24.jpg/1920px-1955_Mercedes-Benz_300SL_HCC24.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1955_Mercedes-Benz_300SL_HCC24.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 4289,
+        "height": 2522
+      }
+    ]
+  },
+  {
+    "slug": "mercedes-benz-500e-w124",
+    "car": "Mercedes-Benz 500E (W124)",
+    "make": "Mercedes-Benz",
+    "model": "500E",
+    "code": "W124",
+    "body": "Sedan",
+    "year": 1992,
+    "query": "Mercedes-Benz 500E W124 1992",
+    "tokens": [
+      "500e",
+      "w124"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mercedes-Benz 500E W124 1992",
+    "pick": {
+      "score": 9.73,
+      "reasons": [
+        "tokens:500e,w124",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:1992 Mercedes-Benz 500E (W124.036), front right.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/1992_Mercedes-Benz_500E_%28W124.036%29%2C_front_right.jpg/1920px-1992_Mercedes-Benz_500E_%28W124.036%29%2C_front_right.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1992_Mercedes-Benz_500E_(W124.036),_front_right.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5363,
+      "height": 3184
+    },
+    "alternates": [
+      {
+        "score": 4.37,
+        "reasons": [
+          "tokens:500e,w124",
+          "bad-angle",
+          "year-match"
+        ],
+        "title": "File:1992 Mercedes-Benz 500E (W124.036), rear right.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/1992_Mercedes-Benz_500E_%28W124.036%29%2C_rear_right.jpg/1920px-1992_Mercedes-Benz_500E_%28W124.036%29%2C_rear_right.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1992_Mercedes-Benz_500E_(W124.036),_rear_right.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Mr.choppers",
+        "width": 5355,
+        "height": 2873
+      }
+    ]
+  },
+  {
+    "slug": "mercedes-benz-a45-amg-w177",
+    "car": "Mercedes-Benz A45 AMG (W177)",
+    "make": "Mercedes-Benz",
+    "model": "A45 AMG",
+    "code": "W177",
+    "body": "Hatch",
+    "year": 2021,
+    "query": "Mercedes-Benz A45 AMG W177 2021",
+    "tokens": [
+      "a45",
+      "amg",
+      "w177"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mercedes-Benz A45 AMG W177 2021",
+    "pick": {
+      "score": 6.62,
+      "reasons": [
+        "tokens:amg,w177",
+        "year-match"
+      ],
+      "title": "File:2021 Mercedes-AMG A 45 W177.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/2021_Mercedes-AMG_A_45_W177.jpg/1920px-2021_Mercedes-AMG_A_45_W177.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2021_Mercedes-AMG_A_45_W177.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vogue2Voke",
+      "width": 2048,
+      "height": 1536
+    },
+    "alternates": [
+      {
+        "score": 5.57,
+        "reasons": [
+          "tokens:a45,amg,w177"
+        ],
+        "title": "File:Mercedes-Amg A45 S (W177) black (1).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mercedes-Amg_A45_S_%28W177%29_black_%281%29.jpg/1920px-Mercedes-Amg_A45_S_%28W177%29_black_%281%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Amg_A45_S_(W177)_black_(1).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Damian B Oh",
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "score": 5.57,
+        "reasons": [
+          "tokens:a45,amg,w177"
+        ],
+        "title": "File:Mercedes-Amg A45 S (W177) black (2).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Mercedes-Amg_A45_S_%28W177%29_black_%282%29.jpg/1920px-Mercedes-Amg_A45_S_%28W177%29_black_%282%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Amg_A45_S_(W177)_black_(2).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Damian B Oh",
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "score": 5.3,
+        "reasons": [
+          "tokens:a45,amg,w177"
+        ],
+        "title": "File:Mercedes A45 AMG w177 silver (1).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Mercedes_A45_AMG_w177_silver_%281%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mercedes_A45_AMG_w177_silver_(1).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Damian B Oh",
+        "width": 1825,
+        "height": 1368
+      }
+    ]
+  },
+  {
+    "slug": "mercedes-benz-amg-gt-c190",
+    "car": "Mercedes-Benz AMG GT (C190)",
+    "make": "Mercedes-Benz",
+    "model": "AMG GT",
+    "code": "C190",
+    "body": "Coupe",
+    "year": 2017,
+    "query": "Mercedes-Benz AMG GT C190 2017",
+    "tokens": [
+      "amg",
+      "c190",
+      "gt"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Blue Mercedes-AMG GT S (C190) front.JPG",
+    "status": "ok",
+    "query_used": "pin:Blue Mercedes-AMG GT S (C190) front.JPG",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Blue Mercedes-AMG GT S (C190) front.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Blue_Mercedes-AMG_GT_S_%28C190%29_front.JPG/1920px-Blue_Mercedes-AMG_GT_S_%28C190%29_front.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:Blue_Mercedes-AMG_GT_S_(C190)_front.JPG",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Tokumeigakarinoaoshima",
+      "width": 2560,
+      "height": 1920
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mercedes-benz-c63-amg-w204",
+    "car": "Mercedes-Benz C63 AMG (W204)",
+    "make": "Mercedes-Benz",
+    "model": "C63 AMG",
+    "code": "W204",
+    "body": "Sedan",
+    "year": 2010,
+    "query": "Mercedes-Benz C63 AMG W204 2010",
+    "tokens": [
+      "amg",
+      "c63",
+      "w204"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mercedes-Benz C63 AMG W204 2010",
+    "pick": {
+      "score": 9.95,
+      "reasons": [
+        "CC0/PD",
+        "tokens:amg,c63,w204",
+        "good-angle",
+        "front"
+      ],
+      "title": "File:Mercedes-Benz C63 AMG Edition 507 (W204) front.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Mercedes-Benz_C63_AMG_Edition_507_%28W204%29_front.JPG/1920px-Mercedes-Benz_C63_AMG_Edition_507_%28W204%29_front.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_C63_AMG_Edition_507_(W204)_front.JPG",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Tokumeigakarinoaoshima",
+      "width": 2484,
+      "height": 1814
+    },
+    "alternates": [
+      {
+        "score": 8.48,
+        "reasons": [
+          "tokens:amg,c63,w204",
+          "year-match"
+        ],
+        "title": "File:2010 Mercedes-Benz C63 AMG (W204) (7475636226).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/2010_Mercedes-Benz_C63_AMG_%28W204%29_%287475636226%29.jpg/1920px-2010_Mercedes-Benz_C63_AMG_%28W204%29_%287475636226%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2010_Mercedes-Benz_C63_AMG_(W204)_(7475636226).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Spanish Coches",
+        "width": 4222,
+        "height": 2544
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:amg",
+          "year-match"
+        ],
+        "title": "File:2012 Mercedes-Benz C 63 AMG (W 204 MY12) sedan (16495500647).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/2012_Mercedes-Benz_C_63_AMG_%28W_204_MY12%29_sedan_%2816495500647%29.jpg/1920px-2012_Mercedes-Benz_C_63_AMG_%28W_204_MY12%29_sedan_%2816495500647%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2012_Mercedes-Benz_C_63_AMG_(W_204_MY12)_sedan_(16495500647).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Jeremy from Sydney, Australia",
+        "width": 4752,
+        "height": 3168
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:amg",
+          "year-match"
+        ],
+        "title": "File:2012 Mercedes-Benz C 63 AMG (W 204 MY12) sedan (16676872406).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/2012_Mercedes-Benz_C_63_AMG_%28W_204_MY12%29_sedan_%2816676872406%29.jpg/1920px-2012_Mercedes-Benz_C_63_AMG_%28W_204_MY12%29_sedan_%2816676872406%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2012_Mercedes-Benz_C_63_AMG_(W_204_MY12)_sedan_(16676872406).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Jeremy from Sydney, Australia",
+        "width": 4752,
+        "height": 3168
+      }
+    ]
+  },
+  {
+    "slug": "mercedes-benz-c63-amg-w205",
+    "car": "Mercedes-Benz C63 AMG (W205)",
+    "make": "Mercedes-Benz",
+    "model": "C63 AMG",
+    "code": "W205",
+    "body": "Sedan",
+    "year": 2016,
+    "query": "Mercedes-Benz C63 AMG W205 2016",
+    "tokens": [
+      "amg",
+      "c63",
+      "w205"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2016 Mercedes-AMG C 63 S Premium Automatic Coupe 4.0 Front.jpg",
+    "status": "ok",
+    "query_used": "pin:2016 Mercedes-AMG C 63 S Premium Automatic Coupe 4.0 Front.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2016 Mercedes-AMG C 63 S Premium Automatic Coupe 4.0 Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/2016_Mercedes-AMG_C_63_S_Premium_Automatic_Coupe_4.0_Front.jpg/1920px-2016_Mercedes-AMG_C_63_S_Premium_Automatic_Coupe_4.0_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2016_Mercedes-AMG_C_63_S_Premium_Automatic_Coupe_4.0_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 4515,
+      "height": 1881
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mercedes-benz-clk63-amg-black-series-c209",
+    "car": "Mercedes-Benz CLK63 AMG (Black Series (C209))",
+    "make": "Mercedes-Benz",
+    "model": "CLK63 AMG",
+    "code": "Black",
+    "body": "Coupe",
+    "year": 2008,
+    "query": "Mercedes-Benz CLK63 AMG Black 2008",
+    "tokens": [
+      "amg",
+      "black",
+      "clk63"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mercedes-Benz CLK63 AMG Black 2008",
+    "pick": {
+      "score": 8.42,
+      "reasons": [
+        "tokens:amg,black,clk63",
+        "year-match"
+      ],
+      "title": "File:2008 Mercedes-Benz CLK63 AMG Black Series LC24.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/2008_Mercedes-Benz_CLK63_AMG_Black_Series_LC24.jpg/1920px-2008_Mercedes-Benz_CLK63_AMG_Black_Series_LC24.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2008_Mercedes-Benz_CLK63_AMG_Black_Series_LC24.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MrWalkr",
+      "width": 6624,
+      "height": 4394
+    },
+    "alternates": [
+      {
+        "score": 8.28,
+        "reasons": [
+          "tokens:amg,black,clk63",
+          "year-match"
+        ],
+        "title": "File:2008 Mercedes-Benz CLK63 AMG Black Series.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/2008_Mercedes-Benz_CLK63_AMG_Black_Series.jpg/1920px-2008_Mercedes-Benz_CLK63_AMG_Black_Series.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2008_Mercedes-Benz_CLK63_AMG_Black_Series.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 4704,
+        "height": 2669
+      },
+      {
+        "score": 8.18,
+        "reasons": [
+          "tokens:amg,black,clk63",
+          "year-match"
+        ],
+        "title": "File:2008 Mercedes CLK63 AMG Black Series.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/2008_Mercedes_CLK63_AMG_Black_Series.jpg/1920px-2008_Mercedes_CLK63_AMG_Black_Series.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2008_Mercedes_CLK63_AMG_Black_Series.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 2555,
+        "height": 1726
+      },
+      {
+        "score": 6.6,
+        "reasons": [
+          "CC0/PD",
+          "tokens:black,clk63"
+        ],
+        "title": "File:CLK63 Black.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/CLK63_Black.jpg/1920px-CLK63_Black.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:CLK63_Black.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Jagvar",
+        "width": 2583,
+        "height": 1555
+      }
+    ]
+  },
+  {
+    "slug": "mercedes-benz-e55-amg-w211",
+    "car": "Mercedes-Benz E55 AMG (W211)",
+    "make": "Mercedes-Benz",
+    "model": "E55 AMG",
+    "code": "W211",
+    "body": "Sedan",
+    "year": 2004,
+    "query": "Mercedes-Benz E55 AMG W211 2004",
+    "tokens": [
+      "amg",
+      "e55",
+      "w211"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mercedes-Benz E55 AMG W211 2004",
+    "pick": {
+      "score": 11.04,
+      "reasons": [
+        "tokens:amg,e55,w211",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2004 Mercedes-Benz E55 AMG W211 Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/2004_Mercedes-Benz_E55_AMG_W211_Front.jpg/1920px-2004_Mercedes-Benz_E55_AMG_W211_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2004_Mercedes-Benz_E55_AMG_W211_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Rich7333",
+      "width": 3840,
+      "height": 2372
+    },
+    "alternates": [
+      {
+        "score": 9.42,
+        "reasons": [
+          "tokens:amg,e55,w211",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:2004 Mercedes-Benz E55 AMG W211 Side.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/2004_Mercedes-Benz_E55_AMG_W211_Side.jpg/1920px-2004_Mercedes-Benz_E55_AMG_W211_Side.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2004_Mercedes-Benz_E55_AMG_W211_Side.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Rich7333",
+        "width": 4928,
+        "height": 3264
+      },
+      {
+        "score": 9.33,
+        "reasons": [
+          "CC0/PD",
+          "tokens:amg,e55",
+          "year-match"
+        ],
+        "title": "File:2004 Mercedes E55 AMG Auto 1.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/2004_Mercedes_E55_AMG_Auto_1.jpg/1920px-2004_Mercedes_E55_AMG_Auto_1.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2004_Mercedes_E55_AMG_Auto_1.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Calreyn88",
+        "width": 15824,
+        "height": 10108
+      },
+      {
+        "score": 5.91,
+        "reasons": [
+          "tokens:amg,e55,w211",
+          "bad-angle",
+          "year-match"
+        ],
+        "title": "File:2004 Mercedes-Benz E55 AMG W211 Rear.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/2004_Mercedes-Benz_E55_AMG_W211_Rear.jpg/1920px-2004_Mercedes-Benz_E55_AMG_W211_Rear.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2004_Mercedes-Benz_E55_AMG_W211_Rear.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Rich7333",
+        "width": 6016,
+        "height": 4000
+      }
+    ]
+  },
+  {
+    "slug": "mercedes-benz-e63-amg-w212",
+    "car": "Mercedes-Benz E63 AMG (W212)",
+    "make": "Mercedes-Benz",
+    "model": "E63 AMG",
+    "code": "W212",
+    "body": "Sedan",
+    "year": 2014,
+    "query": "Mercedes-Benz E63 AMG W212 2014",
+    "tokens": [
+      "amg",
+      "e63",
+      "w212"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mercedes-Benz E63 AMG W212 2014",
+    "pick": {
+      "score": 10.04,
+      "reasons": [
+        "CC0/PD",
+        "tokens:amg,e63,w212",
+        "good-angle",
+        "front"
+      ],
+      "title": "File:The frontview of Mercedes-Benz E63 AMG (W212).JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/The_frontview_of_Mercedes-Benz_E63_AMG_%28W212%29.JPG/1920px-The_frontview_of_Mercedes-Benz_E63_AMG_%28W212%29.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:The_frontview_of_Mercedes-Benz_E63_AMG_(W212).JPG",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Tokumeigakarinoaoshima",
+      "width": 2410,
+      "height": 1700
+    },
+    "alternates": [
+      {
+        "score": 9.97,
+        "reasons": [
+          "CC0/PD",
+          "tokens:amg,e63,w212",
+          "good-angle",
+          "front"
+        ],
+        "title": "File:Mercedes-Benz E63 AMG 4MATIC (W212) MY2013 front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Mercedes-Benz_E63_AMG_4MATIC_%28W212%29_MY2013_front.jpg/1920px-Mercedes-Benz_E63_AMG_4MATIC_%28W212%29_MY2013_front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_E63_AMG_4MATIC_(W212)_MY2013_front.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Tokumeigakarinoaoshima",
+        "width": 2510,
+        "height": 1822
+      },
+      {
+        "score": 9.95,
+        "reasons": [
+          "CC0/PD",
+          "tokens:amg,e63,w212",
+          "good-angle",
+          "front"
+        ],
+        "title": "File:Mercedes-Benz E63 AMG S 4MATIC Performance Studio Special (W212) front.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Mercedes-Benz_E63_AMG_S_4MATIC_Performance_Studio_Special_%28W212%29_front.JPG/1920px-Mercedes-Benz_E63_AMG_S_4MATIC_Performance_Studio_Special_%28W212%29_front.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_E63_AMG_S_4MATIC_Performance_Studio_Special_(W212)_front.JPG",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Tokumeigakarinoaoshima",
+        "width": 2536,
+        "height": 1858
+      },
+      {
+        "score": 9.9,
+        "reasons": [
+          "CC0/PD",
+          "tokens:amg,e63,w212",
+          "good-angle",
+          "front"
+        ],
+        "title": "File:Mercedes-Benz E63 AMG 4MATIC (W212) front.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Mercedes-Benz_E63_AMG_4MATIC_%28W212%29_front.JPG/1920px-Mercedes-Benz_E63_AMG_4MATIC_%28W212%29_front.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_E63_AMG_4MATIC_(W212)_front.JPG",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Tokumeigakarinoaoshima",
+        "width": 2592,
+        "height": 1936
+      }
+    ]
+  },
+  {
+    "slug": "mercedes-benz-g63-amg-w463",
+    "car": "Mercedes-Benz G63 AMG (W463)",
+    "make": "Mercedes-Benz",
+    "model": "G63 AMG",
+    "code": "W463",
+    "body": "SUV",
+    "year": 2021,
+    "query": "Mercedes-Benz G63 AMG W463 2021",
+    "tokens": [
+      "amg",
+      "g63",
+      "w463"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mercedes-Benz G63 AMG W463 2021",
+    "pick": {
+      "score": 7.08,
+      "reasons": [
+        "tokens:amg,g63",
+        "good-angle",
+        "front"
+      ],
+      "title": "File:2017 Mercedes-Benz G63 AMG in Olive Drab wrap, front right.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/2017_Mercedes-Benz_G63_AMG_in_Olive_Drab_wrap%2C_front_right.jpg/1920px-2017_Mercedes-Benz_G63_AMG_in_Olive_Drab_wrap%2C_front_right.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2017_Mercedes-Benz_G63_AMG_in_Olive_Drab_wrap,_front_right.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 3302,
+      "height": 2229
+    },
+    "alternates": [
+      {
+        "score": 2.16,
+        "reasons": [
+          "tokens:amg,g63",
+          "bad-angle"
+        ],
+        "title": "File:2017 Mercedes-Benz G63 AMG in Olive Drab wrap, rear left.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/2017_Mercedes-Benz_G63_AMG_in_Olive_Drab_wrap%2C_rear_left.jpg/1920px-2017_Mercedes-Benz_G63_AMG_in_Olive_Drab_wrap%2C_rear_left.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2017_Mercedes-Benz_G63_AMG_in_Olive_Drab_wrap,_rear_left.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Mr.choppers",
+        "width": 5311,
+        "height": 3592
+      }
+    ]
+  },
+  {
+    "slug": "mercedes-benz-sl55-amg-r230",
+    "car": "Mercedes-Benz SL55 AMG (R230)",
+    "make": "Mercedes-Benz",
+    "model": "SL55 AMG",
+    "code": "R230",
+    "body": "Roadster",
+    "year": 2003,
+    "query": "Mercedes-Benz SL55 AMG R230 2003",
+    "tokens": [
+      "amg",
+      "r230",
+      "sl55"
+    ],
+    "avoid": [
+      "avant",
+      "coupe",
+      "estate",
+      "hardtop",
+      "kombi",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2007 Mercedes SL55 Auto.jpg",
+    "status": "ok",
+    "query_used": "pin:2007 Mercedes SL55 Auto.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2007 Mercedes SL55 Auto.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/2007_Mercedes_SL55_Auto.jpg/1920px-2007_Mercedes_SL55_Auto.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2007_Mercedes_SL55_Auto.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 4080,
+      "height": 2676
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mercedes-benz-slk55-amg-r171",
+    "car": "Mercedes-Benz SLK55 AMG (R171)",
+    "make": "Mercedes-Benz",
+    "model": "SLK55 AMG",
+    "code": "R171",
+    "body": "Roadster",
+    "year": 2007,
+    "query": "Mercedes-Benz SLK55 AMG R171 2007",
+    "tokens": [
+      "amg",
+      "r171",
+      "slk55"
+    ],
+    "avoid": [
+      "avant",
+      "coupe",
+      "estate",
+      "hardtop",
+      "kombi",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Mercedes SLK55 R171.jpg",
+    "status": "ok",
+    "query_used": "pin:Mercedes SLK55 R171.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Mercedes SLK55 R171.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Mercedes_SLK55_R171.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mercedes_SLK55_R171.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "artist": "AngMo",
+      "width": 1900,
+      "height": 1085
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mercedes-benz-slr-mclaren-c199",
+    "car": "Mercedes-Benz SLR McLaren (C199)",
+    "make": "Mercedes-Benz",
+    "model": "SLR McLaren",
+    "code": "C199",
+    "body": "Coupe",
+    "year": 2005,
+    "query": "Mercedes-Benz SLR McLaren C199 2005",
+    "tokens": [
+      "c199",
+      "mclaren",
+      "slr"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Mercedes-Benz SLR McLaren (C199) front.JPG",
+    "status": "ok",
+    "query_used": "pin:Mercedes-Benz SLR McLaren (C199) front.JPG",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Mercedes-Benz SLR McLaren (C199) front.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mercedes-Benz_SLR_McLaren_%28C199%29_front.JPG/1920px-Mercedes-Benz_SLR_McLaren_%28C199%29_front.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_SLR_McLaren_(C199)_front.JPG",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Tokumeigakarinoaoshima",
+      "width": 2412,
+      "height": 1704
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mercedes-benz-sls-amg-c197",
+    "car": "Mercedes-Benz SLS AMG (C197)",
+    "make": "Mercedes-Benz",
+    "model": "SLS AMG",
+    "code": "C197",
+    "body": "Coupe",
+    "year": 2011,
+    "query": "Mercedes-Benz SLS AMG C197 2011",
+    "tokens": [
+      "amg",
+      "c197",
+      "sls"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mercedes-Benz SLS AMG C197 2011",
+    "pick": {
+      "score": 9.58,
+      "reasons": [
+        "tokens:amg,sls",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:Mercedes-Benz SLS AMG (C 197) \u2013 Frontansicht ge\u00f6ffnet, 10. August 2011, D\u00fcsseldorf.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Mercedes-Benz_SLS_AMG_%28C_197%29_%E2%80%93_Frontansicht_ge%C3%B6ffnet%2C_10._August_2011%2C_D%C3%BCsseldorf.jpg/1920px-Mercedes-Benz_SLS_AMG_%28C_197%29_%E2%80%93_Frontansicht_ge%C3%B6ffnet%2C_10._August_2011%2C_D%C3%BCsseldorf.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_SLS_AMG_(C_197)_%E2%80%93_Frontansicht_ge%C3%B6ffnet,_10._August_2011,_D%C3%BCsseldorf.jpg",
+      "license": "CC BY-SA 3.0 de",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "artist": "M 93",
+      "width": 2272,
+      "height": 1468
+    },
+    "alternates": [
+      {
+        "score": 9.53,
+        "reasons": [
+          "tokens:amg,sls",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2011 Mercedes-Benz SLS AMG LC22 Front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/2011_Mercedes-Benz_SLS_AMG_LC22_Front.jpg/1920px-2011_Mercedes-Benz_SLS_AMG_LC22_Front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2011_Mercedes-Benz_SLS_AMG_LC22_Front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 4357,
+        "height": 3078
+      },
+      {
+        "score": 9.03,
+        "reasons": [
+          "tokens:amg,sls",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:Mercedes-Benz SLS AMG (C 197) & Mercedes-Benz 300 SL (W 198) \u2013 Frontansicht, 10. August 2011, D\u00fcsseldorf.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Mercedes-Benz_SLS_AMG_%28C_197%29_%26_Mercedes-Benz_300_SL_%28W_198%29_%E2%80%93_Frontansicht%2C_10._August_2011%2C_D%C3%BCsseldorf.jpg/1920px-Mercedes-Benz_SLS_AMG_%28C_197%29_%26_Mercedes-Benz_300_SL_%28W_198%29_%E2%80%93_Frontansicht%2C_10._August_2011%2C_D%C3%BCsseldorf.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_SLS_AMG_(C_197)_%26_Mercedes-Benz_300_SL_(W_198)_%E2%80%93_Frontansicht,_10._August_2011,_D%C3%BCsseldorf.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "artist": "M 93",
+        "width": 2514,
+        "height": 1293
+      },
+      {
+        "score": 8.59,
+        "reasons": [
+          "tokens:amg,sls",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:Mercedes-Benz SLS AMG (C 197) \u2013 Frontansicht (2), 10. August 2011, D\u00fcsseldorf.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Mercedes-Benz_SLS_AMG_%28C_197%29_%E2%80%93_Frontansicht_%282%29%2C_10._August_2011%2C_D%C3%BCsseldorf.jpg/1920px-Mercedes-Benz_SLS_AMG_%28C_197%29_%E2%80%93_Frontansicht_%282%29%2C_10._August_2011%2C_D%C3%BCsseldorf.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mercedes-Benz_SLS_AMG_(C_197)_%E2%80%93_Frontansicht_(2),_10._August_2011,_D%C3%BCsseldorf.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "artist": "M 93",
+        "width": 2239,
+        "height": 1045
+      }
+    ]
+  },
+  {
+    "slug": "mg-mgb-chrome-bumper",
+    "car": "MG MGB (Chrome bumper)",
+    "make": "MG",
+    "model": "MGB",
+    "code": "Chrome",
+    "body": "Roadster",
+    "year": 1970,
+    "query": "MG MGB Chrome 1970",
+    "tokens": [
+      "chrome",
+      "mgb"
+    ],
+    "avoid": [
+      "avant",
+      "coupe",
+      "estate",
+      "hardtop",
+      "kombi",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1970 MGB Mk II Roadster (16332095745).jpg",
+    "status": "ok",
+    "query_used": "pin:1970 MGB Mk II Roadster (16332095745).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1970 MGB Mk II Roadster (16332095745).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/1970_MGB_Mk_II_Roadster_%2816332095745%29.jpg/1920px-1970_MGB_Mk_II_Roadster_%2816332095745%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1970_MGB_Mk_II_Roadster_(16332095745).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Sicnag",
+      "width": 5184,
+      "height": 3456
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mini-cooper-classic-cooper-s",
+    "car": "Mini Cooper (Classic Cooper S)",
+    "make": "Mini",
+    "model": "Cooper",
+    "code": "Classic",
+    "body": "Hatch",
+    "year": 1967,
+    "query": "Mini Cooper Classic 1967",
+    "tokens": [
+      "classic",
+      "cooper"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1968 Austin Mini Cooper S 1275cc Front.jpg",
+    "status": "ok",
+    "query_used": "pin:1968 Austin Mini Cooper S 1275cc Front.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1968 Austin Mini Cooper S 1275cc Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/1968_Austin_Mini_Cooper_S_1275cc_Front.jpg/1920px-1968_Austin_Mini_Cooper_S_1275cc_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1968_Austin_Mini_Cooper_S_1275cc_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 4010,
+      "height": 2706
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mini-cooper-jcw-f56",
+    "car": "Mini Cooper (JCW F56)",
+    "make": "Mini",
+    "model": "Cooper",
+    "code": "F56",
+    "body": "Hatch",
+    "year": 2018,
+    "query": "Mini Cooper F56 2018",
+    "tokens": [
+      "cooper",
+      "f56"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Mini Hatch (F56) John Cooper Works 3-4-front 2025-08.jpg",
+    "status": "ok",
+    "query_used": "pin:Mini Hatch (F56) John Cooper Works 3-4-front 2025-08.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Mini Hatch (F56) John Cooper Works 3-4-front 2025-08.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Mini_Hatch_%28F56%29_John_Cooper_Works_3-4-front_2025-08.jpg/1920px-Mini_Hatch_%28F56%29_John_Cooper_Works_3-4-front_2025-08.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mini_Hatch_(F56)_John_Cooper_Works_3-4-front_2025-08.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Wikisympathisant",
+      "width": 5184,
+      "height": 3456
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mini-cooper-jcw-gp-f56",
+    "car": "Mini Cooper (JCW GP (F56))",
+    "make": "Mini",
+    "model": "Cooper",
+    "code": "JCW",
+    "body": "Hatch",
+    "year": 2020,
+    "query": "Mini Cooper JCW 2020",
+    "tokens": [
+      "cooper",
+      "jcw"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2020 Mini JCW GP 3.jpg",
+    "status": "ok",
+    "query_used": "pin:2020 Mini JCW GP 3.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2020 Mini JCW GP 3.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/2020_Mini_JCW_GP_3.jpg/1920px-2020_Mini_JCW_GP_3.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2020_Mini_JCW_GP_3.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 14140,
+      "height": 10064
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mini-cooper-s-f56",
+    "car": "Mini Cooper (S F56)",
+    "make": "Mini",
+    "model": "Cooper",
+    "code": "F56",
+    "body": "Hatch",
+    "year": 2015,
+    "query": "Mini Cooper F56 2015",
+    "tokens": [
+      "cooper",
+      "f56"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2017 Mini Cooper S 2.0 Front.jpg",
+    "status": "ok",
+    "query_used": "pin:2017 Mini Cooper S 2.0 Front.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2017 Mini Cooper S 2.0 Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/2017_Mini_Cooper_S_2.0_Front.jpg/1920px-2017_Mini_Cooper_S_2.0_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2017_Mini_Cooper_S_2.0_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 4791,
+      "height": 2643
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mitsubishi-3000gt-vr-4",
+    "car": "Mitsubishi 3000GT (VR-4)",
+    "make": "Mitsubishi",
+    "model": "3000GT",
+    "code": "VR-4",
+    "body": "Coupe",
+    "year": 1994,
+    "query": "Mitsubishi 3000GT VR-4 1994",
+    "tokens": [
+      "3000gt",
+      "vr-4"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mitsubishi 3000GT 1994",
+    "pick": {
+      "score": 5.29,
+      "reasons": [
+        "CC0/PD",
+        "tokens:3000gt"
+      ],
+      "title": "File:'94-'96 Mitsubishi 3000GT.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/%2794-%2796_Mitsubishi_3000GT.JPG/1920px-%2794-%2796_Mitsubishi_3000GT.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:%2794-%2796_Mitsubishi_3000GT.JPG",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "Bull-Doser",
+      "width": 2093,
+      "height": 1381
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mitsubishi-eclipse-gsx-2g",
+    "car": "Mitsubishi Eclipse (GSX 2G)",
+    "make": "Mitsubishi",
+    "model": "Eclipse",
+    "code": "2G",
+    "body": "Coupe",
+    "year": 1997,
+    "query": "Mitsubishi Eclipse 2G 1997",
+    "tokens": [
+      "2g",
+      "eclipse"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mitsubishi Eclipse 1997",
+    "pick": {
+      "score": 7.8,
+      "reasons": [
+        "CC0/PD",
+        "tokens:eclipse",
+        "year-match"
+      ],
+      "title": "File:1997-1999 Mitsubishi Eclipse.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/1997-1999_Mitsubishi_Eclipse.JPG/1920px-1997-1999_Mitsubishi_Eclipse.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:1997-1999_Mitsubishi_Eclipse.JPG",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "Bull-Doser",
+      "width": 1939,
+      "height": 1161
+    },
+    "alternates": [
+      {
+        "score": 7.79,
+        "reasons": [
+          "CC0/PD",
+          "tokens:eclipse",
+          "year-match"
+        ],
+        "title": "File:1997-99 Mitsubishi Eclipse.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/99/1997-99_Mitsubishi_Eclipse.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:1997-99_Mitsubishi_Eclipse.JPG",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 1886,
+        "height": 1234
+      },
+      {
+        "score": 5.72,
+        "reasons": [
+          "tokens:eclipse",
+          "year-match"
+        ],
+        "title": "File:1997 Mitsubishi Eclipse 2.0 01.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/1997_Mitsubishi_Eclipse_2.0_01.jpg/1920px-1997_Mitsubishi_Eclipse_2.0_01.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1997_Mitsubishi_Eclipse_2.0_01.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Rutger van der Maar",
+        "width": 2048,
+        "height": 1383
+      },
+      {
+        "score": 5.67,
+        "reasons": [
+          "CC0/PD",
+          "tokens:eclipse"
+        ],
+        "title": "File:Mitsubishi Eclipse Fast And Furious.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Mitsubishi_Eclipse_Fast_And_Furious.jpg/1920px-Mitsubishi_Eclipse_Fast_And_Furious.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Eclipse_Fast_And_Furious.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "crash71100",
+        "width": 6457,
+        "height": 4001
+      }
+    ]
+  },
+  {
+    "slug": "mitsubishi-fto-gpx-de3a",
+    "car": "Mitsubishi FTO (GPX (DE3A))",
+    "make": "Mitsubishi",
+    "model": "FTO",
+    "code": "GPX",
+    "body": "Coupe",
+    "year": 1996,
+    "query": "Mitsubishi FTO GPX 1996",
+    "tokens": [
+      "fto",
+      "gpx"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1995 FTO GPX Mivec.jpg",
+    "status": "ok",
+    "query_used": "pin:1995 FTO GPX Mivec.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1995 FTO GPX Mivec.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/1995_FTO_GPX_Mivec.jpg/1920px-1995_FTO_GPX_Mivec.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1995_FTO_GPX_Mivec.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "TCL19",
+      "width": 4096,
+      "height": 3072
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mitsubishi-galant-vr-4",
+    "car": "Mitsubishi Galant (VR-4)",
+    "make": "Mitsubishi",
+    "model": "Galant",
+    "code": "VR-4",
+    "body": "Sedan",
+    "year": 1991,
+    "query": "Mitsubishi Galant VR-4 1991",
+    "tokens": [
+      "galant",
+      "vr-4"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mitsubishi Galant VR-4 1991",
+    "pick": {
+      "score": 6.77,
+      "reasons": [
+        "tokens:galant,vr-4",
+        "year-match"
+      ],
+      "title": "File:1990-1991 Mitsubishi Galant (E39A) 2.0 DOHC Turbo VR-4 With AMG Bodykits Sedan (04-11-2017) 01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/1990-1991_Mitsubishi_Galant_%28E39A%29_2.0_DOHC_Turbo_VR-4_With_AMG_Bodykits_Sedan_%2804-11-2017%29_01.jpg/1920px-1990-1991_Mitsubishi_Galant_%28E39A%29_2.0_DOHC_Turbo_VR-4_With_AMG_Bodykits_Sedan_%2804-11-2017%29_01.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1990-1991_Mitsubishi_Galant_(E39A)_2.0_DOHC_Turbo_VR-4_With_AMG_Bodykits_Sedan_(04-11-2017)_01.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "M.rJirapat",
+      "width": 3264,
+      "height": 2448
+    },
+    "alternates": [
+      {
+        "score": 6.77,
+        "reasons": [
+          "tokens:galant,vr-4",
+          "year-match"
+        ],
+        "title": "File:1990-1991 Mitsubishi Galant (E39A) 2.0 DOHC Turbo VR-4 With AMG Bodykits Sedan (04-11-2017) 02.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/1990-1991_Mitsubishi_Galant_%28E39A%29_2.0_DOHC_Turbo_VR-4_With_AMG_Bodykits_Sedan_%2804-11-2017%29_02.jpg/1920px-1990-1991_Mitsubishi_Galant_%28E39A%29_2.0_DOHC_Turbo_VR-4_With_AMG_Bodykits_Sedan_%2804-11-2017%29_02.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1990-1991_Mitsubishi_Galant_(E39A)_2.0_DOHC_Turbo_VR-4_With_AMG_Bodykits_Sedan_(04-11-2017)_02.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "M.rJirapat",
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "score": 6.77,
+        "reasons": [
+          "tokens:galant,vr-4",
+          "year-match"
+        ],
+        "title": "File:1990-1991 Mitsubishi Galant (E39A) 2.0 DOHC Turbo VR-4 With AMG Bodykits Sedan (04-11-2017) 03.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/1990-1991_Mitsubishi_Galant_%28E39A%29_2.0_DOHC_Turbo_VR-4_With_AMG_Bodykits_Sedan_%2804-11-2017%29_03.jpg/1920px-1990-1991_Mitsubishi_Galant_%28E39A%29_2.0_DOHC_Turbo_VR-4_With_AMG_Bodykits_Sedan_%2804-11-2017%29_03.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1990-1991_Mitsubishi_Galant_(E39A)_2.0_DOHC_Turbo_VR-4_With_AMG_Bodykits_Sedan_(04-11-2017)_03.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "M.rJirapat",
+        "width": 3264,
+        "height": 2448
+      },
+      {
+        "score": 6.77,
+        "reasons": [
+          "tokens:galant,vr-4",
+          "year-match"
+        ],
+        "title": "File:1990-1991 Mitsubishi Galant (E39A) 2.0 DOHC Turbo VR-4 With AMG Bodykits Sedan (04-11-2017) 04.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/1990-1991_Mitsubishi_Galant_%28E39A%29_2.0_DOHC_Turbo_VR-4_With_AMG_Bodykits_Sedan_%2804-11-2017%29_04.jpg/1920px-1990-1991_Mitsubishi_Galant_%28E39A%29_2.0_DOHC_Turbo_VR-4_With_AMG_Bodykits_Sedan_%2804-11-2017%29_04.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1990-1991_Mitsubishi_Galant_(E39A)_2.0_DOHC_Turbo_VR-4_With_AMG_Bodykits_Sedan_(04-11-2017)_04.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "M.rJirapat",
+        "width": 3264,
+        "height": 2448
+      }
+    ]
+  },
+  {
+    "slug": "mitsubishi-lancer-evolution-iii-ce9a",
+    "car": "Mitsubishi Lancer (Evolution III (CE9A))",
+    "make": "Mitsubishi",
+    "model": "Lancer",
+    "code": "Evolution",
+    "body": "Sedan",
+    "year": 1995,
+    "query": "Mitsubishi Lancer Evolution 1995",
+    "tokens": [
+      "evolution",
+      "lancer"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mitsubishi Lancer Evolution 1995",
+    "pick": {
+      "score": 7.27,
+      "reasons": [
+        "tokens:evolution,lancer",
+        "year-match"
+      ],
+      "title": "File:1995 Mitsubishi Lancer Evolution III (2).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/1995_Mitsubishi_Lancer_Evolution_III_%282%29.jpg/1920px-1995_Mitsubishi_Lancer_Evolution_III_%282%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1995_Mitsubishi_Lancer_Evolution_III_(2).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kabu Sawsaw",
+      "width": 3021,
+      "height": 1894
+    },
+    "alternates": [
+      {
+        "score": 7.02,
+        "reasons": [
+          "tokens:evolution,lancer",
+          "year-match"
+        ],
+        "title": "File:1995 Mitsubishi Lancer Evolution III.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/1995_Mitsubishi_Lancer_Evolution_III.jpg/1920px-1995_Mitsubishi_Lancer_Evolution_III.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1995_Mitsubishi_Lancer_Evolution_III.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kabu Sawsaw",
+        "width": 3518,
+        "height": 2445
+      },
+      {
+        "score": 6.87,
+        "reasons": [
+          "tokens:evolution,lancer",
+          "year-match"
+        ],
+        "title": "File:Mitsubishi Lancer Evolution III (1995) (53619429871).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Mitsubishi_Lancer_Evolution_III_%281995%29_%2853619429871%29.jpg/1920px-Mitsubishi_Lancer_Evolution_III_%281995%29_%2853619429871%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Evolution_III_(1995)_(53619429871).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "score": 6.87,
+        "reasons": [
+          "tokens:evolution,lancer",
+          "year-match"
+        ],
+        "title": "File:Mitsubishi Lancer Evolution III (1995) (53619429931).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Mitsubishi_Lancer_Evolution_III_%281995%29_%2853619429931%29.jpg/1920px-Mitsubishi_Lancer_Evolution_III_%281995%29_%2853619429931%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Evolution_III_(1995)_(53619429931).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 4032,
+        "height": 3024
+      }
+    ]
+  },
+  {
+    "slug": "mitsubishi-lancer-evolution-ix",
+    "car": "Mitsubishi Lancer (Evolution IX)",
+    "make": "Mitsubishi",
+    "model": "Lancer",
+    "code": "Evolution",
+    "body": "Sedan",
+    "year": 2006,
+    "query": "Mitsubishi Lancer Evolution 2006",
+    "tokens": [
+      "evolution",
+      "lancer"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Mitsubishi LANCER Evolution IX MR GSR (GH-CT9A) front.jpg",
+    "status": "ok",
+    "query_used": "pin:Mitsubishi LANCER Evolution IX MR GSR (GH-CT9A) front.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Mitsubishi LANCER Evolution IX MR GSR (GH-CT9A) front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mitsubishi_LANCER_Evolution_IX_MR_GSR_%28GH-CT9A%29_front.jpg/1920px-Mitsubishi_LANCER_Evolution_IX_MR_GSR_%28GH-CT9A%29_front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mitsubishi_LANCER_Evolution_IX_MR_GSR_(GH-CT9A)_front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Tokumeigakarinoaoshima",
+      "width": 2560,
+      "height": 1920
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mitsubishi-lancer-evolution-vi",
+    "car": "Mitsubishi Lancer (Evolution VI)",
+    "make": "Mitsubishi",
+    "model": "Lancer",
+    "code": "Evolution",
+    "body": "Sedan",
+    "year": 1999,
+    "query": "Mitsubishi Lancer Evolution 1999",
+    "tokens": [
+      "evolution",
+      "lancer"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mitsubishi Lancer Evolution 1999",
+    "pick": {
+      "score": 7.38,
+      "reasons": [
+        "tokens:evolution,lancer",
+        "year-match"
+      ],
+      "title": "File:1999 Mitsubishi Lancer Evolution VI 3.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/1999_Mitsubishi_Lancer_Evolution_VI_3.jpg/1920px-1999_Mitsubishi_Lancer_Evolution_VI_3.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1999_Mitsubishi_Lancer_Evolution_VI_3.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 14176,
+      "height": 8806
+    },
+    "alternates": [
+      {
+        "score": 7.36,
+        "reasons": [
+          "tokens:evolution,lancer",
+          "year-match"
+        ],
+        "title": "File:1999 Mitsubishi Lancer Evolution VI.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/1999_Mitsubishi_Lancer_Evolution_VI.jpg/1920px-1999_Mitsubishi_Lancer_Evolution_VI.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1999_Mitsubishi_Lancer_Evolution_VI.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 14452,
+        "height": 8924
+      },
+      {
+        "score": 7.36,
+        "reasons": [
+          "tokens:evolution,lancer",
+          "year-match"
+        ],
+        "title": "File:1999 Mitsubishi Lancer Evolution VI BS O24.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/1999_Mitsubishi_Lancer_Evolution_VI_BS_O24.jpg/1920px-1999_Mitsubishi_Lancer_Evolution_VI_BS_O24.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1999_Mitsubishi_Lancer_Evolution_VI_BS_O24.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 4370,
+        "height": 2766
+      },
+      {
+        "score": 7.35,
+        "reasons": [
+          "tokens:evolution,lancer",
+          "year-match"
+        ],
+        "title": "File:1999 Mitsubishi Lancer Evolution VI 5.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/1999_Mitsubishi_Lancer_Evolution_VI_5.jpg/1920px-1999_Mitsubishi_Lancer_Evolution_VI_5.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1999_Mitsubishi_Lancer_Evolution_VI_5.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 10538,
+        "height": 6476
+      }
+    ]
+  },
+  {
+    "slug": "mitsubishi-lancer-evolution-viii",
+    "car": "Mitsubishi Lancer (Evolution VIII)",
+    "make": "Mitsubishi",
+    "model": "Lancer",
+    "code": "Evolution",
+    "body": "Sedan",
+    "year": 2004,
+    "query": "Mitsubishi Lancer Evolution 2004",
+    "tokens": [
+      "evolution",
+      "lancer"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mitsubishi Lancer Evolution 2004",
+    "pick": {
+      "score": 7.39,
+      "reasons": [
+        "tokens:evolution,lancer",
+        "year-match"
+      ],
+      "title": "File:2004 Mitsubishi Lancer Evolution 8 (2).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2004_Mitsubishi_Lancer_Evolution_8_%282%29.jpg/1920px-2004_Mitsubishi_Lancer_Evolution_8_%282%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2004_Mitsubishi_Lancer_Evolution_8_(2).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Greg Gjerdingen",
+      "width": 4365,
+      "height": 2735
+    },
+    "alternates": [
+      {
+        "score": 7.21,
+        "reasons": [
+          "tokens:evolution,lancer",
+          "year-match"
+        ],
+        "title": "File:2004 Mitsubishi Lancer Evolution 8.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/2004_Mitsubishi_Lancer_Evolution_8.jpg/1920px-2004_Mitsubishi_Lancer_Evolution_8.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2004_Mitsubishi_Lancer_Evolution_8.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Greg Gjerdingen",
+        "width": 4592,
+        "height": 3056
+      },
+      {
+        "score": 7.21,
+        "reasons": [
+          "tokens:evolution,lancer",
+          "year-match"
+        ],
+        "title": "File:2004 Mitsubishi Lancer Evolution VIII (5868044174).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/2004_Mitsubishi_Lancer_Evolution_VIII_%285868044174%29.jpg/1920px-2004_Mitsubishi_Lancer_Evolution_VIII_%285868044174%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2004_Mitsubishi_Lancer_Evolution_VIII_(5868044174).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Spanish Coches",
+        "width": 4288,
+        "height": 2848
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:evolution,lancer",
+          "year-match"
+        ],
+        "title": "File:2004 Mitsubishi Lancer Evolution.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/2004_Mitsubishi_Lancer_Evolution.jpg/1920px-2004_Mitsubishi_Lancer_Evolution.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2004_Mitsubishi_Lancer_Evolution.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Greg Gjerdingen",
+        "width": 5456,
+        "height": 3632
+      }
+    ]
+  },
+  {
+    "slug": "mitsubishi-lancer-evolution-x",
+    "car": "Mitsubishi Lancer (Evolution X)",
+    "make": "Mitsubishi",
+    "model": "Lancer",
+    "code": "Evolution",
+    "body": "Sedan",
+    "year": 2010,
+    "query": "Mitsubishi Lancer Evolution 2010",
+    "tokens": [
+      "evolution",
+      "lancer"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mitsubishi Lancer Evolution 2010",
+    "pick": {
+      "score": 7.2,
+      "reasons": [
+        "tokens:evolution,lancer",
+        "year-match"
+      ],
+      "title": "File:Mitsubishi Lancer Evolution - 2010 GSR (30920176165).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Mitsubishi_Lancer_Evolution_-_2010_GSR_%2830920176165%29.jpg/1920px-Mitsubishi_Lancer_Evolution_-_2010_GSR_%2830920176165%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Evolution_-_2010_GSR_(30920176165).jpg",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "artist": "Christian Collins",
+      "width": 4318,
+      "height": 2879
+    },
+    "alternates": [
+      {
+        "score": 7.09,
+        "reasons": [
+          "tokens:evolution,lancer",
+          "year-match"
+        ],
+        "title": "File:2010 Mitsubishi Lancer Evolution X FQ-400.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4e/2010_Mitsubishi_Lancer_Evolution_X_FQ-400.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2010_Mitsubishi_Lancer_Evolution_X_FQ-400.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 1806,
+        "height": 1142
+      },
+      {
+        "score": 4.62,
+        "reasons": [
+          "tokens:evolution,lancer",
+          "bad-angle",
+          "year-match"
+        ],
+        "title": "File:2010 Mitsubishi Lancer Evolution GSR in Apex Silver Metallic, Rear Right, 10-10-2022.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/2010_Mitsubishi_Lancer_Evolution_GSR_in_Apex_Silver_Metallic%2C_Rear_Right%2C_10-10-2022.jpg/1920px-2010_Mitsubishi_Lancer_Evolution_GSR_in_Apex_Silver_Metallic%2C_Rear_Right%2C_10-10-2022.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2010_Mitsubishi_Lancer_Evolution_GSR_in_Apex_Silver_Metallic,_Rear_Right,_10-10-2022.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Elise240SX",
+        "width": 3504,
+        "height": 2352
+      },
+      {
+        "score": 4.61,
+        "reasons": [
+          "tokens:evolution,lancer"
+        ],
+        "title": "File:Mitsubishi Lancer Evolution X (2).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Mitsubishi_Lancer_Evolution_X_%282%29.jpg/1920px-Mitsubishi_Lancer_Evolution_X_%282%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Evolution_X_(2).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Christian Flores",
+        "width": 3256,
+        "height": 2170
+      }
+    ]
+  },
+  {
+    "slug": "mitsubishi-lancer-ralliart-cy",
+    "car": "Mitsubishi Lancer (Ralliart (CY))",
+    "make": "Mitsubishi",
+    "model": "Lancer",
+    "code": "Ralliart",
+    "body": "Sedan",
+    "year": 2011,
+    "query": "Mitsubishi Lancer Ralliart 2011",
+    "tokens": [
+      "lancer",
+      "ralliart"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mitsubishi Lancer Ralliart 2011",
+    "pick": {
+      "score": 8.97,
+      "reasons": [
+        "CC0/PD",
+        "tokens:lancer,ralliart",
+        "year-match"
+      ],
+      "title": "File:2011 Mitsubishi Lancer Ralliart sedan -- 06-30-2011.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/2011_Mitsubishi_Lancer_Ralliart_sedan_--_06-30-2011.jpg/1920px-2011_Mitsubishi_Lancer_Ralliart_sedan_--_06-30-2011.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2011_Mitsubishi_Lancer_Ralliart_sedan_--_06-30-2011.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "IFCAR",
+      "width": 2112,
+      "height": 1404
+    },
+    "alternates": [
+      {
+        "score": 3.46,
+        "reasons": [
+          "tokens:lancer"
+        ],
+        "title": "File:Mitsubishi Lancer Evolution X - 006.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Mitsubishi_Lancer_Evolution_X_-_006.jpg/1920px-Mitsubishi_Lancer_Evolution_X_-_006.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Evolution_X_-_006.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Michael Price",
+        "width": 2640,
+        "height": 1685
+      },
+      {
+        "score": 3.37,
+        "reasons": [
+          "tokens:lancer"
+        ],
+        "title": "File:Mitsubishi Lancer Evolution X - 005.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Mitsubishi_Lancer_Evolution_X_-_005.jpg/1920px-Mitsubishi_Lancer_Evolution_X_-_005.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Lancer_Evolution_X_-_005.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Michael Price",
+        "width": 2640,
+        "height": 1739
+      },
+      {
+        "score": 2.06,
+        "reasons": [],
+        "title": "File:ASA IMG 7758 (5524263741).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/ASA_IMG_7758_%285524263741%29.jpg/1920px-ASA_IMG_7758_%285524263741%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:ASA_IMG_7758_(5524263741).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Grant.C",
+        "width": 2048,
+        "height": 1365
+      }
+    ]
+  },
+  {
+    "slug": "mitsubishi-mirage-6th-gen-a03",
+    "car": "Mitsubishi Mirage (6th Gen (A03))",
+    "make": "Mitsubishi",
+    "model": "Mirage",
+    "code": "",
+    "body": "Hatch",
+    "year": 2015,
+    "query": "Mitsubishi Mirage 2015",
+    "tokens": [
+      "mirage"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mitsubishi Mirage 2015",
+    "pick": {
+      "score": 10.05,
+      "reasons": [
+        "CC0/PD",
+        "tokens:mirage",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2015 Mitsubishi Mirage DE -- NHTSA test 9031 - front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/2015_Mitsubishi_Mirage_DE_--_NHTSA_test_9031_-_front.jpg/1920px-2015_Mitsubishi_Mirage_DE_--_NHTSA_test_9031_-_front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2015_Mitsubishi_Mirage_DE_--_NHTSA_test_9031_-_front.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "National Highway Traffic Safety Administration",
+      "width": 3072,
+      "height": 2304
+    },
+    "alternates": [
+      {
+        "score": 10.05,
+        "reasons": [
+          "CC0/PD",
+          "tokens:mirage",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2015 Mitsubishi Mirage DE -- NHTSA test 9032 - front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/2015_Mitsubishi_Mirage_DE_--_NHTSA_test_9032_-_front.jpg/1920px-2015_Mitsubishi_Mirage_DE_--_NHTSA_test_9032_-_front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2015_Mitsubishi_Mirage_DE_--_NHTSA_test_9032_-_front.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "National Highway Traffic Safety Administration",
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "score": 10.05,
+        "reasons": [
+          "CC0/PD",
+          "tokens:mirage",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2015 Mitsubishi Mirage ES -- NHTSA test 9030 - front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/2015_Mitsubishi_Mirage_ES_--_NHTSA_test_9030_-_front.jpg/1920px-2015_Mitsubishi_Mirage_ES_--_NHTSA_test_9030_-_front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2015_Mitsubishi_Mirage_ES_--_NHTSA_test_9030_-_front.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "National Highway Traffic Safety Administration",
+        "width": 3072,
+        "height": 2304
+      },
+      {
+        "score": 8.34,
+        "reasons": [
+          "tokens:mirage",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2015 Mitsubishi Mirage Sport (Surabaya registered) (front), Batu City.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/2015_Mitsubishi_Mirage_Sport_%28Surabaya_registered%29_%28front%29%2C_Batu_City.jpg/1920px-2015_Mitsubishi_Mirage_Sport_%28Surabaya_registered%29_%28front%29%2C_Batu_City.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2015_Mitsubishi_Mirage_Sport_(Surabaya_registered)_(front),_Batu_City.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alex Neman",
+        "width": 2795,
+        "height": 1870
+      }
+    ]
+  },
+  {
+    "slug": "mitsubishi-outlander-gn",
+    "car": "Mitsubishi Outlander (GN)",
+    "make": "Mitsubishi",
+    "model": "Outlander",
+    "code": "GN",
+    "body": "SUV",
+    "year": 2022,
+    "query": "Mitsubishi Outlander GN 2022",
+    "tokens": [
+      "gn",
+      "outlander"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2022 Mitsubishi Outlander SEL 2.5 in Alloy Silver, front left.jpg",
+    "status": "ok",
+    "query_used": "pin:2022 Mitsubishi Outlander SEL 2.5 in Alloy Silver, front left.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2022 Mitsubishi Outlander SEL 2.5 in Alloy Silver, front left.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2022_Mitsubishi_Outlander_SEL_2.5_in_Alloy_Silver%2C_front_left.jpg/1920px-2022_Mitsubishi_Outlander_SEL_2.5_in_Alloy_Silver%2C_front_left.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2022_Mitsubishi_Outlander_SEL_2.5_in_Alloy_Silver,_front_left.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5326,
+      "height": 3348
+    },
+    "alternates": []
+  },
+  {
+    "slug": "mitsubishi-outlander-sport-ga",
+    "car": "Mitsubishi Outlander Sport (GA)",
+    "make": "Mitsubishi",
+    "model": "Outlander Sport",
+    "code": "GA",
+    "body": "SUV",
+    "year": 2013,
+    "query": "Mitsubishi Outlander Sport GA 2013",
+    "tokens": [
+      "ga",
+      "outlander",
+      "sport"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Mitsubishi Outlander Sport 2013",
+    "pick": {
+      "score": 8.92,
+      "reasons": [
+        "CC0/PD",
+        "tokens:outlander,sport",
+        "year-match"
+      ],
+      "title": "File:2013 Mitsubishi Outlander Sport -- 2012 NYIAS.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/2013_Mitsubishi_Outlander_Sport_--_2012_NYIAS.JPG/1920px-2013_Mitsubishi_Outlander_Sport_--_2012_NYIAS.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:2013_Mitsubishi_Outlander_Sport_--_2012_NYIAS.JPG",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "IFCAR",
+      "width": 2168,
+      "height": 1472
+    },
+    "alternates": [
+      {
+        "score": 4.44,
+        "reasons": [
+          "year-match"
+        ],
+        "title": "File:2011 mitsubishi rvr roadest.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/2011_mitsubishi_rvr_roadest.jpg/1920px-2011_mitsubishi_rvr_roadest.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2011_mitsubishi_rvr_roadest.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Hsggg",
+        "width": 2638,
+        "height": 1876
+      },
+      {
+        "score": 4.11,
+        "reasons": [
+          "CC0/PD"
+        ],
+        "title": "File:Mitsubishi Space Runner (40048261685).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Mitsubishi_Space_Runner_%2840048261685%29.jpg/1920px-Mitsubishi_Space_Runner_%2840048261685%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Space_Runner_(40048261685).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Guillaume Vachey from Chalon sur Saone, France",
+        "width": 4040,
+        "height": 2876
+      },
+      {
+        "score": 2.81,
+        "reasons": [
+          "tokens:outlander"
+        ],
+        "title": "File:Mitsubishi Outlander 24G 0490.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Mitsubishi_Outlander_24G_0490.JPG/1920px-Mitsubishi_Outlander_24G_0490.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Mitsubishi_Outlander_24G_0490.JPG",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "DY5W-sport",
+        "width": 2856,
+        "height": 1447
+      }
+    ]
+  },
+  {
+    "slug": "mitsubishi-starion-esi-r",
+    "car": "Mitsubishi Starion (ESI-R)",
+    "make": "Mitsubishi",
+    "model": "Starion",
+    "code": "ESI-R",
+    "body": "Coupe",
+    "year": 1988,
+    "query": "Mitsubishi Starion ESI-R 1988",
+    "tokens": [
+      "esi-r",
+      "starion"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1989 Mitsubishi Starion 2.6 Turbo EX (front).jpg",
+    "status": "ok",
+    "query_used": "pin:1989 Mitsubishi Starion 2.6 Turbo EX (front).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1989 Mitsubishi Starion 2.6 Turbo EX (front).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/1989_Mitsubishi_Starion_2.6_Turbo_EX_%28front%29.jpg/1920px-1989_Mitsubishi_Starion_2.6_Turbo_EX_%28front%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1989_Mitsubishi_Starion_2.6_Turbo_EX_(front).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Rutger van der Maar",
+      "width": 2048,
+      "height": 1360
+    },
+    "alternates": []
   },
   {
     "slug": "nissan-370z-z34",
