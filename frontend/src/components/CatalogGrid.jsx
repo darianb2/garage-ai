@@ -135,9 +135,10 @@ export default function CatalogGrid({ cars, onSelect, onCompare, inCompare }) {
 function GroupTile({ group, open, onToggle, onSelect, onCompare, inCompare }) {
   const { model, items } = group;
   const count = items.length;
-  // Represent the model line with a generation we actually have a photo for
-  // (else the collapsed tile falls back to the oldest gen's placeholder).
-  const hero = items.find((it) => heroFor(it)) || items[0];
+  // Represent the model line with the NEWEST generation we have a photo for — the
+  // current car is the model's recognizable face (else fall back to the oldest
+  // gen's placeholder). items is sorted oldest->newest, so search from the end.
+  const hero = [...items].reverse().find((it) => heroFor(it)) || items[0];
   // The generation in this group that has a 3D model (if any), to preload on hover.
   const warmTarget = items.find((it) => modelFor(it) && !modelFor(it).demo);
   return (

@@ -220,6 +220,12 @@ OVERRIDES = {
     "honda-civic-eg6-sir-jdm": {"pin": "Tuned Honda Civic SiR (E-EG6) front.jpg"},
     "honda-civic-ek9-type-r-jdm": {"pin": "1997 Honda Civic Type R (EK9), front left.jpg"},
     "honda-civic-si-9th-gen-fb6": {"pin": "2014 Honda Civic Si Sedan in Rallye Red, front left, 2024-10-04.jpg"},
+    # 11th-gen Si: the year-search kept surfacing the same snow-covered orange car;
+    # this CC0 black sedan is a clean sunny front-3/4 (and it's the model tile's face).
+    "honda-civic-si-11th-gen-fe1": {"pin": "22 Honda Civic Si.jpg"},
+    # BB1 Prelude: the auto-pick was a Mercedes CLS55 parked in front of the Prelude
+    # (the file title carries both names). Pin an isolated 4th-gen front-3/4 instead.
+    "honda-prelude-bb1-4th-gen": {"pin": "1994 Honda Prelude 2.0 I (8094200560).jpg"},
     "honda-cr-z-zf1": {"pin": "2014 Honda CR-Z Sport-T i-VTEC 1.5 Front.jpg"},
     "honda-crx-ef": {"pin": "1991 Honda CRX Si in Rio Red, front left.jpg"},
     "honda-fit-3rd-gen-gk": {"pin": "2015 Honda Fit Hybrid front - JDM import.jpg"},
