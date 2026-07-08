@@ -353,6 +353,18 @@ OVERRIDES = {
     "toyota-rav4-xa40": {"pin": "2013 Toyota RAV4 XLE AWD front left.jpg"},  # was a side/rear view
     "toyota-celica-gt-s-zzt231": {"pin": "Toyota Celica in front of Richmond Gaol.jpg"},  # was a tiny crop
     "toyota-yaris-mazda2-based": {"pin": "2017 Toyota Yaris iA sedan in Blue, front left.jpg"},  # was a car-overlap shot
+    # V brands (Volkswagen, Volvo) — hand-picked after contact-sheet review.
+    "volkswagen-atlas-1st-gen-ca": {"pin": "2021 Volkswagen Atlas 1X7A0392.jpg"},  # was a hood-open show car w/ person
+    "volkswagen-corrado-vr6": {"pin": "1993 Volkswagen Corrado SLC in Black, front left.jpg"},  # was a rear view (SLC = US name for the VR6)
+    "volkswagen-golf-gti-mk1": {"pin": "Volkswagen Golf GTI, Pau 2015.jpg"},  # was a bare-wheel closeup; this clean Mk1 GTI had been mis-filed under golf-mk7-tsi
+    "volkswagen-golf-mk7-tsi": {"pin": "2015 Volkswagen Golf Comfortline 5-Door in Deep Black Pearl, front left, 2025-09-06.jpg"},  # auto-pick was a Mk1 GTI (wrong gen)
+    "volkswagen-golf-r-mk8": {"pin": "2022 Volkswagen Golf R in Pure White, front left, 2025-04-24.jpg"},  # was a rear view
+    "volkswagen-golf-r32-mk5": {"pin": "Golf V R32 vr blue.jpg"},  # was a cluttered lot (dog, debris)
+    "volkswagen-gti-mk5": {"pin": "VW Golf V GTI front 20071106.jpg"},  # auto-pick was a base Mk6 Golf (wrong gen + no GTI cues)
+    "volkswagen-jetta-a7": {"pin": "2019 Volkswagen Jetta, front 2.24.20.jpg"},  # was a side profile (auto-pick also hit the old Chinese Mk2-based Jetta)
+    "volkswagen-jetta-gli-mk6": {"pin": "2013 Volkswagen Jetta GLI Autobahn in Deep Black Metallic, Front Right, 12-25-2021.jpg"},  # auto-pick was a base TDI, not the GLI
+    "volvo-240-turbo": {"pin": "Volvo 240 Turbo (8109324243).jpg"},  # was a race car (Luna livery); this is a genuine road 240 Turbo
+    "volvo-c30-t5-p1": {"pin": "Volvo C30 2.0 D front.JPG"},  # was a rear view (body identical across C30 trims)
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))

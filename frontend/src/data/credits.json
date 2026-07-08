@@ -5013,6 +5013,96 @@
     "attributionRequired": true
   },
   {
+    "car": "Volkswagen Atlas (1st Gen (CA))",
+    "title": "2021 Volkswagen Atlas 1X7A0392.jpg",
+    "author": "Alexander Migl",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_Volkswagen_Atlas_1X7A0392.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volkswagen Beetle (A5)",
+    "title": "2013 Volkswagen Beetle 2.5L, front left, 11-13-2022.jpg",
+    "author": "MercurySable99",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2013_Volkswagen_Beetle_2.5L,_front_left,_11-13-2022.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volkswagen Beetle (Type 1)",
+    "title": "1968 Volkswagen 117021 Beetle pic1.JPG",
+    "author": "Alf van Beem",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:1968_Volkswagen_117021_Beetle_pic1.JPG",
+    "attributionRequired": false
+  },
+  {
+    "car": "Volkswagen Corrado (VR6)",
+    "title": "1993 Volkswagen Corrado SLC in Black, front left.jpg",
+    "author": "Mr.choppers",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1993_Volkswagen_Corrado_SLC_in_Black,_front_left.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volkswagen GTI (Mk4 1.8T)",
+    "title": "2003 Volkswagen Golf GTi.jpg",
+    "author": "Calreyn88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2003_Volkswagen_Golf_GTi.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volkswagen GTI (Mk5)",
+    "title": "VW Golf V GTI front 20071106.jpg",
+    "author": "Rudolf Stricker",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:VW_Golf_V_GTI_front_20071106.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volkswagen GTI (Mk7)",
+    "title": "2015 Volkswagen GTI, Front Left, 09-26-2021.jpg",
+    "author": "Elise240SX",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2015_Volkswagen_GTI,_Front_Left,_09-26-2021.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volkswagen GTI (Mk8)",
+    "title": "VOLKSWAGEN GOLF GTI (Mk8 CD1) China (2).jpg",
+    "author": "Dinkun Chen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:VOLKSWAGEN_GOLF_GTI_(Mk8_CD1)_China_(2).jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volkswagen Golf (Mk7 TSI)",
+    "title": "2015 Volkswagen Golf Comfortline 5-Door in Deep Black Pearl, front left, 2025-09-06.jpg",
+    "author": "Elise240SX",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2015_Volkswagen_Golf_Comfortline_5-Door_in_Deep_Black_Pearl,_front_left,_2025-09-06.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volkswagen Golf GTI (Mk1)",
+    "title": "Volkswagen Golf GTI, Pau 2015.jpg",
+    "author": "Handelsgeselschaft",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Volkswagen_Golf_GTI,_Pau_2015.jpg",
+    "attributionRequired": true
+  },
+  {
     "car": "Volkswagen Golf GTI (Mk6)",
     "title": "Volkswagen Golf VI GTI front.JPG",
     "author": "Tokumeigakarinoaoshima",
@@ -5020,5 +5110,131 @@
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "source": "https://commons.wikimedia.org/wiki/File:Volkswagen_Golf_VI_GTI_front.JPG",
     "attributionRequired": false
+  },
+  {
+    "car": "Volkswagen Golf R (Mk7)",
+    "title": "2018 Volkswagen Golf R-Line TSi EVO S-A 1.5 Front.jpg",
+    "author": "Vauxford",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Volkswagen_Golf_R-Line_TSi_EVO_S-A_1.5_Front.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volkswagen Golf R (Mk8)",
+    "title": "2022 Volkswagen Golf R in Pure White, front left, 2025-04-24.jpg",
+    "author": "Elise240SX",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Volkswagen_Golf_R_in_Pure_White,_front_left,_2025-04-24.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volkswagen Golf R32 (Mk5)",
+    "title": "Golf V R32 vr blue.jpg",
+    "author": "Matti Blume",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Golf_V_R32_vr_blue.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volkswagen Jetta (A7)",
+    "title": "2019 Volkswagen Jetta, front 2.24.20.jpg",
+    "author": "Kevauto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2019_Volkswagen_Jetta,_front_2.24.20.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volkswagen Jetta (GLI Mk6)",
+    "title": "2013 Volkswagen Jetta GLI Autobahn in Deep Black Metallic, Front Right, 12-25-2021.jpg",
+    "author": "Elise240SX",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2013_Volkswagen_Jetta_GLI_Autobahn_in_Deep_Black_Metallic,_Front_Right,_12-25-2021.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volkswagen Passat (NMS (US))",
+    "title": "2016 Volkswagen Passat SE, front 4.4.23.jpg",
+    "author": "Kevauto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Volkswagen_Passat_SE,_front_4.4.23.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volkswagen R32 (Mk4)",
+    "title": "2004-Volkswagen-Golf-R32-front.jpg",
+    "author": "IFCAR",
+    "license": "Public domain",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:2004-Volkswagen-Golf-R32-front.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2004-Volkswagen-Golf-R32-front.jpg",
+    "attributionRequired": false
+  },
+  {
+    "car": "Volkswagen Scirocco (R (Mk3))",
+    "title": "2010 Volkswagen Scirocco.jpg",
+    "author": "hugh llewelyn",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2010_Volkswagen_Scirocco.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volkswagen Taos (1st Gen)",
+    "title": "2022 Volkswagen Taos SE (United States) front view 01.png",
+    "author": "Gold Pony",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Volkswagen_Taos_SE_(United_States)_front_view_01.png",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volkswagen Tiguan (2nd Gen (AD1))",
+    "title": "2019 Volkswagen Tiguan Allspace 1.4 TSI (20201028) 01.jpg",
+    "author": "オーバードライブ83",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2019_Volkswagen_Tiguan_Allspace_1.4_TSI_(20201028)_01.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volvo 240 (Turbo)",
+    "title": "Volvo 240 Turbo (8109324243).jpg",
+    "author": "nakhon100",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_240_Turbo_(8109324243).jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volvo 850 R (P80)",
+    "title": "1996 Volvo 850 R Auto Estate (52304334214).jpg",
+    "author": "Kieran White from Manchester, England",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1996_Volvo_850_R_Auto_Estate_(52304334214).jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volvo C30 (T5 (P1))",
+    "title": "Volvo C30 2.0 D front.JPG",
+    "author": "M 93",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_C30_2.0_D_front.JPG",
+    "attributionRequired": true
+  },
+  {
+    "car": "Volvo S60 R (P2)",
+    "title": "Volvo S60 registered May 2004 2521 cc.jpg",
+    "author": "Charles01",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Volvo_S60_registered_May_2004_2521_cc.jpg",
+    "attributionRequired": true
   }
 ]
