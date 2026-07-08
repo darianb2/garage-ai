@@ -28033,6 +28033,442 @@
     "alternates": []
   },
   {
+    "slug": "nissan-200sx-se-r-b14",
+    "car": "Nissan 200SX (SE-R (B14))",
+    "make": "Nissan",
+    "model": "200SX",
+    "code": "SE-R",
+    "body": "Coupe",
+    "year": 1995,
+    "query": "Nissan 200SX SE-R 1995",
+    "tokens": [
+      "200sx",
+      "se-r"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Nissan 200SX 1995",
+    "pick": {
+      "score": 7.76,
+      "reasons": [
+        "CC0/PD",
+        "tokens:200sx",
+        "year-match"
+      ],
+      "title": "File:200SX 1995-97.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/5e/200SX_1995-97.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:200SX_1995-97.JPG",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "Bull-Doser",
+      "width": 1503,
+      "height": 902
+    },
+    "alternates": [
+      {
+        "score": 4.8,
+        "reasons": [
+          "year-match"
+        ],
+        "title": "File:1995 Nissan 200 SX 2.0 Turbo (15311112297).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/1995_Nissan_200_SX_2.0_Turbo_%2815311112297%29.jpg/1920px-1995_Nissan_200_SX_2.0_Turbo_%2815311112297%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1995_Nissan_200_SX_2.0_Turbo_(15311112297).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "free photos &amp; art",
+        "width": 4928,
+        "height": 3280
+      },
+      {
+        "score": 4.49,
+        "reasons": [
+          "year-match"
+        ],
+        "title": "File:1995 Nissan 200 SX 2.0 Turbo (15497674445).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d4/1995_Nissan_200_SX_2.0_Turbo_%2815497674445%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1995_Nissan_200_SX_2.0_Turbo_(15497674445).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "free photos &amp; art",
+        "width": 1910,
+        "height": 1296
+      },
+      {
+        "score": 4.32,
+        "reasons": [
+          "year-match"
+        ],
+        "title": "File:1995 Nissan 200 SX 2.0 Turbo (15310772089).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/61/1995_Nissan_200_SX_2.0_Turbo_%2815310772089%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1995_Nissan_200_SX_2.0_Turbo_(15310772089).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "free photos &amp; art",
+        "width": 1700,
+        "height": 1209
+      }
+    ]
+  },
+  {
+    "slug": "nissan-240sx-s13",
+    "car": "Nissan 240SX (S13)",
+    "make": "Nissan",
+    "model": "240SX",
+    "code": "S13",
+    "body": "Coupe",
+    "year": 1991,
+    "query": "Nissan 240SX S13 1991",
+    "tokens": [
+      "240sx",
+      "s13"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Nissan 240SX S13 1991",
+    "pick": {
+      "score": 5.42,
+      "reasons": [
+        "CC0/PD",
+        "tokens:240sx"
+      ],
+      "title": "File:91-94 Nissan 240SX.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/91-94_Nissan_240SX.jpg/1920px-91-94_Nissan_240SX.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:91-94_Nissan_240SX.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "IFCAR",
+      "width": 2332,
+      "height": 1424
+    },
+    "alternates": [
+      {
+        "score": 4.81,
+        "reasons": [
+          "year-match"
+        ],
+        "title": "File:1991 Nissan 240 SX (6329569879).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/1991_Nissan_240_SX_%286329569879%29.jpg/1920px-1991_Nissan_240_SX_%286329569879%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1991_Nissan_240_SX_(6329569879).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Spanish Coches",
+        "width": 4288,
+        "height": 2848
+      },
+      {
+        "score": 2.81,
+        "reasons": [
+          "CC0/PD",
+          "tokens:240sx",
+          "bad-angle"
+        ],
+        "title": "File:Tuned '89-'91 Nissan 240SX (Centropolis Laval '10).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Tuned_%2789-%2791_Nissan_240SX_%28Centropolis_Laval_%2710%29.jpg/1920px-Tuned_%2789-%2791_Nissan_240SX_%28Centropolis_Laval_%2710%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Tuned_%2789-%2791_Nissan_240SX_(Centropolis_Laval_%2710).jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 2299,
+        "height": 1523
+      },
+      {
+        "score": 2.78,
+        "reasons": [
+          "CC0/PD",
+          "tokens:240sx",
+          "bad-angle"
+        ],
+        "title": "File:'89-'91 Nissan 240SX Hatchback.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/%2789-%2791_Nissan_240SX_Hatchback.JPG/1920px-%2789-%2791_Nissan_240SX_Hatchback.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:%2789-%2791_Nissan_240SX_Hatchback.JPG",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 2225,
+        "height": 1481
+      }
+    ]
+  },
+  {
+    "slug": "nissan-240sx-s14",
+    "car": "Nissan 240SX (S14)",
+    "make": "Nissan",
+    "model": "240SX",
+    "code": "S14",
+    "body": "Coupe",
+    "year": 1997,
+    "query": "Nissan 240SX S14 1997",
+    "tokens": [
+      "240sx",
+      "s14"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Nissan 240SX S14 1997",
+    "pick": {
+      "score": 9.17,
+      "reasons": [
+        "CC0/PD",
+        "tokens:240sx,s14",
+        "year-match"
+      ],
+      "title": "File:Nissan 240SX Coup\u00e9 (S14, 1997) (55211307857).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Nissan_240SX_Coup%C3%A9_%28S14%2C_1997%29_%2855211307857%29.jpg/1920px-Nissan_240SX_Coup%C3%A9_%28S14%2C_1997%29_%2855211307857%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Nissan_240SX_Coup%C3%A9_(S14,_1997)_(55211307857).jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Charles from Port Chester, New York",
+      "width": 5828,
+      "height": 3918
+    },
+    "alternates": [
+      {
+        "score": 6.85,
+        "reasons": [
+          "CC0/PD",
+          "year-match"
+        ],
+        "title": "File:1997 Nissan Middle Sports.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/1997_Nissan_Middle_Sports.jpg/1920px-1997_Nissan_Middle_Sports.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1997_Nissan_Middle_Sports.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "TTTNIS",
+        "width": 4974,
+        "height": 3264
+      },
+      {
+        "score": 2.59,
+        "reasons": [
+          "CC0/PD",
+          "tokens:240sx",
+          "bad-angle"
+        ],
+        "title": "File:Tuned '97 Nissan 240SX (MIAS '17).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Tuned_%2797_Nissan_240SX_%28MIAS_%2717%29.jpg/1920px-Tuned_%2797_Nissan_240SX_%28MIAS_%2717%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Tuned_%2797_Nissan_240SX_(MIAS_%2717).jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 3045,
+        "height": 2249
+      }
+    ]
+  },
+  {
+    "slug": "nissan-300zx-z31",
+    "car": "Nissan 300ZX (Z31)",
+    "make": "Nissan",
+    "model": "300ZX",
+    "code": "Z31",
+    "body": "Coupe",
+    "year": 1986,
+    "query": "Nissan 300ZX Z31 1986",
+    "tokens": [
+      "300zx",
+      "z31"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1986 Nissan 300ZX Turbo, Front Right, 10-10-2021.jpg",
+    "status": "ok",
+    "query_used": "pin:1986 Nissan 300ZX Turbo, Front Right, 10-10-2021.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1986 Nissan 300ZX Turbo, Front Right, 10-10-2021.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/1986_Nissan_300ZX_Turbo%2C_Front_Right%2C_10-10-2021.jpg/1920px-1986_Nissan_300ZX_Turbo%2C_Front_Right%2C_10-10-2021.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1986_Nissan_300ZX_Turbo,_Front_Right,_10-10-2021.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Elise240SX",
+      "width": 4014,
+      "height": 2124
+    },
+    "alternates": []
+  },
+  {
+    "slug": "nissan-300zx-z32",
+    "car": "Nissan 300ZX (Z32)",
+    "make": "Nissan",
+    "model": "300ZX",
+    "code": "Z32",
+    "body": "Coupe",
+    "year": 1994,
+    "query": "Nissan 300ZX Z32 1994",
+    "tokens": [
+      "300zx",
+      "z32"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Nissan 300ZX Z32 1994",
+    "pick": {
+      "score": 6.7,
+      "reasons": [
+        "CC0/PD",
+        "tokens:300zx,z32"
+      ],
+      "title": "File:Nissan E-GCZ32 Fairlady Z 300ZX Twin Turbo 2by2 T-Bar Roof (23100111204).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Nissan_E-GCZ32_Fairlady_Z_300ZX_Twin_Turbo_2by2_T-Bar_Roof_%2823100111204%29.jpg/1920px-Nissan_E-GCZ32_Fairlady_Z_300ZX_Twin_Turbo_2by2_T-Bar_Roof_%2823100111204%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Nissan_E-GCZ32_Fairlady_Z_300ZX_Twin_Turbo_2by2_T-Bar_Roof_(23100111204).jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "\u5148\u5f93\u9697\u59cb",
+      "width": 4608,
+      "height": 3072
+    },
+    "alternates": [
+      {
+        "score": 6.7,
+        "reasons": [
+          "CC0/PD",
+          "tokens:300zx,z32"
+        ],
+        "title": "File:Nissan E-GCZ32 Fairlady Z 300ZX Twin Turbo 2by2 T-Bar Roof (23100111211).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Nissan_E-GCZ32_Fairlady_Z_300ZX_Twin_Turbo_2by2_T-Bar_Roof_%2823100111211%29.jpg/1920px-Nissan_E-GCZ32_Fairlady_Z_300ZX_Twin_Turbo_2by2_T-Bar_Roof_%2823100111211%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nissan_E-GCZ32_Fairlady_Z_300ZX_Twin_Turbo_2by2_T-Bar_Roof_(23100111211).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "\u5148\u5f93\u9697\u59cb",
+        "width": 4608,
+        "height": 3072
+      },
+      {
+        "score": 6.7,
+        "reasons": [
+          "CC0/PD",
+          "tokens:300zx,z32"
+        ],
+        "title": "File:Nissan E-GZ32 Fairlady Z 300ZX 2by2 T-Bar Roof (23100110525).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Nissan_E-GZ32_Fairlady_Z_300ZX_2by2_T-Bar_Roof_%2823100110525%29.jpg/1920px-Nissan_E-GZ32_Fairlady_Z_300ZX_2by2_T-Bar_Roof_%2823100110525%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nissan_E-GZ32_Fairlady_Z_300ZX_2by2_T-Bar_Roof_(23100110525).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "\u5148\u5f93\u9697\u59cb",
+        "width": 4608,
+        "height": 3072
+      },
+      {
+        "score": 6.7,
+        "reasons": [
+          "CC0/PD",
+          "tokens:300zx,z32"
+        ],
+        "title": "File:Nissan E-GZ32 Fairlady Z 300ZX 2by2 T-Bar Roof (23100110592).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Nissan_E-GZ32_Fairlady_Z_300ZX_2by2_T-Bar_Roof_%2823100110592%29.jpg/1920px-Nissan_E-GZ32_Fairlady_Z_300ZX_2by2_T-Bar_Roof_%2823100110592%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nissan_E-GZ32_Fairlady_Z_300ZX_2by2_T-Bar_Roof_(23100110592).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "\u5148\u5f93\u9697\u59cb",
+        "width": 4608,
+        "height": 3072
+      }
+    ]
+  },
+  {
+    "slug": "nissan-350z-z33",
+    "car": "Nissan 350Z (Z33)",
+    "make": "Nissan",
+    "model": "350Z",
+    "code": "Z33",
+    "body": "Coupe",
+    "year": 2005,
+    "query": "Nissan 350Z Z33 2005",
+    "tokens": [
+      "350z",
+      "z33"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2004 Nissan 350Z 3.5 Front.jpg",
+    "status": "ok",
+    "query_used": "pin:2004 Nissan 350Z 3.5 Front.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2004 Nissan 350Z 3.5 Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/2004_Nissan_350Z_3.5_Front.jpg/1920px-2004_Nissan_350Z_3.5_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2004_Nissan_350Z_3.5_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 4722,
+      "height": 2355
+    },
+    "alternates": []
+  },
+  {
     "slug": "nissan-370z-z34",
     "car": "Nissan 370Z (Z34)",
     "body": "Coupe",
@@ -28119,90 +28555,1606 @@
     ]
   },
   {
-    "slug": "nissan-gt-r-r35",
-    "car": "Nissan GT-R (R35)",
-    "query": "Nissan GT-R R35 front",
+    "slug": "nissan-altima-l32",
+    "car": "Nissan Altima (L32)",
+    "make": "Nissan",
+    "model": "Altima",
+    "code": "L32",
+    "body": "Sedan",
+    "year": 2010,
+    "query": "Nissan Altima L32 2010",
     "tokens": [
-      "gt-r",
-      "gtr",
-      "r35"
+      "altima",
+      "l32"
     ],
     "avoid": [
-      "nismo",
-      "carbon",
-      "facelift"
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
     ],
     "status": "ok",
+    "query_used": "Nissan Altima L32 2010",
     "pick": {
-      "score": 8.75,
+      "score": 8.03,
       "reasons": [
-        "CC0/PD",
-        "tokens:gt-r,r35",
+        "tokens:altima",
         "good-angle",
-        "front"
+        "front",
+        "year-match"
       ],
-      "title": "File:The frontview of Nissan GT-R (CBA-R35).JPG",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/The_frontview_of_Nissan_GT-R_%28CBA-R35%29.JPG/1920px-The_frontview_of_Nissan_GT-R_%28CBA-R35%29.JPG",
-      "page": "https://commons.wikimedia.org/wiki/File:The_frontview_of_Nissan_GT-R_(CBA-R35).JPG",
-      "license": "CC0",
-      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-      "artist": "Tokumeigakarinoaoshima",
-      "width": 2476,
-      "height": 1804
+      "title": "File:2010 Nissan Altima 2.5 S, Front Right, 10-26-2020.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/2010_Nissan_Altima_2.5_S%2C_Front_Right%2C_10-26-2020.jpg/1920px-2010_Nissan_Altima_2.5_S%2C_Front_Right%2C_10-26-2020.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2010_Nissan_Altima_2.5_S,_Front_Right,_10-26-2020.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "SsmIntrigue",
+      "width": 3420,
+      "height": 1800
     },
     "alternates": [
       {
-        "score": 8.74,
+        "score": 7.89,
         "reasons": [
           "CC0/PD",
-          "tokens:gt-r,r35",
-          "good-angle",
-          "front"
+          "tokens:altima",
+          "year-match"
         ],
-        "title": "File:2009 Nissan GT-R (CBA-R35) front.JPG",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/2009_Nissan_GT-R_%28CBA-R35%29_front.JPG/1920px-2009_Nissan_GT-R_%28CBA-R35%29_front.JPG",
-        "page": "https://commons.wikimedia.org/wiki/File:2009_Nissan_GT-R_(CBA-R35)_front.JPG",
-        "license": "CC0",
-        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "artist": "Tokumeigakarinoaoshima",
-        "width": 2498,
-        "height": 1834
+        "title": "File:2010 Nissan Altima 2.5SL -- 05-05-2010.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/2010_Nissan_Altima_2.5SL_--_05-05-2010.jpg/1920px-2010_Nissan_Altima_2.5SL_--_05-05-2010.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2010_Nissan_Altima_2.5SL_--_05-05-2010.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "IFCAR",
+        "width": 2271,
+        "height": 1380
       },
       {
-        "score": 8.69,
+        "score": 7.88,
         "reasons": [
           "CC0/PD",
-          "tokens:gt-r,r35",
-          "good-angle",
-          "front"
+          "tokens:altima",
+          "year-match"
         ],
-        "title": "File:NISSAN GT-R (CBA-R35) front.JPG",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/NISSAN_GT-R_%28CBA-R35%29_front.JPG/1920px-NISSAN_GT-R_%28CBA-R35%29_front.JPG",
-        "page": "https://commons.wikimedia.org/wiki/File:NISSAN_GT-R_(CBA-R35)_front.JPG",
-        "license": "CC0",
-        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "artist": "Tokumeigakarinoaoshima",
-        "width": 2560,
-        "height": 1920
+        "title": "File:2010 Nissan Altima 2.5S sedan -- 11-23-2009.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/2010_Nissan_Altima_2.5S_sedan_--_11-23-2009.jpg/1920px-2010_Nissan_Altima_2.5S_sedan_--_11-23-2009.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2010_Nissan_Altima_2.5S_sedan_--_11-23-2009.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "IFCAR",
+        "width": 2216,
+        "height": 1344
       },
       {
-        "score": 8.64,
+        "score": 7.77,
         "reasons": [
           "CC0/PD",
-          "tokens:gt-r,r35",
-          "good-angle",
-          "front"
+          "tokens:altima",
+          "year-match"
         ],
-        "title": "File:Nissan GT-R (CBA-R35) front.jpg",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/11/Nissan_GT-R_%28CBA-R35%29_front.jpg",
-        "page": "https://commons.wikimedia.org/wiki/File:Nissan_GT-R_(CBA-R35)_front.jpg",
-        "license": "CC0",
-        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-        "artist": "Tokumeigakarinoaoshima",
-        "width": 1548,
-        "height": 1128
+        "title": "File:2010 Nissan Altima 3.5SE -- 05-05-2010.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/59/2010_Nissan_Altima_3.5SE_--_05-05-2010.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2010_Nissan_Altima_3.5SE_--_05-05-2010.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "IFCAR",
+        "width": 1816,
+        "height": 1192
       }
     ]
+  },
+  {
+    "slug": "nissan-altima-l34",
+    "car": "Nissan Altima (L34)",
+    "make": "Nissan",
+    "model": "Altima",
+    "code": "L34",
+    "body": "Sedan",
+    "year": 2019,
+    "query": "Nissan Altima L34 2019",
+    "tokens": [
+      "altima",
+      "l34"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Nissan Altima L34 2019",
+    "pick": {
+      "score": 7.99,
+      "reasons": [
+        "tokens:altima,l34",
+        "good-angle",
+        "year-match"
+      ],
+      "title": "File:Nissan Altima L34 02 China 2019-03-21.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Nissan_Altima_L34_02_China_2019-03-21.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Nissan_Altima_L34_02_China_2019-03-21.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Navigator84",
+      "width": 1300,
+      "height": 795
+    },
+    "alternates": [
+      {
+        "score": 7.96,
+        "reasons": [
+          "tokens:altima,l34",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:2019 Dongfeng-Nissan Altima L34.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/2019_Dongfeng-Nissan_Altima_L34.jpg/1920px-2019_Dongfeng-Nissan_Altima_L34.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2019_Dongfeng-Nissan_Altima_L34.jpg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "User3204",
+        "width": 3465,
+        "height": 1937
+      },
+      {
+        "score": 7.94,
+        "reasons": [
+          "tokens:altima,l34",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:Nissan Altima L34 01 China 2019-03-21.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/85/Nissan_Altima_L34_01_China_2019-03-21.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nissan_Altima_L34_01_China_2019-03-21.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Navigator84",
+        "width": 1300,
+        "height": 783
+      },
+      {
+        "score": 7.89,
+        "reasons": [
+          "tokens:altima,l34",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:Nissan Altima L34 04 China 2019-03-21.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/40/Nissan_Altima_L34_04_China_2019-03-21.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nissan_Altima_L34_04_China_2019-03-21.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Navigator84",
+        "width": 1300,
+        "height": 772
+      }
+    ]
+  },
+  {
+    "slug": "nissan-frontier-pro-4x-d41",
+    "car": "Nissan Frontier (Pro-4X (D41))",
+    "make": "Nissan",
+    "model": "Frontier",
+    "code": "Pro-4X",
+    "body": "Truck",
+    "year": 2022,
+    "query": "Nissan Frontier Pro-4X 2022",
+    "tokens": [
+      "frontier",
+      "pro-4x"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Nissan Frontier Pro-4X 2022",
+    "pick": {
+      "score": 9.86,
+      "reasons": [
+        "tokens:frontier,pro-4x",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2022 Nissan Frontier Crew Cab Pro-4X in Boulder Gray Pearl, front left.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/2022_Nissan_Frontier_Crew_Cab_Pro-4X_in_Boulder_Gray_Pearl%2C_front_left.jpg/1920px-2022_Nissan_Frontier_Crew_Cab_Pro-4X_in_Boulder_Gray_Pearl%2C_front_left.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2022_Nissan_Frontier_Crew_Cab_Pro-4X_in_Boulder_Gray_Pearl,_front_left.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5308,
+      "height": 3355
+    },
+    "alternates": [
+      {
+        "score": 9.79,
+        "reasons": [
+          "tokens:frontier,pro-4x",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:Nissan Frontier (D41) Pro-4X Automesse Ludwigsburg 2022 1X7A5885.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nissan_Frontier_%28D41%29_Pro-4X_Automesse_Ludwigsburg_2022_1X7A5885.jpg/1920px-Nissan_Frontier_%28D41%29_Pro-4X_Automesse_Ludwigsburg_2022_1X7A5885.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nissan_Frontier_(D41)_Pro-4X_Automesse_Ludwigsburg_2022_1X7A5885.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alexander Migl",
+        "width": 5212,
+        "height": 3154
+      },
+      {
+        "score": 9.56,
+        "reasons": [
+          "tokens:frontier,pro-4x",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:Nissan Frontier (D41) Pro-4X Automesse Ludwigsburg 2022 1X7A5942.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Nissan_Frontier_%28D41%29_Pro-4X_Automesse_Ludwigsburg_2022_1X7A5942.jpg/1920px-Nissan_Frontier_%28D41%29_Pro-4X_Automesse_Ludwigsburg_2022_1X7A5942.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nissan_Frontier_(D41)_Pro-4X_Automesse_Ludwigsburg_2022_1X7A5942.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alexander Migl",
+        "width": 6135,
+        "height": 3463
+      },
+      {
+        "score": 7.22,
+        "reasons": [
+          "tokens:frontier,pro-4x",
+          "good-angle",
+          "front",
+          "bad-angle",
+          "year-match"
+        ],
+        "title": "File:2022 Nissan Frontier Crew Cab Pro-4X in Boulder Gray Pearl, rear left.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2022_Nissan_Frontier_Crew_Cab_Pro-4X_in_Boulder_Gray_Pearl%2C_rear_left.jpg/1920px-2022_Nissan_Frontier_Crew_Cab_Pro-4X_in_Boulder_Gray_Pearl%2C_rear_left.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2022_Nissan_Frontier_Crew_Cab_Pro-4X_in_Boulder_Gray_Pearl,_rear_left.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Mr.choppers",
+        "width": 4892,
+        "height": 3236
+      }
+    ]
+  },
+  {
+    "slug": "nissan-gt-r-r35",
+    "car": "Nissan GT-R (R35)",
+    "make": "Nissan",
+    "model": "GT-R",
+    "code": "R35",
+    "body": "Coupe",
+    "year": 2017,
+    "query": "Nissan GT-R R35 2017",
+    "tokens": [
+      "gt-r",
+      "r35"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2015 Nissan GT-R Premium in Pearl White, Front Left, 06-17-2022 (2).jpg",
+    "status": "ok",
+    "query_used": "pin:2015 Nissan GT-R Premium in Pearl White, Front Left, 06-17-2022 (2).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2015 Nissan GT-R Premium in Pearl White, Front Left, 06-17-2022 (2).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/2015_Nissan_GT-R_Premium_in_Pearl_White%2C_Front_Left%2C_06-17-2022_%282%29.jpg/1920px-2015_Nissan_GT-R_Premium_in_Pearl_White%2C_Front_Left%2C_06-17-2022_%282%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2015_Nissan_GT-R_Premium_in_Pearl_White,_Front_Left,_06-17-2022_(2).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Elise240SX",
+      "width": 3962,
+      "height": 2112
+    },
+    "alternates": []
+  },
+  {
+    "slug": "nissan-kicks-p15",
+    "car": "Nissan Kicks (P15)",
+    "make": "Nissan",
+    "model": "Kicks",
+    "code": "P15",
+    "body": "SUV",
+    "year": 2018,
+    "query": "Nissan Kicks P15 2018",
+    "tokens": [
+      "kicks",
+      "p15"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Nissan Kicks P15 2018",
+    "pick": {
+      "score": 8.24,
+      "reasons": [
+        "tokens:kicks",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2018 Nissan Kicks SV front 3.30.19.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/2018_Nissan_Kicks_SV_front_3.30.19.jpg/1920px-2018_Nissan_Kicks_SV_front_3.30.19.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Nissan_Kicks_SV_front_3.30.19.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 4747,
+      "height": 2594
+    },
+    "alternates": [
+      {
+        "score": 7.9,
+        "reasons": [
+          "CC0/PD",
+          "tokens:kicks",
+          "year-match"
+        ],
+        "title": "File:2018 Nissan Kicks au SIAM 2018.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/2018_Nissan_Kicks_au_SIAM_2018.jpg/1920px-2018_Nissan_Kicks_au_SIAM_2018.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Nissan_Kicks_au_SIAM_2018.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 3921,
+        "height": 2697
+      },
+      {
+        "score": 7.01,
+        "reasons": [
+          "tokens:kicks,p15",
+          "year-match"
+        ],
+        "title": "File:Nissan Kicks P15 03 China 2018-03-20.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Nissan_Kicks_P15_03_China_2018-03-20.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nissan_Kicks_P15_03_China_2018-03-20.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Navigator84",
+        "width": 1300,
+        "height": 800
+      },
+      {
+        "score": 6.96,
+        "reasons": [
+          "tokens:kicks,p15",
+          "year-match"
+        ],
+        "title": "File:Nissan Kicks P15 China 2018-03-26.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/00/Nissan_Kicks_P15_China_2018-03-26.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nissan_Kicks_P15_China_2018-03-26.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Navigator84",
+        "width": 1300,
+        "height": 840
+      }
+    ]
+  },
+  {
+    "slug": "nissan-leaf-ze1",
+    "car": "Nissan Leaf (ZE1)",
+    "make": "Nissan",
+    "model": "Leaf",
+    "code": "ZE1",
+    "body": "Hatch",
+    "year": 2018,
+    "query": "Nissan Leaf ZE1 2018",
+    "tokens": [
+      "leaf",
+      "ze1"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Nissan Leaf ZE1 2018",
+    "pick": {
+      "score": 9.57,
+      "reasons": [
+        "tokens:leaf,ze1",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:Nissan Leaf ZE1 2018 front view trimmed.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Nissan_Leaf_ZE1_2018_front_view_trimmed.jpg/1920px-Nissan_Leaf_ZE1_2018_front_view_trimmed.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Nissan_Leaf_ZE1_2018_front_view_trimmed.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Nissan Leaf ZE1 2018: Reinhard M\u00fcller derivative work: Mariordo (Mario Roberto Dur\u00e1n Ortiz)",
+      "width": 3000,
+      "height": 2000
+    },
+    "alternates": [
+      {
+        "score": 9.37,
+        "reasons": [
+          "tokens:leaf,ze1",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:Nissan Leaf ZE1 2018, front view.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Nissan_Leaf_ZE1_2018%2C_front_view.jpg/1920px-Nissan_Leaf_ZE1_2018%2C_front_view.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nissan_Leaf_ZE1_2018,_front_view.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Reinhard M\u00fcller",
+        "width": 4000,
+        "height": 3000
+      },
+      {
+        "score": 7.04,
+        "reasons": [
+          "tokens:leaf,ze1",
+          "year-match"
+        ],
+        "title": "File:Nissan Leaf ZE1 2018, charging outlets, opened.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Nissan_Leaf_ZE1_2018%2C_charging_outlets%2C_opened.jpg/1920px-Nissan_Leaf_ZE1_2018%2C_charging_outlets%2C_opened.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nissan_Leaf_ZE1_2018,_charging_outlets,_opened.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Reinhard M\u00fcller",
+        "width": 4000,
+        "height": 2248
+      },
+      {
+        "score": 7.04,
+        "reasons": [
+          "tokens:leaf,ze1",
+          "year-match"
+        ],
+        "title": "File:Nissan Leaf ZE1 2018, under the hood.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Nissan_Leaf_ZE1_2018%2C_under_the_hood.jpg/1920px-Nissan_Leaf_ZE1_2018%2C_under_the_hood.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nissan_Leaf_ZE1_2018,_under_the_hood.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Reinhard M\u00fcller",
+        "width": 4000,
+        "height": 2248
+      }
+    ]
+  },
+  {
+    "slug": "nissan-maxima-se-j30",
+    "car": "Nissan Maxima (SE (J30))",
+    "make": "Nissan",
+    "model": "Maxima",
+    "code": "SE",
+    "body": "Sedan",
+    "year": 1992,
+    "query": "Nissan Maxima SE 1992",
+    "tokens": [
+      "maxima",
+      "se"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Nissan Maxima 1992",
+    "pick": {
+      "score": 10.41,
+      "reasons": [
+        "CC0/PD",
+        "tokens:maxima",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:1992 Nissan Maxima GXE in Autumn Brown Pearl, front right, 08-13-2022.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/1992_Nissan_Maxima_GXE_in_Autumn_Brown_Pearl%2C_front_right%2C_08-13-2022.jpg/1920px-1992_Nissan_Maxima_GXE_in_Autumn_Brown_Pearl%2C_front_right%2C_08-13-2022.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1992_Nissan_Maxima_GXE_in_Autumn_Brown_Pearl,_front_right,_08-13-2022.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Cutlass",
+      "width": 3546,
+      "height": 2067
+    },
+    "alternates": [
+      {
+        "score": 8.86,
+        "reasons": [
+          "CC0/PD",
+          "tokens:maxima,se",
+          "year-match"
+        ],
+        "title": "File:1990-1992 Nissan Maxima (J30) M sedan 01.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/1990-1992_Nissan_Maxima_%28J30%29_M_sedan_01.jpg/1920px-1990-1992_Nissan_Maxima_%28J30%29_M_sedan_01.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1990-1992_Nissan_Maxima_(J30)_M_sedan_01.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "OSX",
+        "width": 2884,
+        "height": 1600
+      },
+      {
+        "score": 7.78,
+        "reasons": [
+          "CC0/PD",
+          "tokens:maxima",
+          "year-match"
+        ],
+        "title": "File:1992-1994 Nissan Maxima -- 03-21-2012.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a6/1992-1994_Nissan_Maxima_--_03-21-2012.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:1992-1994_Nissan_Maxima_--_03-21-2012.JPG",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "IFCAR",
+        "width": 1916,
+        "height": 1140
+      },
+      {
+        "score": 5.95,
+        "reasons": [
+          "tokens:se",
+          "year-match"
+        ],
+        "title": "File:Glenwood Drive Metairie Louisiana April 1992 - Rene and Paul Mares Houses.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Glenwood_Drive_Metairie_Louisiana_April_1992_-_Rene_and_Paul_Mares_Houses.jpg/1920px-Glenwood_Drive_Metairie_Louisiana_April_1992_-_Rene_and_Paul_Mares_Houses.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Glenwood_Drive_Metairie_Louisiana_April_1992_-_Rene_and_Paul_Mares_Houses.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Infrogmation of New Orleans",
+        "width": 2924,
+        "height": 1893
+      }
+    ]
+  },
+  {
+    "slug": "nissan-murano-z52",
+    "car": "Nissan Murano (Z52)",
+    "make": "Nissan",
+    "model": "Murano",
+    "code": "Z52",
+    "body": "SUV",
+    "year": 2015,
+    "query": "Nissan Murano Z52 2015",
+    "tokens": [
+      "murano",
+      "z52"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Nissan Murano Z52 2015",
+    "pick": {
+      "score": 8.65,
+      "reasons": [
+        "tokens:murano",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2015 Nissan Murano SL in Pacific Sunset, front left (Sands Point).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/2015_Nissan_Murano_SL_in_Pacific_Sunset%2C_front_left_%28Sands_Point%29.jpg/1920px-2015_Nissan_Murano_SL_in_Pacific_Sunset%2C_front_left_%28Sands_Point%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2015_Nissan_Murano_SL_in_Pacific_Sunset,_front_left_(Sands_Point).jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5349,
+      "height": 3287
+    },
+    "alternates": [
+      {
+        "score": 8.5,
+        "reasons": [
+          "tokens:murano",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2015 Nissan Murano SV AWD, front left (cropped).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/2015_Nissan_Murano_SV_AWD%2C_front_left_%28cropped%29.jpg/1920px-2015_Nissan_Murano_SV_AWD%2C_front_left_%28cropped%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2015_Nissan_Murano_SV_AWD,_front_left_(cropped).jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Mr.choppers",
+        "width": 4990,
+        "height": 3326
+      },
+      {
+        "score": 8.42,
+        "reasons": [
+          "tokens:murano",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2015 Nissan Murano SV AWD, front left.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/2015_Nissan_Murano_SV_AWD%2C_front_left.jpg/1920px-2015_Nissan_Murano_SV_AWD%2C_front_left.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2015_Nissan_Murano_SV_AWD,_front_left.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Mr.choppers",
+        "width": 5034,
+        "height": 3449
+      },
+      {
+        "score": 8.41,
+        "reasons": [
+          "tokens:murano",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2015 Dongfeng-Nissan Murano (front).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/2015_Dongfeng-Nissan_Murano_%28front%29.jpg/1920px-2015_Dongfeng-Nissan_Murano_%28front%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2015_Dongfeng-Nissan_Murano_(front).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "User3204",
+        "width": 5213,
+        "height": 3581
+      }
+    ]
+  },
+  {
+    "slug": "nissan-pathfinder-r53",
+    "car": "Nissan Pathfinder (R53)",
+    "make": "Nissan",
+    "model": "Pathfinder",
+    "code": "R53",
+    "body": "SUV",
+    "year": 2022,
+    "query": "Nissan Pathfinder R53 2022",
+    "tokens": [
+      "pathfinder",
+      "r53"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Nissan Pathfinder R53 2022",
+    "pick": {
+      "score": 10.61,
+      "reasons": [
+        "CC0/PD",
+        "tokens:pathfinder",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2022 Nissan Pathfinder SV in Pearl White, front right, 12-11-2021.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2022_Nissan_Pathfinder_SV_in_Pearl_White%2C_front_right%2C_12-11-2021.jpg/1920px-2022_Nissan_Pathfinder_SV_in_Pearl_White%2C_front_right%2C_12-11-2021.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2022_Nissan_Pathfinder_SV_in_Pearl_White,_front_right,_12-11-2021.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Cutlass",
+      "width": 3650,
+      "height": 2251
+    },
+    "alternates": [
+      {
+        "score": 8.63,
+        "reasons": [
+          "tokens:pathfinder",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2022 Nissan Pathfinder SV, front 6.2.22.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/2022_Nissan_Pathfinder_SV%2C_front_6.2.22.jpg/1920px-2022_Nissan_Pathfinder_SV%2C_front_6.2.22.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2022_Nissan_Pathfinder_SV,_front_6.2.22.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kevauto",
+        "width": 3782,
+        "height": 2395
+      },
+      {
+        "score": 8.31,
+        "reasons": [
+          "tokens:pathfinder",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2022 Nissan Pathfinder SL 4WD (United States) front view.png",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1b/2022_Nissan_Pathfinder_SL_4WD_%28United_States%29_front_view.png",
+        "page": "https://commons.wikimedia.org/wiki/File:2022_Nissan_Pathfinder_SL_4WD_(United_States)_front_view.png",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "Gold Pony",
+        "width": 1920,
+        "height": 1152
+      },
+      {
+        "score": 8.26,
+        "reasons": [
+          "tokens:pathfinder",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2022 Nissan Pathfinder SV in Super Black, Front Left, 03-22-2022.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/2022_Nissan_Pathfinder_SV_in_Super_Black%2C_Front_Left%2C_03-22-2022.jpg/1920px-2022_Nissan_Pathfinder_SV_in_Super_Black%2C_Front_Left%2C_03-22-2022.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2022_Nissan_Pathfinder_SV_in_Super_Black,_Front_Left,_03-22-2022.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Elise240SX",
+        "width": 2057,
+        "height": 1368
+      }
+    ]
+  },
+  {
+    "slug": "nissan-pulsar-gti-r",
+    "car": "Nissan Pulsar (GTI-R)",
+    "make": "Nissan",
+    "model": "Pulsar",
+    "code": "GTI-R",
+    "body": "Hatch",
+    "year": 1991,
+    "query": "Nissan Pulsar GTI-R 1991",
+    "tokens": [
+      "gti-r",
+      "pulsar"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Nissan PULSAR GTI-R (E-RNN14) front.jpg",
+    "status": "ok",
+    "query_used": "pin:Nissan PULSAR GTI-R (E-RNN14) front.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Nissan PULSAR GTI-R (E-RNN14) front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nissan_PULSAR_GTI-R_%28E-RNN14%29_front.jpg/1920px-Nissan_PULSAR_GTI-R_%28E-RNN14%29_front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Nissan_PULSAR_GTI-R_(E-RNN14)_front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Tokumeigakarinoaoshima",
+      "width": 2548,
+      "height": 1902
+    },
+    "alternates": []
+  },
+  {
+    "slug": "nissan-rogue-3rd-gen-t33",
+    "car": "Nissan Rogue (3rd Gen (T33))",
+    "make": "Nissan",
+    "model": "Rogue",
+    "code": "",
+    "body": "SUV",
+    "year": 2021,
+    "query": "Nissan Rogue 2021",
+    "tokens": [
+      "rogue"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Nissan Rogue 2021",
+    "pick": {
+      "score": 8.53,
+      "reasons": [
+        "tokens:rogue",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2021 Nissan Rogue SV AWD, front 1.1.21.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/2021_Nissan_Rogue_SV_AWD%2C_front_1.1.21.jpg/1920px-2021_Nissan_Rogue_SV_AWD%2C_front_1.1.21.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2021_Nissan_Rogue_SV_AWD,_front_1.1.21.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 3032,
+      "height": 1922
+    },
+    "alternates": [
+      {
+        "score": 8.44,
+        "reasons": [
+          "tokens:rogue",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2021 Nissan Rogue SV in Boulder Grey Pearl, Front Right, 04-28-2023.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/2021_Nissan_Rogue_SV_in_Boulder_Grey_Pearl%2C_Front_Right%2C_04-28-2023.jpg/1920px-2021_Nissan_Rogue_SV_in_Boulder_Grey_Pearl%2C_Front_Right%2C_04-28-2023.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2021_Nissan_Rogue_SV_in_Boulder_Grey_Pearl,_Front_Right,_04-28-2023.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Elise240SX",
+        "width": 3467,
+        "height": 2303
+      },
+      {
+        "score": 8.4,
+        "reasons": [
+          "tokens:rogue",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2016 Nissan Rogue, Front Left, 04-13-2021.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/2016_Nissan_Rogue%2C_Front_Left%2C_04-13-2021.jpg/1920px-2016_Nissan_Rogue%2C_Front_Left%2C_04-13-2021.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2016_Nissan_Rogue,_Front_Left,_04-13-2021.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "SsmIntrigue",
+        "width": 3384,
+        "height": 1980
+      },
+      {
+        "score": 8.34,
+        "reasons": [
+          "tokens:rogue",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2021 Nissan Rogue SV (United States) front view 01.png",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/2021_Nissan_Rogue_SV_%28United_States%29_front_view_01.png/1920px-2021_Nissan_Rogue_SV_%28United_States%29_front_view_01.png",
+        "page": "https://commons.wikimedia.org/wiki/File:2021_Nissan_Rogue_SV_(United_States)_front_view_01.png",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "Gold Pony",
+        "width": 2690,
+        "height": 1794
+      }
+    ]
+  },
+  {
+    "slug": "nissan-sentra-b18",
+    "car": "Nissan Sentra (B18)",
+    "make": "Nissan",
+    "model": "Sentra",
+    "code": "B18",
+    "body": "Sedan",
+    "year": 2020,
+    "query": "Nissan Sentra B18 2020",
+    "tokens": [
+      "b18",
+      "sentra"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Nissan Sentra B18 2020",
+    "pick": {
+      "score": 8.16,
+      "reasons": [
+        "tokens:sentra",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2020 Nissan Sentra SV, front 10.22.20.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/2020_Nissan_Sentra_SV%2C_front_10.22.20.jpg/1920px-2020_Nissan_Sentra_SV%2C_front_10.22.20.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2020_Nissan_Sentra_SV,_front_10.22.20.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 4368,
+      "height": 2335
+    },
+    "alternates": [
+      {
+        "score": 7.98,
+        "reasons": [
+          "tokens:sentra",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2020 Nissan Sentra SV (2), front 10.22.20.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/2020_Nissan_Sentra_SV_%282%29%2C_front_10.22.20.jpg/1920px-2020_Nissan_Sentra_SV_%282%29%2C_front_10.22.20.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Nissan_Sentra_SV_(2),_front_10.22.20.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kevauto",
+        "width": 4384,
+        "height": 2239
+      },
+      {
+        "score": 7.93,
+        "reasons": [
+          "CC0/PD",
+          "tokens:sentra",
+          "year-match"
+        ],
+        "title": "File:2020 Nissan Sentra au SIAM 2020.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/2020_Nissan_Sentra_au_SIAM_2020.jpg/1920px-2020_Nissan_Sentra_au_SIAM_2020.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Nissan_Sentra_au_SIAM_2020.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 2789,
+        "height": 1681
+      },
+      {
+        "score": 7.14,
+        "reasons": [
+          "tokens:sentra",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2020 Nissan Sentra SV, front right, 06-17-2026.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/43/2020_Nissan_Sentra_SV%2C_front_right%2C_06-17-2026.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Nissan_Sentra_SV,_front_right,_06-17-2026.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "BuickCentury04",
+        "width": 1391,
+        "height": 628
+      }
+    ]
+  },
+  {
+    "slug": "nissan-sentra-se-r-spec-v",
+    "car": "Nissan Sentra (SE-R Spec V)",
+    "make": "Nissan",
+    "model": "Sentra",
+    "code": "SE-R",
+    "body": "Sedan",
+    "year": 2005,
+    "query": "Nissan Sentra SE-R 2005",
+    "tokens": [
+      "se-r",
+      "sentra"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "NissanSentraSE-RSpecV.jpg",
+    "status": "ok",
+    "query_used": "pin:NissanSentraSE-RSpecV.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:NissanSentraSE-RSpecV.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/NissanSentraSE-RSpecV.jpg/1920px-NissanSentraSE-RSpecV.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:NissanSentraSE-RSpecV.jpg",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "artist": "Shant Jaltorossian",
+      "width": 2816,
+      "height": 2112
+    },
+    "alternates": []
+  },
+  {
+    "slug": "nissan-silvia-s15",
+    "car": "Nissan Silvia (S15)",
+    "make": "Nissan",
+    "model": "Silvia",
+    "code": "S15",
+    "body": "Coupe",
+    "year": 1999,
+    "query": "Nissan Silvia S15 1999",
+    "tokens": [
+      "s15",
+      "silvia"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Nissan Silvia spec-S AERO (GF-S15) front.jpg",
+    "status": "ok",
+    "query_used": "pin:Nissan Silvia spec-S AERO (GF-S15) front.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Nissan Silvia spec-S AERO (GF-S15) front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Nissan_Silvia_spec-S_AERO_%28GF-S15%29_front.jpg/1920px-Nissan_Silvia_spec-S_AERO_%28GF-S15%29_front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Nissan_Silvia_spec-S_AERO_(GF-S15)_front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Tokumeigakarinoaoshima",
+      "width": 2560,
+      "height": 1918
+    },
+    "alternates": []
+  },
+  {
+    "slug": "nissan-skyline-gt-r-r32",
+    "car": "Nissan Skyline GT-R (R32)",
+    "make": "Nissan",
+    "model": "Skyline GT-R",
+    "code": "R32",
+    "body": "Coupe",
+    "year": 1993,
+    "query": "Nissan Skyline GT-R R32 1993",
+    "tokens": [
+      "gt-r",
+      "r32",
+      "skyline"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1991 Nissan Skyline GT-R R32 front, Bonhams 6.1.19.jpg",
+    "status": "ok",
+    "query_used": "pin:1991 Nissan Skyline GT-R R32 front, Bonhams 6.1.19.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1991 Nissan Skyline GT-R R32 front, Bonhams 6.1.19.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/1991_Nissan_Skyline_GT-R_R32_front%2C_Bonhams_6.1.19.jpg/1920px-1991_Nissan_Skyline_GT-R_R32_front%2C_Bonhams_6.1.19.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1991_Nissan_Skyline_GT-R_R32_front,_Bonhams_6.1.19.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 4588,
+      "height": 2591
+    },
+    "alternates": []
+  },
+  {
+    "slug": "nissan-skyline-gt-r-r33",
+    "car": "Nissan Skyline GT-R (R33)",
+    "make": "Nissan",
+    "model": "Skyline GT-R",
+    "code": "R33",
+    "body": "Coupe",
+    "year": 1996,
+    "query": "Nissan Skyline GT-R R33 1996",
+    "tokens": [
+      "gt-r",
+      "r33",
+      "skyline"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Nissan Skyline GT-R R33 1996",
+    "pick": {
+      "score": 11.0,
+      "reasons": [
+        "tokens:gt-r,r33,skyline",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:1996 Nissan Skyline R33 GT-R V-Spec front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/1996_Nissan_Skyline_R33_GT-R_V-Spec_front.jpg/1920px-1996_Nissan_Skyline_R33_GT-R_V-Spec_front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1996_Nissan_Skyline_R33_GT-R_V-Spec_front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "DestinationFearFan",
+      "width": 3317,
+      "height": 2065
+    },
+    "alternates": [
+      {
+        "score": 10.44,
+        "reasons": [
+          "tokens:gt-r,r33,skyline",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:1995 Nissan Skyline (R33) GT-R front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/1995_Nissan_Skyline_%28R33%29_GT-R_front.jpg/1920px-1995_Nissan_Skyline_%28R33%29_GT-R_front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1995_Nissan_Skyline_(R33)_GT-R_front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "DestinationFearFan",
+        "width": 3353,
+        "height": 2555
+      },
+      {
+        "score": 10.02,
+        "reasons": [
+          "tokens:gt-r,r33,skyline",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:1996 Nissan Skyline GT-R (R33) 2.6 Front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/1996_Nissan_Skyline_GT-R_%28R33%29_2.6_Front.jpg/1920px-1996_Nissan_Skyline_GT-R_%28R33%29_2.6_Front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1996_Nissan_Skyline_GT-R_(R33)_2.6_Front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Vauxford",
+        "width": 4935,
+        "height": 2306
+      },
+      {
+        "score": 8.4,
+        "reasons": [
+          "tokens:gt-r,r33,skyline",
+          "year-match"
+        ],
+        "title": "File:1996 Nissan Skyline R33 GT-R (16586422699).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/1996_Nissan_Skyline_R33_GT-R_%2816586422699%29.jpg/1920px-1996_Nissan_Skyline_R33_GT-R_%2816586422699%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1996_Nissan_Skyline_R33_GT-R_(16586422699).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sicnag",
+        "width": 5184,
+        "height": 3456
+      }
+    ]
+  },
+  {
+    "slug": "nissan-skyline-gt-r-r34",
+    "car": "Nissan Skyline GT-R (R34)",
+    "make": "Nissan",
+    "model": "Skyline GT-R",
+    "code": "R34",
+    "body": "Coupe",
+    "year": 1999,
+    "query": "Nissan Skyline GT-R R34 1999",
+    "tokens": [
+      "gt-r",
+      "r34",
+      "skyline"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Nissan Skyline GT-R R34 1999",
+    "pick": {
+      "score": 11.46,
+      "reasons": [
+        "CC0/PD",
+        "tokens:gt-r,r34,skyline",
+        "good-angle",
+        "year-match"
+      ],
+      "title": "File:Nissan Skyline GT-R V-Spec (R34, 1999) (54871040446).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Nissan_Skyline_GT-R_V-Spec_%28R34%2C_1999%29_%2854871040446%29.jpg/1920px-Nissan_Skyline_GT-R_V-Spec_%28R34%2C_1999%29_%2854871040446%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Nissan_Skyline_GT-R_V-Spec_(R34,_1999)_(54871040446).jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Charles from Port Chester, New York",
+      "width": 5642,
+      "height": 3693
+    },
+    "alternates": [
+      {
+        "score": 11.44,
+        "reasons": [
+          "CC0/PD",
+          "tokens:gt-r,r34,skyline",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:Nissan Skyline GT-R V-Spec (R34, 1999) (54874945918).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Nissan_Skyline_GT-R_V-Spec_%28R34%2C_1999%29_%2854874945918%29.jpg/1920px-Nissan_Skyline_GT-R_V-Spec_%28R34%2C_1999%29_%2854874945918%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nissan_Skyline_GT-R_V-Spec_(R34,_1999)_(54874945918).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Charles from Port Chester, New York",
+        "width": 5812,
+        "height": 3818
+      },
+      {
+        "score": 10.74,
+        "reasons": [
+          "tokens:gt-r,r34,skyline",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:1999 Nissan Skyline R34 GT-R V-Spec front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/1999_Nissan_Skyline_R34_GT-R_V-Spec_front.jpg/1920px-1999_Nissan_Skyline_R34_GT-R_V-Spec_front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1999_Nissan_Skyline_R34_GT-R_V-Spec_front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "DestinationFearFan",
+        "width": 3433,
+        "height": 2359
+      },
+      {
+        "score": 9.58,
+        "reasons": [
+          "tokens:gt-r,r34,skyline",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:Nissan Skyline GT-R (R34, 2001) (52573871425).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Nissan_Skyline_GT-R_%28R34%2C_2001%29_%2852573871425%29.jpg/1920px-Nissan_Skyline_GT-R_%28R34%2C_2001%29_%2852573871425%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nissan_Skyline_GT-R_(R34,_2001)_(52573871425).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 5050,
+        "height": 3175
+      }
+    ]
+  },
+  {
+    "slug": "nissan-stagea-260rs-wgnc34",
+    "car": "Nissan Stagea (260RS (WGNC34))",
+    "make": "Nissan",
+    "model": "Stagea",
+    "code": "260RS",
+    "body": "Wagon",
+    "year": 1998,
+    "query": "Nissan Stagea 260RS 1998",
+    "tokens": [
+      "260rs",
+      "stagea"
+    ],
+    "avoid": [
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "roadster",
+      "spider",
+      "spyder"
+    ],
+    "pin": "Nissan STAGEA 260RS (WC34) front.JPG",
+    "status": "ok",
+    "query_used": "pin:Nissan STAGEA 260RS (WC34) front.JPG",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Nissan STAGEA 260RS (WC34) front.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Nissan_STAGEA_260RS_%28WC34%29_front.JPG/1920px-Nissan_STAGEA_260RS_%28WC34%29_front.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:Nissan_STAGEA_260RS_(WC34)_front.JPG",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Tokumeigakarinoaoshima",
+      "width": 2560,
+      "height": 1920
+    },
+    "alternates": []
+  },
+  {
+    "slug": "nissan-versa-n18",
+    "car": "Nissan Versa (N18)",
+    "make": "Nissan",
+    "model": "Versa",
+    "code": "N18",
+    "body": "Sedan",
+    "year": 2020,
+    "query": "Nissan Versa N18 2020",
+    "tokens": [
+      "n18",
+      "versa"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Nissan Versa N18 2020",
+    "pick": {
+      "score": 8.64,
+      "reasons": [
+        "tokens:versa",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2020 Nissan Versa SR front NYIAS 2019.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/2020_Nissan_Versa_SR_front_NYIAS_2019.jpg/1920px-2020_Nissan_Versa_SR_front_NYIAS_2019.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2020_Nissan_Versa_SR_front_NYIAS_2019.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 5118,
+      "height": 3142
+    },
+    "alternates": [
+      {
+        "score": 8.51,
+        "reasons": [
+          "tokens:versa",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2020 Nissan Versa SV 1.6L, front 2.29.20.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/2020_Nissan_Versa_SV_1.6L%2C_front_2.29.20.jpg/1920px-2020_Nissan_Versa_SV_1.6L%2C_front_2.29.20.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Nissan_Versa_SV_1.6L,_front_2.29.20.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kevauto",
+        "width": 3766,
+        "height": 2241
+      },
+      {
+        "score": 5.81,
+        "reasons": [
+          "tokens:versa",
+          "year-match"
+        ],
+        "title": "File:Nissan Versa 1.6 Sense 2020 (54078790361).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Nissan_Versa_1.6_Sense_2020_%2854078790361%29.jpg/1920px-Nissan_Versa_1.6_Sense_2020_%2854078790361%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nissan_Versa_1.6_Sense_2020_(54078790361).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "RL GNZLZ from Chile",
+        "width": 3726,
+        "height": 2095
+      },
+      {
+        "score": 5.8,
+        "reasons": [
+          "tokens:versa",
+          "year-match"
+        ],
+        "title": "File:Nissan Versa 1.6 Sense 2020 (49235635261).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Nissan_Versa_1.6_Sense_2020_%2849235635261%29.jpg/1920px-Nissan_Versa_1.6_Sense_2020_%2849235635261%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Nissan_Versa_1.6_Sense_2020_(49235635261).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "RL GNZLZ from Chile",
+        "width": 4000,
+        "height": 2220
+      }
+    ]
+  },
+  {
+    "slug": "nissan-xterra-pro-4x-n50",
+    "car": "Nissan Xterra (Pro-4X (N50))",
+    "make": "Nissan",
+    "model": "Xterra",
+    "code": "Pro-4X",
+    "body": "SUV",
+    "year": 2010,
+    "query": "Nissan Xterra Pro-4X 2010",
+    "tokens": [
+      "pro-4x",
+      "xterra"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2008 Nissan Xterra, front left, 01-01-2026.jpg",
+    "status": "ok",
+    "query_used": "pin:2008 Nissan Xterra, front left, 01-01-2026.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2008 Nissan Xterra, front left, 01-01-2026.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2008_Nissan_Xterra%2C_front_left%2C_01-01-2026.jpg/1920px-2008_Nissan_Xterra%2C_front_left%2C_01-01-2026.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2008_Nissan_Xterra,_front_left,_01-01-2026.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "2000chevymontecarlo",
+      "width": 4608,
+      "height": 3456
+    },
+    "alternates": []
+  },
+  {
+    "slug": "nissan-z-rz34",
+    "car": "Nissan Z (RZ34)",
+    "make": "Nissan",
+    "model": "Z",
+    "code": "RZ34",
+    "body": "Coupe",
+    "year": 2023,
+    "query": "Nissan Z RZ34 2023",
+    "tokens": [
+      "rz34"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2023 Nissan Z Performance 6MT in Passion Red TriCoat, Front Left, 05-17-2023.jpg",
+    "status": "ok",
+    "query_used": "pin:2023 Nissan Z Performance 6MT in Passion Red TriCoat, Front Left, 05-17-2023.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2023 Nissan Z Performance 6MT in Passion Red TriCoat, Front Left, 05-17-2023.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/2023_Nissan_Z_Performance_6MT_in_Passion_Red_TriCoat%2C_Front_Left%2C_05-17-2023.jpg/1920px-2023_Nissan_Z_Performance_6MT_in_Passion_Red_TriCoat%2C_Front_Left%2C_05-17-2023.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2023_Nissan_Z_Performance_6MT_in_Passion_Red_TriCoat,_Front_Left,_05-17-2023.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Elise240SX",
+      "width": 3594,
+      "height": 2115
+    },
+    "alternates": []
   },
   {
     "slug": "subaru-wrx-gd-blobeye",

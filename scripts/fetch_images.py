@@ -292,6 +292,17 @@ OVERRIDES = {
     "mitsubishi-lancer-evolution-ix": {"pin": "Mitsubishi LANCER Evolution IX MR GSR (GH-CT9A) front.jpg"},  # was a possible-VIII / mislabel
     "mitsubishi-outlander-gn": {"pin": "2022 Mitsubishi Outlander SEL 2.5 in Alloy Silver, front left.jpg"},  # was the wrong 3rd-gen
     "mitsubishi-starion-esi-r": {"pin": "1989 Mitsubishi Starion 2.6 Turbo EX (front).jpg"},  # was a rear/obstructed shot
+    # N brand (Nissan) — hand-picked after contact-sheet review.
+    "nissan-300zx-z31": {"pin": "1986 Nissan 300ZX Turbo, Front Right, 10-10-2021.jpg"},  # was a soap-marked windshield sale car
+    "nissan-350z-z33": {"pin": "2004 Nissan 350Z 3.5 Front.jpg"},  # was a GT2 race car
+    "nissan-gt-r-r35": {"pin": "2015 Nissan GT-R Premium in Pearl White, Front Left, 06-17-2022 (2).jpg"},  # was a dim, obstructed garage shot
+    "nissan-pulsar-gti-r": {"pin": "Nissan PULSAR GTI-R (E-RNN14) front.jpg"},  # was a Castrol/JECS rally car
+    "nissan-sentra-se-r-spec-v": {"pin": "NissanSentraSE-RSpecV.jpg"},  # was a base 1.8S, wrong trim
+    "nissan-silvia-s15": {"pin": "Nissan Silvia spec-S AERO (GF-S15) front.jpg"},  # was a rear/side view
+    "nissan-skyline-gt-r-r32": {"pin": "1991 Nissan Skyline GT-R R32 front, Bonhams 6.1.19.jpg"},  # was a Trampio/Advan race car
+    "nissan-stagea-260rs-wgnc34": {"pin": "Nissan STAGEA 260RS (WC34) front.JPG"},  # was a dim garage shot
+    "nissan-xterra-pro-4x-n50": {"pin": "2008 Nissan Xterra, front left, 01-01-2026.jpg"},  # was the wrong 1st-gen WD22
+    "nissan-z-rz34": {"pin": "2023 Nissan Z Performance 6MT in Passion Red TriCoat, Front Left, 05-17-2023.jpg"},  # was a dim reflective showroom
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))
