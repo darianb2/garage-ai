@@ -14277,6 +14277,709 @@
     "alternates": []
   },
   {
+    "slug": "genesis-g70-ik",
+    "car": "Genesis G70 (IK)",
+    "make": "Genesis",
+    "model": "G70",
+    "code": "IK",
+    "body": "Sedan",
+    "year": 2019,
+    "query": "Genesis G70 IK 2019",
+    "tokens": [
+      "g70",
+      "ik"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Genesis G70 IK 2019",
+    "pick": {
+      "score": 4.37,
+      "reasons": [
+        "tokens:g70,ik"
+      ],
+      "title": "File:Genesis G70 IK white (1).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Genesis_G70_IK_white_%281%29.jpg/1920px-Genesis_G70_IK_white_%281%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Genesis_G70_IK_white_(1).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Damian B Oh",
+      "width": 4032,
+      "height": 3024
+    },
+    "alternates": [
+      {
+        "score": 4.37,
+        "reasons": [
+          "tokens:g70,ik"
+        ],
+        "title": "File:Genesis G70 IK white (2).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Genesis_G70_IK_white_%282%29.jpg/1920px-Genesis_G70_IK_white_%282%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Genesis_G70_IK_white_(2).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Damian B Oh",
+        "width": 4032,
+        "height": 3024
+      }
+    ]
+  },
+  {
+    "slug": "genesis-g80-rg3",
+    "car": "Genesis G80 (RG3)",
+    "make": "Genesis",
+    "model": "G80",
+    "code": "RG3",
+    "body": "Sedan",
+    "year": 2021,
+    "query": "Genesis G80 RG3 2021",
+    "tokens": [
+      "g80",
+      "rg3"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Genesis G80 RG3 2021",
+    "pick": {
+      "score": 6.62,
+      "reasons": [
+        "tokens:g80,rg3",
+        "year-match"
+      ],
+      "title": "File:Genesis G80 (RG3) IAA 2021 1X7A0161.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Genesis_G80_%28RG3%29_IAA_2021_1X7A0161.jpg/1920px-Genesis_G80_%28RG3%29_IAA_2021_1X7A0161.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Genesis_G80_(RG3)_IAA_2021_1X7A0161.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Alexander Migl",
+      "width": 4780,
+      "height": 2403
+    },
+    "alternates": [
+      {
+        "score": 6.37,
+        "reasons": [
+          "tokens:g80,rg3",
+          "year-match"
+        ],
+        "title": "File:Genesis G80 (RG3) IAA 2021 1X7A0168.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Genesis_G80_%28RG3%29_IAA_2021_1X7A0168.jpg/1920px-Genesis_G80_%28RG3%29_IAA_2021_1X7A0168.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Genesis_G80_(RG3)_IAA_2021_1X7A0168.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alexander Migl",
+        "width": 5904,
+        "height": 2790
+      },
+      {
+        "score": 6.05,
+        "reasons": [
+          "tokens:g80",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:Genesis G80 IAA 2021 1X7A0234.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Genesis_G80_IAA_2021_1X7A0234.jpg/1920px-Genesis_G80_IAA_2021_1X7A0234.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Genesis_G80_IAA_2021_1X7A0234.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alexander Migl",
+        "width": 6281,
+        "height": 2890
+      },
+      {
+        "score": 4.87,
+        "reasons": [
+          "tokens:g80",
+          "year-match"
+        ],
+        "title": "File:Genesis G80 IAA 2021 1X7A0229.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Genesis_G80_IAA_2021_1X7A0229.jpg/1920px-Genesis_G80_IAA_2021_1X7A0229.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Genesis_G80_IAA_2021_1X7A0229.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alexander Migl",
+        "width": 5172,
+        "height": 2281
+      }
+    ]
+  },
+  {
+    "slug": "genesis-g90-2nd-gen",
+    "car": "Genesis G90 (2nd Gen)",
+    "make": "Genesis",
+    "model": "G90",
+    "code": "",
+    "body": "Sedan",
+    "year": 2023,
+    "query": "Genesis G90 2023",
+    "tokens": [
+      "g90"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Genesis G90 2023",
+    "pick": {
+      "score": 6.04,
+      "reasons": [
+        "tokens:g90",
+        "year-match"
+      ],
+      "title": "File:2023 Genesis G90.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/2023_Genesis_G90.jpg/1920px-2023_Genesis_G90.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2023_Genesis_G90.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 3516,
+      "height": 2134
+    },
+    "alternates": [
+      {
+        "score": 3.31,
+        "reasons": [
+          "tokens:g90"
+        ],
+        "title": "File:0 Genesis G90(RS4) 2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/0_Genesis_G90%28RS4%29_2.jpg/1920px-0_Genesis_G90%28RS4%29_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:0_Genesis_G90(RS4)_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Benespit",
+        "width": 2721,
+        "height": 1834
+      },
+      {
+        "score": 3.3,
+        "reasons": [
+          "tokens:g90",
+          "bad-angle",
+          "year-match"
+        ],
+        "title": "File:2021 Genesis G90 5.0 Ultimate AWD, rear left, 07-13-2023-without-shopping-cart-left.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/2021_Genesis_G90_5.0_Ultimate_AWD%2C_rear_left%2C_07-13-2023-without-shopping-cart-left.jpg/1920px-2021_Genesis_G90_5.0_Ultimate_AWD%2C_rear_left%2C_07-13-2023-without-shopping-cart-left.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2021_Genesis_G90_5.0_Ultimate_AWD,_rear_left,_07-13-2023-without-shopping-cart-left.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MercurySable99",
+        "width": 4689,
+        "height": 2604
+      },
+      {
+        "score": 3.24,
+        "reasons": [
+          "tokens:g90"
+        ],
+        "title": "File:GENESIS G90 (RS4) China (4).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/GENESIS_G90_%28RS4%29_China_%284%29.jpg/1920px-GENESIS_G90_%28RS4%29_China_%284%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:GENESIS_G90_(RS4)_China_(4).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Dinkun Chen",
+        "width": 6085,
+        "height": 4439
+      }
+    ]
+  },
+  {
+    "slug": "genesis-gv70-jk",
+    "car": "Genesis GV70 (JK)",
+    "make": "Genesis",
+    "model": "GV70",
+    "code": "JK",
+    "body": "SUV",
+    "year": 2022,
+    "query": "Genesis GV70 JK 2022",
+    "tokens": [
+      "gv70",
+      "jk"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2022 Genesis GV70 AWD, front 12.15.21.jpg",
+    "status": "ok",
+    "query_used": "pin:2022 Genesis GV70 AWD, front 12.15.21.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2022 Genesis GV70 AWD, front 12.15.21.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2022_Genesis_GV70_AWD%2C_front_12.15.21.jpg/1920px-2022_Genesis_GV70_AWD%2C_front_12.15.21.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2022_Genesis_GV70_AWD,_front_12.15.21.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 2996,
+      "height": 1816
+    },
+    "alternates": []
+  },
+  {
+    "slug": "genesis-gv80-jx1",
+    "car": "Genesis GV80 (JX1)",
+    "make": "Genesis",
+    "model": "GV80",
+    "code": "JX1",
+    "body": "SUV",
+    "year": 2021,
+    "query": "Genesis GV80 JX1 2021",
+    "tokens": [
+      "gv80",
+      "jx1"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2021 Genesis GV80 3.5T Advanced, front left, 09-09-2023.jpg",
+    "status": "ok",
+    "query_used": "pin:2021 Genesis GV80 3.5T Advanced, front left, 09-09-2023.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2021 Genesis GV80 3.5T Advanced, front left, 09-09-2023.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/2021_Genesis_GV80_3.5T_Advanced%2C_front_left%2C_09-09-2023.jpg/1920px-2021_Genesis_GV80_3.5T_Advanced%2C_front_left%2C_09-09-2023.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2021_Genesis_GV80_3.5T_Advanced,_front_left,_09-09-2023.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MercurySable99",
+      "width": 4709,
+      "height": 2971
+    },
+    "alternates": []
+  },
+  {
+    "slug": "gmc-acadia-2nd-gen",
+    "car": "GMC Acadia (2nd Gen)",
+    "make": "GMC",
+    "model": "Acadia",
+    "code": "",
+    "body": "SUV",
+    "year": 2017,
+    "query": "GMC Acadia 2017",
+    "tokens": [
+      "acadia"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "GMC Acadia 2017",
+    "pick": {
+      "score": 8.67,
+      "reasons": [
+        "tokens:acadia",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2017 GMC Acadia Limited SLT in Summit White, front right.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/2017_GMC_Acadia_Limited_SLT_in_Summit_White%2C_front_right.jpg/1920px-2017_GMC_Acadia_Limited_SLT_in_Summit_White%2C_front_right.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2017_GMC_Acadia_Limited_SLT_in_Summit_White,_front_right.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5049,
+      "height": 3188
+    },
+    "alternates": [
+      {
+        "score": 8.25,
+        "reasons": [
+          "tokens:acadia",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2017 GMC Acadia Limited, front 9.30.19.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/2017_GMC_Acadia_Limited%2C_front_9.30.19.jpg/1920px-2017_GMC_Acadia_Limited%2C_front_9.30.19.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2017_GMC_Acadia_Limited,_front_9.30.19.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kevauto",
+        "width": 5031,
+        "height": 2759
+      },
+      {
+        "score": 8.14,
+        "reasons": [
+          "tokens:acadia",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2017 GMC Acadia SLE-2 AWD, front left, 12-08-2022.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/2017_GMC_Acadia_SLE-2_AWD%2C_front_left%2C_12-08-2022.jpg/1920px-2017_GMC_Acadia_SLE-2_AWD%2C_front_left%2C_12-08-2022.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2017_GMC_Acadia_SLE-2_AWD,_front_left,_12-08-2022.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MercurySable99",
+        "width": 4630,
+        "height": 2463
+      },
+      {
+        "score": 8.0,
+        "reasons": [
+          "CC0/PD",
+          "tokens:acadia",
+          "year-match"
+        ],
+        "title": "File:2017 GMC Acadia.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/2017_GMC_Acadia.jpg/1920px-2017_GMC_Acadia.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2017_GMC_Acadia.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 3081,
+        "height": 1874
+      }
+    ]
+  },
+  {
+    "slug": "gmc-canyon-at4x-3rd-gen",
+    "car": "GMC Canyon (AT4X (3rd Gen))",
+    "make": "GMC",
+    "model": "Canyon",
+    "code": "AT4X",
+    "body": "Truck",
+    "year": 2023,
+    "query": "GMC Canyon AT4X 2023",
+    "tokens": [
+      "at4x",
+      "canyon"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "GMC Canyon AT4X 2023",
+    "pick": {
+      "score": 6.37,
+      "reasons": [
+        "CC0/PD",
+        "tokens:at4x,canyon"
+      ],
+      "title": "File:23 GMC Canyon AT4X.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/23_GMC_Canyon_AT4X.jpg/1920px-23_GMC_Canyon_AT4X.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:23_GMC_Canyon_AT4X.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "HJUdall",
+      "width": 4128,
+      "height": 3096
+    },
+    "alternates": []
+  },
+  {
+    "slug": "gmc-hummer-ev-pickup",
+    "car": "GMC Hummer EV (Pickup)",
+    "make": "GMC",
+    "model": "Hummer EV",
+    "code": "Pickup",
+    "body": "Truck",
+    "year": 2022,
+    "query": "GMC Hummer EV Pickup 2022",
+    "tokens": [
+      "ev",
+      "hummer",
+      "pickup"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "GMC Hummer EV Pickup 2022",
+    "pick": {
+      "score": 10.71,
+      "reasons": [
+        "tokens:ev,hummer,pickup",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2022 GMC Hummer EV pickup front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/2022_GMC_Hummer_EV_pickup_front.jpg/1920px-2022_GMC_Hummer_EV_pickup_front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2022_GMC_Hummer_EV_pickup_front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "DestinationFearFan",
+      "width": 3538,
+      "height": 2464
+    },
+    "alternates": [
+      {
+        "score": 7.04,
+        "reasons": [
+          "tokens:ev,hummer",
+          "year-match"
+        ],
+        "title": "File:2022 GMC Hummer EV Truck (Black).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/2022_GMC_Hummer_EV_Truck_%28Black%29.jpg/1920px-2022_GMC_Hummer_EV_Truck_%28Black%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2022_GMC_Hummer_EV_Truck_(Black).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "42-BRT",
+        "width": 4196,
+        "height": 2360
+      },
+      {
+        "score": 6.73,
+        "reasons": [
+          "tokens:ev,hummer",
+          "year-match"
+        ],
+        "title": "File:2022 GMC Hummer EV Truck (Black) (cropped).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/2022_GMC_Hummer_EV_Truck_%28Black%29_%28cropped%29.jpg/1920px-2022_GMC_Hummer_EV_Truck_%28Black%29_%28cropped%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2022_GMC_Hummer_EV_Truck_(Black)_(cropped).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "42-BRT",
+        "width": 3204,
+        "height": 1698
+      },
+      {
+        "score": 5.82,
+        "reasons": [
+          "tokens:ev,hummer,pickup",
+          "bad-angle",
+          "year-match"
+        ],
+        "title": "File:2022 GMC Hummer EV pickup rear.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/2022_GMC_Hummer_EV_pickup_rear.jpg/1920px-2022_GMC_Hummer_EV_pickup_rear.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2022_GMC_Hummer_EV_pickup_rear.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "DestinationFearFan",
+        "width": 3881,
+        "height": 2644
+      }
+    ]
+  },
+  {
+    "slug": "gmc-syclone-gmt400",
+    "car": "GMC Syclone (GMT400)",
+    "make": "GMC",
+    "model": "Syclone",
+    "code": "GMT400",
+    "body": "Truck",
+    "year": 1991,
+    "query": "GMC Syclone GMT400 1991",
+    "tokens": [
+      "gmt400",
+      "syclone"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1991 GMC Syclone in Black, front right (Saratoga).jpg",
+    "status": "ok",
+    "query_used": "pin:1991 GMC Syclone in Black, front right (Saratoga).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1991 GMC Syclone in Black, front right (Saratoga).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/1991_GMC_Syclone_in_Black%2C_front_right_%28Saratoga%29.jpg/1920px-1991_GMC_Syclone_in_Black%2C_front_right_%28Saratoga%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1991_GMC_Syclone_in_Black,_front_right_(Saratoga).jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5342,
+      "height": 3253
+    },
+    "alternates": []
+  },
+  {
+    "slug": "gmc-terrain-2nd-gen",
+    "car": "GMC Terrain (2nd Gen)",
+    "make": "GMC",
+    "model": "Terrain",
+    "code": "",
+    "body": "SUV",
+    "year": 2018,
+    "query": "GMC Terrain 2018",
+    "tokens": [
+      "terrain"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "GMC Terrain 2018",
+    "pick": {
+      "score": 8.53,
+      "reasons": [
+        "tokens:terrain",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2017 GMC Terrain SLE front 3.25.18.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/2017_GMC_Terrain_SLE_front_3.25.18.jpg/1920px-2017_GMC_Terrain_SLE_front_3.25.18.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2017_GMC_Terrain_SLE_front_3.25.18.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 4749,
+      "height": 2816
+    },
+    "alternates": [
+      {
+        "score": 8.32,
+        "reasons": [
+          "tokens:terrain",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2018 GMC Terrain Denali, front right.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/2018_GMC_Terrain_Denali%2C_front_right.jpg/1920px-2018_GMC_Terrain_Denali%2C_front_right.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_GMC_Terrain_Denali,_front_right.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Mr.choppers",
+        "width": 4808,
+        "height": 3404
+      },
+      {
+        "score": 8.16,
+        "reasons": [
+          "tokens:terrain",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2018 GMC Terrain SLT front 3.17.18.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/2018_GMC_Terrain_SLT_front_3.17.18.jpg/1920px-2018_GMC_Terrain_SLT_front_3.17.18.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_GMC_Terrain_SLT_front_3.17.18.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kevauto",
+        "width": 4616,
+        "height": 2470
+      },
+      {
+        "score": 7.34,
+        "reasons": [
+          "CC0/PD",
+          "tokens:terrain",
+          "year-match"
+        ],
+        "title": "File:2018 GMC Terrain.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f9/2018_GMC_Terrain.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_GMC_Terrain.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 1752,
+        "height": 1337
+      }
+    ]
+  },
+  {
     "slug": "honda-civic-si-10th-gen-fc1",
     "car": "Honda Civic Si (10th Gen FC1)",
     "body": "Sedan",

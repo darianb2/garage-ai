@@ -208,6 +208,10 @@ OVERRIDES = {
     "ford-mustang-mach-e-gt": {"pin": "2023 Ford Mustang Mach-E GT in Rapid Red 01.jpg"},
     "ford-mustang-shelby-gt350": {"pin": "2020 Ford Mustang Shelby GT350, front three-quarter view, A Paris Street Market at Aspen Grove car show 2026-05-02.jpg"},
     "ford-taurus-sho-gen-1": {"pin": "Ford Taurus SHO (second-gen).jpg"},
+    # G brands (hand-picked after contact-sheet review)
+    "genesis-gv70-jk": {"pin": "2022 Genesis GV70 AWD, front 12.15.21.jpg"},
+    "genesis-gv80-jx1": {"pin": "2021 Genesis GV80 3.5T Advanced, front left, 09-09-2023.jpg"},
+    "gmc-syclone-gmt400": {"pin": "1991 GMC Syclone in Black, front right (Saratoga).jpg"},
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))
