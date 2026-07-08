@@ -3807,6 +3807,24 @@
     "attributionRequired": true
   },
   {
+    "car": "Oldsmobile 442 (W-30)",
+    "title": "1970 Oldsmobile 442 W30.jpg",
+    "author": "Sicnag",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1970_Oldsmobile_442_W30.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Opel Manta (GT/E)",
+    "title": "1984 Opel Manta B GT-E (16870964736).jpg",
+    "author": "Niels de Wit from Lunteren, The Netherlands",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1984_Opel_Manta_B_GT-E_(16870964736).jpg",
+    "attributionRequired": true
+  },
+  {
     "car": "Pagani Zonda (C12 F)",
     "title": "Pagani Zonda F.jpg",
     "author": "MrWalkr",
@@ -4164,6 +4182,69 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
     "source": "https://commons.wikimedia.org/wiki/File:2020_Porsche_Taycan_Turbo_1.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ram 1500 (DT TRX)",
+    "title": "23 Ram 1500 TRX (1).jpg",
+    "author": "HJUdall",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:23_Ram_1500_TRX_(1).jpg",
+    "attributionRequired": false
+  },
+  {
+    "car": "Renault 5 (Turbo)",
+    "title": "1984 Renault 5 Turbo 2.jpg",
+    "author": "Calreyn88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1984_Renault_5_Turbo_2.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Renault Clio (RS 182)",
+    "title": "2005 Renault Clio RS 182.jpg",
+    "author": "Calreyn88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2005_Renault_Clio_RS_182.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Renault Clio Williams (Phase 1)",
+    "title": "1994 Renault Clio William Front.jpg",
+    "author": "Vauxford",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1994_Renault_Clio_William_Front.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Renault Megane RS (Mk4)",
+    "title": "Renault Megane 4 R.S. (1) - Vienna Autoshow 2018.jpg",
+    "author": "Dispvas2018",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Renault_Megane_4_R.S._(1)_-_Vienna_Autoshow_2018.jpg",
+    "attributionRequired": false
+  },
+  {
+    "car": "Rivian R1S (Launch Edition)",
+    "title": "Rivian R1S (2023) (53487730448).jpg",
+    "author": "Charles from Port Chester, New York",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Rivian_R1S_(2023)_(53487730448).jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Rivian R1T (Launch Edition)",
+    "title": "2022 Rivian R1T Adventure in Forest Green, front left.jpg",
+    "author": "Mr.choppers",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Rivian_R1T_Adventure_in_Forest_Green,_front_left.jpg",
     "attributionRequired": true
   },
   {

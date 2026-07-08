@@ -30157,6 +30157,92 @@
     "alternates": []
   },
   {
+    "slug": "oldsmobile-442-w-30",
+    "car": "Oldsmobile 442 (W-30)",
+    "make": "Oldsmobile",
+    "model": "442",
+    "code": "W-30",
+    "body": "Coupe",
+    "year": 1970,
+    "query": "Oldsmobile 442 W-30 1970",
+    "tokens": [
+      "442",
+      "w-30"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1970 Oldsmobile 442 W30.jpg",
+    "status": "ok",
+    "query_used": "pin:1970 Oldsmobile 442 W30.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1970 Oldsmobile 442 W30.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/1970_Oldsmobile_442_W30.jpg/1920px-1970_Oldsmobile_442_W30.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1970_Oldsmobile_442_W30.jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Sicnag",
+      "width": 4320,
+      "height": 3240
+    },
+    "alternates": []
+  },
+  {
+    "slug": "opel-manta-gt-e",
+    "car": "Opel Manta (GT/E)",
+    "make": "Opel",
+    "model": "Manta",
+    "code": "GT",
+    "body": "Coupe",
+    "year": 1978,
+    "query": "Opel Manta GT 1978",
+    "tokens": [
+      "gt",
+      "manta"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1984 Opel Manta B GT-E (16870964736).jpg",
+    "status": "ok",
+    "query_used": "pin:1984 Opel Manta B GT-E (16870964736).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1984 Opel Manta B GT-E (16870964736).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/1984_Opel_Manta_B_GT-E_%2816870964736%29.jpg/1920px-1984_Opel_Manta_B_GT-E_%2816870964736%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1984_Opel_Manta_B_GT-E_(16870964736).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Niels de Wit from Lunteren, The Netherlands",
+      "width": 2888,
+      "height": 1924
+    },
+    "alternates": []
+  },
+  {
     "slug": "pagani-zonda-c12-f",
     "car": "Pagani Zonda (C12 F)",
     "make": "Pagani",
@@ -33185,6 +33271,505 @@
         "height": 2371
       }
     ]
+  },
+  {
+    "slug": "ram-1500-dt-trx",
+    "car": "Ram 1500 (DT TRX)",
+    "make": "Ram",
+    "model": "1500",
+    "code": "DT",
+    "body": "Truck",
+    "year": 2021,
+    "query": "Ram 1500 DT 2021",
+    "tokens": [
+      "1500",
+      "dt"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "23 Ram 1500 TRX (1).jpg",
+    "status": "ok",
+    "query_used": "pin:23 Ram 1500 TRX (1).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:23 Ram 1500 TRX (1).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/23_Ram_1500_TRX_%281%29.jpg/1920px-23_Ram_1500_TRX_%281%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:23_Ram_1500_TRX_(1).jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "HJUdall",
+      "width": 4128,
+      "height": 3096
+    },
+    "alternates": []
+  },
+  {
+    "slug": "renault-5-turbo",
+    "car": "Renault 5 (Turbo)",
+    "make": "Renault",
+    "model": "5",
+    "code": "Turbo",
+    "body": "Hatch",
+    "year": 1982,
+    "query": "Renault 5 Turbo 1982",
+    "tokens": [
+      "turbo"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1984 Renault 5 Turbo 2.jpg",
+    "status": "ok",
+    "query_used": "pin:1984 Renault 5 Turbo 2.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1984 Renault 5 Turbo 2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/1984_Renault_5_Turbo_2.jpg/1920px-1984_Renault_5_Turbo_2.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1984_Renault_5_Turbo_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 14336,
+      "height": 9016
+    },
+    "alternates": []
+  },
+  {
+    "slug": "renault-clio-rs-182",
+    "car": "Renault Clio (RS 182)",
+    "make": "Renault",
+    "model": "Clio",
+    "code": "182",
+    "body": "Hatch",
+    "year": 2005,
+    "query": "Renault Clio 182 2005",
+    "tokens": [
+      "182",
+      "clio"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Renault Clio 182 2005",
+    "pick": {
+      "score": 7.2,
+      "reasons": [
+        "tokens:182,clio",
+        "year-match"
+      ],
+      "title": "File:2005 Renault Clio RS 182.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/2005_Renault_Clio_RS_182.jpg/1920px-2005_Renault_Clio_RS_182.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2005_Renault_Clio_RS_182.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 3012,
+      "height": 1930
+    },
+    "alternates": [
+      {
+        "score": 7.13,
+        "reasons": [
+          "tokens:182,clio",
+          "year-match"
+        ],
+        "title": "File:2005 Renault Clio RS 182 Trophy.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/2005_Renault_Clio_RS_182_Trophy.jpg/1920px-2005_Renault_Clio_RS_182_Trophy.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2005_Renault_Clio_RS_182_Trophy.jpg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "Calreyn88",
+        "width": 3602,
+        "height": 2418
+      },
+      {
+        "score": 6.86,
+        "reasons": [
+          "tokens:182,clio",
+          "year-match"
+        ],
+        "title": "File:2005 Renault Clio RS Trophy 182.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/2005_Renault_Clio_RS_Trophy_182.jpg/1920px-2005_Renault_Clio_RS_Trophy_182.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2005_Renault_Clio_RS_Trophy_182.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 3144,
+        "height": 2274
+      },
+      {
+        "score": 6.69,
+        "reasons": [
+          "CC0/PD",
+          "tokens:182,clio",
+          "bad-angle",
+          "year-match"
+        ],
+        "title": "File:2005 Renault Sport Clio (X65 Phase 3) 182 Cup 3-door hatchback (2015-06-18) 01.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/2005_Renault_Sport_Clio_%28X65_Phase_3%29_182_Cup_3-door_hatchback_%282015-06-18%29_01.jpg/1920px-2005_Renault_Sport_Clio_%28X65_Phase_3%29_182_Cup_3-door_hatchback_%282015-06-18%29_01.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2005_Renault_Sport_Clio_(X65_Phase_3)_182_Cup_3-door_hatchback_(2015-06-18)_01.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "OSX",
+        "width": 4272,
+        "height": 2856
+      }
+    ]
+  },
+  {
+    "slug": "renault-clio-williams-phase-1",
+    "car": "Renault Clio Williams (Phase 1)",
+    "make": "Renault",
+    "model": "Clio Williams",
+    "code": "1",
+    "body": "Hatch",
+    "year": 1994,
+    "query": "Renault Clio Williams 1 1994",
+    "tokens": [
+      "1",
+      "clio",
+      "williams"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Renault Clio Williams 1 1994",
+    "pick": {
+      "score": 9.62,
+      "reasons": [
+        "tokens:1,clio",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:1994 Renault Clio William Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/1994_Renault_Clio_William_Front.jpg/1920px-1994_Renault_Clio_William_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1994_Renault_Clio_William_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 4882,
+      "height": 2809
+    },
+    "alternates": [
+      {
+        "score": 9.13,
+        "reasons": [
+          "tokens:1,clio,williams",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:1994 Renault Clio 16V Williams (14345194184).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/1994_Renault_Clio_16V_Williams_%2814345194184%29.jpg/1920px-1994_Renault_Clio_16V_Williams_%2814345194184%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1994_Renault_Clio_16V_Williams_(14345194184).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Kieran White from Manchester, England",
+        "width": 3072,
+        "height": 1728
+      },
+      {
+        "score": 8.24,
+        "reasons": [
+          "tokens:1,clio,williams",
+          "year-match"
+        ],
+        "title": "File:1994 Renault Clio Williams (48281853952).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/1994_Renault_Clio_Williams_%2848281853952%29.jpg/1920px-1994_Renault_Clio_Williams_%2848281853952%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1994_Renault_Clio_Williams_(48281853952).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Kieran White from Manchester, England",
+        "width": 5312,
+        "height": 2988
+      },
+      {
+        "score": 8.13,
+        "reasons": [
+          "tokens:1,clio,williams",
+          "year-match"
+        ],
+        "title": "File:1994 Renault Clio 16V Williams (46241769402).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/1994_Renault_Clio_16V_Williams_%2846241769402%29.jpg/1920px-1994_Renault_Clio_16V_Williams_%2846241769402%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1994_Renault_Clio_16V_Williams_(46241769402).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Kieran White from Manchester, England",
+        "width": 3072,
+        "height": 1728
+      }
+    ]
+  },
+  {
+    "slug": "renault-megane-rs-mk4",
+    "car": "Renault Megane RS (Mk4)",
+    "make": "Renault",
+    "model": "Megane RS",
+    "code": "Mk4",
+    "body": "Hatch",
+    "year": 2018,
+    "query": "Renault Megane RS Mk4 2018",
+    "tokens": [
+      "megane",
+      "mk4",
+      "rs"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Renault Megane RS 2018",
+    "pick": {
+      "score": 7.67,
+      "reasons": [
+        "CC0/PD",
+        "tokens:megane",
+        "year-match"
+      ],
+      "title": "File:Renault Megane 4 R.S. (1) - Vienna Autoshow 2018.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Renault_Megane_4_R.S._%281%29_-_Vienna_Autoshow_2018.jpg/1920px-Renault_Megane_4_R.S._%281%29_-_Vienna_Autoshow_2018.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Renault_Megane_4_R.S._(1)_-_Vienna_Autoshow_2018.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Dispvas2018",
+      "width": 4608,
+      "height": 3456
+    },
+    "alternates": [
+      {
+        "score": 7.67,
+        "reasons": [
+          "CC0/PD",
+          "tokens:megane",
+          "year-match"
+        ],
+        "title": "File:Renault Megane 4 R.S. (3) - Vienna Autoshow 2018.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Renault_Megane_4_R.S._%283%29_-_Vienna_Autoshow_2018.jpg/1920px-Renault_Megane_4_R.S._%283%29_-_Vienna_Autoshow_2018.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Renault_Megane_4_R.S._(3)_-_Vienna_Autoshow_2018.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Dispvas2018",
+        "width": 4608,
+        "height": 3456
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:megane,rs",
+          "year-match"
+        ],
+        "title": "File:Renault Megane RS Monrepos 2018 IMG 0058.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Renault_Megane_RS_Monrepos_2018_IMG_0058.jpg/1920px-Renault_Megane_RS_Monrepos_2018_IMG_0058.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Renault_Megane_RS_Monrepos_2018_IMG_0058.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alexander Migl",
+        "width": 5127,
+        "height": 3417
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:megane,rs",
+          "year-match"
+        ],
+        "title": "File:Renault Megane RS Monrepos 2018 IMG 0117.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Renault_Megane_RS_Monrepos_2018_IMG_0117.jpg/1920px-Renault_Megane_RS_Monrepos_2018_IMG_0117.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Renault_Megane_RS_Monrepos_2018_IMG_0117.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alexander Migl",
+        "width": 4264,
+        "height": 2843
+      }
+    ]
+  },
+  {
+    "slug": "rivian-r1s-launch-edition",
+    "car": "Rivian R1S (Launch Edition)",
+    "make": "Rivian",
+    "model": "R1S",
+    "code": "Launch",
+    "body": "SUV",
+    "year": 2022,
+    "query": "Rivian R1S Launch 2022",
+    "tokens": [
+      "launch",
+      "r1s"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Rivian R1S 2022",
+    "pick": {
+      "score": 7.0,
+      "reasons": [
+        "tokens:r1s",
+        "good-angle",
+        "year-match"
+      ],
+      "title": "File:Rivian R1S (2023) (53487730448).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Rivian_R1S_%282023%29_%2853487730448%29.jpg/1920px-Rivian_R1S_%282023%29_%2853487730448%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Rivian_R1S_(2023)_(53487730448).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Charles from Port Chester, New York",
+      "width": 6000,
+      "height": 4000
+    },
+    "alternates": [
+      {
+        "score": 3.16,
+        "reasons": [
+          "tokens:r1s"
+        ],
+        "title": "File:Rivian R1S, Howard Ave, Burlingame.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Rivian_R1S%2C_Howard_Ave%2C_Burlingame.jpg/1920px-Rivian_R1S%2C_Howard_Ave%2C_Burlingame.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Rivian_R1S,_Howard_Ave,_Burlingame.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Mliu92",
+        "width": 4080,
+        "height": 3072
+      },
+      {
+        "score": 3.16,
+        "reasons": [
+          "tokens:r1s"
+        ],
+        "title": "File:Rivian R1S, Howard Ave, Burlingame 2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Rivian_R1S%2C_Howard_Ave%2C_Burlingame_2.jpg/1920px-Rivian_R1S%2C_Howard_Ave%2C_Burlingame_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Rivian_R1S,_Howard_Ave,_Burlingame_2.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Mliu92",
+        "width": 4080,
+        "height": 3072
+      },
+      {
+        "score": 3.16,
+        "reasons": [
+          "tokens:r1s"
+        ],
+        "title": "File:Rivian R1S, Howard Ave, Burlingame 3.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Rivian_R1S%2C_Howard_Ave%2C_Burlingame_3.jpg/1920px-Rivian_R1S%2C_Howard_Ave%2C_Burlingame_3.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Rivian_R1S,_Howard_Ave,_Burlingame_3.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Mliu92",
+        "width": 4080,
+        "height": 3072
+      }
+    ]
+  },
+  {
+    "slug": "rivian-r1t-launch-edition",
+    "car": "Rivian R1T (Launch Edition)",
+    "make": "Rivian",
+    "model": "R1T",
+    "code": "Launch",
+    "body": "Truck",
+    "year": 2022,
+    "query": "Rivian R1T Launch 2022",
+    "tokens": [
+      "launch",
+      "r1t"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2022 Rivian R1T Adventure in Forest Green, front left.jpg",
+    "status": "ok",
+    "query_used": "pin:2022 Rivian R1T Adventure in Forest Green, front left.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2022 Rivian R1T Adventure in Forest Green, front left.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/2022_Rivian_R1T_Adventure_in_Forest_Green%2C_front_left.jpg/1920px-2022_Rivian_R1T_Adventure_in_Forest_Green%2C_front_left.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2022_Rivian_R1T_Adventure_in_Forest_Green,_front_left.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5472,
+      "height": 3648
+    },
+    "alternates": []
   },
   {
     "slug": "subaru-wrx-gd-blobeye",

@@ -316,6 +316,12 @@ OVERRIDES = {
     "porsche-cayenne-turbo-gt-9ya": {"pin": "2022 Porsche Cayenne Turbo GT Auto 3.jpg"},  # was a rear 3/4 view
     "porsche-cayman-gt4-982": {"pin": "2019 718 GT4 in Grey at FOS21.jpg"},  # was a GT4 RS Clubsport race car
     "porsche-cayman-gt4-rs-982": {"pin": "2022 Porsche 718 Cayman GT4 RS (39251).jpg"},  # was a GT4 RS Clubsport race car
+    # O/R brands (Oldsmobile, Opel, Ram, Renault, Rivian) — hand-picked after contact-sheet review.
+    "oldsmobile-442-w-30": {"pin": "1970 Oldsmobile 442 W30.jpg"},  # was a 1971 base 442, not the 1970 W-30
+    "opel-manta-gt-e": {"pin": "1984 Opel Manta B GT-E (16870964736).jpg"},  # was a Vauxhall Cavalier (wrong car)
+    "ram-1500-dt-trx": {"pin": "23 Ram 1500 TRX (1).jpg"},  # was a base Crew Cab with a bull bar, not the TRX widebody
+    "renault-5-turbo": {"pin": "1984 Renault 5 Turbo 2.jpg"},  # was the FWD Gordini/Alpine Turbo, not the mid-engine widebody
+    "rivian-r1t-launch-edition": {"pin": "2022 Rivian R1T Adventure in Forest Green, front left.jpg"},  # was a rear-left view
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))
