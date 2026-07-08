@@ -303,6 +303,19 @@ OVERRIDES = {
     "nissan-stagea-260rs-wgnc34": {"pin": "Nissan STAGEA 260RS (WC34) front.JPG"},  # was a dim garage shot
     "nissan-xterra-pro-4x-n50": {"pin": "2008 Nissan Xterra, front left, 01-01-2026.jpg"},  # was the wrong 1st-gen WD22
     "nissan-z-rz34": {"pin": "2023 Nissan Z Performance 6MT in Passion Red TriCoat, Front Left, 05-17-2023.jpg"},  # was a dim reflective showroom
+    # P brand (Pagani, Plymouth, Porsche) — hand-picked after contact-sheet review.
+    "pagani-zonda-c12-f": {"pin": "Pagani Zonda F.jpg"},  # was a doors-up motorshow display car
+    "plymouth-barracuda-cuda": {"pin": "1970 Plymouth AAR Cuda 340 (31456408978).jpg"},  # was a rear 3/4 view
+    "porsche-911-992-carrera": {"pin": "Porsche 992 Carrera S coupe IMG 5832.jpg"},  # was a Turbo S, wrong trim
+    "porsche-911-997-carrera": {"pin": "2011 Porsche 911 Carrera S coupe, front right, 06-07-2025.jpg"},  # was a GT3 RS, rear view
+    "porsche-911-turbo-930": {"pin": "1988 Porsche 911 930 Turbo.jpg"},  # was a Flatnose/slantnose, atypical
+    "porsche-911-gt3-rs-991-2": {"pin": "2019 Porsche 911 991 GT3 RS 10.jpg"},  # was indoor, behind velvet ropes
+    "porsche-918-spyder-918": {"pin": "2015 Porsche 918 Spyder, front left, 06-08-2024.jpg"},  # auto-search found no free candidate
+    "porsche-924-924-turbo": {"pin": "1982 Porsche 924 Turbo.jpg"},  # was a 924 Carrera GT (rare homologation), not std Turbo
+    "porsche-944-944-turbo": {"pin": "1986 Porsche 944 Turbo.jpg"},  # was a 944 S2, wrong trim
+    "porsche-cayenne-turbo-gt-9ya": {"pin": "2022 Porsche Cayenne Turbo GT Auto 3.jpg"},  # was a rear 3/4 view
+    "porsche-cayman-gt4-982": {"pin": "2019 718 GT4 in Grey at FOS21.jpg"},  # was a GT4 RS Clubsport race car
+    "porsche-cayman-gt4-rs-982": {"pin": "2022 Porsche 718 Cayman GT4 RS (39251).jpg"},  # was a GT4 RS Clubsport race car
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))
