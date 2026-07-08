@@ -239,6 +239,18 @@ OVERRIDES = {
     "hyundai-tiburon-gk": {"pin": "2008 Hyundai Tiburon, front 8.25.19.jpg"},
     "hyundai-tucson-4th-gen-nx4": {"pin": "2022 Hyundai Tucson SEL, front 5.2.22.jpg"},
     "hyundai-veloster-n-js": {"pin": "2022 Hyundai Veloster N in Performance Blue, Front Right, 05-22-2022.jpg"},
+    # I/J brands (hand-picked after contact-sheet review). The auto-search kept
+    # defaulting coupes to sedans (no "sedan" opposite in gen_avoid) and top trims
+    # to base trims, so these pin the correct body/trim.
+    "infiniti-g35-v35": {"pin": "2006-Infiniti-G35-coupe.jpg"},              # was a sedan
+    "infiniti-g37-v36": {"pin": "Infiniti G37 Coupé (CV36) front.JPG"},      # was a sedan
+    "infiniti-q50-red-sport-400-v37": {"pin": "Infiniti Q50S - Mondial de l'Automobile de Paris 2016 - 001.jpg"},  # was a rear/modified shot
+    "jaguar-f-type-r": {"pin": "Jaguar F-Type R Coupé (2016) (54000152815).jpg"},  # was a rear-view F-Type S
+    "jeep-gladiator-jt-mojave": {"pin": "2022 Jeep Gladiator Mojave in Sting-Grey, Front Right, 03-06-2022.jpg"},  # was a Sport
+    "jeep-grand-cherokee-wk2-trackhawk": {"pin": "Jeep Grand Cherokee Trackhawk Genf 2018.jpg"},  # was a Laredo
+    "jeep-grand-wagoneer-ws": {"pin": "2022 Jeep Grand Wagoneer Series III in Bright White and Black, front left.jpg"},  # decluttered
+    "jeep-wrangler-jl": {"pin": "2018 Jeep Wrangler Unlimited Sport 4-door front 6.10.18.jpg"},  # Sport, to differ from 392
+    "jeep-wrangler-jl-rubicon-392": {"pin": "23 Jeep Wrangler Unlimited Rubicon 392.jpg"},  # was a Sahara
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))

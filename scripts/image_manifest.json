@@ -19355,6 +19355,1252 @@
     ]
   },
   {
+    "slug": "infiniti-g35-v35",
+    "car": "Infiniti G35 (V35)",
+    "make": "Infiniti",
+    "model": "G35",
+    "code": "V35",
+    "body": "Coupe",
+    "year": 2005,
+    "query": "Infiniti G35 V35 2005",
+    "tokens": [
+      "g35",
+      "v35"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2006-Infiniti-G35-coupe.jpg",
+    "status": "ok",
+    "query_used": "pin:2006-Infiniti-G35-coupe.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2006-Infiniti-G35-coupe.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/2006-Infiniti-G35-coupe.jpg/1920px-2006-Infiniti-G35-coupe.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2006-Infiniti-G35-coupe.jpg",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "IFCAR",
+      "width": 2248,
+      "height": 1350
+    },
+    "alternates": []
+  },
+  {
+    "slug": "infiniti-g37-v36",
+    "car": "Infiniti G37 (V36)",
+    "make": "Infiniti",
+    "model": "G37",
+    "code": "V36",
+    "body": "Coupe",
+    "year": 2010,
+    "query": "Infiniti G37 V36 2010",
+    "tokens": [
+      "g37",
+      "v36"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Infiniti G37 Coup\u00e9 (CV36) front.JPG",
+    "status": "ok",
+    "query_used": "pin:Infiniti G37 Coup\u00e9 (CV36) front.JPG",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Infiniti G37 Coup\u00e9 (CV36) front.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Infiniti_G37_Coup%C3%A9_%28CV36%29_front.JPG/1920px-Infiniti_G37_Coup%C3%A9_%28CV36%29_front.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:Infiniti_G37_Coup%C3%A9_(CV36)_front.JPG",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Tokumeigakarinoaoshima",
+      "width": 2414,
+      "height": 1708
+    },
+    "alternates": []
+  },
+  {
+    "slug": "infiniti-q50-3-0t-v37",
+    "car": "Infiniti Q50 (3.0t (V37))",
+    "make": "Infiniti",
+    "model": "Q50",
+    "code": "3.0t",
+    "body": "Sedan",
+    "year": 2019,
+    "query": "Infiniti Q50 3.0t 2019",
+    "tokens": [
+      "3.0t",
+      "q50"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Infiniti Q50 3.0t 2019",
+    "pick": {
+      "score": 9.53,
+      "reasons": [
+        "tokens:3.0t,q50",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2019 Infiniti Q50 3.0t Luxe AWD in Graphite Shadow, front right.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/2019_Infiniti_Q50_3.0t_Luxe_AWD_in_Graphite_Shadow%2C_front_right.jpg/1920px-2019_Infiniti_Q50_3.0t_Luxe_AWD_in_Graphite_Shadow%2C_front_right.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2019_Infiniti_Q50_3.0t_Luxe_AWD_in_Graphite_Shadow,_front_right.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5137,
+      "height": 2881
+    },
+    "alternates": [
+      {
+        "score": 6.96,
+        "reasons": [
+          "tokens:3.0t,q50",
+          "year-match"
+        ],
+        "title": "File:2019 Infiniti Q50 3.0T Sport 400.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/2019_Infiniti_Q50_3.0T_Sport_400.jpg/1920px-2019_Infiniti_Q50_3.0T_Sport_400.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2019_Infiniti_Q50_3.0T_Sport_400.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "DestinationFearFan",
+        "width": 3172,
+        "height": 2214
+      },
+      {
+        "score": 4.59,
+        "reasons": [
+          "tokens:3.0t,q50",
+          "bad-angle",
+          "year-match"
+        ],
+        "title": "File:2019 Infiniti Q50 3.0t Luxe AWD in Graphite Shadow, rear right.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/2019_Infiniti_Q50_3.0t_Luxe_AWD_in_Graphite_Shadow%2C_rear_right.jpg/1920px-2019_Infiniti_Q50_3.0t_Luxe_AWD_in_Graphite_Shadow%2C_rear_right.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2019_Infiniti_Q50_3.0t_Luxe_AWD_in_Graphite_Shadow,_rear_right.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Mr.choppers",
+        "width": 5119,
+        "height": 2919
+      }
+    ]
+  },
+  {
+    "slug": "infiniti-q50-3-7-v37",
+    "car": "Infiniti Q50 (3.7 (V37))",
+    "make": "Infiniti",
+    "model": "Q50",
+    "code": "3.7",
+    "body": "Sedan",
+    "year": 2015,
+    "query": "Infiniti Q50 3.7 2015",
+    "tokens": [
+      "3.7",
+      "q50"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Infiniti Q50 3.7 2015",
+    "pick": {
+      "score": 9.56,
+      "reasons": [
+        "tokens:3.7,q50",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2015 Infiniti Q50 3.7 AWD in Graphite Shadow, Front Left, 05-29-2022.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/2015_Infiniti_Q50_3.7_AWD_in_Graphite_Shadow%2C_Front_Left%2C_05-29-2022.jpg/1920px-2015_Infiniti_Q50_3.7_AWD_in_Graphite_Shadow%2C_Front_Left%2C_05-29-2022.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2015_Infiniti_Q50_3.7_AWD_in_Graphite_Shadow,_Front_Left,_05-29-2022.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Elise240SX",
+      "width": 3661,
+      "height": 2092
+    },
+    "alternates": [
+      {
+        "score": 4.69,
+        "reasons": [
+          "tokens:3.7,q50",
+          "bad-angle",
+          "year-match"
+        ],
+        "title": "File:2015 Infiniti Q50 3.7 AWD in Graphite Shadow, Rear Left, 05-29-2022.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/2015_Infiniti_Q50_3.7_AWD_in_Graphite_Shadow%2C_Rear_Left%2C_05-29-2022.jpg/1920px-2015_Infiniti_Q50_3.7_AWD_in_Graphite_Shadow%2C_Rear_Left%2C_05-29-2022.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2015_Infiniti_Q50_3.7_AWD_in_Graphite_Shadow,_Rear_Left,_05-29-2022.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Elise240SX",
+        "width": 3740,
+        "height": 2215
+      }
+    ]
+  },
+  {
+    "slug": "infiniti-q50-red-sport-400-v37",
+    "car": "Infiniti Q50 (Red Sport 400 (V37))",
+    "make": "Infiniti",
+    "model": "Q50",
+    "code": "400",
+    "body": "Sedan",
+    "year": 2019,
+    "query": "Infiniti Q50 400 2019",
+    "tokens": [
+      "400",
+      "q50"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Infiniti Q50S - Mondial de l'Automobile de Paris 2016 - 001.jpg",
+    "status": "ok",
+    "query_used": "pin:Infiniti Q50S - Mondial de l'Automobile de Paris 2016 - 001.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Infiniti Q50S - Mondial de l'Automobile de Paris 2016 - 001.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Infiniti_Q50S_-_Mondial_de_l%27Automobile_de_Paris_2016_-_001.jpg/1920px-Infiniti_Q50S_-_Mondial_de_l%27Automobile_de_Paris_2016_-_001.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Infiniti_Q50S_-_Mondial_de_l%27Automobile_de_Paris_2016_-_001.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Thesupermat",
+      "width": 5472,
+      "height": 3648
+    },
+    "alternates": []
+  },
+  {
+    "slug": "infiniti-q60-v37",
+    "car": "Infiniti Q60 (V37)",
+    "make": "Infiniti",
+    "model": "Q60",
+    "code": "V37",
+    "body": "Coupe",
+    "year": 2017,
+    "query": "Infiniti Q60 V37 2017",
+    "tokens": [
+      "q60",
+      "v37"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Infiniti Q60 V37 2017",
+    "pick": {
+      "score": 9.3,
+      "reasons": [
+        "tokens:q60,v37",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2017 Infiniti Q60 (V37) front 4.24.18.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/2017_Infiniti_Q60_%28V37%29_front_4.24.18.jpg/1920px-2017_Infiniti_Q60_%28V37%29_front_4.24.18.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2017_Infiniti_Q60_(V37)_front_4.24.18.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 5184,
+      "height": 2726
+    },
+    "alternates": [
+      {
+        "score": 9.04,
+        "reasons": [
+          "tokens:q60,v37",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:Infiniti Q60S 3.0t AWD Sport Tech (V37) \u2013 Frontansicht, 21. April 2017, D\u00fcsseldorf.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Infiniti_Q60S_3.0t_AWD_Sport_Tech_%28V37%29_%E2%80%93_Frontansicht%2C_21._April_2017%2C_D%C3%BCsseldorf.jpg/1920px-Infiniti_Q60S_3.0t_AWD_Sport_Tech_%28V37%29_%E2%80%93_Frontansicht%2C_21._April_2017%2C_D%C3%BCsseldorf.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Infiniti_Q60S_3.0t_AWD_Sport_Tech_(V37)_%E2%80%93_Frontansicht,_21._April_2017,_D%C3%BCsseldorf.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "artist": "\u00a9 M 93",
+        "width": 3406,
+        "height": 1707
+      },
+      {
+        "score": 7.83,
+        "reasons": [
+          "tokens:q60",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2017 Infiniti Q60 Red Sport 400 AWD in Asgard Grey, front right, 2024-10-02.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2017_Infiniti_Q60_Red_Sport_400_AWD_in_Asgard_Grey%2C_front_right%2C_2024-10-02.jpg/1920px-2017_Infiniti_Q60_Red_Sport_400_AWD_in_Asgard_Grey%2C_front_right%2C_2024-10-02.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2017_Infiniti_Q60_Red_Sport_400_AWD_in_Asgard_Grey,_front_right,_2024-10-02.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Elise240SX",
+        "width": 4195,
+        "height": 2060
+      },
+      {
+        "score": 6.44,
+        "reasons": [
+          "tokens:q60,v37",
+          "year-match"
+        ],
+        "title": "File:Infiniti Q60S 3.0t AWD Sport Tech (V37) \u2013 Heckansicht, 21. April 2017, D\u00fcsseldorf.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Infiniti_Q60S_3.0t_AWD_Sport_Tech_%28V37%29_%E2%80%93_Heckansicht%2C_21._April_2017%2C_D%C3%BCsseldorf.jpg/1920px-Infiniti_Q60S_3.0t_AWD_Sport_Tech_%28V37%29_%E2%80%93_Heckansicht%2C_21._April_2017%2C_D%C3%BCsseldorf.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Infiniti_Q60S_3.0t_AWD_Sport_Tech_(V37)_%E2%80%93_Heckansicht,_21._April_2017,_D%C3%BCsseldorf.jpg",
+        "license": "CC BY-SA 3.0 de",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "artist": "\u00a9 M 93",
+        "width": 3372,
+        "height": 1652
+      }
+    ]
+  },
+  {
+    "slug": "jaguar-e-type-series-1",
+    "car": "Jaguar E-Type (Series 1)",
+    "make": "Jaguar",
+    "model": "E-Type",
+    "code": "1",
+    "body": "Coupe",
+    "year": 1965,
+    "query": "Jaguar E-Type 1 1965",
+    "tokens": [
+      "1",
+      "e-type"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Jaguar E-Type 1 1965",
+    "pick": {
+      "score": 7.33,
+      "reasons": [
+        "tokens:1,e-type",
+        "year-match"
+      ],
+      "title": "File:1965 Jaguar E-Type 5.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/1965_Jaguar_E-Type_5.jpg/1920px-1965_Jaguar_E-Type_5.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1965_Jaguar_E-Type_5.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 16320,
+      "height": 9972
+    },
+    "alternates": [
+      {
+        "score": 7.13,
+        "reasons": [
+          "tokens:1,e-type",
+          "year-match"
+        ],
+        "title": "File:1965 Jaguar E-Type 1.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fd/1965_Jaguar_E-Type_1.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1965_Jaguar_E-Type_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 1864,
+        "height": 1164
+      },
+      {
+        "score": 7.11,
+        "reasons": [
+          "tokens:1,e-type",
+          "year-match"
+        ],
+        "title": "File:1965 Jaguar E-Type Series I.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/1965_Jaguar_E-Type_Series_I.jpg/1920px-1965_Jaguar_E-Type_Series_I.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1965_Jaguar_E-Type_Series_I.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 2244,
+        "height": 1433
+      },
+      {
+        "score": 7.05,
+        "reasons": [
+          "tokens:1,e-type",
+          "year-match"
+        ],
+        "title": "File:1965 Jaguar E-Type 7.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/1965_Jaguar_E-Type_7.jpg/1920px-1965_Jaguar_E-Type_7.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1965_Jaguar_E-Type_7.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 4000,
+        "height": 2806
+      }
+    ]
+  },
+  {
+    "slug": "jaguar-f-type-r",
+    "car": "Jaguar F-Type (R)",
+    "make": "Jaguar",
+    "model": "F-Type",
+    "code": "R",
+    "body": "Coupe",
+    "year": 2016,
+    "query": "Jaguar F-Type R 2016",
+    "tokens": [
+      "f-type",
+      "r"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Jaguar F-Type R Coup\u00e9 (2016) (54000152815).jpg",
+    "status": "ok",
+    "query_used": "pin:Jaguar F-Type R Coup\u00e9 (2016) (54000152815).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Jaguar F-Type R Coup\u00e9 (2016) (54000152815).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Jaguar_F-Type_R_Coup%C3%A9_%282016%29_%2854000152815%29.jpg/1920px-Jaguar_F-Type_R_Coup%C3%A9_%282016%29_%2854000152815%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Jaguar_F-Type_R_Coup%C3%A9_(2016)_(54000152815).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Charles from Port Chester, New York",
+      "width": 5906,
+      "height": 3816
+    },
+    "alternates": []
+  },
+  {
+    "slug": "jaguar-xj220-xj220",
+    "car": "Jaguar XJ220 (XJ220)",
+    "make": "Jaguar",
+    "model": "XJ220",
+    "code": "XJ220",
+    "body": "Coupe",
+    "year": 1993,
+    "query": "Jaguar XJ220 XJ220 1993",
+    "tokens": [
+      "xj220"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Jaguar XJ220 XJ220 1993",
+    "pick": {
+      "score": 6.19,
+      "reasons": [
+        "tokens:xj220",
+        "year-match"
+      ],
+      "title": "File:1993 Jaguar XJ220 SP 23.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/1993_Jaguar_XJ220_SP_23.jpg/1920px-1993_Jaguar_XJ220_SP_23.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1993_Jaguar_XJ220_SP_23.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MrWalkr",
+      "width": 4772,
+      "height": 2994
+    },
+    "alternates": [
+      {
+        "score": 6.14,
+        "reasons": [
+          "tokens:xj220",
+          "year-match"
+        ],
+        "title": "File:1993 Jaguar XJ220 BS O24.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/1993_Jaguar_XJ220_BS_O24.jpg/1920px-1993_Jaguar_XJ220_BS_O24.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1993_Jaguar_XJ220_BS_O24.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 3548,
+        "height": 2218
+      },
+      {
+        "score": 6.12,
+        "reasons": [
+          "tokens:xj220",
+          "year-match"
+        ],
+        "title": "File:1993 Jaguar XJ220 C LM SCD 24.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/1993_Jaguar_XJ220_C_LM_SCD_24.jpg/1920px-1993_Jaguar_XJ220_C_LM_SCD_24.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1993_Jaguar_XJ220_C_LM_SCD_24.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 4420,
+        "height": 2834
+      },
+      {
+        "score": 6.08,
+        "reasons": [
+          "tokens:xj220",
+          "year-match"
+        ],
+        "title": "File:1993 Jaguar XJ220 DLR LM SP23.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/1993_Jaguar_XJ220_DLR_LM_SP23.jpg/1920px-1993_Jaguar_XJ220_DLR_LM_SP23.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1993_Jaguar_XJ220_DLR_LM_SP23.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 3171,
+        "height": 1993
+      }
+    ]
+  },
+  {
+    "slug": "jaguar-xkr-s-x150",
+    "car": "Jaguar XKR-S (X150)",
+    "make": "Jaguar",
+    "model": "XKR-S",
+    "code": "X150",
+    "body": "Coupe",
+    "year": 2012,
+    "query": "Jaguar XKR-S X150 2012",
+    "tokens": [
+      "x150",
+      "xkr-s"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Jaguar XKR-S X150 2012",
+    "pick": {
+      "score": 6.01,
+      "reasons": [
+        "tokens:xkr-s",
+        "year-match"
+      ],
+      "title": "File:2012 Jaguar XKR-S Auto (48281).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/2012_Jaguar_XKR-S_Auto_%2848281%29.jpg/1920px-2012_Jaguar_XKR-S_Auto_%2848281%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2012_Jaguar_XKR-S_Auto_(48281).jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 3656,
+      "height": 2398
+    },
+    "alternates": [
+      {
+        "score": 3.54,
+        "reasons": [
+          "tokens:xkr-s"
+        ],
+        "title": "File:White XKR-S (8228830923).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/White_XKR-S_%288228830923%29.jpg/1920px-White_XKR-S_%288228830923%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:White_XKR-S_(8228830923).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Ben",
+        "width": 5020,
+        "height": 3305
+      }
+    ]
+  },
+  {
+    "slug": "jeep-cherokee-kl",
+    "car": "Jeep Cherokee (KL)",
+    "make": "Jeep",
+    "model": "Cherokee",
+    "code": "KL",
+    "body": "SUV",
+    "year": 2014,
+    "query": "Jeep Cherokee KL 2014",
+    "tokens": [
+      "cherokee",
+      "kl"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Jeep Cherokee KL 2014",
+    "pick": {
+      "score": 9.31,
+      "reasons": [
+        "tokens:cherokee,kl",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:Jeep Cherokee 2.0 MulitJet 4WD Limited (KL) \u2013 Frontansicht, 30. August 2014, D\u00fcsseldorf.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Jeep_Cherokee_2.0_MulitJet_4WD_Limited_%28KL%29_%E2%80%93_Frontansicht%2C_30._August_2014%2C_D%C3%BCsseldorf.jpg/1920px-Jeep_Cherokee_2.0_MulitJet_4WD_Limited_%28KL%29_%E2%80%93_Frontansicht%2C_30._August_2014%2C_D%C3%BCsseldorf.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Jeep_Cherokee_2.0_MulitJet_4WD_Limited_(KL)_%E2%80%93_Frontansicht,_30._August_2014,_D%C3%BCsseldorf.jpg",
+      "license": "CC BY-SA 3.0 de",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "artist": "M 93",
+      "width": 3486,
+      "height": 1870
+    },
+    "alternates": [
+      {
+        "score": 7.06,
+        "reasons": [
+          "tokens:cherokee,kl",
+          "year-match"
+        ],
+        "title": "File:Jeep Cherokee KL China 2014-04-20.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/48/Jeep_Cherokee_KL_China_2014-04-20.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Jeep_Cherokee_KL_China_2014-04-20.JPG",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Navigator84",
+        "width": 1300,
+        "height": 811
+      },
+      {
+        "score": 6.87,
+        "reasons": [
+          "tokens:cherokee,kl",
+          "year-match"
+        ],
+        "title": "File:Jeep Cherokee (KL) 3200cc registered July 2014.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Jeep_Cherokee_%28KL%29_3200cc_registered_July_2014.JPG/1920px-Jeep_Cherokee_%28KL%29_3200cc_registered_July_2014.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Jeep_Cherokee_(KL)_3200cc_registered_July_2014.JPG",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Charles01",
+        "width": 2990,
+        "height": 2136
+      },
+      {
+        "score": 6.66,
+        "reasons": [
+          "tokens:cherokee,kl",
+          "year-match"
+        ],
+        "title": "File:Jeep Cherokee KL China 2014-04-25.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Jeep_Cherokee_KL_China_2014-04-25.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Jeep_Cherokee_KL_China_2014-04-25.JPG",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Navigator84",
+        "width": 1300,
+        "height": 928
+      }
+    ]
+  },
+  {
+    "slug": "jeep-compass-2nd-gen-mp",
+    "car": "Jeep Compass (2nd Gen (MP))",
+    "make": "Jeep",
+    "model": "Compass",
+    "code": "",
+    "body": "SUV",
+    "year": 2018,
+    "query": "Jeep Compass 2018",
+    "tokens": [
+      "compass"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Jeep Compass 2018",
+    "pick": {
+      "score": 8.37,
+      "reasons": [
+        "tokens:compass",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2018 Jeep Compass Latitude 2.4L front 4.20.19.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2018_Jeep_Compass_Latitude_2.4L_front_4.20.19.jpg/1920px-2018_Jeep_Compass_Latitude_2.4L_front_4.20.19.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Jeep_Compass_Latitude_2.4L_front_4.20.19.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 4503,
+      "height": 2554
+    },
+    "alternates": [
+      {
+        "score": 8.17,
+        "reasons": [
+          "tokens:compass",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:Jeep-compass-2018-petrol-at-limited-india-front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Jeep-compass-2018-petrol-at-limited-india-front.jpg/1920px-Jeep-compass-2018-petrol-at-limited-india-front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Jeep-compass-2018-petrol-at-limited-india-front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Sim tcr",
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "score": 5.84,
+        "reasons": [
+          "tokens:compass",
+          "year-match"
+        ],
+        "title": "File:Jeep Compass 2.4 Longitude 4x4 2018.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Jeep_Compass_2.4_Longitude_4x4_2018.jpg/1920px-Jeep_Compass_2.4_Longitude_4x4_2018.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Jeep_Compass_2.4_Longitude_4x4_2018.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "RL GNZLZ",
+        "width": 4000,
+        "height": 2250
+      },
+      {
+        "score": 5.84,
+        "reasons": [
+          "tokens:compass",
+          "year-match"
+        ],
+        "title": "File:Jeep Compass 2.4 Sport 2018.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Jeep_Compass_2.4_Sport_2018.jpg/1920px-Jeep_Compass_2.4_Sport_2018.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Jeep_Compass_2.4_Sport_2018.jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "RL GNZLZ",
+        "width": 4000,
+        "height": 2250
+      }
+    ]
+  },
+  {
+    "slug": "jeep-gladiator-jt-mojave",
+    "car": "Jeep Gladiator (JT Mojave)",
+    "make": "Jeep",
+    "model": "Gladiator",
+    "code": "JT",
+    "body": "Truck",
+    "year": 2021,
+    "query": "Jeep Gladiator JT 2021",
+    "tokens": [
+      "gladiator",
+      "jt"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2022 Jeep Gladiator Mojave in Sting-Grey, Front Right, 03-06-2022.jpg",
+    "status": "ok",
+    "query_used": "pin:2022 Jeep Gladiator Mojave in Sting-Grey, Front Right, 03-06-2022.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2022 Jeep Gladiator Mojave in Sting-Grey, Front Right, 03-06-2022.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/2022_Jeep_Gladiator_Mojave_in_Sting-Grey%2C_Front_Right%2C_03-06-2022.jpg/1920px-2022_Jeep_Gladiator_Mojave_in_Sting-Grey%2C_Front_Right%2C_03-06-2022.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2022_Jeep_Gladiator_Mojave_in_Sting-Grey,_Front_Right,_03-06-2022.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Elise240SX",
+      "width": 4140,
+      "height": 2520
+    },
+    "alternates": []
+  },
+  {
+    "slug": "jeep-grand-cherokee-wk2",
+    "car": "Jeep Grand Cherokee (WK2)",
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "code": "WK2",
+    "body": "SUV",
+    "year": 2012,
+    "query": "Jeep Grand Cherokee WK2 2012",
+    "tokens": [
+      "cherokee",
+      "grand",
+      "wk2"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Jeep Grand Cherokee WK2 2012",
+    "pick": {
+      "score": 8.76,
+      "reasons": [
+        "CC0/PD",
+        "tokens:cherokee,grand",
+        "year-match"
+      ],
+      "title": "File:4th Jeep Grand Cherokee -- 03-21-2012 2.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d2/4th_Jeep_Grand_Cherokee_--_03-21-2012_2.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:4th_Jeep_Grand_Cherokee_--_03-21-2012_2.JPG",
+      "license": "Public domain",
+      "license_url": "",
+      "artist": "IFCAR",
+      "width": 1533,
+      "height": 1068
+    },
+    "alternates": [
+      {
+        "score": 8.62,
+        "reasons": [
+          "CC0/PD",
+          "tokens:cherokee,grand",
+          "year-match"
+        ],
+        "title": "File:4th Jeep Grand Cherokee -- 03-21-2012 1.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/29/4th_Jeep_Grand_Cherokee_--_03-21-2012_1.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:4th_Jeep_Grand_Cherokee_--_03-21-2012_1.JPG",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "IFCAR",
+        "width": 1834,
+        "height": 1365
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:cherokee,grand",
+          "year-match"
+        ],
+        "title": "File:Jeep Grand Cherokee - Mondial de l'Automobile de Paris 2012 - 003.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Jeep_Grand_Cherokee_-_Mondial_de_l%27Automobile_de_Paris_2012_-_003.jpg/1920px-Jeep_Grand_Cherokee_-_Mondial_de_l%27Automobile_de_Paris_2012_-_003.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Jeep_Grand_Cherokee_-_Mondial_de_l%27Automobile_de_Paris_2012_-_003.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Thesupermat",
+        "width": 4752,
+        "height": 3168
+      },
+      {
+        "score": 7.15,
+        "reasons": [
+          "tokens:cherokee,grand",
+          "year-match"
+        ],
+        "title": "File:Jeep Grand Cherokee Laredo 3.6 2012 (35541368484).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Jeep_Grand_Cherokee_Laredo_3.6_2012_%2835541368484%29.jpg/1920px-Jeep_Grand_Cherokee_Laredo_3.6_2012_%2835541368484%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Jeep_Grand_Cherokee_Laredo_3.6_2012_(35541368484).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "RL GNZLZ from Chile",
+        "width": 3600,
+        "height": 2400
+      }
+    ]
+  },
+  {
+    "slug": "jeep-grand-cherokee-wk2-trackhawk",
+    "car": "Jeep Grand Cherokee (WK2 Trackhawk)",
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "code": "WK2",
+    "body": "SUV",
+    "year": 2020,
+    "query": "Jeep Grand Cherokee WK2 2020",
+    "tokens": [
+      "cherokee",
+      "grand",
+      "wk2"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Jeep Grand Cherokee Trackhawk Genf 2018.jpg",
+    "status": "ok",
+    "query_used": "pin:Jeep Grand Cherokee Trackhawk Genf 2018.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Jeep Grand Cherokee Trackhawk Genf 2018.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Jeep_Grand_Cherokee_Trackhawk_Genf_2018.jpg/1920px-Jeep_Grand_Cherokee_Trackhawk_Genf_2018.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Jeep_Grand_Cherokee_Trackhawk_Genf_2018.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Alexander Migl",
+      "width": 5008,
+      "height": 3347
+    },
+    "alternates": []
+  },
+  {
+    "slug": "jeep-grand-wagoneer-ws",
+    "car": "Jeep Grand Wagoneer (WS)",
+    "make": "Jeep",
+    "model": "Grand Wagoneer",
+    "code": "WS",
+    "body": "SUV",
+    "year": 2022,
+    "query": "Jeep Grand Wagoneer WS 2022",
+    "tokens": [
+      "grand",
+      "wagoneer",
+      "ws"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2022 Jeep Grand Wagoneer Series III in Bright White and Black, front left.jpg",
+    "status": "ok",
+    "query_used": "pin:2022 Jeep Grand Wagoneer Series III in Bright White and Black, front left.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2022 Jeep Grand Wagoneer Series III in Bright White and Black, front left.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/2022_Jeep_Grand_Wagoneer_Series_III_in_Bright_White_and_Black%2C_front_left.jpg/1920px-2022_Jeep_Grand_Wagoneer_Series_III_in_Bright_White_and_Black%2C_front_left.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2022_Jeep_Grand_Wagoneer_Series_III_in_Bright_White_and_Black,_front_left.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5348,
+      "height": 3252
+    },
+    "alternates": []
+  },
+  {
+    "slug": "jeep-renegade-bu",
+    "car": "Jeep Renegade (BU)",
+    "make": "Jeep",
+    "model": "Renegade",
+    "code": "BU",
+    "body": "SUV",
+    "year": 2015,
+    "query": "Jeep Renegade BU 2015",
+    "tokens": [
+      "bu",
+      "renegade"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Jeep Renegade 2015",
+    "pick": {
+      "score": 8.5,
+      "reasons": [
+        "tokens:renegade",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2015 Jeep Renegade Latitude (Colorado Red), front right.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2015_Jeep_Renegade_Latitude_%28Colorado_Red%29%2C_front_right.jpg/1920px-2015_Jeep_Renegade_Latitude_%28Colorado_Red%29%2C_front_right.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2015_Jeep_Renegade_Latitude_(Colorado_Red),_front_right.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5381,
+      "height": 3169
+    },
+    "alternates": [
+      {
+        "score": 8.43,
+        "reasons": [
+          "tokens:renegade",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2015 Jeep Renegade Longitude - 1368cc 1.4 (140PS) Manual - Commando Green - 02-2024, Front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/2015_Jeep_Renegade_Longitude_-_1368cc_1.4_%28140PS%29_Manual_-_Commando_Green_-_02-2024%2C_Front.jpg/1920px-2015_Jeep_Renegade_Longitude_-_1368cc_1.4_%28140PS%29_Manual_-_Commando_Green_-_02-2024%2C_Front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2015_Jeep_Renegade_Longitude_-_1368cc_1.4_(140PS)_Manual_-_Commando_Green_-_02-2024,_Front.jpg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "Harvey Bold",
+        "width": 4508,
+        "height": 3075
+      },
+      {
+        "score": 6.11,
+        "reasons": [
+          "tokens:renegade",
+          "year-match"
+        ],
+        "title": "File:Jeep Renegade 2015, Autohaus Sch\u00f6necker-108.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Jeep_Renegade_2015%2C_Autohaus_Sch%C3%B6necker-108.jpg/1920px-Jeep_Renegade_2015%2C_Autohaus_Sch%C3%B6necker-108.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Jeep_Renegade_2015,_Autohaus_Sch%C3%B6necker-108.jpg",
+        "license": "CC BY-SA 3.0 lu",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/lu/deed.en",
+        "artist": "Jwh",
+        "width": 4189,
+        "height": 2544
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:renegade",
+          "year-match"
+        ],
+        "title": "File:Jeep Renegade 2015, Autohaus Sch\u00f6necker-101.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Jeep_Renegade_2015%2C_Autohaus_Sch%C3%B6necker-101.jpg/1920px-Jeep_Renegade_2015%2C_Autohaus_Sch%C3%B6necker-101.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Jeep_Renegade_2015,_Autohaus_Sch%C3%B6necker-101.jpg",
+        "license": "CC BY-SA 3.0 lu",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0/lu/deed.en",
+        "artist": "Jwh",
+        "width": 7360,
+        "height": 4912
+      }
+    ]
+  },
+  {
+    "slug": "jeep-wrangler-jl",
+    "car": "Jeep Wrangler (JL)",
+    "make": "Jeep",
+    "model": "Wrangler",
+    "code": "JL",
+    "body": "SUV",
+    "year": 2020,
+    "query": "Jeep Wrangler JL 2020",
+    "tokens": [
+      "jl",
+      "wrangler"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2018 Jeep Wrangler Unlimited Sport 4-door front 6.10.18.jpg",
+    "status": "ok",
+    "query_used": "pin:2018 Jeep Wrangler Unlimited Sport 4-door front 6.10.18.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2018 Jeep Wrangler Unlimited Sport 4-door front 6.10.18.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/2018_Jeep_Wrangler_Unlimited_Sport_4-door_front_6.10.18.jpg/1920px-2018_Jeep_Wrangler_Unlimited_Sport_4-door_front_6.10.18.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Jeep_Wrangler_Unlimited_Sport_4-door_front_6.10.18.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 4561,
+      "height": 2649
+    },
+    "alternates": []
+  },
+  {
+    "slug": "jeep-wrangler-jl-rubicon-392",
+    "car": "Jeep Wrangler (JL Rubicon 392)",
+    "make": "Jeep",
+    "model": "Wrangler",
+    "code": "392",
+    "body": "SUV",
+    "year": 2022,
+    "query": "Jeep Wrangler 392 2022",
+    "tokens": [
+      "392",
+      "wrangler"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "23 Jeep Wrangler Unlimited Rubicon 392.jpg",
+    "status": "ok",
+    "query_used": "pin:23 Jeep Wrangler Unlimited Rubicon 392.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:23 Jeep Wrangler Unlimited Rubicon 392.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/23_Jeep_Wrangler_Unlimited_Rubicon_392.jpg/1920px-23_Jeep_Wrangler_Unlimited_Rubicon_392.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:23_Jeep_Wrangler_Unlimited_Rubicon_392.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "HJUdall",
+      "width": 4128,
+      "height": 3096
+    },
+    "alternates": []
+  },
+  {
     "slug": "mazda-mx-5-miata-na",
     "car": "Mazda MX-5 Miata (NA)",
     "body": "Roadster",
