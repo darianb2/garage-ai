@@ -194,6 +194,20 @@ OVERRIDES = {
     "dodge-viper-gen-5-acr": {"pin": "2016 Dodge Viper ACR with Extreme Aero package, front left, 06-16-2024.jpg"},
     "dodge-viper-gts-gen-2": {"pin": "1997 Dodge Viper (35083948226).jpg"},
     "dodge-viper-zb-gen-3": {"pin": "2003 Dodge Viper SRT-10 Roadster in Viper Red, Front Right (St. Ignace 2023).jpg"},
+    # F brands (hand-picked after contact-sheet review)
+    "ferrari-testarossa-type-f110": {"pin": "1988 Ferrari Testarossa (30567369747).jpg"},
+    "ferrari-f50-f50": {"pin": "1997 Ferrari F50 front.jpg"},
+    "ferrari-laferrari-f150": {"pin": "Ferrari LaFerrari (2015) (53321819267).jpg"},
+    "ford-focus-3rd-gen-c346": {"pin": "2013 Ford Focus SE in Blue Candy Metallic Tinted Clearcoat, Front Left, 06-26-2022.jpg"},
+    "ford-focus-st-mk3": {"pin": "2015 Ford Focus ST, Front Left, 04-04-2021.jpg"},
+    "ford-bronco-raptor-u725": {"pin": "Ford Bronco Raptor (2024) (53621271856).jpg"},
+    "ford-gt40-mk-ii": {"pin": "1966 Ford GT40 Mark II no. 5 at NYIAS 2022, front left.jpg"},
+    "ford-mustang-fox-body-gt": {"pin": "1990 Ford Mustang GT 5.0 Hatchback in Ultra Blue, front right.jpg"},
+    "ford-mustang-gt-s197-5-0": {"pin": "Ford MUSTANG V8 GT Coupé Premium (S197) front.JPG"},
+    "ford-mustang-mach-1": {"pin": "Ford Mustang Mach1, 2021 front.jpg"},
+    "ford-mustang-mach-e-gt": {"pin": "2023 Ford Mustang Mach-E GT in Rapid Red 01.jpg"},
+    "ford-mustang-shelby-gt350": {"pin": "2020 Ford Mustang Shelby GT350, front three-quarter view, A Paris Street Market at Aspen Grove car show 2026-05-02.jpg"},
+    "ford-taurus-sho-gen-1": {"pin": "Ford Taurus SHO (second-gen).jpg"},
 }
 
 kebab = lambda s: re.sub(r"(^-|-$)", "", re.sub(r"[^a-z0-9]+", "-", (s or "").lower()))

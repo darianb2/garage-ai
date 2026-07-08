@@ -10308,6 +10308,3975 @@
     "alternates": []
   },
   {
+    "slug": "ferrari-250-gt-swb",
+    "car": "Ferrari 250 GT (SWB)",
+    "make": "Ferrari",
+    "model": "250 GT",
+    "code": "SWB",
+    "body": "Coupe",
+    "year": 1962,
+    "query": "Ferrari 250 GT SWB 1962",
+    "tokens": [
+      "250",
+      "gt",
+      "swb"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ferrari 250 GT SWB 1962",
+    "pick": {
+      "score": 8.43,
+      "reasons": [
+        "tokens:250,gt,swb",
+        "year-match"
+      ],
+      "title": "File:1962 Ferrari 250 GT Berlinetta SWB SCD 24.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/1962_Ferrari_250_GT_Berlinetta_SWB_SCD_24.jpg/1920px-1962_Ferrari_250_GT_Berlinetta_SWB_SCD_24.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1962_Ferrari_250_GT_Berlinetta_SWB_SCD_24.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MrWalkr",
+      "width": 6900,
+      "height": 4551
+    },
+    "alternates": [
+      {
+        "score": 8.41,
+        "reasons": [
+          "tokens:250,gt,swb",
+          "year-match"
+        ],
+        "title": "File:1962 Ferrari 250 GT Berlinetta SWB Competizione HCC24.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/1962_Ferrari_250_GT_Berlinetta_SWB_Competizione_HCC24.jpg/1920px-1962_Ferrari_250_GT_Berlinetta_SWB_Competizione_HCC24.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1962_Ferrari_250_GT_Berlinetta_SWB_Competizione_HCC24.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 2958,
+        "height": 1814
+      },
+      {
+        "score": 8.19,
+        "reasons": [
+          "tokens:250,gt,swb",
+          "year-match"
+        ],
+        "title": "File:1962 Ferrari 250 GT Berlinetta SWB LC23.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/1962_Ferrari_250_GT_Berlinetta_SWB_LC23.jpg/1920px-1962_Ferrari_250_GT_Berlinetta_SWB_LC23.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1962_Ferrari_250_GT_Berlinetta_SWB_LC23.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 2340,
+        "height": 1375
+      },
+      {
+        "score": 8.16,
+        "reasons": [
+          "tokens:250,gt,swb",
+          "year-match"
+        ],
+        "title": "File:1962 Ferrari 250 GT Berlinetta SWB HCC21.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/3/3d/1962_Ferrari_250_GT_Berlinetta_SWB_HCC21.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1962_Ferrari_250_GT_Berlinetta_SWB_HCC21.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 1534,
+        "height": 999
+      }
+    ]
+  },
+  {
+    "slug": "ferrari-308-gtb-type-f106",
+    "car": "Ferrari 308 GTB (Type F106)",
+    "make": "Ferrari",
+    "model": "308 GTB",
+    "code": "F106",
+    "body": "Coupe",
+    "year": 1980,
+    "query": "Ferrari 308 GTB F106 1980",
+    "tokens": [
+      "308",
+      "f106",
+      "gtb"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ferrari 308 GTB 1980",
+    "pick": {
+      "score": 9.32,
+      "reasons": [
+        "CC0/PD",
+        "tokens:308,gtb",
+        "year-match"
+      ],
+      "title": "File:Ferrari 308 GTB (1980) (54803015900).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Ferrari_308_GTB_%281980%29_%2854803015900%29.jpg/1920px-Ferrari_308_GTB_%281980%29_%2854803015900%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferrari_308_GTB_(1980)_(54803015900).jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Charles from Port Chester, New York",
+      "width": 5813,
+      "height": 3724
+    },
+    "alternates": [
+      {
+        "score": 7.25,
+        "reasons": [
+          "tokens:308,gtb",
+          "year-match"
+        ],
+        "title": "File:Ferrari 308 GTB (1980) (54091971960).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Ferrari_308_GTB_%281980%29_%2854091971960%29.jpg/1920px-Ferrari_308_GTB_%281980%29_%2854091971960%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ferrari_308_GTB_(1980)_(54091971960).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 5514,
+        "height": 3616
+      },
+      {
+        "score": 7.21,
+        "reasons": [
+          "tokens:308,gtb",
+          "year-match"
+        ],
+        "title": "File:1980 Ferrari 308 GTB Museo Nazionale dell'Automobile Torino.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1980_Ferrari_308_GTB_Museo_Nazionale_dell%27Automobile_Torino.jpg/1920px-1980_Ferrari_308_GTB_Museo_Nazionale_dell%27Automobile_Torino.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1980_Ferrari_308_GTB_Museo_Nazionale_dell%27Automobile_Torino.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Rahil Rupawala",
+        "width": 4288,
+        "height": 2848
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:308,gtb",
+          "year-match"
+        ],
+        "title": "File:Ferrari 308 GTB (1977) (52862117146).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Ferrari_308_GTB_%281977%29_%2852862117146%29.jpg/1920px-Ferrari_308_GTB_%281977%29_%2852862117146%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ferrari_308_GTB_(1977)_(52862117146).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 5676,
+        "height": 3784
+      }
+    ]
+  },
+  {
+    "slug": "ferrari-360-modena-type-f131",
+    "car": "Ferrari 360 Modena (Type F131)",
+    "make": "Ferrari",
+    "model": "360 Modena",
+    "code": "F131",
+    "body": "Coupe",
+    "year": 2001,
+    "query": "Ferrari 360 Modena F131 2001",
+    "tokens": [
+      "360",
+      "f131",
+      "modena"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ferrari 360 Modena 2001",
+    "pick": {
+      "score": 7.26,
+      "reasons": [
+        "tokens:360,modena",
+        "year-match"
+      ],
+      "title": "File:2001 Ferrari 360 Modena 4.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/2001_Ferrari_360_Modena_4.jpg/1920px-2001_Ferrari_360_Modena_4.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2001_Ferrari_360_Modena_4.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 3892,
+      "height": 2342
+    },
+    "alternates": [
+      {
+        "score": 7.22,
+        "reasons": [
+          "tokens:360,modena",
+          "year-match"
+        ],
+        "title": "File:2001 Ferrari 360 Modena 2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/2001_Ferrari_360_Modena_2.jpg/1920px-2001_Ferrari_360_Modena_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2001_Ferrari_360_Modena_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 3406,
+        "height": 2199
+      },
+      {
+        "score": 7.16,
+        "reasons": [
+          "tokens:360,modena",
+          "year-match"
+        ],
+        "title": "File:2001 Ferrari 360 Modena (37431).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/2001_Ferrari_360_Modena_%2837431%29.jpg/1920px-2001_Ferrari_360_Modena_%2837431%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2001_Ferrari_360_Modena_(37431).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 4080,
+        "height": 2371
+      },
+      {
+        "score": 7.07,
+        "reasons": [
+          "tokens:360,modena",
+          "year-match"
+        ],
+        "title": "File:2001 Ferrari 360 Modena (26217).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/2001_Ferrari_360_Modena_%2826217%29.jpg/1920px-2001_Ferrari_360_Modena_%2826217%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2001_Ferrari_360_Modena_(26217).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 3712,
+        "height": 2125
+      }
+    ]
+  },
+  {
+    "slug": "ferrari-458-italia-type-f142",
+    "car": "Ferrari 458 Italia (Type F142)",
+    "make": "Ferrari",
+    "model": "458 Italia",
+    "code": "F142",
+    "body": "Coupe",
+    "year": 2011,
+    "query": "Ferrari 458 Italia F142 2011",
+    "tokens": [
+      "458",
+      "f142",
+      "italia"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ferrari 458 Italia 2011",
+    "pick": {
+      "score": 9.2,
+      "reasons": [
+        "CC0/PD",
+        "tokens:458,italia",
+        "year-match"
+      ],
+      "title": "File:Ferrari 458 Italia (2011) (54873539915).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Ferrari_458_Italia_%282011%29_%2854873539915%29.jpg/1920px-Ferrari_458_Italia_%282011%29_%2854873539915%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferrari_458_Italia_(2011)_(54873539915).jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Charles from Port Chester, New York",
+      "width": 6000,
+      "height": 4000
+    },
+    "alternates": [
+      {
+        "score": 9.18,
+        "reasons": [
+          "CC0/PD",
+          "tokens:458,italia",
+          "year-match"
+        ],
+        "title": "File:Ferrari 458 Italia (2011) (54873539910).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Ferrari_458_Italia_%282011%29_%2854873539910%29.jpg/1920px-Ferrari_458_Italia_%282011%29_%2854873539910%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ferrari_458_Italia_(2011)_(54873539910).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Charles from Port Chester, New York",
+        "width": 5434,
+        "height": 3644
+      },
+      {
+        "score": 9.16,
+        "reasons": [
+          "CC0/PD",
+          "tokens:458,italia",
+          "year-match"
+        ],
+        "title": "File:Ferrari 458 Italia (2011) (54873539875).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Ferrari_458_Italia_%282011%29_%2854873539875%29.jpg/1920px-Ferrari_458_Italia_%282011%29_%2854873539875%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ferrari_458_Italia_(2011)_(54873539875).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Charles from Port Chester, New York",
+        "width": 5865,
+        "height": 3413
+      },
+      {
+        "score": 8.46,
+        "reasons": [
+          "CC0/PD",
+          "tokens:458,italia",
+          "year-match"
+        ],
+        "title": "File:Ferrari 458 Italia -- 05-18-2011.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ferrari_458_Italia_--_05-18-2011.jpg/1920px-Ferrari_458_Italia_--_05-18-2011.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ferrari_458_Italia_--_05-18-2011.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "IFCAR",
+        "width": 1960,
+        "height": 1008
+      }
+    ]
+  },
+  {
+    "slug": "ferrari-488-gtb-type-f142m",
+    "car": "Ferrari 488 GTB (Type F142M)",
+    "make": "Ferrari",
+    "model": "488 GTB",
+    "code": "F142M",
+    "body": "Coupe",
+    "year": 2016,
+    "query": "Ferrari 488 GTB F142M 2016",
+    "tokens": [
+      "488",
+      "f142m",
+      "gtb"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ferrari 488 GTB 2016",
+    "pick": {
+      "score": 7.2,
+      "reasons": [
+        "tokens:488,gtb",
+        "year-match"
+      ],
+      "title": "File:2016 Ferrari 488 GTB Berlinetta (37618606270).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/2016_Ferrari_488_GTB_Berlinetta_%2837618606270%29.jpg/1920px-2016_Ferrari_488_GTB_Berlinetta_%2837618606270%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2016_Ferrari_488_GTB_Berlinetta_(37618606270).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Sicnag",
+      "width": 5184,
+      "height": 3456
+    },
+    "alternates": [
+      {
+        "score": 6.97,
+        "reasons": [
+          "tokens:488,gtb",
+          "year-match"
+        ],
+        "title": "File:2016 Ferrari 488 GTB 1.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/2016_Ferrari_488_GTB_1.jpg/1920px-2016_Ferrari_488_GTB_1.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2016_Ferrari_488_GTB_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 3392,
+        "height": 1908
+      },
+      {
+        "score": 6.85,
+        "reasons": [
+          "tokens:488,gtb",
+          "year-match"
+        ],
+        "title": "File:2016 Ferrari 488 GTB 2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/2016_Ferrari_488_GTB_2.jpg/1920px-2016_Ferrari_488_GTB_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2016_Ferrari_488_GTB_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 3716,
+        "height": 1999
+      },
+      {
+        "score": 6.7,
+        "reasons": [
+          "tokens:488,gtb",
+          "year-match"
+        ],
+        "title": "File:2016 Ferrari 488 GTB S-A (F13 GTB).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/2016_Ferrari_488_GTB_S-A_%28F13_GTB%29.jpg/1920px-2016_Ferrari_488_GTB_S-A_%28F13_GTB%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2016_Ferrari_488_GTB_S-A_(F13_GTB).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Carfanatic2019",
+        "width": 2592,
+        "height": 1936
+      }
+    ]
+  },
+  {
+    "slug": "ferrari-550-maranello-type-f133",
+    "car": "Ferrari 550 Maranello (Type F133)",
+    "make": "Ferrari",
+    "model": "550 Maranello",
+    "code": "F133",
+    "body": "Coupe",
+    "year": 1998,
+    "query": "Ferrari 550 Maranello F133 1998",
+    "tokens": [
+      "550",
+      "f133",
+      "maranello"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ferrari 550 Maranello 1998",
+    "pick": {
+      "score": 7.39,
+      "reasons": [
+        "tokens:550,maranello",
+        "year-match"
+      ],
+      "title": "File:1998 Ferrari 550 Maranello.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/1998_Ferrari_550_Maranello.jpg/1920px-1998_Ferrari_550_Maranello.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1998_Ferrari_550_Maranello.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 15068,
+      "height": 9398
+    },
+    "alternates": [
+      {
+        "score": 6.91,
+        "reasons": [
+          "tokens:550,maranello",
+          "year-match"
+        ],
+        "title": "File:1998 Ferrari 550 Maranello (7446284114).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7e/1998_Ferrari_550_Maranello_%287446284114%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1998_Ferrari_550_Maranello_(7446284114).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "InSapphoWeTrust from Los Angeles, California, USA",
+        "width": 1600,
+        "height": 1063
+      }
+    ]
+  },
+  {
+    "slug": "ferrari-812-superfast-type-f152m",
+    "car": "Ferrari 812 Superfast (Type F152M)",
+    "make": "Ferrari",
+    "model": "812 Superfast",
+    "code": "F152M",
+    "body": "Coupe",
+    "year": 2018,
+    "query": "Ferrari 812 Superfast F152M 2018",
+    "tokens": [
+      "812",
+      "f152m",
+      "superfast"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ferrari 812 Superfast 2018",
+    "pick": {
+      "score": 9.72,
+      "reasons": [
+        "tokens:812,superfast",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2018 Ferrari 812 Superfast 6.5 Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/2018_Ferrari_812_Superfast_6.5_Front.jpg/1920px-2018_Ferrari_812_Superfast_6.5_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Ferrari_812_Superfast_6.5_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 4778,
+      "height": 2830
+    },
+    "alternates": [
+      {
+        "score": 9.42,
+        "reasons": [
+          "tokens:812,superfast",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2018 Ferrari 812 Superfast, front right, at Greenwich.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/2018_Ferrari_812_Superfast%2C_front_right%2C_at_Greenwich.jpg/1920px-2018_Ferrari_812_Superfast%2C_front_right%2C_at_Greenwich.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Ferrari_812_Superfast,_front_right,_at_Greenwich.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Mr.choppers",
+        "width": 5328,
+        "height": 2896
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:812,superfast",
+          "year-match"
+        ],
+        "title": "File:Ferrari 812 Superfast (2018) (52863659105).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ferrari_812_Superfast_%282018%29_%2852863659105%29.jpg/1920px-Ferrari_812_Superfast_%282018%29_%2852863659105%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ferrari_812_Superfast_(2018)_(52863659105).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "score": 7.19,
+        "reasons": [
+          "tokens:812,superfast",
+          "year-match"
+        ],
+        "title": "File:2018 Ferrari 812 Superfast WR Attempt.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/2018_Ferrari_812_Superfast_WR_Attempt.jpg/1920px-2018_Ferrari_812_Superfast_WR_Attempt.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Ferrari_812_Superfast_WR_Attempt.jpg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "Calreyn88",
+        "width": 4080,
+        "height": 2393
+      }
+    ]
+  },
+  {
+    "slug": "ferrari-enzo-type-f140",
+    "car": "Ferrari Enzo (Type F140)",
+    "make": "Ferrari",
+    "model": "Enzo",
+    "code": "F140",
+    "body": "Coupe",
+    "year": 2003,
+    "query": "Ferrari Enzo F140 2003",
+    "tokens": [
+      "enzo",
+      "f140"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ferrari Enzo 2003",
+    "pick": {
+      "score": 8.53,
+      "reasons": [
+        "tokens:enzo",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2003 Enzo Ferrari at Greenwich 2018, front right.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/2003_Enzo_Ferrari_at_Greenwich_2018%2C_front_right.jpg/1920px-2003_Enzo_Ferrari_at_Greenwich_2018%2C_front_right.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2003_Enzo_Ferrari_at_Greenwich_2018,_front_right.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5316,
+      "height": 3152
+    },
+    "alternates": [
+      {
+        "score": 7.66,
+        "reasons": [
+          "tokens:enzo",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2003 Ferrari Enzo 6.0 Front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/2003_Ferrari_Enzo_6.0_Front.jpg/1920px-2003_Ferrari_Enzo_6.0_Front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2003_Ferrari_Enzo_6.0_Front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Vauxford",
+        "width": 4950,
+        "height": 2335
+      },
+      {
+        "score": 5.86,
+        "reasons": [
+          "tokens:enzo",
+          "year-match"
+        ],
+        "title": "File:2003 Ferrari Enzo (80507).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/2003_Ferrari_Enzo_%2880507%29.jpg/1920px-2003_Ferrari_Enzo_%2880507%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2003_Ferrari_Enzo_(80507).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 3695,
+        "height": 2109
+      },
+      {
+        "score": 5.73,
+        "reasons": [
+          "tokens:enzo",
+          "year-match"
+        ],
+        "title": "File:2003 Ferrari Enzo 2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/2003_Ferrari_Enzo_2.jpg/1920px-2003_Ferrari_Enzo_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2003_Ferrari_Enzo_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 15934,
+        "height": 11684
+      }
+    ]
+  },
+  {
+    "slug": "ferrari-f355-berlinetta",
+    "car": "Ferrari F355 (Berlinetta)",
+    "make": "Ferrari",
+    "model": "F355",
+    "code": "Berlinetta",
+    "body": "Coupe",
+    "year": 1997,
+    "query": "Ferrari F355 Berlinetta 1997",
+    "tokens": [
+      "berlinetta",
+      "f355"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ferrari F355 Berlinetta 1997",
+    "pick": {
+      "score": 7.28,
+      "reasons": [
+        "tokens:berlinetta,f355",
+        "year-match"
+      ],
+      "title": "File:Ferrari F355 Berlinetta (1997) (52561331198).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Ferrari_F355_Berlinetta_%281997%29_%2852561331198%29.jpg/1920px-Ferrari_F355_Berlinetta_%281997%29_%2852561331198%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferrari_F355_Berlinetta_(1997)_(52561331198).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Charles from Port Chester, New York",
+      "width": 6000,
+      "height": 3617
+    },
+    "alternates": [
+      {
+        "score": 7.22,
+        "reasons": [
+          "tokens:berlinetta,f355",
+          "year-match"
+        ],
+        "title": "File:1997 Ferrari F355 Berlinetta 1.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/1997_Ferrari_F355_Berlinetta_1.jpg/1920px-1997_Ferrari_F355_Berlinetta_1.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1997_Ferrari_F355_Berlinetta_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 2858,
+        "height": 1806
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:berlinetta,f355",
+          "year-match"
+        ],
+        "title": "File:Ferrari F355 Berlinetta (1997) (53800969036).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Ferrari_F355_Berlinetta_%281997%29_%2853800969036%29.jpg/1920px-Ferrari_F355_Berlinetta_%281997%29_%2853800969036%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ferrari_F355_Berlinetta_(1997)_(53800969036).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "score": 7.13,
+        "reasons": [
+          "tokens:berlinetta,f355",
+          "year-match"
+        ],
+        "title": "File:1997 Ferrari F355 Berlinetta.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/1997_Ferrari_F355_Berlinetta.jpg/1920px-1997_Ferrari_F355_Berlinetta.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1997_Ferrari_F355_Berlinetta.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 2090,
+        "height": 1321
+      }
+    ]
+  },
+  {
+    "slug": "ferrari-f40-type-f120",
+    "car": "Ferrari F40 (Type F120)",
+    "make": "Ferrari",
+    "model": "F40",
+    "code": "F120",
+    "body": "Coupe",
+    "year": 1990,
+    "query": "Ferrari F40 F120 1990",
+    "tokens": [
+      "f120",
+      "f40"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ferrari F40 1990",
+    "pick": {
+      "score": 8.82,
+      "reasons": [
+        "CC0/PD",
+        "tokens:f40",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:1990 Ferrari F40 front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/1990_Ferrari_F40_front.jpg/1920px-1990_Ferrari_F40_front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1990_Ferrari_F40_front.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "TTTNIS",
+      "width": 5319,
+      "height": 2094
+    },
+    "alternates": [
+      {
+        "score": 6.14,
+        "reasons": [
+          "tokens:f40",
+          "year-match"
+        ],
+        "title": "File:1990 Ferrari F40.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/1990_Ferrari_F40.jpg/1920px-1990_Ferrari_F40.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1990_Ferrari_F40.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 14810,
+        "height": 9098
+      },
+      {
+        "score": 6.13,
+        "reasons": [
+          "tokens:f40",
+          "year-match"
+        ],
+        "title": "File:Yellow 1990 Ferrari F40 SCD 24.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Yellow_1990_Ferrari_F40_SCD_24.jpg/1920px-Yellow_1990_Ferrari_F40_SCD_24.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Yellow_1990_Ferrari_F40_SCD_24.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 6613,
+        "height": 4232
+      },
+      {
+        "score": 6.07,
+        "reasons": [
+          "tokens:f40",
+          "year-match"
+        ],
+        "title": "File:1990 Ferrari F40 GT LHD 2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/1990_Ferrari_F40_GT_LHD_2.jpg/1920px-1990_Ferrari_F40_GT_LHD_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1990_Ferrari_F40_GT_LHD_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 15484,
+        "height": 9290
+      }
+    ]
+  },
+  {
+    "slug": "ferrari-f50-f50",
+    "car": "Ferrari F50 (F50)",
+    "make": "Ferrari",
+    "model": "F50",
+    "code": "F50",
+    "body": "Coupe",
+    "year": 1996,
+    "query": "Ferrari F50 F50 1996",
+    "tokens": [
+      "f50"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1997 Ferrari F50 front.jpg",
+    "status": "ok",
+    "query_used": "pin:1997 Ferrari F50 front.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1997 Ferrari F50 front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/1997_Ferrari_F50_front.jpg/1920px-1997_Ferrari_F50_front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1997_Ferrari_F50_front.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "TTTNIS",
+      "width": 5450,
+      "height": 2203
+    },
+    "alternates": []
+  },
+  {
+    "slug": "ferrari-laferrari-f150",
+    "car": "Ferrari LaFerrari (F150)",
+    "make": "Ferrari",
+    "model": "LaFerrari",
+    "code": "F150",
+    "body": "Coupe",
+    "year": 2015,
+    "query": "Ferrari LaFerrari F150 2015",
+    "tokens": [
+      "f150",
+      "laferrari"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Ferrari LaFerrari (2015) (53321819267).jpg",
+    "status": "ok",
+    "query_used": "pin:Ferrari LaFerrari (2015) (53321819267).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Ferrari LaFerrari (2015) (53321819267).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Ferrari_LaFerrari_%282015%29_%2853321819267%29.jpg/1920px-Ferrari_LaFerrari_%282015%29_%2853321819267%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ferrari_LaFerrari_(2015)_(53321819267).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Charles from Port Chester, New York",
+      "width": 5777,
+      "height": 3851
+    },
+    "alternates": []
+  },
+  {
+    "slug": "ferrari-testarossa-type-f110",
+    "car": "Ferrari Testarossa (Type F110)",
+    "make": "Ferrari",
+    "model": "Testarossa",
+    "code": "F110",
+    "body": "Coupe",
+    "year": 1988,
+    "query": "Ferrari Testarossa F110 1988",
+    "tokens": [
+      "f110",
+      "testarossa"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1988 Ferrari Testarossa (30567369747).jpg",
+    "status": "ok",
+    "query_used": "pin:1988 Ferrari Testarossa (30567369747).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1988 Ferrari Testarossa (30567369747).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/1988_Ferrari_Testarossa_%2830567369747%29.jpg/1920px-1988_Ferrari_Testarossa_%2830567369747%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1988_Ferrari_Testarossa_(30567369747).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Sicnag",
+      "width": 5184,
+      "height": 3456
+    },
+    "alternates": []
+  },
+  {
+    "slug": "fiat-124-spider-abarth",
+    "car": "Fiat 124 Spider (Abarth)",
+    "make": "Fiat",
+    "model": "124 Spider",
+    "code": "Abarth",
+    "body": "Roadster",
+    "year": 2017,
+    "query": "Fiat 124 Spider Abarth 2017",
+    "tokens": [
+      "124",
+      "abarth",
+      "spider"
+    ],
+    "avoid": [
+      "avant",
+      "coupe",
+      "estate",
+      "hardtop",
+      "kombi",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Fiat 124 Spider Abarth 2017",
+    "pick": {
+      "score": 8.41,
+      "reasons": [
+        "tokens:124,abarth,spider",
+        "year-match"
+      ],
+      "title": "File:2017 Abarth 124 Spider Multiair 1.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2017_Abarth_124_Spider_Multiair_1.jpg/1920px-2017_Abarth_124_Spider_Multiair_1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2017_Abarth_124_Spider_Multiair_1.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 2549,
+      "height": 1595
+    },
+    "alternates": [
+      {
+        "score": 8.4,
+        "reasons": [
+          "tokens:124,abarth,spider",
+          "year-match"
+        ],
+        "title": "File:R\u00e9tromobile 2017 - Abarth 124 Spider - 2017 - 001.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/R%C3%A9tromobile_2017_-_Abarth_124_Spider_-_2017_-_001.jpg/1920px-R%C3%A9tromobile_2017_-_Abarth_124_Spider_-_2017_-_001.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:R%C3%A9tromobile_2017_-_Abarth_124_Spider_-_2017_-_001.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Thesupermat",
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "score": 8.4,
+        "reasons": [
+          "tokens:124,abarth,spider",
+          "year-match"
+        ],
+        "title": "File:R\u00e9tromobile 2017 - Abarth 124 Spider - 2017 - 003.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/R%C3%A9tromobile_2017_-_Abarth_124_Spider_-_2017_-_003.jpg/1920px-R%C3%A9tromobile_2017_-_Abarth_124_Spider_-_2017_-_003.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:R%C3%A9tromobile_2017_-_Abarth_124_Spider_-_2017_-_003.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Thesupermat",
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "score": 8.36,
+        "reasons": [
+          "tokens:124,abarth,spider",
+          "year-match"
+        ],
+        "title": "File:2017 Abarth 124 Spider Multiair.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/2017_Abarth_124_Spider_Multiair.jpg/1920px-2017_Abarth_124_Spider_Multiair.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2017_Abarth_124_Spider_Multiair.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 2399,
+        "height": 1519
+      }
+    ]
+  },
+  {
+    "slug": "fiat-500-abarth",
+    "car": "Fiat 500 (Abarth)",
+    "make": "Fiat",
+    "model": "500",
+    "code": "Abarth",
+    "body": "Hatch",
+    "year": 2013,
+    "query": "Fiat 500 Abarth 2013",
+    "tokens": [
+      "500",
+      "abarth"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Fiat 500 Abarth 2013",
+    "pick": {
+      "score": 7.05,
+      "reasons": [
+        "tokens:500,abarth",
+        "year-match"
+      ],
+      "title": "File:2013 Fiat 500c Abarth (13181404273).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/2013_Fiat_500c_Abarth_%2813181404273%29.jpg/1920px-2013_Fiat_500c_Abarth_%2813181404273%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2013_Fiat_500c_Abarth_(13181404273).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Chris Yarzab from , USA",
+      "width": 3558,
+      "height": 2446
+    },
+    "alternates": [
+      {
+        "score": 6.95,
+        "reasons": [
+          "tokens:500,abarth",
+          "year-match"
+        ],
+        "title": "File:2012 Fiat 500 Abarth (8878219731).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/2012_Fiat_500_Abarth_%288878219731%29.jpg/1920px-2012_Fiat_500_Abarth_%288878219731%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2012_Fiat_500_Abarth_(8878219731).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Niels de Wit from Lunteren, The Netherlands",
+        "width": 1923,
+        "height": 1276
+      },
+      {
+        "score": 6.36,
+        "reasons": [
+          "tokens:500,abarth",
+          "year-match"
+        ],
+        "title": "File:2013 Fiat 500 Abarth - North American.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/2013_Fiat_500_Abarth_-_North_American.jpg/1920px-2013_Fiat_500_Abarth_-_North_American.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2013_Fiat_500_Abarth_-_North_American.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Archenok",
+        "width": 4608,
+        "height": 2176
+      },
+      {
+        "score": 5.98,
+        "reasons": [
+          "CC0/PD",
+          "tokens:500,abarth"
+        ],
+        "title": "File:Fiat Abarth 500 (Auto classique VACM Terrebonne '13).JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Fiat_Abarth_500_%28Auto_classique_VACM_Terrebonne_%2713%29.JPG/1920px-Fiat_Abarth_500_%28Auto_classique_VACM_Terrebonne_%2713%29.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Fiat_Abarth_500_(Auto_classique_VACM_Terrebonne_%2713).JPG",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 2097,
+        "height": 1669
+      }
+    ]
+  },
+  {
+    "slug": "fiat-x1-9-bertone",
+    "car": "Fiat X1/9 (Bertone)",
+    "make": "Fiat",
+    "model": "X1/9",
+    "code": "Bertone",
+    "body": "Coupe",
+    "year": 1979,
+    "query": "Fiat X1/9 Bertone 1979",
+    "tokens": [
+      "bertone",
+      "x1/9"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Fiat X1/9 Bertone 1979",
+    "pick": {
+      "score": 4.8,
+      "reasons": [
+        "year-match"
+      ],
+      "title": "File:1978 Fiat X1-9 sports (30922809300).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/1978_Fiat_X1-9_sports_%2830922809300%29.jpg/1920px-1978_Fiat_X1-9_sports_%2830922809300%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1978_Fiat_X1-9_sports_(30922809300).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Sicnag",
+      "width": 5184,
+      "height": 3456
+    },
+    "alternates": []
+  },
+  {
+    "slug": "ford-bronco-6th-gen-u725",
+    "car": "Ford Bronco (6th Gen (U725))",
+    "make": "Ford",
+    "model": "Bronco",
+    "code": "",
+    "body": "SUV",
+    "year": 2021,
+    "query": "Ford Bronco 2021",
+    "tokens": [
+      "bronco"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Bronco 2021",
+    "pick": {
+      "score": 8.57,
+      "reasons": [
+        "tokens:bronco",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2021 Ford Bronco Big Bend, Front Right, 07-11-2021.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/2021_Ford_Bronco_Big_Bend%2C_Front_Right%2C_07-11-2021.jpg/1920px-2021_Ford_Bronco_Big_Bend%2C_Front_Right%2C_07-11-2021.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2021_Ford_Bronco_Big_Bend,_Front_Right,_07-11-2021.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "SsmIntrigue",
+      "width": 3348,
+      "height": 2124
+    },
+    "alternates": [
+      {
+        "score": 8.36,
+        "reasons": [
+          "tokens:bronco",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2021 Ford Bronco Sport Badlands front view.png",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/2/22/2021_Ford_Bronco_Sport_Badlands_front_view.png",
+        "page": "https://commons.wikimedia.org/wiki/File:2021_Ford_Bronco_Sport_Badlands_front_view.png",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "SUMMITAUTO",
+        "width": 1732,
+        "height": 1065
+      },
+      {
+        "score": 8.35,
+        "reasons": [
+          "tokens:bronco",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2021 Ford Bronco Outer Banks 4-dr in Area 51, front right.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/2021_Ford_Bronco_Outer_Banks_4-dr_in_Area_51%2C_front_right.jpg/1920px-2021_Ford_Bronco_Outer_Banks_4-dr_in_Area_51%2C_front_right.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2021_Ford_Bronco_Outer_Banks_4-dr_in_Area_51,_front_right.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Mr.choppers",
+        "width": 5104,
+        "height": 3576
+      },
+      {
+        "score": 8.11,
+        "reasons": [
+          "tokens:bronco",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2021 Ford Bronco Outer Banks, Front Right, 10-10-2021.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/2021_Ford_Bronco_Outer_Banks%2C_Front_Right%2C_10-10-2021.jpg/1920px-2021_Ford_Bronco_Outer_Banks%2C_Front_Right%2C_10-10-2021.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2021_Ford_Bronco_Outer_Banks,_Front_Right,_10-10-2021.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Elise240SX",
+        "width": 3876,
+        "height": 2052
+      }
+    ]
+  },
+  {
+    "slug": "ford-bronco-raptor-u725",
+    "car": "Ford Bronco Raptor (U725)",
+    "make": "Ford",
+    "model": "Bronco Raptor",
+    "code": "U725",
+    "body": "SUV",
+    "year": 2022,
+    "query": "Ford Bronco Raptor U725 2022",
+    "tokens": [
+      "bronco",
+      "raptor",
+      "u725"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Ford Bronco Raptor (2024) (53621271856).jpg",
+    "status": "ok",
+    "query_used": "pin:Ford Bronco Raptor (2024) (53621271856).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Ford Bronco Raptor (2024) (53621271856).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Ford_Bronco_Raptor_%282024%29_%2853621271856%29.jpg/1920px-Ford_Bronco_Raptor_%282024%29_%2853621271856%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ford_Bronco_Raptor_(2024)_(53621271856).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Charles from Port Chester, New York",
+      "width": 4896,
+      "height": 3672
+    },
+    "alternates": []
+  },
+  {
+    "slug": "ford-edge-2nd-gen",
+    "car": "Ford Edge (2nd Gen)",
+    "make": "Ford",
+    "model": "Edge",
+    "code": "",
+    "body": "SUV",
+    "year": 2016,
+    "query": "Ford Edge 2016",
+    "tokens": [
+      "edge"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Edge 2016",
+    "pick": {
+      "score": 8.15,
+      "reasons": [
+        "tokens:edge",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2016 Ford Edge SEL in Magnetic Metallic, Front Right, 07-30-2023.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/2016_Ford_Edge_SEL_in_Magnetic_Metallic%2C_Front_Right%2C_07-30-2023.jpg/1920px-2016_Ford_Edge_SEL_in_Magnetic_Metallic%2C_Front_Right%2C_07-30-2023.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2016_Ford_Edge_SEL_in_Magnetic_Metallic,_Front_Right,_07-30-2023.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Elise240SX",
+      "width": 3439,
+      "height": 1869
+    },
+    "alternates": [
+      {
+        "score": 6.92,
+        "reasons": [
+          "tokens:edge",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:Ford Edge SEL 3.5 AWD 2016 (35553409571).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Ford_Edge_SEL_3.5_AWD_2016_%2835553409571%29.jpg/1920px-Ford_Edge_SEL_3.5_AWD_2016_%2835553409571%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford_Edge_SEL_3.5_AWD_2016_(35553409571).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "RL GNZLZ from Chile",
+        "width": 3600,
+        "height": 2100
+      },
+      {
+        "score": 6.15,
+        "reasons": [
+          "tokens:edge",
+          "year-match"
+        ],
+        "title": "File:2016 Ford Edge Sport TDCi Automatic 2.0.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/2016_Ford_Edge_Sport_TDCi_Automatic_2.0.jpg/1920px-2016_Ford_Edge_Sport_TDCi_Automatic_2.0.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2016_Ford_Edge_Sport_TDCi_Automatic_2.0.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Vauxford",
+        "width": 3967,
+        "height": 2446
+      },
+      {
+        "score": 5.84,
+        "reasons": [
+          "tokens:edge",
+          "year-match"
+        ],
+        "title": "File:Ford Edge SEL 2016 (53702624882).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ford_Edge_SEL_2016_%2853702624882%29.jpg/1920px-Ford_Edge_SEL_2016_%2853702624882%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford_Edge_SEL_2016_(53702624882).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "RL GNZLZ from Chile",
+        "width": 3984,
+        "height": 2242
+      }
+    ]
+  },
+  {
+    "slug": "ford-escape-4th-gen",
+    "car": "Ford Escape (4th Gen)",
+    "make": "Ford",
+    "model": "Escape",
+    "code": "",
+    "body": "SUV",
+    "year": 2020,
+    "query": "Ford Escape 2020",
+    "tokens": [
+      "escape"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Escape 2020",
+    "pick": {
+      "score": 8.66,
+      "reasons": [
+        "tokens:escape",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2020 Ford Escape SEL 02-15-2020 Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/2020_Ford_Escape_SEL_02-15-2020_Front.jpg/1920px-2020_Ford_Escape_SEL_02-15-2020_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Escape_SEL_02-15-2020_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "SsmIntrigue",
+      "width": 3960,
+      "height": 2448
+    },
+    "alternates": [
+      {
+        "score": 8.57,
+        "reasons": [
+          "tokens:escape",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2020 Ford Escape SEL, front 7.11.20.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/2020_Ford_Escape_SEL%2C_front_7.11.20.jpg/1920px-2020_Ford_Escape_SEL%2C_front_7.11.20.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Escape_SEL,_front_7.11.20.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kevauto",
+        "width": 4152,
+        "height": 2493
+      },
+      {
+        "score": 8.54,
+        "reasons": [
+          "tokens:escape",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2020 Ford Escape Hybrid front NYIAS 2019.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/2020_Ford_Escape_Hybrid_front_NYIAS_2019.jpg/1920px-2020_Ford_Escape_Hybrid_front_NYIAS_2019.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Escape_Hybrid_front_NYIAS_2019.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kevauto",
+        "width": 4985,
+        "height": 2966
+      },
+      {
+        "score": 8.48,
+        "reasons": [
+          "tokens:escape",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2020 Ford Escape Titanium, front 2.29.20.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/2020_Ford_Escape_Titanium%2C_front_2.29.20.jpg/1920px-2020_Ford_Escape_Titanium%2C_front_2.29.20.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Escape_Titanium,_front_2.29.20.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Kevauto",
+        "width": 2774,
+        "height": 1770
+      }
+    ]
+  },
+  {
+    "slug": "ford-escort-rs-cosworth",
+    "car": "Ford Escort (RS Cosworth)",
+    "make": "Ford",
+    "model": "Escort",
+    "code": "RS",
+    "body": "Hatch",
+    "year": 1994,
+    "query": "Ford Escort RS 1994",
+    "tokens": [
+      "escort",
+      "rs"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Escort RS 1994",
+    "pick": {
+      "score": 9.3,
+      "reasons": [
+        "CC0/PD",
+        "tokens:escort,rs",
+        "year-match"
+      ],
+      "title": "File:Ford Escort RS Cosworth (1994) (54874417851).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Ford_Escort_RS_Cosworth_%281994%29_%2854874417851%29.jpg/1920px-Ford_Escort_RS_Cosworth_%281994%29_%2854874417851%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ford_Escort_RS_Cosworth_(1994)_(54874417851).jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Charles from Port Chester, New York",
+      "width": 5867,
+      "height": 3783
+    },
+    "alternates": [
+      {
+        "score": 9.08,
+        "reasons": [
+          "CC0/PD",
+          "tokens:escort,rs",
+          "year-match"
+        ],
+        "title": "File:Ford Escort RS Cosworth (1994) (54874648508).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Ford_Escort_RS_Cosworth_%281994%29_%2854874648508%29.jpg/1920px-Ford_Escort_RS_Cosworth_%281994%29_%2854874648508%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford_Escort_RS_Cosworth_(1994)_(54874648508).jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Charles from Port Chester, New York",
+        "width": 5209,
+        "height": 3619
+      },
+      {
+        "score": 7.33,
+        "reasons": [
+          "tokens:escort,rs",
+          "year-match"
+        ],
+        "title": "File:1994 Ford Escort RS Cosworth 2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/1994_Ford_Escort_RS_Cosworth_2.jpg/1920px-1994_Ford_Escort_RS_Cosworth_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1994_Ford_Escort_RS_Cosworth_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 14244,
+        "height": 9098
+      },
+      {
+        "score": 7.28,
+        "reasons": [
+          "tokens:escort,rs",
+          "year-match"
+        ],
+        "title": "File:Ford Escort RS Cosworth (1994) (54092704075).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Ford_Escort_RS_Cosworth_%281994%29_%2854092704075%29.jpg/1920px-Ford_Escort_RS_Cosworth_%281994%29_%2854092704075%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford_Escort_RS_Cosworth_(1994)_(54092704075).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 5828,
+        "height": 3779
+      }
+    ]
+  },
+  {
+    "slug": "ford-explorer-6th-gen-u625",
+    "car": "Ford Explorer (6th Gen (U625))",
+    "make": "Ford",
+    "model": "Explorer",
+    "code": "",
+    "body": "SUV",
+    "year": 2020,
+    "query": "Ford Explorer 2020",
+    "tokens": [
+      "explorer"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Explorer 2020",
+    "pick": {
+      "score": 8.4,
+      "reasons": [
+        "tokens:explorer",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2020 Ford Explorer XLT 02-15-2020 Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/2020_Ford_Explorer_XLT_02-15-2020_Front.jpg/1920px-2020_Ford_Explorer_XLT_02-15-2020_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Explorer_XLT_02-15-2020_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "SsmIntrigue",
+      "width": 4032,
+      "height": 2304
+    },
+    "alternates": [
+      {
+        "score": 5.9,
+        "reasons": [
+          "tokens:explorer",
+          "year-match"
+        ],
+        "title": "File:2020 Ford Explorer ST, 12.5.19.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/2020_Ford_Explorer_ST%2C_12.5.19.jpg/1920px-2020_Ford_Explorer_ST%2C_12.5.19.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Explorer_ST,_12.5.19.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Ghostofakina",
+        "width": 2372,
+        "height": 1440
+      },
+      {
+        "score": 5.87,
+        "reasons": [
+          "tokens:explorer",
+          "year-match"
+        ],
+        "title": "File:2020 Ford Explorer (sixth generation) 2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/2020_Ford_Explorer_%28sixth_generation%29_2.jpg/1920px-2020_Ford_Explorer_%28sixth_generation%29_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Explorer_(sixth_generation)_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Benespit",
+        "width": 2650,
+        "height": 1746
+      },
+      {
+        "score": 5.86,
+        "reasons": [
+          "tokens:explorer",
+          "year-match"
+        ],
+        "title": "File:2020 Ford Explorer (sixth generation) 1.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/2020_Ford_Explorer_%28sixth_generation%29_1.jpg/1920px-2020_Ford_Explorer_%28sixth_generation%29_1.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Explorer_(sixth_generation)_1.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Benespit",
+        "width": 2296,
+        "height": 1494
+      }
+    ]
+  },
+  {
+    "slug": "ford-f-150-14th-gen",
+    "car": "Ford F-150 (14th Gen)",
+    "make": "Ford",
+    "model": "F-150",
+    "code": "",
+    "body": "Truck",
+    "year": 2021,
+    "query": "Ford F-150 2021",
+    "tokens": [
+      "f-150"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford F-150 2021",
+    "pick": {
+      "score": 8.42,
+      "reasons": [
+        "tokens:f-150",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2021 Ford F-150 SuperCrew, front 4.28.21.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/2021_Ford_F-150_SuperCrew%2C_front_4.28.21.jpg/1920px-2021_Ford_F-150_SuperCrew%2C_front_4.28.21.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2021_Ford_F-150_SuperCrew,_front_4.28.21.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 4423,
+      "height": 2544
+    },
+    "alternates": [
+      {
+        "score": 8.29,
+        "reasons": [
+          "tokens:f-150",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2021 Ford F-150 (fourteenth generation) front view 01.png",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/2021_Ford_F-150_%28fourteenth_generation%29_front_view_01.png/1920px-2021_Ford_F-150_%28fourteenth_generation%29_front_view_01.png",
+        "page": "https://commons.wikimedia.org/wiki/File:2021_Ford_F-150_(fourteenth_generation)_front_view_01.png",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "Gold Pony",
+        "width": 3438,
+        "height": 1943
+      },
+      {
+        "score": 8.29,
+        "reasons": [
+          "tokens:f-150",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2021 Ford F-150 (fourteenth generation) front view 02.png",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/2021_Ford_F-150_%28fourteenth_generation%29_front_view_02.png/1920px-2021_Ford_F-150_%28fourteenth_generation%29_front_view_02.png",
+        "page": "https://commons.wikimedia.org/wiki/File:2021_Ford_F-150_(fourteenth_generation)_front_view_02.png",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "artist": "Gold Pony",
+        "width": 3557,
+        "height": 2001
+      },
+      {
+        "score": 7.65,
+        "reasons": [
+          "CC0/PD",
+          "tokens:f-150",
+          "year-match"
+        ],
+        "title": "File:2021 Ford F-150 Double Cab.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/2021_Ford_F-150_Double_Cab.jpg/1920px-2021_Ford_F-150_Double_Cab.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2021_Ford_F-150_Double_Cab.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 2318,
+        "height": 1623
+      }
+    ]
+  },
+  {
+    "slug": "ford-f-150-lightning-ev",
+    "car": "Ford F-150 Lightning (EV)",
+    "make": "Ford",
+    "model": "F-150 Lightning",
+    "code": "EV",
+    "body": "Truck",
+    "year": 2022,
+    "query": "Ford F-150 Lightning EV 2022",
+    "tokens": [
+      "ev",
+      "f-150",
+      "lightning"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford F-150 Lightning 2022",
+    "pick": {
+      "score": 9.47,
+      "reasons": [
+        "tokens:f-150,lightning",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2022 Ford F-150 Lightning Lariat in Atlas Blue Metallic, Front Right, 08-06-2022.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/2022_Ford_F-150_Lightning_Lariat_in_Atlas_Blue_Metallic%2C_Front_Right%2C_08-06-2022.jpg/1920px-2022_Ford_F-150_Lightning_Lariat_in_Atlas_Blue_Metallic%2C_Front_Right%2C_08-06-2022.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2022_Ford_F-150_Lightning_Lariat_in_Atlas_Blue_Metallic,_Front_Right,_08-06-2022.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Elise240SX",
+      "width": 4738,
+      "height": 2610
+    },
+    "alternates": [
+      {
+        "score": 9.2,
+        "reasons": [
+          "CC0/PD",
+          "tokens:f-150,lightning",
+          "year-match"
+        ],
+        "title": "File:Ford F-150 Lightning at the 2022 Greater Los Angeles Auto Show.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Ford_F-150_Lightning_at_the_2022_Greater_Los_Angeles_Auto_Show.jpg/1920px-Ford_F-150_Lightning_at_the_2022_Greater_Los_Angeles_Auto_Show.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford_F-150_Lightning_at_the_2022_Greater_Los_Angeles_Auto_Show.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "Stacy Sheff from Los Angeles, USA",
+        "width": 4000,
+        "height": 2667
+      },
+      {
+        "score": 8.87,
+        "reasons": [
+          "CC0/PD",
+          "tokens:f-150,lightning",
+          "year-match"
+        ],
+        "title": "File:2023 Ford F-150 Lightning.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/2023_Ford_F-150_Lightning.jpg/1920px-2023_Ford_F-150_Lightning.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2023_Ford_F-150_Lightning.jpg",
+        "license": "CC0",
+        "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "artist": "WMrapids",
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "score": 7.31,
+        "reasons": [
+          "tokens:f-150,lightning",
+          "year-match"
+        ],
+        "title": "File:2022 Ford F-150 Lightning (27478).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/2022_Ford_F-150_Lightning_%2827478%29.jpg/1920px-2022_Ford_F-150_Lightning_%2827478%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2022_Ford_F-150_Lightning_(27478).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 3960,
+        "height": 2410
+      }
+    ]
+  },
+  {
+    "slug": "ford-f-150-raptor-2nd-gen",
+    "car": "Ford F-150 Raptor (2nd Gen)",
+    "make": "Ford",
+    "model": "F-150 Raptor",
+    "code": "",
+    "body": "Truck",
+    "year": 2019,
+    "query": "Ford F-150 Raptor 2019",
+    "tokens": [
+      "f-150",
+      "raptor"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford F-150 Raptor 2019",
+    "pick": {
+      "score": 9.67,
+      "reasons": [
+        "tokens:f-150,raptor",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2019 Ford F-150 Raptor 4x4 SuperCrew 5.5' Box in Ruby Red Metallic Tinted Clearcoat, Front Left, 2024-03-08.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2019_Ford_F-150_Raptor_4x4_SuperCrew_5.5%27_Box_in_Ruby_Red_Metallic_Tinted_Clearcoat%2C_Front_Left%2C_2024-03-08.jpg/1920px-2019_Ford_F-150_Raptor_4x4_SuperCrew_5.5%27_Box_in_Ruby_Red_Metallic_Tinted_Clearcoat%2C_Front_Left%2C_2024-03-08.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2019_Ford_F-150_Raptor_4x4_SuperCrew_5.5%27_Box_in_Ruby_Red_Metallic_Tinted_Clearcoat,_Front_Left,_2024-03-08.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Elise240SX",
+      "width": 2993,
+      "height": 1811
+    },
+    "alternates": [
+      {
+        "score": 8.54,
+        "reasons": [
+          "CC0/PD",
+          "tokens:f-150,raptor",
+          "year-match"
+        ],
+        "title": "File:2019 Ford F-150 Raptor au SIAM 2019.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/2019_Ford_F-150_Raptor_au_SIAM_2019.jpg/1920px-2019_Ford_F-150_Raptor_au_SIAM_2019.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2019_Ford_F-150_Raptor_au_SIAM_2019.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "Bull-Doser",
+        "width": 2793,
+        "height": 2241
+      },
+      {
+        "score": 7.99,
+        "reasons": [
+          "tokens:f-150,raptor",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:2017 Ford F-150 Raptor 3.5 V6 EcoBoost (47503480642).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/2017_Ford_F-150_Raptor_3.5_V6_EcoBoost_%2847503480642%29.jpg/1920px-2017_Ford_F-150_Raptor_3.5_V6_EcoBoost_%2847503480642%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2017_Ford_F-150_Raptor_3.5_V6_EcoBoost_(47503480642).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Rutger van der Maar",
+        "width": 2048,
+        "height": 1348
+      },
+      {
+        "score": 7.04,
+        "reasons": [
+          "tokens:f-150,raptor",
+          "year-match"
+        ],
+        "title": "File:Ford F-150 Raptor 3.5T 2018 (45840639514).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Ford_F-150_Raptor_3.5T_2018_%2845840639514%29.jpg/1920px-Ford_F-150_Raptor_3.5T_2018_%2845840639514%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford_F-150_Raptor_3.5T_2018_(45840639514).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "RL GNZLZ from Chile",
+        "width": 4000,
+        "height": 2250
+      }
+    ]
+  },
+  {
+    "slug": "ford-f-150-svt-lightning",
+    "car": "Ford F-150 (SVT Lightning)",
+    "make": "Ford",
+    "model": "F-150",
+    "code": "SVT",
+    "body": "Truck",
+    "year": 1999,
+    "query": "Ford F-150 SVT 1999",
+    "tokens": [
+      "f-150",
+      "svt"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford F-150 SVT 1999",
+    "pick": {
+      "score": 6.66,
+      "reasons": [
+        "tokens:f-150,svt",
+        "year-match"
+      ],
+      "title": "File:2000 Ford F-150 SVT Lightning 5.4.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/2000_Ford_F-150_SVT_Lightning_5.4.jpg/1920px-2000_Ford_F-150_SVT_Lightning_5.4.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2000_Ford_F-150_SVT_Lightning_5.4.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 2938,
+      "height": 1543
+    },
+    "alternates": [
+      {
+        "score": 4.88,
+        "reasons": [
+          "CC0/PD",
+          "tokens:svt"
+        ],
+        "title": "File:Ford-F150-SVT-Lightning.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Ford-F150-SVT-Lightning.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford-F150-SVT-Lightning.jpg",
+        "license": "Public domain",
+        "license_url": "",
+        "artist": "IFCAR",
+        "width": 1812,
+        "height": 968
+      },
+      {
+        "score": 4.53,
+        "reasons": [
+          "year-match"
+        ],
+        "title": "File:2003 Ford F150 Harley Davidson And 2001 Ford F150 Lightning (12882168305).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/2003_Ford_F150_Harley_Davidson_And_2001_Ford_F150_Lightning_%2812882168305%29.jpg/1920px-2003_Ford_F150_Harley_Davidson_And_2001_Ford_F150_Lightning_%2812882168305%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2003_Ford_F150_Harley_Davidson_And_2001_Ford_F150_Lightning_(12882168305).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Kieran White from Manchester, England",
+        "width": 3072,
+        "height": 1728
+      },
+      {
+        "score": 4.46,
+        "reasons": [
+          "tokens:f-150,svt"
+        ],
+        "title": "File:Ford F-150 SVT Lightning.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Ford_F-150_SVT_Lightning.jpg/1920px-Ford_F-150_SVT_Lightning.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford_F-150_SVT_Lightning.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 3956,
+        "height": 2857
+      }
+    ]
+  },
+  {
+    "slug": "ford-fiesta-6th-gen",
+    "car": "Ford Fiesta (6th Gen)",
+    "make": "Ford",
+    "model": "Fiesta",
+    "code": "",
+    "body": "Hatch",
+    "year": 2014,
+    "query": "Ford Fiesta 2014",
+    "tokens": [
+      "fiesta"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Fiesta 2014",
+    "pick": {
+      "score": 8.89,
+      "reasons": [
+        "CC0/PD",
+        "tokens:fiesta",
+        "good-angle",
+        "year-match"
+      ],
+      "title": "File:Ford Fiesta in red parked beside metal fencing - 2014 registration RJ14 HZV on Motor Lane, Gillingham.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Ford_Fiesta_in_red_parked_beside_metal_fencing_-_2014_registration_RJ14_HZV_on_Motor_Lane%2C_Gillingham.jpg/1920px-Ford_Fiesta_in_red_parked_beside_metal_fencing_-_2014_registration_RJ14_HZV_on_Motor_Lane%2C_Gillingham.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ford_Fiesta_in_red_parked_beside_metal_fencing_-_2014_registration_RJ14_HZV_on_Motor_Lane,_Gillingham.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "OathOn",
+      "width": 3024,
+      "height": 2005
+    },
+    "alternates": [
+      {
+        "score": 8.32,
+        "reasons": [
+          "tokens:fiesta",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2014 Ford Fiesta Titanium X EcoBoost 1.0 Front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/2014_Ford_Fiesta_Titanium_X_EcoBoost_1.0_Front.jpg/1920px-2014_Ford_Fiesta_Titanium_X_EcoBoost_1.0_Front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2014_Ford_Fiesta_Titanium_X_EcoBoost_1.0_Front.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Makizox",
+        "width": 3868,
+        "height": 2172
+      },
+      {
+        "score": 8.08,
+        "reasons": [
+          "tokens:fiesta",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2014 Ford Fiesta Zetec - 1242cc 1.25 (82PS) Petrol - White - 05-2024, Front.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/2014_Ford_Fiesta_Zetec_-_1242cc_1.25_%2882PS%29_Petrol_-_White_-_05-2024%2C_Front.jpg/1920px-2014_Ford_Fiesta_Zetec_-_1242cc_1.25_%2882PS%29_Petrol_-_White_-_05-2024%2C_Front.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2014_Ford_Fiesta_Zetec_-_1242cc_1.25_(82PS)_Petrol_-_White_-_05-2024,_Front.jpg",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0",
+        "artist": "Harvey Bold",
+        "width": 4199,
+        "height": 2201
+      },
+      {
+        "score": 6.68,
+        "reasons": [
+          "tokens:fiesta",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:WRC Ford Fiesta going sideways in Rally Poland 2014.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/WRC_Ford_Fiesta_going_sideways_in_Rally_Poland_2014.jpg/1920px-WRC_Ford_Fiesta_going_sideways_in_Rally_Poland_2014.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:WRC_Ford_Fiesta_going_sideways_in_Rally_Poland_2014.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Mantas Volungevicius",
+        "width": 4558,
+        "height": 2452
+      }
+    ]
+  },
+  {
+    "slug": "ford-fiesta-st-mk7",
+    "car": "Ford Fiesta ST (Mk7)",
+    "make": "Ford",
+    "model": "Fiesta ST",
+    "code": "Mk7",
+    "body": "Hatch",
+    "year": 2016,
+    "query": "Ford Fiesta ST Mk7 2016",
+    "tokens": [
+      "fiesta",
+      "mk7",
+      "st"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Fiesta ST 2016",
+    "pick": {
+      "score": 9.72,
+      "reasons": [
+        "tokens:fiesta,st",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2016 Ford Fiesta ST, Kona Blue, front left.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/2016_Ford_Fiesta_ST%2C_Kona_Blue%2C_front_left.jpg/1920px-2016_Ford_Fiesta_ST%2C_Kona_Blue%2C_front_left.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2016_Ford_Fiesta_ST,_Kona_Blue,_front_left.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5195,
+      "height": 3436
+    },
+    "alternates": [
+      {
+        "score": 8.22,
+        "reasons": [
+          "tokens:fiesta,st",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:Ford Fiesta ST (2016) (53483518586).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Ford_Fiesta_ST_%282016%29_%2853483518586%29.jpg/1920px-Ford_Fiesta_ST_%282016%29_%2853483518586%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford_Fiesta_ST_(2016)_(53483518586).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 4908,
+        "height": 3254
+      },
+      {
+        "score": 7.87,
+        "reasons": [
+          "tokens:fiesta,st",
+          "good-angle",
+          "year-match"
+        ],
+        "title": "File:Ford Fiesta ST (2016) (52134038918).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Ford_Fiesta_ST_%282016%29_%2852134038918%29.jpg/1920px-Ford_Fiesta_ST_%282016%29_%2852134038918%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford_Fiesta_ST_(2016)_(52134038918).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 4032,
+        "height": 3024
+      },
+      {
+        "score": 7.22,
+        "reasons": [
+          "tokens:fiesta,st",
+          "year-match"
+        ],
+        "title": "File:-68 Niclas Gr\u00f6nholm - Ford Fiesta ST Supercar - World Rallycross 2016 - Lydden Hill (26707937963).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/-68_Niclas_Gr%C3%B6nholm_-_Ford_Fiesta_ST_Supercar_-_World_Rallycross_2016_-_Lydden_Hill_%2826707937963%29.jpg/1920px--68_Niclas_Gr%C3%B6nholm_-_Ford_Fiesta_ST_Supercar_-_World_Rallycross_2016_-_Lydden_Hill_%2826707937963%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:-68_Niclas_Gr%C3%B6nholm_-_Ford_Fiesta_ST_Supercar_-_World_Rallycross_2016_-_Lydden_Hill_(26707937963).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Mark Seymour from UK",
+        "width": 4928,
+        "height": 3264
+      }
+    ]
+  },
+  {
+    "slug": "ford-focus-3rd-gen-c346",
+    "car": "Ford Focus (3rd Gen (C346))",
+    "make": "Ford",
+    "model": "Focus",
+    "code": "",
+    "body": "Hatch",
+    "year": 2012,
+    "query": "Ford Focus 2012",
+    "tokens": [
+      "focus"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2013 Ford Focus SE in Blue Candy Metallic Tinted Clearcoat, Front Left, 06-26-2022.jpg",
+    "status": "ok",
+    "query_used": "pin:2013 Ford Focus SE in Blue Candy Metallic Tinted Clearcoat, Front Left, 06-26-2022.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2013 Ford Focus SE in Blue Candy Metallic Tinted Clearcoat, Front Left, 06-26-2022.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2013_Ford_Focus_SE_in_Blue_Candy_Metallic_Tinted_Clearcoat%2C_Front_Left%2C_06-26-2022.jpg/1920px-2013_Ford_Focus_SE_in_Blue_Candy_Metallic_Tinted_Clearcoat%2C_Front_Left%2C_06-26-2022.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2013_Ford_Focus_SE_in_Blue_Candy_Metallic_Tinted_Clearcoat,_Front_Left,_06-26-2022.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Elise240SX",
+      "width": 3835,
+      "height": 2430
+    },
+    "alternates": []
+  },
+  {
+    "slug": "ford-focus-rs-mk3",
+    "car": "Ford Focus RS (Mk3)",
+    "make": "Ford",
+    "model": "Focus RS",
+    "code": "Mk3",
+    "body": "Hatch",
+    "year": 2017,
+    "query": "Ford Focus RS Mk3 2017",
+    "tokens": [
+      "focus",
+      "mk3",
+      "rs"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Focus RS Mk3 2017",
+    "pick": {
+      "score": 6.82,
+      "reasons": [
+        "tokens:focus,rs",
+        "year-match"
+      ],
+      "title": "File:Ford Focus RS Mk III, 2016.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Ford_Focus_RS_Mk_III%2C_2016.jpg/1920px-Ford_Focus_RS_Mk_III%2C_2016.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ford_Focus_RS_Mk_III,_2016.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Cjp24",
+      "width": 3600,
+      "height": 2700
+    },
+    "alternates": []
+  },
+  {
+    "slug": "ford-focus-st-mk3",
+    "car": "Ford Focus ST (Mk3)",
+    "make": "Ford",
+    "model": "Focus ST",
+    "code": "Mk3",
+    "body": "Hatch",
+    "year": 2015,
+    "query": "Ford Focus ST Mk3 2015",
+    "tokens": [
+      "focus",
+      "mk3",
+      "st"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2015 Ford Focus ST, Front Left, 04-04-2021.jpg",
+    "status": "ok",
+    "query_used": "pin:2015 Ford Focus ST, Front Left, 04-04-2021.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2015 Ford Focus ST, Front Left, 04-04-2021.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/2015_Ford_Focus_ST%2C_Front_Left%2C_04-04-2021.jpg/1920px-2015_Ford_Focus_ST%2C_Front_Left%2C_04-04-2021.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2015_Ford_Focus_ST,_Front_Left,_04-04-2021.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "SsmIntrigue",
+      "width": 3276,
+      "height": 1584
+    },
+    "alternates": []
+  },
+  {
+    "slug": "ford-focus-svt-mk1",
+    "car": "Ford Focus SVT (Mk1)",
+    "make": "Ford",
+    "model": "Focus SVT",
+    "code": "Mk1",
+    "body": "Hatch",
+    "year": 2003,
+    "query": "Ford Focus SVT Mk1 2003",
+    "tokens": [
+      "focus",
+      "mk1",
+      "svt"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Focus SVT 2003",
+    "pick": {
+      "score": 9.02,
+      "reasons": [
+        "tokens:focus,svt",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2003 Ford SVT Focus ZX3 in CD Silver Metallic, Front Left, 11-05-2022.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/2003_Ford_SVT_Focus_ZX3_in_CD_Silver_Metallic%2C_Front_Left%2C_11-05-2022.jpg/1920px-2003_Ford_SVT_Focus_ZX3_in_CD_Silver_Metallic%2C_Front_Left%2C_11-05-2022.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2003_Ford_SVT_Focus_ZX3_in_CD_Silver_Metallic,_Front_Left,_11-05-2022.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Elise240SX",
+      "width": 3714,
+      "height": 1836
+    },
+    "alternates": [
+      {
+        "score": 7.11,
+        "reasons": [
+          "tokens:focus,svt",
+          "year-match"
+        ],
+        "title": "File:2003 Ford Focus SVT.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/2003_Ford_Focus_SVT.jpg/1920px-2003_Ford_Focus_SVT.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2003_Ford_Focus_SVT.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "DestinationFearFan",
+        "width": 2296,
+        "height": 1402
+      },
+      {
+        "score": 3.91,
+        "reasons": [
+          "tokens:focus,svt",
+          "bad-angle",
+          "year-match"
+        ],
+        "title": "File:2003 Ford SVT Focus ZX3 in CD Silver Metallic, Rear Left, 11-05-2022.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/2003_Ford_SVT_Focus_ZX3_in_CD_Silver_Metallic%2C_Rear_Left%2C_11-05-2022.jpg/1920px-2003_Ford_SVT_Focus_ZX3_in_CD_Silver_Metallic%2C_Rear_Left%2C_11-05-2022.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2003_Ford_SVT_Focus_ZX3_in_CD_Silver_Metallic,_Rear_Left,_11-05-2022.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Elise240SX",
+        "width": 3460,
+        "height": 1679
+      }
+    ]
+  },
+  {
+    "slug": "ford-fusion-2nd-gen-cd4",
+    "car": "Ford Fusion (2nd Gen (CD4))",
+    "make": "Ford",
+    "model": "Fusion",
+    "code": "",
+    "body": "Sedan",
+    "year": 2014,
+    "query": "Ford Fusion 2014",
+    "tokens": [
+      "fusion"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Fusion 2014",
+    "pick": {
+      "score": 5.88,
+      "reasons": [
+        "tokens:fusion",
+        "year-match"
+      ],
+      "title": "File:Ford Fusion Hybrid Titanium SAO 2014 0248.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Ford_Fusion_Hybrid_Titanium_SAO_2014_0248.JPG/1920px-Ford_Fusion_Hybrid_Titanium_SAO_2014_0248.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:Ford_Fusion_Hybrid_Titanium_SAO_2014_0248.JPG",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Mariordo (Mario Roberto Duran Ortiz)",
+      "width": 3000,
+      "height": 2000
+    },
+    "alternates": [
+      {
+        "score": 5.88,
+        "reasons": [
+          "tokens:fusion",
+          "year-match"
+        ],
+        "title": "File:Ford Fusion Hybrid Titanium SAO 2014 0250.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Ford_Fusion_Hybrid_Titanium_SAO_2014_0250.JPG/1920px-Ford_Fusion_Hybrid_Titanium_SAO_2014_0250.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford_Fusion_Hybrid_Titanium_SAO_2014_0250.JPG",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Mariordo (Mario Roberto Duran Ortiz)",
+        "width": 3000,
+        "height": 2000
+      },
+      {
+        "score": 5.88,
+        "reasons": [
+          "tokens:fusion",
+          "year-match"
+        ],
+        "title": "File:Ford Fusion Hybrid Titanium SAO 2014 0252.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Ford_Fusion_Hybrid_Titanium_SAO_2014_0252.JPG/1920px-Ford_Fusion_Hybrid_Titanium_SAO_2014_0252.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford_Fusion_Hybrid_Titanium_SAO_2014_0252.JPG",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Mariordo (Mario Roberto Duran Ortiz)",
+        "width": 3000,
+        "height": 2000
+      },
+      {
+        "score": 5.87,
+        "reasons": [
+          "tokens:fusion",
+          "year-match"
+        ],
+        "title": "File:Ford Fusion Hybrid Titanium SAO 2014 0251.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Ford_Fusion_Hybrid_Titanium_SAO_2014_0251.JPG/1920px-Ford_Fusion_Hybrid_Titanium_SAO_2014_0251.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford_Fusion_Hybrid_Titanium_SAO_2014_0251.JPG",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Mariordo (Mario Roberto Duran Ortiz)",
+        "width": 3000,
+        "height": 2001
+      }
+    ]
+  },
+  {
+    "slug": "ford-gt-2nd-gen",
+    "car": "Ford GT (2nd Gen)",
+    "make": "Ford",
+    "model": "GT",
+    "code": "",
+    "body": "Coupe",
+    "year": 2017,
+    "query": "Ford GT 2017",
+    "tokens": [
+      "gt"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford GT 2017",
+    "pick": {
+      "score": 7.87,
+      "reasons": [
+        "tokens:gt",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2017 Ford GT front.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/7/7a/2017_Ford_GT_front.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:2017_Ford_GT_front.JPG",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Latvian98",
+      "width": 1600,
+      "height": 1200
+    },
+    "alternates": [
+      {
+        "score": 6.18,
+        "reasons": [
+          "tokens:gt",
+          "year-match"
+        ],
+        "title": "File:2016 Ford GT (20915465904).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/2016_Ford_GT_%2820915465904%29.jpg/1920px-2016_Ford_GT_%2820915465904%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2016_Ford_GT_(20915465904).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Falcon\u00ae Photography from France",
+        "width": 5259,
+        "height": 3304
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:gt",
+          "year-match"
+        ],
+        "title": "File:Ford GT 2016 (27698629701).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Ford_GT_2016_%2827698629701%29.jpg/1920px-Ford_GT_2016_%2827698629701%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford_GT_2016_(27698629701).jpg",
+        "license": "CC BY-SA 2.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+        "artist": "Falcon\u00ae Photography from France",
+        "width": 5416,
+        "height": 3611
+      },
+      {
+        "score": 5.93,
+        "reasons": [
+          "tokens:gt",
+          "year-match"
+        ],
+        "title": "File:Scottsdale 2018 Lot 3010 - 2017 Ford GT.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Scottsdale_2018_Lot_3010_-_2017_Ford_GT.jpg/1920px-Scottsdale_2018_Lot_3010_-_2017_Ford_GT.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Scottsdale_2018_Lot_3010_-_2017_Ford_GT.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Rbdesimone",
+        "width": 3896,
+        "height": 2649
+      }
+    ]
+  },
+  {
+    "slug": "ford-gt-mk1",
+    "car": "Ford GT (Mk1)",
+    "make": "Ford",
+    "model": "GT",
+    "code": "Mk1",
+    "body": "Coupe",
+    "year": 2006,
+    "query": "Ford GT Mk1 2006",
+    "tokens": [
+      "gt",
+      "mk1"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford GT 2006",
+    "pick": {
+      "score": 6.15,
+      "reasons": [
+        "tokens:gt",
+        "year-match"
+      ],
+      "title": "File:Ford GT (2006) (53999963023).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Ford_GT_%282006%29_%2853999963023%29.jpg/1920px-Ford_GT_%282006%29_%2853999963023%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ford_GT_(2006)_(53999963023).jpg",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "artist": "Charles from Port Chester, New York",
+      "width": 6000,
+      "height": 3814
+    },
+    "alternates": [
+      {
+        "score": 6.11,
+        "reasons": [
+          "tokens:gt",
+          "year-match"
+        ],
+        "title": "File:2006 Ford GT Heritage GT101.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/2006_Ford_GT_Heritage_GT101.jpg/1920px-2006_Ford_GT_Heritage_GT101.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2006_Ford_GT_Heritage_GT101.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 5127,
+        "height": 3294
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:gt",
+          "year-match"
+        ],
+        "title": "File:2006 Ford GT at the 2026 Adelaide Motorsport Festival (DSCF2488).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/2006_Ford_GT_at_the_2026_Adelaide_Motorsport_Festival_%28DSCF2488%29.jpg/1920px-2006_Ford_GT_at_the_2026_Adelaide_Motorsport_Festival_%28DSCF2488%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2006_Ford_GT_at_the_2026_Adelaide_Motorsport_Festival_(DSCF2488).jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Yu Chu Chin",
+        "width": 7728,
+        "height": 5152
+      },
+      {
+        "score": 5.8,
+        "reasons": [
+          "tokens:gt",
+          "year-match"
+        ],
+        "title": "File:2006 Ford GT SP24.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/2006_Ford_GT_SP24.jpg/1920px-2006_Ford_GT_SP24.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2006_Ford_GT_SP24.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 4693,
+        "height": 2610
+      }
+    ]
+  },
+  {
+    "slug": "ford-gt40-mk-ii",
+    "car": "Ford GT40 (Mk II)",
+    "make": "Ford",
+    "model": "GT40",
+    "code": "Mk",
+    "body": "Coupe",
+    "year": 1966,
+    "query": "Ford GT40 Mk 1966",
+    "tokens": [
+      "gt40",
+      "mk"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1966 Ford GT40 Mark II no. 5 at NYIAS 2022, front left.jpg",
+    "status": "ok",
+    "query_used": "pin:1966 Ford GT40 Mark II no. 5 at NYIAS 2022, front left.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1966 Ford GT40 Mark II no. 5 at NYIAS 2022, front left.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/1966_Ford_GT40_Mark_II_no._5_at_NYIAS_2022%2C_front_left.jpg/1920px-1966_Ford_GT40_Mark_II_no._5_at_NYIAS_2022%2C_front_left.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1966_Ford_GT40_Mark_II_no._5_at_NYIAS_2022,_front_left.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5171,
+      "height": 2738
+    },
+    "alternates": []
+  },
+  {
+    "slug": "ford-maverick-hybrid",
+    "car": "Ford Maverick (Hybrid)",
+    "make": "Ford",
+    "model": "Maverick",
+    "code": "Hybrid",
+    "body": "Truck",
+    "year": 2022,
+    "query": "Ford Maverick Hybrid 2022",
+    "tokens": [
+      "hybrid",
+      "maverick"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Maverick 2022",
+    "pick": {
+      "score": 8.55,
+      "reasons": [
+        "tokens:maverick",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2022 Ford Maverick XL, front 5.4.22.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/2022_Ford_Maverick_XL%2C_front_5.4.22.jpg/1920px-2022_Ford_Maverick_XL%2C_front_5.4.22.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2022_Ford_Maverick_XL,_front_5.4.22.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Kevauto",
+      "width": 4166,
+      "height": 2490
+    },
+    "alternates": [
+      {
+        "score": 8.49,
+        "reasons": [
+          "tokens:maverick",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2022 Ford Maverick XL in Shadow Black, Front Left, 06-26-2022.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/2022_Ford_Maverick_XL_in_Shadow_Black%2C_Front_Left%2C_06-26-2022.jpg/1920px-2022_Ford_Maverick_XL_in_Shadow_Black%2C_Front_Left%2C_06-26-2022.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2022_Ford_Maverick_XL_in_Shadow_Black,_Front_Left,_06-26-2022.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Elise240SX",
+        "width": 3782,
+        "height": 2510
+      },
+      {
+        "score": 8.21,
+        "reasons": [
+          "tokens:maverick",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2022 Ford Maverick XL, Area 51 (front right).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/e3/2022_Ford_Maverick_XL%2C_Area_51_%28front_right%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2022_Ford_Maverick_XL,_Area_51_(front_right).jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Mr.choppers",
+        "width": 1782,
+        "height": 1044
+      },
+      {
+        "score": 8.13,
+        "reasons": [
+          "tokens:maverick",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2022 Ford Maverick XLT AWD, Front Right, 10-10-2021.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/2022_Ford_Maverick_XLT_AWD%2C_Front_Right%2C_10-10-2021.jpg/1920px-2022_Ford_Maverick_XLT_AWD%2C_Front_Right%2C_10-10-2021.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2022_Ford_Maverick_XLT_AWD,_Front_Right,_10-10-2021.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Elise240SX",
+        "width": 4068,
+        "height": 2160
+      }
+    ]
+  },
+  {
+    "slug": "ford-mustang-boss-302",
+    "car": "Ford Mustang (Boss 302)",
+    "make": "Ford",
+    "model": "Mustang",
+    "code": "302",
+    "body": "Coupe",
+    "year": 1969,
+    "query": "Ford Mustang 302 1969",
+    "tokens": [
+      "302",
+      "mustang"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Mustang 302 1969",
+    "pick": {
+      "score": 8.87,
+      "reasons": [
+        "CC0/PD",
+        "tokens:302,mustang",
+        "year-match"
+      ],
+      "title": "File:1969 Ford Boss 302 Mustang 15 - June 2024 - Sarah Stierch 01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/1969_Ford_Boss_302_Mustang_15_-_June_2024_-_Sarah_Stierch_01.jpg/1920px-1969_Ford_Boss_302_Mustang_15_-_June_2024_-_Sarah_Stierch_01.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1969_Ford_Boss_302_Mustang_15_-_June_2024_-_Sarah_Stierch_01.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Missvain",
+      "width": 4032,
+      "height": 3024
+    },
+    "alternates": [
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:302,mustang",
+          "year-match"
+        ],
+        "title": "File:1969 Ford Mustang Boss 302 (14370376384).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/1969_Ford_Mustang_Boss_302_%2814370376384%29.jpg/1920px-1969_Ford_Mustang_Boss_302_%2814370376384%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1969_Ford_Mustang_Boss_302_(14370376384).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sicnag",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:302,mustang",
+          "year-match"
+        ],
+        "title": "File:1969 Ford Mustang Boss 302 (24181498224).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/1969_Ford_Mustang_Boss_302_%2824181498224%29.jpg/1920px-1969_Ford_Mustang_Boss_302_%2824181498224%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1969_Ford_Mustang_Boss_302_(24181498224).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Jeremy from Sydney, Australia",
+        "width": 4752,
+        "height": 3168
+      },
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:302,mustang",
+          "year-match"
+        ],
+        "title": "File:1969 Ford Mustang Boss 302 (24691812512).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/1969_Ford_Mustang_Boss_302_%2824691812512%29.jpg/1920px-1969_Ford_Mustang_Boss_302_%2824691812512%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1969_Ford_Mustang_Boss_302_(24691812512).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Jeremy from Sydney, Australia",
+        "width": 4752,
+        "height": 3168
+      }
+    ]
+  },
+  {
+    "slug": "ford-mustang-dark-horse-s650",
+    "car": "Ford Mustang (Dark Horse (S650))",
+    "make": "Ford",
+    "model": "Mustang",
+    "code": "Dark",
+    "body": "Coupe",
+    "year": 2024,
+    "query": "Ford Mustang Dark 2024",
+    "tokens": [
+      "dark",
+      "mustang"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Mustang Dark 2024",
+    "pick": {
+      "score": 9.2,
+      "reasons": [
+        "CC0/PD",
+        "tokens:dark,mustang",
+        "year-match"
+      ],
+      "title": "File:2024 Ford Mustang Dark Horse (53132468838).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/2024_Ford_Mustang_Dark_Horse_%2853132468838%29.jpg/1920px-2024_Ford_Mustang_Dark_Horse_%2853132468838%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2024_Ford_Mustang_Dark_Horse_(53132468838).jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Mustang Joe",
+      "width": 5791,
+      "height": 3866
+    },
+    "alternates": [
+      {
+        "score": 7.2,
+        "reasons": [
+          "tokens:dark,mustang",
+          "year-match"
+        ],
+        "title": "File:2024 Ford Mustang Dark Horse Coupe Under Blue Light (53518885647).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/2024_Ford_Mustang_Dark_Horse_Coupe_Under_Blue_Light_%2853518885647%29.jpg/1920px-2024_Ford_Mustang_Dark_Horse_Coupe_Under_Blue_Light_%2853518885647%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2024_Ford_Mustang_Dark_Horse_Coupe_Under_Blue_Light_(53518885647).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "crudmucosa",
+        "width": 5366,
+        "height": 3577
+      },
+      {
+        "score": 6.92,
+        "reasons": [
+          "tokens:dark,mustang",
+          "year-match"
+        ],
+        "title": "File:Ford Mustang Dark Horse (2024) (53621721110).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Ford_Mustang_Dark_Horse_%282024%29_%2853621721110%29.jpg/1920px-Ford_Mustang_Dark_Horse_%282024%29_%2853621721110%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford_Mustang_Dark_Horse_(2024)_(53621721110).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Charles from Port Chester, New York",
+        "width": 4410,
+        "height": 3241
+      },
+      {
+        "score": 6.88,
+        "reasons": [
+          "tokens:dark,mustang",
+          "year-match"
+        ],
+        "title": "File:Ford Mustang Dark Horse Auto Zuerich 2024 DSC 6389.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Ford_Mustang_Dark_Horse_Auto_Zuerich_2024_DSC_6389.jpg/1920px-Ford_Mustang_Dark_Horse_Auto_Zuerich_2024_DSC_6389.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford_Mustang_Dark_Horse_Auto_Zuerich_2024_DSC_6389.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Alexander-93",
+        "width": 4681,
+        "height": 2515
+      }
+    ]
+  },
+  {
+    "slug": "ford-mustang-fox-body-gt",
+    "car": "Ford Mustang (Fox-body GT)",
+    "make": "Ford",
+    "model": "Mustang",
+    "code": "Fox-body",
+    "body": "Coupe",
+    "year": 1990,
+    "query": "Ford Mustang Fox-body 1990",
+    "tokens": [
+      "fox-body",
+      "mustang"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "1990 Ford Mustang GT 5.0 Hatchback in Ultra Blue, front right.jpg",
+    "status": "ok",
+    "query_used": "pin:1990 Ford Mustang GT 5.0 Hatchback in Ultra Blue, front right.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:1990 Ford Mustang GT 5.0 Hatchback in Ultra Blue, front right.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/1990_Ford_Mustang_GT_5.0_Hatchback_in_Ultra_Blue%2C_front_right.jpg/1920px-1990_Ford_Mustang_GT_5.0_Hatchback_in_Ultra_Blue%2C_front_right.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1990_Ford_Mustang_GT_5.0_Hatchback_in_Ultra_Blue,_front_right.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "artist": "Mr.choppers",
+      "width": 5302,
+      "height": 3392
+    },
+    "alternates": []
+  },
+  {
+    "slug": "ford-mustang-gt-s197-5-0",
+    "car": "Ford Mustang (GT (S197 5.0))",
+    "make": "Ford",
+    "model": "Mustang",
+    "code": "GT",
+    "body": "Coupe",
+    "year": 2011,
+    "query": "Ford Mustang GT 2011",
+    "tokens": [
+      "gt",
+      "mustang"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Ford MUSTANG V8 GT Coup\u00e9 Premium (S197) front.JPG",
+    "status": "ok",
+    "query_used": "pin:Ford MUSTANG V8 GT Coup\u00e9 Premium (S197) front.JPG",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Ford MUSTANG V8 GT Coup\u00e9 Premium (S197) front.JPG",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ford_MUSTANG_V8_GT_Coup%C3%A9_Premium_%28S197%29_front.JPG/1920px-Ford_MUSTANG_V8_GT_Coup%C3%A9_Premium_%28S197%29_front.JPG",
+      "page": "https://commons.wikimedia.org/wiki/File:Ford_MUSTANG_V8_GT_Coup%C3%A9_Premium_(S197)_front.JPG",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "Tokumeigakarinoaoshima",
+      "width": 2560,
+      "height": 1920
+    },
+    "alternates": []
+  },
+  {
+    "slug": "ford-mustang-gt-s550",
+    "car": "Ford Mustang (GT (S550))",
+    "make": "Ford",
+    "model": "Mustang",
+    "code": "GT",
+    "body": "Coupe",
+    "year": 2018,
+    "query": "Ford Mustang GT 2018",
+    "tokens": [
+      "gt",
+      "mustang"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Mustang GT 2018",
+    "pick": {
+      "score": 9.31,
+      "reasons": [
+        "tokens:gt,mustang",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:2018 Ford Mustang GT 5.0 Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2018_Ford_Mustang_GT_5.0_Front.jpg/1920px-2018_Ford_Mustang_GT_5.0_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2018_Ford_Mustang_GT_5.0_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Vauxford",
+      "width": 3912,
+      "height": 2073
+    },
+    "alternates": [
+      {
+        "score": 7.22,
+        "reasons": [
+          "tokens:gt,mustang",
+          "year-match"
+        ],
+        "title": "File:2018 Ford Mustang GT 3.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/2018_Ford_Mustang_GT_3.jpg/1920px-2018_Ford_Mustang_GT_3.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Ford_Mustang_GT_3.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 3544,
+        "height": 2136
+      },
+      {
+        "score": 7.17,
+        "reasons": [
+          "tokens:gt,mustang",
+          "year-match"
+        ],
+        "title": "File:2018 Mustang GT Blue.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/2018_Mustang_GT_Blue.jpg/1920px-2018_Mustang_GT_Blue.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Mustang_GT_Blue.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 2201,
+        "height": 1377
+      },
+      {
+        "score": 7.07,
+        "reasons": [
+          "tokens:gt,mustang",
+          "year-match"
+        ],
+        "title": "File:2018 Ford Mustang GT 2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/2018_Ford_Mustang_GT_2.jpg/1920px-2018_Ford_Mustang_GT_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2018_Ford_Mustang_GT_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 13252,
+        "height": 7506
+      }
+    ]
+  },
+  {
+    "slug": "ford-mustang-mach-1",
+    "car": "Ford Mustang (Mach 1)",
+    "make": "Ford",
+    "model": "Mustang",
+    "code": "1",
+    "body": "Coupe",
+    "year": 2021,
+    "query": "Ford Mustang 1 2021",
+    "tokens": [
+      "1",
+      "mustang"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Ford Mustang Mach1, 2021 front.jpg",
+    "status": "ok",
+    "query_used": "pin:Ford Mustang Mach1, 2021 front.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Ford Mustang Mach1, 2021 front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Ford_Mustang_Mach1%2C_2021_front.jpg/1920px-Ford_Mustang_Mach1%2C_2021_front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ford_Mustang_Mach1,_2021_front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "EurovisionNim",
+      "width": 5388,
+      "height": 2672
+    },
+    "alternates": []
+  },
+  {
+    "slug": "ford-mustang-mach-e-gt",
+    "car": "Ford Mustang Mach-E (GT)",
+    "make": "Ford",
+    "model": "Mustang Mach-E",
+    "code": "GT",
+    "body": "SUV",
+    "year": 2022,
+    "query": "Ford Mustang Mach-E GT 2022",
+    "tokens": [
+      "gt",
+      "mach-e",
+      "mustang"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2023 Ford Mustang Mach-E GT in Rapid Red 01.jpg",
+    "status": "ok",
+    "query_used": "pin:2023 Ford Mustang Mach-E GT in Rapid Red 01.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2023 Ford Mustang Mach-E GT in Rapid Red 01.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2023_Ford_Mustang_Mach-E_GT_in_Rapid_Red_01.jpg/1920px-2023_Ford_Mustang_Mach-E_GT_in_Rapid_Red_01.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2023_Ford_Mustang_Mach-E_GT_in_Rapid_Red_01.jpg",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "artist": "MoCars",
+      "width": 4160,
+      "height": 2340
+    },
+    "alternates": []
+  },
+  {
+    "slug": "ford-mustang-shelby-gt350",
+    "car": "Ford Mustang (Shelby GT350)",
+    "make": "Ford",
+    "model": "Mustang",
+    "code": "GT350",
+    "body": "Coupe",
+    "year": 2016,
+    "query": "Ford Mustang GT350 2016",
+    "tokens": [
+      "gt350",
+      "mustang"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "2020 Ford Mustang Shelby GT350, front three-quarter view, A Paris Street Market at Aspen Grove car show 2026-05-02.jpg",
+    "status": "ok",
+    "query_used": "pin:2020 Ford Mustang Shelby GT350, front three-quarter view, A Paris Street Market at Aspen Grove car show 2026-05-02.jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:2020 Ford Mustang Shelby GT350, front three-quarter view, A Paris Street Market at Aspen Grove car show 2026-05-02.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/2020_Ford_Mustang_Shelby_GT350%2C_front_three-quarter_view%2C_A_Paris_Street_Market_at_Aspen_Grove_car_show_2026-05-02.jpg/1920px-2020_Ford_Mustang_Shelby_GT350%2C_front_three-quarter_view%2C_A_Paris_Street_Market_at_Aspen_Grove_car_show_2026-05-02.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Mustang_Shelby_GT350,_front_three-quarter_view,_A_Paris_Street_Market_at_Aspen_Grove_car_show_2026-05-02.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Xnatedawgx",
+      "width": 3692,
+      "height": 2721
+    },
+    "alternates": []
+  },
+  {
+    "slug": "ford-mustang-shelby-gt500",
+    "car": "Ford Mustang (Shelby GT500)",
+    "make": "Ford",
+    "model": "Mustang",
+    "code": "GT500",
+    "body": "Coupe",
+    "year": 2020,
+    "query": "Ford Mustang GT500 2020",
+    "tokens": [
+      "gt500",
+      "mustang"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Mustang GT500 2020",
+    "pick": {
+      "score": 7.28,
+      "reasons": [
+        "tokens:gt500,mustang",
+        "year-match"
+      ],
+      "title": "File:2020 Ford Mustang Shelby GT500 GT101.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/2020_Ford_Mustang_Shelby_GT500_GT101.jpg/1920px-2020_Ford_Mustang_Shelby_GT500_GT101.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Mustang_Shelby_GT500_GT101.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MrWalkr",
+      "width": 5005,
+      "height": 3246
+    },
+    "alternates": [
+      {
+        "score": 7.11,
+        "reasons": [
+          "tokens:gt500,mustang",
+          "year-match"
+        ],
+        "title": "File:2020 Ford Mustang Shelby GT500 in Oxford White, 05-31-2024.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/2020_Ford_Mustang_Shelby_GT500_in_Oxford_White%2C_05-31-2024.jpg/1920px-2020_Ford_Mustang_Shelby_GT500_in_Oxford_White%2C_05-31-2024.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Mustang_Shelby_GT500_in_Oxford_White,_05-31-2024.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Ethan Llamas",
+        "width": 5539,
+        "height": 3808
+      },
+      {
+        "score": 6.78,
+        "reasons": [
+          "tokens:gt500,mustang",
+          "year-match"
+        ],
+        "title": "File:2020 Ford Mustang Shelby GT500 Coupe, Cleveland Auto Show.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/2020_Ford_Mustang_Shelby_GT500_Coupe%2C_Cleveland_Auto_Show.jpg/1920px-2020_Ford_Mustang_Shelby_GT500_Coupe%2C_Cleveland_Auto_Show.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020_Ford_Mustang_Shelby_GT500_Coupe,_Cleveland_Auto_Show.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Syntaxlord",
+        "width": 3410,
+        "height": 2572
+      },
+      {
+        "score": 6.66,
+        "reasons": [
+          "tokens:gt500,mustang",
+          "year-match"
+        ],
+        "title": "File:2020\u20132022 Ford Mustang Shelby GT500, red, Golden Super Cruise 2026-05-02.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/4/4f/2020%E2%80%932022_Ford_Mustang_Shelby_GT500%2C_red%2C_Golden_Super_Cruise_2026-05-02.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2020%E2%80%932022_Ford_Mustang_Shelby_GT500,_red,_Golden_Super_Cruise_2026-05-02.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Xnatedawgx",
+        "width": 1575,
+        "height": 867
+      }
+    ]
+  },
+  {
+    "slug": "ford-mustang-svt-cobra-sn95",
+    "car": "Ford Mustang (SVT Cobra (SN95))",
+    "make": "Ford",
+    "model": "Mustang",
+    "code": "SVT",
+    "body": "Coupe",
+    "year": 1996,
+    "query": "Ford Mustang SVT 1996",
+    "tokens": [
+      "mustang",
+      "svt"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Mustang SVT 1996",
+    "pick": {
+      "score": 8.17,
+      "reasons": [
+        "tokens:mustang",
+        "good-angle",
+        "front",
+        "year-match"
+      ],
+      "title": "File:1996 Mustang Cobra Front.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/1996_Mustang_Cobra_Front.jpg/1920px-1996_Mustang_Cobra_Front.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1996_Mustang_Cobra_Front.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Torqueylemur",
+      "width": 4032,
+      "height": 3024
+    },
+    "alternates": [
+      {
+        "score": 6.02,
+        "reasons": [
+          "tokens:mustang",
+          "year-match"
+        ],
+        "title": "File:1996 Ford Mustang Cobra With Mystic Paint.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/1996_Ford_Mustang_Cobra_With_Mystic_Paint.jpg/1920px-1996_Ford_Mustang_Cobra_With_Mystic_Paint.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1996_Ford_Mustang_Cobra_With_Mystic_Paint.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "crudmucosa",
+        "width": 4928,
+        "height": 3264
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:mustang",
+          "year-match"
+        ],
+        "title": "File:1997 Ford Mustang Saleen S-281C Cobra (15169440274).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/1997_Ford_Mustang_Saleen_S-281C_Cobra_%2815169440274%29.jpg/1920px-1997_Ford_Mustang_Saleen_S-281C_Cobra_%2815169440274%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1997_Ford_Mustang_Saleen_S-281C_Cobra_(15169440274).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sicnag",
+        "width": 5184,
+        "height": 3456
+      },
+      {
+        "score": 5.93,
+        "reasons": [
+          "tokens:mustang",
+          "year-match"
+        ],
+        "title": "File:1996 Ford Mustang.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/1996_Ford_Mustang.jpg/1920px-1996_Ford_Mustang.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1996_Ford_Mustang.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 13722,
+        "height": 9362
+      }
+    ]
+  },
+  {
+    "slug": "ford-mustang-svt-cobra-terminator",
+    "car": "Ford Mustang SVT Cobra (Terminator)",
+    "make": "Ford",
+    "model": "Mustang SVT Cobra",
+    "code": "Terminator",
+    "body": "Coupe",
+    "year": 2003,
+    "query": "Ford Mustang SVT Cobra Terminator 2003",
+    "tokens": [
+      "cobra",
+      "mustang",
+      "svt",
+      "terminator"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Mustang SVT Cobra 2003",
+    "pick": {
+      "score": 7.77,
+      "reasons": [
+        "tokens:cobra,mustang,svt",
+        "year-match"
+      ],
+      "title": "File:Black 2003-2004 Ford Mustang IV SVT Cobra.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Black_2003-2004_Ford_Mustang_IV_SVT_Cobra.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Black_2003-2004_Ford_Mustang_IV_SVT_Cobra.jpg",
+      "license": "CC BY-SA 2.0 ca",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/ca/deed.en",
+      "artist": "CJ DUB",
+      "width": 1600,
+      "height": 1200
+    },
+    "alternates": [
+      {
+        "score": 7.72,
+        "reasons": [
+          "tokens:cobra",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2000 Cobra R black fake left front.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1f/2000_Cobra_R_black_fake_left_front.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:2000_Cobra_R_black_fake_left_front.JPG",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Sunstarfire",
+        "width": 1712,
+        "height": 1368
+      },
+      {
+        "score": 7.72,
+        "reasons": [
+          "tokens:cobra",
+          "good-angle",
+          "front",
+          "year-match"
+        ],
+        "title": "File:2000 Cobra R black fake left front with original.JPG",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b2/2000_Cobra_R_black_fake_left_front_with_original.JPG",
+        "page": "https://commons.wikimedia.org/wiki/File:2000_Cobra_R_black_fake_left_front_with_original.JPG",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "artist": "Sunstarfire",
+        "width": 1712,
+        "height": 1368
+      },
+      {
+        "score": 6.0,
+        "reasons": [
+          "tokens:mustang",
+          "year-match"
+        ],
+        "title": "File:2003 Ford Mustang Mach 1 Coupe (14370242858).jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/2003_Ford_Mustang_Mach_1_Coupe_%2814370242858%29.jpg/1920px-2003_Ford_Mustang_Mach_1_Coupe_%2814370242858%29.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2003_Ford_Mustang_Mach_1_Coupe_(14370242858).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "artist": "Sicnag",
+        "width": 5184,
+        "height": 3456
+      }
+    ]
+  },
+  {
+    "slug": "ford-ranger-raptor",
+    "car": "Ford Ranger (Raptor)",
+    "make": "Ford",
+    "model": "Ranger",
+    "code": "Raptor",
+    "body": "Truck",
+    "year": 2024,
+    "query": "Ford Ranger Raptor 2024",
+    "tokens": [
+      "ranger",
+      "raptor"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Ranger Raptor 2024",
+    "pick": {
+      "score": 7.13,
+      "reasons": [
+        "tokens:ranger,raptor",
+        "year-match"
+      ],
+      "title": "File:2023 Ford Ranger Raptor Ecoboost Auto 2.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2023_Ford_Ranger_Raptor_Ecoboost_Auto_2.jpg/1920px-2023_Ford_Ranger_Raptor_Ecoboost_Auto_2.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:2023_Ford_Ranger_Raptor_Ecoboost_Auto_2.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "Calreyn88",
+      "width": 14630,
+      "height": 8424
+    },
+    "alternates": [
+      {
+        "score": 6.97,
+        "reasons": [
+          "tokens:ranger,raptor",
+          "year-match"
+        ],
+        "title": "File:2023 Ford Ranger Raptor Ecoboost Auto.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/2023_Ford_Ranger_Raptor_Ecoboost_Auto.jpg/1920px-2023_Ford_Ranger_Raptor_Ecoboost_Auto.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:2023_Ford_Ranger_Raptor_Ecoboost_Auto.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 3138,
+        "height": 2180
+      },
+      {
+        "score": 6.87,
+        "reasons": [
+          "tokens:ranger,raptor",
+          "year-match"
+        ],
+        "title": "File:Ford Ranger 2.0 Raptor 4x4 2024.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Ford_Ranger_2.0_Raptor_4x4_2024.jpg/1920px-Ford_Ranger_2.0_Raptor_4x4_2024.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:Ford_Ranger_2.0_Raptor_4x4_2024.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Ethan Llamas",
+        "width": 6082,
+        "height": 4560
+      },
+      {
+        "score": 6.85,
+        "reasons": [
+          "tokens:ranger,raptor",
+          "year-match"
+        ],
+        "title": "File:PIMS 2024 - Ford Ranger 3.0 EcoBoost Raptor 4x4 V6.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/PIMS_2024_-_Ford_Ranger_3.0_EcoBoost_Raptor_4x4_V6.jpg/1920px-PIMS_2024_-_Ford_Ranger_3.0_EcoBoost_Raptor_4x4_V6.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:PIMS_2024_-_Ford_Ranger_3.0_EcoBoost_Raptor_4x4_V6.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Ethan Llamas",
+        "width": 3856,
+        "height": 2892
+      }
+    ]
+  },
+  {
+    "slug": "ford-sierra-rs500-cosworth",
+    "car": "Ford Sierra (RS500 Cosworth)",
+    "make": "Ford",
+    "model": "Sierra",
+    "code": "RS500",
+    "body": "Sedan",
+    "year": 1987,
+    "query": "Ford Sierra RS500 1987",
+    "tokens": [
+      "rs500",
+      "sierra"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "status": "ok",
+    "query_used": "Ford Sierra RS500 1987",
+    "pick": {
+      "score": 7.34,
+      "reasons": [
+        "tokens:rs500,sierra",
+        "year-match"
+      ],
+      "title": "File:1987 Ford Sierra RS500 Cosworth LC23.jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/1987_Ford_Sierra_RS500_Cosworth_LC23.jpg/1920px-1987_Ford_Sierra_RS500_Cosworth_LC23.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:1987_Ford_Sierra_RS500_Cosworth_LC23.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "artist": "MrWalkr",
+      "width": 8202,
+      "height": 5221
+    },
+    "alternates": [
+      {
+        "score": 7.31,
+        "reasons": [
+          "tokens:rs500,sierra",
+          "year-match"
+        ],
+        "title": "File:1987 Ford Sierra RS500 Cosworth LC 23.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/1987_Ford_Sierra_RS500_Cosworth_LC_23.jpg/1920px-1987_Ford_Sierra_RS500_Cosworth_LC_23.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1987_Ford_Sierra_RS500_Cosworth_LC_23.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "MrWalkr",
+        "width": 4811,
+        "height": 3091
+      },
+      {
+        "score": 7.21,
+        "reasons": [
+          "tokens:rs500,sierra",
+          "year-match"
+        ],
+        "title": "File:1987 Ford Sierra RS500 Cosworth 2.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/1987_Ford_Sierra_RS500_Cosworth_2.jpg/1920px-1987_Ford_Sierra_RS500_Cosworth_2.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1987_Ford_Sierra_RS500_Cosworth_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 16320,
+        "height": 10828
+      },
+      {
+        "score": 7.21,
+        "reasons": [
+          "tokens:rs500,sierra",
+          "year-match"
+        ],
+        "title": "File:1987 Ford Sierra RS500 Cosworth No.17 of 500.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/1987_Ford_Sierra_RS500_Cosworth_No.17_of_500.jpg/1920px-1987_Ford_Sierra_RS500_Cosworth_No.17_of_500.jpg",
+        "page": "https://commons.wikimedia.org/wiki/File:1987_Ford_Sierra_RS500_Cosworth_No.17_of_500.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "artist": "Calreyn88",
+        "width": 15390,
+        "height": 10228
+      }
+    ]
+  },
+  {
+    "slug": "ford-taurus-sho-gen-1",
+    "car": "Ford Taurus SHO (Gen 1)",
+    "make": "Ford",
+    "model": "Taurus SHO",
+    "code": "1",
+    "body": "Sedan",
+    "year": 1993,
+    "query": "Ford Taurus SHO 1 1993",
+    "tokens": [
+      "1",
+      "sho",
+      "taurus"
+    ],
+    "avoid": [
+      "avant",
+      "cabrio",
+      "cabriolet",
+      "convertible",
+      "estate",
+      "kombi",
+      "roadster",
+      "spider",
+      "spyder",
+      "touring",
+      "wagon"
+    ],
+    "pin": "Ford Taurus SHO (second-gen).jpg",
+    "status": "ok",
+    "query_used": "pin:Ford Taurus SHO (second-gen).jpg",
+    "pick": {
+      "score": null,
+      "reasons": [],
+      "title": "File:Ford Taurus SHO (second-gen).jpg",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ford_Taurus_SHO_%28second-gen%29.jpg/1920px-Ford_Taurus_SHO_%28second-gen%29.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Ford_Taurus_SHO_(second-gen).jpg",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+      "artist": "Ben Schumin",
+      "width": 2272,
+      "height": 1704
+    },
+    "alternates": []
+  },
+  {
     "slug": "honda-civic-si-10th-gen-fc1",
     "car": "Honda Civic Si (10th Gen FC1)",
     "body": "Sedan",

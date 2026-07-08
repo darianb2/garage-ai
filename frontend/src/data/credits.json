@@ -1323,6 +1323,465 @@
     "attributionRequired": true
   },
   {
+    "car": "Ferrari 250 GT (SWB)",
+    "title": "1962 Ferrari 250 GT Berlinetta SWB SCD 24.jpg",
+    "author": "MrWalkr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1962_Ferrari_250_GT_Berlinetta_SWB_SCD_24.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ferrari 308 GTB (Type F106)",
+    "title": "Ferrari 308 GTB (1980) (54803015900).jpg",
+    "author": "Charles from Port Chester, New York",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_308_GTB_(1980)_(54803015900).jpg",
+    "attributionRequired": false
+  },
+  {
+    "car": "Ferrari 360 Modena (Type F131)",
+    "title": "2001 Ferrari 360 Modena 4.jpg",
+    "author": "Calreyn88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2001_Ferrari_360_Modena_4.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ferrari 458 Italia (Type F142)",
+    "title": "Ferrari 458 Italia (2011) (54873539915).jpg",
+    "author": "Charles from Port Chester, New York",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_458_Italia_(2011)_(54873539915).jpg",
+    "attributionRequired": false
+  },
+  {
+    "car": "Ferrari 488 GTB (Type F142M)",
+    "title": "2016 Ferrari 488 GTB Berlinetta (37618606270).jpg",
+    "author": "Sicnag",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Ferrari_488_GTB_Berlinetta_(37618606270).jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ferrari 550 Maranello (Type F133)",
+    "title": "1998 Ferrari 550 Maranello.jpg",
+    "author": "Calreyn88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1998_Ferrari_550_Maranello.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ferrari 812 Superfast (Type F152M)",
+    "title": "2018 Ferrari 812 Superfast 6.5 Front.jpg",
+    "author": "Vauxford",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Ferrari_812_Superfast_6.5_Front.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ferrari Enzo (Type F140)",
+    "title": "2003 Enzo Ferrari at Greenwich 2018, front right.jpg",
+    "author": "Mr.choppers",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2003_Enzo_Ferrari_at_Greenwich_2018,_front_right.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ferrari F355 (Berlinetta)",
+    "title": "Ferrari F355 Berlinetta (1997) (52561331198).jpg",
+    "author": "Charles from Port Chester, New York",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_F355_Berlinetta_(1997)_(52561331198).jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ferrari F40 (Type F120)",
+    "title": "1990 Ferrari F40 front.jpg",
+    "author": "TTTNIS",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:1990_Ferrari_F40_front.jpg",
+    "attributionRequired": false
+  },
+  {
+    "car": "Ferrari F50 (F50)",
+    "title": "1997 Ferrari F50 front.jpg",
+    "author": "TTTNIS",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:1997_Ferrari_F50_front.jpg",
+    "attributionRequired": false
+  },
+  {
+    "car": "Ferrari LaFerrari (F150)",
+    "title": "Ferrari LaFerrari (2015) (53321819267).jpg",
+    "author": "Charles from Port Chester, New York",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ferrari_LaFerrari_(2015)_(53321819267).jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ferrari Testarossa (Type F110)",
+    "title": "1988 Ferrari Testarossa (30567369747).jpg",
+    "author": "Sicnag",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1988_Ferrari_Testarossa_(30567369747).jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Fiat 124 Spider (Abarth)",
+    "title": "2017 Abarth 124 Spider Multiair 1.jpg",
+    "author": "Calreyn88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Abarth_124_Spider_Multiair_1.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Fiat 500 (Abarth)",
+    "title": "2013 Fiat 500c Abarth (13181404273).jpg",
+    "author": "Chris Yarzab from , USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2013_Fiat_500c_Abarth_(13181404273).jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Fiat X1/9 (Bertone)",
+    "title": "1978 Fiat X1-9 sports (30922809300).jpg",
+    "author": "Sicnag",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1978_Fiat_X1-9_sports_(30922809300).jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Bronco (6th Gen (U725))",
+    "title": "2021 Ford Bronco Big Bend, Front Right, 07-11-2021.jpg",
+    "author": "SsmIntrigue",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_Ford_Bronco_Big_Bend,_Front_Right,_07-11-2021.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Bronco Raptor (U725)",
+    "title": "Ford Bronco Raptor (2024) (53621271856).jpg",
+    "author": "Charles from Port Chester, New York",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ford_Bronco_Raptor_(2024)_(53621271856).jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Edge (2nd Gen)",
+    "title": "2016 Ford Edge SEL in Magnetic Metallic, Front Right, 07-30-2023.jpg",
+    "author": "Elise240SX",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Ford_Edge_SEL_in_Magnetic_Metallic,_Front_Right,_07-30-2023.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Escape (4th Gen)",
+    "title": "2020 Ford Escape SEL 02-15-2020 Front.jpg",
+    "author": "SsmIntrigue",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2020_Ford_Escape_SEL_02-15-2020_Front.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Escort (RS Cosworth)",
+    "title": "Ford Escort RS Cosworth (1994) (54874417851).jpg",
+    "author": "Charles from Port Chester, New York",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Ford_Escort_RS_Cosworth_(1994)_(54874417851).jpg",
+    "attributionRequired": false
+  },
+  {
+    "car": "Ford Explorer (6th Gen (U625))",
+    "title": "2020 Ford Explorer XLT 02-15-2020 Front.jpg",
+    "author": "SsmIntrigue",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2020_Ford_Explorer_XLT_02-15-2020_Front.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford F-150 (14th Gen)",
+    "title": "2021 Ford F-150 SuperCrew, front 4.28.21.jpg",
+    "author": "Kevauto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2021_Ford_F-150_SuperCrew,_front_4.28.21.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford F-150 (SVT Lightning)",
+    "title": "2000 Ford F-150 SVT Lightning 5.4.jpg",
+    "author": "Vauxford",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2000_Ford_F-150_SVT_Lightning_5.4.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford F-150 Lightning (EV)",
+    "title": "2022 Ford F-150 Lightning Lariat in Atlas Blue Metallic, Front Right, 08-06-2022.jpg",
+    "author": "Elise240SX",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Ford_F-150_Lightning_Lariat_in_Atlas_Blue_Metallic,_Front_Right,_08-06-2022.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford F-150 Raptor (2nd Gen)",
+    "title": "2019 Ford F-150 Raptor 4x4 SuperCrew 5.5' Box in Ruby Red Metallic Tinted Clearcoat, Front Left, 2024-03-08.jpg",
+    "author": "Elise240SX",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2019_Ford_F-150_Raptor_4x4_SuperCrew_5.5%27_Box_in_Ruby_Red_Metallic_Tinted_Clearcoat,_Front_Left,_2024-03-08.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Fiesta (6th Gen)",
+    "title": "Ford Fiesta in red parked beside metal fencing - 2014 registration RJ14 HZV on Motor Lane, Gillingham.jpg",
+    "author": "OathOn",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Ford_Fiesta_in_red_parked_beside_metal_fencing_-_2014_registration_RJ14_HZV_on_Motor_Lane,_Gillingham.jpg",
+    "attributionRequired": false
+  },
+  {
+    "car": "Ford Fiesta ST (Mk7)",
+    "title": "2016 Ford Fiesta ST, Kona Blue, front left.jpg",
+    "author": "Mr.choppers",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2016_Ford_Fiesta_ST,_Kona_Blue,_front_left.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Focus (3rd Gen (C346))",
+    "title": "2013 Ford Focus SE in Blue Candy Metallic Tinted Clearcoat, Front Left, 06-26-2022.jpg",
+    "author": "Elise240SX",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2013_Ford_Focus_SE_in_Blue_Candy_Metallic_Tinted_Clearcoat,_Front_Left,_06-26-2022.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Focus RS (Mk3)",
+    "title": "Ford Focus RS Mk III, 2016.jpg",
+    "author": "Cjp24",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ford_Focus_RS_Mk_III,_2016.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Focus ST (Mk3)",
+    "title": "2015 Ford Focus ST, Front Left, 04-04-2021.jpg",
+    "author": "SsmIntrigue",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2015_Ford_Focus_ST,_Front_Left,_04-04-2021.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Focus SVT (Mk1)",
+    "title": "2003 Ford SVT Focus ZX3 in CD Silver Metallic, Front Left, 11-05-2022.jpg",
+    "author": "Elise240SX",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2003_Ford_SVT_Focus_ZX3_in_CD_Silver_Metallic,_Front_Left,_11-05-2022.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Fusion (2nd Gen (CD4))",
+    "title": "Ford Fusion Hybrid Titanium SAO 2014 0248.JPG",
+    "author": "Mariordo (Mario Roberto Duran Ortiz)",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ford_Fusion_Hybrid_Titanium_SAO_2014_0248.JPG",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford GT (2nd Gen)",
+    "title": "2017 Ford GT front.JPG",
+    "author": "Latvian98",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2017_Ford_GT_front.JPG",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford GT (Mk1)",
+    "title": "Ford GT (2006) (53999963023).jpg",
+    "author": "Charles from Port Chester, New York",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ford_GT_(2006)_(53999963023).jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford GT40 (Mk II)",
+    "title": "1966 Ford GT40 Mark II no. 5 at NYIAS 2022, front left.jpg",
+    "author": "Mr.choppers",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1966_Ford_GT40_Mark_II_no._5_at_NYIAS_2022,_front_left.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Maverick (Hybrid)",
+    "title": "2022 Ford Maverick XL, front 5.4.22.jpg",
+    "author": "Kevauto",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2022_Ford_Maverick_XL,_front_5.4.22.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Mustang (Boss 302)",
+    "title": "1969 Ford Boss 302 Mustang 15 - June 2024 - Sarah Stierch 01.jpg",
+    "author": "Missvain",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:1969_Ford_Boss_302_Mustang_15_-_June_2024_-_Sarah_Stierch_01.jpg",
+    "attributionRequired": false
+  },
+  {
+    "car": "Ford Mustang (Dark Horse (S650))",
+    "title": "2024 Ford Mustang Dark Horse (53132468838).jpg",
+    "author": "Mustang Joe",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:2024_Ford_Mustang_Dark_Horse_(53132468838).jpg",
+    "attributionRequired": false
+  },
+  {
+    "car": "Ford Mustang (Fox-body GT)",
+    "title": "1990 Ford Mustang GT 5.0 Hatchback in Ultra Blue, front right.jpg",
+    "author": "Mr.choppers",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1990_Ford_Mustang_GT_5.0_Hatchback_in_Ultra_Blue,_front_right.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Mustang (GT (S197 5.0))",
+    "title": "Ford MUSTANG V8 GT Coupé Premium (S197) front.JPG",
+    "author": "Tokumeigakarinoaoshima",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Ford_MUSTANG_V8_GT_Coup%C3%A9_Premium_(S197)_front.JPG",
+    "attributionRequired": false
+  },
+  {
+    "car": "Ford Mustang (GT (S550))",
+    "title": "2018 Ford Mustang GT 5.0 Front.jpg",
+    "author": "Vauxford",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2018_Ford_Mustang_GT_5.0_Front.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Mustang (Mach 1)",
+    "title": "Ford Mustang Mach1, 2021 front.jpg",
+    "author": "EurovisionNim",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ford_Mustang_Mach1,_2021_front.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Mustang (SVT Cobra (SN95))",
+    "title": "1996 Mustang Cobra Front.jpg",
+    "author": "Torqueylemur",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1996_Mustang_Cobra_Front.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Mustang (Shelby GT350)",
+    "title": "2020 Ford Mustang Shelby GT350, front three-quarter view, A Paris Street Market at Aspen Grove car show 2026-05-02.jpg",
+    "author": "Xnatedawgx",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2020_Ford_Mustang_Shelby_GT350,_front_three-quarter_view,_A_Paris_Street_Market_at_Aspen_Grove_car_show_2026-05-02.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Mustang (Shelby GT500)",
+    "title": "2020 Ford Mustang Shelby GT500 GT101.jpg",
+    "author": "MrWalkr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2020_Ford_Mustang_Shelby_GT500_GT101.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Mustang Mach-E (GT)",
+    "title": "2023 Ford Mustang Mach-E GT in Rapid Red 01.jpg",
+    "author": "MoCars",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_Ford_Mustang_Mach-E_GT_in_Rapid_Red_01.jpg",
+    "attributionRequired": false
+  },
+  {
+    "car": "Ford Mustang SVT Cobra (Terminator)",
+    "title": "Black 2003-2004 Ford Mustang IV SVT Cobra.jpg",
+    "author": "CJ DUB",
+    "license": "CC BY-SA 2.0 ca",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/ca/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:Black_2003-2004_Ford_Mustang_IV_SVT_Cobra.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Ranger (Raptor)",
+    "title": "2023 Ford Ranger Raptor Ecoboost Auto 2.jpg",
+    "author": "Calreyn88",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_Ford_Ranger_Raptor_Ecoboost_Auto_2.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Sierra (RS500 Cosworth)",
+    "title": "1987 Ford Sierra RS500 Cosworth LC23.jpg",
+    "author": "MrWalkr",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:1987_Ford_Sierra_RS500_Cosworth_LC23.jpg",
+    "attributionRequired": true
+  },
+  {
+    "car": "Ford Taurus SHO (Gen 1)",
+    "title": "Ford Taurus SHO (second-gen).jpg",
+    "author": "Ben Schumin",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Ford_Taurus_SHO_(second-gen).jpg",
+    "attributionRequired": true
+  },
+  {
     "car": "Honda CR-V (5th Gen (RW))",
     "title": "2019 Honda CR-V 1.5 Turbo Prestige RW1 (20210919) 01.jpg",
     "author": "オーバードライブ83",
