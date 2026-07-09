@@ -161,6 +161,14 @@ const CONFIGS = {
 const kebab = (s) =>
   (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
+// The paint swatches store colour as a CSS gradient (for the chip). The 3D body
+// paint uses that gradient's FIRST stop as its solid colour — one source of truth,
+// no separate hex to keep in sync. Returns "#rrggbb" or null.
+export function paintHex(fill) {
+  const m = (fill || "").match(/#(?:[0-9a-f]{6}|[0-9a-f]{3})/i);
+  return m ? m[0] : null;
+}
+
 // Resolve a vehicle to its configurator, or null when we don't have one (Showroom
 // then shows the stage only).
 export function configFor(vehicle) {

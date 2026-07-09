@@ -29,6 +29,7 @@ export default function Viewer3D({
   model = null,
   spin = null, // null = auto (spin only while loading); pass false to force still
   dark = false, // Marble Hub stage: transparent canvas over the .marble-stage gradient
+  config = null, // Showroom mods (paint, later toggles/swaps) applied to the model
 }) {
   // Check once on mount; if WebGL is unavailable, never mount the Canvas.
   const [supported] = useState(hasWebGL);
@@ -56,7 +57,7 @@ export default function Viewer3D({
       <ambientLight intensity={dark ? 0.7 : 0.85} />
       <directionalLight position={[5, 8, 5]} intensity={1.2} castShadow />
       <directionalLight position={[-6, 4, -4]} intensity={0.4} color="#5a8cf0" />
-      <CarModel spin={doSpin} systems={systems} selected={selected} onSelect={onSelect} model={model} />
+      <CarModel spin={doSpin} systems={systems} selected={selected} onSelect={onSelect} model={model} config={config} />
       <ContactShadows position={[0, 0, 0]} opacity={dark ? 0.75 : 0.6} scale={7} blur={2.5} far={2.5} />
       {!dark && <gridHelper args={[24, 24, "#8b8b92", "#52525b"]} position={[0, -0.001, 0]} />}
       <OrbitControls enablePan={false} target={[0, 0.45, 0]} minDistance={2.5} maxDistance={12} />

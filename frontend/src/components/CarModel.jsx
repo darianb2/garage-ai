@@ -1,5 +1,5 @@
-import { Component, Suspense, useMemo, useRef } from "react";
-import { useFrame } from "@react-three/fiber";
+import { Component, Suspense, useLayoutEffect, useMemo, useRef } from "react";
+import { useFrame, useThree } from "@react-three/fiber";
 import { RoundedBox, useGLTF } from "@react-three/drei";
 import * as THREE from "three";
 
@@ -67,8 +67,9 @@ function ProceduralBody() {
 // different sizes/origins, so by default we auto-fit: scale to a sensible length
 // and sit the model on the ground. The registry can override with an explicit
 // scale (+ position / rotation) for fine control.
-function GLTFCar({ model }) {
+function GLTFCar({ model, config }) {
   const { scene } = useGLTF(model.url);
+  const invalidate = useThree((s) => s.invalidate);
   const rot = model.rotation ?? [0, 0, 0];
   // Clone (so we never mutate the cached scene) and bake in the registry rotation,
   // so the auto-fit measures + centers the car in its FINAL orientation.
@@ -91,6 +92,43 @@ function GLTFCar({ model }) {
     const s = 3.4 / maxDim; // ~3.4 units long, matching the procedural car
     return { scale: s, position: [-center.x * s, -box.min.y * s, -center.z * s] };
   }, [object, model]);
+
+  // M1 — body paint: recolour the materials named in the parts registry to the
+  // Showroom's selected paint. scene.clone() shares materials by reference with the
+  // useGLTF cache, so we clone each target material ONCE per instance before
+  // mutating (else picking a colour would bleed across every car on screen).
+  const paint = config?.paint ?? null; // "#rrggbb" to repaint, or null for Original
+  const paintTargets = config?.paintTargets ?? null;
+  useLayoutEffect(() => {
+    if (!paintTargets?.length) return;
+    const targets = new Set(paintTargets);
+    const repaint = (m) => {
+      if (!targets.has(m.name)) return m;
+      // Original selected and this material was never repainted → leave it authored.
+      if (!paint && !m.userData?.__paintClone) return m;
+      // Clone once per instance (scene.clone shares materials with the useGLTF
+      // cache) and stash the authored colour/metalness so Original can restore it.
+      let mat = m;
+      if (!m.userData?.__paintClone) {
+        mat = m.clone();
+        mat.userData = { ...mat.userData, __paintClone: true, __origColor: m.color.clone(), __origMetal: m.metalness };
+      }
+      if (paint) {
+        mat.color.set(paint);
+        mat.metalness = 0; // paint is dielectric; the studio lighting gives the sheen
+      } else {
+        mat.color.copy(mat.userData.__origColor); // Original → restore authored paint
+        mat.metalness = mat.userData.__origMetal;
+      }
+      mat.needsUpdate = true;
+      return mat;
+    };
+    object.traverse((n) => {
+      if (!n.isMesh || !n.material) return;
+      n.material = Array.isArray(n.material) ? n.material.map(repaint) : repaint(n.material);
+    });
+    invalidate(); // demand frameloop: commit a frame after the recolour
+  }, [object, paint, paintTargets, invalidate]);
 
   return <primitive object={object} scale={fit.scale} position={fit.position} />;
 }
@@ -120,6 +158,7 @@ export default function CarModel({
   selected = null,
   onSelect = () => {},
   model = null,
+  config = null,
 }) {
   const group = useRef();
   useFrame((_, delta) => {
@@ -135,7 +174,7 @@ export default function CarModel({
         // where showing something beats a blank stage.
         <ModelBoundary modelKey={model.url} fallback={<ProceduralBody />}>
           <Suspense fallback={null}>
-            <GLTFCar model={model} />
+            <GLTFCar model={model} config={config} />
           </Suspense>
         </ModelBoundary>
       ) : (

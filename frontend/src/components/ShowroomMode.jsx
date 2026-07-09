@@ -1,19 +1,44 @@
 import { useMemo, useState } from "react";
 import Viewer3D from "./Stage3D";
-import { configFor } from "../lib/config";
+import { configFor, paintHex } from "../lib/config";
+import { partsFor } from "../lib/parts";
 import { SectionLabel, Segmented, PrimaryButton, Mono } from "./ui";
 
 // Showroom mode (design ref #4a Showroom): the persistent 3D stage on the left +
 // a configurator rail on the right. Package deltas sum into "as configured" live.
 export default function ShowroomMode({ vehicle, model }) {
   const config = useMemo(() => configFor(vehicle), [vehicle]);
+  const parts = useMemo(() => partsFor(vehicle), [vehicle]);
+
+  // The model's original/factory colour (renders as authored — no paint override),
+  // offered as the first swatch and the default so the car opens in its true colour
+  // and painting it is an opt-in mod. Only present for cars we can recolour.
+  const stock = parts?.stockPaint || null;
+  const paintOptions = useMemo(
+    () => (stock ? [stock, ...(config?.paint || [])] : config?.paint || []),
+    [stock, config]
+  );
+
   const [body, setBody] = useState(config?.defaults.body);
-  const [paint, setPaint] = useState(config?.defaults.paint);
+  const [paint, setPaint] = useState(stock?.id ?? config?.defaults.paint);
   const [trim, setTrim] = useState(config?.defaults.trim);
   const [packages, setPackages] = useState(config?.defaults.packages || []);
 
-  const paintObj = config?.paint.find((p) => p.id === paint);
+  const paintObj = paintOptions.find((p) => p.id === paint);
   const bodyObj = config?.body.find((b) => b.id === body);
+
+  // M1 — feed the selected paint into the 3D stage. partsFor tells us which cars
+  // can be recoloured (currently the FC3); others pass paint:null and render as
+  // authored. Selecting the "Original" swatch (stock id) also passes null, so the
+  // model shows exactly as authored. Same shape M2/M3 (toggles/swaps) will extend.
+  const stageConfig = useMemo(
+    () => ({
+      paint:
+        parts?.paintTargets?.length && paint !== stock?.id ? paintHex(paintObj?.fill) : null,
+      paintTargets: parts?.paintTargets ?? null,
+    }),
+    [parts, paintObj, paint, stock]
+  );
   const total = config
     ? config.msrpBase +
       config.packages.filter((p) => packages.includes(p.id)).reduce((s, p) => s + p.price, 0)
@@ -39,7 +64,7 @@ export default function ShowroomMode({ vehicle, model }) {
           ))}
         </div>
         <div className="absolute inset-0">
-          <Viewer3D model={model} dark spin={false} />
+          <Viewer3D model={model} dark spin={false} config={stageConfig} />
         </div>
         <div className="pointer-events-none absolute inset-x-0 bottom-3 text-center">
           <span className="text-[12px] text-marble-dim">
@@ -67,7 +92,7 @@ export default function ShowroomMode({ vehicle, model }) {
               <span className="normal-case tracking-normal text-marble-mid">{paintObj?.name}</span>
             </SectionLabel>
             <div className="mt-2 flex flex-wrap gap-2.5">
-              {config.paint.map((p) => (
+              {paintOptions.map((p) => (
                 <button
                   key={p.id}
                   onClick={() => setPaint(p.id)}
