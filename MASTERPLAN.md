@@ -381,7 +381,14 @@ Strategy: PERFECT 4 launch cars end-to-end, then scale the same template behind 
 
 ---
 
-## Phase 9 — Catalog imagery, brand by brand (Phase 8 paused 2026-07-06)
+## Phase 9 — Catalog imagery, brand by brand — ✅ COMPLETE (2026-07-08)
+
+Every make in the catalog (70 makes, ~600 cars) has had its hero-photo pass.
+The alphabet ends at Volvo — there are NO catalog makes starting with E, Q, U,
+or W–Z, so the sweep is exhaustive, not truncated. Per-car gaps remain only
+where Commons has no acceptable free front shot (e.g. Integra GS-R DC2), which
+keep their styled placeholder by design. Next: return to Phase 8 (paused
+2026-07-06 for this imagery work).
 
 Hero photos for ALL catalog cars (not just the 71 curated), sourced from
 Wikimedia Commons via scripts/fetch_images.py (`--makes=` mode), alphabetical
@@ -405,8 +412,14 @@ first picks failed review). Attribution auto-generated into the /credits page
       Search lesson from the M235i (F22): category/phrase queries missed every
       usable file (most M235i photos aren't in any BMW category) — a plain
       full-text "M235i" sweep found 25+, including clean stock front shots.
-- [ ] C brands next: Cadillac, Caterham, Chevrolet (20 rows), Chrysler.
-      Then D-and-onward.
+- [x] C brands (2026-07-07): Cadillac, Caterham, Chevrolet (20 rows), Chrysler.
+- [x] D brands (2026-07-07): Datsun, De Tomaso, Dodge (20).
+- [x] F/G/H brands (2026-07-07): Ferrari, Fiat, Ford (51); Genesis, GMC (10);
+      Honda, Hummer, Hyundai (64 — biggest brand-letter).
+- [x] I–V brands (2026-07-08): I/J (19), K (13), L (28), M (59), N (28),
+      O/R (9), P (40), S (26), T (42), V (24). Plus a Prelude BB1 fix +
+      fresh 11th-gen Si. No catalog makes exist for E, Q, U, or W–Z, so
+      Volvo closes the alphabet — Phase 9 done.
 
 ---
 
@@ -433,7 +446,10 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 8 — PIVOT: Interactive Vehicle Explorer (PLANNING)
+**Current active phase:** Phase 8 — PIVOT: Interactive Vehicle Explorer (resuming
+after the Phase 9 imagery detour). Next open items: 8.5 (perfect the 4 launch cars,
+then generalize the template so any catalog car flows into the experience), 8.3
+(source real GLB models — Civic next), 8.4 (tie hotspots to real geometry).
 **Status:** Phases 1–5 SHIPPED (live at https://garage-ai-34hw.onrender.com). Phase 6
 AI assistant LIVE on Render (real Claude answers, key set + rate-limited). Phase 7
 data engine COMPLETE 2026-07-06 (profile engine + 502-car catalog, generation/
@@ -442,7 +458,8 @@ Phase 8 backlog) — the BACKBONE the pivot feeds on. Phase 8 SHIPPED its first 
 "Marble" redesign — search-first landing + one-stage Vehicle Hub with Profile /
 Showroom (configurator) / Explode (parts + sources) modes; 4 launch cars (Miata ND /
 Supra A80 / M3 E46 / GT-R R35) with real GLB models, curated systems maps, and
-web-verified specs. Repo: https://github.com/darianb2/garage-ai.
+web-verified specs. Phase 9 COMPLETE 2026-07-08 — catalog-wide hero imagery, all
+70 makes A–V (no makes exist for E/Q/U/W–Z). Repo: https://github.com/darianb2/garage-ai.
 
 > Run the web app: `./.venv/bin/python app.py` → http://localhost:5000
 
