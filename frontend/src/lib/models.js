@@ -31,6 +31,20 @@ export const MODELS = {
   // length runs along Z with the nose at +Z, so rotate +90° about Y to face +X.
   "honda-civic-si-9th-gen-fg4": { url: "/models/honda-civic-si-9th-gen-fg4.glb", rotation: [0, Math.PI / 2, 0] },
 
+  // 10th-gen Honda Civic Si Coupe (FC3, 2016-2020) — by vecarz (@heynic), CC-BY-NC-SA-4.0
+  // (NonCommercial ShareAlike: test only, same class as the FG4/FL5 above). A Sketchfab
+  // export at real-world meter scale (bbox ~4.46m length along Z); 823K tris + 8 stray UV
+  // sets optimized to 3.5MB (simplify + prune + WebP + meshopt). NOTE: optimize was run
+  // WITHOUT --palette/--prune-solid-textures — the palette merge turned the body paint
+  // ("cuerpo") into a transparent BLEND material, which read as the car floating +
+  // discolored. Its native paint is grey (0.51) metallic; repainted white (0.95, metalness
+  // 0 so the clearcoat reads as paint, not chrome). Length runs along Z like the Civic
+  // FG4/FL5 and GT-R, so rotate +90° about Y to face +X.
+  // ?v=2 cache-busts browsers that hard-cached an earlier broken export of this
+  // file (models are served with a 30-day cache under a stable filename, so a
+  // re-export otherwise keeps showing the stale one). Bump on any re-export.
+  "honda-civic-si-10th-gen-fc3": { url: "/models/honda-civic-si-10th-gen-fc3.glb?v=2", rotation: [0, Math.PI / 2, 0] },
+
   // --- The 4 locked launch cars (all CC-BY-4.0: commercial use OK with credit) ---
   // Mazda MX-5 Miata (ND) — by Nieve5677. Source is Z-up with its length along Y;
   // stand it upright (X -90) and yaw the nose to +X (Z +90) so it faces the camera.

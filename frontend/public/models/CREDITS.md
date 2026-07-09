@@ -38,6 +38,16 @@ Forza Motorsport 4 asset (credited by the author to Edgardo-R, SketchUp 3D Wareh
 NOTE: CC-BY-NC-SA is NonCommercial AND ShareAlike — fine for local testing, but it
 must be replaced with a CC-BY / CC0 (or licensed) model before any commercial use.
 
+## Honda Civic Si Coupe (10th Gen / FC3, 2016-2020) — TEST ONLY
+
+This work is based on "Honda Civic Si | www.vecarz.com"
+(https://sketchfab.com/3d-models/honda-civic-si-wwwvecarzcom-a0ab182170ed4f2785edbf1d4de347c1)
+by vecarz (https://sketchfab.com/heynic), licensed under CC-BY-NC-SA-4.0
+(http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+NOTE: CC-BY-NC-SA is NonCommercial AND ShareAlike — fine for local testing, but it
+must be replaced with a CC-BY / CC0 (or licensed) model before any commercial use.
+
 ## Mazda MX-5 (ND) 2014 — CC-BY (commercial OK with credit)
 
 This work is based on "Mazda MX-5 (ND) 2014"
