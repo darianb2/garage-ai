@@ -29,7 +29,7 @@ from flask import (
 )
 
 from car_profile import build_profile
-from loader import load_cars, load_catalog
+from loader import load_cars, load_catalog, load_breakdown
 from nhtsa import get_recalls
 from search import find_matches
 
@@ -705,6 +705,27 @@ def api_car(name):
 def api_search():
     query = request.args.get("q", "")
     return jsonify([summary(name) for name in find_matches(query, cars)])
+
+
+@app.route("/api/breakdown/<slug>")
+def api_breakdown(slug):
+    """Teardown / exploded-view data for a 3D model: its essential parts + info.
+
+    Serves data/breakdowns/<slug>.json (parts with GLB materials, fitted-space
+    anchors, and grounded copy), enriched with the curated car's headline specs
+    so the frontend header stays in sync with the single source of truth.
+    """
+    data = load_breakdown(slug)
+    if not data:
+        return jsonify({"error": f"No teardown available for '{slug}'"}), 404
+    car = cars.get(data.get("car"))
+    if car:
+        data["car_specs"] = {
+            k: car.get(k)
+            for k in ("engine", "horsepower", "torque", "drivetrain",
+                      "transmission", "0_to_60", "curb_weight", "fuel_economy")
+        }
+    return jsonify(data)
 
 
 # --- Recall lookup (live NHTSA data) ---------------------------------------

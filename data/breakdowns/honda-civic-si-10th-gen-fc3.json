@@ -1,0 +1,141 @@
+{
+  "_note": "Teardown/breakdown data for the Showroom's exploded view. Anchors are in FITTED car space (the model is auto-fit to ~3.4 units long, grounded at y=0, +X nose, +Y up, +Z left) — the same frame as frontend/src/lib/systems.js hotspots. `materials` are GLB material-name substrings the frontend matches to select each part's meshes for highlight/explode (empty = not modeled in this GLB; show as an info callout at the anchor). `explode` is a unit-ish direction hint for the exploded layout. Part copy is grounded on data/cars/44-honda-civic-si-10th.json (systems_map + web-verified specs); anchors computed by frontend/scripts/model_meshes.mjs with the sibling .partmap.json.",
+  "model_slug": "honda-civic-si-10th-gen-fc3",
+  "car": "Honda Civic Si (10th Gen)",
+  "coordinate_space": "fitted",
+  "fit_scale": 0.76279,
+  "parts": [
+    {
+      "id": "engine",
+      "label": "1.5L L15B7 Turbo Engine",
+      "system": "engine",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.2, 0.6, 0],
+      "explode": [0.2, 1, 0],
+      "summary": "The turbocharged heart — a 1.5-liter direct-injected four that gives the Si its broad, flexible pull.",
+      "detail": "1.5L L15B7 turbocharged, direct-injected four — 205 hp and a broad 192 lb-ft plateau from just 2,100 rpm out to 5,000. Fundamentally robust and famously responsive to tuning.",
+      "watch": "Oil dilution — fuel washing into the crankcase during short, cold-weather trips — is THE watch item on the 1.5T family. Check the oil level, let it warm up before hard driving, and don't stretch changes in winter.",
+      "specs": {
+        "Output": "205 hp @ 5,700 rpm",
+        "Torque": "192 lb-ft @ 2,100–5,000 rpm",
+        "Config": "1.5L turbo I4, direct injection"
+      }
+    },
+    {
+      "id": "drivetrain",
+      "label": "6-Speed Manual & Helical LSD",
+      "system": "drivetrain",
+      "modeled": false,
+      "materials": [],
+      "anchor": [-0.15, 0.34, 0],
+      "explode": [-0.4, -0.4, 0],
+      "summary": "A short-throw six-speed sending everything to the front wheels through a limited-slip differential.",
+      "detail": "6-speed manual driving the front wheels through a helical limited-slip differential — the LSD plus the turbo's low-end torque make it easy to drive quickly.",
+      "watch": "The turbo hardware is durable; most trouble traces to maintenance, not parts. Clutch wear shows up on tuned or hard-driven cars.",
+      "specs": {
+        "Transmission": "6-speed manual",
+        "Layout": "Front-wheel drive",
+        "Differential": "Helical limited-slip (LSD)"
+      }
+    },
+    {
+      "id": "suspension",
+      "label": "Suspension & Adaptive Dampers",
+      "system": "suspension",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.0, 0.48, 0.6],
+      "explode": [0, -0.5, 0.7],
+      "summary": "Struts up front, multi-link rear, and the first adaptive dampers Honda ever put on a Civic.",
+      "detail": "MacPherson strut front and independent multi-link rear on an ultra-rigid subframe, with an Adaptive Damper System (ADS) — the first application of adaptive dampers on any Civic.",
+      "watch": "The adaptive dampers make lowering trickier — you need springs or coilovers designed to keep the ADS happy or it throws a warning. Refresh bushings on high-mile cars.",
+      "specs": {
+        "Front": "MacPherson strut",
+        "Rear": "Independent multi-link",
+        "Dampers": "Adaptive Damper System (ADS)"
+      }
+    },
+    {
+      "id": "brakes",
+      "label": "Four-Wheel Disc Brakes",
+      "system": "brakes",
+      "modeled": true,
+      "materials": ["CIVIC_CALIPER", "CIVIC_BRAKEDISC"],
+      "anchor": [1.0, 0.25, 0.6],
+      "explode": [0, -0.3, 0.9],
+      "summary": "Discs at all four corners, sized up over the base Civic to match the Si's pace.",
+      "detail": "Four-wheel discs, larger than the base Civic's, matched to the Si's grip and pace.",
+      "watch": "Pads and fluid wear faster with sport driving — inspect and refresh them more often than on a commuter.",
+      "specs": {
+        "Type": "Four-wheel discs",
+        "Front": "Ventilated disc"
+      }
+    },
+    {
+      "id": "wheels",
+      "label": "18\" Wheels & Tires",
+      "system": "suspension",
+      "modeled": true,
+      "materials": ["tyre", "rim_inner", "rim_outer", "rim_chrome", "rim_logo", "wheel_black", "material_43"],
+      "anchor": [1.0, 0.24, -0.6],
+      "explode": [0, -0.4, -1],
+      "summary": "Eighteen-inch alloys on wide, sticky rubber — the grip the LSD chassis is built to use.",
+      "detail": "Factory 18×8-inch alloy wheels on 235/40R18 tires. The Si's wider, grippier setup (vs. the base Civic) is what feeds the helical LSD and the adaptive-damper chassis.",
+      "watch": "Curb rash and pothole damage on the low-profile 18s; summer performance tires wake the car up but wear faster.",
+      "specs": {
+        "Wheels": "18 × 8 in alloy",
+        "Tires": "235/40R18"
+      }
+    },
+    {
+      "id": "body",
+      "label": "Body, Aero & Glass",
+      "system": "body",
+      "modeled": true,
+      "materials": ["cuerpo", "CIVIC_CARBON_EXT", "vidrio", "vidriotrasero", "int_glass"],
+      "anchor": [0, 0.57, 0],
+      "explode": [0, 1, 0],
+      "summary": "The steel unibody — the last Civic Si coupe Honda built — with the Si's aggressive fascias and spoiler.",
+      "detail": "Steel unibody as the FC3 coupe (the last Civic Si coupe Honda made), around 2,906 lbs, with the Si's more aggressive front and rear fascias, side sills, and a decklid spoiler. (This particular model also wears an added carbon front lip.)",
+      "watch": "Solid structure; watch for rock chips and parking dings like any daily-driven compact.",
+      "specs": {
+        "Structure": "Steel unibody",
+        "Body style": "2-door coupe (FC3)",
+        "Curb weight": "~2,906 lbs"
+      }
+    },
+    {
+      "id": "electrical",
+      "label": "Lighting & Electronics",
+      "system": "electrical",
+      "modeled": true,
+      "materials": ["luces", "luzroja", "luznaranja"],
+      "anchor": [1.35, 0.5, -0.3],
+      "explode": [1, 0.3, 0],
+      "summary": "Full-LED lighting and the Si's touchscreen electrical suite.",
+      "detail": "LED headlights and taillights, plus Honda's era touchscreen infotainment and the usual Civic accessory systems.",
+      "watch": "The pre-refresh head unit could be laggy and infamously dropped the physical volume knob for a touch slider. A/C compressor failures are a known complaint of this Honda era.",
+      "specs": {
+        "Lighting": "LED head & tail lamps",
+        "Infotainment": "7-in touchscreen"
+      }
+    },
+    {
+      "id": "interior",
+      "label": "Interior & Driver's Cockpit",
+      "system": "safety",
+      "modeled": true,
+      "materials": ["CIVIC_SEAT", "CIVIC_INT", "CIVIC_RFABRIC", "CIVIC_CPITPARTS", "plasticosinterior", "CIVIC_DISPLAY", "CIVIC_RPMBAR", "CIVIC_SW_DET", "CIVIC_SWSWITCH", "CIVIC_SWHEEL_BADGE", "CIVIC_OMP", "CIVIC_PARTS", "MIRROR"],
+      "anchor": [0, 0.53, 0.05],
+      "explode": [-0.3, 0.9, 0],
+      "summary": "Bolstered sport seats, a digital cluster, and the driver-focused Si cockpit.",
+      "detail": "Bolstered Si sport seats with red contrast stitching, a digital/analog instrument cluster, and the 6-speed shifter. (This model adds an aftermarket OMP steering wheel and racing seat.)",
+      "watch": "Seat-bolster wear on hard-used cars; the pre-refresh infotainment could lag.",
+      "specs": {
+        "Seating": "5 (sport front seats)",
+        "Cluster": "Digital tach + analog readouts"
+      }
+    }
+  ]
+}

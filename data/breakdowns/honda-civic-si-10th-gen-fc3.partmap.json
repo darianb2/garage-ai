@@ -1,0 +1,10 @@
+{
+  "wheels":   ["tyre", "rim", "wheel_black", "material_43"],
+  "brakes":   ["CIVIC_CALIPER", "CIVIC_BRAKEDISC"],
+  "body":     ["cuerpo"],
+  "aero":     ["CIVIC_CARBON_EXT"],
+  "lights":   ["luces", "luzroja", "luznaranja"],
+  "glass":    ["vidrio", "int_glass"],
+  "interior": ["CIVIC_SEAT", "CIVIC_INT", "CIVIC_RFABRIC", "CIVIC_CPITPARTS", "plasticosinterior", "CIVIC_SW", "CIVIC_DISPLAY", "CIVIC_RPMBAR", "CIVIC_LCD", "CIVIC_OMP", "CIVIC_PARTS"],
+  "mirrors":  ["MIRROR"]
+}

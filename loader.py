@@ -12,6 +12,7 @@ import os
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 CARS_DIR = os.path.join(DATA_DIR, "cars")
 CATALOG_FILE = os.path.join(DATA_DIR, "catalog.json")
+BREAKDOWNS_DIR = os.path.join(DATA_DIR, "breakdowns")
 
 
 def load_cars():
@@ -34,4 +35,21 @@ def load_catalog():
     if not os.path.exists(CATALOG_FILE):
         return []
     with open(CATALOG_FILE, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def load_breakdown(slug):
+    """Return the Teardown/breakdown descriptor for a model slug, or None if absent.
+
+    One JSON per 3D model in data/breakdowns/<slug>.json: an ordered list of the
+    car's essential parts, each with the GLB materials that compose it (for the
+    exploded 3D view), a fitted-space anchor, and info grounded on the curated car.
+    `slug` is caller-supplied, so restrict it to a safe filename before touching disk.
+    """
+    if not slug or not all(c.isalnum() or c == "-" for c in slug):
+        return None
+    path = os.path.join(BREAKDOWNS_DIR, f"{slug}.json")
+    if not os.path.exists(path):
+        return None
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
