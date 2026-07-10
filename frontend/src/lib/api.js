@@ -7,6 +7,15 @@ export async function getCatalog() {
   return res.json();
 }
 
+// Teardown/exploded-view descriptor for a model slug (the Showroom's "Teardown").
+// 404s for any car without a curated breakdown — the caller hides the Teardown
+// button on failure, so this stays a soft feature-detect.
+export async function getBreakdown(slug) {
+  const res = await fetch(`/api/breakdown/${slug}`);
+  if (!res.ok) throw new Error(`breakdown ${res.status}`);
+  return res.json();
+}
+
 // Build a full profile for any vehicle (live NHTSA data + curated specs if we
 // have the car). `vehicle` needs { make, model, year }; `generation` is optional
 // but lets the backend pick the right trim's specs when a model+year covers

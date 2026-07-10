@@ -83,11 +83,18 @@ export function primarySlug(vehicle) {
 // Resolve a vehicle to a model descriptor ({ url, scale?, rotation?, position? })
 // or null if we don't have one yet.
 export function modelFor(vehicle) {
+  return MODELS[modelSlugFor(vehicle)] || null;
+}
+
+// The registry key a vehicle resolves to (or null). Same as the descriptor lookup,
+// but returns the matched slug — used to fetch that model's Teardown breakdown,
+// which is keyed by this exact slug (e.g. "honda-civic-si-10th-gen-fc3").
+export function modelSlugFor(vehicle) {
   if (!vehicle) return null;
   const keys = [
     primarySlug(vehicle),
     [vehicle.make, vehicle.model].map(kebab).filter(Boolean).join("-"),
   ];
-  for (const k of keys) if (k && MODELS[k]) return MODELS[k];
+  for (const k of keys) if (k && MODELS[k]) return k;
   return null;
 }

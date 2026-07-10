@@ -63,3 +63,17 @@ body {
 .marble-pulse {
   animation: marble-pulse 2.4s ease-in-out infinite;
 }
+
+/* Teardown overlays: gentle entrances for the spec strip + hint, and the button's
+   hover lift. Used by the Showroom's exploded-view (Teardown) mode. */
+@keyframes td-fade-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes td-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.td-fade-up { animation: td-fade-up 0.45s ease-out; }
+.td-fade { animation: td-fade 0.6s ease-out; }
+.td-btn:hover:not(:disabled) { filter: brightness(1.18); }

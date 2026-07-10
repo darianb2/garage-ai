@@ -1,8 +1,15 @@
-import { useMemo, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import Viewer3D from "./Stage3D";
 import { configFor, paintHex } from "../lib/config";
 import { partsFor } from "../lib/parts";
+import { modelSlugFor } from "../lib/models";
+import { getBreakdown } from "../lib/api";
+import { carSpecChips } from "../lib/teardown";
 import { SectionLabel, Segmented, PrimaryButton, Mono } from "./ui";
+
+// The Teardown (exploded-view) stage carries three.js + the procedural parts, so
+// lazy-split it into the 3D chunk — it only mounts for cars that have a breakdown.
+const TeardownStage = lazy(() => import("./teardown/TeardownStage"));
 
 // Showroom mode (design ref #4a Showroom): the persistent 3D stage on the left +
 // a configurator rail on the right. Package deltas sum into "as configured" live.
@@ -46,31 +53,134 @@ export default function ShowroomMode({ vehicle, model }) {
   const togglePkg = (id) =>
     setPackages((cur) => (cur.includes(id) ? cur.filter((x) => x !== id) : [...cur, id]));
 
+  // ── Teardown (Honda-"Cog" exploded view) ──────────────────────────────────
+  // Feature-detect per car: fetch this model's breakdown; a 404 (any car without
+  // one) hides the Teardown button and keeps the plain stage. FC3 only for v1.
+  const slug = useMemo(() => modelSlugFor(vehicle), [vehicle]);
+  const [breakdown, setBreakdown] = useState(null);
+  const [tdError, setTdError] = useState(false);
+  const [teardown, setTeardown] = useState(false);
+  const [selectedId, setSelectedId] = useState(null);
+  const [modelReady, setModelReady] = useState(false);
+  const teardownReady = breakdown && !tdError;
+  const specChips = useMemo(() => carSpecChips(breakdown?.car_specs), [breakdown]);
+
+  useEffect(() => {
+    setBreakdown(null);
+    setTdError(false);
+    setTeardown(false);
+    setSelectedId(null);
+    setModelReady(false);
+    if (!slug) {
+      setTdError(true);
+      return;
+    }
+    let active = true;
+    getBreakdown(slug)
+      .then((b) => active && setBreakdown(b))
+      .catch(() => active && setTdError(true));
+    return () => {
+      active = false;
+    };
+  }, [slug]);
+
+  // ESC steps out: deselect a part first, then exit teardown.
+  useEffect(() => {
+    const onKey = (e) => {
+      if (e.key !== "Escape") return;
+      if (selectedId) setSelectedId(null);
+      else if (teardown) setTeardown(false);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [selectedId, teardown]);
+
+  const selectPart = (id) => setSelectedId((cur) => (id == null ? null : cur === id ? null : id));
+  const toggleTeardown = () => {
+    setTeardown((t) => !t);
+    setSelectedId(null);
+  };
+
   return (
     <div className="grid overflow-hidden rounded-xl border border-white/[0.07] lg:grid-cols-[1fr_340px]">
       {/* Stage */}
-      <div className="marble-stage relative min-h-[460px]">
-        <div className="pointer-events-none absolute left-4 top-3 z-10">
-          <Mono className="text-[10px] !text-marble-faint">
-            SHOWROOM · {vehicle.year} {vehicle.model.toUpperCase()}
-            {bodyObj ? ` · ${bodyObj.label.toUpperCase()}` : ""}
-          </Mono>
-        </div>
-        <div className="absolute right-4 top-3 z-10 flex gap-1.5">
-          {["⟲ 360°", "⊕ zoom"].map((c) => (
-            <span key={c} className="rounded-md bg-white/[0.06] px-2 py-1 font-mono text-[10px] text-marble-mid">
-              {c}
-            </span>
-          ))}
-        </div>
+      <div className="marble-stage relative min-h-[460px] overflow-hidden">
+        {!teardown && (
+          <div className="pointer-events-none absolute left-4 top-3 z-10">
+            <Mono className="text-[10px] !text-marble-faint">
+              SHOWROOM · {vehicle.year} {vehicle.model.toUpperCase()}
+              {bodyObj ? ` · ${bodyObj.label.toUpperCase()}` : ""}
+            </Mono>
+          </div>
+        )}
+        {!teardown && (
+          <div className="absolute right-4 top-3 z-10 flex gap-1.5">
+            {["⟲ 360°", "⊕ zoom"].map((c) => (
+              <span key={c} className="rounded-md bg-white/[0.06] px-2 py-1 font-mono text-[10px] text-marble-mid">
+                {c}
+              </span>
+            ))}
+          </div>
+        )}
         <div className="absolute inset-0">
-          <Viewer3D model={model} dark spin={false} config={stageConfig} />
+          {teardownReady ? (
+            <Suspense fallback={<StageLoading />}>
+              <TeardownStage
+                model={model}
+                breakdown={breakdown}
+                paint={stageConfig.paint}
+                paintTargets={stageConfig.paintTargets}
+                teardown={teardown}
+                selectedId={selectedId}
+                onSelect={selectPart}
+                onReady={() => setModelReady(true)}
+                onError={() => setTdError(true)}
+              />
+            </Suspense>
+          ) : (
+            <Viewer3D model={model} dark spin={false} config={stageConfig} />
+          )}
         </div>
-        <div className="pointer-events-none absolute inset-x-0 bottom-3 text-center">
-          <span className="text-[12px] text-marble-dim">
-            {paintObj ? `${paintObj.name} · ` : ""}drag to rotate
-          </span>
-        </div>
+
+        {/* Spec strip (car_specs header) — teardown only */}
+        {teardown && specChips.length > 0 && (
+          <div className="pointer-events-none absolute inset-x-0 top-3.5 z-20 flex justify-center">
+            <div className="td-fade-up flex max-w-[1040px] flex-wrap justify-center gap-1.5 px-4">
+              {specChips.map((c) => (
+                <span
+                  key={c.k}
+                  className="flex items-baseline gap-1.5 rounded-md border border-[#232328] bg-[#141416]/[0.82] px-2.5 py-1.5 backdrop-blur-sm"
+                >
+                  <span className="font-mono text-[9px] tracking-[.14em] text-marble-dim">{c.k}</span>
+                  <span className="whitespace-nowrap text-[12px] font-medium text-marble-body">{c.v}</span>
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Teardown / Reassemble button */}
+        {teardownReady && (
+          <TeardownButton active={teardown} loading={!modelReady} onClick={toggleTeardown} />
+        )}
+
+        {/* Hint bar (torn down, nothing selected) */}
+        {teardown && !selectedId && modelReady && (
+          <div className="pointer-events-none absolute inset-x-0 bottom-6 z-20 flex justify-center">
+            <span className="td-fade font-mono text-[10px] tracking-[.18em] text-marble-dim">
+              HOVER A MARKER · CLICK FOR DETAILS · ESC TO EXIT
+            </span>
+          </div>
+        )}
+
+        {/* Paint caption — hidden during teardown (the hint takes the bottom) */}
+        {!teardown && (
+          <div className="pointer-events-none absolute inset-x-0 bottom-3 text-center">
+            <span className="text-[12px] text-marble-dim">
+              {paintObj ? `${paintObj.name} · ` : ""}drag to rotate
+            </span>
+          </div>
+        )}
       </div>
 
       {/* Config rail */}
@@ -186,5 +296,50 @@ export default function ShowroomMode({ vehicle, model }) {
         </div>
       )}
     </div>
+  );
+}
+
+// Suspense fallback while the 3D chunk + GLB load (matches Stage3D's).
+function StageLoading() {
+  return (
+    <div className="flex h-full w-full items-center justify-center">
+      <span className="animate-pulse font-mono text-[11px] tracking-wide text-marble-dim">loading 3D…</span>
+    </div>
+  );
+}
+
+// The Teardown toggle (bottom-right): a 3-square diagonal glyph + label. Idle =
+// outlined cobalt "TEARDOWN"; active = solid cobalt "REASSEMBLE"; disabled while
+// the model loads. Inline styles keep the exact design tokens from the handoff.
+function TeardownButton({ active, loading, onClick }) {
+  const color = active ? "#0d0d0f" : "#8fb0f5";
+  return (
+    <button
+      onClick={onClick}
+      disabled={loading}
+      className="td-btn absolute bottom-5 right-5 z-20"
+      style={{
+        display: "flex",
+        alignItems: "center",
+        gap: 11,
+        padding: "12px 18px",
+        borderRadius: 6,
+        cursor: loading ? "default" : "pointer",
+        font: "600 11px 'JetBrains Mono', monospace",
+        letterSpacing: ".2em",
+        border: `1px solid ${active ? "#5a8cf0" : "rgba(90,140,240,.5)"}`,
+        background: active ? "#5a8cf0" : "rgba(90,140,240,.1)",
+        color,
+        opacity: loading ? 0.45 : 1,
+        transition: "background .2s, color .2s, border-color .2s, opacity .2s",
+      }}
+    >
+      <span style={{ position: "relative", width: 13, height: 13, display: "inline-block", flex: "none" }}>
+        <span style={{ position: "absolute", left: 0, top: 0, width: 4, height: 4, background: color }} />
+        <span style={{ position: "absolute", left: 5, top: 5, width: 4, height: 4, background: color }} />
+        <span style={{ position: "absolute", left: 10, top: 10, width: 4, height: 4, background: color }} />
+      </span>
+      {loading ? "LOADING 3D" : active ? "REASSEMBLE" : "TEARDOWN"}
+    </button>
   );
 }
