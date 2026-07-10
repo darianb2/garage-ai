@@ -48,6 +48,17 @@ by vecarz (https://sketchfab.com/heynic), licensed under CC-BY-NC-SA-4.0
 NOTE: CC-BY-NC-SA is NonCommercial AND ShareAlike — fine for local testing, but it
 must be replaced with a CC-BY / CC0 (or licensed) model before any commercial use.
 
+## 2023 Chevrolet Corvette Z06 (C8) — TEST ONLY
+
+This work is based on "2023 Chevrolet Corvette Z06"
+(https://sketchfab.com/3d-models/2023-chevrolet-corvette-z06-d2a8b148b1824f338d762ad3f101a906)
+by Ddiaz Design (https://sketchfab.com/ddiaz-design), licensed under CC-BY-NC-SA-4.0
+(http://creativecommons.org/licenses/by-nc-sa/4.0/). The model is itself based on a
+CSR2 (Racing) game asset.
+
+NOTE: CC-BY-NC-SA is NonCommercial AND ShareAlike — fine for local testing, but it
+must be replaced with a CC-BY / CC0 (or licensed) model before any commercial use.
+
 ## Mazda MX-5 (ND) 2014 — CC-BY (commercial OK with credit)
 
 This work is based on "Mazda MX-5 (ND) 2014"

@@ -1,0 +1,149 @@
+{
+  "_note": "Teardown/breakdown data for the Showroom's exploded view. Anchors are in FITTED car space (auto-fit ~3.4 units long, grounded y=0, +X nose, +Y up, +Z left) — same frame as lib/systems.js. `materials` are GLB material-name substrings the frontend matches (first-match-wins in this part order — put specific parts before general ones); empty = not a mesh in this GLB, shown as an info callout. Non-modeled drivetrain/suspension with those exact ids render the procedural stand-in. The Z06 ships a REAL engine mesh (EngineA — the LT6) plus real wheels, brakes (calipers), interior, and lights; only the transaxle and suspension are procedural stand-ins. Copy grounded on data/cars/72-chevrolet-corvette-z06-c8.json (systems_map); anchors from frontend/scripts/model_meshes.mjs + the sibling .partmap.json.",
+  "model_slug": "chevrolet-corvette-c8-z06",
+  "car": "Chevrolet Corvette Z06 (C8)",
+  "coordinate_space": "fitted",
+  "fit_scale": 72.298,
+  "car_specs": {
+    "engine": "5.5L NA flat-plane V8 (LT6)",
+    "horsepower": 670,
+    "torque": "460 lb-ft",
+    "drivetrain": "RWD (mid-engine)",
+    "transmission": "8-speed dual-clutch (TR-9080)",
+    "0_to_60": "~2.6 sec (Z07)",
+    "curb_weight": "~3,600 lbs",
+    "fuel_economy": "12 city / 21 hwy mpg"
+  },
+  "parts": [
+    {
+      "id": "engine",
+      "label": "LT6 5.5L Flat-Plane V8",
+      "system": "engine",
+      "modeled": true,
+      "materials": ["EngineA"],
+      "anchor": [-0.201, 0.538, 0],
+      "explode": [-0.25, 1.0, 0],
+      "summary": "The LT6 — a 5.5-liter flat-plane V8 and the most powerful naturally aspirated V8 ever put in a production car.",
+      "detail": "670 hp at 8,400 rpm to an 8,600 rpm redline, hand-built at Bowling Green. DOHC 32-valve with a dry-sump oiling system, an active split intake on twin 87 mm throttle bodies, and forged titanium rods.",
+      "watch": "Early 2023 builds have a known front timing-cover oil leak (backordered one-time-use bolts) and a few warranty engine replacements — buy sorted, keep the warranty, and run dexos-R 5W-50.",
+      "specs": {
+        "Output": "670 hp @ 8,400 rpm",
+        "Redline": "8,600 rpm",
+        "Config": "5.5L NA flat-plane V8, dry-sump"
+      }
+    },
+    {
+      "id": "wheels",
+      "label": "Forged / Carbon-Fiber Wheels",
+      "system": "suspension",
+      "modeled": true,
+      "materials": ["Wheel1A"],
+      "anchor": [-0.07, 0.29, 0],
+      "explode": [0, -0.55, 0],
+      "summary": "Wide staggered wheels — with the Z07 option, one-piece carbon-fiber rims that slash unsprung mass.",
+      "detail": "Staggered forged wheels put 670 hp and the Z07 aero down; the optional carbon-fiber wheels shave serious unsprung weight for sharper response.",
+      "watch": "The carbon wheels on run-flats are notoriously hard to service — many dealers can't seat the tires. Aftermarket wheels are a popular escape.",
+      "specs": {
+        "Fitment": "Staggered front/rear",
+        "Option": "Carbon-fiber (Z07)"
+      }
+    },
+    {
+      "id": "brakes",
+      "label": "Brembo Carbon-Ceramic Brakes",
+      "system": "brakes",
+      "modeled": true,
+      "materials": ["Calliper"],
+      "anchor": [-0.19, 0.30, 0],
+      "explode": [0, -0.32, 0],
+      "summary": "Big Brembo brakes with available carbon-ceramic rotors (Z07) for repeated high-speed stops with minimal fade.",
+      "detail": "Brembo calipers on huge rotors — carbon-ceramics with the Z07 package — haul a ~3,600 lb car down from supercar speed lap after lap.",
+      "watch": "Carbon-ceramics are exotic-car expensive to replace, and the carbon wheels make tire and brake service harder.",
+      "specs": {
+        "Front": "Brembo, carbon-ceramic (Z07)",
+        "Rear": "Brembo, carbon-ceramic (Z07)"
+      }
+    },
+    {
+      "id": "interior",
+      "label": "Two-Seat Cockpit",
+      "system": "safety",
+      "modeled": true,
+      "materials": ["InteriorA", "InteriorColourZone", "InteriorTilling", "SeatBelt"],
+      "anchor": [0.455, 0.524, 0],
+      "explode": [0, 0.95, 0.55],
+      "summary": "A driver-wrapped two-seat cockpit — the C8's tall center console and square-rim wheel.",
+      "detail": "Two seats behind a wide digital cluster; the Z06 layers in carbon-fiber and microsuede trim. The square-rimmed wheel keeps the reconfigurable dash in clear view.",
+      "watch": "Early infotainment quirks and trim rattles on some cars; check the seat bolsters on hard-used examples.",
+      "specs": {
+        "Seating": "2",
+        "Trim": "Carbon / microsuede (Z07)"
+      }
+    },
+    {
+      "id": "electrical",
+      "label": "Lighting & Electronics",
+      "system": "electrical",
+      "modeled": true,
+      "materials": ["LightA"],
+      "anchor": [-0.08, 0.58, 0],
+      "explode": [0.2, 0.55, -0.8],
+      "summary": "Full-LED lighting — slim C8 headlamps and the signature quad taillamps.",
+      "detail": "Slim LED headlights up front and the C8's four-lamp tail signature, plus the drive-mode electronics and the Z06's active-valve exhaust controls.",
+      "watch": "Aging lighting and control modules can be costly to replace as a unit; watch for early-build software gremlins.",
+      "specs": {
+        "Headlamps": "LED",
+        "Taillamps": "Quad LED"
+      }
+    },
+    {
+      "id": "body",
+      "label": "Body, Aero & Glass",
+      "system": "body",
+      "modeled": true,
+      "materials": ["Paint", "Coloured", "Base", "Carbon1", "Textured", "BadgeA", "Grille", "Window", "LicensePlate", "ManufacturerPlate"],
+      "anchor": [0, 0.5, 0],
+      "explode": [0, 1.12, 0],
+      "summary": "A mid-engine composite-and-aluminum body 3.6 inches wider than the Stingray, with Z07 aero making real downforce.",
+      "detail": "Wider track and bodywork than the Stingray, with an available carbon aero package — front splitter and a big rear wing — that generates genuine downforce at speed.",
+      "watch": "Front-end and splitter stone chips; carbon parts are costly, and early cars saw carbon-fiber supply delays.",
+      "specs": {
+        "Structure": "Aluminum + composite",
+        "Aero": "Z07 splitter + rear wing"
+      }
+    },
+    {
+      "id": "drivetrain",
+      "label": "8-Speed DCT Transaxle",
+      "system": "drivetrain",
+      "modeled": false,
+      "variant": "rwd",
+      "materials": [],
+      "anchor": [-0.75, 0.33, 0],
+      "explode": [-0.2, -0.55, 0],
+      "summary": "An 8-speed dual-clutch transaxle mounted behind the mid-engine V8, driving the rear wheels.",
+      "detail": "8-speed Tremec TR-9080 dual-clutch transaxle behind the mid-mounted V8, spinning the rears through a short 5.56 final drive — 0–60 in about 2.6 seconds with Z07. (Shown as a procedural stand-in — the transaxle isn't a separate mesh in this model.)",
+      "watch": "Some cars show dual-clutch gasket leaks and transient error messages; service the transaxle fluid on schedule.",
+      "specs": {
+        "Transmission": "8-speed DCT (TR-9080)",
+        "Layout": "Rear transaxle, RWD"
+      }
+    },
+    {
+      "id": "suspension",
+      "label": "Magnetic Ride 4.0 Suspension",
+      "system": "suspension",
+      "modeled": false,
+      "materials": [],
+      "anchor": [0.85, 0.46, 0.6],
+      "explode": [0, -0.5, 0.7],
+      "summary": "Magnetic Ride Control 4.0 on a track 3.6 inches wider than the Stingray; the Z07 adds stiffer springs and aggressive aero.",
+      "detail": "Adaptive magnetorheological dampers on a much wider track than the Stingray. The Z07 package stiffens the springs, adds carbon-ceramics, and makes real aero downforce. (Shown as a procedural stand-in — the suspension isn't a separate mesh in this model.)",
+      "watch": "Z07 cars ride firm and wear pads and tires quickly on track; alignment is fussy after any suspension work.",
+      "specs": {
+        "Layout": "Magnetic Ride 4.0",
+        "Track": "+3.6 in vs Stingray"
+      }
+    }
+  ]
+}

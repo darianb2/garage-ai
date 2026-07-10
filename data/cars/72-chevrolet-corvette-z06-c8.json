@@ -1,0 +1,68 @@
+{
+  "name": "Chevrolet Corvette Z06 (C8)",
+  "engine": "5.5L naturally aspirated flat-plane V8 (LT6, DOHC 32-valve, dry-sump), 8,600 rpm redline",
+  "horsepower": 670,
+  "torque": "460 lb-ft @ 6,300 rpm",
+  "drivetrain": "RWD (mid-engine)",
+  "transmission": "8-speed dual-clutch (Tremec TR-9080)",
+  "0_to_60": "~2.6 sec (with Z07)",
+  "fuel_economy": "12 city / 21 hwy mpg",
+  "curb_weight": "~3,600 lbs (3,434 dry with Z07 + carbon wheels)",
+  "reliability": "6/10 - the LT6 is an engineering jewel: the most powerful naturally aspirated V8 ever put in a production car, hand-assembled at GM's Bowling Green Performance Build Center. But early-build 2023 cars have real teething problems - a known front timing-cover oil leak whose one-time-use aluminum bolts were backordered for months, plus a handful of outright engine failures replaced under warranty. The car is fundamentally sound and heavily warrantied; the smart move is a later-build or already-sorted example.",
+  "cost_to_own": "Insurance: Very High (supercar pace, six-figure value, theft and appreciation) - the flat-plane V8 wants ~8 qt of dexos-R 5W-50 full synthetic, carbon-wheel cars are hard to service (dealers struggle to seat the run-flats), and it drinks fuel (~14-15 mpg combined) from a small 18.5-gal tank. Budget like an exotic, not a Corvette.",
+  "popular_mods": [
+    "Cat-back / axle-back exhaust to unleash the flat-plane V8's F1-like wail",
+    "ECU calibration and intake work (limited NA headroom - the LT6 is already near the edge)",
+    "Track alignment, pads, and high-temp fluid to match the Z07 aero package",
+    "Aftermarket wheels to escape the fragile, hard-to-service carbon setup",
+    "Aero and cooling upgrades for sustained track use"
+  ],
+  "oil_type": "5W-50 full synthetic (Mobil 1, GM dexos-R; dry-sump, ~8 qt)",
+  "oil_interval": "Every 5,000-7,500 miles (sooner with track use)",
+  "generations": {
+    "C5 Z06 (2001-2004)": "The Z06 name reborn - LS6 5.7L, lightweight fixed-roof hardtop, the affordable-performance icon.",
+    "C6 Z06 (2006-2013)": "LS7 7.0L naturally aspirated with a dry sump, ~505 hp - the last big-inch NA Z06.",
+    "C7 Z06 (2015-2019)": "Supercharged LT4 6.2L, 650 hp - brutally fast, if heat-soak-prone on track.",
+    "C8 Z06 (2023-present)": "This car. Mid-engine, with an all-new LT6 5.5L flat-plane V8 - 670 hp at 8,400 rpm, an 8,600 rpm redline, and the title of most powerful naturally aspirated V8 in any production car. 8-speed dual-clutch, RWD."
+  },
+  "common_issues": [
+    "LT6 front timing-cover oil leak - a known early-build defect; the one-time-use aluminum bolts were backordered, stranding some cars for weeks",
+    "Isolated LT6 engine failures on early 2023 cars (ticking/knock, lockup) replaced under warranty",
+    "8-speed dual-clutch gasket leaks and transient error messages on some cars",
+    "Carbon-fiber wheels with run-flat tires are hard to service - many dealers can't seat the tires",
+    "Long delivery delays and constrained carbon-fiber parts supply on early cars"
+  ],
+  "maintenance_tips": [
+    "Prefer a later-build or already-sorted car; confirm the timing-cover leak fix and any TSBs were completed",
+    "Use the specified dexos-R 5W-50 full synthetic and keep intervals short with track use - the dry sump revs to 8,600",
+    "Warm the engine fully before using the top of the rev range; let it cool after hard laps",
+    "Plan tire service around the carbon-wheel / run-flat quirk - use a shop that has actually done it",
+    "Lean on the factory warranty for the LT6 - it covers the early-build engine risks"
+  ],
+  "systems_map": {
+    "engine": {
+      "detail": "LT6 - 5.5L naturally aspirated flat-plane-crank V8, DOHC 32-valve with a dry-sump oiling system, an active split intake with twin 87 mm throttle bodies, and forged titanium rods. 670 hp at 8,400 rpm to an 8,600 rpm redline: the most powerful NA V8 ever in a production car, hand-built at Bowling Green.",
+      "watch": "Early 2023 builds have a known front timing-cover oil leak (backordered bolts) and a few warranty engine replacements - buy sorted, keep the warranty, and run dexos-R 5W-50."
+    },
+    "drivetrain": {
+      "detail": "8-speed Tremec TR-9080 dual-clutch transaxle behind the mid-mounted V8, driving the rear wheels through a short 5.56 final drive - 0-60 in about 2.6 seconds with the Z07 package.",
+      "watch": "Some cars show dual-clutch gasket leaks and transient error messages; service the transaxle fluid on schedule."
+    },
+    "suspension": {
+      "detail": "Magnetic Ride Control 4.0 on a track 3.6 inches wider than the Stingray, with an available Z07 package adding stiffer springs, carbon-ceramic brakes, and aggressive aero for genuine downforce.",
+      "watch": "Z07 cars ride firm and wear pads and tires quickly on track; alignment is fussy after any suspension work."
+    },
+    "brakes": {
+      "detail": "Big Brembo brakes with available carbon-ceramic rotors (Z07) for repeated high-speed stops with minimal fade.",
+      "watch": "Carbon-ceramics are exotic-car expensive to replace, and the carbon wheels make tire and brake service harder."
+    },
+    "fuel": {
+      "detail": "Direct-injected, high-revving NA V8 with an active split intake manifold - power comes from revs and airflow, not boost.",
+      "watch": "Real-world economy is ~14-15 mpg combined from an 18.5-gallon tank, so range is short; it wants premium fuel."
+    },
+    "body": {
+      "detail": "Mid-engine composite-and-aluminum body 3.6 inches wider than the Stingray, with available carbon-fiber wheels and Z07 aero (front splitter, big rear wing) making real downforce.",
+      "watch": "Front-end and splitter stone chips; carbon parts are costly, and early cars saw carbon-fiber supply delays."
+    }
+  }
+}

@@ -132,6 +132,34 @@ const CONFIGS = {
     defaults: { body: "hatch", paint: "championship", trim: "typer", packages: ["manual"] },
   },
 
+  "chevrolet-corvette": {
+    msrpBase: 106395,
+    msrpLabel: "2023 MSRP",
+    body: [
+      { id: "coupe", label: "Coupe" },
+      { id: "convertible", label: "Convertible" },
+    ],
+    paintYear: "2023 PALETTE",
+    paint: [
+      { id: "arcticwhite", name: "Arctic White", fill: "linear-gradient(145deg,#f6f6f3,#d7d7d1)" },
+      { id: "torchred", name: "Torch Red", fill: "linear-gradient(145deg,#c8202a,#7c1016)" },
+      { id: "amplifyorange", name: "Amplify Orange", fill: "linear-gradient(145deg,#e0561d,#8f300c)" },
+      { id: "rapidblue", name: "Rapid Blue", fill: "linear-gradient(145deg,#2f74c4,#173f75)" },
+      { id: "hypersonicgray", name: "Hypersonic Gray", fill: "linear-gradient(145deg,#5a6066,#2c3034)" },
+      { id: "carbonflash", name: "Carbon Flash", fill: "linear-gradient(145deg,#2a2a2e,#101012)" },
+    ],
+    trim: [
+      { id: "1lz", name: "1LZ", sub: "LT6 · 670 hp · base" },
+      { id: "z07", name: "Z07 Track", sub: "LT6 · 670 hp · aero + CCB" },
+    ],
+    packages: [
+      { id: "dct", label: "8-speed dual-clutch (standard)", price: 0 },
+      { id: "z07", label: "Z07 Performance Package", price: 8995 },
+      { id: "cfwheels", label: "Carbon-fiber wheels", price: 9995 },
+    ],
+    defaults: { body: "coupe", paint: "torchred", trim: "z07", packages: ["dct"] },
+  },
+
   "honda-civic-si": {
     msrpBase: 22715,
     msrpLabel: "2014 MSRP",

@@ -25,6 +25,13 @@ const LAUNCH = [
     vehicle: { make: "Honda", model: "Civic Si", year: 2014, generation: "9th Gen FG4", body: "Coupe" } },
   { name: "Honda Civic Si", chassis: "FC3", years: "2017–2020",
     vehicle: { make: "Honda", model: "Civic Si", year: 2018, generation: "10th Gen FC3", body: "Coupe" } },
+  // C8 Z06 — generation "C8 Z06" is deliberate: it kebabs to "c8-z06" so both the
+  // hero photo (images/chevrolet-corvette-c8-z06.webp) and the model slug resolve,
+  // and its tokens (c8, z06) fire the trim-gated curated spec binding. The real GLB
+  // isn't in the registry yet, so opening it falls back to the procedural body until
+  // frontend/public/models/chevrolet-corvette-c8-z06.glb lands.
+  { name: "Chevrolet Corvette Z06", chassis: "C8", years: "2023–now",
+    vehicle: { make: "Chevrolet", model: "Corvette", year: 2023, generation: "C8 Z06", body: "Coupe" } },
 ];
 
 const QUESTION_START =
@@ -204,7 +211,7 @@ export default function Landing({ onSelect, onCompare, inCompare, browse = false
             <div className="mb-4 flex items-end justify-between gap-3">
               <h2 className="text-[13px] font-semibold text-marble-hi">Launch cars — showcase quality</h2>
               <Mono className="text-[11px] normal-case tracking-normal">
-                7 of 71 profiled · {catalog?.length ?? "…"} in catalog
+                8 of 72 profiled · {catalog?.length ?? "…"} in catalog
               </Mono>
             </div>
             <div className="grid grid-cols-2 gap-4 lg:grid-cols-3">

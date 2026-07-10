@@ -854,6 +854,7 @@ CURATED_SPEC_BINDINGS = {
     # e.g., the 455hp Camaro SS off the 650hp ZL1 and the S550 Mustang GT off the
     # flat-plane GT350/GT500. See _curated_for.
     ("chevrolet", "camaro"):  [(2016, 2024, "Chevrolet Camaro SS", ("ss",))],         # 6th-gen LT1 SS (excludes ZL1)
+    ("chevrolet", "corvette"):[(2023, 2026, "Chevrolet Corvette Z06 (C8)", ("z06",))],# C8 Z06 LT6 flat-plane (excludes Stingray + C5/C6/C7 Z06)
     ("ford", "mustang"):      [(2018, 2023, "Ford Mustang GT", ("gt",))],             # S550 460hp Coyote GT (excludes GT350/GT500/Mach 1; pre-'18 GT unbound)
     ("dodge", "charger"):     [(2011, 2023, "Dodge Charger R/T / Scat Pack", ("scat",))],  # LD 392 Scat Pack (excludes Hellcat)
     ("volkswagen", "gti"):    [(2022, 9999, "Volkswagen Golf GTI")],                  # Mk8 241hp (Mk5/6/7 made less, stay unbound)

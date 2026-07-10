@@ -58,6 +58,14 @@ export const MODELS = {
   // nose faces +X, like the Civic.
   "nissan-gt-r-r35": { url: "/models/nissan-gt-r-r35.glb", rotation: [0, Math.PI / 2, 0] },
 
+  // 2023 Chevrolet Corvette Z06 (C8) — by Ddiaz Design, CC-BY-NC-SA-4.0 (NonCommercial:
+  // test only, same class as the FL5/FG4). A Sketchfab CSR2 export at tiny native scale
+  // (auto-fit scales max dim to 3.4). Y-up and upright already; length runs along Z with
+  // the NOSE at +Z (cabin/interior sits +Z, rear plate + rear intakes cluster −Z — the
+  // mid-engine giveaway), so yaw +90° about Y to face +X like the Civic/GT-R. Body paint
+  // is a single mesh on the "…Paint_Material" (native dark blue 0,0.02,0.28).
+  "chevrolet-corvette-c8-z06": { url: "/models/chevrolet-corvette-c8-z06.glb", rotation: [0, Math.PI / 2, 0] },
+
   // DEMO ONLY: CC0 "ToyCar" (Khronos) standing in to prove the loader — NOT a real
   // car. Replace with a real model + a registry line above, then delete.
   "toyota-gr-supra": { url: "/models/demo-car.glb", demo: true },

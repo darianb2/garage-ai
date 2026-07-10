@@ -45,6 +45,14 @@ export const PARTS = {
     paintTargets: ["PaletteMaterial001"],
     stockPaint: { id: "stock", name: "Original", fill: "linear-gradient(145deg,#e8c53a,#b8951c)" },
   },
+  // C8 Z06 — body paint is a single solid-colour mesh on the "…Paint_Material"
+  // (native Elkhart Lake Blue, factor 0,0.02,0.28), so paint recolours it cleanly
+  // like the Supra/FG4 — not locked. Its aero/panels ride other materials (Coloured
+  // /Base/Carbon1) and stay as authored. "Original" restores the deep blue.
+  "chevrolet-corvette-c8-z06": {
+    paintTargets: ["Chevrolet_CorvetteZ06RewardRecycled_2023Paint_Material"],
+    stockPaint: { id: "stock", name: "Original", fill: "linear-gradient(145deg,#16357e,#08183f)" },
+  },
   // Miata + M3 are PALETTE-MERGED: the whole exterior is one material (and on the
   // Miata that mesh includes the wheels). Recolouring it tints the baked texture —
   // muddy on their saturated authored paint (red / blue) and it would recolour the

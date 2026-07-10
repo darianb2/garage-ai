@@ -1,0 +1,8 @@
+{
+  "engine": ["EngineA"],
+  "wheels": ["Wheel1A"],
+  "brakes": ["Calliper"],
+  "interior": ["InteriorA", "InteriorColourZone", "InteriorTilling", "SeatBelt"],
+  "electrical": ["LightA"],
+  "body": ["Paint", "Coloured", "Base", "Carbon1", "Textured", "BadgeA", "Grille", "Window", "LicensePlate", "ManufacturerPlate"]
+}
