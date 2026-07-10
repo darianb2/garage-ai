@@ -1,0 +1,10 @@
+{
+  "brakes": ["disk"],
+  "wheels": ["CIVIC13_rin", "llanta"],
+  "interior": ["CIVIC13_int", "CIVIC13_plast"],
+  "electrical": ["CIVIC13_luz"],
+  "glass": ["glass", "vidrios"],
+  "grille": ["cromo", "parrilla2", "CIVIC13_calc"],
+  "underbody": ["bajo"],
+  "body": ["CIVIC13"]
+}

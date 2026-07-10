@@ -22,6 +22,44 @@ export const PARTS = {
     // its true colour and paint becomes an opt-in mod.
     stockPaint: { id: "stock", name: "Original", fill: "linear-gradient(145deg,#fafafa,#dcdde0)" },
   },
+
+  // The other five launch cars. Each `paintTargets` is the EXACT body material name
+  // in that GLB (the paint effect matches material.name exactly), and `stockPaint`
+  // is an "Original" swatch approximating the model's authored body colour. Supra
+  // (`Paint`) and FG4 (`CIVIC13`) are solid-colour materials → paint recolours them
+  // cleanly; FL5/GT-R/Miata/M3 bodies are textured (white factor), so paint tints
+  // the texture. Keyed by the same generation slug as MODELS + data/breakdowns.
+  "toyota-supra-a80-mk4": {
+    paintTargets: ["Paint"],
+    stockPaint: { id: "stock", name: "Original", fill: "linear-gradient(145deg,#1c1922,#08060e)" },
+  },
+  "honda-civic-type-r-fl5": {
+    paintTargets: ["Honda_CivicTypeRRewardRecycled_2023Coloured_Material"],
+    stockPaint: { id: "stock", name: "Original", fill: "linear-gradient(145deg,#f2f3f4,#d9dbdd)" },
+  },
+  "honda-civic-si-9th-gen-fg4": {
+    paintTargets: ["CIVIC13"],
+    stockPaint: { id: "stock", name: "Original", fill: "linear-gradient(145deg,#7e0d06,#4a0200)" },
+  },
+  "nissan-gt-r-r35": {
+    paintTargets: ["PaletteMaterial001"],
+    stockPaint: { id: "stock", name: "Original", fill: "linear-gradient(145deg,#e8c53a,#b8951c)" },
+  },
+  // Miata + M3 are PALETTE-MERGED: the whole exterior is one material (and on the
+  // Miata that mesh includes the wheels). Recolouring it tints the baked texture —
+  // muddy on their saturated authored paint (red / blue) and it would recolour the
+  // wheels too — so paint is LOCKED to "Original" (paintLocked hides the palette in
+  // ShowroomMode). The car shows its authored colour; the Teardown still works.
+  "mazda-mx-5-miata-nd": {
+    paintTargets: ["PaletteMaterial001"],
+    paintLocked: true,
+    stockPaint: { id: "stock", name: "Original", fill: "linear-gradient(145deg,#8a1f12,#4a0d06)" },
+  },
+  "bmw-m3-e46": {
+    paintTargets: ["PaletteMaterial002"],
+    paintLocked: true,
+    stockPaint: { id: "stock", name: "Original", fill: "linear-gradient(145deg,#2c47c4,#152670)" },
+  },
 };
 
 // Resolve a vehicle to its parts/config descriptor, or null when we don't have one

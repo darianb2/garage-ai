@@ -21,12 +21,14 @@ import {
   computeTween,
 } from "../../lib/teardown";
 
-// ── The Showroom "Teardown": the FC3 breaks apart Honda-"Cog" style. This is the
+// ── The Showroom "Teardown": the car breaks apart Honda-"Cog" style. This is the
 //    design handoff's imperative prototype ported into the app's R3F stage — one
 //    WebGL context, the useGLTF cache, the demand frameloop. It renders the
 //    assembled car too (teardown=false), so ShowroomMode swaps its normal Viewer3D
-//    for this whenever a breakdown loaded (FC3 only for v1); the button toggles in
-//    place so paint + camera persist across the transition.
+//    for this whenever a breakdown loaded (all launch cars with a model — the 4
+//    clean models get real part meshes; the palette-merged Miata/M3 degrade to a
+//    real body + procedural/callout internals); the button toggles in place so
+//    paint + camera persist across the transition.
 //
 //    Coordinate space matches the API contract: the model auto-fits to ~3.4 units
 //    long, grounded y=0, +X nose / +Y up / +Z left. Anchors are post-fit, so a
@@ -140,7 +142,7 @@ function buildRecords(carObject, parts) {
     let proc = null;
     let procBase = null;
     if (!def.modeled) {
-      const built = buildPart(THREE, def.id);
+      const built = buildPart(THREE, def.id, def.variant);
       if (built) {
         built.group.traverse((o) => {
           if (o.isMesh) o.userData.partId = def.id;
@@ -437,8 +439,13 @@ function TeardownScene({ model, paint, paintTargets, breakdown, teardown, select
             emissive: c.emissive ? c.emissive.getHex() : null,
             emissiveIntensity: c.emissiveIntensity != null ? c.emissiveIntensity : 1,
             color: c.color ? c.color.getHex() : null,
+            map: c.map || null,
+            metalness: c.metalness != null ? c.metalness : null,
           };
-          if ("envMapIntensity" in c) c.envMapIntensity = 0.9;
+          // Softer studio reflections than the FC3-era 0.9 — several launch cars use
+          // metallic paints whose 0.9 env reflection read as a "glow" once they moved
+          // from Viewer3D (no env map) onto this stage.
+          if ("envMapIntensity" in c) c.envMapIntensity = 0.5;
           cloneMap.set(m.uuid, c);
           if (targets.has(c.name)) pMats.push(c);
         }
@@ -502,12 +509,19 @@ function TeardownScene({ model, paint, paintTargets, breakdown, teardown, select
   useEffect(() => {
     for (const m of paintMats) {
       if (!m.color) continue;
+      const b = m.userData.base;
       if (paint) {
         m.color.set(paint);
-        m.metalness = 0; // paint is dielectric; the studio lighting gives the sheen
+        // Drop the baked body texture while painted — otherwise `color` only TINTS
+        // the authored paint, so on cars whose body is a coloured texture (FL5, GT-R,
+        // Miata, M3) light swatches barely read. Nulling the map gives a clean solid
+        // colour like the FC3's untextured shell. Restored to `Original` below.
+        if (m.map) m.map = null;
+        m.metalness = 0; // paint is dielectric; the studio env gives the sheen
       } else {
-        const b = m.userData.base;
         if (b?.color != null) m.color.setHex(b.color);
+        if (b && "map" in b) m.map = b.map; // restore the authored texture
+        if (b?.metalness != null) m.metalness = b.metalness;
       }
       m.needsUpdate = true;
     }
@@ -704,7 +718,7 @@ function TeardownScene({ model, paint, paintTargets, breakdown, teardown, select
       <hemisphereLight args={[0x8fa0c0, 0x131318, 0.55]} />
       <directionalLight
         position={[3.5, 6, 2.5]}
-        intensity={1.65}
+        intensity={1.45}
         castShadow
         shadow-mapSize={[2048, 2048]}
         shadow-bias={-0.0004}

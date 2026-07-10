@@ -7,7 +7,9 @@
  * the Teardown builds them from primitives here. Shipped nearly verbatim from the
  * design handoff — this file is the one piece the handoff marked "portable".
  *
- * Portable contract: buildPart(THREE, id) → { group, meshes, materials, size, anchorOffset }
+ * Portable contract: buildPart(THREE, id, variant?) → { group, meshes, materials, size, anchorOffset }
+ *   variant selects engine layout / drive type — engine: i6|v6|i4l (default transverse-4);
+ *   drivetrain: rwd|awd (default FWD transaxle). Lets each car drop a correctly-shaped chassis.
  *   group        Object3D, origin-centered assembly
  *   meshes       flat mesh list (raycast targets; userData.partId is set by the host)
  *   materials    unique materials (each carries userData.base for emissive restore)
@@ -236,9 +238,156 @@ function buildSuspensionSet(THREE) {
   return finish(THREE, g, L, [2.5, 0.52, 1.4], [FX, 0.26, TZ]);
 }
 
-export function buildPart(THREE, id) {
-  if (id === 'engine') return buildEngine(THREE);
-  if (id === 'drivetrain') return buildTransaxle(THREE);
+/* -------- longitudinal inline-6 (crank along X): Supra 2JZ / M3 S54 ---------- */
+function buildEngineI6(THREE) {
+  const L = makeLib(THREE);
+  const g = new THREE.Group();
+  // tall block stacked in Y, long in X (nose→tail): pan → block → head → cam cover
+  g.add(L.box(0.60, 0.09, 0.24, L.aluDark, 0, -0.20, 0));
+  g.add(L.box(0.62, 0.20, 0.30, L.alu, 0, -0.06, 0));
+  g.add(L.box(0.60, 0.09, 0.28, L.alu, 0, 0.07, 0));
+  g.add(L.box(0.58, 0.06, 0.24, L.plastic, 0, 0.145, 0));
+  // 6 coil packs on top, in a row along X (cobalt tips)
+  for (let i = 0; i < 6; i++) {
+    const x = -0.25 + i * 0.10;
+    g.add(L.cyl(0.015, 0.015, 0.03, L.plastic, x, 0.185, -0.02));
+    g.add(L.cyl(0.016, 0.016, 0.01, L.accent, x, 0.205, -0.02));
+  }
+  // intake plenum + 6 runners down the +Z (left) side
+  g.add(L.cyl(0.048, 0.048, 0.56, L.plastic, 0, 0.10, 0.18, 'x'));
+  for (let j = 0; j < 6; j++) {
+    const x = -0.25 + j * 0.10;
+    const run = L.cyl(0.016, 0.016, 0.12, L.plastic, x, 0.075, 0.13);
+    run.rotation.x = 0.85;
+    g.add(run);
+  }
+  // exhaust manifold down the −Z (right) side + a single turbo snail at the tail
+  for (let k = 0; k < 6; k++) {
+    const x = -0.25 + k * 0.10;
+    const ex = L.cyl(0.014, 0.014, 0.09, L.iron, x, 0.0, -0.14);
+    ex.rotation.x = -1.0;
+    g.add(ex);
+  }
+  g.add(L.box(0.5, 0.05, 0.05, L.iron, 0, -0.045, -0.19));
+  const snail = L.tor(0.04, 0.022, 5.0, L.iron, -0.30, -0.11, -0.17); snail.rotation.x = Math.PI / 2; g.add(snail);
+  g.add(L.cyl(0.024, 0.024, 0.06, L.alu, -0.33, -0.08, -0.14, 'x'));
+  // accessory belt at the nose (+X): crank pulley, alternator, belt loop
+  g.add(L.cyl(0.05, 0.05, 0.026, L.steel, 0.31, -0.10, 0, 'x'));
+  g.add(L.cyl(0.028, 0.028, 0.02, L.steel, 0.315, 0.03, 0.06, 'x'));
+  g.add(L.cyl(0.04, 0.04, 0.06, L.aluDark, 0.30, 0.0, -0.09, 'x'));
+  const belt = L.tor(0.09, 0.006, Math.PI * 2, L.rubber, 0.315, -0.03, 0); belt.rotation.y = Math.PI / 2; belt.scale.set(1, 1.3, 1); g.add(belt);
+  return finish(THREE, g, L, [0.66, 0.46, 0.5], [0.05, 0.2, 0]);
+}
+
+/* -------- longitudinal V6 (two banks in a vee): GT-R VR38DETT --------------- */
+function buildEngineV6(THREE) {
+  const L = makeLib(THREE);
+  const g = new THREE.Group();
+  // crankcase + lower vee
+  g.add(L.box(0.36, 0.10, 0.34, L.aluDark, 0, -0.16, 0));
+  g.add(L.box(0.32, 0.14, 0.30, L.alu, 0, -0.05, 0));
+  [1, -1].forEach((s) => {
+    // cylinder bank + cam cover, tilted into the vee
+    const bank = L.box(0.32, 0.16, 0.12, L.alu, 0, 0.07, s * 0.12); bank.rotation.x = s * 0.5; g.add(bank);
+    const cover = L.box(0.30, 0.05, 0.10, L.plastic, 0, 0.15, s * 0.15); cover.rotation.x = s * 0.5; g.add(cover);
+    for (let i = 0; i < 3; i++) {
+      const x = -0.10 + i * 0.10;
+      const c = L.cyl(0.014, 0.014, 0.03, L.accent, x, 0.17, s * 0.17); c.rotation.x = s * 0.5; g.add(c);
+    }
+    // low-mounted turbo snail per bank
+    const snail = L.tor(0.036, 0.02, 5.0, L.iron, 0.0, -0.12, s * 0.24); snail.rotation.y = Math.PI / 2; g.add(snail);
+    g.add(L.cyl(0.02, 0.02, 0.05, L.copper, 0.04, -0.12, s * 0.24, 'x'));
+  });
+  // intake plenum in the valley + throttle at the nose
+  g.add(L.box(0.26, 0.06, 0.16, L.plastic, 0, 0.13, 0));
+  g.add(L.cyl(0.03, 0.03, 0.05, L.alu, 0.18, 0.13, 0, 'x'));
+  // accessory pulley at the nose
+  g.add(L.cyl(0.05, 0.05, 0.026, L.steel, 0.20, -0.08, 0, 'x'));
+  return finish(THREE, g, L, [0.46, 0.46, 0.52], [0.05, 0.2, 0]);
+}
+
+/* -------- longitudinal naturally-aspirated inline-4: Miata Skyactiv --------- */
+function buildEngineI4Long(THREE) {
+  const L = makeLib(THREE);
+  const g = new THREE.Group();
+  g.add(L.box(0.40, 0.09, 0.24, L.aluDark, 0, -0.17, 0));
+  g.add(L.box(0.42, 0.18, 0.28, L.alu, 0, -0.05, 0));
+  g.add(L.box(0.40, 0.08, 0.26, L.alu, 0, 0.06, 0));
+  g.add(L.box(0.38, 0.05, 0.22, L.plastic, 0, 0.12, 0));
+  for (let i = 0; i < 4; i++) { const x = -0.15 + i * 0.10; g.add(L.cyl(0.014, 0.014, 0.026, L.accent, x, 0.15, -0.02)); }
+  // intake (+Z) + tubular exhaust header (−Z), no turbo
+  g.add(L.cyl(0.04, 0.04, 0.36, L.plastic, 0, 0.08, 0.16, 'x'));
+  for (let j = 0; j < 4; j++) { const x = -0.15 + j * 0.10; const r = L.cyl(0.014, 0.014, 0.10, L.plastic, x, 0.06, 0.12); r.rotation.x = 0.8; g.add(r); }
+  for (let k = 0; k < 4; k++) { const x = -0.15 + k * 0.10; const e = L.cyl(0.013, 0.013, 0.09, L.iron, x, -0.02, -0.14); e.rotation.x = -0.9; g.add(e); }
+  g.add(L.box(0.34, 0.04, 0.04, L.iron, 0, -0.06, -0.18));
+  g.add(L.cyl(0.045, 0.045, 0.024, L.steel, 0.21, -0.09, 0, 'x'));
+  return finish(THREE, g, L, [0.46, 0.42, 0.42], [0.05, 0.2, 0]);
+}
+
+/* -------- RWD gearbox + prop shaft + rear diff (along X): Supra/M3/Miata ---- */
+function buildGearboxRWD(THREE) {
+  const L = makeLib(THREE);
+  const g = new THREE.Group();
+  // gearbox at the front (+X): bell housing → tapered case → main case + shifter
+  g.add(L.cyl(0.10, 0.10, 0.02, L.aluDark, 0.34, 0, 0, 'x', 22));
+  g.add(L.cyl(0.075, 0.10, 0.14, L.alu, 0.25, 0, 0, 'x', 22));
+  g.add(L.cyl(0.06, 0.06, 0.18, L.alu, 0.09, 0, 0, 'x', 20));
+  g.add(L.box(0.04, 0.05, 0.05, L.aluDark, 0.05, 0.09, 0));
+  g.add(L.cyl(0.008, 0.008, 0.05, L.steel, 0.05, 0.12, 0));
+  // prop shaft to the rear (−X) with U-joints
+  g.add(L.cyl(0.018, 0.018, 0.5, L.steel, -0.18, 0, 0, 'x'));
+  g.add(L.sph(0.03, L.steel, 0.02, 0, 0));
+  g.add(L.sph(0.03, L.steel, -0.42, 0, 0));
+  // rear diff (pumpkin) + half-shafts out to the wheels (±Z)
+  const pk = L.sph(0.075, L.iron, -0.48, -0.02, 0); pk.scale.set(0.9, 1, 1); g.add(pk);
+  g.add(L.cyl(0.06, 0.06, 0.10, L.iron, -0.48, -0.02, 0, 'x', 16));
+  g.add(L.tor(0.06, 0.006, Math.PI * 2, L.accent, -0.44, -0.02, 0));
+  [1, -1].forEach((s) => {
+    g.add(L.cyl(0.014, 0.014, 0.28, L.steel, -0.48, -0.02, s * 0.20, 'z'));
+    g.add(L.cyl(0.022, 0.026, 0.04, L.rubber, -0.48, -0.02, s * 0.09, 'z'));
+    g.add(L.sph(0.026, L.steel, -0.48, -0.02, s * 0.34));
+  });
+  return finish(THREE, g, L, [1.0, 0.22, 0.5], [0.28, 0.14, 0]);
+}
+
+/* -------- AWD: front transfer → carbon prop shaft → rear transaxle: GT-R ---- */
+function buildTransaxleAWD(THREE) {
+  const L = makeLib(THREE);
+  const g = new THREE.Group();
+  // front transfer case (+X)
+  g.add(L.cyl(0.055, 0.055, 0.10, L.alu, 0.36, 0, 0.04, 'x', 18));
+  // carbon prop shaft to the rear
+  g.add(L.cyl(0.02, 0.02, 0.58, L.iron, 0.0, 0, 0, 'x'));
+  g.add(L.sph(0.03, L.steel, 0.28, 0, 0));
+  g.add(L.sph(0.03, L.steel, -0.30, 0, 0));
+  // rear transaxle (−X): clutch bell + case + final drive with cobalt ring
+  g.add(L.cyl(0.11, 0.11, 0.06, L.aluDark, -0.30, 0, 0, 'x', 22));
+  g.add(L.box(0.22, 0.19, 0.28, L.alu, -0.43, -0.01, 0));
+  g.add(L.cyl(0.05, 0.05, 0.04, L.aluDark, -0.43, -0.10, 0.13, 'x'));
+  g.add(L.tor(0.05, 0.006, Math.PI * 2, L.accent, -0.41, -0.10, 0.13));
+  [1, -1].forEach((s) => {
+    g.add(L.cyl(0.015, 0.015, 0.26, L.steel, -0.43, -0.05, s * 0.24, 'z'));
+    g.add(L.cyl(0.024, 0.028, 0.04, L.rubber, -0.43, -0.05, s * 0.11, 'z'));
+    g.add(L.sph(0.03, L.steel, -0.43, -0.05, s * 0.30));
+  });
+  return finish(THREE, g, L, [1.0, 0.26, 0.56], [0.30, 0.16, 0]);
+}
+
+// id → assembly, with an optional `variant` for engine layout / drive type. The
+// Hondas (FWD transverse-4) use the defaults; the RWD/AWD cars pass a variant so
+// the stand-in that drops out actually matches the car (inline-6, V6, RWD gearbox…).
+export function buildPart(THREE, id, variant) {
+  if (id === 'engine') {
+    if (variant === 'i6') return buildEngineI6(THREE);
+    if (variant === 'v6') return buildEngineV6(THREE);
+    if (variant === 'i4l') return buildEngineI4Long(THREE);
+    return buildEngine(THREE); // transverse turbo-4 (FC3/FG4/FL5)
+  }
+  if (id === 'drivetrain') {
+    if (variant === 'rwd') return buildGearboxRWD(THREE);
+    if (variant === 'awd') return buildTransaxleAWD(THREE);
+    return buildTransaxle(THREE); // FWD transaxle (Hondas)
+  }
   if (id === 'suspension') return buildSuspensionSet(THREE);
   return null;
 }

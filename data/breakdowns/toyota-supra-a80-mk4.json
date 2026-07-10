@@ -1,0 +1,150 @@
+{
+  "_note": "Teardown/breakdown data for the Showroom's exploded view. Anchors in FITTED car space (~3.4 units long, grounded y=0, +X nose, +Y up, +Z left). `materials` are GLB material-name substrings matched first-match-wins in this part order; empty = not a mesh in this GLB → info callout. The A80 ships a real engine mesh (EngineA). It's RWD, so the drivetrain is a pure info callout (id `driveline`) rather than the FC3 procedural FWD transaxle; the suspension uses the procedural stand-in. Copy grounded on data/cars/18-toyota-supra-mk4.json; anchors from frontend/scripts/model_meshes.mjs.",
+  "model_slug": "toyota-supra-a80-mk4",
+  "car": "Toyota Supra Mk4 (A80)",
+  "coordinate_space": "fitted",
+  "fit_scale": 0.74032,
+  "car_specs": {
+    "engine": "3.0L twin-turbo I6 (2JZ-GTE)",
+    "horsepower": 320,
+    "torque": "315 lb-ft",
+    "drivetrain": "RWD",
+    "transmission": "6-speed manual (Getrag V160)",
+    "0_to_60": "~4.6 sec",
+    "curb_weight": "~3,400 lbs",
+    "fuel_economy": "15 city / 22 hwy mpg"
+  },
+  "parts": [
+    {
+      "id": "engine",
+      "label": "3.0L 2JZ-GTE Twin-Turbo I6",
+      "system": "engine",
+      "modeled": false,
+      "variant": "i6",
+      "materials": [],
+      "anchor": [1.15, 0.55, 0],
+      "explode": [0.2, 1, 0],
+      "summary": "The legend — a sequential-twin-turbo inline-six so overbuilt it shrugs off 600–700 whp on the stock bottom end.",
+      "detail": "2JZ-GTE — 3.0L sequential-twin-turbo inline-six, 320 hp stock (276 hp JDM). A closed-deck iron block and forged crank make it one of the most overbuilt engines ever sold.",
+      "watch": "Age, not engineering: aging turbos and hoses, and period R12 A/C. Verify with a compression and leakdown test.",
+      "specs": {
+        "Output": "320 hp (US)",
+        "Torque": "315 lb-ft",
+        "Config": "3.0L sequential-twin-turbo I6"
+      }
+    },
+    {
+      "id": "wheels",
+      "label": "17\" Wheels & Tires",
+      "system": "suspension",
+      "modeled": true,
+      "materials": ["DISK1", "DISK2", "Wheel2A"],
+      "anchor": [1.0, 0.24, -0.6],
+      "explode": [0, -0.4, -1],
+      "summary": "Staggered alloys on wide rubber — the footprint that puts the 2JZ's torque down.",
+      "detail": "Factory staggered wheels on performance tires, sized to feed the RWD Torsen limited-slip and the 2JZ's broad torque.",
+      "watch": "Curb rash on the low-profile fronts; owners often upsize for big-power builds.",
+      "specs": {
+        "Wheels": "17 in alloy (staggered)",
+        "Tires": "Performance"
+      }
+    },
+    {
+      "id": "brakes",
+      "label": "Four-Wheel Vented Discs",
+      "system": "brakes",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.0, 0.25, 0.6],
+      "explode": [0, -0.3, 0.9],
+      "summary": "Large vented discs front and rear — strong for the era and easily upgraded.",
+      "detail": "Large vented discs at all four corners — strong stoppers for the mid-'90s and a common target for big-brake kits on tuned cars.",
+      "watch": "Warped rotors and aged flexible lines on 25-plus-year-old cars; upgrade for track or big-power use.",
+      "specs": {
+        "Front": "Vented disc",
+        "Rear": "Vented disc"
+      }
+    },
+    {
+      "id": "interior",
+      "label": "Interior & Driver's Cockpit",
+      "system": "safety",
+      "modeled": true,
+      "materials": ["InteriorA"],
+      "anchor": [-0.4, 0.5, 0],
+      "explode": [-0.3, 0.9, 0],
+      "summary": "The wraparound driver's cockpit that defined the '90s Japanese GT.",
+      "detail": "The A80's driver-angled dash and wraparound cockpit, with the lift-out targa panel stowing behind the seats on T-top cars.",
+      "watch": "Aging factory electronics and gauges; hardened targa seals cause rattles and leaks.",
+      "specs": {
+        "Layout": "2+2 driver-focused",
+        "Roof": "Available lift-out targa"
+      }
+    },
+    {
+      "id": "electrical",
+      "label": "Lighting & Electronics",
+      "system": "electrical",
+      "modeled": true,
+      "materials": ["LightD", "PaletteMaterial004"],
+      "anchor": [0, 0.45, 0],
+      "explode": [0, 0.45, 0.7],
+      "summary": "Pop-up-era lighting and the A80's period electronics suite.",
+      "detail": "The A80's headlight and tail-lamp assemblies plus its mid-'90s electronics — simple and robust, but aging.",
+      "watch": "Aging factory electronics, gauges, and R12 air conditioning are the era's weak points.",
+      "specs": {
+        "Lighting": "Halogen (period)",
+        "Climate": "R12 A/C (period)"
+      }
+    },
+    {
+      "id": "body",
+      "label": "Body, Targa & Glass",
+      "system": "body",
+      "modeled": true,
+      "materials": ["Paint", "Carbon1", "EngineA", "PaletteMaterial001", "PaletteMaterial002", "PaletteMaterial003", "PaletteMaterial005", "PaletteMaterial006", "Grille", "Hood3BGrille", "BadgeD", "License", "ManufacturerPlate"],
+      "anchor": [0, 0.45, 0],
+      "explode": [0, 1, 0],
+      "summary": "Steel unibody with a lift-out targa top — clean examples have appreciated hard ($80k–$150k+).",
+      "detail": "Steel unibody with the signature lift-out targa top and big rear wing. Values for clean, unmodified cars have climbed steeply.",
+      "watch": "Rust at the rear hatch, wheel arches, and battery tray; hardened targa seals leak, rattle, and let in wind noise.",
+      "specs": {
+        "Structure": "Steel unibody",
+        "Roof": "Lift-out targa"
+      }
+    },
+    {
+      "id": "drivetrain",
+      "label": "V160 6-Speed & Torsen LSD (RWD)",
+      "system": "drivetrain",
+      "modeled": false,
+      "variant": "rwd",
+      "materials": [],
+      "anchor": [0, 0.32, 0],
+      "explode": [-0.2, -0.55, 0],
+      "summary": "The Getrag V160 six-speed sending the 2JZ's torque rearward through a Torsen limited-slip.",
+      "detail": "Getrag-built V160 6-speed manual (the one to have) or a 4-speed auto, driving the rear wheels through a Torsen limited-slip differential.",
+      "watch": "The V160 is stout but expensive to replace; clutches on hard-driven and modified cars are a common wear item.",
+      "specs": {
+        "Transmission": "6-speed manual (Getrag V160)",
+        "Layout": "RWD, Torsen LSD"
+      }
+    },
+    {
+      "id": "suspension",
+      "label": "Double-Wishbone Suspension",
+      "system": "suspension",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.0, 0.45, 0.6],
+      "explode": [0, -0.5, 0.7],
+      "summary": "Double-wishbone front and rear — a genuine sports-car chassis under the grand-touring bodywork.",
+      "detail": "Double-wishbone suspension at all four corners gives the A80 a real sports-car chassis. (Shown as a procedural stand-in — not a separate mesh in this model.)",
+      "watch": "Tired bushings and shocks on 25-plus-year-old cars; a full refresh restores the intended handling.",
+      "specs": {
+        "Front": "Double wishbone",
+        "Rear": "Double wishbone"
+      }
+    }
+  ]
+}

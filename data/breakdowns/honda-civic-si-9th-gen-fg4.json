@@ -1,0 +1,148 @@
+{
+  "_note": "Teardown/breakdown data for the Showroom's exploded view. Anchors in FITTED car space (~3.4 units long, grounded y=0, +X nose, +Y up, +Z left). `materials` are GLB material-name substrings matched first-match-wins in this part order — the body's `CIVIC13` over-matches the suffixed wheel/interior/light materials, so those specific parts are listed BEFORE body to claim their meshes first. This GLB has real brake + wheel meshes but no engine mesh, and it's FWD like the FC3, so engine/drivetrain/suspension use the procedural stand-ins. Copy grounded on data/cars/43-honda-civic-si-9th.json; anchors from frontend/scripts/model_meshes.mjs.",
+  "model_slug": "honda-civic-si-9th-gen-fg4",
+  "car": "Honda Civic Si (9th Gen · FG4)",
+  "coordinate_space": "fitted",
+  "fit_scale": 76.014,
+  "car_specs": {
+    "engine": "2.4L K24Z7 i-VTEC I4",
+    "horsepower": 205,
+    "torque": "174 lb-ft",
+    "drivetrain": "FWD",
+    "transmission": "6-speed manual",
+    "0_to_60": "~6.4 sec",
+    "curb_weight": "~2,875 lbs",
+    "fuel_economy": "22 city / 31 hwy mpg"
+  },
+  "parts": [
+    {
+      "id": "brakes",
+      "label": "Four-Wheel Disc Brakes",
+      "system": "brakes",
+      "modeled": true,
+      "materials": ["disk"],
+      "anchor": [1.0, 0.24, 0.6],
+      "explode": [0, -0.3, 0.9],
+      "summary": "Four-wheel discs sized for the Si — plenty of stopping power for a ~2,875 lb coupe.",
+      "detail": "Four-wheel discs sized for the Si — more than enough for a ~2,875 lb car, and an easy target for pads and fluid.",
+      "watch": "Pads and fluid are the only real upgrade for spirited or track use.",
+      "specs": {
+        "Type": "Four-wheel discs",
+        "Front": "Ventilated disc"
+      }
+    },
+    {
+      "id": "wheels",
+      "label": "18\" Wheels & Tires",
+      "system": "suspension",
+      "modeled": true,
+      "materials": ["CIVIC13_rin", "llanta"],
+      "anchor": [1.0, 0.24, -0.6],
+      "explode": [0, -0.4, -1],
+      "summary": "Eighteen-inch alloys on grippy rubber — the footprint that works with the factory helical LSD.",
+      "detail": "Factory 18-inch alloys on performance tires — the setup that lets the helical limited-slip put the K24's fat midrange down.",
+      "watch": "Curb rash and pothole damage on the low-profile 18s; sticky summer tires wake the car up.",
+      "specs": {
+        "Wheels": "18 in alloy",
+        "Tires": "Performance"
+      }
+    },
+    {
+      "id": "interior",
+      "label": "Interior & Driver's Cockpit",
+      "system": "safety",
+      "modeled": true,
+      "materials": ["CIVIC13_int", "CIVIC13_plast"],
+      "anchor": [-0.2, 0.55, 0],
+      "explode": [-0.3, 0.9, 0],
+      "summary": "The two-tier Si dash, bolstered seats, and the notchy short-throw six-speed.",
+      "detail": "The 9th-gen's two-tier digital/analog dash with the Si's bolstered sport seats and 6-speed shifter. The 2012 cars had hard-plastic trim; Honda improved it in the 2013 refresh.",
+      "watch": "The one real gripe is the cheap-feeling 2012 interior — prefer a 2013–2015 car. Feel for 3rd-gear synchro notchiness on a test drive.",
+      "specs": {
+        "Seating": "5 (sport front seats)",
+        "Cluster": "Two-tier digital + analog"
+      }
+    },
+    {
+      "id": "electrical",
+      "label": "Lighting & Electronics",
+      "system": "electrical",
+      "modeled": true,
+      "materials": ["CIVIC13_luz"],
+      "anchor": [0, 0.5, 0],
+      "explode": [0, 0.45, 0.7],
+      "summary": "The Si's headlight and tail-lamp assemblies and its accessory electrics.",
+      "detail": "Halogen/projector head lamps and the Si's tail-lamp clusters, plus the era's i-MID display and Civic accessory systems.",
+      "watch": "Straightforward and durable; the early i-MID software is dated but reliable.",
+      "specs": {
+        "Lighting": "Halogen / projector",
+        "Display": "5-in i-MID"
+      }
+    },
+    {
+      "id": "body",
+      "label": "Body, Aero & Glass",
+      "system": "body",
+      "modeled": true,
+      "materials": ["CIVIC13", "glass", "vidrios", "cromo", "parrilla2", "bajo"],
+      "anchor": [0, 0.55, 0],
+      "explode": [0, 1, 0],
+      "summary": "The steel unibody FG4 coupe — the sportier two-door of the 9th-gen Si pair.",
+      "detail": "Steel unibody as the FG4 coupe (the two-door for buyers who wanted the sportier body), around 2,875 lbs, with the Si's fascias and decklid spoiler.",
+      "watch": "Solid structure; watch for rock chips and parking dings like any daily-driven compact.",
+      "specs": {
+        "Structure": "Steel unibody",
+        "Body style": "2-door coupe (FG4)"
+      }
+    },
+    {
+      "id": "engine",
+      "label": "2.4L K24Z7 i-VTEC Engine",
+      "system": "engine",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.15, 0.55, 0],
+      "explode": [0.3, 0.95, 0],
+      "summary": "The biggest-displacement engine in Si history — a torquey 2.4-liter i-VTEC four.",
+      "detail": "2.4L K24Z7 DOHC i-VTEC four — the biggest-displacement engine in Si history. 205 hp and 174 lb-ft (2014–2015) with a fat, usable midrange, and chain-driven (no timing belt). (Shown as a procedural stand-in — not a separate mesh in this model.)",
+      "watch": "Genuinely stout — the main K-series quirk is the harmless cold-start VTC actuator rattle. Keep the oil clean and it lasts.",
+      "specs": {
+        "Output": "205 hp",
+        "Torque": "174 lb-ft @ 4,400",
+        "Config": "2.4L i-VTEC I4 (transverse)"
+      }
+    },
+    {
+      "id": "drivetrain",
+      "label": "6-Speed Manual & Helical LSD",
+      "system": "drivetrain",
+      "modeled": false,
+      "materials": [],
+      "anchor": [-0.15, 0.34, 0],
+      "explode": [-0.4, -0.4, 0],
+      "summary": "A short-throw six-speed sending the K24's torque to the front wheels through a helical LSD.",
+      "detail": "6-speed manual driving the front wheels through a helical limited-slip differential — carried over from the 8th gen and working beautifully with the K24's torque. (Procedural stand-in — not a separate mesh.)",
+      "watch": "3rd-gear synchro wear shows up on hard-shifted cars — feel for notchiness. Inspect the clutch on any tuned car.",
+      "specs": {
+        "Transmission": "6-speed manual",
+        "Differential": "Helical LSD"
+      }
+    },
+    {
+      "id": "suspension",
+      "label": "Strut Front / Multi-Link Rear",
+      "system": "suspension",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.0, 0.48, 0.6],
+      "explode": [0, -0.5, 0.7],
+      "summary": "MacPherson strut front and independent multi-link rear, sport-tuned for the Si.",
+      "detail": "MacPherson strut front and independent multi-link rear, evolved from the 8th-gen platform with sport tuning for a slightly more compliant balance. (Procedural stand-in — not a separate mesh.)",
+      "watch": "Bushings and dampers soften with miles; coilovers and sway bars are the usual upgrade to tighten it back up around the factory LSD.",
+      "specs": {
+        "Front": "MacPherson strut",
+        "Rear": "Independent multi-link"
+      }
+    }
+  ]
+}

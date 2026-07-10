@@ -1,0 +1,10 @@
+{
+  "engine": ["EngineA"],
+  "wheels": ["DISK1", "DISK2", "Wheel2A"],
+  "interior": ["InteriorA"],
+  "electrical": ["LightD", "PaletteMaterial004"],
+  "glass": ["PaletteMaterial002", "PaletteMaterial005"],
+  "mirror": ["PaletteMaterial003"],
+  "grille": ["Grille", "Hood3BGrille", "BadgeD", "License", "ManufacturerPlate"],
+  "body": ["Paint", "Carbon1", "PaletteMaterial001", "PaletteMaterial006"]
+}

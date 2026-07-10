@@ -1,0 +1,166 @@
+{
+  "_note": "Teardown/breakdown data for the Showroom's exploded view. This GLB is PALETTE-MERGED — 6 generic PaletteMaterial00N groups with no isolated wheels/interior/lights/engine. Degraded teardown: the painted shell (PaletteMaterial002, the full body; also the paint target) plus the surrounding panels/glass/trim lift as `body`, the lower mass (PaletteMaterial003) drops as `chassis`, a procedural suspension stand-in spreads, and the RWD internals + interior + lights are honest info-callouts (ids NOT engine/drivetrain so no wrong FWD geometry renders). Anchors in FITTED car space (~3.4 units long, +X nose, +Y up, +Z left). Copy grounded on data/cars/19-bmw-m3-e46.json; anchors from frontend/scripts/model_meshes.mjs.",
+  "model_slug": "bmw-m3-e46",
+  "car": "BMW M3 (E46)",
+  "coordinate_space": "fitted",
+  "fit_scale": 0.7519,
+  "car_specs": {
+    "engine": "3.2L NA I6 (S54B32)",
+    "horsepower": 333,
+    "torque": "262 lb-ft",
+    "drivetrain": "RWD",
+    "transmission": "6-speed manual (Getrag 420G)",
+    "0_to_60": "~4.8 sec",
+    "curb_weight": "~3,415 lbs",
+    "fuel_economy": "16 city / 24 hwy mpg"
+  },
+  "parts": [
+    {
+      "id": "body",
+      "label": "Body, Aero & Glass",
+      "system": "body",
+      "modeled": true,
+      "materials": ["PaletteMaterial002", "PaletteMaterial001", "PaletteMaterial005", "PaletteMaterial006", "PaletteMaterial004"],
+      "anchor": [0, 0.55, 0],
+      "explode": [0, 1, 0],
+      "summary": "The steel unibody coupe with the M3's flared arches — now an appreciating modern classic.",
+      "detail": "Steel unibody coupe (or convertible) with the M3's subtly flared arches and power dome — a shape that has aged into an appreciating modern classic.",
+      "watch": "The signature E46 M3 flaw: rear subframe mounting points crack where they meet the chassis floor — inspect and reinforce with plates.",
+      "specs": {
+        "Structure": "Steel unibody",
+        "Body style": "Coupe / convertible"
+      }
+    },
+    {
+      "id": "chassis",
+      "label": "Chassis & Underbody",
+      "system": "body",
+      "modeled": true,
+      "materials": ["PaletteMaterial003"],
+      "anchor": [-0.02, 0.385, 0],
+      "explode": [0, -0.75, 0],
+      "summary": "The floorpan and lower structure — home of the E46 M3's infamous subframe mounts.",
+      "detail": "The lower body structure and floorpan that carry the rear subframe mounts — the defining E46 M3 weak point, where the chassis cracks under hard use.",
+      "watch": "Have the rear subframe mounting points inspected for cracks and reinforced with plates — this is the make-or-break check on any E46 M3.",
+      "specs": {
+        "Watch item": "Rear subframe mount cracks",
+        "Fix": "Reinforcement plates"
+      }
+    },
+    {
+      "id": "engine",
+      "label": "3.2L S54 Inline-Six",
+      "system": "engine",
+      "modeled": false,
+      "variant": "i6",
+      "materials": [],
+      "anchor": [1.1, 0.55, 0],
+      "explode": [0.2, 1, 0],
+      "summary": "One of the all-time-great naturally aspirated sixes — 333 hp screaming to 8,000 rpm.",
+      "detail": "S54B32 — 3.2L naturally aspirated inline-six with six individual throttle bodies and double-VANOS, 333 hp (US) at a screaming 8,000 rpm. (Info callout — this merged model has no separate engine mesh.)",
+      "watch": "Rod bearings wear from tight factory clearances — preventive replacement is the accepted fix — plus VANOS rattle and aging cooling-system plastics.",
+      "specs": {
+        "Output": "333 hp @ 7,900 rpm",
+        "Torque": "262 lb-ft",
+        "Config": "3.2L NA I6, 8,000 rpm redline"
+      }
+    },
+    {
+      "id": "drivetrain",
+      "label": "Getrag 6-Speed & LSD (RWD)",
+      "system": "drivetrain",
+      "modeled": false,
+      "variant": "rwd",
+      "materials": [],
+      "anchor": [0, 0.32, 0],
+      "explode": [-0.2, -0.55, 0],
+      "summary": "A Getrag six-speed (or the clunky SMG) driving the rear wheels through a limited-slip diff.",
+      "detail": "Getrag 420G 6-speed manual or the automated-clutch SMG II, driving the rear wheels through a limited-slip differential. (Info callout — not a separate mesh in this model.)",
+      "watch": "SMG hydraulic pump and actuator failures plague SMG cars; many owners convert to the manual.",
+      "specs": {
+        "Transmission": "6-speed manual (Getrag 420G)",
+        "Layout": "RWD, limited-slip diff"
+      }
+    },
+    {
+      "id": "suspension",
+      "label": "Strut Front / Multilink Rear",
+      "system": "suspension",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.0, 0.45, 0.6],
+      "explode": [0, -0.5, 0.7],
+      "summary": "MacPherson-strut front and multilink rear — the benchmark sport-coupe chassis.",
+      "detail": "MacPherson-strut front and multilink rear — the sharp, communicative chassis that set the sport-coupe benchmark. (Shown as a procedural stand-in — not a separate mesh in this model.)",
+      "watch": "Worn front control-arm and rear trailing-arm bushings dull the steering; refresh them with age.",
+      "specs": {
+        "Front": "MacPherson strut",
+        "Rear": "Multilink"
+      }
+    },
+    {
+      "id": "wheels",
+      "label": "18\" Wheels & Tires",
+      "system": "suspension",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.0, 0.24, -0.6],
+      "explode": [0, -0.4, -1],
+      "summary": "Staggered 18\" alloys on wide rubber — the footprint that puts 333 hp down.",
+      "detail": "Factory staggered 18-inch alloys (the double-spoke style-67s) on wide performance tires. (Info callout — the wheels aren't a separable mesh in this model.)",
+      "watch": "Curb rash on the low-profile rubber; many cars wear the fragile factory finish.",
+      "specs": {
+        "Wheels": "18 in staggered alloy",
+        "Tires": "Performance"
+      }
+    },
+    {
+      "id": "brakes",
+      "label": "Four-Wheel Vented Discs",
+      "system": "brakes",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.0, 0.25, 0.6],
+      "explode": [0, -0.3, 0.9],
+      "summary": "Vented discs at all four corners — strong and genuinely track-capable.",
+      "detail": "Vented discs at all four corners — strong and track-capable with the right pads and fluid. (Info callout — not a separable mesh in this model.)",
+      "watch": "Warped or cracked rotors on track-used cars; upgrade pads and fluid before lapping.",
+      "specs": {
+        "Front": "Vented disc",
+        "Rear": "Vented disc"
+      }
+    },
+    {
+      "id": "interior",
+      "label": "Interior & Driver's Cockpit",
+      "system": "safety",
+      "modeled": false,
+      "materials": [],
+      "anchor": [-0.25, 0.5, 0],
+      "explode": [-0.3, 0.9, 0],
+      "summary": "The driver-focused E46 cockpit — supportive seats and the classic M three-spoke wheel.",
+      "detail": "The E46 M3's driver-oriented cabin with supportive sport seats, the three-spoke M steering wheel, and the era's clear analog gauges. (Info callout — not a separable mesh in this model.)",
+      "watch": "Pixel loss in the cluster/on-board-computer display and worn seat bolsters on high-mile cars.",
+      "specs": {
+        "Seating": "4",
+        "Wheel": "Three-spoke M"
+      }
+    },
+    {
+      "id": "electrical",
+      "label": "Lighting & Electronics",
+      "system": "electrical",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.3, 0.5, -0.3],
+      "explode": [1, 0.3, 0],
+      "summary": "Early-2000s BMW electronics — robust in design, now aging hardware.",
+      "detail": "Angel-eye halo headlights and the era's BMW electronics — robust in design but now aging. (Info callout — not a separable mesh in this model.)",
+      "watch": "Failing window regulators, pixel loss in the cluster display, and tired cooling-fan electronics.",
+      "specs": {
+        "Lighting": "Halogen 'angel eyes'",
+        "Note": "Aging regulators/pixels"
+      }
+    }
+  ]
+}

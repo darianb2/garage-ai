@@ -1,0 +1,10 @@
+{
+  "engine": ["r35_engine"],
+  "wheels": ["r35_wheel_05a"],
+  "interior": ["r35_interior", "r35_plastic", "r35_symbols", "r35_leather", "r35_steeringwheel", "r35_gauges", "r35_cloth", "r35_display", "r35_carpet", "r35_mesh", "r35_screen", "PaletteMaterial003"],
+  "electrical": ["r35_taillight", "r35_signal", "r35_highbeam"],
+  "glass": ["PaletteMaterial004"],
+  "grille": ["grille", "r35_badges"],
+  "body": ["PaletteMaterial001", "PaletteMaterial002", "r35_misc"],
+  "drivetrain": ["material"]
+}

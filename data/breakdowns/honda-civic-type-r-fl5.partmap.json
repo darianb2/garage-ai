@@ -1,0 +1,10 @@
+{
+  "engine": ["EngineA"],
+  "brakes": ["Calliper"],
+  "wheels": ["Wheel1A"],
+  "interior": ["Interior"],
+  "electrical": ["LightA"],
+  "glass": ["PaletteMaterial", "Window", "RED_GLASS"],
+  "grille": ["Grille", "BadgeA", "ManufacturerPlate", "LicensePlate"],
+  "body": ["Coloured", "Carbon1", "TexturedA", "Base"]
+}

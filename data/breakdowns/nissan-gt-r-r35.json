@@ -1,0 +1,150 @@
+{
+  "_note": "Teardown/breakdown data for the Showroom's exploded view. Anchors are in FITTED car space (auto-fit ~3.4 units long, grounded y=0, +X nose, +Y up, +Z left) — same frame as lib/systems.js. `materials` are GLB material-name substrings the frontend matches (first-match-wins in this part order — put specific parts before general ones); empty = not a mesh in this GLB, shown as an info callout. Non-modeled engine/drivetrain/suspension with those exact ids render the procedural stand-in; other non-modeled ids render a pure callout. The GT-R ships a real engine mesh (r35_engine) AND a real transmission mesh (material `material`, isolated last so it doesn't grab the PaletteMaterial* glass/paint). Copy grounded on data/cars/20-nissan-gtr-r35.json; anchors from frontend/scripts/model_meshes.mjs + the sibling .partmap.json.",
+  "model_slug": "nissan-gt-r-r35",
+  "car": "Nissan GT-R (R35)",
+  "coordinate_space": "fitted",
+  "fit_scale": 0.7035,
+  "car_specs": {
+    "engine": "3.8L twin-turbo V6 (VR38DETT)",
+    "horsepower": 565,
+    "torque": "467 lb-ft",
+    "drivetrain": "AWD (ATTESA E-TS)",
+    "transmission": "6-speed dual-clutch (GR6)",
+    "0_to_60": "~2.9 sec",
+    "curb_weight": "~3,930 lbs",
+    "fuel_economy": "16 city / 22 hwy mpg"
+  },
+  "parts": [
+    {
+      "id": "engine",
+      "label": "3.8L VR38DETT Twin-Turbo V6",
+      "system": "engine",
+      "modeled": false,
+      "variant": "v6",
+      "materials": [],
+      "anchor": [1.1, 0.55, 0],
+      "explode": [0.2, 1, 0],
+      "summary": "The hand-built heart — a 3.8-liter twin-turbo V6, each one assembled and signed by a single Takumi master.",
+      "detail": "VR38DETT — 3.8L twin-turbo V6, each unit hand-assembled and signed by one Takumi builder. 565 hp by 2017 and genuinely stout, good far past stock on a tune.",
+      "watch": "Very reliable when serviced on schedule; keep oil intervals short with any track use and use the specified 0W-40.",
+      "specs": {
+        "Output": "565 hp",
+        "Torque": "467 lb-ft",
+        "Config": "3.8L twin-turbo V6, hand-built"
+      }
+    },
+    {
+      "id": "wheels",
+      "label": "20\" RAYS Forged Wheels",
+      "system": "suspension",
+      "modeled": true,
+      "materials": ["r35_wheel_05a"],
+      "anchor": [1.0, 0.24, -0.6],
+      "explode": [0, -0.4, -1],
+      "summary": "Twenty-inch forged alloys on wide, staggered performance rubber — the contact patch behind the launch.",
+      "detail": "Forged 20-inch wheels on staggered high-performance tires, sized to put 565 hp and the ATTESA AWD launch down.",
+      "watch": "Tires are exotic-car expensive and wear quickly — budget $1,500+ a set. Curb rash on the low-profile fronts.",
+      "specs": {
+        "Wheels": "20 in forged alloy",
+        "Tires": "Staggered performance"
+      }
+    },
+    {
+      "id": "brakes",
+      "label": "Brembo Monobloc Brakes",
+      "system": "brakes",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.0, 0.26, 0.62],
+      "explode": [0, -0.3, 0.9],
+      "summary": "Big Brembo monobloc calipers on vented, drilled rotors — supercar stopping power.",
+      "detail": "Brembo monobloc calipers clamp large vented, drilled rotors (carbon-ceramics were offered on later cars) to haul a ~3,930 lb car down from supercar speed.",
+      "watch": "Rotors and pads are exotic-car expensive and wear quickly with track use.",
+      "specs": {
+        "Front": "Brembo monobloc, vented drilled",
+        "Rear": "Brembo monobloc, vented drilled"
+      }
+    },
+    {
+      "id": "interior",
+      "label": "Interior & Driver's Cockpit",
+      "system": "safety",
+      "modeled": true,
+      "materials": ["r35_interior", "r35_plastic", "r35_symbols", "r35_leather", "r35_steeringwheel", "r35_gauges", "r35_cloth", "r35_display", "r35_carpet", "r35_mesh", "r35_screen", "PaletteMaterial003"],
+      "anchor": [0.06, 0.52, 0],
+      "explode": [-0.7, 1.0, 0],
+      "summary": "A 2+2 grand-tourer cabin — leather, carbon, and the R35's famous multi-function display.",
+      "detail": "Leather and carbon-fiber trim around the GT-R's signature configurable multi-function display (co-developed with Polyphony Digital), plus the paddle-shift wheel for the GR6 dual-clutch.",
+      "watch": "Leather bolster wear on hard-used cars; the early multi-function display electronics can age.",
+      "specs": {
+        "Seating": "2+2",
+        "Display": "Multi-function (Polyphony)"
+      }
+    },
+    {
+      "id": "electrical",
+      "label": "Lighting & Electronics",
+      "system": "electrical",
+      "modeled": true,
+      "materials": ["r35_taillight", "r35_signal", "r35_highbeam"],
+      "anchor": [-0.03, 0.54, 0],
+      "explode": [0.2, 0.55, 0.95],
+      "summary": "The GT-R's signature quad-ring tail lamps and full lighting suite.",
+      "detail": "The unmistakable four-ring tail lamps plus the headlight and signal cluster — the R35's night-time signature.",
+      "watch": "Aging lighting electronics and control modules on early cars; costly to replace as a unit.",
+      "specs": {
+        "Tail lamps": "Signature quad-ring",
+        "Head lamps": "Projector / LED (by year)"
+      }
+    },
+    {
+      "id": "body",
+      "label": "Body, Aero & Glass",
+      "system": "body",
+      "modeled": true,
+      "materials": ["PaletteMaterial001", "PaletteMaterial002", "PaletteMaterial004", "r35_misc", "grille", "r35_badges", "r35_engine", "material"],
+      "anchor": [0, 0.5, 0],
+      "explode": [0, 1.12, 0],
+      "summary": "A steel, aluminum, and composite body — heavy at ~3,930 lbs but slippery and planted.",
+      "detail": "Mixed steel, aluminum, and composite construction with functional aero — the R35 is heavy but aerodynamically slick and rock-stable at speed.",
+      "watch": "Front-end stone chips and costly body panels; with the R35 it's running cost, not faults, that bite.",
+      "specs": {
+        "Structure": "Steel / aluminum / composite",
+        "Curb weight": "~3,930 lbs"
+      }
+    },
+    {
+      "id": "drivetrain",
+      "label": "GR6 Dual-Clutch Transaxle & ATTESA AWD",
+      "system": "drivetrain",
+      "modeled": false,
+      "variant": "awd",
+      "materials": [],
+      "anchor": [0, 0.32, 0],
+      "explode": [-0.2, -0.55, 0],
+      "summary": "A rear-mounted 6-speed dual-clutch and the ATTESA AWD system — the secret to the launch and the balance.",
+      "detail": "GR6 6-speed dual-clutch mounted as a rear transaxle, fed by a carbon prop shaft and the ATTESA E-TS AWD system — the key to the 2.9-second launch and the near-50:50 balance.",
+      "watch": "The transaxle is the real cost: fluid service on schedule is non-negotiable, and hard launches wear the early (2009–2010) boxes.",
+      "specs": {
+        "Transmission": "6-speed dual-clutch (GR6)",
+        "Layout": "Rear transaxle, AWD (ATTESA E-TS)"
+      }
+    },
+    {
+      "id": "suspension",
+      "label": "Bilstein DampTronic Suspension",
+      "system": "suspension",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.0, 0.46, 0.6],
+      "explode": [0, -0.5, 0.7],
+      "summary": "Bilstein DampTronic adjustable dampers on a multilink layout — supercar grip with a real comfort mode.",
+      "detail": "Bilstein DampTronic adjustable dampers with a multilink layout give the R35 supercar body control plus a genuinely usable comfort setting. (Shown as a procedural stand-in — the suspension isn't a separate mesh in this model.)",
+      "watch": "Dampers and bushings are expensive, and the alignment is fussy after any suspension work.",
+      "specs": {
+        "Layout": "Multilink front & rear",
+        "Dampers": "Bilstein DampTronic (adjustable)"
+      }
+    }
+  ]
+}

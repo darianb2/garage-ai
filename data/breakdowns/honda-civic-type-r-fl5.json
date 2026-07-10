@@ -1,0 +1,148 @@
+{
+  "_note": "Teardown/breakdown data for the Showroom's exploded view. Anchors in FITTED car space (~3.4 units long, grounded y=0, +X nose, +Y up, +Z left). `materials` are GLB material-name substrings matched first-match-wins in this part order; empty = not a mesh in this GLB → callout. The FL5 ships real engine (EngineA), brakes (Callipers), and wheel meshes. It's FWD like the FC3, so the un-modeled drivetrain + suspension use the procedural transaxle/suspension stand-ins (geometrically apt for a transverse FWD four). Copy grounded on data/cars/12-honda-civic-type-r.json; anchors from frontend/scripts/model_meshes.mjs.",
+  "model_slug": "honda-civic-type-r-fl5",
+  "car": "Honda Civic Type R (FL5)",
+  "coordinate_space": "fitted",
+  "fit_scale": 74.214,
+  "car_specs": {
+    "engine": "2.0L turbo I4 (K20C1)",
+    "horsepower": 315,
+    "torque": "310 lb-ft",
+    "drivetrain": "FWD",
+    "transmission": "6-speed manual",
+    "0_to_60": "4.9 sec",
+    "curb_weight": "3,150 lbs",
+    "fuel_economy": "22 city / 28 hwy mpg"
+  },
+  "parts": [
+    {
+      "id": "engine",
+      "label": "2.0L K20C1 Turbo Engine",
+      "system": "engine",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.2, 0.55, 0],
+      "explode": [0.2, 1, 0],
+      "summary": "Honda's most powerful factory four — a 2.0-liter turbo making 315 hp, mounted transversely.",
+      "detail": "K20C1 2.0L turbo four making 315 hp and 310 lb-ft (FL5), Honda's most powerful factory four, mounted transversely and driving the front wheels.",
+      "watch": "The engine is tough, but Honda under-sized the cooling; sustained track use spikes oil temps and trips limp mode, and cold climates can see some oil dilution.",
+      "specs": {
+        "Output": "315 hp",
+        "Torque": "310 lb-ft",
+        "Config": "2.0L turbo I4 (transverse)"
+      }
+    },
+    {
+      "id": "brakes",
+      "label": "Brembo 4-Piston Front Brakes",
+      "system": "brakes",
+      "modeled": true,
+      "materials": ["Calliper"],
+      "anchor": [1.0, 0.31, 0.6],
+      "explode": [0, -0.3, 0.9],
+      "summary": "Brembo 4-piston front monoblocks on 350mm rotors — genuine track-capable stoppers.",
+      "detail": "Brembo 4-piston front monoblocks on 350mm rotors with 2-piston rears — strong enough for repeated hard lapping.",
+      "watch": "The hardware is up to it, but the factory pads and fluid fade under repeated hard lapping, so upgrade both before serious track days.",
+      "specs": {
+        "Front": "Brembo 4-piston, 350mm",
+        "Rear": "2-piston disc"
+      }
+    },
+    {
+      "id": "wheels",
+      "label": "19\" Matrix Wheels & Tires",
+      "system": "suspension",
+      "modeled": true,
+      "materials": ["Wheel1A"],
+      "anchor": [1.0, 0.24, -0.6],
+      "explode": [0, -0.4, -1],
+      "summary": "Nineteen-inch matte wheels on wide, sticky rubber — the grip the LSD chassis is built to use.",
+      "detail": "Factory 19-inch wheels on 265/30R19 performance tires — the wide, grippy setup that feeds the helical LSD and the dual-axis-strut front end.",
+      "watch": "No real weak spot — just watch for curb and pothole wheel damage on the low-profile OEM tires.",
+      "specs": {
+        "Wheels": "19 in alloy",
+        "Tires": "265/30R19"
+      }
+    },
+    {
+      "id": "interior",
+      "label": "Interior & Driver's Cockpit",
+      "system": "safety",
+      "modeled": true,
+      "materials": ["Interior"],
+      "anchor": [-0.4, 0.62, 0],
+      "explode": [-0.3, 0.9, 0],
+      "summary": "Red sport seats, a metal shifter, and the driver-first Type R cockpit.",
+      "detail": "Signature red bucket seats and red carpeting, a machined-alloy shift knob on the rifle-bolt six-speed, and a +R drive-mode cockpit with a digital cluster.",
+      "watch": "Bolster wear on hard-used cars; the infotainment is improved over the FK8 but still not class-leading.",
+      "specs": {
+        "Seats": "Red sport buckets",
+        "Shifter": "Machined-alloy 6-speed"
+      }
+    },
+    {
+      "id": "electrical",
+      "label": "Lighting & Electronics",
+      "system": "electrical",
+      "modeled": true,
+      "materials": ["LightA"],
+      "anchor": [0, 0.54, 0],
+      "explode": [0, 0.45, 0.7],
+      "summary": "Full-LED lighting and the Type R's LogR data suite.",
+      "detail": "LED head and tail lamps plus Honda's LogR datalogger and performance monitor — the Type R's built-in track telemetry.",
+      "watch": "Generally robust; keep the head-unit software updated for the LogR and infotainment features.",
+      "specs": {
+        "Lighting": "Full LED",
+        "Telemetry": "Honda LogR"
+      }
+    },
+    {
+      "id": "body",
+      "label": "Body, Aero & Glass",
+      "system": "body",
+      "modeled": true,
+      "materials": ["Coloured", "Carbon1", "TexturedA", "Base", "EngineA", "PaletteMaterial", "Window", "RED_GLASS", "Grille", "BadgeA", "ManufacturerPlate", "LicensePlate"],
+      "anchor": [0, 0.6, 0],
+      "explode": [0, 1, 0],
+      "summary": "A chassis 15% stiffer than the FK8, with a functional wing and diffuser — and the FWD 'Ring record.",
+      "detail": "Steel unibody 15% stiffer than the FK8, with more mature styling, a functional rear wing, wider track, and real underbody aero. Reclaimed the FWD Nürburgring lap record.",
+      "watch": "Solid structure; watch for rock chips and parking dings, and confirm no track-day contact on used examples.",
+      "specs": {
+        "Structure": "Steel unibody (15% stiffer)",
+        "Aero": "Functional wing + diffuser"
+      }
+    },
+    {
+      "id": "drivetrain",
+      "label": "6-Speed Manual & Helical LSD",
+      "system": "drivetrain",
+      "modeled": false,
+      "materials": [],
+      "anchor": [-0.15, 0.34, 0],
+      "explode": [-0.4, -0.4, 0],
+      "summary": "A rifle-bolt six-speed — the only gearbox — with a helical LSD and rev-matching.",
+      "detail": "FWD via a rifle-bolt 6-speed manual (the only gearbox) with a helical limited-slip diff and automatic rev-matching. (Shown as a procedural stand-in — not a separate mesh in this model.)",
+      "watch": "Heavily tracked cars, notably the earlier FK8, can break 3rd/4th gear (reinforced gears exist); both gens have some rev-hang on upshifts.",
+      "specs": {
+        "Transmission": "6-speed manual only",
+        "Differential": "Helical LSD + rev-match"
+      }
+    },
+    {
+      "id": "suspension",
+      "label": "Dual-Axis Strut & Adaptive Dampers",
+      "system": "suspension",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.0, 0.48, 0.6],
+      "explode": [0, -0.5, 0.7],
+      "summary": "A dual-axis front strut to kill torque steer, multi-link rear, and adaptive dampers.",
+      "detail": "Dual-axis strut front (to kill torque steer), multi-link rear, and adaptive dampers on a chassis 15% stiffer than the FK8 — widely called the best-handling Type R yet. (Procedural stand-in — not a separate mesh.)",
+      "watch": "No real weak spot; just watch for curb and pothole wheel damage on the low-profile OEM tires.",
+      "specs": {
+        "Front": "Dual-axis MacPherson strut",
+        "Dampers": "Adaptive"
+      }
+    }
+  ]
+}

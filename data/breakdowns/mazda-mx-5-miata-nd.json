@@ -1,0 +1,150 @@
+{
+  "_note": "Teardown/breakdown data for the Showroom's exploded view. This GLB is PALETTE-MERGED — its whole exterior is one mesh (PaletteMaterial001) and the interior another (PaletteMaterial002), so wheels/brakes/lights/engine can't be isolated. Degraded teardown: real body + interior meshes lift out, a procedural suspension stand-in spreads, and the rest are honest info-callouts (id NOT engine/drivetrain/suspension so no wrong geometry renders). Anchors in FITTED car space (~3.4 units long, +X nose, +Y up, +Z left). Copy grounded on data/cars/13-mazda-mx-5-miata.json; anchors from frontend/scripts/model_meshes.mjs.",
+  "model_slug": "mazda-mx-5-miata-nd",
+  "car": "Mazda MX-5 Miata (ND)",
+  "coordinate_space": "fitted",
+  "fit_scale": 0.0087,
+  "car_specs": {
+    "engine": "2.0L Skyactiv-G I4",
+    "horsepower": 181,
+    "torque": "151 lb-ft",
+    "drivetrain": "RWD",
+    "transmission": "6-speed manual",
+    "0_to_60": "5.7 sec",
+    "curb_weight": "2,345 lbs",
+    "fuel_economy": "26 city / 34 hwy mpg"
+  },
+  "parts": [
+    {
+      "id": "body",
+      "label": "Featherweight Roadster Body",
+      "system": "body",
+      "modeled": true,
+      "materials": ["PaletteMaterial001"],
+      "anchor": [0, 0.54, 0],
+      "explode": [0, 1, 0],
+      "summary": "A ~2,345 lb steel unibody roadster — the lightness that is the whole point of the car.",
+      "detail": "Featherweight steel unibody roadster (soft-top ~2,345 lbs; RF retractable fastback ~2,450). Aluminum hood and trunk trim weight to keep the ND near the original's lightweight ethos.",
+      "watch": "Rock chips and soft-top window/seal wear with age; rust is the enemy on older Miatas, far less so on the galvanized ND.",
+      "specs": {
+        "Structure": "Steel unibody roadster",
+        "Curb weight": "~2,345 lbs (soft-top)"
+      }
+    },
+    {
+      "id": "interior",
+      "label": "Interior & Driver's Cockpit",
+      "system": "safety",
+      "modeled": true,
+      "materials": ["PaletteMaterial002"],
+      "anchor": [-0.05, 0.62, 0],
+      "explode": [-0.75, 0.95, 0],
+      "summary": "A driver-snug two-seat cockpit — the short, notchy shifter falls right to hand.",
+      "detail": "A tight, driver-focused two-seat cabin built around the short-throw shifter and a low seating position — minimal mass, maximum connection.",
+      "watch": "Soft-top and window seals wear with age; keep the interior dry to avoid musty tops.",
+      "specs": {
+        "Seating": "2",
+        "Shifter": "Short-throw 6-speed"
+      }
+    },
+    {
+      "id": "engine",
+      "label": "2.0L Skyactiv-G Engine",
+      "system": "engine",
+      "modeled": false,
+      "variant": "i4l",
+      "materials": [],
+      "anchor": [1.05, 0.5, 0],
+      "explode": [0.2, 1, 0],
+      "summary": "A free-revving 2.0-liter naturally aspirated four — 181 hp and nearly unbreakable.",
+      "detail": "2.0L Skyactiv-G naturally aspirated four — 181 hp at 7,000 rpm in the ND2 (155 hp in the 2016–2018 ND1). Mounted longitudinally, free-revving, and famously durable. (Info callout — this merged model has no separate engine mesh.)",
+      "watch": "Genuinely durable; just keep up with oil changes and it lasts.",
+      "specs": {
+        "Output": "181 hp @ 7,000 rpm",
+        "Torque": "151 lb-ft",
+        "Config": "2.0L NA I4 (longitudinal)"
+      }
+    },
+    {
+      "id": "drivetrain",
+      "label": "6-Speed Manual & LSD (RWD)",
+      "system": "drivetrain",
+      "modeled": false,
+      "variant": "rwd",
+      "materials": [],
+      "anchor": [0, 0.3, 0],
+      "explode": [-0.2, -0.55, 0],
+      "summary": "A slick short-throw six-speed sending drive rearward through a limited-slip diff.",
+      "detail": "A slick 6-speed manual (the one to have) or a 6-speed automatic, driving the rear wheels through a limited-slip differential on Club and GT trims. (Info callout — not a separate mesh in this model.)",
+      "watch": "Very reliable — the short, notchy shifter is the whole point.",
+      "specs": {
+        "Transmission": "6-speed manual",
+        "Layout": "RWD, LSD (Club/GT)"
+      }
+    },
+    {
+      "id": "suspension",
+      "label": "Double-Wishbone / Multilink",
+      "system": "suspension",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.0, 0.45, 0.6],
+      "explode": [0, -0.5, 0.7],
+      "summary": "Double-wishbone front and multilink rear — light, tossable, the entire reason the car exists.",
+      "detail": "Double-wishbone front and multilink rear — light, tossable, and the whole point of the Miata. (Shown as a procedural stand-in — not a separate mesh in this model.)",
+      "watch": "Refresh bushings and dampers on high-mile cars to keep the sharpness; coilovers and sway bars are the classic first mod.",
+      "specs": {
+        "Front": "Double wishbone",
+        "Rear": "Multilink"
+      }
+    },
+    {
+      "id": "wheels",
+      "label": "Wheels & Tires",
+      "system": "suspension",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.0, 0.24, -0.6],
+      "explode": [0, -0.4, -1],
+      "summary": "16–17\" alloys on modest, communicative rubber — grip tuned for feel, not just numbers.",
+      "detail": "Factory 16-inch (Sport) or 17-inch (Club/GT) alloys on relatively narrow tires — the Miata leans on balance and feel over outright grip. (Info callout — the wheels aren't a separable mesh in this model.)",
+      "watch": "Lightweight wheels and sticky 200-treadwear tires are the classic first upgrade.",
+      "specs": {
+        "Wheels": "16–17 in alloy",
+        "Tires": "Narrow, feel-focused"
+      }
+    },
+    {
+      "id": "brakes",
+      "label": "Four-Wheel Disc Brakes",
+      "system": "brakes",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.0, 0.25, 0.6],
+      "explode": [0, -0.3, 0.9],
+      "summary": "Vented front and solid rear discs — more than enough for a ~2,350 lb car.",
+      "detail": "Vented front and solid rear discs — plenty of stopping power for such a light car. (Info callout — not a separable mesh in this model.)",
+      "watch": "Pads and fluid are the only upgrade needed for track days.",
+      "specs": {
+        "Front": "Vented disc",
+        "Rear": "Solid disc"
+      }
+    },
+    {
+      "id": "electrical",
+      "label": "Lighting & Electronics",
+      "system": "electrical",
+      "modeled": false,
+      "materials": [],
+      "anchor": [1.3, 0.5, -0.3],
+      "explode": [1, 0.3, 0],
+      "summary": "LED lighting and Mazda's MZD Connect infotainment.",
+      "detail": "LED head and tail lamps plus Mazda's MZD Connect infotainment with a rotary controller. (Info callout — not a separable mesh in this model.)",
+      "watch": "Straightforward and reliable; keep the infotainment software current.",
+      "specs": {
+        "Lighting": "LED",
+        "Infotainment": "MZD Connect"
+      }
+    }
+  ]
+}

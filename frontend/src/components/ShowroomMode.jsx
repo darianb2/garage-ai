@@ -20,10 +20,21 @@ export default function ShowroomMode({ vehicle, model }) {
   // The model's original/factory colour (renders as authored — no paint override),
   // offered as the first swatch and the default so the car opens in its true colour
   // and painting it is an opt-in mod. Only present for cars we can recolour.
+  // Palette-merged cars (Miata/M3) lock paint to "Original" — recolouring their one
+  // merged body material tints the baked texture muddily (and would repaint the
+  // wheels). paintLocked hides the swatch palette below; the car shows as authored.
   const stock = parts?.stockPaint || null;
+  const paintLocked = !!parts?.paintLocked;
   const paintOptions = useMemo(
-    () => (stock ? [stock, ...(config?.paint || [])] : config?.paint || []),
-    [stock, config]
+    () =>
+      paintLocked
+        ? stock
+          ? [stock]
+          : []
+        : stock
+        ? [stock, ...(config?.paint || [])]
+        : config?.paint || [],
+    [stock, config, paintLocked]
   );
 
   const [body, setBody] = useState(config?.defaults.body);
@@ -55,7 +66,8 @@ export default function ShowroomMode({ vehicle, model }) {
 
   // ── Teardown (Honda-"Cog" exploded view) ──────────────────────────────────
   // Feature-detect per car: fetch this model's breakdown; a 404 (any car without
-  // one) hides the Teardown button and keeps the plain stage. FC3 only for v1.
+  // one) hides the Teardown button and keeps the plain stage. All seven launch
+  // cars with a 3D model have a breakdown (data/breakdowns/<slug>.json).
   const slug = useMemo(() => modelSlugFor(vehicle), [vehicle]);
   const [breakdown, setBreakdown] = useState(null);
   const [tdError, setTdError] = useState(false);
@@ -196,6 +208,7 @@ export default function ShowroomMode({ vehicle, model }) {
             />
           </div>
 
+          {!paintLocked && (
           <div>
             <SectionLabel className="flex items-center justify-between">
               <span>PAINT · {config.paintYear}</span>
@@ -215,6 +228,7 @@ export default function ShowroomMode({ vehicle, model }) {
               ))}
             </div>
           </div>
+          )}
 
           <div>
             <SectionLabel>TRIM</SectionLabel>
