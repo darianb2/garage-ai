@@ -27,9 +27,8 @@ const LAUNCH = [
     vehicle: { make: "Honda", model: "Civic Si", year: 2018, generation: "10th Gen FC3", body: "Coupe" } },
   // C8 Z06 — generation "C8 Z06" is deliberate: it kebabs to "c8-z06" so both the
   // hero photo (images/chevrolet-corvette-c8-z06.webp) and the model slug resolve,
-  // and its tokens (c8, z06) fire the trim-gated curated spec binding. The real GLB
-  // isn't in the registry yet, so opening it falls back to the procedural body until
-  // frontend/public/models/chevrolet-corvette-c8-z06.glb lands.
+  // and its tokens (c8, z06) fire the trim-gated curated spec binding. The GLB is
+  // registered in models.js (chevrolet-corvette-c8-z06.glb) so it opens the real model.
   { name: "Chevrolet Corvette Z06", chassis: "C8", years: "2023–now",
     vehicle: { make: "Chevrolet", model: "Corvette", year: 2023, generation: "C8 Z06", body: "Coupe" } },
 ];

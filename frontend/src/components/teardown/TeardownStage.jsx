@@ -85,6 +85,53 @@ function StudioEnv() {
   return null;
 }
 
+// Split a fused mesh into left/right halves at its z-midline (world/fitted frame,
+// so it absorbs the model's registry rotation). Some GLBs ship all four wheels (or
+// all four calipers) as ONE mesh — e.g. the C8 Z06's `Wheel1A` — which the per-mesh
+// fan below can't spread, unlike a car whose wheels are already four meshes (the
+// FC3 has 28). Splitting by z-sign gives a left-pair mesh and a right-pair mesh, so
+// the same mirror logic fans them out to the corners identically. Attributes are
+// carried generically; falls back (returns null) for multi-material meshes.
+function splitMeshByWorldZ(mesh, midZ) {
+  if (Array.isArray(mesh.material)) return null;
+  const src = mesh.geometry.index ? mesh.geometry.toNonIndexed() : mesh.geometry;
+  const pos = src.attributes.position;
+  if (!pos) return null;
+  const names = Object.keys(src.attributes);
+  const tris = Math.floor(pos.count / 3);
+  const bins = [{}, {}];
+  names.forEach((n) => { bins[0][n] = []; bins[1][n] = []; });
+  const v = new THREE.Vector3();
+  const mw = mesh.matrixWorld;
+  for (let t = 0; t < tris; t++) {
+    let cz = 0;
+    for (let k = 0; k < 3; k++) cz += v.fromBufferAttribute(pos, t * 3 + k).applyMatrix4(mw).z;
+    const b = cz / 3 >= midZ ? 0 : 1;
+    for (let k = 0; k < 3; k++) {
+      const i = t * 3 + k;
+      for (const n of names) {
+        const a = src.attributes[n];
+        for (let c = 0; c < a.itemSize; c++) bins[b][n].push(a.getComponent(i, c));
+      }
+    }
+  }
+  const out = [];
+  for (let b = 0; b < 2; b++) {
+    if (!bins[b].position.length) continue;
+    const g = new THREE.BufferGeometry();
+    for (const n of names) g.setAttribute(n, new THREE.Float32BufferAttribute(bins[b][n], src.attributes[n].itemSize));
+    if (!src.attributes.normal) g.computeVertexNormals();
+    const nm = new THREE.Mesh(g, mesh.material);
+    nm.position.copy(mesh.position);
+    nm.quaternion.copy(mesh.quaternion);
+    nm.scale.copy(mesh.scale);
+    nm.castShadow = mesh.castShadow;
+    nm.receiveShadow = mesh.receiveShadow;
+    out.push(nm);
+  }
+  return out.length === 2 ? out : null;
+}
+
 // ─────────────────────────────────────────────────────────────────────────────
 // Part-record builder: select each part's meshes by material-name substring (the
 // same matching the paint feature uses; first match wins so parts don't overlap),
@@ -108,6 +155,33 @@ function buildRecords(carObject, parts) {
         }
       });
     }
+
+    // Fan-out prep: for wheels/brakes, split any mesh that straddles the centerline
+    // (a fused four-corner set) into left/right halves so the per-mesh mirror below
+    // spreads them to the corners. One-sided meshes (a car with real per-wheel
+    // meshes, e.g. the FC3) don't straddle, so this is a no-op for them.
+    if ((def.id === "wheels" || def.id === "brakes") && meshes.length) {
+      const tb = new THREE.Box3();
+      const box = new THREE.Box3();
+      meshes.forEach((m) => { tb.setFromObject(m); if (!tb.isEmpty()) box.union(tb); });
+      const midZ = box.isEmpty() ? 0 : (box.min.z + box.max.z) / 2;
+      const next = [];
+      for (const m of meshes) {
+        tb.setFromObject(m);
+        const straddles = !tb.isEmpty() && tb.min.z < midZ - 0.1 && tb.max.z > midZ + 0.1;
+        const halves = straddles ? splitMeshByWorldZ(m, midZ) : null;
+        if (halves) {
+          halves.forEach((h) => m.parent.add(h));
+          m.parent.remove(m);
+          next.push(...halves);
+        } else {
+          next.push(m);
+        }
+      }
+      meshes.length = 0;
+      meshes.push(...next);
+    }
+
     const mats = [];
     const seen = new Set();
     meshes.forEach((m) => {
