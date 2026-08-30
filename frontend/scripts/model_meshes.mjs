@@ -18,7 +18,7 @@
 // before general ones. Used to author data/breakdowns/<slug>.json.
 //
 // Usage (run from the frontend/ dir so node_modules resolves):
-//   node scripts/model_meshes.mjs /models/<slug>.glb [partmap.json]
+//   node scripts/model_meshes.mjs /models/<slug>.glb [partmap.json] [--meshes]
 // The GLB path is a server path; /models/* is served from public/models (Flask's
 // MODELS_DIR). Meshopt-compressed GLBs need a browser, so this drives headless
 // Chromium via Playwright, like _render.mjs.
@@ -30,10 +30,11 @@ import { fileURLToPath } from "url";
 import { MODELS } from "../src/lib/models.js";
 
 const FRONTEND = path.resolve(fileURLToPath(import.meta.url), "../../");
-const glbPath = process.argv[2];
-const partmapPath = process.argv[3];
+const argv = process.argv.slice(2);
+const flags = new Set(argv.filter((a) => a.startsWith("--")));
+const [glbPath, partmapPath] = argv.filter((a) => !a.startsWith("--"));
 if (!glbPath) {
-  console.error("usage: node scripts/model_meshes.mjs /models/<slug>.glb [partmap.json]");
+  console.error("usage: node scripts/model_meshes.mjs /models/<slug>.glb [partmap.json] [--meshes]");
   process.exit(1);
 }
 const partmap = partmapPath ? JSON.parse(fs.readFileSync(partmapPath, "utf8")) : null;
@@ -134,4 +135,9 @@ if (partmap) {
 } else {
   result.materials = [...new Set(out.meshes.map((m) => m.material))];
 }
+// --meshes dumps every mesh row (name + material + fitted bbox). Material grouping
+// can't resolve M2 toggle groups on its own — a car's splitter and side skirts can
+// share one material (the FC3's CIVIC_CARBON_EXT) — so authoring lib/parts.js
+// partGroups needs per-MESH names plus where each sits in fitted car space.
+if (flags.has("--meshes")) result.meshes = out.meshes;
 console.log(JSON.stringify(result, null, 2));

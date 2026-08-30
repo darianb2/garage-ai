@@ -1,7 +1,8 @@
 import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import Viewer3D from "./Stage3D";
 import { configFor, paintHex } from "../lib/config";
-import { partsFor } from "../lib/parts";
+import { partsFor, modDefaults } from "../lib/parts";
+import { listingLinks, yearsLabel } from "../lib/listings";
 import { modelSlugFor } from "../lib/models";
 import { getBreakdown } from "../lib/api";
 import { carSpecChips } from "../lib/teardown";
@@ -45,17 +46,51 @@ export default function ShowroomMode({ vehicle, model }) {
   const paintObj = paintOptions.find((p) => p.id === paint);
   const bodyObj = config?.body.find((b) => b.id === body);
 
-  // M1 — feed the selected paint into the 3D stage. partsFor tells us which cars
-  // can be recoloured (currently the FC3); others pass paint:null and render as
-  // authored. Selecting the "Original" swatch (stock id) also passes null, so the
-  // model shows exactly as authored. Same shape M2/M3 (toggles/swaps) will extend.
+  // M2 — bolt-on parts the car's GLB ships as separable meshes, toggled on/off.
+  // Held as the full { id: boolean } map (not a set of "removed" ids) so the stage
+  // never has to infer intent from a missing key. Re-seeded when the car changes,
+  // since the ids are per-car and this component is not remounted between vehicles.
+  const mods = parts?.mods ?? null;
+  const [toggles, setToggles] = useState(() => modDefaults(parts));
+  useEffect(() => setToggles(modDefaults(parts)), [parts]);
+  const toggleMod = (id) => setToggles((cur) => ({ ...cur, [id]: !cur[id] }));
+
+  // Which bolt-on the pointer is over ON THE CAR (the stage reports it up), and
+  // which ones have been taken off. Removing a part leaves nothing to click, so the
+  // chips below the stage are the way back — the rail checkboxes work too.
+  const [hoverMod, setHoverMod] = useState(null);
+  const hoverModLabel = hoverMod ? mods?.find((m) => m.id === hoverMod)?.label : null;
+
+  // Which breakdown part the pointer is over on the car. Clicking it pops that one
+  // part off (the stage owns the animation); this is only here to name it in the
+  // caption, so hovering tells you what you're about to pull off.
+  const [hoverPart, setHoverPart] = useState(null);
+  // Hovering a SYSTEMS row highlights that part on the car, including parts with no
+  // visible geometry at rest — the stage takes this as a second hover source.
+  const [railHover, setRailHover] = useState(null);
+  const removedMods = useMemo(() => (mods || []).filter((m) => !toggles[m.id]), [mods, toggles]);
+
+  // "Find one for sale" — the summary CTA opens a short list of marketplace
+  // searches for this generation. Outbound links only (no listing data is pulled
+  // into Marble, which is what keeps it licence-free — see lib/listings.js).
+  const [findOpen, setFindOpen] = useState(false);
+  const marketplaces = useMemo(() => listingLinks(vehicle), [vehicle]);
+  const years = yearsLabel(vehicle);
+  useEffect(() => setFindOpen(false), [vehicle]);
+
+  // Feed the current build into the 3D stage. partsFor tells us what each car
+  // supports; cars with no entry pass nulls and render exactly as authored.
+  // M1 paint: selecting the "Original" swatch (stock id) also passes null.
+  // M2 toggles: partGroups maps a mod id → the mesh names it hides/shows.
   const stageConfig = useMemo(
     () => ({
       paint:
         parts?.paintTargets?.length && paint !== stock?.id ? paintHex(paintObj?.fill) : null,
       paintTargets: parts?.paintTargets ?? null,
+      partGroups: parts?.partGroups ?? null,
+      toggles,
     }),
-    [parts, paintObj, paint, stock]
+    [parts, paintObj, paint, stock, toggles]
   );
   const total = config
     ? config.msrpBase +
@@ -74,6 +109,15 @@ export default function ShowroomMode({ vehicle, model }) {
   const [teardown, setTeardown] = useState(false);
   const [selectedId, setSelectedId] = useState(null);
   const [modelReady, setModelReady] = useState(false);
+
+  // Name the hovered part for the stage caption. Declared down here, not up with
+  // `hoverPart`, because it reads `breakdown` — which is declared just above.
+  const hoverPartName = hoverPart
+    ? breakdown?.parts?.find((pt) => pt.id === hoverPart)?.label || null
+    : null;
+  const railHoverName = railHover
+    ? breakdown?.parts?.find((pt) => pt.id === railHover)?.label || null
+    : null;
   const teardownReady = breakdown && !tdError;
   const specChips = useMemo(() => carSpecChips(breakdown?.car_specs), [breakdown]);
 
@@ -142,6 +186,12 @@ export default function ShowroomMode({ vehicle, model }) {
                 breakdown={breakdown}
                 paint={stageConfig.paint}
                 paintTargets={stageConfig.paintTargets}
+                partGroups={stageConfig.partGroups}
+                toggles={stageConfig.toggles}
+                onModPick={toggleMod}
+                onModHover={setHoverMod}
+                onPartHover={setHoverPart}
+                railHoverId={railHover}
                 teardown={teardown}
                 selectedId={selectedId}
                 onSelect={selectPart}
@@ -185,11 +235,40 @@ export default function ShowroomMode({ vehicle, model }) {
           </div>
         )}
 
-        {/* Paint caption — hidden during teardown (the hint takes the bottom) */}
+        {/* Removed bolt-ons — a hidden part has no geometry left to click, so this is
+            the way back onto the car (the MODS checkboxes in the rail also work). */}
+        {!teardown && removedMods.length > 0 && (
+          <div className="absolute bottom-3 left-4 z-20 flex flex-wrap gap-1.5">
+            {removedMods.map((m) => (
+              <button
+                key={m.id}
+                onClick={() => toggleMod(m.id)}
+                className="td-fade flex items-center gap-1.5 rounded-md border border-white/10 bg-[#141416]/85 px-2 py-1 text-[11px] text-marble-mid backdrop-blur-sm transition hover:border-marble-accent/40 hover:text-marble-body"
+              >
+                <span className="font-mono text-[9px] tracking-[.12em] text-marble-faint">OFF</span>
+                {m.label}
+                <span className="font-mono text-[10px] text-marble-accent">put back</span>
+              </button>
+            ))}
+          </div>
+        )}
+
+        {/* Paint caption — hidden during teardown (the hint takes the bottom). Hovering
+            a removable part on the car swaps it for the removal prompt. */}
         {!teardown && (
           <div className="pointer-events-none absolute inset-x-0 bottom-3 text-center">
-            <span className="text-[12px] text-marble-dim">
-              {paintObj ? `${paintObj.name} · ` : ""}drag to rotate
+            <span
+              className={`text-[12px] ${
+                hoverModLabel || hoverPartName || selectedId ? "text-marble-body" : "text-marble-dim"
+              }`}
+            >
+              {hoverModLabel
+                ? `Click to remove · ${hoverModLabel}`
+                : hoverPartName || railHoverName
+                ? `Click to inspect · ${hoverPartName || railHoverName}`
+                : selectedId
+                ? "Click the car or press ESC to put it back"
+                : `${paintObj ? `${paintObj.name} · ` : ""}drag to rotate`}
             </span>
           </div>
         )}
@@ -228,6 +307,92 @@ export default function ShowroomMode({ vehicle, model }) {
               ))}
             </div>
           </div>
+          )}
+
+          {/* MODS (M2) — bolt-ons this car's model can actually show/hide. Only
+              rendered for cars with a partGroups entry in lib/parts.js. */}
+          {mods?.length > 0 && (
+            <div>
+              <SectionLabel>MODS</SectionLabel>
+              <div className="mt-2 space-y-1.5">
+                {mods.map((m) => {
+                  const on = !!toggles[m.id];
+                  return (
+                    <button
+                      key={m.id}
+                      onClick={() => toggleMod(m.id)}
+                      aria-pressed={on}
+                      className={`flex w-full items-center gap-2.5 rounded-[7px] border px-3 py-2.5 text-left transition ${
+                        on ? "border-marble-accent/40 bg-marble-accent/[0.06]" : "border-white/10 hover:border-white/20"
+                      }`}
+                    >
+                      <span
+                        className={`flex h-3.5 w-3.5 shrink-0 items-center justify-center rounded-[3px] border ${
+                          on ? "border-marble-accent bg-marble-accent" : "border-white/25"
+                        }`}
+                      >
+                        {on && (
+                          <svg viewBox="0 0 12 12" className="h-2.5 w-2.5 text-marble-onaccent" fill="none" stroke="currentColor" strokeWidth="2.5">
+                            <path d="m2.5 6 2.5 2.5 4.5-5" strokeLinecap="round" strokeLinejoin="round" />
+                          </svg>
+                        )}
+                      </span>
+                      <span className="flex-1 text-[12px] text-marble-body">{m.label}</span>
+                      <span className="font-mono text-[10px] text-marble-dim">{m.sub}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* SYSTEMS (Teardown parts) — every part the breakdown knows about, whether
+              or not you can see it on the car. Clicking a part on the model only works
+              for whatever is outermost under the cursor, so the engine, drivetrain and
+              suspension (procedural stand-ins, hidden until they explode) and anything
+              buried behind another part are reachable only from here. Same click as on
+              the car: pop it out and open its card. */}
+          {breakdown?.parts?.length > 0 && (
+            <div>
+              <SectionLabel>SYSTEMS</SectionLabel>
+              <div className="mt-2 space-y-1">
+                {breakdown.parts.map((pt, i) => {
+                  const on = selectedId === pt.id;
+                  return (
+                    <button
+                      key={pt.id}
+                      onClick={() => selectPart(pt.id)}
+                      onMouseEnter={() => setRailHover(pt.id)}
+                      onMouseLeave={() => setRailHover((cur) => (cur === pt.id ? null : cur))}
+                      aria-pressed={on}
+                      className={`flex w-full items-center gap-2 rounded-[7px] border px-2.5 py-2 text-left transition ${
+                        on
+                          ? "border-marble-accent/50 bg-marble-accent/[0.10]"
+                          : "border-white/[0.07] hover:border-marble-accent/30 hover:bg-white/[0.03]"
+                      }`}
+                    >
+                      <span className="font-mono text-[9px] text-marble-faint">
+                        {String(i + 1).padStart(2, "0")}
+                      </span>
+                      <span className={`flex-1 truncate text-[12px] ${on ? "text-marble-hi" : "text-marble-body"}`}>
+                        {pt.label}
+                      </span>
+                      {!pt.modeled && (
+                        <span
+                          className="font-mono text-[9px] text-marble-faint"
+                          title="Shown as a generic stand-in — this model has no mesh for it"
+                        >
+                          STAND-IN
+                        </span>
+                      )}
+                    </button>
+                  );
+                })}
+              </div>
+              <p className="mt-1.5 text-[10.5px] text-marble-dim">
+                Hover to highlight it, click to pull it off the car.
+              </p>
+            </div>
           )}
 
           <div>
@@ -293,9 +458,34 @@ export default function ShowroomMode({ vehicle, model }) {
               <span className="text-[12px] text-marble-dim">As configured · {config.msrpLabel}</span>
               <span className="text-[16px] font-bold text-marble-hi">${total.toLocaleString()}</span>
             </div>
-            <PrimaryButton className="mt-3 w-full">Find this build for sale today →</PrimaryButton>
+            <PrimaryButton
+              className="mt-3 w-full"
+              onClick={() => setFindOpen((o) => !o)}
+              aria-expanded={findOpen}
+              disabled={!marketplaces.length}
+            >
+              Find one for sale today {findOpen ? "▴" : "→"}
+            </PrimaryButton>
+            {findOpen && marketplaces.length > 0 && (
+              <div className="td-fade-up mt-2 space-y-1">
+                {marketplaces.map((m) => (
+                  <a
+                    key={m.id}
+                    href={m.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 rounded-[7px] border border-white/10 px-2.5 py-2 transition hover:border-marble-accent/40 hover:bg-marble-accent/[0.06]"
+                  >
+                    <span className="flex-1 text-[12px] text-marble-body">{m.label}</span>
+                    <span className="font-mono text-[10px] text-marble-dim">{m.note}</span>
+                    <span className="text-[11px] text-marble-faint">↗</span>
+                  </a>
+                ))}
+              </div>
+            )}
             <p className="mt-2 text-[10.5px] text-marble-dim">
-              Exact matches first — closest compromise if none listed.
+              Searches {years ? `${years} ` : ""}{vehicle.make} {vehicle.model} on each site —
+              listings aren't filtered by the paint and mods above.
             </p>
           </div>
         </div>

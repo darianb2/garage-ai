@@ -130,6 +130,23 @@ function GLTFCar({ model, config }) {
     invalidate(); // demand frameloop: commit a frame after the recolour
   }, [object, paint, paintTargets, invalidate]);
 
+  // M2 — bolt-on visibility, mirroring TeardownStage (see its modMeshes effect for
+  // why groups are keyed by MESH name). Cars with a breakdown render on that stage
+  // instead, so this path covers the ones without one — same build, either stage.
+  const toggles = config?.toggles ?? null;
+  const partGroups = config?.partGroups ?? null;
+  useLayoutEffect(() => {
+    if (!partGroups) return;
+    const slotOf = new Map();
+    for (const [slot, names] of Object.entries(partGroups)) for (const n of names) slotOf.set(n, slot);
+    object.traverse((n) => {
+      if (!n.isMesh) return;
+      const slot = slotOf.get(n.name);
+      if (slot) n.visible = toggles?.[slot] !== false;
+    });
+    invalidate();
+  }, [object, toggles, partGroups, invalidate]);
+
   return <primitive object={object} scale={fit.scale} position={fit.position} />;
 }
 

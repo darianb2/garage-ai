@@ -278,7 +278,7 @@ These stay valuable but belong to the pivot's "generalize the template" step
 
 ---
 
-## Phase 8 — PIVOT: Interactive Vehicle Explorer (NEW DIRECTION) — PLANNING
+## Phase 8 — PIVOT: Interactive Vehicle Explorer (NEW DIRECTION) — IN PROGRESS
 
 Reframe: Garage AI is a SEARCH ENGINE for vehicles, not a list of cars. Search by
 brand/model/trim, then EXPLORE the vehicle across three linked layers: data profile,
@@ -294,7 +294,10 @@ Strategy: PERFECT 4 launch cars end-to-end, then scale the same template behind 
       the JSON data API. Introduced incrementally as a 3D "island" (strangler-fig),
       not a big-bang rewrite.
 - [x] The 4 launch cars — LOCKED: Mazda MX-5 Miata (ND), Toyota Supra Mk4 (A80),
-      BMW M3 (E46), Nissan GT-R (R35).
+      BMW M3 (E46), Nissan GT-R (R35). GREW TO 8 (2026-07-09→07-15) as the
+      Showroom/Teardown work needed richer-geometry cars: + Honda Civic Type R
+      (FL5), Civic Si 9th-gen (FG4), Civic Si 10th-gen (FC3 — now the flagship
+      moddable car), Chevrolet Corvette Z06 (C8). All 8 have a GLB + hero card.
 - [ ] 3D model sourcing — REC (default unless changed): licensed/free glTF/GLB models
       (web-standard format that loads in R3F). Per-model budget TBD.
 - [ ] Mechanical-breakdown depth — REC (default unless changed): v1 = major systems with
@@ -362,22 +365,86 @@ Strategy: PERFECT 4 launch cars end-to-end, then scale the same template behind 
       useGLTF + Suspense + error-boundary fallback to the procedural car. Adding a
       model = drop public/models/<slug>.glb + one registry line. 3D tab shows the
       expected slug as a hint. public/models/README.md documents the convention.
-- [~] Source real models (Supra, Civic first) + tune per-model scale/orientation
-      — Supra Mk4 A80 IN (temich, CC-BY-NC, TEST ONLY; optimized 13.6MB->4.9MB GLB
-      via gltf-transform; rotation-aware auto-fit grounds + centers it). Viewer polish:
-      grey studio background, side framing, contact-shadow grounding. Civic next.
-- [ ] (Later) configurator: wheels / colors
+- [x] Source real models + tune per-model scale/orientation — DONE for all 8 launch
+      cars (`frontend/public/models/*.glb`, registered in `lib/models.js` with
+      per-model rotation and, where auto-fit misses, explicit scale/position).
+      Optimized via gltf-transform (the Supra went 13.6MB→4.9MB). Viewer polish:
+      grey studio background, side framing, contact-shadow grounding.
+      LICENSE NOTE: several are CC-BY-NC "test only" placeholders by design.
+- [~] KNOWN GAP — the Miata (ND) and M3 (E46) GLBs are **fused at the geometry
+      level** (Miata = 2 meshes with the wheels welded into the body shell; M3 = 6
+      generic palette groups). Re-optimizing can't recover parts, so both run a
+      degraded Teardown and have paint LOCKED to "Original" (`paintLocked` in
+      `lib/parts.js` hides the swatch palette). DECISION 2026-07-10: hold the
+      commercial CC-BY licence line, which means the *car* changes rather than the
+      model — candidates are Black Snow's G81 M3 Touring and wallon's RX-7.
+      BLOCKED on a human: Sketchfab requires a logged-in account to download, so
+      the GLBs must be dropped into `frontend/public/models/` before wiring.
+- [x] Configurator: colors — see 8.6 (M1 paint shipped). Wheels = M3 swaps, pending.
 
 ### 8.4 Mechanical breakdown
 - [x] Clickable hotspots/markers on the model for each major system (DONE 2026-06-27)
 - [x] Each hotspot opens that system's info + its real complaint/recall data from the engine
 - [x] Shared system map (lib/systems.js) drives BOTH the 3D hotspots and the list view
-- [ ] (Later) deeper per-component views per the brief's Phase 3
-- [ ] Tie hotspots to real model geometry once a glTF model replaces the procedural car
+- [x] Deeper per-component views per the brief's Phase 3 — this became the Teardown
+      (exploded view), see 8.7.
+- [x] Tie hotspots to real model geometry — the Teardown's markers ride the real
+      meshes' live anchors (`data/breakdowns/<slug>.json`, measured from each GLB).
 
 ### 8.5 Perfect, then scale
-- [ ] Polish the 4 cars to "showcase" quality (accuracy, performance, feel)
-- [ ] Generalize the template so any catalog car can flow into the same experience
+- [~] Polish the launch cars to "showcase" quality (accuracy, performance, feel) —
+      8 cars have web-verified specs, curated systems maps, real GLBs, paint, and a
+      Teardown. Outstanding: the fused Miata/M3 models (see 8.3).
+- [ ] Generalize the template so any catalog car can flow into the same experience.
+      The plumbing is already feature-detected, not hardcoded: Showroom fetches
+      `/api/breakdown/<slug>` and shows the Teardown button only on a hit, and
+      `partsFor()` returns null for unconfigured cars so paint/mods no-op. Scaling
+      = authoring `data/breakdowns/<slug>.json` + a `lib/parts.js` entry per car.
+
+### 8.6 Showroom configurator (M1 paint → M2 toggles → M3 swaps)
+
+Architecture + the staged rollout live in `notes/configurator-design.md`.
+
+- [x] **M1 — material override (paint)** — SHIPPED. Showroom paint swatches recolour
+      the real GLB body live. `lib/parts.js` is the per-car configurability layer
+      (`paintTargets` = exact material names, `stockPaint` = the "Original" swatch,
+      which is the default so the car opens as authored). Applied in
+      `TeardownStage.jsx` (and `CarModel.jsx` for cars with no breakdown), always on
+      cloned materials so the `useGLTF` cache is never mutated. Painting also nulls
+      the baked body texture, since `color.set()` on a coloured texture only tints it.
+      Locked on the Miata/M3 (see 8.3).
+- [~] **M2 — part visibility toggles** — IN PROGRESS. Show/hide mesh sets that already
+      exist in the GLB; zero new assets. FC3 first.
+      MEASURED 2026-08-08 (`node scripts/model_meshes.mjs /models/<slug>.glb --meshes`,
+      which now dumps per-mesh rows because one material can span several parts):
+      the FC3 has a separable **carbon front splitter** (`Object_36` — nose, low) and
+      a **bolt-in roll cage** (`Object_110`/`Object_256`, material `CIVIC_CAGES`).
+      It has **no separable rear wing** — the body is 2 fused `cuerpo` meshes, so any
+      decklid lip is baked into the shell and can't be toggled. The other
+      `CIVIC_CARBON_EXT` meshes are interior door trim, not side skirts.
+- [ ] **M3 — part substitution (swaps)** — rims first (hub-mounted, so one library
+      serves every car, scaled by `hubRadius`). Locked defaults: procedural rims,
+      generic (non-branded) styles, rims-only, FC3-first, keep the pricing UI.
+- [ ] Click-to-select a part on the model to open its slot in the rail (folds into 8.4).
+
+### 8.7 Teardown — the exploded view — SHIPPED
+
+Honda-"Cog"-style teardown: the car explodes into labelled parts, each carrying its
+curated spec + "what to watch" copy. Live on all 8 launch cars.
+
+- [x] Backend — `GET /api/breakdown/<slug>` (`app.py`, path-traversal guarded) serving
+      `data/breakdowns/<slug>.json`: per-part materials, fitted anchors, explode
+      vectors. Authoring tool: `frontend/scripts/model_meshes.mjs`.
+- [x] Frontend — `components/teardown/TeardownStage.jsx` (fit + paint + explode +
+      highlight + markers + camera rig on one demand frameloop), `lib/teardown.js`
+      (THREE-free math so it doesn't bloat the main bundle), `lib/procedural-parts.js`.
+- [x] Procedural stand-ins for internals no GLB models: engine (I6 / V6 / longitudinal
+      I4 / transverse I4), gearbox (RWD prop shaft + diff, AWD transaxle), suspension.
+      Dispatched by a per-part `variant` field. This is *why* the cars separate into a
+      full chassis instead of a lifted shell with nothing under it.
+- [x] Fused-mesh fan-out — `splitMeshByWorldZ()` cuts a mesh that straddles the
+      centerline into left/right halves so cars shipping all four wheels/calipers as
+      one mesh (the C8 Z06) still spread to the corners.
 
 ---
 
@@ -446,20 +513,27 @@ When a scheduled agent wakes up, it should:
 6. Commit the changes with a clear message
 7. Stop — one task per run, keep changes focused
 
-**Current active phase:** Phase 8 — PIVOT: Interactive Vehicle Explorer (resuming
-after the Phase 9 imagery detour). Next open items: 8.5 (perfect the 4 launch cars,
-then generalize the template so any catalog car flows into the experience), 8.3
-(source real GLB models — Civic next), 8.4 (tie hotspots to real geometry).
+**Current active phase:** Phase 8 — PIVOT: Interactive Vehicle Explorer.
+Next open items: **8.6 M2 part-visibility toggles on the FC3 (active)**, then 8.6 M3
+rim swaps, 8.5 (generalize the template so any catalog car flows into the experience),
+and the 8.3 Miata/M3 fused-model swap (blocked on a human Sketchfab download).
 **Status:** Phases 1–5 SHIPPED (live at https://garage-ai-34hw.onrender.com). Phase 6
 AI assistant LIVE on Render (real Claude answers, key set + rate-limited). Phase 7
 data engine COMPLETE 2026-07-06 (profile engine + 502-car catalog, generation/
 trim-aware curated specs, /recalls folded into /profile; 7.4 deferred to the
-Phase 8 backlog) — the BACKBONE the pivot feeds on. Phase 8 SHIPPED its first product: the
-"Marble" redesign — search-first landing + one-stage Vehicle Hub with Profile /
-Showroom (configurator) / Explode (parts + sources) modes; 4 launch cars (Miata ND /
-Supra A80 / M3 E46 / GT-R R35) with real GLB models, curated systems maps, and
-web-verified specs. Phase 9 COMPLETE 2026-07-08 — catalog-wide hero imagery, all
-70 makes A–V (no makes exist for E/Q/U/W–Z). Repo: https://github.com/darianb2/garage-ai.
+Phase 8 backlog) — the BACKBONE the pivot feeds on. Phase 9 COMPLETE 2026-07-08 —
+catalog-wide hero imagery, all 70 makes A–V (no makes exist for E/Q/U/W–Z).
+
+Phase 8 has shipped three products so far:
+1. The **"Marble" redesign** (the site's name) — search-first landing + a one-stage
+   Vehicle Hub with Profile / Showroom (configurator) / Explode (parts + sources).
+2. **8 launch cars** — Miata ND, Supra A80, M3 E46, GT-R R35, Civic Type R FL5,
+   Civic Si FG4, Civic Si FC3, Corvette Z06 C8 — each with a real GLB, a curated
+   systems map, and web-verified specs.
+3. The **Teardown** exploded view (8.7) + **M1 paint** (8.6) on those cars.
+
+Last shipped: `af7f39c` (2026-07-15) — fused wheel/brake fan-out for the C8 Z06.
+Repo: https://github.com/darianb2/garage-ai.
 
 > Run the web app: `./.venv/bin/python app.py` → http://localhost:5000
 

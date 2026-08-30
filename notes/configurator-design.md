@@ -3,18 +3,18 @@
 > Goal: let a user interact with a vehicle in the Showroom and **mod it** — paint,
 > then bolt-on parts (rims, spoilers, splitters), then true body swaps (bumpers,
 > fenders). This doc is the architecture we agree on BEFORE building Tier 3.
-> Grounded in the current code (2026-07-09) and the real FC3 model's mesh data.
+> Grounded in the current code and the real FC3 model's mesh data. Written
+> 2026-07-09; §1, §3, §4, §7 and §10 corrected 2026-08-24 once M1/M2 were actually
+> built and the model's real limits were measured — see the ⚠️ notes.
 
 ---
 
 ## 1. Where we are today (current state)
 
-- **`components/ShowroomMode.jsx`** — a polished configurator rail (BODY / PAINT /
+- **`components/ShowroomMode.jsx`** — the configurator rail (BODY / PAINT / MODS /
   TRIM / PACKAGES + an "as configured" price) driven by per-car data in
-  **`lib/config.js`**. It is a **visual mock**: selecting paint/trim/packages
-  changes the *price and labels only*. Nothing touches the 3D car. Confirmed: the
-  only material `.color` in the app is on the *procedural* placeholder
-  (`CarModel.jsx`); no code recolors or alters the loaded GLB.
+  **`lib/config.js`**. **No longer a mock** — as of M1/M2 the PAINT swatches and the
+  MODS checkboxes drive the real GLB. TRIM / PACKAGES are still labels-and-price only.
 - **`components/CarModel.jsx` → `GLTFCar`** — clones the GLB, bakes the registry
   rotation, then **auto-fits**: scales so max dim = 3.4 units and grounds
   `box.min.y` to y=0. Registry can pin `scale`/`position` (Supra does).
@@ -24,8 +24,10 @@
 - Hotspots (`CarModel` `Hotspot`) are abstract spheres at **placeholder** positions,
   not tied to real geometry (open masterplan item 8.4).
 
-**Takeaway:** the UI shell exists. The missing piece is the **config → 3D bridge**.
-Building that bridge is "starting to interact with the vehicle."
+**Takeaway (2026-08-24):** the config → 3D bridge is BUILT. M1 paint, M2 visibility
+toggles, and click-to-remove picking all ship on the FC3. What's left is **M3 (part
+substitution)** and widening M2 past one car — both gated on assets and on each GLB's
+mesh split, not on this plumbing.
 
 ---
 
@@ -34,7 +36,7 @@ Building that bridge is "starting to interact with the vehicle."
 | Mechanism | What it does | New 3D assets? | Example |
 |---|---|---|---|
 | **M1 — Material override** | Recolor / re-finish named materials at runtime | No | Body paint, matte vs gloss, caliper color, window tint |
-| **M2 — Part visibility toggle** | Show/hide mesh sets that already exist in the base model | No | FC3 rear wing on/off, carbon splitter on/off |
+| **M2 — Part visibility toggle** | Show/hide mesh sets that already exist in the base model | No | FC3 carbon splitter on/off, roll cage on/off (⚠️ NOT the rear wing — see §3) |
 | **M3 — Part substitution (swap)** | Hide the stock part's meshes, mount an alternate part GLB at an anchor | **Yes** (one GLB per option) | Different rims, bumpers, spoilers, fenders |
 
 Tiers 1–2 (M1+M2) are achievable now with zero new assets. Tier 3 (M3) is the real
@@ -55,8 +57,24 @@ The FC3 GLB has richly **named, separable** meshes/materials (measured 2026-07-0
 `rim_chrome`, `rim_logo`, `wheel_black`, `material_43` (tire detail),
 `CIVIC_CALIPER`, `CIVIC_BRAKEDISC`.
 
-**Aero:** `CIVIC_CARBON_EXT` (front splitter `Object_36` + skirts), a rear wing mesh
-set (to be pinned down), `MIRROR`, `under` (undertray), `CIVIC_CAGES` (roll cage).
+**Aero:** `CIVIC_CARBON_EXT`, `MIRROR`, `under` (undertray), `CIVIC_CAGES` (roll cage).
+
+> ⚠️ **CORRECTED 2026-08-24 — this section originally overpromised.** A per-mesh dump
+> (`node scripts/model_meshes.mjs /models/<slug>.glb --meshes`) settled what is really
+> separable on this GLB:
+>
+> - **Front splitter = mesh `Object_36`** only. ✅ toggleable.
+> - **Roll cage = `Object_110` + `Object_256`** (material `CIVIC_CAGES`). ✅ toggleable.
+> - **There are NO side skirts.** The other `CIVIC_CARBON_EXT` meshes (126/178/281) are
+>   **interior door trim**, not skirts. Hiding by that material would gut the cabin —
+>   which is exactly why `partGroups` keys on MESH names, not material names.
+> - **There is NO separable rear wing.** The body is two fused `cuerpo` meshes
+>   (`Object_861`, `Object_901`) that each span the whole car, so the decklid wing is
+>   baked into the shell — hiding it means hiding the car. A wing needs an **M3 swap**
+>   (a separate part GLB), not an M2 toggle. Don't go hunting for a wing mesh again.
+>
+> In a teardown the wing and side sills therefore lift away *with the body*, because
+> they are part of it. That is correct behaviour, not a missing feature.
 
 **Measured wheel-hub anchors** (model-LOCAL space, i.e. after the registry rotation
 `[0, π/2, 0]` but BEFORE the auto-fit scale ≈ 0.7628). Derived from the 4 `tyre`
@@ -86,13 +104,22 @@ export const PARTS = {
     // M1: which materials receive body paint (rest keep their own material)
     paintTargets: ["cuerpo"],
 
-    // M2/M3: logical parts → the mesh/material names that compose them.
+    // M2/M3: logical parts → the MESH names that compose them.
     // Used to (a) toggle visibility and (b) hide the stock part before a swap.
+    // ⚠️ AS SHIPPED this keys on MESH names, not the material names sketched here —
+    // one material spans several parts, so material matching hides too much (§3).
     partGroups: {
-      wheels:   ["tyre","rim_inner","rim_outer","rim_chrome","rim_logo","wheel_black","material_43"],
-      spoiler:  [/* rear wing mesh set */],
-      splitter: ["CIVIC_CARBON_EXT"],
+      splitter: ["Object_36"],                 // shipped
+      cage:     ["Object_110", "Object_256"],  // shipped
+      // wheels: [...] — NOT shipped; the wheel meshes are a fused set on this GLB.
+      // spoiler: — impossible on this model, the wing is fused into the body (§3).
     },
+
+    // The rail's on/off list, in display order. Shipped alongside partGroups.
+    mods: [
+      { id: "splitter", label: "Carbon front splitter", sub: "front lip", on: true },
+      { id: "cage",     label: "Bolt-in roll cage",     sub: "cabin",     on: true },
+    ],
 
     // M3: named mount transforms in model-LOCAL (pre-fit) space.
     anchors: {
@@ -170,13 +197,72 @@ stock part until its replacement resolves (no empty hub flash).
 
 ---
 
-## 7. Click-to-select parts (unifies with hotspots / 8.4)
+## 7. Click parts on the car — ✅ BUILT 2026-08-24
 
-To "click the rim to change it": raycast on pointer-down → hit mesh → reverse-map
-mesh name through `partGroups` → the logical slot → open that slot's picker in the
-rail + highlight the group (emissive boost or an outline pass). This **replaces the
-abstract hotspot spheres with real-geometry selection**, so the mechanical-breakdown
-hotspots (8.4) and the mod-selection share one raycast/among-map foundation.
+Shipped in `TeardownStage.jsx`, reusing the raycast group that teardown picking
+already had — **one raycast, three meanings**, resolved so the gestures never
+compete:
+
+| Mode | Target under the pointer | A tap means |
+|---|---|---|
+| Torn down | any part | select it → info card (unchanged) |
+| Showroom | a **bolt-on** (`partGroups`) | take it **off the car** |
+| Showroom | any other **breakdown part** | **pop just that part out** + info card |
+
+**Solo pop-out** is the headline: clicking the wheels lifts *only* the wheels off the
+car and opens their card, instead of the all-or-nothing TEARDOWN. It is not a second
+animation — it sets that one part's `anim.target = 1`, the exact per-part tween the
+full teardown drives, so a solo part travels the same path to the same place it would
+occupy in a full teardown. Precedence: a bolt-on wins over the part it sits on, since
+it is the more specific target and is *inside* another part's mesh set (the splitter
+belongs to the body), so it could never be hit otherwise.
+
+The camera aims at where a solo part **settles** (`anchor + anchorDir × EXPLODE_DIST`),
+not where it starts — when this effect runs the part hasn't moved yet, so framing its
+current bounds would let it sail out of shot.
+
+Exit is ESC, the card's ✕, or clicking empty space (`onPointerMissed`).
+
+### What is NOT clickable from the showroom
+
+Picking uses the closest hit, so a part only responds if it is the outermost thing
+under the cursor. Three consequences, all inherent to the models rather than the code:
+
+- **Procedural internals** (engine / drivetrain / suspension on most cars) are hidden
+  at rest — the frame loop only materialises them once `a.t > 0.02` — so there is
+  nothing to hover. TEARDOWN remains the way in.
+- **Occluded parts**: brakes sit behind wheels, interior behind glass. Pop the outer
+  part first and the one beneath becomes the closest hit — the car peels layer by
+  layer, which is the intended way to reach them.
+- **Coverage is what each GLB separates into**, so it ranges from 2 clickable parts on
+  the palette-merged Miata/E46 up to 4 on the FC3. See §3.
+
+How it works, and the three things worth knowing before touching it:
+
+1. **Meshes are tagged, not matched at pick time.** Resolving `partGroups` stamps
+   `mesh.userData.modSlot`, mirroring the `userData.partId` teardown picking already
+   uses. A hit maps straight back to its mod.
+2. **It searches ALL intersections, not the closest hit.** The roll cage sits behind
+   the window glass, so a closest-hit test lands on the glass and can never reach it.
+   Only meshes carrying a `modSlot` qualify, so this stays targeted. Three's raycaster
+   skips invisible meshes, so a removed part cannot be re-hit.
+3. **Hovered mods get their own cloned material.** These materials are shared —
+   `CIVIC_CARBON_EXT` is the splitter *and* the interior door trim — so boosting the
+   shared one would light half the cabin. The clone happens after `recs`/`paintMats`
+   resolve and keeps `.name`, so explode grouping and paint are unaffected.
+
+A removed part leaves no geometry to click, so **the way back** is a "put back" chip
+over the stage, or the MODS checkbox in the rail. Hover feedback is an accent emissive
+glow + a `pointer` cursor + the stage caption swapping to "Click to remove · <part>".
+
+**Not yet covered:** `CarModel.jsx` (the stage used by cars *without* a breakdown)
+honours the toggles but has no picking. No car is in that position today — the only
+car with `partGroups` is the FC3, which renders on `TeardownStage` — so it would be
+dead code. Add it there if a mod car ever ships without a breakdown.
+
+Still true as an aspiration: this **replaces the abstract hotspot spheres with
+real-geometry selection**, so the mechanical-breakdown hotspots (8.4) and mod
+selection share one raycast foundation.
 
 ---
 
@@ -208,13 +294,19 @@ Mirrors the existing car-model pipeline:
 
 ## 10. Staged rollout (each step shippable)
 
-1. **M1 paint on the FC3** — wire swatches → `cuerpo`. Builds the config→3D bridge.
-   *(prep: add a solid `hex` to each paint in `config.js`.)*
-2. **M2 toggles on the FC3** — spoiler / splitter on-off. First real "mod."
-3. **M3 rims on the FC3** — hub anchors + 2–3 rim GLBs. First true swap.
-4. **Generalize**: rims across the other hero cars (measure each car's hubs).
-5. **Click-to-select** parts (folds in 8.4).
-6. **Body parts** (spoilers, then bumpers/fenders) — per-car libraries.
+1. ✅ **M1 paint on the FC3** — swatches → `cuerpo`. Built the config→3D bridge.
+   Since extended to all 7 launch cars with a paintable body material.
+2. ✅ **M2 toggles on the FC3** — splitter + roll cage on-off (⚠️ *not* spoiler, §3).
+   First real "mod."
+3. ✅ **Click parts on the car** (§7) — pulled forward ahead of M3, since it needs no
+   assets: click-to-remove for bolt-ons, and solo pop-out + info card for any
+   breakdown part, on all 8 cars that have a 3D model.
+4. **M3 rims on the FC3** — hub anchors + 2–3 rim GLBs. First true swap. ← NEXT
+5. **Generalize**: rims across the other hero cars (measure each car's hubs), and
+   audit each GLB for M2-able meshes (FL5 at 28 meshes and the GT-R are the best
+   candidates; the Miata and E46 are palette-merged and have almost nothing to give).
+6. **Body parts** (spoilers, then bumpers/fenders) — per-car libraries. This is the
+   only route to a rear wing on the FC3.
 
 ---
 

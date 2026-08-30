@@ -11,9 +11,9 @@ const kebab = (s) =>
 export const PARTS = {
   // 10th-gen Civic Si (FC3) — the flagship moddable car. Body paint lives on the
   // "cuerpo" material (the shell that was repainted white in the GLB); recolouring
-  // it is what the Showroom paint swatches drive (M1). Wheel/aero groups + hub
-  // anchors (measured from the GLB, model-local pre-fit space) will be added here
-  // for M2/M3 — omitted until those tiers land so this stays the minimal M1 change.
+  // it is what the Showroom paint swatches drive (M1). It's also the only car with
+  // M2 toggles so far — its GLB is a track-prepped Si with genuinely separable
+  // bolt-ons. Hub anchors for M3 rim swaps come later.
   "honda-civic-si-10th-gen-fc3": {
     paintTargets: ["cuerpo"],
     // The model's as-authored body colour (the shell is white in the GLB), offered
@@ -21,6 +21,26 @@ export const PARTS = {
     // you see the model exactly as authored. It's the default so the car opens in
     // its true colour and paint becomes an opt-in mod.
     stockPaint: { id: "stock", name: "Original", fill: "linear-gradient(145deg,#fafafa,#dcdde0)" },
+
+    // M2 — part visibility groups. Matched on MESH name, not material name (which is
+    // what paint and the Teardown match on): one material routinely spans several
+    // parts, so this GLB's CIVIC_CARBON_EXT covers the front splitter AND the
+    // interior door trim. Mesh names + bounds measured from the GLB with
+    //   cd frontend && node scripts/model_meshes.mjs /models/honda-civic-si-10th-gen-fc3.glb --meshes
+    // Bounds quoted below are fitted car space (+X nose, +Y up, ±Z sides, car ≈3.4 long).
+    partGroups: {
+      splitter: ["Object_36"], // carbon front lip — x 1.30→1.70 (nose), y 0.11→0.18 (low), full width
+      cage: ["Object_110", "Object_256"], // bolt-in roll cage (CIVIC_CAGES) — spans the cabin
+    },
+    // Which groups the Showroom offers as on/off mods, in rail order. The GLB ships
+    // both parts fitted, so both default on (`on: true`) and toggling is subtractive.
+    // NOTE: there is deliberately NO rear-wing toggle. This GLB's body is two fused
+    // `cuerpo` meshes, so any decklid lip is baked into the shell and can't be hidden
+    // without hiding the whole car — a wing needs an M3 swap (a separate part GLB).
+    mods: [
+      { id: "splitter", label: "Carbon front splitter", sub: "front lip", on: true },
+      { id: "cage", label: "Bolt-in roll cage", sub: "cabin", on: true },
+    ],
   },
 
   // The other five launch cars. Each `paintTargets` is the EXACT body material name
@@ -80,4 +100,11 @@ export function partsFor(vehicle) {
   ];
   for (const k of keys) if (k && PARTS[k]) return PARTS[k];
   return null;
+}
+
+// The as-delivered M2 toggle state for a car: { [modId]: boolean }. Every mod the
+// car declares is listed explicitly, so the renderer can treat a missing key as
+// "this car has no such part" rather than guessing. `{}` for cars with no mods.
+export function modDefaults(parts) {
+  return Object.fromEntries((parts?.mods || []).map((m) => [m.id, m.on !== false]));
 }

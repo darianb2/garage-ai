@@ -252,6 +252,11 @@ function Marker({ rec, teardown, hovered, selected, onHover, onSelect }) {
   const isCallout = !def.modeled && !rec.proc;
   const delay = teardown ? waveDelayMs(def.system) + 200 : 0;
 
+  // Markers are teardown-only. At rest every anchor sits INSIDE the body, so showing
+  // them in the showroom piles 8 overlapping chips over the cabin — unreadable, and
+  // the stacked ones swallow each other's hover. Buried parts are reached from the
+  // SYSTEMS list in the rail instead (ShowroomMode), which needs no screen space on
+  // the car and can't overlap.
   const stop = (e) => e.stopPropagation();
   const enter = (e) => {
     e.stopPropagation();
@@ -467,7 +472,7 @@ function InfoCard({ part, idx, total, onClose }) {
 
 // ─────────────────────────────────────────────────────────────────────────────
 // The scene: car + stand-ins + markers + card + camera rig + one animation loop.
-function TeardownScene({ model, paint, paintTargets, breakdown, teardown, selectedId, explodeAmount, onSelect, onReady }) {
+function TeardownScene({ model, paint, paintTargets, partGroups, toggles, onModPick, onModHover, onPartHover, railHoverId, breakdown, teardown, selectedId, explodeAmount, onSelect, onReady }) {
   const { scene: gltfScene } = useGLTF(model.url);
   const invalidate = useThree((s) => s.invalidate);
   const camera = useThree((s) => s.camera);
@@ -602,10 +607,94 @@ function TeardownScene({ model, paint, paintTargets, breakdown, teardown, select
     invalidate();
   }, [paint, paintMats, invalidate]);
 
+  // M2 — bolt-on visibility. `partGroups` maps a mod id → the MESH names composing
+  // it. Mesh, not material, because one material routinely spans several parts (the
+  // FC3's CIVIC_CARBON_EXT is both the front splitter and the interior door trim),
+  // so material matching would hide far more than the mod. Resolved once per clone.
+  const modMeshes = useMemo(() => {
+    if (!partGroups) return null;
+    const slotOf = new Map();
+    for (const [slot, names] of Object.entries(partGroups)) for (const n of names) slotOf.set(n, slot);
+    const out = new Map();
+    object.traverse((n) => {
+      if (!n.isMesh) return;
+      const slot = slotOf.get(n.name);
+      if (!slot) return;
+      // Tag for the raycaster — mirrors `userData.partId` (which drives teardown
+      // picking) so a hit maps straight back to the mod the mesh belongs to.
+      n.userData.modSlot = slot;
+      // Give the mesh its OWN material so the hover glow lights only this part.
+      // These materials are shared: CIVIC_CARBON_EXT is the splitter AND the
+      // interior door trim, so boosting the shared one would light the cabin too.
+      // `recs` (l.533) and `paintMats` resolved above and keep the originals, and
+      // a clone keeps `.name` — which is what both of them match on — so explode
+      // grouping and paint are untouched.
+      if (!n.userData.modMat) {
+        const clone = (m) => {
+          const c = m.clone();
+          c.userData.modBase = {
+            emissive: c.emissive ? c.emissive.getHex() : 0x000000,
+            emissiveIntensity: c.emissiveIntensity != null ? c.emissiveIntensity : 1,
+          };
+          return c;
+        };
+        n.material = Array.isArray(n.material) ? n.material.map(clone) : clone(n.material);
+        n.userData.modMat = true;
+      }
+      out.set(slot, [...(out.get(slot) || []), n]);
+    });
+    return out;
+  }, [object, partGroups]);
+
+  // Toggling only flips `.visible`, so a removed part keeps its place in `recs` and
+  // the teardown's anchors/markers stay put whether or not it's fitted. Safe to own
+  // outright: the frame loop writes `.visible` on procedural stand-in groups only,
+  // never on GLB meshes. An unknown slot stays visible (the car ships it fitted).
+  useEffect(() => {
+    if (!modMeshes) return;
+    for (const [slot, meshes] of modMeshes) {
+      const on = toggles?.[slot] !== false;
+      for (const m of meshes) m.visible = on;
+    }
+    invalidate();
+  }, [modMeshes, toggles, invalidate]);
+
+  // Click-to-remove: which mod the pointer is over. Showroom only — in teardown the
+  // same gesture picks a part to inspect, so the two never compete for a click.
+  const [hoverMod, setHoverMod] = useState(null);
+  useEffect(() => {
+    if (teardown) setHoverMod(null);
+  }, [teardown]);
+  useEffect(() => {
+    onModHover?.(hoverMod);
+  }, [hoverMod, onModHover]);
+  useEffect(() => {
+    onPartHover?.(teardown ? null : hoverId);
+  }, [hoverId, teardown, onPartHover]);
+
+  // Glow the hovered mod. Safe to set outright: these are the per-mesh clones made
+  // above, so nothing else in the car shares them.
+  useEffect(() => {
+    if (!modMeshes) return;
+    for (const [slot, meshes] of modMeshes) {
+      const on = slot === hoverMod;
+      for (const mesh of meshes) {
+        for (const mat of Array.isArray(mesh.material) ? mesh.material : [mesh.material]) {
+          if (!mat?.emissive) continue;
+          const base = mat.userData.modBase || {};
+          mat.emissive.setHex(on ? ACCENT : base.emissive ?? 0x000000);
+          mat.emissiveIntensity = on ? 0.55 : base.emissiveIntensity ?? 1;
+        }
+      }
+    }
+    invalidate();
+  }, [modMeshes, hoverMod, invalidate]);
+
   // Highlight: emissive boost on hover (0.40) / select (0.60), restore otherwise.
   useEffect(() => {
+    const hl = hoverId ?? railHoverId; // rail row hover highlights the same part
     for (const rec of recs) {
-      const lvl = rec.def.id === selectedId ? 1 : rec.def.id === hoverId ? 0.55 : 0;
+      const lvl = rec.def.id === selectedId ? 1 : rec.def.id === hl ? 0.55 : 0;
       for (const m of rec.mats) {
         if (!m.emissive) continue;
         const b = m.userData.base || {};
@@ -618,26 +707,33 @@ function TeardownScene({ model, paint, paintTargets, breakdown, teardown, select
         }
       }
     }
-    if (typeof document !== "undefined") document.body.style.cursor = hoverId ? "pointer" : "auto";
+    if (typeof document !== "undefined")
+      document.body.style.cursor = hoverId || hoverMod ? "pointer" : "auto";
     invalidate();
-  }, [hoverId, selectedId, recs, invalidate]);
+  }, [hoverId, hoverMod, railHoverId, selectedId, recs, invalidate]);
 
   // Enter/exit: set each part's explode target + wave delay, open the orbit polar
   // limit, fade the floor. Kicks the frame loop.
+  //
+  // Two ways a part flies out, one mechanism: TEARDOWN sends everything at once (with
+  // the staggered wave), while clicking a part in the showroom sends ONLY that part —
+  // "pull this one piece off the car". Same per-part animation either way, so a solo
+  // part travels the same path to the same place it would occupy in a full teardown.
   useEffect(() => {
     for (const rec of recs) {
       const a = anim.current[rec.def.id];
       if (!a) continue;
-      a.target = teardown ? 1 : 0;
+      const out = teardown || rec.def.id === selectedId;
+      a.target = out ? 1 : 0;
       a.delay = teardown ? waveDelayMs(rec.def.system) / 1000 : 0;
-      a.dur = teardown ? ENTER_S : EXIT_S;
+      a.dur = out ? ENTER_S : EXIT_S;
     }
     if (controlsRef.current) controlsRef.current.maxPolarAngle = teardown ? 2.35 : 1.5;
     floor.current.target = teardown ? 0 : 1;
-    if (!teardown && hoverId) setHoverId(null);
+    if (!teardown && hoverId) setHoverId(null); // the part just left from under the cursor
     invalidate();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [teardown, recs, invalidate]);
+  }, [teardown, selectedId, recs, invalidate]);
 
   // Camera: glide to frame the selected part, or pull back to home. Uses the live
   // exploded bounds so it catches the whole part.
@@ -647,7 +743,14 @@ function TeardownScene({ model, paint, paintTargets, breakdown, teardown, select
     if (selectedId && recById[selectedId]) {
       const rec = recById[selectedId];
       const objs = rec.meshes.length ? rec.meshes : rec.proc ? [rec.proc.group] : [];
-      const frame = partFrame(teardown ? objs : [], rec.anchor.clone(), rec.radius);
+      // Torn down the part is already out, so measure its live bounds. Solo in the
+      // showroom it hasn't moved yet when this runs, so aim at where it will SETTLE
+      // (anchor + its explode direction) — otherwise the camera frames the car and
+      // the part sails out of shot.
+      const solo = !teardown && rec.def.id === selectedId;
+      const dist0 = EXPLODE_DIST * (Number(explodeAmount) || 1);
+      const at = solo ? rec.anchor.clone().addScaledVector(rec.anchorDir, dist0) : rec.anchor.clone();
+      const frame = partFrame(teardown ? objs : [], at, rec.radius);
       center = frame.center;
       dist = frame.dist;
       const hd = Math.hypot(center.x, center.z);
@@ -655,6 +758,18 @@ function TeardownScene({ model, paint, paintTargets, breakdown, teardown, select
       const high = center.y > 1.1 && hd > 0.5;
       dist = low ? Math.max(dist, 4.6) : dist;
       elev = low ? 0.16 : high ? -0.2 : 0.3;
+      if (solo) {
+        // Aim BETWEEN the car and where the part settles, and stay far enough back to
+        // hold both. Framing the part alone hides the whole gesture on cars whose
+        // "body" is nearly the entire shell (the palette-merged E46 claims 5 of its 6
+        // materials, the Miata 1 of 2): the camera rises with the part, so the car
+        // looks static even though it did lift off. Splitting the difference keeps the
+        // car anchored in frame and lets the part visibly pull away from it.
+        const homeT = home.current.target;
+        center = homeT.clone().lerp(at, 0.5);
+        dist = Math.max(dist, home.current.dist, homeT.distanceTo(at) * 1.7);
+        elev = 0.22;
+      }
     } else if (teardown) {
       // Overview: aim a touch higher and pull further back so the tall exploded
       // stack (body lifts a full unit) clears the spec strip up top and the
@@ -671,7 +786,7 @@ function TeardownScene({ model, paint, paintTargets, breakdown, teardown, select
     cam.current = { from, to, prog: 0 };
     invalidate();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedId, teardown, recById]);
+  }, [selectedId, teardown, recById, explodeAmount]);
 
   // ── The single demand-frameloop animation task ──────────────────────────────
   const tmp = useRef(new THREE.Vector3()).current;
@@ -759,29 +874,66 @@ function TeardownScene({ model, paint, paintTargets, breakdown, teardown, select
     if (busy) invalidate();
   });
 
-  // ── Picking (only while torn down): distinguish a tap from an orbit drag ──────
+  // ── Picking: distinguish a tap from an orbit drag ────────────────────────────
+  // One raycast, two meanings by mode: torn down, a tap inspects a part; in the
+  // showroom, a tap on a bolt-on takes it OFF the car. A mod that's already removed
+  // has no geometry left to hit, so it's restored from the rail or the stage chip.
   const down = useRef(null);
   const pickId = (e) => e.object?.userData?.partId ?? null;
+  // Search EVERY hit under the pointer, not just the closest one: the roll cage sits
+  // behind the window glass, so a closest-hit test lands on the glass and could never
+  // reach it. Only mod meshes qualify, so this stays targeted rather than grabby, and
+  // three's raycaster already skips invisible meshes (a removed part can't be re-hit).
+  const pickMod = (e) => {
+    for (const hit of e.intersections || []) {
+      const slot = hit.object?.userData?.modSlot;
+      if (slot && toggles?.[slot] !== false) return slot;
+    }
+    return null;
+  };
   const onDown = (e) => {
     down.current = [e.clientX, e.clientY, performance.now()];
   };
   const onMove = (e) => {
-    if (!teardown || down.current) return;
+    if (down.current) return;
     e.stopPropagation();
-    const id = pickId(e);
+    if (teardown) {
+      const id = pickId(e);
+      if (id !== hoverId) setHoverId(id);
+      return;
+    }
+    // Showroom. A bolt-on wins over the part it sits on — it's the more specific
+    // target, and it's physically inside another part's mesh set (the splitter is
+    // part of the body), so without this precedence it could never be hit.
+    const slot = pickMod(e);
+    if (slot !== hoverMod) setHoverMod(slot);
+    const id = slot ? null : pickId(e);
     if (id !== hoverId) setHoverId(id);
   };
   const onOut = () => {
-    if (teardown) setHoverId(null);
+    setHoverId(null);
+    setHoverMod(null);
   };
   const onClick = (e) => {
     const dn = down.current;
     down.current = null;
-    if (!teardown || !dn) return;
+    if (!dn) return;
     const dx = e.clientX - dn[0];
     const dy = e.clientY - dn[1];
     if (dx * dx + dy * dy > 36 || performance.now() - dn[2] > 500) return; // was a drag
     e.stopPropagation();
+    if (teardown) {
+      onSelect(pickId(e));
+      return;
+    }
+    const slot = pickMod(e);
+    if (slot) {
+      setHoverMod(null); // the part is about to vanish — drop the glow with it
+      onModPick?.(slot);
+      return;
+    }
+    // Otherwise: pop this part off the car and open its card. Clicking the part
+    // that's already out puts it back (onSelect toggles on a repeat id).
     onSelect(pickId(e));
   };
 
@@ -896,6 +1048,12 @@ export default function TeardownStage({
   model,
   paint = null,
   paintTargets = null,
+  partGroups = null,
+  toggles = null,
+  onModPick = null,
+  onModHover = null,
+  onPartHover = null,
+  railHoverId = null,
   breakdown,
   teardown = false,
   selectedId = null,
@@ -925,6 +1083,12 @@ export default function TeardownStage({
           model={model}
           paint={paint}
           paintTargets={paintTargets}
+          partGroups={partGroups}
+          toggles={toggles}
+          onModPick={onModPick}
+          onModHover={onModHover}
+          onPartHover={onPartHover}
+          railHoverId={railHoverId}
           breakdown={breakdown}
           teardown={teardown}
           selectedId={selectedId}
